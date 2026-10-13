@@ -54,3 +54,7 @@ qr-expo.png
 
 # ÖSYM çıkmış soruları (telifli): yalnız yerelde
 src/data/osym/*.json
+
+# Derlenmiş uygulama paketleri
+*.apk
+*.aab
