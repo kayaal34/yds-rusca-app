@@ -1,0 +1,802 @@
+[
+ {
+  "impf": "предусматривать",
+  "perf": "предусмотреть",
+  "tr": "öngörmek, hükme bağlamak",
+  "gov": "что?",
+  "ex": "Закон предусматривает штрафы за нарушение правил.",
+  "exTr": "Kanun, kuralların ihlali için para cezaları öngörüyor."
+ },
+ {
+  "impf": "прибегать",
+  "perf": "прибегнуть",
+  "tr": "başvurmak (bir yola)",
+  "gov": "к чему?",
+  "ex": "Правительство было вынуждено прибегнуть к жёстким мерам.",
+  "exTr": "Hükümet sert önlemlere başvurmak zorunda kaldı."
+ },
+ {
+  "impf": "представлять собой",
+  "perf": "",
+  "tr": "teşkil etmek, -dir",
+  "gov": "что?",
+  "ex": "Роман представляет собой сложное философское произведение.",
+  "exTr": "Roman karmaşık bir felsefi eserdir."
+ },
+ {
+  "impf": "располагать",
+  "perf": "",
+  "tr": "sahip olmak, elinde bulundurmak",
+  "gov": "чем?",
+  "ex": "Университет располагает современной научной базой.",
+  "exTr": "Üniversite modern bir bilimsel altyapıya sahiptir."
+ },
+ {
+  "impf": "воплощать",
+  "perf": "воплотить",
+  "tr": "somutlaştırmak, hayata geçirmek",
+  "gov": "что? в чём?",
+  "ex": "Архитектор воплотил свой замысел в этом здании.",
+  "exTr": "Mimar tasarısını bu binada hayata geçirdi."
+ },
+ {
+  "impf": "олицетворять",
+  "perf": "олицетворить",
+  "tr": "kişileştirmek, simgelemek",
+  "gov": "что?",
+  "ex": "Для многих Пушкин олицетворяет русскую литературу.",
+  "exTr": "Birçokları için Puşkin Rus edebiyatını simgeler."
+ },
+ {
+  "impf": "воспроизводить",
+  "perf": "воспроизвести",
+  "tr": "yeniden üretmek, canlandırmak",
+  "gov": "что?",
+  "ex": "Художник точно воспроизвёл детали старинного интерьера.",
+  "exTr": "Ressam eski iç mekânın ayrıntılarını doğru biçimde yeniden canlandırdı."
+ },
+ {
+  "impf": "восходить",
+  "perf": "",
+  "tr": "dayanmak, kökeni -e uzanmak",
+  "gov": "к чему?",
+  "ex": "Эта традиция восходит к древним славянским обрядам.",
+  "exTr": "Bu gelenek eski Slav ayinlerine dayanır."
+ },
+ {
+  "impf": "сказываться",
+  "perf": "сказаться",
+  "tr": "etkisini göstermek, yansımak",
+  "gov": "на чём?",
+  "ex": "Стресс негативно сказывается на здоровье человека.",
+  "exTr": "Stres insan sağlığını olumsuz etkiler."
+ },
+ {
+  "impf": "воздействовать",
+  "perf": "",
+  "tr": "etki etmek",
+  "gov": "на что? на кого?",
+  "ex": "Музыка воздействует на эмоциональное состояние человека.",
+  "exTr": "Müzik insanın duygusal durumuna etki eder."
+ },
+ {
+  "impf": "преобладать",
+  "perf": "",
+  "tr": "ağır basmak, baskın olmak",
+  "gov": "над чем?",
+  "ex": "В регионе преобладает сельское население.",
+  "exTr": "Bölgede kırsal nüfus ağırlıktadır."
+ },
+ {
+  "impf": "ликвидировать",
+  "perf": "",
+  "tr": "tasfiye etmek, ortadan kaldırmak",
+  "gov": "что?",
+  "ex": "Власти ликвидировали последствия наводнения.",
+  "exTr": "Yetkililer selin sonuçlarını ortadan kaldırdı."
+ },
+ {
+  "impf": "исходить",
+  "perf": "",
+  "tr": "hareket etmek, yola çıkmak (bir varsayımdan)",
+  "gov": "из чего?",
+  "ex": "Суд исходил из принципа презумпции невиновности.",
+  "exTr": "Mahkeme masumiyet karinesi ilkesinden hareket etti."
+ },
+ {
+  "impf": "констатировать",
+  "perf": "",
+  "tr": "tespit etmek, saptamak",
+  "gov": "что?",
+  "ex": "Врачи констатировали улучшение состояния пациента.",
+  "exTr": "Doktorlar hastanın durumunda iyileşme olduğunu tespit etti."
+ },
+ {
+  "impf": "соперничать",
+  "perf": "",
+  "tr": "rekabet etmek, boy ölçüşmek",
+  "gov": "с кем? с чем?",
+  "ex": "Провинциальные театры соперничают со столичными.",
+  "exTr": "Taşra tiyatroları başkentteki tiyatrolarla boy ölçüşüyor."
+ },
+ {
+  "impf": "уделять",
+  "perf": "уделить",
+  "tr": "ayırmak (dikkat, zaman)",
+  "gov": "что? чему? кому?",
+  "ex": "Школа уделяет большое внимание физическому воспитанию.",
+  "exTr": "Okul beden eğitimine büyük önem veriyor."
+ },
+ {
+  "impf": "придавать",
+  "perf": "придать",
+  "tr": "atfetmek, vermek (önem, biçim)",
+  "gov": "что? чему?",
+  "ex": "Древние греки придавали большое значение гармонии.",
+  "exTr": "Eski Yunanlılar uyuma büyük önem verirdi."
+ },
+ {
+  "impf": "завоёвывать",
+  "perf": "завоевать",
+  "tr": "kazanmak, fethetmek",
+  "gov": "что?",
+  "ex": "Фильм завоевал главный приз фестиваля.",
+  "exTr": "Film festivalin büyük ödülünü kazandı."
+ },
+ {
+  "impf": "посвящать",
+  "perf": "посвятить",
+  "tr": "adamak, ithaf etmek",
+  "gov": "что? кому? чему?",
+  "ex": "Композитор посвятил симфонию памяти своего учителя.",
+  "exTr": "Besteci senfoniyi öğretmeninin anısına ithaf etti."
+ },
+ {
+  "impf": "увековечивать",
+  "perf": "увековечить",
+  "tr": "ölümsüzleştirmek",
+  "gov": "что? кого?",
+  "ex": "Скульптор увековечил подвиг героев в бронзе.",
+  "exTr": "Heykeltıraş kahramanların kahramanlığını bronzda ölümsüzleştirdi."
+ },
+ {
+  "impf": "экранизировать",
+  "perf": "",
+  "tr": "beyaz perdeye uyarlamak",
+  "gov": "что?",
+  "ex": "Роман Толстого экранизировали несколько раз.",
+  "exTr": "Tolstoy'un romanı birkaç kez beyaz perdeye uyarlandı."
+ },
+ {
+  "impf": "иллюстрировать",
+  "perf": "проиллюстрировать",
+  "tr": "resimlemek, örneklemek",
+  "gov": "что? чем?",
+  "ex": "Автор иллюстрирует свою мысль примерами из истории.",
+  "exTr": "Yazar düşüncesini tarihten örneklerle somutlaştırıyor."
+ },
+ {
+  "impf": "возрождать",
+  "perf": "возродить",
+  "tr": "yeniden canlandırmak, diriltmek",
+  "gov": "что?",
+  "ex": "Энтузиасты возрождают народные ремёсла.",
+  "exTr": "Gönüllüler halk el sanatlarını yeniden canlandırıyor."
+ },
+ {
+  "impf": "пропагандировать",
+  "perf": "",
+  "tr": "propagandasını yapmak, yaymak",
+  "gov": "что?",
+  "ex": "Общество пропагандирует здоровый образ жизни.",
+  "exTr": "Dernek sağlıklı yaşam tarzını yaygınlaştırıyor."
+ },
+ {
+  "impf": "просвещать",
+  "perf": "просветить",
+  "tr": "aydınlatmak, eğitmek",
+  "gov": "кого?",
+  "ex": "Музеи просвещают широкую публику.",
+  "exTr": "Müzeler geniş kitleleri aydınlatıyor."
+ },
+ {
+  "impf": "усваивать",
+  "perf": "усвоить",
+  "tr": "özümsemek, kavramak",
+  "gov": "что?",
+  "ex": "Дети легко усваивают иностранные языки.",
+  "exTr": "Çocuklar yabancı dilleri kolayca özümser."
+ },
+ {
+  "impf": "приобщать",
+  "perf": "приобщить",
+  "tr": "alıştırmak, katmak, tanıştırmak",
+  "gov": "кого? к чему?",
+  "ex": "Родители приобщают детей к чтению.",
+  "exTr": "Ebeveynler çocuklarını okumaya alıştırıyor."
+ },
+ {
+  "impf": "излечивать",
+  "perf": "излечить",
+  "tr": "tamamen iyileştirmek",
+  "gov": "кого? от чего?",
+  "ex": "Многие инфекции сегодня можно излечить антибиотиками.",
+  "exTr": "Bugün birçok enfeksiyon antibiyotiklerle tedavi edilebilir."
+ },
+ {
+  "impf": "истощать",
+  "perf": "истощить",
+  "tr": "tüketmek, bitkin düşürmek",
+  "gov": "что?",
+  "ex": "Интенсивное земледелие истощает почву.",
+  "exTr": "Yoğun tarım toprağı tüketir."
+ },
+ {
+  "impf": "проистекать",
+  "perf": "",
+  "tr": "kaynaklanmak",
+  "gov": "из чего?",
+  "ex": "Многие конфликты проистекают из взаимного непонимания.",
+  "exTr": "Birçok çatışma karşılıklı anlayışsızlıktan kaynaklanır."
+ },
+ {
+  "impf": "определяться",
+  "perf": "определиться",
+  "tr": "belirlenmek; karar vermek",
+  "gov": "чем?",
+  "ex": "Стоимость услуги определяется сложностью работы.",
+  "exTr": "Hizmetin bedeli işin karmaşıklığına göre belirlenir."
+ },
+ {
+  "impf": "насчитывать",
+  "perf": "",
+  "tr": "sayısı ... olmak, kapsamak",
+  "gov": "что?",
+  "ex": "Коллекция музея насчитывает более ста тысяч экспонатов.",
+  "exTr": "Müze koleksiyonunda yüz binden fazla eser bulunuyor."
+ },
+ {
+  "impf": "именоваться",
+  "perf": "",
+  "tr": "adlandırılmak",
+  "gov": "кем? чем?",
+  "ex": "Этот период в истории именуется эпохой Возрождения.",
+  "exTr": "Tarihteki bu dönem Rönesans çağı olarak adlandırılır."
+ },
+ {
+  "impf": "подлежать",
+  "perf": "",
+  "tr": "tabi olmak, -mesi gerekmek",
+  "gov": "чему?",
+  "ex": "Данные документы подлежат обязательной регистрации.",
+  "exTr": "Bu belgelerin zorunlu olarak kaydedilmesi gerekir."
+ },
+ {
+  "impf": "надлежать",
+  "perf": "",
+  "tr": "gerekmek (resmi)",
+  "gov": "кому? + инф.",
+  "ex": "Всем участникам надлежит явиться к девяти часам.",
+  "exTr": "Tüm katılımcıların saat dokuzda hazır bulunması gerekmektedir."
+ },
+ {
+  "impf": "воздерживаться",
+  "perf": "воздержаться",
+  "tr": "kaçınmak, çekimser kalmak",
+  "gov": "от чего?",
+  "ex": "Двое депутатов воздержались при голосовании.",
+  "exTr": "İki milletvekili oylamada çekimser kaldı."
+ },
+ {
+  "impf": "уклоняться",
+  "perf": "уклониться",
+  "tr": "kaçmak, kaçınmak",
+  "gov": "от чего?",
+  "ex": "Компания уклонялась от уплаты налогов.",
+  "exTr": "Şirket vergi ödemekten kaçınıyordu."
+ },
+ {
+  "impf": "учреждать",
+  "perf": "учредить",
+  "tr": "kurmak, tesis etmek",
+  "gov": "что?",
+  "ex": "Премия была учреждена в начале прошлого века.",
+  "exTr": "Ödül geçen yüzyılın başında tesis edildi."
+ },
+ {
+  "impf": "упразднять",
+  "perf": "упразднить",
+  "tr": "kaldırmak, lağvetmek",
+  "gov": "что?",
+  "ex": "Реформа упразднила ряд министерств.",
+  "exTr": "Reform bir dizi bakanlığı lağvetti."
+ },
+ {
+  "impf": "регламентировать",
+  "perf": "",
+  "tr": "düzenlemek (kurallarla)",
+  "gov": "что?",
+  "ex": "Закон регламентирует порядок проведения выборов.",
+  "exTr": "Kanun seçimlerin yapılış usulünü düzenler."
+ },
+ {
+  "impf": "санкционировать",
+  "perf": "",
+  "tr": "onay vermek, izin vermek",
+  "gov": "что?",
+  "ex": "Суд санкционировал арест подозреваемого.",
+  "exTr": "Mahkeme şüphelinin tutuklanmasına onay verdi."
+ },
+ {
+  "impf": "курировать",
+  "perf": "",
+  "tr": "denetlemek, gözetmek, sorumlu olmak",
+  "gov": "что?",
+  "ex": "Заместитель министра курирует вопросы культуры.",
+  "exTr": "Bakan yardımcısı kültür konularından sorumludur."
+ },
+ {
+  "impf": "председательствовать",
+  "perf": "",
+  "tr": "başkanlık etmek (toplantı)",
+  "gov": "на чём?",
+  "ex": "На заседании председательствовал ректор университета.",
+  "exTr": "Toplantıya üniversite rektörü başkanlık etti."
+ },
+ {
+  "impf": "взаимодействовать",
+  "perf": "",
+  "tr": "etkileşimde bulunmak, iş birliği yapmak",
+  "gov": "с кем? с чем?",
+  "ex": "Органы власти тесно взаимодействуют с общественными организациями.",
+  "exTr": "Yetkili makamlar sivil toplum kuruluşlarıyla yakın iş birliği yapıyor."
+ },
+ {
+  "impf": "ограничиваться",
+  "perf": "ограничиться",
+  "tr": "yetinmek, sınırlı kalmak",
+  "gov": "чем?",
+  "ex": "Автор не ограничивается описанием фактов.",
+  "exTr": "Yazar olguları betimlemekle yetinmiyor."
+ },
+ {
+  "impf": "сопоставлять",
+  "perf": "сопоставить",
+  "tr": "karşılaştırmak",
+  "gov": "что? с чем?",
+  "ex": "Исследователь сопоставляет данные разных эпох.",
+  "exTr": "Araştırmacı farklı dönemlerin verilerini karşılaştırıyor."
+ },
+ {
+  "impf": "трактовать",
+  "perf": "",
+  "tr": "yorumlamak",
+  "gov": "что?",
+  "ex": "Историки по-разному трактуют эти события.",
+  "exTr": "Tarihçiler bu olayları farklı şekillerde yorumluyor."
+ },
+ {
+  "impf": "истолковывать",
+  "perf": "истолковать",
+  "tr": "yorumlamak, açıklamak",
+  "gov": "что?",
+  "ex": "Читатели истолковали финал романа неоднозначно.",
+  "exTr": "Okurlar romanın sonunu farklı biçimlerde yorumladı."
+ },
+ {
+  "impf": "постигать",
+  "perf": "постичь",
+  "tr": "kavramak; başına gelmek",
+  "gov": "что?",
+  "ex": "Философы стремились постичь смысл бытия.",
+  "exTr": "Filozoflar varoluşun anlamını kavramaya çalıştı."
+ },
+ {
+  "impf": "осознавать",
+  "perf": "осознать",
+  "tr": "farkına varmak, idrak etmek",
+  "gov": "что?",
+  "ex": "Общество осознаёт угрозу изменения климата.",
+  "exTr": "Toplum iklim değişikliği tehdidinin farkında."
+ },
+ {
+  "impf": "внушать",
+  "perf": "внушить",
+  "tr": "aşılamak, telkin etmek",
+  "gov": "что? кому?",
+  "ex": "Учитель внушал ученикам любовь к знаниям.",
+  "exTr": "Öğretmen öğrencilerine bilgi sevgisi aşılıyordu."
+ },
+ {
+  "impf": "порицать",
+  "perf": "",
+  "tr": "kınamak, ayıplamak",
+  "gov": "кого? что?",
+  "ex": "Общество порицает жестокое обращение с животными.",
+  "exTr": "Toplum hayvanlara kötü muameleyi kınıyor."
+ },
+ {
+  "impf": "отстаивать",
+  "perf": "отстоять",
+  "tr": "savunmak, korumak",
+  "gov": "что?",
+  "ex": "Профсоюз отстаивает права работников.",
+  "exTr": "Sendika çalışanların haklarını savunuyor."
+ },
+ {
+  "impf": "посягать",
+  "perf": "посягнуть",
+  "tr": "el uzatmak, tecavüz etmek (hak)",
+  "gov": "на что?",
+  "ex": "Никто не вправе посягать на свободу личности.",
+  "exTr": "Hiç kimse kişi özgürlüğüne el uzatma hakkına sahip değildir."
+ },
+ {
+  "impf": "ущемлять",
+  "perf": "ущемить",
+  "tr": "zedelemek, kısıtlamak (hak)",
+  "gov": "что?",
+  "ex": "Новые правила ущемляют права меньшинств.",
+  "exTr": "Yeni kurallar azınlıkların haklarını zedeliyor."
+ },
+ {
+  "impf": "претендовать",
+  "perf": "",
+  "tr": "talip olmak, iddiasında bulunmak",
+  "gov": "на что?",
+  "ex": "Автор не претендует на полноту исследования.",
+  "exTr": "Yazar araştırmanın eksiksiz olduğu iddiasında değil."
+ },
+ {
+  "impf": "притязать",
+  "perf": "",
+  "tr": "hak iddia etmek",
+  "gov": "на что?",
+  "ex": "Обе страны притязают на эту территорию.",
+  "exTr": "Her iki ülke de bu toprak üzerinde hak iddia ediyor."
+ },
+ {
+  "impf": "проживать",
+  "perf": "",
+  "tr": "ikamet etmek",
+  "gov": "где?",
+  "ex": "В городе проживает около миллиона человек.",
+  "exTr": "Şehirde yaklaşık bir milyon kişi ikamet ediyor."
+ },
+ {
+  "impf": "пребывать",
+  "perf": "",
+  "tr": "bulunmak, kalmak",
+  "gov": "в чём? где?",
+  "ex": "Экономика долго пребывала в состоянии застоя.",
+  "exTr": "Ekonomi uzun süre durgunluk içinde kaldı."
+ },
+ {
+  "impf": "заимствовать",
+  "perf": "позаимствовать",
+  "tr": "ödünç almak (söz, fikir)",
+  "gov": "что? у кого? из чего?",
+  "ex": "Русский язык заимствовал много слов из французского.",
+  "exTr": "Rusça Fransızcadan pek çok kelime aldı."
+ },
+ {
+  "impf": "противостоять",
+  "perf": "",
+  "tr": "karşı koymak, direnmek",
+  "gov": "чему? кому?",
+  "ex": "Организм противостоит инфекциям благодаря иммунитету.",
+  "exTr": "Organizma bağışıklık sayesinde enfeksiyonlara karşı koyar."
+ },
+ {
+  "impf": "знаменовать",
+  "perf": "ознаменовать",
+  "tr": "simgelemek, -in başlangıcını işaret etmek",
+  "gov": "что?",
+  "ex": "Это открытие ознаменовало начало новой эпохи в медицине.",
+  "exTr": "Bu keşif tıpta yeni bir çağın başlangıcını simgeledi."
+ },
+ {
+  "impf": "ознаменоваться",
+  "perf": "",
+  "tr": "ile anılmak, ile damgasını vurmak",
+  "gov": "чем?",
+  "ex": "Прошлый год ознаменовался крупными научными открытиями.",
+  "exTr": "Geçen yıl büyük bilimsel keşiflerle anıldı."
+ },
+ {
+  "impf": "изобиловать",
+  "perf": "",
+  "tr": "bol olmak, dolu olmak",
+  "gov": "чем?",
+  "ex": "Текст изобилует редкими научными терминами.",
+  "exTr": "Metin nadir bilimsel terimlerle dolu."
+ },
+ {
+  "impf": "граничить",
+  "perf": "",
+  "tr": "sınırdaş olmak; yaklaşmak (bir şeye)",
+  "gov": "с чем?",
+  "ex": "Его смелость порой граничит с безрассудством.",
+  "exTr": "Cesareti zaman zaman pervasızlık derecesine varıyor."
+ },
+ {
+  "impf": "простираться",
+  "perf": "простереться",
+  "tr": "uzanmak",
+  "gov": "",
+  "ex": "Леса простираются на сотни километров.",
+  "exTr": "Ormanlar yüzlerce kilometre boyunca uzanır."
+ },
+ {
+  "impf": "пролегать",
+  "perf": "пролечь",
+  "tr": "uzanmak, geçmek (yol)",
+  "gov": "где? через что?",
+  "ex": "Древний торговый путь пролегал через эти земли.",
+  "exTr": "Eski ticaret yolu bu topraklardan geçiyordu."
+ },
+ {
+  "impf": "видоизменять",
+  "perf": "видоизменить",
+  "tr": "biçimini değiştirmek",
+  "gov": "что?",
+  "ex": "Со временем обряд был видоизменён.",
+  "exTr": "Zamanla tören biçim değiştirdi."
+ },
+ {
+  "impf": "вытеснять",
+  "perf": "вытеснить",
+  "tr": "yerinden etmek, yerini almak",
+  "gov": "что? кого?",
+  "ex": "Цифровые технологии постепенно вытесняют печатные книги.",
+  "exTr": "Dijital teknolojiler basılı kitapların yerini yavaş yavaş alıyor."
+ },
+ {
+  "impf": "искоренять",
+  "perf": "искоренить",
+  "tr": "kökünü kazımak",
+  "gov": "что?",
+  "ex": "Правительство стремится искоренить коррупцию.",
+  "exTr": "Hükümet yolsuzluğun kökünü kazımaya çalışıyor."
+ },
+ {
+  "impf": "проявляться",
+  "perf": "проявиться",
+  "tr": "kendini göstermek, ortaya çıkmak",
+  "gov": "в чём?",
+  "ex": "Талант композитора проявился уже в раннем детстве.",
+  "exTr": "Bestecinin yeteneği daha erken çocukluğunda kendini gösterdi."
+ },
+ {
+  "impf": "выражаться",
+  "perf": "выразиться",
+  "tr": "ifade edilmek, kendini göstermek",
+  "gov": "в чём?",
+  "ex": "Кризис выразился в резком падении производства.",
+  "exTr": "Kriz üretimde keskin bir düşüş şeklinde kendini gösterdi."
+ },
+ {
+  "impf": "сопровождаться",
+  "perf": "",
+  "tr": "eşlik edilmek, beraberinde olmak",
+  "gov": "чем?",
+  "ex": "Болезнь сопровождается высокой температурой.",
+  "exTr": "Hastalığa yüksek ateş eşlik eder."
+ },
+ {
+  "impf": "утрачивать",
+  "perf": "утратить",
+  "tr": "yitirmek, kaybetmek",
+  "gov": "что?",
+  "ex": "Многие народные обычаи постепенно утрачивают своё значение.",
+  "exTr": "Birçok halk geleneği yavaş yavaş önemini yitiriyor."
+ },
+ {
+  "impf": "обретать",
+  "perf": "обрести",
+  "tr": "kazanmak, edinmek, bulmak",
+  "gov": "что?",
+  "ex": "В девятнадцатом веке страна обрела независимость.",
+  "exTr": "Ülke on dokuzuncu yüzyılda bağımsızlığını kazandı."
+ },
+ {
+  "impf": "черпать",
+  "perf": "почерпнуть",
+  "tr": "almak, edinmek (bilgi, ilham)",
+  "gov": "что? из чего?",
+  "ex": "Писатель черпал сюжеты из народных легенд.",
+  "exTr": "Yazar konularını halk efsanelerinden alıyordu."
+ },
+ {
+  "impf": "воспевать",
+  "perf": "воспеть",
+  "tr": "övgüyle anlatmak, şiirlerinde yüceltmek",
+  "gov": "что? кого?",
+  "ex": "Поэт воспевал красоту родной природы.",
+  "exTr": "Şair memleketinin doğasının güzelliğini övgüyle anlatıyordu."
+ },
+ {
+  "impf": "сосредоточивать",
+  "perf": "сосредоточить",
+  "tr": "yoğunlaştırmak, toplamak",
+  "gov": "что? на чём?",
+  "ex": "В столице сосредоточены крупнейшие музеи страны.",
+  "exTr": "Ülkenin en büyük müzeleri başkentte toplanmıştır."
+ },
+ {
+  "impf": "обогащать",
+  "perf": "обогатить",
+  "tr": "zenginleştirmek",
+  "gov": "что? чем?",
+  "ex": "Чтение классики обогащает словарный запас.",
+  "exTr": "Klasikleri okumak kelime dağarcığını zenginleştirir."
+ },
+ {
+  "impf": "истреблять",
+  "perf": "истребить",
+  "tr": "yok etmek, kırıp geçirmek",
+  "gov": "что? кого?",
+  "ex": "Браконьеры почти истребили популяцию тигров.",
+  "exTr": "Kaçak avcılar kaplan popülasyonunu neredeyse yok etti."
+ },
+ {
+  "impf": "иссякать",
+  "perf": "иссякнуть",
+  "tr": "tükenmek, kurumak",
+  "gov": "",
+  "ex": "Запасы природного газа постепенно иссякают.",
+  "exTr": "Doğal gaz rezervleri yavaş yavaş tükeniyor."
+ },
+ {
+  "impf": "истекать",
+  "perf": "истечь",
+  "tr": "sona ermek, dolmak (süre)",
+  "gov": "",
+  "ex": "Срок действия договора истекает в декабре.",
+  "exTr": "Sözleşmenin geçerlilik süresi aralıkta doluyor."
+ },
+ {
+  "impf": "изыскивать",
+  "perf": "изыскать",
+  "tr": "bulmak, sağlamak (kaynak, imkân)",
+  "gov": "что?",
+  "ex": "Администрация изыскала средства на ремонт школы.",
+  "exTr": "Yönetim okulun onarımı için kaynak buldu."
+ },
+ {
+  "impf": "возмещать",
+  "perf": "возместить",
+  "tr": "tazmin etmek, karşılamak",
+  "gov": "что? кому?",
+  "ex": "Страховая компания возместила ущерб пострадавшим.",
+  "exTr": "Sigorta şirketi mağdurların zararını tazmin etti."
+ },
+ {
+  "impf": "компенсировать",
+  "perf": "",
+  "tr": "telafi etmek, karşılamak",
+  "gov": "что? чем?",
+  "ex": "Государство компенсирует часть расходов на лечение.",
+  "exTr": "Devlet tedavi masraflarının bir kısmını karşılıyor."
+ },
+ {
+  "impf": "провозглашать",
+  "perf": "провозгласить",
+  "tr": "ilan etmek",
+  "gov": "что?",
+  "ex": "Декларация провозгласила равенство всех граждан.",
+  "exTr": "Bildirge tüm vatandaşların eşitliğini ilan etti."
+ },
+ {
+  "impf": "обнародовать",
+  "perf": "",
+  "tr": "kamuoyuna açıklamak, yayımlamak",
+  "gov": "что?",
+  "ex": "Комиссия обнародовала результаты расследования.",
+  "exTr": "Komisyon soruşturmanın sonuçlarını kamuoyuna açıkladı."
+ },
+ {
+  "impf": "оглашать",
+  "perf": "огласить",
+  "tr": "okumak, ilan etmek (resmi)",
+  "gov": "что?",
+  "ex": "Судья огласил приговор.",
+  "exTr": "Hâkim kararı okudu."
+ },
+ {
+  "impf": "разоблачать",
+  "perf": "разоблачить",
+  "tr": "ifşa etmek, maskesini düşürmek",
+  "gov": "что? кого?",
+  "ex": "Журналисты разоблачили коррупционную схему.",
+  "exTr": "Gazeteciler yolsuzluk düzenini ifşa etti."
+ },
+ {
+  "impf": "удостоверять",
+  "perf": "удостоверить",
+  "tr": "onaylamak, tasdik etmek",
+  "gov": "что?",
+  "ex": "Нотариус удостоверил подлинность подписи.",
+  "exTr": "Noter imzanın gerçekliğini tasdik etti."
+ },
+ {
+  "impf": "уполномочивать",
+  "perf": "уполномочить",
+  "tr": "yetkilendirmek",
+  "gov": "кого? на что?",
+  "ex": "Правительство уполномочило министра вести переговоры.",
+  "exTr": "Hükümet bakanı müzakereleri yürütmek için yetkilendirdi."
+ },
+ {
+  "impf": "предписывать",
+  "perf": "предписать",
+  "tr": "emretmek, öngörmek (kural)",
+  "gov": "что? кому?",
+  "ex": "Врач предписал пациенту строгий постельный режим.",
+  "exTr": "Doktor hastaya sıkı yatak istirahati önerdi."
+ },
+ {
+  "impf": "вменять",
+  "perf": "вменить",
+  "tr": "yüklemek (suç, görev)",
+  "gov": "что? кому?",
+  "ex": "Обвиняемому вменяют уклонение от уплаты налогов.",
+  "exTr": "Sanığa vergi kaçırma suçu isnat ediliyor."
+ },
+ {
+  "impf": "ужесточать",
+  "perf": "ужесточить",
+  "tr": "sertleştirmek, ağırlaştırmak",
+  "gov": "что?",
+  "ex": "Власти ужесточили наказание за нарушение правил.",
+  "exTr": "Yetkililer kural ihlallerinin cezasını ağırlaştırdı."
+ },
+ {
+  "impf": "упрочивать",
+  "perf": "упрочить",
+  "tr": "sağlamlaştırmak, pekiştirmek",
+  "gov": "что?",
+  "ex": "Договор упрочил позиции страны в регионе.",
+  "exTr": "Antlaşma ülkenin bölgedeki konumunu sağlamlaştırdı."
+ },
+ {
+  "impf": "учащаться",
+  "perf": "участиться",
+  "tr": "sıklaşmak",
+  "gov": "",
+  "ex": "В последние годы участились случаи лесных пожаров.",
+  "exTr": "Son yıllarda orman yangınları sıklaştı."
+ },
+ {
+  "impf": "обостряться",
+  "perf": "обостриться",
+  "tr": "şiddetlenmek, kızışmak",
+  "gov": "",
+  "ex": "Конкуренция на рынке труда обостряется.",
+  "exTr": "İş piyasasındaki rekabet kızışıyor."
+ },
+ {
+  "impf": "обрекать",
+  "perf": "обречь",
+  "tr": "mahkûm etmek (bir kadere)",
+  "gov": "кого? на что?",
+  "ex": "Засуха обрекла миллионы людей на голод.",
+  "exTr": "Kuraklık milyonlarca insanı açlığa mahkûm etti."
+ },
+ {
+  "impf": "тяготеть",
+  "perf": "",
+  "tr": "yakınlık duymak, eğilim göstermek",
+  "gov": "к чему?",
+  "ex": "Его ранние работы тяготеют к романтизму.",
+  "exTr": "İlk eserleri romantizme eğilim gösteriyor."
+ },
+ {
+  "impf": "довлеть",
+  "perf": "",
+  "tr": "ağır basmak, baskı oluşturmak",
+  "gov": "над чем? над кем?",
+  "ex": "Над писателем довлела строгая цензура.",
+  "exTr": "Yazarın üzerinde sıkı bir sansür baskısı vardı."
+ }
+]

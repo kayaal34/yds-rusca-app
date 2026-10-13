@@ -1,0 +1,802 @@
+[
+ {
+  "impf": "пренебрегать",
+  "perf": "пренебречь",
+  "tr": "ihmal etmek, umursamamak, hiçe saymak",
+  "gov": "чем?",
+  "ex": "Многие пациенты пренебрегают рекомендациями врачей.",
+  "exTr": "Birçok hasta doktorların tavsiyelerini ihmal ediyor."
+ },
+ {
+  "impf": "упрекать",
+  "perf": "упрекнуть",
+  "tr": "sitem etmek, kınamak, suçlamak",
+  "gov": "кого? в чём?",
+  "ex": "Критики упрекали правительство в бездействии.",
+  "exTr": "Eleştirmenler hükümeti eylemsizlikle suçluyordu."
+ },
+ {
+  "impf": "уклоняться",
+  "perf": "уклониться",
+  "tr": "kaçınmak, kaytarmak",
+  "gov": "от чего?",
+  "ex": "Чиновник уклонился от прямого ответа на вопрос.",
+  "exTr": "Yetkili soruya doğrudan cevap vermekten kaçındı."
+ },
+ {
+  "impf": "смущать",
+  "perf": "смутить",
+  "tr": "utandırmak, mahcup etmek, kafasını karıştırmak",
+  "gov": "кого? чем?",
+  "ex": "Неожиданный вопрос журналиста смутил докладчика.",
+  "exTr": "Gazetecinin beklenmedik sorusu konuşmacıyı mahcup etti."
+ },
+ {
+  "impf": "внушать",
+  "perf": "внушить",
+  "tr": "aşılamak, telkin etmek, uyandırmak (güven vb.)",
+  "gov": "кому? что?",
+  "ex": "Его спокойствие внушало окружающим доверие.",
+  "exTr": "Onun sakinliği çevresindekilere güven aşılıyordu."
+ },
+ {
+  "impf": "уговаривать",
+  "perf": "уговорить",
+  "tr": "kandırmak, ikna etmek (yalvararak)",
+  "gov": "кого? + инф.",
+  "ex": "Друзья уговорили его продолжить учёбу.",
+  "exTr": "Arkadaşları onu eğitimine devam etmeye ikna etti."
+ },
+ {
+  "impf": "отговаривать",
+  "perf": "отговорить",
+  "tr": "vazgeçirmek, caydırmak",
+  "gov": "кого? от чего?",
+  "ex": "Родители пытались отговорить сына от опасной поездки.",
+  "exTr": "Ebeveynler oğullarını tehlikeli yolculuktan vazgeçirmeye çalıştı."
+ },
+ {
+  "impf": "беспокоиться",
+  "perf": "",
+  "tr": "endişelenmek, kaygılanmak",
+  "gov": "о ком? о чём?",
+  "ex": "Учёные беспокоятся о сокращении биоразнообразия.",
+  "exTr": "Bilim insanları biyolojik çeşitliliğin azalmasından kaygılanıyor."
+ },
+ {
+  "impf": "тревожить",
+  "perf": "встревожить",
+  "tr": "kaygılandırmak, tedirgin etmek",
+  "gov": "кого? чем?",
+  "ex": "Результаты исследования встревожили медиков.",
+  "exTr": "Araştırmanın sonuçları tıp çalışanlarını kaygılandırdı."
+ },
+ {
+  "impf": "раскаиваться",
+  "perf": "раскаяться",
+  "tr": "pişman olmak, tövbe etmek",
+  "gov": "в чём?",
+  "ex": "Осуждённый искренне раскаялся в содеянном.",
+  "exTr": "Hükümlü yaptığından içtenlikle pişman oldu."
+ },
+ {
+  "impf": "сожалеть",
+  "perf": "",
+  "tr": "üzülmek, pişmanlık duymak",
+  "gov": "о чём?",
+  "ex": "Компания сожалеет о доставленных неудобствах.",
+  "exTr": "Şirket yaşanan rahatsızlıklardan dolayı üzüntü duyuyor."
+ },
+ {
+  "impf": "утешать",
+  "perf": "утешить",
+  "tr": "teselli etmek, avutmak",
+  "gov": "кого? чем?",
+  "ex": "Врач старался утешить родственников пациента.",
+  "exTr": "Doktor hastanın yakınlarını teselli etmeye çalışıyordu."
+ },
+ {
+  "impf": "оскорблять",
+  "perf": "оскорбить",
+  "tr": "hakaret etmek, onurunu kırmak",
+  "gov": "кого? чем?",
+  "ex": "Его резкие слова оскорбили многих присутствующих.",
+  "exTr": "Sert sözleri orada bulunanların çoğunu incitti."
+ },
+ {
+  "impf": "унижать",
+  "perf": "унизить",
+  "tr": "aşağılamak, küçük düşürmek",
+  "gov": "кого? чем?",
+  "ex": "Нельзя унижать человеческое достоинство.",
+  "exTr": "İnsan onurunu aşağılamak olmaz."
+ },
+ {
+  "impf": "льстить",
+  "perf": "польстить",
+  "tr": "dalkavukluk etmek, pohpohlamak; gururunu okşamak",
+  "gov": "кому?",
+  "ex": "Похвала известного критика польстила молодому писателю.",
+  "exTr": "Ünlü eleştirmenin övgüsü genç yazarın gururunu okşadı."
+ },
+ {
+  "impf": "хвастаться",
+  "perf": "похвастаться",
+  "tr": "övünmek, böbürlenmek",
+  "gov": "чем?",
+  "ex": "Город может похвастаться богатой историей.",
+  "exTr": "Şehir zengin tarihiyle övünebilir."
+ },
+ {
+  "impf": "жаловаться",
+  "perf": "пожаловаться",
+  "tr": "şikâyet etmek",
+  "gov": "на что? кому?",
+  "ex": "Жители пожаловались властям на плохое качество воды.",
+  "exTr": "Sakinler yetkililere suyun kötü kalitesinden şikâyet etti."
+ },
+ {
+  "impf": "настаивать",
+  "perf": "настоять",
+  "tr": "ısrar etmek, diretmek",
+  "gov": "на чём?",
+  "ex": "Адвокат настаивал на повторной экспертизе.",
+  "exTr": "Avukat yeniden bilirkişi incelemesi yapılmasında ısrar ediyordu."
+ },
+ {
+  "impf": "примиряться",
+  "perf": "примириться",
+  "tr": "barışmak; kabullenmek",
+  "gov": "с кем? с чем?",
+  "ex": "Трудно примириться с потерей близкого человека.",
+  "exTr": "Yakın birinin kaybını kabullenmek zordur."
+ },
+ {
+  "impf": "смиряться",
+  "perf": "смириться",
+  "tr": "boyun eğmek, kabullenmek, katlanmak",
+  "gov": "с чем?",
+  "ex": "Пострадавшие не хотели смириться с несправедливым решением.",
+  "exTr": "Mağdurlar adaletsiz kararı kabullenmek istemiyordu."
+ },
+ {
+  "impf": "предавать",
+  "perf": "предать",
+  "tr": "ihanet etmek",
+  "gov": "кого? что?",
+  "ex": "Он никогда не предавал своих друзей.",
+  "exTr": "O, arkadaşlarına asla ihanet etmedi."
+ },
+ {
+  "impf": "привязываться",
+  "perf": "привязаться",
+  "tr": "bağlanmak (duygusal olarak)",
+  "gov": "к кому? к чему?",
+  "ex": "Дети быстро привязываются к домашним животным.",
+  "exTr": "Çocuklar evcil hayvanlara çabucak bağlanır."
+ },
+ {
+  "impf": "полагаться",
+  "perf": "положиться",
+  "tr": "güvenmek, bel bağlamak",
+  "gov": "на кого? на что?",
+  "ex": "В трудной ситуации можно положиться только на себя.",
+  "exTr": "Zor bir durumda insan yalnızca kendine güvenebilir."
+ },
+ {
+  "impf": "разубеждать",
+  "perf": "разубедить",
+  "tr": "fikrinden caydırmak, inancını değiştirmek",
+  "gov": "кого? в чём?",
+  "ex": "Никакие доводы не смогли разубедить его.",
+  "exTr": "Hiçbir gerekçe onu fikrinden caydıramadı."
+ },
+ {
+  "impf": "предостерегать",
+  "perf": "предостеречь",
+  "tr": "uyarmak, sakındırmak",
+  "gov": "кого? от чего?",
+  "ex": "Врачи предостерегают от самолечения.",
+  "exTr": "Doktorlar kendi kendini tedavi etmeye karşı uyarıyor."
+ },
+ {
+  "impf": "подстрекать",
+  "perf": "подстрекнуть",
+  "tr": "kışkırtmak, tahrik etmek",
+  "gov": "кого? к чему?",
+  "ex": "Его обвинили в том, что он подстрекал толпу к насилию.",
+  "exTr": "Kalabalığı şiddete kışkırtmakla suçlandı."
+ },
+ {
+  "impf": "отдаляться",
+  "perf": "отдалиться",
+  "tr": "uzaklaşmak, soğumak",
+  "gov": "от кого? от чего?",
+  "ex": "С годами он отдалился от старых друзей.",
+  "exTr": "Yıllar geçtikçe eski arkadaşlarından uzaklaştı."
+ },
+ {
+  "impf": "игнорировать",
+  "perf": "проигнорировать",
+  "tr": "görmezden gelmek",
+  "gov": "кого? что?",
+  "ex": "Руководство проигнорировало жалобы сотрудников.",
+  "exTr": "Yönetim çalışanların şikâyetlerini görmezden geldi."
+ },
+ {
+  "impf": "недооценивать",
+  "perf": "недооценить",
+  "tr": "hafife almak, küçümsemek",
+  "gov": "кого? что?",
+  "ex": "Не стоит недооценивать роль эмоций в принятии решений.",
+  "exTr": "Karar vermede duyguların rolünü hafife almamak gerekir."
+ },
+ {
+  "impf": "воспринимать",
+  "perf": "воспринять",
+  "tr": "algılamak, karşılamak",
+  "gov": "что? как?",
+  "ex": "Общество неоднозначно восприняло новый закон.",
+  "exTr": "Toplum yeni yasayı farklı biçimlerde karşıladı."
+ },
+ {
+  "impf": "осознавать",
+  "perf": "осознать",
+  "tr": "farkına varmak, idrak etmek",
+  "gov": "что?",
+  "ex": "Люди постепенно осознают опасность изменения климата.",
+  "exTr": "İnsanlar iklim değişikliğinin tehlikesinin giderek farkına varıyor."
+ },
+ {
+  "impf": "высмеивать",
+  "perf": "высмеять",
+  "tr": "alay etmek, gülünç duruma düşürmek",
+  "gov": "кого? что?",
+  "ex": "В своей комедии автор высмеивает пороки общества.",
+  "exTr": "Yazar komedisinde toplumun kusurlarıyla alay ediyor."
+ },
+ {
+  "impf": "издеваться",
+  "perf": "поиздеваться",
+  "tr": "alay etmek, eziyet etmek",
+  "gov": "над кем? над чем?",
+  "ex": "Нельзя издеваться над слабыми.",
+  "exTr": "Zayıflarla alay etmek olmaz."
+ },
+ {
+  "impf": "поражать",
+  "perf": "поразить",
+  "tr": "şaşırtmak, hayrete düşürmek; vurmak",
+  "gov": "кого? чем?",
+  "ex": "Масштаб разрушений поразил спасателей.",
+  "exTr": "Yıkımın boyutu kurtarma ekiplerini hayrete düşürdü."
+ },
+ {
+  "impf": "осмеливаться",
+  "perf": "осмелиться",
+  "tr": "cesaret etmek, cüret etmek",
+  "gov": "+ инф.",
+  "ex": "Никто не осмелился возразить директору.",
+  "exTr": "Kimse müdüre itiraz etmeye cesaret edemedi."
+ },
+ {
+  "impf": "сдерживать",
+  "perf": "сдержать",
+  "tr": "tutmak, bastırmak, frenlemek; (sözünü) tutmak",
+  "gov": "что?",
+  "ex": "Она с трудом сдерживала слёзы.",
+  "exTr": "Gözyaşlarını güçlükle tutuyordu."
+ },
+ {
+  "impf": "проявлять",
+  "perf": "проявить",
+  "tr": "göstermek, ortaya koymak",
+  "gov": "что?",
+  "ex": "Спасатели проявили настоящее мужество.",
+  "exTr": "Kurtarma ekipleri gerçek bir cesaret gösterdi."
+ },
+ {
+  "impf": "противостоять",
+  "perf": "",
+  "tr": "karşı koymak, direnmek",
+  "gov": "кому? чему?",
+  "ex": "Небольшая страна смогла противостоять давлению соседей.",
+  "exTr": "Küçük ülke komşularının baskısına karşı koymayı başardı."
+ },
+ {
+  "impf": "сопротивляться",
+  "perf": "",
+  "tr": "direnmek, karşı koymak",
+  "gov": "кому? чему?",
+  "ex": "Организм сопротивляется инфекции.",
+  "exTr": "Organizma enfeksiyona direnir."
+ },
+ {
+  "impf": "дорожить",
+  "perf": "",
+  "tr": "değer vermek, kıymetini bilmek",
+  "gov": "кем? чем?",
+  "ex": "Он очень дорожит своей репутацией.",
+  "exTr": "İtibarına çok değer veriyor."
+ },
+ {
+  "impf": "потакать",
+  "perf": "",
+  "tr": "şımartmak, göz yummak, her istediğini yapmak",
+  "gov": "кому? чему?",
+  "ex": "Родители не должны потакать капризам ребёнка.",
+  "exTr": "Ebeveynler çocuğun kaprislerine göz yummamalıdır."
+ },
+ {
+  "impf": "ободрять",
+  "perf": "ободрить",
+  "tr": "cesaretlendirmek, yüreklendirmek",
+  "gov": "кого? чем?",
+  "ex": "Тренер ободрял игроков перед финалом.",
+  "exTr": "Antrenör finalden önce oyuncuları cesaretlendiriyordu."
+ },
+ {
+  "impf": "отчаиваться",
+  "perf": "отчаяться",
+  "tr": "umudunu yitirmek, ümitsizliğe kapılmak",
+  "gov": "в чём? + инф.",
+  "ex": "Несмотря на неудачи, учёные не отчаивались.",
+  "exTr": "Başarısızlıklara rağmen bilim insanları umutlarını yitirmedi."
+ },
+ {
+  "impf": "сострадать",
+  "perf": "",
+  "tr": "acı paylaşmak, merhamet etmek",
+  "gov": "кому?",
+  "ex": "Умение сострадать другим — важное человеческое качество.",
+  "exTr": "Başkalarının acısını paylaşabilmek önemli bir insani niteliktir."
+ },
+ {
+  "impf": "соперничать",
+  "perf": "",
+  "tr": "rekabet etmek, yarışmak",
+  "gov": "с кем? в чём?",
+  "ex": "Две компании соперничают за лидерство на рынке.",
+  "exTr": "İki şirket pazar liderliği için rekabet ediyor."
+ },
+ {
+  "impf": "умалчивать",
+  "perf": "умолчать",
+  "tr": "sükût etmek, bahsetmemek, gizli tutmak",
+  "gov": "о чём?",
+  "ex": "Отчёт умалчивает о реальных потерях.",
+  "exTr": "Rapor gerçek kayıplardan hiç bahsetmiyor."
+ },
+ {
+  "impf": "вмешиваться",
+  "perf": "вмешаться",
+  "tr": "karışmak, müdahale etmek",
+  "gov": "во что?",
+  "ex": "Государство не должно вмешиваться в частную жизнь граждан.",
+  "exTr": "Devlet vatandaşların özel hayatına müdahale etmemelidir."
+ },
+ {
+  "impf": "перебивать",
+  "perf": "перебить",
+  "tr": "sözünü kesmek",
+  "gov": "кого? что?",
+  "ex": "Невежливо перебивать собеседника.",
+  "exTr": "Muhatabının sözünü kesmek kabalıktır."
+ },
+ {
+  "impf": "угождать",
+  "perf": "угодить",
+  "tr": "memnun etmek, hoşuna gitmek, yaranmak",
+  "gov": "кому? чему?",
+  "ex": "Невозможно угодить всем сразу.",
+  "exTr": "Herkesi aynı anda memnun etmek imkânsızdır."
+ },
+ {
+  "impf": "мстить",
+  "perf": "отомстить",
+  "tr": "intikam almak",
+  "gov": "кому? за что?",
+  "ex": "Герой романа решил отомстить обидчикам.",
+  "exTr": "Romanın kahramanı kendisine kötülük yapanlardan intikam almaya karar verdi."
+ },
+ {
+  "impf": "очаровывать",
+  "perf": "очаровать",
+  "tr": "büyülemek, cezbetmek",
+  "gov": "кого? чем?",
+  "ex": "Пианист очаровал публику своим исполнением.",
+  "exTr": "Piyanist yorumuyla dinleyicileri büyüledi."
+ },
+ {
+  "impf": "клеветать",
+  "perf": "оклеветать",
+  "tr": "iftira atmak",
+  "gov": "на кого? (оклеветать кого?)",
+  "ex": "Журналиста обвинили в том, что он оклеветал политика.",
+  "exTr": "Gazeteci, politikacıya iftira atmakla suçlandı."
+ },
+ {
+  "impf": "разоблачать",
+  "perf": "разоблачить",
+  "tr": "ifşa etmek, maskesini düşürmek",
+  "gov": "кого? что?",
+  "ex": "Журналисты разоблачили масштабную коррупционную схему.",
+  "exTr": "Gazeteciler geniş çaplı bir yolsuzluk düzenini ifşa etti."
+ },
+ {
+  "impf": "ладить",
+  "perf": "поладить",
+  "tr": "geçinmek, iyi anlaşmak",
+  "gov": "с кем?",
+  "ex": "Новый сотрудник быстро поладил с коллективом.",
+  "exTr": "Yeni çalışan ekiple çabucak iyi geçindi."
+ },
+ {
+  "impf": "баловать",
+  "perf": "избаловать",
+  "tr": "şımartmak",
+  "gov": "кого? чем?",
+  "ex": "Бабушки и дедушки часто балуют внуков.",
+  "exTr": "Büyükanne ve büyükbabalar torunlarını sık sık şımartır."
+ },
+ {
+  "impf": "упорствовать",
+  "perf": "",
+  "tr": "diretmek, inat etmek",
+  "gov": "в чём?",
+  "ex": "Несмотря на факты, он упорствовал в своём заблуждении.",
+  "exTr": "Gerçeklere rağmen yanılgısında diretiyordu."
+ },
+ {
+  "impf": "тяготиться",
+  "perf": "",
+  "tr": "bir şeyden sıkıntı duymak, yük saymak",
+  "gov": "кем? чем?",
+  "ex": "Он тяготился своим одиночеством.",
+  "exTr": "Yalnızlığını bir yük gibi hissediyordu."
+ },
+ {
+  "impf": "запугивать",
+  "perf": "запугать",
+  "tr": "yıldırmak, gözdağı vermek",
+  "gov": "кого? чем?",
+  "ex": "Преступники пытались запугать свидетелей.",
+  "exTr": "Suçlular tanıkları yıldırmaya çalıştı."
+ },
+ {
+  "impf": "насмехаться",
+  "perf": "",
+  "tr": "alay etmek, dalga geçmek",
+  "gov": "над кем? над чем?",
+  "ex": "Одноклассники насмехались над его акцентом.",
+  "exTr": "Sınıf arkadaşları onun aksanıyla dalga geçiyordu."
+ },
+ {
+  "impf": "упрашивать",
+  "perf": "упросить",
+  "tr": "yalvarmak, rica ederek razı etmek",
+  "gov": "кого? + инф.",
+  "ex": "Дети упросили отца взять их с собой.",
+  "exTr": "Çocuklar babalarını kendilerini de götürmeye razı etti."
+ },
+ {
+  "impf": "опекать",
+  "perf": "",
+  "tr": "himaye etmek, gözetmek",
+  "gov": "кого?",
+  "ex": "Родители чрезмерно опекают своих детей.",
+  "exTr": "Ebeveynler çocuklarını aşırı derecede koruyor."
+ },
+ {
+  "impf": "откровенничать",
+  "perf": "",
+  "tr": "içini dökmek, açık yüreklilikle konuşmak",
+  "gov": "с кем?",
+  "ex": "Он не любил откровенничать с малознакомыми людьми.",
+  "exTr": "Az tanıdığı insanlarla içini dökmekten hoşlanmazdı."
+ },
+ {
+  "impf": "искажать",
+  "perf": "исказить",
+  "tr": "çarpıtmak, bozmak",
+  "gov": "что?",
+  "ex": "Журналист исказил смысл слов министра.",
+  "exTr": "Gazeteci bakanın sözlerinin anlamını çarpıttı."
+ },
+ {
+  "impf": "преувеличивать",
+  "perf": "преувеличить",
+  "tr": "abartmak",
+  "gov": "что?",
+  "ex": "Не стоит преувеличивать значение этого события.",
+  "exTr": "Bu olayın önemini abartmamak gerekir."
+ },
+ {
+  "impf": "преуменьшать",
+  "perf": "преуменьшить",
+  "tr": "küçümsemek, olduğundan az göstermek",
+  "gov": "что?",
+  "ex": "Власти долго преуменьшали масштабы эпидемии.",
+  "exTr": "Yetkililer uzun süre salgının boyutlarını olduğundan küçük gösterdi."
+ },
+ {
+  "impf": "уличать",
+  "perf": "уличить",
+  "tr": "(suçunu, yalanını) ortaya çıkarmak, yakalamak",
+  "gov": "кого? в чём?",
+  "ex": "Эксперты уличили автора в плагиате.",
+  "exTr": "Uzmanlar yazarın intihal yaptığını ortaya çıkardı."
+ },
+ {
+  "impf": "обличать",
+  "perf": "обличить",
+  "tr": "teşhir etmek, ifşa etmek, kınamak",
+  "gov": "кого? что?",
+  "ex": "В своих статьях писатель обличал социальную несправедливость.",
+  "exTr": "Yazar makalelerinde toplumsal adaletsizliği teşhir ediyordu."
+ },
+ {
+  "impf": "компрометировать",
+  "perf": "скомпрометировать",
+  "tr": "itibarını zedelemek, gözden düşürmek",
+  "gov": "кого? что?",
+  "ex": "Скандал скомпрометировал руководство партии.",
+  "exTr": "Skandal parti yönetiminin itibarını zedeledi."
+ },
+ {
+  "impf": "дискредитировать",
+  "perf": "дискредитировать",
+  "tr": "itibarsızlaştırmak, gözden düşürmek",
+  "gov": "кого? что?",
+  "ex": "Противники пытались дискредитировать кандидата.",
+  "exTr": "Rakipler adayı itibarsızlaştırmaya çalıştı."
+ },
+ {
+  "impf": "порочить",
+  "perf": "опорочить",
+  "tr": "lekelemek, karalamak",
+  "gov": "кого? что?",
+  "ex": "Ложные слухи порочат честное имя учёного.",
+  "exTr": "Asılsız söylentiler bilim insanının temiz adını lekeliyor."
+ },
+ {
+  "impf": "заверять",
+  "perf": "заверить",
+  "tr": "temin etmek, güvence vermek",
+  "gov": "кого? в чём?",
+  "ex": "Директор заверил сотрудников в том, что сокращений не будет.",
+  "exTr": "Müdür çalışanlara işten çıkarma olmayacağı konusunda güvence verdi."
+ },
+ {
+  "impf": "переубеждать",
+  "perf": "переубедить",
+  "tr": "fikrini değiştirmek, yeniden ikna etmek",
+  "gov": "кого?",
+  "ex": "Переубедить упрямого собеседника оказалось непросто.",
+  "exTr": "İnatçı muhatabı ikna edip fikrini değiştirmek kolay olmadı."
+ },
+ {
+  "impf": "клясться",
+  "perf": "поклясться",
+  "tr": "yemin etmek",
+  "gov": "в чём? кому?",
+  "ex": "Свидетель поклялся говорить только правду.",
+  "exTr": "Tanık yalnızca doğruyu söyleyeceğine yemin etti."
+ },
+ {
+  "impf": "укорять",
+  "perf": "укорить",
+  "tr": "sitem etmek, kınamak",
+  "gov": "кого? в чём? за что?",
+  "ex": "Мать укоряла сына за легкомыслие.",
+  "exTr": "Anne oğluna düşüncesizliği yüzünden sitem ediyordu."
+ },
+ {
+  "impf": "попрекать",
+  "perf": "попрекнуть",
+  "tr": "başa kakmak",
+  "gov": "кого? чем?",
+  "ex": "Он никогда не попрекал друзей своей помощью.",
+  "exTr": "Yaptığı yardımları arkadaşlarının başına asla kakmazdı."
+ },
+ {
+  "impf": "порицать",
+  "perf": "",
+  "tr": "kınamak, ayıplamak",
+  "gov": "кого? что? за что?",
+  "ex": "Общество порицает подобное поведение.",
+  "exTr": "Toplum bu tür davranışları ayıplar."
+ },
+ {
+  "impf": "стыдить",
+  "perf": "пристыдить",
+  "tr": "utandırmak, mahcup etmek",
+  "gov": "кого? за что?",
+  "ex": "Учитель пристыдил ученика за грубость.",
+  "exTr": "Öğretmen öğrenciyi kabalığından dolayı utandırdı."
+ },
+ {
+  "impf": "придираться",
+  "perf": "придраться",
+  "tr": "kusur aramak, kılı kırk yarmak, takılmak",
+  "gov": "к кому? к чему?",
+  "ex": "Начальник постоянно придирается к мелочам.",
+  "exTr": "Şef sürekli ufak tefek şeylere takılıyor."
+ },
+ {
+  "impf": "увиливать",
+  "perf": "увильнуть",
+  "tr": "yan çizmek, kaçamak cevap vermek",
+  "gov": "от чего?",
+  "ex": "Политик ловко увильнул от неудобного вопроса.",
+  "exTr": "Politikacı rahatsız edici sorudan ustaca yan çizdi."
+ },
+ {
+  "impf": "превозносить",
+  "perf": "превознести",
+  "tr": "göklere çıkarmak, yüceltmek",
+  "gov": "кого? что?",
+  "ex": "Критики превозносили новый роман до небес.",
+  "exTr": "Eleştirmenler yeni romanı göklere çıkarıyordu."
+ },
+ {
+  "impf": "преклоняться",
+  "perf": "преклониться",
+  "tr": "hayranlık duymak, önünde eğilmek",
+  "gov": "перед кем? перед чем?",
+  "ex": "Потомки преклоняются перед подвигом героев.",
+  "exTr": "Gelecek kuşaklar kahramanların yiğitliği önünde saygıyla eğiliyor."
+ },
+ {
+  "impf": "презирать",
+  "perf": "",
+  "tr": "hor görmek, küçümsemek",
+  "gov": "кого? что? за что?",
+  "ex": "Он презирал лицемерие и ложь.",
+  "exTr": "İkiyüzlülüğü ve yalanı hor görürdü."
+ },
+ {
+  "impf": "потворствовать",
+  "perf": "",
+  "tr": "göz yummak, hoş görmek (kötü şeye)",
+  "gov": "кому? чему?",
+  "ex": "Власти не должны потворствовать коррупции.",
+  "exTr": "Yetkililer yolsuzluğa göz yummamalıdır."
+ },
+ {
+  "impf": "поддаваться",
+  "perf": "поддаться",
+  "tr": "kapılmak, yenik düşmek, boyun eğmek",
+  "gov": "чему?",
+  "ex": "Не следует поддаваться панике.",
+  "exTr": "Paniğe kapılmamak gerekir."
+ },
+ {
+  "impf": "противиться",
+  "perf": "воспротивиться",
+  "tr": "karşı koymak, direnmek",
+  "gov": "чему?",
+  "ex": "Местные жители воспротивились строительству завода.",
+  "exTr": "Yerel halk fabrika inşaatına karşı çıktı."
+ },
+ {
+  "impf": "посягать",
+  "perf": "посягнуть",
+  "tr": "el uzatmak, saldırmak (haklara vb.)",
+  "gov": "на что?",
+  "ex": "Никто не вправе посягать на свободу личности.",
+  "exTr": "Kimsenin kişi özgürlüğüne el uzatmaya hakkı yoktur."
+ },
+ {
+  "impf": "ущемлять",
+  "perf": "ущемить",
+  "tr": "kısıtlamak, zedelemek (hak vb.)",
+  "gov": "что? кого?",
+  "ex": "Новый закон ущемляет права меньшинств.",
+  "exTr": "Yeni yasa azınlıkların haklarını kısıtlıyor."
+ },
+ {
+  "impf": "притеснять",
+  "perf": "притеснить",
+  "tr": "baskı altında tutmak, ezmek",
+  "gov": "кого?",
+  "ex": "Власти притесняли независимых журналистов.",
+  "exTr": "Yetkililer bağımsız gazetecileri baskı altında tutuyordu."
+ },
+ {
+  "impf": "уживаться",
+  "perf": "ужиться",
+  "tr": "geçinmek, bir arada yaşayabilmek",
+  "gov": "с кем?",
+  "ex": "Ему трудно ужиться с людьми.",
+  "exTr": "İnsanlarla geçinmek onun için zordur."
+ },
+ {
+  "impf": "сторониться",
+  "perf": "",
+  "tr": "uzak durmak, kaçınmak",
+  "gov": "кого? чего?",
+  "ex": "Он сторонился шумных компаний.",
+  "exTr": "Gürültülü topluluklardan uzak dururdu."
+ },
+ {
+  "impf": "остерегаться",
+  "perf": "остеречься",
+  "tr": "sakınmak, dikkat etmek",
+  "gov": "кого? чего?",
+  "ex": "Следует остерегаться поддельных лекарств.",
+  "exTr": "Sahte ilaçlardan sakınmak gerekir."
+ },
+ {
+  "impf": "робеть",
+  "perf": "оробеть",
+  "tr": "çekinmek, ürkmek",
+  "gov": "перед кем? перед чем?",
+  "ex": "Студент робел перед строгим экзаменатором.",
+  "exTr": "Öğrenci sert sınav görevlisinin karşısında çekiniyordu."
+ },
+ {
+  "impf": "теряться",
+  "perf": "растеряться",
+  "tr": "şaşırıp kalmak, ne yapacağını bilememek",
+  "gov": "от чего? перед чем?",
+  "ex": "Опытный пилот не растерялся в экстренной ситуации.",
+  "exTr": "Deneyimli pilot acil durumda ne yapacağını şaşırmadı."
+ },
+ {
+  "impf": "досаждать",
+  "perf": "досадить",
+  "tr": "başına dert olmak, canını sıkmak",
+  "gov": "кому? чем?",
+  "ex": "Комары досаждали туристам всю ночь.",
+  "exTr": "Sivrisinekler bütün gece turistlerin canını sıktı."
+ },
+ {
+  "impf": "надоедать",
+  "perf": "надоесть",
+  "tr": "bıktırmak, usandırmak",
+  "gov": "кому? чем?",
+  "ex": "Бесконечные споры всем надоели.",
+  "exTr": "Bitmek bilmeyen tartışmalar herkesi bıktırdı."
+ },
+ {
+  "impf": "изумлять",
+  "perf": "изумить",
+  "tr": "hayrete düşürmek, şaşırtmak",
+  "gov": "кого? чем?",
+  "ex": "Открытие изумило научный мир.",
+  "exTr": "Keşif bilim dünyasını hayrete düşürdü."
+ },
+ {
+  "impf": "ужасаться",
+  "perf": "ужаснуться",
+  "tr": "dehşete düşmek",
+  "gov": "чему?",
+  "ex": "Читатели ужаснулись жестокости описанных событий.",
+  "exTr": "Okurlar anlatılan olayların vahşetinden dehşete düştü."
+ },
+ {
+  "impf": "озадачивать",
+  "perf": "озадачить",
+  "tr": "şaşırtmak, düşündürmek, kafasını karıştırmak",
+  "gov": "кого? чем?",
+  "ex": "Странное поведение коллеги озадачило всех.",
+  "exTr": "Meslektaşın tuhaf davranışı herkesi şaşırttı."
+ },
+ {
+  "impf": "обескураживать",
+  "perf": "обескуражить",
+  "tr": "cesaretini kırmak, şaşkına çevirmek",
+  "gov": "кого? чем?",
+  "ex": "Первые неудачи обескуражили молодого исследователя.",
+  "exTr": "İlk başarısızlıklar genç araştırmacının cesaretini kırdı."
+ },
+ {
+  "impf": "ошеломлять",
+  "perf": "ошеломить",
+  "tr": "sersemletmek, şoke etmek",
+  "gov": "кого? чем?",
+  "ex": "Новость ошеломила всю страну.",
+  "exTr": "Haber bütün ülkeyi şoke etti."
+ }
+]

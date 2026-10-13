@@ -1,0 +1,2882 @@
+[
+ {
+  "r": 1,
+  "impf": "гарантировать",
+  "perf": "",
+  "tr": "garanti etmek",
+  "ex": "Банк гарантирует безопасность вкладов.",
+  "exTr": "Banka mevduatların güvenliğini garanti ediyor."
+ },
+ {
+  "r": 2,
+  "impf": "вычислять",
+  "perf": "вычислить",
+  "tr": "hesaplamak",
+  "ex": "Он быстро вычислил стоимость проекта.",
+  "exTr": "Projenin maliyetini hızla hesapladı."
+ },
+ {
+  "r": 3,
+  "impf": "сопровождать",
+  "perf": "сопроводить",
+  "tr": "eşlik etmek",
+  "ex": "Охрана сопровождала президента.",
+  "exTr": "Muhafızlar cumhurbaşkanına eşlik etti."
+ },
+ {
+  "r": 4,
+  "impf": "осматривать",
+  "perf": "осмотреть",
+  "tr": "muayene etmek, incelemek",
+  "ex": "Врач осмотрел больного.",
+  "exTr": "Doktor hastayı muayene etti."
+ },
+ {
+  "r": 5,
+  "impf": "обсуждаться",
+  "perf": "",
+  "tr": "tartışılmak",
+  "ex": "Эта тема активно обсуждается в прессе.",
+  "exTr": "Bu konu basında yoğun biçimde tartışılıyor."
+ },
+ {
+  "r": 6,
+  "impf": "разъяснять",
+  "perf": "разъяснить",
+  "tr": "açıklığa kavuşturmak",
+  "ex": "Министр разъяснил позицию правительства.",
+  "exTr": "Bakan hükümetin tutumunu açıkladı."
+ },
+ {
+  "r": 7,
+  "impf": "уточнять",
+  "perf": "уточнить",
+  "tr": "netleştirmek",
+  "ex": "Давайте уточним детали договора.",
+  "exTr": "Sözleşmenin ayrıntılarını netleştirelim."
+ },
+ {
+  "r": 8,
+  "impf": "сокращаться",
+  "perf": "сократиться",
+  "tr": "azalmak, kısalmak",
+  "ex": "Число безработных сократилось.",
+  "exTr": "İşsizlerin sayısı azaldı."
+ },
+ {
+  "r": 9,
+  "impf": "подразумевать",
+  "perf": "",
+  "tr": "ima etmek, kastetmek",
+  "ex": "Что вы подразумеваете под этим словом?",
+  "exTr": "Bu sözle neyi kastediyorsunuz?"
+ },
+ {
+  "r": 10,
+  "impf": "намекать",
+  "perf": "намекнуть",
+  "tr": "ima etmek, üstü kapalı söylemek",
+  "ex": "Он намекнул, что скоро уйдёт.",
+  "exTr": "Yakında ayrılacağını ima etti."
+ },
+ {
+  "r": 11,
+  "impf": "подчинять",
+  "perf": "подчинить",
+  "tr": "boyun eğdirmek, tabi kılmak",
+  "ex": "Завоеватели подчинили соседние племена.",
+  "exTr": "Fatihler komşu kabileleri egemenlikleri altına aldı."
+ },
+ {
+  "r": 12,
+  "impf": "вдохновлять",
+  "perf": "вдохновить",
+  "tr": "ilham vermek",
+  "ex": "Музыка вдохновляет художника.",
+  "exTr": "Müzik ressama ilham verir."
+ },
+ {
+  "r": 13,
+  "impf": "воодушевлять",
+  "perf": "воодушевить",
+  "tr": "cesaretlendirmek, coşturmak",
+  "ex": "Победа воодушевила команду.",
+  "exTr": "Zafer takımı coşturdu."
+ },
+ {
+  "r": 14,
+  "impf": "разочаровывать",
+  "perf": "разочаровать",
+  "tr": "hayal kırıklığına uğratmak",
+  "ex": "Результат нас разочаровал.",
+  "exTr": "Sonuç bizi hayal kırıklığına uğrattı."
+ },
+ {
+  "r": 15,
+  "impf": "разочаровываться",
+  "perf": "разочароваться",
+  "tr": "hayal kırıklığına uğramak",
+  "ex": "Он разочаровался в профессии.",
+  "exTr": "Meslekten soğudu."
+ },
+ {
+  "r": 16,
+  "impf": "увлекаться",
+  "perf": "увлечься",
+  "tr": "meraklanmak, kendini kaptırmak",
+  "ex": "Она увлекается живописью.",
+  "exTr": "O resim sanatına meraklı."
+ },
+ {
+  "r": 17,
+  "impf": "удовлетворять",
+  "perf": "удовлетворить",
+  "tr": "tatmin etmek, karşılamak",
+  "ex": "Эти условия нас не удовлетворяют.",
+  "exTr": "Bu koşullar bizi tatmin etmiyor."
+ },
+ {
+  "r": 18,
+  "impf": "соблазнять",
+  "perf": "соблазнить",
+  "tr": "ayartmak, cezbetmek",
+  "ex": "Высокая зарплата соблазнила его.",
+  "exTr": "Yüksek maaş onu cezbetti."
+ },
+ {
+  "r": 19,
+  "impf": "оправдывать",
+  "perf": "оправдать",
+  "tr": "aklamak, haklı çıkarmak",
+  "ex": "Суд оправдал подсудимого.",
+  "exTr": "Mahkeme sanığı beraat ettirdi."
+ },
+ {
+  "r": 20,
+  "impf": "оправдываться",
+  "perf": "оправдаться",
+  "tr": "kendini savunmak, mazeret göstermek",
+  "ex": "Он пытался оправдаться перед начальником.",
+  "exTr": "Amirine karşı kendini haklı çıkarmaya çalıştı."
+ },
+ {
+  "r": 21,
+  "impf": "обосновывать",
+  "perf": "обосновать",
+  "tr": "temellendirmek, gerekçelendirmek",
+  "ex": "Автор обосновал свою гипотезу.",
+  "exTr": "Yazar hipotezini temellendirdi."
+ },
+ {
+  "r": 22,
+  "impf": "аргументировать",
+  "perf": "",
+  "tr": "gerekçelendirmek, delil göstermek",
+  "ex": "Нужно аргументировать своё мнение.",
+  "exTr": "Görüşünüzü gerekçelendirmeniz gerekir."
+ },
+ {
+  "r": 23,
+  "impf": "подкреплять",
+  "perf": "подкрепить",
+  "tr": "desteklemek, pekiştirmek",
+  "ex": "Данные подкрепили вывод учёных.",
+  "exTr": "Veriler bilim insanlarının sonucunu destekledi."
+ },
+ {
+  "r": 24,
+  "impf": "дополнять",
+  "perf": "дополнить",
+  "tr": "tamamlamak, eklemek",
+  "ex": "Он дополнил отчёт новыми цифрами.",
+  "exTr": "Raporu yeni rakamlarla tamamladı."
+ },
+ {
+  "r": 25,
+  "impf": "исключать",
+  "perf": "исключить",
+  "tr": "dışlamak, hariç tutmak",
+  "ex": "Это нельзя исключить.",
+  "exTr": "Bu göz ardı edilemez."
+ },
+ {
+  "r": 26,
+  "impf": "пересматривать",
+  "perf": "пересмотреть",
+  "tr": "gözden geçirmek, yeniden ele almak",
+  "ex": "Суд пересмотрел решение.",
+  "exTr": "Mahkeme kararı yeniden gözden geçirdi."
+ },
+ {
+  "r": 27,
+  "impf": "обновлять",
+  "perf": "обновить",
+  "tr": "yenilemek, güncellemek",
+  "ex": "Нужно обновить программу.",
+  "exTr": "Programı güncellemek gerekir."
+ },
+ {
+  "r": 28,
+  "impf": "модернизировать",
+  "perf": "",
+  "tr": "modernleştirmek",
+  "ex": "Завод модернизировали в прошлом году.",
+  "exTr": "Fabrika geçen yıl modernleştirildi."
+ },
+ {
+  "r": 29,
+  "impf": "совершенствовать",
+  "perf": "усовершенствовать",
+  "tr": "geliştirmek, mükemmelleştirmek",
+  "ex": "Он постоянно совершенствует свой метод.",
+  "exTr": "Yöntemini sürekli geliştiriyor."
+ },
+ {
+  "r": 30,
+  "impf": "углублять",
+  "perf": "углубить",
+  "tr": "derinleştirmek",
+  "ex": "Эти события углубили кризис.",
+  "exTr": "Bu olaylar krizi derinleştirdi."
+ },
+ {
+  "r": 31,
+  "impf": "обострять",
+  "perf": "обострить",
+  "tr": "keskinleştirmek, gerginleştirmek",
+  "ex": "Заявление обострило отношения между странами.",
+  "exTr": "Açıklama ülkeler arası ilişkileri gerginleştirdi."
+ },
+ {
+  "r": 32,
+  "impf": "смягчать",
+  "perf": "смягчить",
+  "tr": "yumuşatmak, hafifletmek",
+  "ex": "Лекарство смягчило боль.",
+  "exTr": "İlaç ağrıyı hafifletti."
+ },
+ {
+  "r": 33,
+  "impf": "усугублять",
+  "perf": "усугубить",
+  "tr": "ağırlaştırmak, kötüleştirmek",
+  "ex": "Засуха усугубила положение фермеров.",
+  "exTr": "Kuraklık çiftçilerin durumunu ağırlaştırdı."
+ },
+ {
+  "r": 34,
+  "impf": "провоцироваться",
+  "perf": "",
+  "tr": "tahrik edilmek",
+  "ex": "Конфликт часто провоцируется третьей стороной.",
+  "exTr": "Çatışma sıklıkla üçüncü bir tarafça tahrik edilir."
+ },
+ {
+  "r": 35,
+  "impf": "обуславливать",
+  "perf": "обусловить",
+  "tr": "şart koşmak, belirlemek",
+  "ex": "Климат обуславливает выбор культур.",
+  "exTr": "İklim ekilecek ürünlerin seçimini belirler."
+ },
+ {
+  "r": 36,
+  "impf": "предопределять",
+  "perf": "предопределить",
+  "tr": "önceden belirlemek",
+  "ex": "Этот факт предопределил исход войны.",
+  "exTr": "Bu olgu savaşın sonucunu önceden belirledi."
+ },
+ {
+  "r": 37,
+  "impf": "предшествовать",
+  "perf": "",
+  "tr": "önce gelmek",
+  "ex": "Грозе предшествовал сильный ветер.",
+  "exTr": "Fırtınadan önce şiddetli rüzgâr çıktı."
+ },
+ {
+  "r": 38,
+  "impf": "сопутствовать",
+  "perf": "",
+  "tr": "eşlik etmek, birlikte görülmek",
+  "ex": "Успех сопутствовал ему всю жизнь.",
+  "exTr": "Başarı ömür boyu ona eşlik etti."
+ },
+ {
+  "r": 39,
+  "impf": "сводиться",
+  "perf": "свестись",
+  "tr": "... indirgenmek",
+  "ex": "Всё сводится к одному вопросу.",
+  "exTr": "Her şey tek bir soruya indirgeniyor."
+ },
+ {
+  "r": 40,
+  "impf": "подразделять",
+  "perf": "подразделить",
+  "tr": "alt bölümlere ayırmak",
+  "ex": "Учёные подразделяют птиц на группы.",
+  "exTr": "Bilim insanları kuşları gruplara ayırır."
+ },
+ {
+  "r": 41,
+  "impf": "классифицировать",
+  "perf": "",
+  "tr": "sınıflandırmak",
+  "ex": "Растения классифицируют по семействам.",
+  "exTr": "Bitkiler familyalarına göre sınıflandırılır."
+ },
+ {
+  "r": 42,
+  "impf": "систематизировать",
+  "perf": "",
+  "tr": "sistemleştirmek",
+  "ex": "Он систематизировал собранные данные.",
+  "exTr": "Topladığı verileri sistemleştirdi."
+ },
+ {
+  "r": 43,
+  "impf": "обобщать",
+  "perf": "обобщить",
+  "tr": "genelleştirmek, özetlemek",
+  "ex": "Автор обобщил результаты исследования.",
+  "exTr": "Yazar araştırmanın sonuçlarını özetledi."
+ },
+ {
+  "r": 44,
+  "impf": "подытоживать",
+  "perf": "подытожить",
+  "tr": "sonuçlandırmak, özetlemek",
+  "ex": "В конце он подытожил сказанное.",
+  "exTr": "Sonunda söylenenleri özetledi."
+ },
+ {
+  "r": 45,
+  "impf": "оспаривать",
+  "perf": "оспорить",
+  "tr": "itiraz etmek, tartışmaya açmak",
+  "ex": "Адвокат оспорил приговор.",
+  "exTr": "Avukat karara itiraz etti."
+ },
+ {
+  "r": 46,
+  "impf": "обжаловать",
+  "perf": "",
+  "tr": "temyize götürmek, itiraz etmek",
+  "ex": "Защита обжаловала решение суда.",
+  "exTr": "Savunma mahkeme kararına itiraz etti."
+ },
+ {
+  "r": 47,
+  "impf": "допрашивать",
+  "perf": "допросить",
+  "tr": "sorguya çekmek",
+  "ex": "Следователь допросил свидетеля.",
+  "exTr": "Savcı tanığı sorguya çekti."
+ },
+ {
+  "r": 48,
+  "impf": "пресекать",
+  "perf": "пресечь",
+  "tr": "önlemek, engel olmak",
+  "ex": "Полиция пресекла попытку побега.",
+  "exTr": "Polis kaçma girişimini engelledi."
+ },
+ {
+  "r": 49,
+  "impf": "конфисковать",
+  "perf": "",
+  "tr": "el koymak",
+  "ex": "Таможня конфисковала груз.",
+  "exTr": "Gümrük yüke el koydu."
+ },
+ {
+  "r": 50,
+  "impf": "штрафовать",
+  "perf": "оштрафовать",
+  "tr": "para cezası kesmek",
+  "ex": "Водителя оштрафовали за превышение скорости.",
+  "exTr": "Sürücüye hız aşımından para cezası kesildi."
+ },
+ {
+  "r": 51,
+  "impf": "лишать",
+  "perf": "лишить",
+  "tr": "mahrum etmek",
+  "ex": "Его лишили водительских прав.",
+  "exTr": "Ehliyetine el konuldu."
+ },
+ {
+  "r": 52,
+  "impf": "освобождаться",
+  "perf": "освободиться",
+  "tr": "serbest kalmak, boşalmak",
+  "ex": "Он освободился после работы в пять.",
+  "exTr": "Saat beşte işten çıkıp boşaldı."
+ },
+ {
+  "r": 53,
+  "impf": "вербовать",
+  "perf": "завербовать",
+  "tr": "devşirmek, askere almak",
+  "ex": "Организация вербует новых сторонников.",
+  "exTr": "Örgüt yeni taraftarlar devşiriyor."
+ },
+ {
+  "r": 54,
+  "impf": "служить",
+  "perf": "послужить",
+  "tr": "hizmet etmek",
+  "ex": "Он служил в армии два года.",
+  "exTr": "İki yıl askerlik yaptı."
+ },
+ {
+  "r": 55,
+  "impf": "командовать",
+  "perf": "скомандовать",
+  "tr": "komuta etmek",
+  "ex": "Генерал командовал армией.",
+  "exTr": "General orduya komuta ediyordu."
+ },
+ {
+  "r": 56,
+  "impf": "оборонять",
+  "perf": "оборонить",
+  "tr": "savunmak",
+  "ex": "Солдаты оборонали крепость.",
+  "exTr": "Askerler kaleyi savundu."
+ },
+ {
+  "r": 57,
+  "impf": "окружать",
+  "perf": "окружить",
+  "tr": "çevrelemek",
+  "ex": "Полиция окружила здание.",
+  "exTr": "Polis binayı çevreledi."
+ },
+ {
+  "r": 58,
+  "impf": "блокировать",
+  "perf": "заблокировать",
+  "tr": "ablukaya almak, engellemek",
+  "ex": "Дорогу заблокировали протестующие.",
+  "exTr": "Yolu protestocular kapattı."
+ },
+ {
+  "r": 59,
+  "impf": "бомбить",
+  "perf": "разбомбить",
+  "tr": "bombalamak",
+  "ex": "Город бомбили всю ночь.",
+  "exTr": "Şehir bütün gece bombalandı."
+ },
+ {
+  "r": 60,
+  "impf": "эвакуировать",
+  "perf": "",
+  "tr": "tahliye etmek",
+  "ex": "Жителей эвакуировали из опасной зоны.",
+  "exTr": "Halk tehlikeli bölgeden tahliye edildi."
+ },
+ {
+  "r": 61,
+  "impf": "спасаться",
+  "perf": "спастись",
+  "tr": "kurtulmak",
+  "ex": "Многие спаслись от наводнения.",
+  "exTr": "Birçok kişi selden kurtuldu."
+ },
+ {
+  "r": 62,
+  "impf": "подвергать",
+  "perf": "подвергнуть",
+  "tr": "maruz bırakmak",
+  "ex": "Не подвергайте себя риску.",
+  "exTr": "Kendinizi riske atmayın."
+ },
+ {
+  "r": 63,
+  "impf": "подвергаться",
+  "perf": "подвергнуться",
+  "tr": "maruz kalmak",
+  "ex": "Город подвергся нападению.",
+  "exTr": "Şehir saldırıya uğradı."
+ },
+ {
+  "r": 64,
+  "impf": "обследовать",
+  "perf": "",
+  "tr": "muayene etmek, taramak",
+  "ex": "Пациента обследовали в клинике.",
+  "exTr": "Hasta klinikte muayene edildi."
+ },
+ {
+  "r": 65,
+  "impf": "диагностировать",
+  "perf": "",
+  "tr": "teşhis koymak",
+  "ex": "Врачи диагностировали грипп.",
+  "exTr": "Doktorlar grip teşhisi koydu."
+ },
+ {
+  "r": 66,
+  "impf": "оперировать",
+  "perf": "прооперировать",
+  "tr": "ameliyat etmek",
+  "ex": "Хирург прооперировал пациента.",
+  "exTr": "Cerrah hastayı ameliyat etti."
+ },
+ {
+  "r": 67,
+  "impf": "прививать",
+  "perf": "привить",
+  "tr": "aşılamak",
+  "ex": "Детям прививают от кори.",
+  "exTr": "Çocuklar kızamığa karşı aşılanır."
+ },
+ {
+  "r": 68,
+  "impf": "заражать",
+  "perf": "заразить",
+  "tr": "bulaştırmak",
+  "ex": "Он заразил коллег гриппом.",
+  "exTr": "İş arkadaşlarına grip bulaştırdı."
+ },
+ {
+  "r": 69,
+  "impf": "заражаться",
+  "perf": "заразиться",
+  "tr": "bulaşmak, hastalık kapmak",
+  "ex": "Она заразилась от брата.",
+  "exTr": "Kardeşinden kaptı."
+ },
+ {
+  "r": 70,
+  "impf": "облегчать",
+  "perf": "облегчить",
+  "tr": "hafifletmek, kolaylaştırmak",
+  "ex": "Новая система облегчает работу.",
+  "exTr": "Yeni sistem işi kolaylaştırıyor."
+ },
+ {
+  "r": 71,
+  "impf": "затруднять",
+  "perf": "затруднить",
+  "tr": "zorlaştırmak",
+  "ex": "Погода затрудняет поиски.",
+  "exTr": "Hava şartları aramayı zorlaştırıyor."
+ },
+ {
+  "r": 72,
+  "impf": "препятствовать",
+  "perf": "воспрепятствовать",
+  "tr": "engel olmak",
+  "ex": "Никто не препятствовал его планам.",
+  "exTr": "Kimse planlarına engel olmadı."
+ },
+ {
+  "r": 73,
+  "impf": "заслуживать",
+  "perf": "заслужить",
+  "tr": "hak etmek",
+  "ex": "Он заслуживает уважения.",
+  "exTr": "Saygıyı hak ediyor."
+ },
+ {
+  "r": 74,
+  "impf": "удостаиваться",
+  "perf": "удостоиться",
+  "tr": "layık görülmek",
+  "ex": "Писатель удостоился премии.",
+  "exTr": "Yazar ödüle layık görüldü."
+ },
+ {
+  "r": 75,
+  "impf": "сравниваться",
+  "perf": "сравниться",
+  "tr": "kıyaslanmak, eş olmak",
+  "ex": "С ним никто не может сравниться.",
+  "exTr": "Hiç kimse onunla boy ölçüşemez."
+ },
+ {
+  "r": 76,
+  "impf": "противопоставлять",
+  "perf": "противопоставить",
+  "tr": "karşı koymak, karşıt tutmak",
+  "ex": "Автор противопоставляет город деревне.",
+  "exTr": "Yazar şehri köye karşıt tutuyor."
+ },
+ {
+  "r": 77,
+  "impf": "противоречить",
+  "perf": "",
+  "tr": "çelişmek",
+  "ex": "Его слова противоречат фактам.",
+  "exTr": "Sözleri gerçeklerle çelişiyor."
+ },
+ {
+  "r": 78,
+  "impf": "подтверждаться",
+  "perf": "подтвердиться",
+  "tr": "doğrulanmak",
+  "ex": "Слухи не подтвердились.",
+  "exTr": "Söylentiler doğrulanmadı."
+ },
+ {
+  "r": 79,
+  "impf": "опровергаться",
+  "perf": "опровергнуться",
+  "tr": "çürütülmek",
+  "ex": "Теория была опровергнута экспериментом.",
+  "exTr": "Teori deneyle çürütüldü."
+ },
+ {
+  "r": 80,
+  "impf": "экспериментировать",
+  "perf": "поэкспериментировать",
+  "tr": "deney yapmak",
+  "ex": "Учёные экспериментируют с новым материалом.",
+  "exTr": "Bilim insanları yeni malzeme üzerinde deney yapıyor."
+ },
+ {
+  "r": 81,
+  "impf": "наблюдаться",
+  "perf": "",
+  "tr": "gözlemlenmek",
+  "ex": "В регионе наблюдается рост цен.",
+  "exTr": "Bölgede fiyat artışı gözleniyor."
+ },
+ {
+  "r": 82,
+  "impf": "фиксировать",
+  "perf": "зафиксировать",
+  "tr": "kaydetmek, tespit etmek",
+  "ex": "Приборы зафиксировали землетрясение.",
+  "exTr": "Cihazlar depremi kaydetti."
+ },
+ {
+  "r": 83,
+  "impf": "регистрировать",
+  "perf": "зарегистрировать",
+  "tr": "kaydetmek, tescil etmek",
+  "ex": "Компанию зарегистрировали в мае.",
+  "exTr": "Şirket mayıs ayında tescil edildi."
+ },
+ {
+  "r": 84,
+  "impf": "регистрироваться",
+  "perf": "зарегистрироваться",
+  "tr": "kayıt olmak",
+  "ex": "Нужно зарегистрироваться на сайте.",
+  "exTr": "Sitede kayıt olmak gerekiyor."
+ },
+ {
+  "r": 85,
+  "impf": "вносить",
+  "perf": "внести",
+  "tr": "içeri getirmek, eklemek, ödemek",
+  "ex": "Он внёс изменения в текст.",
+  "exTr": "Metinde değişiklik yaptı."
+ },
+ {
+  "r": 86,
+  "impf": "вычёркивать",
+  "perf": "вычеркнуть",
+  "tr": "çizmek, listeden silmek",
+  "ex": "Я вычеркнул его из списка.",
+  "exTr": "Onu listeden çıkardım."
+ },
+ {
+  "r": 87,
+  "impf": "акцентировать",
+  "perf": "",
+  "tr": "vurgulamak",
+  "ex": "Докладчик акцентировал внимание на проблеме.",
+  "exTr": "Konuşmacı soruna dikkat çekti."
+ },
+ {
+  "r": 88,
+  "impf": "цитироваться",
+  "perf": "",
+  "tr": "alıntılanmak",
+  "ex": "Эта книга часто цитируется.",
+  "exTr": "Bu kitap sık alıntılanır."
+ },
+ {
+  "r": 89,
+  "impf": "упоминаться",
+  "perf": "",
+  "tr": "anılmak",
+  "ex": "Его имя упоминается в документах.",
+  "exTr": "Adı belgelerde geçiyor."
+ },
+ {
+  "r": 90,
+  "impf": "предварять",
+  "perf": "предварить",
+  "tr": "başlangıçta belirtmek",
+  "ex": "Он предварил выступление шуткой.",
+  "exTr": "Konuşmasına bir espriyle başladı."
+ },
+ {
+  "r": 91,
+  "impf": "приветствовать",
+  "perf": "поприветствовать",
+  "tr": "selamlamak",
+  "ex": "Хозяин приветствовал гостей.",
+  "exTr": "Ev sahibi konukları selamladı."
+ },
+ {
+  "r": 92,
+  "impf": "поздравлять",
+  "perf": "поздравить",
+  "tr": "tebrik etmek",
+  "ex": "Поздравляю вас с праздником!",
+  "exTr": "Bayramınızı kutlarım!"
+ },
+ {
+  "r": 93,
+  "impf": "навещать",
+  "perf": "навестить",
+  "tr": "ziyaret etmek (hasta, akraba)",
+  "ex": "Я навещаю бабушку каждую неделю.",
+  "exTr": "Büyükannemi her hafta ziyaret ederim."
+ },
+ {
+  "r": 94,
+  "impf": "гостить",
+  "perf": "погостить",
+  "tr": "misafir olmak",
+  "ex": "Мы гостили у друзей неделю.",
+  "exTr": "Bir hafta arkadaşlarda misafir kaldık."
+ },
+ {
+  "r": 95,
+  "impf": "угощать",
+  "perf": "угостить",
+  "tr": "ikram etmek",
+  "ex": "Хозяйка угостила нас чаем.",
+  "exTr": "Ev sahibi bize çay ikram etti."
+ },
+ {
+  "r": 96,
+  "impf": "солить",
+  "perf": "посолить",
+  "tr": "tuzlamak",
+  "ex": "Не забудь посолить суп.",
+  "exTr": "Çorbayı tuzlamayı unutma."
+ },
+ {
+  "r": 97,
+  "impf": "печь",
+  "perf": "испечь",
+  "tr": "fırında pişirmek",
+  "ex": "Бабушка испекла пирог.",
+  "exTr": "Büyükanne börek pişirdi."
+ },
+ {
+  "r": 98,
+  "impf": "замораживать",
+  "perf": "заморозить",
+  "tr": "dondurmak",
+  "ex": "Овощи можно заморозить на зиму.",
+  "exTr": "Sebzeler kış için dondurulabilir."
+ },
+ {
+  "r": 99,
+  "impf": "размораживать",
+  "perf": "разморозить",
+  "tr": "çözdürmek",
+  "ex": "Разморозьте мясо заранее.",
+  "exTr": "Eti önceden çözdürün."
+ },
+ {
+  "r": 100,
+  "impf": "портиться",
+  "perf": "",
+  "tr": "bozulmak (yiyecek)",
+  "ex": "Летом продукты быстро портятся.",
+  "exTr": "Yazın yiyecekler çabuk bozulur."
+ },
+ {
+  "r": 101,
+  "impf": "закусывать",
+  "perf": "закусить",
+  "tr": "bir şeyler atıştırmak",
+  "ex": "Мы закусили бутербродами.",
+  "exTr": "Sandviçlerle karnımızı doyurduk."
+ },
+ {
+  "r": 102,
+  "impf": "голодать",
+  "perf": "поголодать",
+  "tr": "aç kalmak",
+  "ex": "Люди голодали несколько месяцев.",
+  "exTr": "İnsanlar aylarca aç kaldı."
+ },
+ {
+  "r": 103,
+  "impf": "наедаться",
+  "perf": "наесться",
+  "tr": "doymak",
+  "ex": "Я наелся до отвала.",
+  "exTr": "Tıka basa yedim."
+ },
+ {
+  "r": 104,
+  "impf": "пьянеть",
+  "perf": "опьянеть",
+  "tr": "sarhoş olmak",
+  "ex": "Он быстро опьянел от вина.",
+  "exTr": "Şaraptan çabuk sarhoş oldu."
+ },
+ {
+  "r": 105,
+  "impf": "трезветь",
+  "perf": "протрезветь",
+  "tr": "ayılmak",
+  "ex": "К утру он протрезвел.",
+  "exTr": "Sabaha doğru ayıldı."
+ },
+ {
+  "r": 106,
+  "impf": "курить",
+  "perf": "покурить",
+  "tr": "sigara içmek",
+  "ex": "Здесь курить запрещено.",
+  "exTr": "Burada sigara içmek yasak."
+ },
+ {
+  "r": 107,
+  "impf": "худеть",
+  "perf": "похудеть",
+  "tr": "zayıflamak",
+  "ex": "Она сильно похудела за лето.",
+  "exTr": "Yaz boyunca çok zayıfladı."
+ },
+ {
+  "r": 108,
+  "impf": "толстеть",
+  "perf": "потолстеть",
+  "tr": "kilo almak",
+  "ex": "Он потолстел после праздников.",
+  "exTr": "Bayramlardan sonra kilo aldı."
+ },
+ {
+  "r": 109,
+  "impf": "поправляться",
+  "perf": "поправиться",
+  "tr": "iyileşmek, kilo almak",
+  "ex": "Больной быстро поправляется.",
+  "exTr": "Hasta çabuk iyileşiyor."
+ },
+ {
+  "r": 110,
+  "impf": "стареть",
+  "perf": "состариться",
+  "tr": "yaşlanmak",
+  "ex": "Люди стареют, но душа остаётся молодой.",
+  "exTr": "İnsanlar yaşlanır ama ruh genç kalır."
+ },
+ {
+  "r": 111,
+  "impf": "молодеть",
+  "perf": "помолодеть",
+  "tr": "gençleşmek",
+  "ex": "После отпуска она помолодела.",
+  "exTr": "Tatilden sonra gençleşti."
+ },
+ {
+  "r": 112,
+  "impf": "взрослеть",
+  "perf": "повзрослеть",
+  "tr": "büyümek, olgunlaşmak",
+  "ex": "Дети быстро взрослеют.",
+  "exTr": "Çocuklar çabuk büyür."
+ },
+ {
+  "r": 113,
+  "impf": "краснеть",
+  "perf": "покраснеть",
+  "tr": "kızarmak",
+  "ex": "Она покраснела от смущения.",
+  "exTr": "Utancından kızardı."
+ },
+ {
+  "r": 114,
+  "impf": "бледнеть",
+  "perf": "побледнеть",
+  "tr": "solmak, sararmak",
+  "ex": "Он побледнел от страха.",
+  "exTr": "Korkudan sarardı."
+ },
+ {
+  "r": 115,
+  "impf": "дрожать",
+  "perf": "задрожать",
+  "tr": "titremek",
+  "ex": "Дети дрожали от холода.",
+  "exTr": "Çocuklar soğuktan titriyordu."
+ },
+ {
+  "r": 116,
+  "impf": "потеть",
+  "perf": "вспотеть",
+  "tr": "terlemek",
+  "ex": "В жару я сильно потею.",
+  "exTr": "Sıcakta çok terlerim."
+ },
+ {
+  "r": 117,
+  "impf": "вздыхать",
+  "perf": "вздохнуть",
+  "tr": "iç çekmek",
+  "ex": "Она тяжело вздохнула.",
+  "exTr": "Ağır bir iç çekti."
+ },
+ {
+  "r": 118,
+  "impf": "зевать",
+  "perf": "зевнуть",
+  "tr": "esnemek",
+  "ex": "Студент зевал на лекции.",
+  "exTr": "Öğrenci derste esniyordu."
+ },
+ {
+  "r": 119,
+  "impf": "храпеть",
+  "perf": "захрапеть",
+  "tr": "horlamak",
+  "ex": "Муж храпит всю ночь.",
+  "exTr": "Kocam bütün gece horlar."
+ },
+ {
+  "r": 120,
+  "impf": "грустить",
+  "perf": "погрустить",
+  "tr": "hüzünlenmek",
+  "ex": "Он грустит без друзей.",
+  "exTr": "Arkadaşları olmadan hüzünleniyor."
+ },
+ {
+  "r": 121,
+  "impf": "скучать",
+  "perf": "заскучать",
+  "tr": "sıkılmak, özlemek",
+  "ex": "Я скучаю по родителям.",
+  "exTr": "Anne babamı özlüyorum."
+ },
+ {
+  "r": 122,
+  "impf": "тосковать",
+  "perf": "затосковать",
+  "tr": "özlem duymak, hasret çekmek",
+  "ex": "Он тоскует по родине.",
+  "exTr": "Vatan hasreti çekiyor."
+ },
+ {
+  "r": 123,
+  "impf": "жалеть",
+  "perf": "пожалеть",
+  "tr": "acımak, pişman olmak",
+  "ex": "Я не жалею о своём выборе.",
+  "exTr": "Seçimimden pişman değilim."
+ },
+ {
+  "r": 124,
+  "impf": "сочувствовать",
+  "perf": "посочувствовать",
+  "tr": "sempati duymak, acımak",
+  "ex": "Мы сочувствуем вашему горю.",
+  "exTr": "Acınızı paylaşıyoruz."
+ },
+ {
+  "r": 125,
+  "impf": "завидовать",
+  "perf": "позавидовать",
+  "tr": "kıskanmak",
+  "ex": "Не завидуй чужому успеху.",
+  "exTr": "Başkasının başarısını kıskanma."
+ },
+ {
+  "r": 126,
+  "impf": "гордиться",
+  "perf": "погордиться",
+  "tr": "gurur duymak",
+  "ex": "Родители гордятся сыном.",
+  "exTr": "Ebeveynler oğlu ile gurur duyuyor."
+ },
+ {
+  "r": 127,
+  "impf": "стыдиться",
+  "perf": "устыдиться",
+  "tr": "utanmak",
+  "ex": "Ему стыдно за своё поведение.",
+  "exTr": "Davranışından utanıyor."
+ },
+ {
+  "r": 128,
+  "impf": "смущаться",
+  "perf": "смутиться",
+  "tr": "mahcup olmak",
+  "ex": "Она смутилась от комплимента.",
+  "exTr": "Iltifat karşısında mahcup oldu."
+ },
+ {
+  "r": 129,
+  "impf": "возмущаться",
+  "perf": "возмутиться",
+  "tr": "öfkelenmek, tepki göstermek",
+  "ex": "Люди возмущаются ростом цен.",
+  "exTr": "İnsanlar fiyat artışına tepki gösteriyor."
+ },
+ {
+  "r": 130,
+  "impf": "негодовать",
+  "perf": "",
+  "tr": "öfkelenmek, kızmak",
+  "ex": "Зрители негодовали из-за решения судьи.",
+  "exTr": "Seyirciler hakemin kararına öfkelendi."
+ },
+ {
+  "r": 131,
+  "impf": "сердиться",
+  "perf": "рассердиться",
+  "tr": "kızmak",
+  "ex": "Не сердись на меня.",
+  "exTr": "Bana kızma."
+ },
+ {
+  "r": 132,
+  "impf": "ревновать",
+  "perf": "приревновать",
+  "tr": "kıskanmak (aşk)",
+  "ex": "Он ревнует жену к коллегам.",
+  "exTr": "Karısını iş arkadaşlarından kıskanıyor."
+ },
+ {
+  "r": 133,
+  "impf": "влюбляться",
+  "perf": "влюбиться",
+  "tr": "âşık olmak",
+  "ex": "Она влюбилась с первого взгляда.",
+  "exTr": "İlk görüşte âşık oldu."
+ },
+ {
+  "r": 134,
+  "impf": "расставаться",
+  "perf": "расстаться",
+  "tr": "ayrılmak",
+  "ex": "Они расстались после ссоры.",
+  "exTr": "Kavgadan sonra ayrıldılar."
+ },
+ {
+  "r": 135,
+  "impf": "разводиться",
+  "perf": "развестись",
+  "tr": "boşanmak",
+  "ex": "Супруги развелись в прошлом году.",
+  "exTr": "Çift geçen yıl boşandı."
+ },
+ {
+  "r": 136,
+  "impf": "рожать",
+  "perf": "родить",
+  "tr": "doğurmak",
+  "ex": "Она родила сына.",
+  "exTr": "Bir oğul doğurdu."
+ },
+ {
+  "r": 137,
+  "impf": "усыновлять",
+  "perf": "усыновить",
+  "tr": "evlat edinmek",
+  "ex": "Семья усыновила мальчика.",
+  "exTr": "Aile bir erkek çocuğu evlat edindi."
+ },
+ {
+  "r": 138,
+  "impf": "навязывать",
+  "perf": "навязать",
+  "tr": "dayatmak",
+  "ex": "Нельзя навязывать своё мнение.",
+  "exTr": "Fikrini dayatmamalı."
+ },
+ {
+  "r": 139,
+  "impf": "подражать",
+  "perf": "",
+  "tr": "taklit etmek",
+  "ex": "Дети подражают взрослым.",
+  "exTr": "Çocuklar büyükleri taklit eder."
+ },
+ {
+  "r": 140,
+  "impf": "копировать",
+  "perf": "скопировать",
+  "tr": "kopyalamak",
+  "ex": "Скопируйте файл на флешку.",
+  "exTr": "Dosyayı flaşa kopyalayın."
+ },
+ {
+  "r": 141,
+  "impf": "сканировать",
+  "perf": "отсканировать",
+  "tr": "taramak (tarayıcı ile)",
+  "ex": "Отсканируйте документы и отправьте.",
+  "exTr": "Belgeleri tarayıp gönderin."
+ },
+ {
+  "r": 142,
+  "impf": "скачивать",
+  "perf": "скачать",
+  "tr": "indirmek (dosya)",
+  "ex": "Я скачал новое приложение.",
+  "exTr": "Yeni uygulamayı indirdim."
+ },
+ {
+  "r": 143,
+  "impf": "загружать",
+  "perf": "загрузить",
+  "tr": "yüklemek",
+  "ex": "Он загрузил фото в интернет.",
+  "exTr": "Fotoğrafı internete yükledi."
+ },
+ {
+  "r": 144,
+  "impf": "удалять",
+  "perf": "удалить",
+  "tr": "silmek, kaldırmak",
+  "ex": "Я случайно удалил файл.",
+  "exTr": "Dosyayı yanlışlıkla sildim."
+ },
+ {
+  "r": 145,
+  "impf": "подключать",
+  "perf": "подключить",
+  "tr": "bağlamak",
+  "ex": "Подключите принтер к компьютеру.",
+  "exTr": "Yazıcıyı bilgisayara bağlayın."
+ },
+ {
+  "r": 146,
+  "impf": "отключать",
+  "perf": "отключить",
+  "tr": "bağlantıyı kesmek",
+  "ex": "На ночь воду отключили.",
+  "exTr": "Geceleyin suyu kesmişlerdi."
+ },
+ {
+  "r": 147,
+  "impf": "настраивать",
+  "perf": "настроить",
+  "tr": "ayarlamak",
+  "ex": "Мастер настроил телевизор.",
+  "exTr": "Usta televizyonu ayarladı."
+ },
+ {
+  "r": 148,
+  "impf": "перезагружать",
+  "perf": "перезагрузить",
+  "tr": "yeniden başlatmak",
+  "ex": "Перезагрузите компьютер.",
+  "exTr": "Bilgisayarı yeniden başlatın."
+ },
+ {
+  "r": 149,
+  "impf": "зависать",
+  "perf": "зависнуть",
+  "tr": "donmak (bilgisayar)",
+  "ex": "Компьютер часто зависает.",
+  "exTr": "Bilgisayar sık sık donuyor."
+ },
+ {
+  "r": 150,
+  "impf": "взламывать",
+  "perf": "взломать",
+  "tr": "hacklemek, zorla açmak",
+  "ex": "Хакеры взломали сайт банка.",
+  "exTr": "Bilgisayar korsanları banka sitesini hackledi."
+ },
+ {
+  "r": 151,
+  "impf": "шифровать",
+  "perf": "зашифровать",
+  "tr": "şifrelemek",
+  "ex": "Данные необходимо шифровать.",
+  "exTr": "Veriler şifrelenmelidir."
+ },
+ {
+  "r": 152,
+  "impf": "программировать",
+  "perf": "запрограммировать",
+  "tr": "programlamak",
+  "ex": "Он программирует на Python.",
+  "exTr": "Python ile programlama yapıyor."
+ },
+ {
+  "r": 153,
+  "impf": "транслировать",
+  "perf": "протранслировать",
+  "tr": "yayınlamak",
+  "ex": "Канал транслирует матч в прямом эфире.",
+  "exTr": "Kanal maçı canlı yayınlıyor."
+ },
+ {
+  "r": 154,
+  "impf": "вещать",
+  "perf": "",
+  "tr": "yayın yapmak",
+  "ex": "Радио вещает на трёх языках.",
+  "exTr": "Radyo üç dilde yayın yapıyor."
+ },
+ {
+  "r": 155,
+  "impf": "фотографировать",
+  "perf": "сфотографировать",
+  "tr": "fotoğraf çekmek",
+  "ex": "Он фотографирует природу.",
+  "exTr": "Doğa fotoğrafı çekiyor."
+ },
+ {
+  "r": 156,
+  "impf": "дирижировать",
+  "perf": "",
+  "tr": "orkestra şefliği yapmak",
+  "ex": "Он дирижирует оркестром.",
+  "exTr": "Orkestrayı yönetiyor."
+ },
+ {
+  "r": 157,
+  "impf": "сочинять",
+  "perf": "сочинить",
+  "tr": "bestelemek, yazmak",
+  "ex": "Композитор сочинил симфонию.",
+  "exTr": "Besteci bir senfoni besteledi."
+ },
+ {
+  "r": 158,
+  "impf": "аплодировать",
+  "perf": "поаплодировать",
+  "tr": "alkışlamak",
+  "ex": "Зал аплодировал артистам.",
+  "exTr": "Salon sanatçıları alkışladı."
+ },
+ {
+  "r": 159,
+  "impf": "репетировать",
+  "perf": "отрепетировать",
+  "tr": "prova yapmak",
+  "ex": "Актёры репетируют спектакль.",
+  "exTr": "Oyuncular oyunun provasını yapıyor."
+ },
+ {
+  "r": 160,
+  "impf": "выставлять",
+  "perf": "выставить",
+  "tr": "sergilemek",
+  "ex": "Музей выставил новые картины.",
+  "exTr": "Müze yeni tabloları sergiledi."
+ },
+ {
+  "r": 161,
+  "impf": "коллекционировать",
+  "perf": "",
+  "tr": "koleksiyon yapmak",
+  "ex": "Он коллекционирует марки.",
+  "exTr": "Pul biriktiriyor."
+ },
+ {
+  "r": 162,
+  "impf": "реставрировать",
+  "perf": "отреставрировать",
+  "tr": "restore etmek",
+  "ex": "Храм отреставрировали недавно.",
+  "exTr": "Tapınak yakın zamanda restore edildi."
+ },
+ {
+  "r": 163,
+  "impf": "раскапывать",
+  "perf": "раскопать",
+  "tr": "kazı yapmak",
+  "ex": "Археологи раскопали древний город.",
+  "exTr": "Arkeologlar eski bir şehri ortaya çıkardı."
+ },
+ {
+  "r": 164,
+  "impf": "возводить",
+  "perf": "возвести",
+  "tr": "inşa etmek, dikmek",
+  "ex": "Здание возвели за год.",
+  "exTr": "Bina bir yılda inşa edildi."
+ },
+ {
+  "r": 165,
+  "impf": "сносить",
+  "perf": "снести",
+  "tr": "yıkmak",
+  "ex": "Старый дом снесли.",
+  "exTr": "Eski ev yıkıldı."
+ },
+ {
+  "r": 166,
+  "impf": "застраивать",
+  "perf": "застроить",
+  "tr": "yapılaşmak, imar etmek",
+  "ex": "Район застроили новыми домами.",
+  "exTr": "Semt yeni evlerle dolduruldu."
+ },
+ {
+  "r": 167,
+  "impf": "благоустраивать",
+  "perf": "благоустроить",
+  "tr": "düzenlemek, bayındırlaştırmak",
+  "ex": "Парк благоустроили к празднику.",
+  "exTr": "Park bayrama kadar düzenlendi."
+ },
+ {
+  "r": 168,
+  "impf": "озеленять",
+  "perf": "озеленить",
+  "tr": "ağaçlandırmak, yeşillendirmek",
+  "ex": "Город озеленили новыми деревьями.",
+  "exTr": "Şehir yeni ağaçlarla yeşillendirildi."
+ },
+ {
+  "r": 169,
+  "impf": "асфальтировать",
+  "perf": "заасфальтировать",
+  "tr": "asfaltlamak",
+  "ex": "Дорогу заасфальтировали летом.",
+  "exTr": "Yol yazın asfaltlandı."
+ },
+ {
+  "r": 170,
+  "impf": "утеплять",
+  "perf": "утеплить",
+  "tr": "yalıtmak, ısı yalıtımı yapmak",
+  "ex": "Дом утеплили на зиму.",
+  "exTr": "Ev kış için yalıtıldı."
+ },
+ {
+  "r": 171,
+  "impf": "освещать",
+  "perf": "осветить",
+  "tr": "aydınlatmak, haber yapmak",
+  "ex": "Газета осветила событие подробно.",
+  "exTr": "Gazete olayı ayrıntılı biçimde haberleştirdi."
+ },
+ {
+  "r": 172,
+  "impf": "затапливать",
+  "perf": "затопить",
+  "tr": "su basmak",
+  "ex": "Река затопила деревню.",
+  "exTr": "Nehir köyü su altında bıraktı."
+ },
+ {
+  "r": 173,
+  "impf": "засыхать",
+  "perf": "засохнуть",
+  "tr": "kurumak",
+  "ex": "Цветы засохли без воды.",
+  "exTr": "Çiçekler susuzluktan kurudu."
+ },
+ {
+  "r": 174,
+  "impf": "увядать",
+  "perf": "увянуть",
+  "tr": "solmak",
+  "ex": "Розы быстро увяли.",
+  "exTr": "Güller çabuk soldu."
+ },
+ {
+  "r": 175,
+  "impf": "прорастать",
+  "perf": "прорасти",
+  "tr": "filizlenmek",
+  "ex": "Семена проросли через неделю.",
+  "exTr": "Tohumlar bir hafta sonra filizlendi."
+ },
+ {
+  "r": 176,
+  "impf": "созревать",
+  "perf": "созреть",
+  "tr": "olgunlaşmak",
+  "ex": "Яблоки созрели в августе.",
+  "exTr": "Elmalar ağustosta olgunlaştı."
+ },
+ {
+  "r": 177,
+  "impf": "пахать",
+  "perf": "вспахать",
+  "tr": "sürmek (tarla)",
+  "ex": "Фермер вспахал поле.",
+  "exTr": "Çiftçi tarlayı sürdü."
+ },
+ {
+  "r": 178,
+  "impf": "сеять",
+  "perf": "посеять",
+  "tr": "ekmek",
+  "ex": "Пшеницу сеют весной.",
+  "exTr": "Buğday ilkbaharda ekilir."
+ },
+ {
+  "r": 179,
+  "impf": "поливать",
+  "perf": "полить",
+  "tr": "sulamak",
+  "ex": "Я поливаю цветы каждый день.",
+  "exTr": "Çiçekleri her gün sularım."
+ },
+ {
+  "r": 180,
+  "impf": "удобрять",
+  "perf": "удобрить",
+  "tr": "gübrelemek",
+  "ex": "Землю удобрили весной.",
+  "exTr": "Toprak ilkbaharda gübrelendi."
+ },
+ {
+  "r": 181,
+  "impf": "пасти",
+  "perf": "",
+  "tr": "otlatmak",
+  "ex": "Пастух пасёт овец.",
+  "exTr": "Çoban koyun otlatıyor."
+ },
+ {
+  "r": 182,
+  "impf": "доить",
+  "perf": "подоить",
+  "tr": "sağmak",
+  "ex": "Крестьянка доит корову.",
+  "exTr": "Köylü kadın ineği sağıyor."
+ },
+ {
+  "r": 183,
+  "impf": "охотиться",
+  "perf": "поохотиться",
+  "tr": "avlanmak",
+  "ex": "Волки охотятся стаей.",
+  "exTr": "Kurtlar sürü hâlinde avlanır."
+ },
+ {
+  "r": 184,
+  "impf": "тонуть",
+  "perf": "утонуть",
+  "tr": "batmak, boğulmak",
+  "ex": "Корабль утонул во время шторма.",
+  "exTr": "Gemi fırtınada battı."
+ },
+ {
+  "r": 185,
+  "impf": "всплывать",
+  "perf": "всплыть",
+  "tr": "su yüzüne çıkmak",
+  "ex": "Подводная лодка всплыла.",
+  "exTr": "Denizaltı su yüzüne çıktı."
+ },
+ {
+  "r": 186,
+  "impf": "нырять",
+  "perf": "нырнуть",
+  "tr": "dalmak",
+  "ex": "Мальчик нырнул в воду.",
+  "exTr": "Çocuk suya daldı."
+ },
+ {
+  "r": 187,
+  "impf": "грести",
+  "perf": "погрести",
+  "tr": "kürek çekmek",
+  "ex": "Они гребли к берегу.",
+  "exTr": "Kıyıya doğru kürek çektiler."
+ },
+ {
+  "r": 188,
+  "impf": "причаливать",
+  "perf": "причалить",
+  "tr": "yanaşmak, rıhtıma yanaşmak",
+  "ex": "Паром причалил к берегу.",
+  "exTr": "Feribot kıyıya yanaştı."
+ },
+ {
+  "r": 189,
+  "impf": "отчаливать",
+  "perf": "отчалить",
+  "tr": "rıhtımdan ayrılmak",
+  "ex": "Корабль отчалил на рассвете.",
+  "exTr": "Gemi şafakta rıhtımdan ayrıldı."
+ },
+ {
+  "r": 190,
+  "impf": "взлетать",
+  "perf": "взлететь",
+  "tr": "havalanmak",
+  "ex": "Самолёт взлетел вовремя.",
+  "exTr": "Uçak zamanında havalandı."
+ },
+ {
+  "r": 191,
+  "impf": "приземляться",
+  "perf": "приземлиться",
+  "tr": "inmek (uçak)",
+  "ex": "Самолёт приземлился в Анкаре.",
+  "exTr": "Uçak Ankara'ya indi."
+ },
+ {
+  "r": 192,
+  "impf": "парить",
+  "perf": "взмыть",
+  "tr": "süzülmek",
+  "ex": "Орёл парит над горами.",
+  "exTr": "Kartal dağların üzerinde süzülüyor."
+ },
+ {
+  "r": 193,
+  "impf": "тормозить",
+  "perf": "затормозить",
+  "tr": "fren yapmak",
+  "ex": "Водитель резко затормозил.",
+  "exTr": "Sürücü aniden fren yaptı."
+ },
+ {
+  "r": 194,
+  "impf": "разгоняться",
+  "perf": "разогнаться",
+  "tr": "hızlanmak",
+  "ex": "Машина разогналась до ста.",
+  "exTr": "Araba yüze kadar hızlandı."
+ },
+ {
+  "r": 195,
+  "impf": "парковать",
+  "perf": "припарковать",
+  "tr": "park etmek",
+  "ex": "Я припарковал машину у дома.",
+  "exTr": "Arabayı evin önüne park ettim."
+ },
+ {
+  "r": 196,
+  "impf": "заправлять",
+  "perf": "заправить",
+  "tr": "yakıt doldurmak",
+  "ex": "Мы заправили машину.",
+  "exTr": "Arabaya yakıt doldurduk."
+ },
+ {
+  "r": 197,
+  "impf": "врезаться",
+  "perf": "",
+  "tr": "çarpmak",
+  "ex": "Автомобиль врезался в дерево.",
+  "exTr": "Araba ağaca çarptı."
+ },
+ {
+  "r": 198,
+  "impf": "опрокидываться",
+  "perf": "опрокинуться",
+  "tr": "devrilmek",
+  "ex": "Лодка опрокинулась.",
+  "exTr": "Tekne devrildi."
+ },
+ {
+  "r": 199,
+  "impf": "пересаживаться",
+  "perf": "пересесть",
+  "tr": "aktarma yapmak, başka yere oturmak",
+  "ex": "На следующей станции пересядьте на метро.",
+  "exTr": "Bir sonraki durakta metroya aktarma yapın."
+ },
+ {
+  "r": 200,
+  "impf": "подвозить",
+  "perf": "подвезти",
+  "tr": "arabayla bırakmak",
+  "ex": "Я подвезу вас до вокзала.",
+  "exTr": "Sizi istasyona kadar bırakırım."
+ },
+ {
+  "r": 201,
+  "impf": "бронировать",
+  "perf": "забронировать",
+  "tr": "rezervasyon yapmak",
+  "ex": "Я забронировал номер в отеле.",
+  "exTr": "Otelde oda ayırttım."
+ },
+ {
+  "r": 202,
+  "impf": "оформлять",
+  "perf": "оформить",
+  "tr": "düzenlemek, hazırlamak (evrak)",
+  "ex": "Нужно оформить визу.",
+  "exTr": "Vize işlemlerini yapmak gerekir."
+ },
+ {
+  "r": 203,
+  "impf": "декларировать",
+  "perf": "продекларировать",
+  "tr": "beyan etmek",
+  "ex": "На границе нужно декларировать деньги.",
+  "exTr": "Sınırda parayı beyan etmek gerekir."
+ },
+ {
+  "r": 204,
+  "impf": "пересекать",
+  "perf": "пересечь",
+  "tr": "geçmek (sınır, yol)",
+  "ex": "Мы пересекли границу ночью.",
+  "exTr": "Sınırı geceleyin geçtik."
+ },
+ {
+  "r": 205,
+  "impf": "эмигрировать",
+  "perf": "",
+  "tr": "göç etmek (yurt dışına)",
+  "ex": "Многие эмигрировали в Германию.",
+  "exTr": "Birçok kişi Almanya'ya göç etti."
+ },
+ {
+  "r": 206,
+  "impf": "иммигрировать",
+  "perf": "",
+  "tr": "göç etmek (ülkeye)",
+  "ex": "Его семья иммигрировала в Канаду.",
+  "exTr": "Ailesi Kanada'ya göç etti."
+ },
+ {
+  "r": 207,
+  "impf": "натурализоваться",
+  "perf": "",
+  "tr": "vatandaşlığa geçmek",
+  "ex": "Он натурализовался в США.",
+  "exTr": "ABD vatandaşlığına geçti."
+ },
+ {
+  "r": 208,
+  "impf": "адаптироваться",
+  "perf": "",
+  "tr": "uyum sağlamak",
+  "ex": "Мигранты быстро адаптируются.",
+  "exTr": "Göçmenler çabuk uyum sağlar."
+ },
+ {
+  "r": 209,
+  "impf": "привыкать",
+  "perf": "привыкнуть",
+  "tr": "alışmak",
+  "ex": "Я привык к местному климату.",
+  "exTr": "Buranın iklimine alıştım."
+ },
+ {
+  "r": 210,
+  "impf": "приспосабливаться",
+  "perf": "приспособиться",
+  "tr": "uyum sağlamak, adapte olmak",
+  "ex": "Животные приспосабливаются к холоду.",
+  "exTr": "Hayvanlar soğuğa uyum sağlar."
+ },
+ {
+  "r": 211,
+  "impf": "отвыкать",
+  "perf": "отвыкнуть",
+  "tr": "alışkanlığı bırakmak",
+  "ex": "Я отвык вставать рано.",
+  "exTr": "Erken kalkma alışkanlığımı kaybettim."
+ },
+ {
+  "r": 212,
+  "impf": "осваивать",
+  "perf": "освоить",
+  "tr": "öğrenmek, hakim olmak, ele geçirmek",
+  "ex": "Он освоил профессию за год.",
+  "exTr": "Mesleği bir yılda öğrendi."
+ },
+ {
+  "r": 213,
+  "impf": "совершенствоваться",
+  "perf": "",
+  "tr": "kendini geliştirmek",
+  "ex": "Нужно постоянно совершенствоваться.",
+  "exTr": "Sürekli kendini geliştirmek gerekir."
+ },
+ {
+  "r": 214,
+  "impf": "стажироваться",
+  "perf": "",
+  "tr": "staj yapmak",
+  "ex": "Она стажируется в крупной компании.",
+  "exTr": "Büyük bir şirkette staj yapıyor."
+ },
+ {
+  "r": 215,
+  "impf": "поступать",
+  "perf": "поступить",
+  "tr": "girmek (okul), davranmak",
+  "ex": "Она поступила в университет.",
+  "exTr": "Üniversiteye girdi."
+ },
+ {
+  "r": 216,
+  "impf": "отчислять",
+  "perf": "отчислить",
+  "tr": "okuldan atmak",
+  "ex": "Студента отчислили за прогулы.",
+  "exTr": "Öğrenci devamsızlık yüzünden okuldan atıldı."
+ },
+ {
+  "r": 217,
+  "impf": "пересдавать",
+  "perf": "пересдать",
+  "tr": "sınava tekrar girmek",
+  "ex": "Ему пришлось пересдать экзамен.",
+  "exTr": "Sınava tekrar girmek zorunda kaldı."
+ },
+ {
+  "r": 218,
+  "impf": "списывать",
+  "perf": "списать",
+  "tr": "kopya çekmek",
+  "ex": "Он списал у соседа.",
+  "exTr": "Yan sırasından kopya çekti."
+ },
+ {
+  "r": 219,
+  "impf": "зубрить",
+  "perf": "вызубрить",
+  "tr": "ezberlemek",
+  "ex": "Он зубрил правила всю ночь.",
+  "exTr": "Bütün gece kuralları ezberledi."
+ },
+ {
+  "r": 220,
+  "impf": "конспектировать",
+  "perf": "законспектировать",
+  "tr": "not tutmak",
+  "ex": "Студенты конспектируют лекцию.",
+  "exTr": "Öğrenciler dersin notunu tutuyor."
+ },
+ {
+  "r": 221,
+  "impf": "прогуливать",
+  "perf": "прогулять",
+  "tr": "dersi asmak",
+  "ex": "Он прогулял урок.",
+  "exTr": "Dersi astı."
+ },
+ {
+  "r": 222,
+  "impf": "склонять",
+  "perf": "просклонять",
+  "tr": "çekimlemek (ad)",
+  "ex": "Студенты склоняют существительные.",
+  "exTr": "Öğrenciler isimleri çekimliyor."
+ },
+ {
+  "r": 223,
+  "impf": "спрягать",
+  "perf": "проспрягать",
+  "tr": "fiil çekimlemek",
+  "ex": "Нужно спрягать глаголы.",
+  "exTr": "Fiilleri çekimlemek gerekir."
+ },
+ {
+  "r": 224,
+  "impf": "выговаривать",
+  "perf": "выговорить",
+  "tr": "telaffuz etmek, ağzından çıkarmak",
+  "ex": "Ребёнок ещё не выговаривает букву «р».",
+  "exTr": "Çocuk henüz «r» harfini söyleyemiyor."
+ },
+ {
+  "r": 225,
+  "impf": "заикаться",
+  "perf": "заикнуться",
+  "tr": "kekelemek",
+  "ex": "Он заикается от волнения.",
+  "exTr": "Heyecandan kekeliyor."
+ },
+ {
+  "r": 226,
+  "impf": "шептать",
+  "perf": "прошептать",
+  "tr": "fısıldamak",
+  "ex": "Она прошептала что-то на ухо.",
+  "exTr": "Kulağına bir şey fısıldadı."
+ },
+ {
+  "r": 227,
+  "impf": "бормотать",
+  "perf": "пробормотать",
+  "tr": "mırıldanmak",
+  "ex": "Он пробормотал извинения.",
+  "exTr": "Özür dileyen sözler mırıldandı."
+ },
+ {
+  "r": 228,
+  "impf": "восклицать",
+  "perf": "воскликнуть",
+  "tr": "bağırmak, ünlem yapmak",
+  "ex": "«Как красиво!» — воскликнула она.",
+  "exTr": "«Ne güzel!» diye haykırdı."
+ },
+ {
+  "r": 229,
+  "impf": "вздрагивать",
+  "perf": "вздрогнуть",
+  "tr": "ürkmek, irkilmek",
+  "ex": "Я вздрогнул от неожиданного звука.",
+  "exTr": "Beklenmedik sesten irkildim."
+ },
+ {
+  "r": 230,
+  "impf": "оглядываться",
+  "perf": "оглянуться",
+  "tr": "arkasına bakmak",
+  "ex": "Он оглянулся и улыбнулся.",
+  "exTr": "Arkasına baktı ve gülümsedi."
+ },
+ {
+  "r": 231,
+  "impf": "прислушиваться",
+  "perf": "прислушаться",
+  "tr": "kulak vermek",
+  "ex": "Прислушайтесь к совету врача.",
+  "exTr": "Doktorun tavsiyesine kulak verin."
+ },
+ {
+  "r": 232,
+  "impf": "всматриваться",
+  "perf": "всмотреться",
+  "tr": "dikkatle bakmak",
+  "ex": "Он всматривался в темноту.",
+  "exTr": "Karanlığa dikkatle baktı."
+ },
+ {
+  "r": 233,
+  "impf": "подмигивать",
+  "perf": "подмигнуть",
+  "tr": "göz kırpmak",
+  "ex": "Она подмигнула мне.",
+  "exTr": "Bana göz kırptı."
+ },
+ {
+  "r": 234,
+  "impf": "кивать",
+  "perf": "кивнуть",
+  "tr": "baş sallamak",
+  "ex": "Он кивнул в знак согласия.",
+  "exTr": "Onay anlamında başını salladı."
+ },
+ {
+  "r": 235,
+  "impf": "махать",
+  "perf": "махнуть",
+  "tr": "el sallamak",
+  "ex": "Дети машут вслед поезду.",
+  "exTr": "Çocuklar trene el sallıyor."
+ },
+ {
+  "r": 236,
+  "impf": "хлопать",
+  "perf": "хлопнуть",
+  "tr": "çırpmak, çarpmak",
+  "ex": "Он хлопнул дверью.",
+  "exTr": "Kapıyı çarptı."
+ },
+ {
+  "r": 237,
+  "impf": "свистеть",
+  "perf": "свистнуть",
+  "tr": "ıslık çalmak",
+  "ex": "Судья свистнул.",
+  "exTr": "Hakem düdük çaldı."
+ },
+ {
+  "r": 238,
+  "impf": "гудеть",
+  "perf": "прогудеть",
+  "tr": "vızıldamak, korna çalmak",
+  "ex": "Машины гудят на дороге.",
+  "exTr": "Arabalar yolda korna çalıyor."
+ },
+ {
+  "r": 239,
+  "impf": "скрипеть",
+  "perf": "скрипнуть",
+  "tr": "gıcırdamak",
+  "ex": "Старая дверь скрипит.",
+  "exTr": "Eski kapı gıcırdıyor."
+ },
+ {
+  "r": 240,
+  "impf": "греметь",
+  "perf": "прогреметь",
+  "tr": "gürlemek",
+  "ex": "За окном гремит гром.",
+  "exTr": "Pencerenin dışında gök gürlüyor."
+ },
+ {
+  "r": 241,
+  "impf": "шуршать",
+  "perf": "зашуршать",
+  "tr": "hışırdamak",
+  "ex": "Листья шуршат под ногами.",
+  "exTr": "Yapraklar ayakların altında hışırdıyor."
+ },
+ {
+  "r": 242,
+  "impf": "журчать",
+  "perf": "зажурчать",
+  "tr": "şırıldamak",
+  "ex": "Ручей журчит в лесу.",
+  "exTr": "Dere ormanda şırıldıyor."
+ },
+ {
+  "r": 243,
+  "impf": "капать",
+  "perf": "капнуть",
+  "tr": "damlamak",
+  "ex": "Из крана капает вода.",
+  "exTr": "Musluktan su damlıyor."
+ },
+ {
+  "r": 244,
+  "impf": "литься",
+  "perf": "политься",
+  "tr": "akmak, dökülmek",
+  "ex": "Дождь льётся с утра.",
+  "exTr": "Yağmur sabahtan beri boşanıyor."
+ },
+ {
+  "r": 245,
+  "impf": "сверкать",
+  "perf": "сверкнуть",
+  "tr": "parıldamak",
+  "ex": "Молния сверкнула в небе.",
+  "exTr": "Gökte şimşek çaktı."
+ },
+ {
+  "r": 246,
+  "impf": "блестеть",
+  "perf": "заблестеть",
+  "tr": "parlamak",
+  "ex": "Снег блестит на солнце.",
+  "exTr": "Kar güneşte parlıyor."
+ },
+ {
+  "r": 247,
+  "impf": "темнеть",
+  "perf": "стемнеть",
+  "tr": "kararmak",
+  "ex": "Зимой рано темнеет.",
+  "exTr": "Kışın erken kararır."
+ },
+ {
+  "r": 248,
+  "impf": "светлеть",
+  "perf": "посветлеть",
+  "tr": "aydınlanmak",
+  "ex": "На востоке небо посветлело.",
+  "exTr": "Doğuda gökyüzü aydınlandı."
+ },
+ {
+  "r": 249,
+  "impf": "дождить",
+  "perf": "",
+  "tr": "yağmur yağmak",
+  "ex": "Весь день дождит.",
+  "exTr": "Bütün gün yağmur yağıyor."
+ },
+ {
+  "r": 250,
+  "impf": "моросить",
+  "perf": "",
+  "tr": "çiselemek",
+  "ex": "С утра моросит дождь.",
+  "exTr": "Sabahtan beri yağmur çiseliyor."
+ },
+ {
+  "r": 251,
+  "impf": "подмерзать",
+  "perf": "подмёрзнуть",
+  "tr": "üşümek, hafif donmak",
+  "ex": "Ночью лужи подмёрзли.",
+  "exTr": "Geceleyin su birikintileri dondu."
+ },
+ {
+  "r": 252,
+  "impf": "дымить",
+  "perf": "задымить",
+  "tr": "duman çıkarmak",
+  "ex": "Труба дымит с утра.",
+  "exTr": "Baca sabahtan beri tütüyor."
+ },
+ {
+  "r": 253,
+  "impf": "тлеть",
+  "perf": "истлеть",
+  "tr": "için için yanmak",
+  "ex": "Костёр ещё тлеет.",
+  "exTr": "Ateş hâlâ için için yanıyor."
+ },
+ {
+  "r": 254,
+  "impf": "взрывать",
+  "perf": "взорвать",
+  "tr": "havaya uçurmak",
+  "ex": "Строители взорвали скалу.",
+  "exTr": "İnşaatçılar kayayı patlattı."
+ },
+ {
+  "r": 255,
+  "impf": "рушиться",
+  "perf": "рухнуть",
+  "tr": "çökmek",
+  "ex": "Старый мост рухнул.",
+  "exTr": "Eski köprü çöktü."
+ },
+ {
+  "r": 256,
+  "impf": "трескаться",
+  "perf": "треснуть",
+  "tr": "çatlamak",
+  "ex": "Стекло треснуло от мороза.",
+  "exTr": "Cam soğuktan çatladı."
+ },
+ {
+  "r": 257,
+  "impf": "лопаться",
+  "perf": "лопнуть",
+  "tr": "patlamak",
+  "ex": "Шарик лопнул.",
+  "exTr": "Balon patladı."
+ },
+ {
+  "r": 258,
+  "impf": "гнуться",
+  "perf": "согнуться",
+  "tr": "eğilmek, bükülmek",
+  "ex": "Ветка гнётся под снегом.",
+  "exTr": "Dal karın altında eğiliyor."
+ },
+ {
+  "r": 259,
+  "impf": "скручивать",
+  "perf": "скрутить",
+  "tr": "bükmek, sarmak",
+  "ex": "Он скрутил верёвку.",
+  "exTr": "İpi büktü."
+ },
+ {
+  "r": 260,
+  "impf": "завязывать",
+  "perf": "завязать",
+  "tr": "bağlamak",
+  "ex": "Завяжи шнурки.",
+  "exTr": "Ayakkabı bağcıklarını bağla."
+ },
+ {
+  "r": 261,
+  "impf": "развязывать",
+  "perf": "развязать",
+  "tr": "çözmek",
+  "ex": "Он развязал узел.",
+  "exTr": "Düğümü çözdü."
+ },
+ {
+  "r": 262,
+  "impf": "застёгивать",
+  "perf": "застегнуть",
+  "tr": "düğmelemek, kapatmak",
+  "ex": "Застегни куртку.",
+  "exTr": "Montunu iliklе."
+ },
+ {
+  "r": 263,
+  "impf": "расстёгивать",
+  "perf": "расстегнуть",
+  "tr": "açmak (düğme, fermuar)",
+  "ex": "Он расстегнул пальто.",
+  "exTr": "Paltosunun düğmelerini açtı."
+ },
+ {
+  "r": 264,
+  "impf": "шить",
+  "perf": "сшить",
+  "tr": "dikmek",
+  "ex": "Мама сшила мне платье.",
+  "exTr": "Annem bana elbise dikti."
+ },
+ {
+  "r": 265,
+  "impf": "вышивать",
+  "perf": "вышить",
+  "tr": "nakış işlemek",
+  "ex": "Она вышила скатерть.",
+  "exTr": "Masa örtüsüne nakış işledi."
+ },
+ {
+  "r": 266,
+  "impf": "полоскать",
+  "perf": "прополоскать",
+  "tr": "durulamak",
+  "ex": "Прополощите рот водой.",
+  "exTr": "Ağzınızı suyla çalkalayın."
+ },
+ {
+  "r": 267,
+  "impf": "вытирать",
+  "perf": "вытереть",
+  "tr": "silmek, kurulamak",
+  "ex": "Он вытер руки полотенцем.",
+  "exTr": "Ellerini havluyla kuruladı."
+ },
+ {
+  "r": 268,
+  "impf": "подметать",
+  "perf": "подмести",
+  "tr": "süpürmek",
+  "ex": "Она подмела пол.",
+  "exTr": "Yeri süpürdü."
+ },
+ {
+  "r": 269,
+  "impf": "пылесосить",
+  "perf": "пропылесосить",
+  "tr": "elektrikli süpürge çekmek",
+  "ex": "Я пылесошу ковёр раз в неделю.",
+  "exTr": "Halıya haftada bir elektrik süpürgesi çekerim."
+ },
+ {
+  "r": 270,
+  "impf": "протирать",
+  "perf": "протереть",
+  "tr": "silmek (toz)",
+  "ex": "Протри стол влажной тряпкой.",
+  "exTr": "Masayı nemli bezle sil."
+ },
+ {
+  "r": 271,
+  "impf": "перекладывать",
+  "perf": "переложить",
+  "tr": "başka yere koymak, aktarmak",
+  "ex": "Переложи книги на полку.",
+  "exTr": "Kitapları rafa aktar."
+ },
+ {
+  "r": 272,
+  "impf": "расставлять",
+  "perf": "расставить",
+  "tr": "dizmek, yerleştirmek",
+  "ex": "Она расставила цветы по вазам.",
+  "exTr": "Çiçekleri vazolara yerleştirdi."
+ },
+ {
+  "r": 273,
+  "impf": "развешивать",
+  "perf": "развесить",
+  "tr": "asmak (çok yere)",
+  "ex": "Он развесил картины в зале.",
+  "exTr": "Salona tabloları astı."
+ },
+ {
+  "r": 274,
+  "impf": "приколачивать",
+  "perf": "приколотить",
+  "tr": "çivilemek",
+  "ex": "Плотник приколотил доску.",
+  "exTr": "Marangoz tahtayı çiviledi."
+ },
+ {
+  "r": 275,
+  "impf": "сверлить",
+  "perf": "просверлить",
+  "tr": "delmek",
+  "ex": "Он просверлил отверстие в стене.",
+  "exTr": "Duvara delik açtı."
+ },
+ {
+  "r": 276,
+  "impf": "красить",
+  "perf": "покрасить",
+  "tr": "boyamak",
+  "ex": "Мы покрасили забор в зелёный цвет.",
+  "exTr": "Çiti yeşile boyadık."
+ },
+ {
+  "r": 277,
+  "impf": "клеить",
+  "perf": "приклеить",
+  "tr": "yapıştırmak",
+  "ex": "Приклей марку на конверт.",
+  "exTr": "Pulu zarfa yapıştır."
+ },
+ {
+  "r": 278,
+  "impf": "паять",
+  "perf": "запаять",
+  "tr": "lehimlemek",
+  "ex": "Электрик паяет провода.",
+  "exTr": "Elektrikçi telleri lehimliyor."
+ },
+ {
+  "r": 279,
+  "impf": "заваривать",
+  "perf": "заварить",
+  "tr": "demlemek",
+  "ex": "Мама заварила чай.",
+  "exTr": "Annem çay demledi."
+ },
+ {
+  "r": 280,
+  "impf": "выжимать",
+  "perf": "выжать",
+  "tr": "sıkmak",
+  "ex": "Он выжал сок из лимона.",
+  "exTr": "Limonun suyunu sıktı."
+ },
+ {
+  "r": 281,
+  "impf": "натирать",
+  "perf": "натереть",
+  "tr": "rendelemek, ovmak",
+  "ex": "Натрите сыр на тёрке.",
+  "exTr": "Peyniri rendeleyin."
+ },
+ {
+  "r": 282,
+  "impf": "взбивать",
+  "perf": "взбить",
+  "tr": "çırpmak",
+  "ex": "Взбейте яйца с сахаром.",
+  "exTr": "Yumurtaları şekerle çırpın."
+ },
+ {
+  "r": 283,
+  "impf": "месить",
+  "perf": "замесить",
+  "tr": "yoğurmak",
+  "ex": "Хозяйка замесила тесто.",
+  "exTr": "Ev hanımı hamuru yoğurdu."
+ },
+ {
+  "r": 284,
+  "impf": "нарезать",
+  "perf": "",
+  "tr": "doğramak, dilimlemek",
+  "ex": "Нарежьте овощи кубиками.",
+  "exTr": "Sebzeleri küp küp doğrayın."
+ },
+ {
+  "r": 285,
+  "impf": "очищать",
+  "perf": "очистить",
+  "tr": "temizlemek, soymak",
+  "ex": "Очисти картошку.",
+  "exTr": "Patatesleri soy."
+ },
+ {
+  "r": 286,
+  "impf": "отжимать",
+  "perf": "отжать",
+  "tr": "sıkıp suyunu çıkarmak",
+  "ex": "Отожми бельё.",
+  "exTr": "Çamaşırları sık."
+ },
+ {
+  "r": 287,
+  "impf": "подогревать",
+  "perf": "подогреть",
+  "tr": "ısıtmak",
+  "ex": "Подогрей суп.",
+  "exTr": "Çorbayı ısıt."
+ },
+ {
+  "r": 288,
+  "impf": "остывать",
+  "perf": "остыть",
+  "tr": "soğumak",
+  "ex": "Чай остыл.",
+  "exTr": "Çay soğudu."
+ },
+ {
+  "r": 289,
+  "impf": "закипать",
+  "perf": "закипеть",
+  "tr": "kaynamaya başlamak",
+  "ex": "Вода закипела.",
+  "exTr": "Su kaynamaya başladı."
+ },
+ {
+  "r": 290,
+  "impf": "подгорать",
+  "perf": "подгореть",
+  "tr": "yanmak (yemek)",
+  "ex": "Мясо подгорело.",
+  "exTr": "Et yandı."
+ },
+ {
+  "r": 291,
+  "impf": "пригорать",
+  "perf": "пригореть",
+  "tr": "dibi tutmak",
+  "ex": "Каша пригорела.",
+  "exTr": "Lapanın dibi tuttu."
+ },
+ {
+  "r": 292,
+  "impf": "изгонять",
+  "perf": "изгнать",
+  "tr": "kovmak, sürmek",
+  "ex": "Царя изгнали из страны.",
+  "exTr": "Çar ülkeden sürüldü."
+ },
+ {
+  "r": 293,
+  "impf": "свергать",
+  "perf": "свергнуть",
+  "tr": "devirmek",
+  "ex": "Народ свергнул диктатора.",
+  "exTr": "Halk diktatörü devirdi."
+ },
+ {
+  "r": 294,
+  "impf": "подавлять",
+  "perf": "подавить",
+  "tr": "bastırmak",
+  "ex": "Власти подавили восстание.",
+  "exTr": "Yetkililer ayaklanmayı bastırdı."
+ },
+ {
+  "r": 295,
+  "impf": "восставать",
+  "perf": "восстать",
+  "tr": "ayaklanmak",
+  "ex": "Крестьяне восстали против помещика.",
+  "exTr": "Köylüler toprak sahibine karşı ayaklandı."
+ },
+ {
+  "r": 296,
+  "impf": "бунтовать",
+  "perf": "взбунтоваться",
+  "tr": "isyan etmek",
+  "ex": "Матросы взбунтовались.",
+  "exTr": "Denizciler isyan etti."
+ },
+ {
+  "r": 297,
+  "impf": "бастовать",
+  "perf": "забастовать",
+  "tr": "grev yapmak",
+  "ex": "Шахтёры бастуют уже неделю.",
+  "exTr": "Madenciler bir haftadır grevde."
+ },
+ {
+  "r": 298,
+  "impf": "увольнять",
+  "perf": "уволить",
+  "tr": "işten çıkarmak",
+  "ex": "Его уволили за опоздания.",
+  "exTr": "Geç kaldığı için işten çıkarıldı."
+ },
+ {
+  "r": 299,
+  "impf": "увольняться",
+  "perf": "уволиться",
+  "tr": "işten ayrılmak",
+  "ex": "Она уволилась по собственному желанию.",
+  "exTr": "Kendi isteğiyle işten ayrıldı."
+ },
+ {
+  "r": 300,
+  "impf": "нанимать",
+  "perf": "нанять",
+  "tr": "işe almak, kiralamak",
+  "ex": "Фирма наняла двух программистов.",
+  "exTr": "Firma iki programcı işe aldı."
+ },
+ {
+  "r": 301,
+  "impf": "согласовывать",
+  "perf": "согласовать",
+  "tr": "uyumlu kılmak, onay almak",
+  "ex": "Нужно согласовать график с начальством.",
+  "exTr": "Programı yönetimle uzlaştırmak gerekir."
+ },
+ {
+  "r": 302,
+  "impf": "обязывать",
+  "perf": "обязать",
+  "tr": "zorunlu kılmak",
+  "ex": "Закон обязывает платить налоги.",
+  "exTr": "Yasa vergi ödemeyi zorunlu kılar."
+ },
+ {
+  "r": 303,
+  "impf": "обязываться",
+  "perf": "обязаться",
+  "tr": "taahhüt etmek",
+  "ex": "Он обязался вернуть долг.",
+  "exTr": "Borcunu ödemeyi taahhüt etti."
+ },
+ {
+  "r": 304,
+  "impf": "ручаться",
+  "perf": "поручиться",
+  "tr": "kefil olmak",
+  "ex": "Я ручаюсь за него.",
+  "exTr": "Ona kefilim."
+ },
+ {
+  "r": 305,
+  "impf": "взимать",
+  "perf": "взыскать",
+  "tr": "tahsil etmek",
+  "ex": "Налоги взимают ежегодно.",
+  "exTr": "Vergiler her yıl tahsil edilir."
+ },
+ {
+  "r": 306,
+  "impf": "субсидировать",
+  "perf": "",
+  "tr": "sübvanse etmek",
+  "ex": "Государство субсидирует сельское хозяйство.",
+  "exTr": "Devlet tarımı sübvanse ediyor."
+ },
+ {
+  "r": 307,
+  "impf": "кредитовать",
+  "perf": "прокредитовать",
+  "tr": "kredi vermek",
+  "ex": "Банк кредитует малый бизнес.",
+  "exTr": "Banka küçük işletmelere kredi veriyor."
+ },
+ {
+  "r": 308,
+  "impf": "разоряться",
+  "perf": "разориться",
+  "tr": "iflas etmek, mahvolmak",
+  "ex": "Фирма разорилась во время кризиса.",
+  "exTr": "Firma kriz sırasında iflas etti."
+ },
+ {
+  "r": 309,
+  "impf": "богатеть",
+  "perf": "разбогатеть",
+  "tr": "zenginleşmek",
+  "ex": "Он быстро разбогател.",
+  "exTr": "Çabucak zengin oldu."
+ },
+ {
+  "r": 310,
+  "impf": "беднеть",
+  "perf": "обеднеть",
+  "tr": "yoksullaşmak",
+  "ex": "Деревня постепенно беднеет.",
+  "exTr": "Köy yavaş yavaş yoksullaşıyor."
+ },
+ {
+  "r": 311,
+  "impf": "дорожать",
+  "perf": "подорожать",
+  "tr": "pahalılaşmak",
+  "ex": "Хлеб подорожал.",
+  "exTr": "Ekmek pahalandı."
+ },
+ {
+  "r": 312,
+  "impf": "дешеветь",
+  "perf": "подешеветь",
+  "tr": "ucuzlamak",
+  "ex": "Бензин подешевел.",
+  "exTr": "Benzin ucuzladı."
+ },
+ {
+  "r": 313,
+  "impf": "обесцениваться",
+  "perf": "обесцениться",
+  "tr": "değer kaybetmek",
+  "ex": "Рубль обесценился.",
+  "exTr": "Ruble değer kaybetti."
+ },
+ {
+  "r": 314,
+  "impf": "подскакивать",
+  "perf": "подскочить",
+  "tr": "fırlamak, birden yükselmek",
+  "ex": "Цены резко подскочили.",
+  "exTr": "Fiyatlar birden fırladı."
+ },
+ {
+  "r": 315,
+  "impf": "колебаться",
+  "perf": "поколебаться",
+  "tr": "dalgalanmak, tereddüt etmek",
+  "ex": "Курс валюты колеблется.",
+  "exTr": "Döviz kuru dalgalanıyor."
+ },
+ {
+  "r": 316,
+  "impf": "стабилизироваться",
+  "perf": "",
+  "tr": "dengelenmek",
+  "ex": "Ситуация на рынке стабилизировалась.",
+  "exTr": "Piyasadaki durum dengelendi."
+ },
+ {
+  "r": 317,
+  "impf": "процветать",
+  "perf": "",
+  "tr": "gelişip refaha ermek",
+  "ex": "Торговля процветала веками.",
+  "exTr": "Ticaret yüzyıllarca gelişti."
+ },
+ {
+  "r": 318,
+  "impf": "хиреть",
+  "perf": "захиреть",
+  "tr": "çöküntüye uğramak",
+  "ex": "Промышленность хиреет.",
+  "exTr": "Sanayi çöküyor."
+ },
+ {
+  "r": 319,
+  "impf": "рекламировать",
+  "perf": "прорекламировать",
+  "tr": "reklamını yapmak",
+  "ex": "Фирма рекламирует новый товар.",
+  "exTr": "Firma yeni ürünü reklam ediyor."
+ },
+ {
+  "r": 320,
+  "impf": "продвигать",
+  "perf": "продвинуть",
+  "tr": "tanıtmak, ilerletmek",
+  "ex": "Они продвигают бренд в интернете.",
+  "exTr": "Markalarını internette tanıtıyorlar."
+ },
+ {
+  "r": 321,
+  "impf": "потреблять",
+  "perf": "потребить",
+  "tr": "tüketmek",
+  "ex": "Страна потребляет много нефти.",
+  "exTr": "Ülke çok petrol tüketiyor."
+ },
+ {
+  "r": 322,
+  "impf": "расходовать",
+  "perf": "израсходовать",
+  "tr": "harcamak",
+  "ex": "Мы израсходовали весь бюджет.",
+  "exTr": "Bütün bütçeyi harcadık."
+ },
+ {
+  "r": 323,
+  "impf": "растрачивать",
+  "perf": "растратить",
+  "tr": "israf etmek, har vurup harman savurmak",
+  "ex": "Он растратил наследство.",
+  "exTr": "Mirası har vurup harman savurdu."
+ },
+ {
+  "r": 324,
+  "impf": "транспортировать",
+  "perf": "",
+  "tr": "taşımak, nakletmek",
+  "ex": "Нефть транспортируют по трубам.",
+  "exTr": "Petrol borularla taşınır."
+ },
+ {
+  "r": 325,
+  "impf": "упаковывать",
+  "perf": "упаковать",
+  "tr": "paketlemek",
+  "ex": "Продавец упаковал подарок.",
+  "exTr": "Satıcı hediyeyi paketledi."
+ },
+ {
+  "r": 326,
+  "impf": "распаковывать",
+  "perf": "распаковать",
+  "tr": "paketi açmak",
+  "ex": "Он распаковал коробку.",
+  "exTr": "Kutuyu açtı."
+ },
+ {
+  "r": 327,
+  "impf": "взвешивать",
+  "perf": "взвесить",
+  "tr": "tartmak",
+  "ex": "Продавец взвесил яблоки.",
+  "exTr": "Satıcı elmaları tarttı."
+ },
+ {
+  "r": 328,
+  "impf": "пересчитывать",
+  "perf": "пересчитать",
+  "tr": "yeniden saymak",
+  "ex": "Кассир пересчитал деньги.",
+  "exTr": "Kasiyer parayı yeniden saydı."
+ },
+ {
+  "r": 329,
+  "impf": "подсчитывать",
+  "perf": "подсчитать",
+  "tr": "hesaplamak, saymak",
+  "ex": "Бухгалтер подсчитал расходы.",
+  "exTr": "Muhasebeci giderleri hesapladı."
+ },
+ {
+  "r": 330,
+  "impf": "округлять",
+  "perf": "округлить",
+  "tr": "yuvarlamak",
+  "ex": "Сумму округлили до тысячи.",
+  "exTr": "Tutar bine yuvarlandı."
+ },
+ {
+  "r": 331,
+  "impf": "умножать",
+  "perf": "умножить",
+  "tr": "çarpmak",
+  "ex": "Умножьте три на пять.",
+  "exTr": "Üçü beşle çarpın."
+ },
+ {
+  "r": 332,
+  "impf": "вычитать",
+  "perf": "вычесть",
+  "tr": "çıkarmak (matematik)",
+  "ex": "Вычтите пять из десяти.",
+  "exTr": "Ondan beşi çıkarın."
+ },
+ {
+  "r": 333,
+  "impf": "приближать",
+  "perf": "приблизить",
+  "tr": "yaklaştırmak",
+  "ex": "Эта победа приблизила команду к финалу.",
+  "exTr": "Bu zafer takımı finale yaklaştırdı."
+ },
+ {
+  "r": 334,
+  "impf": "отдалять",
+  "perf": "отдалить",
+  "tr": "uzaklaştırmak",
+  "ex": "Ссора отдалила друзей.",
+  "exTr": "Kavga arkadaşları birbirinden uzaklaştırdı."
+ },
+ {
+  "r": 335,
+  "impf": "сближать",
+  "perf": "сблизить",
+  "tr": "yakınlaştırmak",
+  "ex": "Общее дело сблизило нас.",
+  "exTr": "Ortak iş bizi yakınlaştırdı."
+ },
+ {
+  "r": 336,
+  "impf": "сближаться",
+  "perf": "сблизиться",
+  "tr": "yakınlaşmak",
+  "ex": "Две страны сблизились.",
+  "exTr": "İki ülke yakınlaştı."
+ },
+ {
+  "r": 337,
+  "impf": "сплачивать",
+  "perf": "сплотить",
+  "tr": "kenetlemek",
+  "ex": "Беда сплотила людей.",
+  "exTr": "Felaket insanları kenetledi."
+ },
+ {
+  "r": 338,
+  "impf": "сплачиваться",
+  "perf": "сплотиться",
+  "tr": "kenetlenmek",
+  "ex": "Народ сплотился вокруг лидера.",
+  "exTr": "Halk lider etrafında kenetlendi."
+ },
+ {
+  "r": 339,
+  "impf": "разобщать",
+  "perf": "разобщить",
+  "tr": "ayırmak, bölmek",
+  "ex": "Конфликт разобщил общество.",
+  "exTr": "Çatışma toplumu böldü."
+ },
+ {
+  "r": 340,
+  "impf": "раскалывать",
+  "perf": "расколоть",
+  "tr": "bölmek, yarmak",
+  "ex": "Спор расколол партию.",
+  "exTr": "Tartışma partiyi böldü."
+ },
+ {
+  "r": 341,
+  "impf": "примирять",
+  "perf": "примирить",
+  "tr": "barıştırmak",
+  "ex": "Мудрец примирил враждующих.",
+  "exTr": "Bilge, düşmanları barıştırdı."
+ },
+ {
+  "r": 342,
+  "impf": "улаживать",
+  "perf": "уладить",
+  "tr": "çözmek, halletmek",
+  "ex": "Мы уладили конфликт.",
+  "exTr": "Anlaşmazlığı hallettik."
+ },
+ {
+  "r": 343,
+  "impf": "стабилизировать",
+  "perf": "",
+  "tr": "dengelemek, istikrara kavuşturmak",
+  "ex": "Банк стабилизировал курс.",
+  "exTr": "Banka kuru dengeledi."
+ },
+ {
+  "r": 344,
+  "impf": "оздоравливать",
+  "perf": "оздоровить",
+  "tr": "sağlıklı hale getirmek",
+  "ex": "Реформа оздоровила экономику.",
+  "exTr": "Reform ekonomiyi sağlıklı hale getirdi."
+ },
+ {
+  "r": 345,
+  "impf": "омолаживать",
+  "perf": "омолодить",
+  "tr": "gençleştirmek",
+  "ex": "Крем омолаживает кожу.",
+  "exTr": "Krem cildi gençleştirir."
+ },
+ {
+  "r": 346,
+  "impf": "закаляться",
+  "perf": "закалиться",
+  "tr": "sertleşmek, dayanıklı hale gelmek",
+  "ex": "Спортсмены закаляются зимой.",
+  "exTr": "Sporcular kışın bedenini sertleştirir."
+ },
+ {
+  "r": 347,
+  "impf": "тренировать",
+  "perf": "натренировать",
+  "tr": "çalıştırmak, antrenman yaptırmak",
+  "ex": "Тренер тренирует молодую команду.",
+  "exTr": "Antrenör genç takımı çalıştırıyor."
+ },
+ {
+  "r": 348,
+  "impf": "разминаться",
+  "perf": "размяться",
+  "tr": "ısınmak",
+  "ex": "Футболисты разминаются перед игрой.",
+  "exTr": "Futbolcular maçtan önce ısınıyor."
+ },
+ {
+  "r": 349,
+  "impf": "забивать",
+  "perf": "забить",
+  "tr": "gol atmak, çivi çakmak",
+  "ex": "Нападающий забил гол.",
+  "exTr": "Forvet gol attı."
+ },
+ {
+  "r": 350,
+  "impf": "пасовать",
+  "perf": "отпасовать",
+  "tr": "pas vermek",
+  "ex": "Игрок отпасовал мяч партнёру.",
+  "exTr": "Oyuncu topu takım arkadaşına pasladı."
+ },
+ {
+  "r": 351,
+  "impf": "отбивать",
+  "perf": "отбить",
+  "tr": "geri çevirmek",
+  "ex": "Вратарь отбил мяч.",
+  "exTr": "Kaleci topu çeldi."
+ },
+ {
+  "r": 352,
+  "impf": "финишировать",
+  "perf": "",
+  "tr": "bitiş çizgisini geçmek",
+  "ex": "Бегун финишировал первым.",
+  "exTr": "Koşucu birinci olarak bitirdi."
+ },
+ {
+  "r": 353,
+  "impf": "стартовать",
+  "perf": "",
+  "tr": "start almak, başlamak",
+  "ex": "Гонка стартовала в полдень.",
+  "exTr": "Yarış öğlen başladı."
+ },
+ {
+  "r": 354,
+  "impf": "ссылать",
+  "perf": "сослать",
+  "tr": "sürgüne göndermek",
+  "ex": "Писателя сослали в Сибирь.",
+  "exTr": "Yazar Sibirya'ya sürüldü."
+ },
+ {
+  "r": 355,
+  "impf": "править",
+  "perf": "",
+  "tr": "hüküm sürmek, yönetmek",
+  "ex": "Король правил страной тридцать лет.",
+  "exTr": "Kral ülkeyi otuz yıl yönetti."
+ },
+ {
+  "r": 356,
+  "impf": "соединяться",
+  "perf": "соединиться",
+  "tr": "birleşmek",
+  "ex": "Две реки соединяются у города.",
+  "exTr": "İki nehir şehrin yakınında birleşir."
+ },
+ {
+  "r": 357,
+  "impf": "разъединять",
+  "perf": "разъединить",
+  "tr": "ayırmak",
+  "ex": "Война разъединила семьи.",
+  "exTr": "Savaş aileleri ayırdı."
+ },
+ {
+  "r": 358,
+  "impf": "перегружать",
+  "perf": "перегрузить",
+  "tr": "aşırı yüklemek",
+  "ex": "Не перегружайте лифт.",
+  "exTr": "Asansöre fazla yük bindirmeyin."
+ },
+ {
+  "r": 359,
+  "impf": "разгружать",
+  "perf": "разгрузить",
+  "tr": "boşaltmak",
+  "ex": "Рабочие разгрузили машину.",
+  "exTr": "İşçiler kamyonu boşalttı."
+ },
+ {
+  "r": 360,
+  "impf": "обременять",
+  "perf": "обременить",
+  "tr": "yük olmak, zahmet vermek",
+  "ex": "Не хочу вас обременять.",
+  "exTr": "Size yük olmak istemem."
+ }
+]

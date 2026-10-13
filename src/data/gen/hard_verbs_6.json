@@ -1,0 +1,882 @@
+[
+ {
+  "impf": "совмещать",
+  "perf": "совместить",
+  "tr": "birleştirmek, bir arada yürütmek",
+  "gov": "что? с чем?",
+  "ex": "Многие студенты вынуждены совмещать учёбу с работой.",
+  "exTr": "Birçok öğrenci eğitimi işle bir arada yürütmek zorunda kalıyor."
+ },
+ {
+  "impf": "улавливать",
+  "perf": "уловить",
+  "tr": "yakalamak, sezmek, algılamak",
+  "gov": "что?",
+  "ex": "Современные датчики способны улавливать малейшие колебания почвы.",
+  "exTr": "Modern sensörler toprağın en küçük titreşimlerini algılayabiliyor."
+ },
+ {
+  "impf": "предугадывать",
+  "perf": "предугадать",
+  "tr": "önceden kestirmek, tahmin etmek",
+  "gov": "что?",
+  "ex": "Учёные не смогли предугадать последствия резкого потепления.",
+  "exTr": "Bilim insanları ani ısınmanın sonuçlarını önceden kestiremedi."
+ },
+ {
+  "impf": "сознавать",
+  "perf": "",
+  "tr": "farkında olmak, bilincinde olmak",
+  "gov": "что?",
+  "ex": "Руководство вполне сознаёт серьёзность сложившейся ситуации.",
+  "exTr": "Yönetim, oluşan durumun ciddiyetinin tamamen farkında."
+ },
+ {
+  "impf": "усматривать",
+  "perf": "усмотреть",
+  "tr": "görmek, saptamak, (bir şeyde) bulmak",
+  "gov": "что? в чём?",
+  "ex": "Эксперты усматривают в этом решении серьёзную угрозу для экономики.",
+  "exTr": "Uzmanlar bu kararda ekonomi için ciddi bir tehdit görüyor."
+ },
+ {
+  "impf": "задумываться",
+  "perf": "задуматься",
+  "tr": "düşünmek, kafa yormak",
+  "gov": "о чём? над чем?",
+  "ex": "Общество всё чаще задумывается о последствиях загрязнения океанов.",
+  "exTr": "Toplum okyanus kirliliğinin sonuçlarını giderek daha sık düşünüyor."
+ },
+ {
+  "impf": "причислять",
+  "perf": "причислить",
+  "tr": "saymak, dahil etmek, sınıflandırmak",
+  "gov": "кого? что? к кому? к чему?",
+  "ex": "Этот вид долгое время причисляли к вымершим.",
+  "exTr": "Bu tür uzun süre nesli tükenmişler arasında sayıldı."
+ },
+ {
+  "impf": "приурочивать",
+  "perf": "приурочить",
+  "tr": "(bir tarihe/olaya) denk getirmek",
+  "gov": "что? к чему?",
+  "ex": "Открытие выставки приурочили к юбилею города.",
+  "exTr": "Serginin açılışı şehrin yıldönümüne denk getirildi."
+ },
+ {
+  "impf": "обуздывать",
+  "perf": "обуздать",
+  "tr": "dizginlemek, kontrol altına almak",
+  "gov": "что? кого?",
+  "ex": "Центральный банк пытается обуздать стремительный рост инфляции.",
+  "exTr": "Merkez bankası enflasyonun hızlı artışını dizginlemeye çalışıyor."
+ },
+ {
+  "impf": "впадать",
+  "perf": "впасть",
+  "tr": "dökülmek (nehir); (bir duruma) düşmek",
+  "gov": "во что?",
+  "ex": "После кризиса страна впала в затяжную рецессию.",
+  "exTr": "Krizin ardından ülke uzun süreli bir resesyona girdi."
+ },
+ {
+  "impf": "разыскивать",
+  "perf": "разыскать",
+  "tr": "aramak, arayıp bulmak",
+  "gov": "кого? что?",
+  "ex": "Полиция разыскивает подозреваемого по всей стране.",
+  "exTr": "Polis şüpheliyi ülke genelinde arıyor."
+ },
+ {
+  "impf": "скрываться",
+  "perf": "скрыться",
+  "tr": "saklanmak, kaçmak, gizlenmek",
+  "gov": "от кого? от чего?",
+  "ex": "Преступник долгое время скрывался от правосудия за границей.",
+  "exTr": "Suçlu uzun süre yurt dışında adaletten kaçtı."
+ },
+ {
+  "impf": "подделывать",
+  "perf": "подделать",
+  "tr": "sahtesini yapmak, taklit etmek",
+  "gov": "что?",
+  "ex": "Злоумышленники подделали документы, чтобы получить кредит.",
+  "exTr": "Kötü niyetli kişiler kredi almak için belgelerde sahtecilik yaptı."
+ },
+ {
+  "impf": "мошенничать",
+  "perf": "смошенничать",
+  "tr": "dolandırıcılık yapmak, hile yapmak",
+  "gov": "с чем?",
+  "ex": "Компанию обвинили в том, что она мошенничала с налогами.",
+  "exTr": "Şirket vergi konusunda dolandırıcılık yapmakla suçlandı."
+ },
+ {
+  "impf": "шантажировать",
+  "perf": "",
+  "tr": "şantaj yapmak",
+  "gov": "кого? чем?",
+  "ex": "Хакеры шантажировали компанию, угрожая опубликовать данные клиентов.",
+  "exTr": "Bilgisayar korsanları müşteri verilerini yayımlamakla tehdit ederek şirkete şantaj yaptı."
+ },
+ {
+  "impf": "патрулировать",
+  "perf": "",
+  "tr": "devriye gezmek",
+  "gov": "что?",
+  "ex": "Полицейские круглосуточно патрулируют улицы центра города.",
+  "exTr": "Polisler şehir merkezinin sokaklarında gece gündüz devriye geziyor."
+ },
+ {
+  "impf": "госпитализировать",
+  "perf": "госпитализировать",
+  "tr": "hastaneye yatırmak",
+  "gov": "кого?",
+  "ex": "Пострадавших в аварии госпитализировали в ближайшую больницу.",
+  "exTr": "Kazada yaralananlar en yakın hastaneye kaldırıldı."
+ },
+ {
+  "impf": "реабилитировать",
+  "perf": "реабилитировать",
+  "tr": "rehabilite etmek, itibarını iade etmek",
+  "gov": "кого?",
+  "ex": "Спустя годы осуждённого полностью реабилитировали.",
+  "exTr": "Yıllar sonra hükümlünün itibarı tamamen iade edildi."
+ },
+ {
+  "impf": "дезинфицировать",
+  "perf": "дезинфицировать",
+  "tr": "dezenfekte etmek",
+  "gov": "что?",
+  "ex": "Все помещения больницы регулярно дезинфицируют.",
+  "exTr": "Hastanenin tüm bölümleri düzenli olarak dezenfekte ediliyor."
+ },
+ {
+  "impf": "стерилизовать",
+  "perf": "стерилизовать",
+  "tr": "sterilize etmek, kısırlaştırmak",
+  "gov": "что? кого?",
+  "ex": "Хирургические инструменты необходимо стерилизовать перед каждой операцией.",
+  "exTr": "Cerrahi aletlerin her ameliyattan önce sterilize edilmesi gerekir."
+ },
+ {
+  "impf": "воспаляться",
+  "perf": "воспалиться",
+  "tr": "iltihaplanmak",
+  "gov": "(что?)",
+  "ex": "При неправильном уходе рана может воспалиться.",
+  "exTr": "Yanlış bakımda yara iltihaplanabilir."
+ },
+ {
+  "impf": "опухать",
+  "perf": "опухнуть",
+  "tr": "şişmek",
+  "gov": "(что?)",
+  "ex": "После укуса насекомого рука сильно опухла.",
+  "exTr": "Böcek ısırığından sonra kol çok şişti."
+ },
+ {
+  "impf": "кровоточить",
+  "perf": "",
+  "tr": "kanamak",
+  "gov": "(что?)",
+  "ex": "При этом заболевании дёсны часто кровоточат.",
+  "exTr": "Bu hastalıkta diş etleri sık sık kanar."
+ },
+ {
+  "impf": "изнурять",
+  "perf": "изнурить",
+  "tr": "bitkin düşürmek, yıpratmak",
+  "gov": "кого? чем?",
+  "ex": "Длительная болезнь изнурила пациента.",
+  "exTr": "Uzun süren hastalık hastayı bitkin düşürdü."
+ },
+ {
+  "impf": "обезболивать",
+  "perf": "обезболить",
+  "tr": "ağrısını dindirmek, uyuşturmak",
+  "gov": "что? кого?",
+  "ex": "Перед операцией врачи тщательно обезболили место разреза.",
+  "exTr": "Ameliyattan önce doktorlar kesi bölgesini dikkatle uyuşturdu."
+ },
+ {
+  "impf": "перенапрягаться",
+  "perf": "перенапрячься",
+  "tr": "aşırı zorlanmak, kendini aşırı yormak",
+  "gov": "(на чём?)",
+  "ex": "Спортсмены часто перенапрягаются во время интенсивных тренировок.",
+  "exTr": "Sporcular yoğun antrenmanlarda sık sık aşırı zorlanır."
+ },
+ {
+  "impf": "трудоустраиваться",
+  "perf": "трудоустроиться",
+  "tr": "iş bulmak, işe yerleşmek",
+  "gov": "куда? где?",
+  "ex": "Большинство выпускников трудоустраивается в течение года после окончания вуза.",
+  "exTr": "Mezunların çoğu üniversiteyi bitirdikten sonraki bir yıl içinde iş buluyor."
+ },
+ {
+  "impf": "подрабатывать",
+  "perf": "подработать",
+  "tr": "ek iş yapmak, ek gelir elde etmek",
+  "gov": "кем? где?",
+  "ex": "Во время каникул многие студенты подрабатывают курьерами.",
+  "exTr": "Tatil boyunca birçok öğrenci kurye olarak ek iş yapıyor."
+ },
+ {
+  "impf": "зачислять",
+  "perf": "зачислить",
+  "tr": "kaydetmek, kabul etmek (okula, kadroya)",
+  "gov": "кого? куда?",
+  "ex": "Абитуриентов зачисляют в университет по результатам экзаменов.",
+  "exTr": "Adaylar sınav sonuçlarına göre üniversiteye kaydediliyor."
+ },
+ {
+  "impf": "аттестовывать",
+  "perf": "аттестовать",
+  "tr": "değerlendirmek, yeterliliğini onaylamak",
+  "gov": "кого?",
+  "ex": "Сотрудников аттестуют раз в три года.",
+  "exTr": "Çalışanlar üç yılda bir değerlendirmeye tabi tutuluyor."
+ },
+ {
+  "impf": "экзаменовать",
+  "perf": "проэкзаменовать",
+  "tr": "sınavdan geçirmek, sınamak",
+  "gov": "кого? по чему?",
+  "ex": "Комиссия экзаменовала студентов по истории и литературе.",
+  "exTr": "Komisyon öğrencileri tarih ve edebiyattan sınava tabi tuttu."
+ },
+ {
+  "impf": "рецензировать",
+  "perf": "отрецензировать",
+  "tr": "eleştirisini yazmak, hakem değerlendirmesi yapmak",
+  "gov": "что?",
+  "ex": "Статью рецензировали два независимых специалиста.",
+  "exTr": "Makaleyi iki bağımsız uzman değerlendirdi."
+ },
+ {
+  "impf": "комментировать",
+  "perf": "прокомментировать",
+  "tr": "yorumlamak, yorum yapmak",
+  "gov": "что?",
+  "ex": "Представитель министерства отказался комментировать эту информацию.",
+  "exTr": "Bakanlık sözcüsü bu bilgiyi yorumlamayı reddetti."
+ },
+ {
+  "impf": "интервьюировать",
+  "perf": "проинтервьюировать",
+  "tr": "röportaj yapmak, mülakat yapmak",
+  "gov": "кого?",
+  "ex": "Исследователи проинтервьюировали более тысячи мигрантов.",
+  "exTr": "Araştırmacılar binden fazla göçmenle mülakat yaptı."
+ },
+ {
+  "impf": "анонсировать",
+  "perf": "анонсировать",
+  "tr": "duyurmak, önceden bildirmek",
+  "gov": "что?",
+  "ex": "Компания анонсировала выпуск нового смартфона.",
+  "exTr": "Şirket yeni bir akıllı telefonun çıkışını duyurdu."
+ },
+ {
+  "impf": "спонсировать",
+  "perf": "спонсировать",
+  "tr": "sponsor olmak, finanse etmek",
+  "gov": "что? кого?",
+  "ex": "Крупный банк спонсирует международный теннисный турнир.",
+  "exTr": "Büyük bir banka uluslararası tenis turnuvasına sponsor oluyor."
+ },
+ {
+  "impf": "тиражировать",
+  "perf": "растиражировать",
+  "tr": "çoğaltmak, yaygınlaştırmak",
+  "gov": "что?",
+  "ex": "СМИ растиражировали непроверенные сведения о катастрофе.",
+  "exTr": "Medya felaketle ilgili doğrulanmamış bilgileri yaydı."
+ },
+ {
+  "impf": "дублировать",
+  "perf": "продублировать",
+  "tr": "tekrarlamak, yedeklemek; dublaj yapmak",
+  "gov": "что?",
+  "ex": "Важные данные следует дублировать на внешнем носителе.",
+  "exTr": "Önemli veriler harici bir depolama aygıtında yedeklenmelidir."
+ },
+ {
+  "impf": "архивировать",
+  "perf": "заархивировать",
+  "tr": "arşivlemek, sıkıştırmak (dosya)",
+  "gov": "что?",
+  "ex": "Перед отправкой файлы необходимо заархивировать.",
+  "exTr": "Göndermeden önce dosyaların sıkıştırılması gerekir."
+ },
+ {
+  "impf": "автоматизировать",
+  "perf": "автоматизировать",
+  "tr": "otomatikleştirmek",
+  "gov": "что?",
+  "ex": "Завод полностью автоматизировал процесс сборки.",
+  "exTr": "Fabrika montaj sürecini tamamen otomatikleştirdi."
+ },
+ {
+  "impf": "синхронизировать",
+  "perf": "синхронизировать",
+  "tr": "eşzamanlamak, senkronize etmek",
+  "gov": "что? с чем?",
+  "ex": "Приложение автоматически синхронизирует данные со всеми устройствами.",
+  "exTr": "Uygulama verileri tüm cihazlarla otomatik olarak eşitliyor."
+ },
+ {
+  "impf": "калибровать",
+  "perf": "откалибровать",
+  "tr": "kalibre etmek, ayarlamak",
+  "gov": "что?",
+  "ex": "Перед экспериментом приборы тщательно откалибровали.",
+  "exTr": "Deneyden önce cihazlar dikkatle kalibre edildi."
+ },
+ {
+  "impf": "форматировать",
+  "perf": "отформатировать",
+  "tr": "biçimlendirmek, formatlamak",
+  "gov": "что?",
+  "ex": "Текст диссертации необходимо отформатировать по требованиям вуза.",
+  "exTr": "Tez metni üniversitenin şartlarına göre biçimlendirilmelidir."
+ },
+ {
+  "impf": "мигрировать",
+  "perf": "",
+  "tr": "göç etmek",
+  "gov": "куда? откуда?",
+  "ex": "Ежегодно миллионы птиц мигрируют на юг.",
+  "exTr": "Her yıl milyonlarca kuş güneye göç ediyor."
+ },
+ {
+  "impf": "обосновываться",
+  "perf": "обосноваться",
+  "tr": "yerleşmek, yurt edinmek",
+  "gov": "где?",
+  "ex": "Переселенцы обосновались в плодородной долине реки.",
+  "exTr": "Göçmenler nehrin verimli vadisine yerleşti."
+ },
+ {
+  "impf": "расселяться",
+  "perf": "расселиться",
+  "tr": "dağılarak yerleşmek, yayılmak",
+  "gov": "где? по чему?",
+  "ex": "Беженцы расселились по разным регионам страны.",
+  "exTr": "Mülteciler ülkenin farklı bölgelerine dağılarak yerleşti."
+ },
+ {
+  "impf": "ассимилироваться",
+  "perf": "ассимилироваться",
+  "tr": "asimile olmak, kaynaşmak",
+  "gov": "(в чём? среди кого?)",
+  "ex": "Второе поколение иммигрантов быстро ассимилировалось в новой среде.",
+  "exTr": "İkinci kuşak göçmenler yeni ortamda hızla asimile oldu."
+ },
+ {
+  "impf": "приживаться",
+  "perf": "прижиться",
+  "tr": "tutunmak, uyum sağlamak, kök salmak",
+  "gov": "где?",
+  "ex": "Завезённые растения быстро прижились в местном климате.",
+  "exTr": "Getirilen bitkiler yerel iklime hızla uyum sağladı."
+ },
+ {
+  "impf": "укореняться",
+  "perf": "укорениться",
+  "tr": "kök salmak, yerleşmek",
+  "gov": "в чём? где?",
+  "ex": "Эта традиция прочно укоренилась в обществе.",
+  "exTr": "Bu gelenek toplumda sağlam bir şekilde kök saldı."
+ },
+ {
+  "impf": "кочевать",
+  "perf": "",
+  "tr": "göçebe yaşamak, göçmek",
+  "gov": "где? по чему?",
+  "ex": "Племена кочевали по степи вместе со стадами.",
+  "exTr": "Kabileler sürüleriyle birlikte bozkırda göçebe yaşıyordu."
+ },
+ {
+  "impf": "перекочёвывать",
+  "perf": "перекочевать",
+  "tr": "göç etmek, yer değiştirmek, geçmek",
+  "gov": "куда? откуда?",
+  "ex": "Многие специалисты перекочевали из промышленности в сферу услуг.",
+  "exTr": "Birçok uzman sanayiden hizmet sektörüne geçti."
+ },
+ {
+  "impf": "скитаться",
+  "perf": "",
+  "tr": "dolaşıp durmak, sürüklenmek",
+  "gov": "где? по чему?",
+  "ex": "После войны семья долго скиталась по чужим городам.",
+  "exTr": "Savaştan sonra aile uzun süre yabancı şehirlerde sürüklendi."
+ },
+ {
+  "impf": "странствовать",
+  "perf": "",
+  "tr": "gezip dolaşmak, seyahat etmek",
+  "gov": "где? по чему?",
+  "ex": "Писатель много лет странствовал по Востоку.",
+  "exTr": "Yazar uzun yıllar Doğu'yu gezip dolaştı."
+ },
+ {
+  "impf": "настигать",
+  "perf": "настигнуть",
+  "tr": "yetişmek, yakalamak, (felaket) başına gelmek",
+  "gov": "кого? что?",
+  "ex": "Кризис настиг экономику неожиданно.",
+  "exTr": "Kriz ekonomiyi beklenmedik bir şekilde yakaladı."
+ },
+ {
+  "impf": "пробираться",
+  "perf": "пробраться",
+  "tr": "(zorlukla/gizlice) ilerlemek, sızmak",
+  "gov": "куда? через что?",
+  "ex": "Спасатели с трудом пробирались через завалы.",
+  "exTr": "Kurtarma ekipleri enkazın arasından güçlükle ilerliyordu."
+ },
+ {
+  "impf": "наведываться",
+  "perf": "наведаться",
+  "tr": "uğramak, ziyaret etmek",
+  "gov": "к кому? куда?",
+  "ex": "Туристы охотно наведываются в старинные монастыри региона.",
+  "exTr": "Turistler bölgenin eski manastırlarına seve seve uğruyor."
+ },
+ {
+  "impf": "объезжать",
+  "perf": "объехать",
+  "tr": "(araçla) etrafından dolaşmak, dolaşıp gezmek",
+  "gov": "что? кого?",
+  "ex": "Водителям приходится объезжать перекрытый участок дороги.",
+  "exTr": "Sürücüler yolun kapatılan kısmının etrafından dolaşmak zorunda kalıyor."
+ },
+ {
+  "impf": "отплывать",
+  "perf": "отплыть",
+  "tr": "(gemiyle) yola çıkmak, açılmak",
+  "gov": "откуда? куда?",
+  "ex": "Паром отплывает из порта каждое утро.",
+  "exTr": "Feribot her sabah limandan kalkıyor."
+ },
+ {
+  "impf": "вылетать",
+  "perf": "вылететь",
+  "tr": "uçakla hareket etmek, uçmak; uçarak çıkmak",
+  "gov": "откуда? куда?",
+  "ex": "Делегация вылетела в Москву ранним утром.",
+  "exTr": "Heyet sabah erkenden Moskova'ya uçtu."
+ },
+ {
+  "impf": "сходиться",
+  "perf": "сойтись",
+  "tr": "birleşmek, uyuşmak, hemfikir olmak",
+  "gov": "в чём? с кем?",
+  "ex": "Эксперты сходятся во мнении, что реформа необходима.",
+  "exTr": "Uzmanlar reformun gerekli olduğu konusunda hemfikir."
+ },
+ {
+  "impf": "съезжаться",
+  "perf": "съехаться",
+  "tr": "(bir yerde) toplanmak, bir araya gelmek",
+  "gov": "куда?",
+  "ex": "На конференцию съехались учёные из двадцати стран.",
+  "exTr": "Konferansa yirmi ülkeden bilim insanları geldi."
+ },
+ {
+  "impf": "разъезжаться",
+  "perf": "разъехаться",
+  "tr": "dağılmak, (araçla) ayrılmak",
+  "gov": "куда? откуда?",
+  "ex": "После саммита делегации разъехались по домам.",
+  "exTr": "Zirveden sonra heyetler evlerine dağıldı."
+ },
+ {
+  "impf": "разносить",
+  "perf": "разнести",
+  "tr": "dağıtmak, yaymak, taşımak",
+  "gov": "что? по чему?",
+  "ex": "Комары разносят опасные инфекционные заболевания.",
+  "exTr": "Sivrisinekler tehlikeli bulaşıcı hastalıklar taşıyor."
+ },
+ {
+  "impf": "доносить",
+  "perf": "донести",
+  "tr": "ulaştırmak, iletmek; ihbar etmek",
+  "gov": "что? до кого? на кого?",
+  "ex": "Важно донести эту информацию до каждого гражданина.",
+  "exTr": "Bu bilgiyi her vatandaşa ulaştırmak önemlidir."
+ },
+ {
+  "impf": "выносить",
+  "perf": "вынести",
+  "tr": "dışarı çıkarmak; (karar) vermek; katlanmak",
+  "gov": "что?",
+  "ex": "Суд вынес оправдательный приговор.",
+  "exTr": "Mahkeme beraat kararı verdi."
+ },
+ {
+  "impf": "наводить",
+  "perf": "навести",
+  "tr": "yöneltmek, (bir düşünceye) götürmek; sağlamak (düzen)",
+  "gov": "кого? на что? что?",
+  "ex": "Результаты опроса навели исследователей на интересную мысль.",
+  "exTr": "Anket sonuçları araştırmacıları ilginç bir düşünceye götürdü."
+ },
+ {
+  "impf": "отводить",
+  "perf": "отвести",
+  "tr": "ayırmak (zaman, yer, rol); götürmek; reddetmek",
+  "gov": "что? кому? чему?",
+  "ex": "Важную роль в программе отводят изучению языков.",
+  "exTr": "Programda dil öğrenimine önemli bir rol ayrılıyor."
+ },
+ {
+  "impf": "разводить",
+  "perf": "развести",
+  "tr": "yetiştirmek, üretmek (hayvan, bitki); seyreltmek",
+  "gov": "кого? что?",
+  "ex": "Фермеры региона разводят овец и коз.",
+  "exTr": "Bölgedeki çiftçiler koyun ve keçi yetiştiriyor."
+ },
+ {
+  "impf": "устремляться",
+  "perf": "устремиться",
+  "tr": "akın etmek, yönelmek",
+  "gov": "куда? к чему?",
+  "ex": "Инвесторы устремились на быстрорастущие азиатские рынки.",
+  "exTr": "Yatırımcılar hızla büyüyen Asya pazarlarına akın etti."
+ },
+ {
+  "impf": "бросаться",
+  "perf": "броситься",
+  "tr": "atılmak, fırlamak, koşmak",
+  "gov": "куда? к кому? на кого?",
+  "ex": "Прохожие бросились на помощь пострадавшему.",
+  "exTr": "Yoldan geçenler yaralının yardımına koştu."
+ },
+ {
+  "impf": "переплывать",
+  "perf": "переплыть",
+  "tr": "yüzerek/gemiyle karşıya geçmek",
+  "gov": "что? через что?",
+  "ex": "Мигранты пытались переплыть пролив на надувных лодках.",
+  "exTr": "Göçmenler boğazı şişme botlarla geçmeye çalıştı."
+ },
+ {
+  "impf": "перелетать",
+  "perf": "перелететь",
+  "tr": "uçarak geçmek, uçarak başka yere gitmek",
+  "gov": "что? через что? куда?",
+  "ex": "Осенью журавли перелетают в тёплые края.",
+  "exTr": "Sonbaharda turnalar sıcak bölgelere uçar."
+ },
+ {
+  "impf": "скатываться",
+  "perf": "скатиться",
+  "tr": "yuvarlanmak, kaymak; (kötü bir duruma) sürüklenmek",
+  "gov": "к чему? во что?",
+  "ex": "Страна постепенно скатывается к экономическому кризису.",
+  "exTr": "Ülke yavaş yavaş ekonomik krize sürükleniyor."
+ },
+ {
+  "impf": "дрейфовать",
+  "perf": "",
+  "tr": "sürüklenmek (akıntıyla)",
+  "gov": "где?",
+  "ex": "Льдина с рыбаками несколько дней дрейфовала в открытом море.",
+  "exTr": "Balıkçıların bulunduğu buz kütlesi birkaç gün açık denizde sürüklendi."
+ },
+ {
+  "impf": "буксировать",
+  "perf": "отбуксировать",
+  "tr": "yedekte çekmek, çekmek (araç)",
+  "gov": "что?",
+  "ex": "Повреждённое судно отбуксировали в ближайший порт.",
+  "exTr": "Hasarlı gemi en yakın limana çekildi."
+ },
+ {
+  "impf": "дезертировать",
+  "perf": "дезертировать",
+  "tr": "firar etmek, asker kaçağı olmak",
+  "gov": "откуда?",
+  "ex": "Несколько солдат дезертировали из армии.",
+  "exTr": "Birkaç asker ordudan firar etti."
+ },
+ {
+  "impf": "лидировать",
+  "perf": "",
+  "tr": "önde olmak, liderliği elinde tutmak",
+  "gov": "в чём? где?",
+  "ex": "Наша команда уверенно лидирует в турнирной таблице.",
+  "exTr": "Takımımız puan tablosunda rahatça liderliği elinde tutuyor."
+ },
+ {
+  "impf": "травмировать",
+  "perf": "травмировать",
+  "tr": "yaralamak, sakatlamak, travmatize etmek",
+  "gov": "кого? что?",
+  "ex": "Во время матча нападающий травмировал колено.",
+  "exTr": "Maç sırasında forvet dizini sakatladı."
+ },
+ {
+  "impf": "дисквалифицировать",
+  "perf": "дисквалифицировать",
+  "tr": "diskalifiye etmek, men etmek",
+  "gov": "кого? на что?",
+  "ex": "Спортсмена дисквалифицировали на два года за допинг.",
+  "exTr": "Sporcu doping nedeniyle iki yıl men edildi."
+ },
+ {
+  "impf": "состязаться",
+  "perf": "",
+  "tr": "yarışmak, mücadele etmek",
+  "gov": "с кем? в чём?",
+  "ex": "Студенты разных вузов состязаются в знании иностранных языков.",
+  "exTr": "Farklı üniversitelerin öğrencileri yabancı dil bilgisinde yarışıyor."
+ },
+ {
+  "impf": "культивировать",
+  "perf": "",
+  "tr": "yetiştirmek (bitki); geliştirmek, teşvik etmek",
+  "gov": "что?",
+  "ex": "В этом регионе издавна культивируют виноград.",
+  "exTr": "Bu bölgede eskiden beri üzüm yetiştiriliyor."
+ },
+ {
+  "impf": "откармливать",
+  "perf": "откормить",
+  "tr": "besiye çekmek, besleyip semirtmek",
+  "gov": "кого? чем?",
+  "ex": "Скот откармливают зерном перед продажей.",
+  "exTr": "Hayvanlar satıştan önce tahılla besiye çekiliyor."
+ },
+ {
+  "impf": "опрыскивать",
+  "perf": "опрыскать",
+  "tr": "ilaçlamak, püskürtmek",
+  "gov": "что? чем?",
+  "ex": "Фермеры опрыскивают посевы средствами от вредителей.",
+  "exTr": "Çiftçiler ekinleri zararlılara karşı ilaçlıyor."
+ },
+ {
+  "impf": "пастись",
+  "perf": "",
+  "tr": "otlamak",
+  "gov": "где?",
+  "ex": "На склонах гор пасутся стада овец.",
+  "exTr": "Dağ yamaçlarında koyun sürüleri otluyor."
+ },
+ {
+  "impf": "гнить",
+  "perf": "сгнить",
+  "tr": "çürümek",
+  "gov": "(что?)",
+  "ex": "Из-за дождей урожай начал гнить прямо на полях.",
+  "exTr": "Yağmurlar nedeniyle ürün tarlada çürümeye başladı."
+ },
+ {
+  "impf": "дозревать",
+  "perf": "дозреть",
+  "tr": "tam olgunlaşmak",
+  "gov": "(что?)",
+  "ex": "Некоторые фрукты дозревают уже после сбора.",
+  "exTr": "Bazı meyveler hasattan sonra olgunlaşmasını tamamlar."
+ },
+ {
+  "impf": "процеживать",
+  "perf": "процедить",
+  "tr": "süzmek",
+  "gov": "что?",
+  "ex": "Бульон процеживают через мелкое сито.",
+  "exTr": "Et suyu ince bir süzgeçten süzülür."
+ },
+ {
+  "impf": "молоть",
+  "perf": "смолоть",
+  "tr": "öğütmek",
+  "gov": "что?",
+  "ex": "Зерно мелют на мельнице, получая муку.",
+  "exTr": "Tahıl değirmende öğütülerek un elde edilir."
+ },
+ {
+  "impf": "мариновать",
+  "perf": "замариновать",
+  "tr": "marine etmek, turşusunu kurmak",
+  "gov": "что?",
+  "ex": "Мясо маринуют в течение нескольких часов перед жаркой.",
+  "exTr": "Et kızartılmadan önce birkaç saat marine edilir."
+ },
+ {
+  "impf": "мелеть",
+  "perf": "обмелеть",
+  "tr": "sığlaşmak",
+  "gov": "(что?)",
+  "ex": "Из-за засухи река сильно обмелела.",
+  "exTr": "Kuraklık nedeniyle nehir çok sığlaştı."
+ },
+ {
+  "impf": "разливаться",
+  "perf": "разлиться",
+  "tr": "taşmak (nehir); dökülmek, yayılmak",
+  "gov": "(что?) где?",
+  "ex": "Весной река разливается и затапливает луга.",
+  "exTr": "İlkbaharda nehir taşar ve çayırları su basar."
+ },
+ {
+  "impf": "промерзать",
+  "perf": "промёрзнуть",
+  "tr": "derinlemesine donmak; iliklerine kadar üşümek",
+  "gov": "(что?) на сколько?",
+  "ex": "Зимой почва здесь промерзает на два метра.",
+  "exTr": "Kışın burada toprak iki metre derinliğe kadar donar."
+ },
+ {
+  "impf": "затвердевать",
+  "perf": "затвердеть",
+  "tr": "katılaşmak, sertleşmek",
+  "gov": "(что?)",
+  "ex": "При охлаждении лава постепенно затвердевает.",
+  "exTr": "Lav soğudukça yavaş yavaş katılaşır."
+ },
+ {
+  "impf": "конденсироваться",
+  "perf": "конденсироваться",
+  "tr": "yoğuşmak",
+  "gov": "(на чём?)",
+  "ex": "Водяной пар конденсируется на холодной поверхности.",
+  "exTr": "Su buharı soğuk yüzeyde yoğuşur."
+ },
+ {
+  "impf": "окисляться",
+  "perf": "окислиться",
+  "tr": "oksitlenmek",
+  "gov": "(что?)",
+  "ex": "На воздухе железо быстро окисляется.",
+  "exTr": "Demir havada hızla oksitlenir."
+ },
+ {
+  "impf": "кристаллизоваться",
+  "perf": "кристаллизоваться",
+  "tr": "kristalleşmek; netleşmek",
+  "gov": "(что?)",
+  "ex": "При медленном охлаждении раствор кристаллизуется.",
+  "exTr": "Yavaş soğutulduğunda çözelti kristalleşir."
+ },
+ {
+  "impf": "преломлять",
+  "perf": "преломить",
+  "tr": "kırmak (ışığı); farklı biçimde yansıtmak",
+  "gov": "что?",
+  "ex": "Капли дождя преломляют солнечный свет, образуя радугу.",
+  "exTr": "Yağmur damlaları güneş ışığını kırarak gökkuşağı oluşturur."
+ },
+ {
+  "impf": "расщеплять",
+  "perf": "расщепить",
+  "tr": "parçalamak, ayrıştırmak",
+  "gov": "что? на что?",
+  "ex": "Ферменты расщепляют белки на аминокислоты.",
+  "exTr": "Enzimler proteinleri amino asitlere ayrıştırır."
+ },
+ {
+  "impf": "опылять",
+  "perf": "опылить",
+  "tr": "tozlaştırmak",
+  "gov": "что?",
+  "ex": "Пчёлы опыляют большинство сельскохозяйственных культур.",
+  "exTr": "Arılar tarım ürünlerinin çoğunu tozlaştırır."
+ },
+ {
+  "impf": "гнездиться",
+  "perf": "",
+  "tr": "yuva yapmak, yuvalanmak",
+  "gov": "где?",
+  "ex": "На этих скалах гнездятся редкие виды птиц.",
+  "exTr": "Bu kayalıklarda nadir kuş türleri yuva yapar."
+ },
+ {
+  "impf": "вылупляться",
+  "perf": "вылупиться",
+  "tr": "yumurtadan çıkmak",
+  "gov": "из чего?",
+  "ex": "Птенцы вылупляются из яиц через две недели.",
+  "exTr": "Yavrular iki hafta sonra yumurtadan çıkar."
+ },
+ {
+  "impf": "паразитировать",
+  "perf": "",
+  "tr": "asalak olarak yaşamak",
+  "gov": "на ком? на чём?",
+  "ex": "Этот гриб паразитирует на корнях деревьев.",
+  "exTr": "Bu mantar ağaçların kökleri üzerinde asalak olarak yaşar."
+ },
+ {
+  "impf": "маскироваться",
+  "perf": "замаскироваться",
+  "tr": "kamufle olmak, gizlenmek",
+  "gov": "под что? чем?",
+  "ex": "Многие насекомые маскируются под сухие листья.",
+  "exTr": "Birçok böcek kuru yaprak görünümüne bürünerek gizlenir."
+ },
+ {
+  "impf": "зимовать",
+  "perf": "перезимовать",
+  "tr": "kışlamak, kışı geçirmek",
+  "gov": "где?",
+  "ex": "Многие птицы зимуют в Африке.",
+  "exTr": "Birçok kuş kışı Afrika'da geçirir."
+ },
+ {
+  "impf": "вращаться",
+  "perf": "",
+  "tr": "dönmek; (bir çevrede) bulunmak",
+  "gov": "вокруг чего? в чём?",
+  "ex": "Земля вращается вокруг своей оси.",
+  "exTr": "Dünya kendi ekseni etrafında döner."
+ },
+ {
+  "impf": "колебать",
+  "perf": "поколебать",
+  "tr": "sarsmak, zayıflatmak",
+  "gov": "что?",
+  "ex": "Скандал поколебал доверие избирателей к правительству.",
+  "exTr": "Skandal seçmenlerin hükümete olan güvenini sarstı."
+ },
+ {
+  "impf": "присматриваться",
+  "perf": "присмотреться",
+  "tr": "dikkatle incelemek, iyice bakmak",
+  "gov": "к кому? к чему?",
+  "ex": "Инвесторы пока присматриваются к новому рынку.",
+  "exTr": "Yatırımcılar şimdilik yeni pazarı dikkatle inceliyor."
+ },
+ {
+  "impf": "спохватываться",
+  "perf": "спохватиться",
+  "tr": "birden fark etmek, geç fark edip telaşlanmak",
+  "gov": "(что?)",
+  "ex": "Власти спохватились лишь тогда, когда эпидемия уже распространилась.",
+  "exTr": "Yetkililer ancak salgın yayıldıktan sonra durumu fark etti."
+ },
+ {
+  "impf": "сужаться",
+  "perf": "сузиться",
+  "tr": "daralmak",
+  "gov": "(что?)",
+  "ex": "Круг подозреваемых постепенно сужается.",
+  "exTr": "Şüpheliler çemberi giderek daralıyor."
+ },
+ {
+  "impf": "ускользать",
+  "perf": "ускользнуть",
+  "tr": "elinden kaçmak, gözden kaçmak, sıvışmak",
+  "gov": "от кого? от чего?",
+  "ex": "Эта важная деталь ускользнула от внимания следователей.",
+  "exTr": "Bu önemli ayrıntı müfettişlerin dikkatinden kaçtı."
+ }
+]

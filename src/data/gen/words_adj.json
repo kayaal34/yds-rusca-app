@@ -1,0 +1,1808 @@
+[
+ {
+  "w": "значительный",
+  "note": "кратк. значителен · сравн. значительнее",
+  "tr": "önemli, kayda değer, büyük",
+  "ex": "Реформа оказала значительное влияние на экономику страны.",
+  "exTr": "Reform, ülke ekonomisi üzerinde önemli bir etki yarattı."
+ },
+ {
+  "w": "современный",
+  "note": "сравн. современнее",
+  "tr": "modern, çağdaş, günümüzün",
+  "ex": "Современное общество сталкивается с множеством сложных экологических проблем.",
+  "exTr": "Modern toplum pek çok karmaşık çevre sorunuyla karşı karşıyadır."
+ },
+ {
+  "w": "необходимый",
+  "note": "кратк. необходим · необходимый для чего",
+  "tr": "gerekli, zorunlu",
+  "ex": "Для проведения исследования учёным были необходимы точные данные.",
+  "exTr": "Araştırmayı yürütmek için bilim insanlarının kesin verilere ihtiyacı vardı."
+ },
+ {
+  "w": "существенный",
+  "note": "кратк. существен · сравн. существеннее",
+  "tr": "esaslı, önemli, kayda değer",
+  "ex": "Новые технологии привели к существенному снижению производственных затрат.",
+  "exTr": "Yeni teknolojiler üretim maliyetlerinde kayda değer bir düşüşe yol açtı."
+ },
+ {
+  "w": "очевидный",
+  "note": "кратк. очевиден · очевидно, что…",
+  "tr": "açık, belli, aşikâr",
+  "ex": "Связь между курением и раком лёгких сегодня считается очевидной.",
+  "exTr": "Sigara içmek ile akciğer kanseri arasındaki bağlantı bugün apaçık kabul ediliyor."
+ },
+ {
+  "w": "устойчивый",
+  "note": "кратк. устойчив · устойчивое развитие",
+  "tr": "istikrarlı, dayanıklı, sürdürülebilir",
+  "ex": "Правительство стремится обеспечить устойчивое развитие всех регионов страны.",
+  "exTr": "Hükümet, ülkenin tüm bölgelerinin sürdürülebilir kalkınmasını sağlamaya çalışıyor."
+ },
+ {
+  "w": "общественный",
+  "note": "общественное мнение",
+  "tr": "toplumsal, kamusal, kamu",
+  "ex": "Общественное мнение сыграло важную роль в принятии нового закона.",
+  "exTr": "Kamuoyu, yeni yasanın kabul edilmesinde önemli bir rol oynadı."
+ },
+ {
+  "w": "основной",
+  "note": "основная причина",
+  "tr": "temel, ana, esas",
+  "ex": "Основной причиной загрязнения воздуха остаются выбросы автомобилей.",
+  "exTr": "Hava kirliliğinin ana nedeni hâlâ araç emisyonlarıdır."
+ },
+ {
+  "w": "важный",
+  "note": "кратк. важен · сравн. важнее",
+  "tr": "önemli",
+  "ex": "Образование играет важную роль в экономическом развитии любой страны.",
+  "exTr": "Eğitim, her ülkenin ekonomik kalkınmasında önemli bir rol oynar."
+ },
+ {
+  "w": "главный",
+  "note": "главным образом",
+  "tr": "başlıca, ana, en önemli",
+  "ex": "Главной целью конференции было обсуждение проблем изменения климата.",
+  "exTr": "Konferansın asıl amacı iklim değişikliği sorunlarını tartışmaktı."
+ },
+ {
+  "w": "государственный",
+  "note": "государственная политика",
+  "tr": "devlete ait, devlet",
+  "ex": "Государственная поддержка малого бизнеса значительно увеличилась в последние годы.",
+  "exTr": "Küçük işletmelere yönelik devlet desteği son yıllarda önemli ölçüde arttı."
+ },
+ {
+  "w": "экономический",
+  "note": "экономический рост",
+  "tr": "ekonomik, iktisadi",
+  "ex": "Экономический рост сопровождался увеличением неравенства между регионами.",
+  "exTr": "Ekonomik büyümeye bölgeler arasındaki eşitsizliğin artması eşlik etti."
+ },
+ {
+  "w": "социальный",
+  "note": "социальная защита",
+  "tr": "sosyal, toplumsal",
+  "ex": "Безработица остаётся одной из самых острых социальных проблем.",
+  "exTr": "İşsizlik, en ciddi sosyal sorunlardan biri olmaya devam ediyor."
+ },
+ {
+  "w": "политический",
+  "note": "политическая система",
+  "tr": "siyasi, politik",
+  "ex": "Политический кризис негативно отразился на инвестиционном климате страны.",
+  "exTr": "Siyasi kriz, ülkenin yatırım ortamını olumsuz etkiledi."
+ },
+ {
+  "w": "научный",
+  "note": "научное открытие",
+  "tr": "bilimsel",
+  "ex": "Это научное открытие изменило представления о происхождении жизни.",
+  "exTr": "Bu bilimsel keşif, yaşamın kökenine ilişkin görüşleri değiştirdi."
+ },
+ {
+  "w": "исторический",
+  "note": "исторический период",
+  "tr": "tarihî, tarihsel",
+  "ex": "Исторические источники позволяют восстановить события далёкого прошлого.",
+  "exTr": "Tarihî kaynaklar, uzak geçmişin olaylarını yeniden kurmaya olanak tanır."
+ },
+ {
+  "w": "культурный",
+  "note": "культурное наследие",
+  "tr": "kültürel; kültürlü",
+  "ex": "Сохранение культурного наследия является задачей всего общества.",
+  "exTr": "Kültürel mirasın korunması tüm toplumun görevidir."
+ },
+ {
+  "w": "экологический",
+  "note": "экологическая катастрофа",
+  "tr": "ekolojik, çevresel",
+  "ex": "Экологические последствия вырубки лесов ощущаются во всём мире.",
+  "exTr": "Ormansızlaşmanın çevresel sonuçları tüm dünyada hissediliyor."
+ },
+ {
+  "w": "международный",
+  "note": "международное сотрудничество",
+  "tr": "uluslararası",
+  "ex": "Международное сотрудничество необходимо для борьбы с глобальным потеплением.",
+  "exTr": "Küresel ısınmayla mücadele için uluslararası iş birliği gereklidir."
+ },
+ {
+  "w": "окружающий",
+  "note": "окружающая среда",
+  "tr": "çevreleyen, etraftaki",
+  "ex": "Промышленные отходы наносят серьёзный вред окружающей среде.",
+  "exTr": "Sanayi atıkları çevreye ciddi zarar veriyor."
+ },
+ {
+  "w": "эффективный",
+  "note": "кратк. эффективен · сравн. эффективнее",
+  "tr": "etkili, verimli",
+  "ex": "Вакцинация является наиболее эффективным способом профилактики инфекционных заболеваний.",
+  "exTr": "Aşılama, bulaşıcı hastalıkları önlemenin en etkili yoludur."
+ },
+ {
+  "w": "актуальный",
+  "note": "кратк. актуален · актуальная проблема",
+  "tr": "güncel, gündemdeki",
+  "ex": "Проблема нехватки пресной воды становится всё более актуальной.",
+  "exTr": "Tatlı su kıtlığı sorunu giderek daha güncel hâle geliyor."
+ },
+ {
+  "w": "значимый",
+  "note": "кратк. значим · социально значимый",
+  "tr": "anlamlı, önemli",
+  "ex": "Исследователи получили статистически значимые результаты после двух лет наблюдений.",
+  "exTr": "Araştırmacılar iki yıllık gözlemin ardından istatistiksel olarak anlamlı sonuçlar elde etti."
+ },
+ {
+  "w": "сложный",
+  "note": "кратк. сложен · сравн. сложнее",
+  "tr": "karmaşık, zor, girift",
+  "ex": "Изменение климата представляет собой сложный процесс с многочисленными причинами.",
+  "exTr": "İklim değişikliği, çok sayıda nedeni olan karmaşık bir süreçtir."
+ },
+ {
+  "w": "возможный",
+  "note": "кратк. возможен · по возможности",
+  "tr": "mümkün, olası",
+  "ex": "Учёные рассматривают несколько возможных объяснений этого необычного явления.",
+  "exTr": "Bilim insanları bu olağandışı olgunun birkaç olası açıklamasını değerlendiriyor."
+ },
+ {
+  "w": "вероятный",
+  "note": "кратк. вероятен · вероятнее всего",
+  "tr": "muhtemel, olası",
+  "ex": "Наиболее вероятной причиной аварии эксперты считают человеческую ошибку.",
+  "exTr": "Uzmanlar kazanın en muhtemel nedeninin insan hatası olduğunu düşünüyor."
+ },
+ {
+  "w": "постоянный",
+  "note": "кратк. постоянен",
+  "tr": "sürekli, daimi, kalıcı",
+  "ex": "Постоянный рост населения увеличивает нагрузку на городскую инфраструктуру.",
+  "exTr": "Nüfusun sürekli artışı kentsel altyapı üzerindeki yükü artırıyor."
+ },
+ {
+  "w": "определённый",
+  "note": "кратк. определён · в определённой мере",
+  "tr": "belirli, belli, kesin",
+  "ex": "В определённых условиях бактерии способны выживать без кислорода.",
+  "exTr": "Belirli koşullarda bakteriler oksijensiz hayatta kalabilir."
+ },
+ {
+  "w": "различный",
+  "note": "кратк. различен",
+  "tr": "çeşitli, farklı",
+  "ex": "Учёные из различных стран объединили усилия для решения этой задачи.",
+  "exTr": "Farklı ülkelerden bilim insanları bu sorunu çözmek için güçlerini birleştirdi."
+ },
+ {
+  "w": "многочисленный",
+  "note": "кратк. многочислен",
+  "tr": "çok sayıda, kalabalık",
+  "ex": "Многочисленные исследования подтверждают пользу регулярной физической активности.",
+  "exTr": "Çok sayıda araştırma, düzenli fiziksel aktivitenin yararını doğruluyor."
+ },
+ {
+  "w": "серьёзный",
+  "note": "кратк. серьёзен · сравн. серьёзнее",
+  "tr": "ciddi, ağır",
+  "ex": "Ожирение стало серьёзной угрозой для здоровья населения развитых стран.",
+  "exTr": "Obezite, gelişmiş ülkelerde halk sağlığı için ciddi bir tehdit hâline geldi."
+ },
+ {
+  "w": "ключевой",
+  "note": "ключевая роль",
+  "tr": "kilit, anahtar, temel",
+  "ex": "Ключевую роль в развитии региона сыграли иностранные инвестиции.",
+  "exTr": "Bölgenin kalkınmasında yabancı yatırımlar kilit bir rol oynadı."
+ },
+ {
+  "w": "общий",
+  "note": "кратк. общ · в общем",
+  "tr": "genel, ortak",
+  "ex": "Общий объём торговли между странами вырос на двадцать процентов.",
+  "exTr": "Ülkeler arasındaki toplam ticaret hacmi yüzde yirmi arttı."
+ },
+ {
+  "w": "отдельный",
+  "note": "отдельные случаи",
+  "tr": "ayrı, tek tek, bazı",
+  "ex": "В отдельных регионах уровень безработицы остаётся крайне высоким.",
+  "exTr": "Bazı bölgelerde işsizlik oranı son derece yüksek olmaya devam ediyor."
+ },
+ {
+  "w": "конкретный",
+  "note": "кратк. конкретен",
+  "tr": "somut, belirli",
+  "ex": "Правительство пока не предложило конкретных мер по снижению инфляции.",
+  "exTr": "Hükümet henüz enflasyonu düşürmek için somut önlemler önermedi."
+ },
+ {
+  "w": "доступный",
+  "note": "кратк. доступен · доступный для кого",
+  "tr": "erişilebilir, ulaşılabilir, uygun fiyatlı",
+  "ex": "Интернет сделал знания доступными для миллионов людей во всём мире.",
+  "exTr": "İnternet, bilgiyi dünya genelinde milyonlarca insan için erişilebilir kıldı."
+ },
+ {
+  "w": "долгосрочный",
+  "note": "долгосрочная перспектива",
+  "tr": "uzun vadeli",
+  "ex": "Долгосрочные последствия этой политики пока трудно оценить.",
+  "exTr": "Bu politikanın uzun vadeli sonuçlarını değerlendirmek şimdilik zor."
+ },
+ {
+  "w": "краткосрочный",
+  "note": "краткосрочный кредит",
+  "tr": "kısa vadeli",
+  "ex": "Краткосрочные меры не способны решить структурные проблемы экономики.",
+  "exTr": "Kısa vadeli önlemler ekonominin yapısal sorunlarını çözemez."
+ },
+ {
+  "w": "длительный",
+  "note": "кратк. длителен · длительный период",
+  "tr": "uzun süreli, uzun",
+  "ex": "Длительное воздействие шума может привести к нарушениям слуха.",
+  "exTr": "Gürültüye uzun süre maruz kalmak işitme bozukluklarına yol açabilir."
+ },
+ {
+  "w": "временный",
+  "note": "временные меры",
+  "tr": "geçici",
+  "ex": "Власти ввели временные ограничения на вывоз зерна из страны.",
+  "exTr": "Yetkililer ülkeden tahıl ihracatına geçici kısıtlamalar getirdi."
+ },
+ {
+  "w": "традиционный",
+  "note": "кратк. традиционен",
+  "tr": "geleneksel",
+  "ex": "Традиционные методы земледелия постепенно уступают место современным технологиям.",
+  "exTr": "Geleneksel tarım yöntemleri yavaş yavaş yerini modern teknolojilere bırakıyor."
+ },
+ {
+  "w": "национальный",
+  "note": "национальная экономика",
+  "tr": "ulusal, millî",
+  "ex": "Национальная валюта значительно ослабла после введения санкций.",
+  "exTr": "Yaptırımların uygulanmasının ardından ulusal para birimi önemli ölçüde değer kaybetti."
+ },
+ {
+  "w": "мировой",
+  "note": "мировая экономика",
+  "tr": "dünya, küresel",
+  "ex": "Пандемия вызвала глубокий спад мировой экономики.",
+  "exTr": "Pandemi dünya ekonomisinde derin bir daralmaya neden oldu."
+ },
+ {
+  "w": "глобальный",
+  "note": "глобальное потепление",
+  "tr": "küresel",
+  "ex": "Глобальное потепление приводит к таянию ледников и повышению уровня моря.",
+  "exTr": "Küresel ısınma buzulların erimesine ve deniz seviyesinin yükselmesine yol açıyor."
+ },
+ {
+  "w": "природный",
+  "note": "природные ресурсы",
+  "tr": "doğal, doğaya ait",
+  "ex": "Россия обладает огромными запасами природных ресурсов.",
+  "exTr": "Rusya, devasa doğal kaynak rezervlerine sahiptir."
+ },
+ {
+  "w": "естественный",
+  "note": "кратк. естествен · естественный отбор",
+  "tr": "doğal, tabii",
+  "ex": "Естественный отбор лежит в основе эволюционной теории Дарвина.",
+  "exTr": "Doğal seçilim, Darwin'in evrim kuramının temelini oluşturur."
+ },
+ {
+  "w": "искусственный",
+  "note": "искусственный интеллект",
+  "tr": "yapay, suni",
+  "ex": "Искусственный интеллект находит всё более широкое применение в медицине.",
+  "exTr": "Yapay zekâ tıpta giderek daha geniş bir uygulama alanı buluyor."
+ },
+ {
+  "w": "технологический",
+  "note": "технологический прогресс",
+  "tr": "teknolojik",
+  "ex": "Технологический прогресс радикально изменил структуру рынка труда.",
+  "exTr": "Teknolojik ilerleme iş gücü piyasasının yapısını kökten değiştirdi."
+ },
+ {
+  "w": "промышленный",
+  "note": "промышленное производство",
+  "tr": "sanayi, endüstriyel",
+  "ex": "Промышленная революция началась в Англии в конце восемнадцатого века.",
+  "exTr": "Sanayi Devrimi on sekizinci yüzyılın sonunda İngiltere'de başladı."
+ },
+ {
+  "w": "финансовый",
+  "note": "финансовый кризис",
+  "tr": "mali, finansal",
+  "ex": "Финансовый кризис две тысячи восьмого года затронул почти все страны.",
+  "exTr": "2008 mali krizi neredeyse tüm ülkeleri etkiledi."
+ },
+ {
+  "w": "медицинский",
+  "note": "медицинская помощь",
+  "tr": "tıbbi, sağlıkla ilgili",
+  "ex": "В сельской местности доступ к медицинской помощи остаётся ограниченным.",
+  "exTr": "Kırsal kesimde sağlık hizmetlerine erişim sınırlı olmaya devam ediyor."
+ },
+ {
+  "w": "положительный",
+  "note": "кратк. положителен",
+  "tr": "olumlu, pozitif",
+  "ex": "Реформа образования дала положительные результаты уже через несколько лет.",
+  "exTr": "Eğitim reformu birkaç yıl içinde olumlu sonuçlar verdi."
+ },
+ {
+  "w": "отрицательный",
+  "note": "кратк. отрицателен",
+  "tr": "olumsuz, negatif",
+  "ex": "Чрезмерное использование смартфонов оказывает отрицательное влияние на сон подростков.",
+  "exTr": "Akıllı telefonların aşırı kullanımı gençlerin uykusunu olumsuz etkiliyor."
+ },
+ {
+  "w": "негативный",
+  "note": "негативные последствия",
+  "tr": "olumsuz, negatif",
+  "ex": "Эксперты предупреждают о негативных последствиях бесконтрольного строительства.",
+  "exTr": "Uzmanlar denetimsiz yapılaşmanın olumsuz sonuçları konusunda uyarıyor."
+ },
+ {
+  "w": "благоприятный",
+  "note": "кратк. благоприятен",
+  "tr": "elverişli, uygun, olumlu",
+  "ex": "Благоприятный климат способствовал развитию сельского хозяйства в этом регионе.",
+  "exTr": "Elverişli iklim bu bölgede tarımın gelişmesine katkıda bulundu."
+ },
+ {
+  "w": "неблагоприятный",
+  "note": "кратк. неблагоприятен",
+  "tr": "elverişsiz, olumsuz",
+  "ex": "Неблагоприятные погодные условия привели к значительному сокращению урожая.",
+  "exTr": "Olumsuz hava koşulları hasatta önemli bir düşüşe yol açtı."
+ },
+ {
+  "w": "опасный",
+  "note": "кратк. опасен · опасный для кого/чего",
+  "tr": "tehlikeli",
+  "ex": "Некоторые химические вещества особенно опасны для здоровья детей.",
+  "exTr": "Bazı kimyasal maddeler özellikle çocukların sağlığı için tehlikelidir."
+ },
+ {
+  "w": "безопасный",
+  "note": "кратк. безопасен · сравн. безопаснее",
+  "tr": "güvenli, emniyetli",
+  "ex": "Ядерная энергетика может быть безопасной при строгом соблюдении норм.",
+  "exTr": "Nükleer enerji, kurallara sıkı sıkıya uyulduğunda güvenli olabilir."
+ },
+ {
+  "w": "вредный",
+  "note": "кратк. вреден · вредный для чего",
+  "tr": "zararlı",
+  "ex": "Вредные выбросы заводов загрязняют реки и почву вокруг города.",
+  "exTr": "Fabrikaların zararlı emisyonları şehrin çevresindeki nehirleri ve toprağı kirletiyor."
+ },
+ {
+  "w": "полезный",
+  "note": "кратк. полезен · полезные ископаемые",
+  "tr": "yararlı, faydalı",
+  "ex": "В недрах этого региона обнаружены богатые запасы полезных ископаемых.",
+  "exTr": "Bu bölgenin yer altında zengin maden rezervleri keşfedildi."
+ },
+ {
+  "w": "успешный",
+  "note": "кратк. успешен",
+  "tr": "başarılı",
+  "ex": "Успешный запуск спутника стал важным достижением национальной космической программы.",
+  "exTr": "Uydunun başarılı fırlatılışı ulusal uzay programının önemli bir başarısı oldu."
+ },
+ {
+  "w": "выгодный",
+  "note": "кратк. выгоден · взаимовыгодный",
+  "tr": "kârlı, avantajlı",
+  "ex": "Обе страны подписали взаимовыгодное соглашение о торговле энергоносителями.",
+  "exTr": "İki ülke enerji kaynakları ticaretine ilişkin karşılıklı yarar sağlayan bir anlaşma imzaladı."
+ },
+ {
+  "w": "развитый",
+  "note": "развитые страны",
+  "tr": "gelişmiş",
+  "ex": "В развитых странах средняя продолжительность жизни превышает восемьдесят лет.",
+  "exTr": "Gelişmiş ülkelerde ortalama yaşam süresi seksen yılı aşıyor."
+ },
+ {
+  "w": "развивающийся",
+  "note": "развивающиеся страны",
+  "tr": "gelişmekte olan",
+  "ex": "Развивающиеся страны особенно уязвимы перед последствиями изменения климата.",
+  "exTr": "Gelişmekte olan ülkeler iklim değişikliğinin sonuçlarına karşı özellikle savunmasızdır."
+ },
+ {
+  "w": "сельский",
+  "note": "сельская местность",
+  "tr": "kırsal, köye ait",
+  "ex": "Молодёжь всё чаще покидает сельские районы в поисках работы.",
+  "exTr": "Gençler iş bulmak için kırsal bölgeleri giderek daha sık terk ediyor."
+ },
+ {
+  "w": "городской",
+  "note": "городское население",
+  "tr": "kentsel, şehre ait",
+  "ex": "Доля городского населения в мире продолжает стремительно расти.",
+  "exTr": "Dünyadaki kentli nüfusun payı hızla artmaya devam ediyor."
+ },
+ {
+  "w": "местный",
+  "note": "местные власти",
+  "tr": "yerel",
+  "ex": "Местные власти выделили средства на ремонт школ и больниц.",
+  "exTr": "Yerel yönetimler okul ve hastanelerin onarımı için kaynak ayırdı."
+ },
+ {
+  "w": "региональный",
+  "note": "региональное развитие",
+  "tr": "bölgesel",
+  "ex": "Региональные различия в уровне доходов остаются весьма значительными.",
+  "exTr": "Gelir düzeyindeki bölgesel farklılıklar oldukça büyük olmaya devam ediyor."
+ },
+ {
+  "w": "официальный",
+  "note": "официальные данные",
+  "tr": "resmî",
+  "ex": "Согласно официальным данным, уровень бедности снизился на три процента.",
+  "exTr": "Resmî verilere göre yoksulluk oranı yüzde üç geriledi."
+ },
+ {
+  "w": "правовой",
+  "note": "правовое государство",
+  "tr": "hukuki, hukuk",
+  "ex": "Правовое государство гарантирует равенство всех граждан перед законом.",
+  "exTr": "Hukuk devleti, tüm vatandaşların yasa önünde eşitliğini güvence altına alır."
+ },
+ {
+  "w": "законный",
+  "note": "кратк. законен",
+  "tr": "yasal, meşru",
+  "ex": "Каждый гражданин имеет право защищать свои законные интересы в суде.",
+  "exTr": "Her vatandaşın meşru çıkarlarını mahkemede savunma hakkı vardır."
+ },
+ {
+  "w": "демократический",
+  "note": "демократические выборы",
+  "tr": "demokratik",
+  "ex": "Свободные выборы являются основой любого демократического государства.",
+  "exTr": "Özgür seçimler her demokratik devletin temelidir."
+ },
+ {
+  "w": "военный",
+  "note": "военный конфликт",
+  "tr": "askerî",
+  "ex": "Военный конфликт вынудил тысячи людей покинуть свои дома.",
+  "exTr": "Askerî çatışma binlerce insanı evlerini terk etmeye zorladı."
+ },
+ {
+  "w": "гражданский",
+  "note": "гражданское общество",
+  "tr": "sivil, medeni",
+  "ex": "Гражданское общество активно участвует в решении местных проблем.",
+  "exTr": "Sivil toplum yerel sorunların çözümüne aktif olarak katılıyor."
+ },
+ {
+  "w": "религиозный",
+  "note": "религиозные традиции",
+  "tr": "dinî, dindar",
+  "ex": "Религиозные традиции оказали огромное влияние на развитие средневекового искусства.",
+  "exTr": "Dinî gelenekler Orta Çağ sanatının gelişimi üzerinde büyük bir etki yaptı."
+ },
+ {
+  "w": "этнический",
+  "note": "этнические группы",
+  "tr": "etnik",
+  "ex": "На территории страны проживают представители более ста этнических групп.",
+  "exTr": "Ülke topraklarında yüzden fazla etnik grubun temsilcileri yaşıyor."
+ },
+ {
+  "w": "демографический",
+  "note": "демографический кризис",
+  "tr": "demografik, nüfusla ilgili",
+  "ex": "Старение населения создаёт серьёзные демографические проблемы для Европы.",
+  "exTr": "Nüfusun yaşlanması Avrupa için ciddi demografik sorunlar yaratıyor."
+ },
+ {
+  "w": "трудовой",
+  "note": "трудовые ресурсы",
+  "tr": "emeğe ait, çalışma, iş",
+  "ex": "Нехватка трудовых ресурсов сдерживает рост промышленного производства.",
+  "exTr": "İş gücü kıtlığı sanayi üretiminin büyümesini frenliyor."
+ },
+ {
+  "w": "образовательный",
+  "note": "образовательная система",
+  "tr": "eğitimle ilgili, eğitsel",
+  "ex": "Цифровые технологии открывают новые образовательные возможности для студентов.",
+  "exTr": "Dijital teknolojiler öğrencilere yeni eğitim olanakları sunuyor."
+ },
+ {
+  "w": "профессиональный",
+  "note": "профессиональное образование",
+  "tr": "mesleki, profesyonel",
+  "ex": "Профессиональное обучение помогает молодым людям найти работу быстрее.",
+  "exTr": "Mesleki eğitim gençlerin daha hızlı iş bulmasına yardımcı olur."
+ },
+ {
+  "w": "квалифицированный",
+  "note": "квалифицированные кадры",
+  "tr": "nitelikli, uzman",
+  "ex": "Компании испытывают острую нехватку квалифицированных специалистов в области информатики.",
+  "exTr": "Şirketler bilişim alanında ciddi bir nitelikli uzman açığı yaşıyor."
+ },
+ {
+  "w": "исследовательский",
+  "note": "исследовательский центр",
+  "tr": "araştırma, araştırmaya ait",
+  "ex": "Исследовательская группа опубликовала результаты своей работы в известном журнале.",
+  "exTr": "Araştırma grubu çalışmasının sonuçlarını tanınmış bir dergide yayımladı."
+ },
+ {
+  "w": "теоретический",
+  "note": "теоретическая основа",
+  "tr": "kuramsal, teorik",
+  "ex": "Теоретические выводы учёного позднее были подтверждены экспериментально.",
+  "exTr": "Bilim insanının kuramsal sonuçları daha sonra deneysel olarak doğrulandı."
+ },
+ {
+  "w": "практический",
+  "note": "практическое применение",
+  "tr": "pratik, uygulamalı",
+  "ex": "Открытие имеет большое практическое значение для сельского хозяйства.",
+  "exTr": "Keşfin tarım için büyük bir pratik önemi var."
+ },
+ {
+  "w": "экспериментальный",
+  "note": "экспериментальным путём",
+  "tr": "deneysel",
+  "ex": "Эффективность нового лекарства была доказана экспериментальным путём.",
+  "exTr": "Yeni ilacın etkinliği deneysel yolla kanıtlandı."
+ },
+ {
+  "w": "точный",
+  "note": "кратк. точен · сравн. точнее",
+  "tr": "kesin, doğru, tam",
+  "ex": "Точное число жертв землетрясения до сих пор неизвестно.",
+  "exTr": "Depremde hayatını kaybedenlerin kesin sayısı hâlâ bilinmiyor."
+ },
+ {
+  "w": "достоверный",
+  "note": "кратк. достоверен",
+  "tr": "güvenilir, doğruluğu kanıtlanmış",
+  "ex": "Для анализа ситуации необходимы достоверные статистические данные.",
+  "exTr": "Durumu analiz etmek için güvenilir istatistiksel veriler gereklidir."
+ },
+ {
+  "w": "надёжный",
+  "note": "кратк. надёжен · сравн. надёжнее",
+  "tr": "güvenilir, sağlam",
+  "ex": "Солнечные батареи стали более надёжным источником энергии, чем раньше.",
+  "exTr": "Güneş panelleri eskisinden daha güvenilir bir enerji kaynağı hâline geldi."
+ },
+ {
+  "w": "объективный",
+  "note": "кратк. объективен",
+  "tr": "nesnel, tarafsız",
+  "ex": "Историк стремился дать объективную оценку событиям революции.",
+  "exTr": "Tarihçi, devrim olaylarına nesnel bir değerlendirme getirmeye çalıştı."
+ },
+ {
+  "w": "субъективный",
+  "note": "кратк. субъективен",
+  "tr": "öznel",
+  "ex": "Оценка качества жизни во многом носит субъективный характер.",
+  "exTr": "Yaşam kalitesinin değerlendirilmesi büyük ölçüde öznel bir nitelik taşır."
+ },
+ {
+  "w": "рациональный",
+  "note": "рациональное использование",
+  "tr": "akılcı, rasyonel",
+  "ex": "Рациональное использование водных ресурсов особенно важно в засушливых регионах.",
+  "exTr": "Su kaynaklarının akılcı kullanımı kurak bölgelerde özellikle önemlidir."
+ },
+ {
+  "w": "разумный",
+  "note": "кратк. разумен",
+  "tr": "makul, akıllıca, akıllı",
+  "ex": "Эксперты считают такое решение вполне разумным в нынешних условиях.",
+  "exTr": "Uzmanlar bu kararı mevcut koşullarda oldukça makul buluyor."
+ },
+ {
+  "w": "справедливый",
+  "note": "кратк. справедлив",
+  "tr": "adil, haklı",
+  "ex": "Справедливое распределение доходов остаётся главной целью социальной политики.",
+  "exTr": "Gelirin adil dağılımı sosyal politikanın temel hedefi olmaya devam ediyor."
+ },
+ {
+  "w": "равный",
+  "note": "кратк. равен · равные права",
+  "tr": "eşit",
+  "ex": "Конституция гарантирует мужчинам и женщинам равные права.",
+  "exTr": "Anayasa kadın ve erkeklere eşit haklar güvence altına alır."
+ },
+ {
+  "w": "независимый",
+  "note": "кратк. независим · независимый от чего",
+  "tr": "bağımsız",
+  "ex": "Независимые эксперты подтвердили результаты проведённого исследования.",
+  "exTr": "Bağımsız uzmanlar yapılan araştırmanın sonuçlarını doğruladı."
+ },
+ {
+  "w": "зависимый",
+  "note": "кратк. зависим · зависимый от чего",
+  "tr": "bağımlı",
+  "ex": "Экономика страны остаётся сильно зависимой от экспорта нефти.",
+  "exTr": "Ülke ekonomisi petrol ihracatına büyük ölçüde bağımlı olmaya devam ediyor."
+ },
+ {
+  "w": "свободный",
+  "note": "кратк. свободен · свободный от чего",
+  "tr": "serbest, özgür, boş",
+  "ex": "Создание зоны свободной торговли стимулировало рост экспорта.",
+  "exTr": "Serbest ticaret bölgesinin oluşturulması ihracatın büyümesini teşvik etti."
+ },
+ {
+  "w": "обязательный",
+  "note": "кратк. обязателен",
+  "tr": "zorunlu, mecburi",
+  "ex": "В России среднее общее образование является обязательным для всех детей.",
+  "exTr": "Rusya'da orta öğretim tüm çocuklar için zorunludur."
+ },
+ {
+  "w": "добровольный",
+  "note": "на добровольной основе",
+  "tr": "gönüllü, isteğe bağlı",
+  "ex": "Участие в эксперименте было добровольным и анонимным.",
+  "exTr": "Deneye katılım gönüllü ve anonimdi."
+ },
+ {
+  "w": "биологический",
+  "note": "биологическое разнообразие",
+  "tr": "biyolojik",
+  "ex": "Сокращение лесов угрожает биологическому разнообразию планеты.",
+  "exTr": "Ormanların azalması gezegenin biyolojik çeşitliliğini tehdit ediyor."
+ },
+ {
+  "w": "химический",
+  "note": "химический состав",
+  "tr": "kimyasal",
+  "ex": "Учёные изучили химический состав воды в нескольких горных озёрах.",
+  "exTr": "Bilim insanları birkaç dağ gölündeki suyun kimyasal bileşimini inceledi."
+ },
+ {
+  "w": "физический",
+  "note": "физическая активность",
+  "tr": "fiziksel, bedensel; fizik",
+  "ex": "Регулярная физическая нагрузка снижает риск сердечных заболеваний.",
+  "exTr": "Düzenli fiziksel egzersiz kalp hastalıkları riskini azaltır."
+ },
+ {
+  "w": "психологический",
+  "note": "психологическая помощь",
+  "tr": "psikolojik",
+  "ex": "Пострадавшим от наводнения была оказана психологическая помощь.",
+  "exTr": "Selden etkilenenlere psikolojik destek sağlandı."
+ },
+ {
+  "w": "психический",
+  "note": "психическое здоровье",
+  "tr": "ruhsal, zihinsel",
+  "ex": "Хронический стресс негативно влияет на психическое здоровье работников.",
+  "exTr": "Kronik stres çalışanların ruh sağlığını olumsuz etkiliyor."
+ },
+ {
+  "w": "эмоциональный",
+  "note": "кратк. эмоционален",
+  "tr": "duygusal",
+  "ex": "Эмоциональное состояние человека во многом зависит от качества сна.",
+  "exTr": "İnsanın duygusal durumu büyük ölçüde uyku kalitesine bağlıdır."
+ },
+ {
+  "w": "хронический",
+  "note": "хроническое заболевание",
+  "tr": "kronik, süreğen",
+  "ex": "Число людей с хроническими заболеваниями постоянно растёт.",
+  "exTr": "Kronik hastalığı olan insanların sayısı sürekli artıyor."
+ },
+ {
+  "w": "инфекционный",
+  "note": "инфекционное заболевание",
+  "tr": "bulaşıcı, enfeksiyöz",
+  "ex": "Инфекционные болезни распространяются быстрее в густонаселённых городах.",
+  "exTr": "Bulaşıcı hastalıklar kalabalık şehirlerde daha hızlı yayılır."
+ },
+ {
+  "w": "генетический",
+  "note": "генетический код",
+  "tr": "genetik",
+  "ex": "Генетические исследования помогают выявлять предрасположенность к некоторым болезням.",
+  "exTr": "Genetik araştırmalar bazı hastalıklara yatkınlığın belirlenmesine yardımcı oluyor."
+ },
+ {
+  "w": "наследственный",
+  "note": "наследственное заболевание",
+  "tr": "kalıtsal, irsî",
+  "ex": "Некоторые наследственные заболевания передаются из поколения в поколение.",
+  "exTr": "Bazı kalıtsal hastalıklar kuşaktan kuşağa aktarılır."
+ },
+ {
+  "w": "здоровый",
+  "note": "кратк. здоров · здоровый образ жизни",
+  "tr": "sağlıklı",
+  "ex": "Здоровый образ жизни значительно снижает риск многих заболеваний.",
+  "exTr": "Sağlıklı bir yaşam tarzı pek çok hastalığın riskini önemli ölçüde azaltır."
+ },
+ {
+  "w": "климатический",
+  "note": "климатические изменения",
+  "tr": "iklimsel, iklim",
+  "ex": "Климатические изменения угрожают продовольственной безопасности многих стран.",
+  "exTr": "İklim değişiklikleri pek çok ülkenin gıda güvenliğini tehdit ediyor."
+ },
+ {
+  "w": "загрязнённый",
+  "note": "кратк. загрязнён",
+  "tr": "kirlenmiş, kirli",
+  "ex": "Жители загрязнённых районов чаще страдают от заболеваний дыхательных путей.",
+  "exTr": "Kirli bölgelerde yaşayanlar solunum yolu hastalıklarından daha sık muzdarip oluyor."
+ },
+ {
+  "w": "возобновляемый",
+  "note": "возобновляемые источники энергии",
+  "tr": "yenilenebilir",
+  "ex": "Доля возобновляемых источников энергии в Европе быстро увеличивается.",
+  "exTr": "Avrupa'da yenilenebilir enerji kaynaklarının payı hızla artıyor."
+ },
+ {
+  "w": "энергетический",
+  "note": "энергетический кризис",
+  "tr": "enerjiye ait, enerji",
+  "ex": "Энергетический кризис заставил многие страны пересмотреть свою политику.",
+  "exTr": "Enerji krizi pek çok ülkeyi politikasını gözden geçirmeye zorladı."
+ },
+ {
+  "w": "ядерный",
+  "note": "ядерное оружие",
+  "tr": "nükleer",
+  "ex": "Договор запрещает испытания ядерного оружия в атмосфере.",
+  "exTr": "Antlaşma, atmosferde nükleer silah denemelerini yasaklıyor."
+ },
+ {
+  "w": "цифровой",
+  "note": "цифровая экономика",
+  "tr": "dijital, sayısal",
+  "ex": "Цифровая экономика создаёт новые рабочие места и профессии.",
+  "exTr": "Dijital ekonomi yeni iş alanları ve meslekler yaratıyor."
+ },
+ {
+  "w": "информационный",
+  "note": "информационные технологии",
+  "tr": "bilgiye ait, bilişim",
+  "ex": "Информационные технологии изменили способы общения между людьми.",
+  "exTr": "Bilişim teknolojileri insanlar arasındaki iletişim biçimlerini değiştirdi."
+ },
+ {
+  "w": "электронный",
+  "note": "электронная почта",
+  "tr": "elektronik",
+  "ex": "Электронные библиотеки облегчили студентам доступ к научной литературе.",
+  "exTr": "Elektronik kütüphaneler öğrencilerin bilimsel literatüre erişimini kolaylaştırdı."
+ },
+ {
+  "w": "виртуальный",
+  "note": "виртуальная реальность",
+  "tr": "sanal",
+  "ex": "Технологии виртуальной реальности всё чаще используются в обучении врачей.",
+  "exTr": "Sanal gerçeklik teknolojileri doktorların eğitiminde giderek daha sık kullanılıyor."
+ },
+ {
+  "w": "инновационный",
+  "note": "инновационные технологии",
+  "tr": "yenilikçi",
+  "ex": "Государство поддерживает инновационные компании с помощью налоговых льгот.",
+  "exTr": "Devlet yenilikçi şirketleri vergi indirimleriyle destekliyor."
+ },
+ {
+  "w": "передовой",
+  "note": "передовые технологии",
+  "tr": "ileri, öncü, en gelişmiş",
+  "ex": "Лаборатория оснащена самым передовым оборудованием для генетических исследований.",
+  "exTr": "Laboratuvar, genetik araştırmalar için en gelişmiş ekipmanla donatılmıştır."
+ },
+ {
+  "w": "новейший",
+  "note": "превосх. от новый",
+  "tr": "en yeni, son",
+  "ex": "Новейшие исследования опровергают прежние представления об этом заболевании.",
+  "exTr": "En yeni araştırmalar bu hastalıkla ilgili eski görüşleri çürütüyor."
+ },
+ {
+  "w": "устаревший",
+  "note": "устаревшие технологии",
+  "tr": "eskimiş, modası geçmiş",
+  "ex": "Многие предприятия до сих пор работают на устаревшем оборудовании.",
+  "exTr": "Pek çok işletme hâlâ eskimiş ekipmanla çalışıyor."
+ },
+ {
+  "w": "массовый",
+  "note": "средства массовой информации",
+  "tr": "kitlesel, toplu",
+  "ex": "Средства массовой информации формируют общественное мнение по многим вопросам.",
+  "exTr": "Kitle iletişim araçları pek çok konuda kamuoyunu şekillendiriyor."
+ },
+ {
+  "w": "коллективный",
+  "note": "коллективная ответственность",
+  "tr": "toplu, kolektif, ortak",
+  "ex": "Решение проблемы требует коллективных усилий всех членов общества.",
+  "exTr": "Sorunun çözümü toplumun tüm üyelerinin ortak çabasını gerektiriyor."
+ },
+ {
+  "w": "индивидуальный",
+  "note": "индивидуальный подход",
+  "tr": "bireysel, kişisel",
+  "ex": "Современная медицина требует индивидуального подхода к каждому пациенту.",
+  "exTr": "Modern tıp her hastaya bireysel bir yaklaşım gerektiriyor."
+ },
+ {
+  "w": "частный",
+  "note": "частная собственность",
+  "tr": "özel; kısmi",
+  "ex": "Частный сектор обеспечивает более половины рабочих мест в стране.",
+  "exTr": "Özel sektör ülkedeki istihdamın yarısından fazlasını sağlıyor."
+ },
+ {
+  "w": "личный",
+  "note": "личная жизнь",
+  "tr": "kişisel, özel",
+  "ex": "Закон защищает личные данные граждан от незаконного использования.",
+  "exTr": "Yasa vatandaşların kişisel verilerini yasa dışı kullanıma karşı koruyor."
+ },
+ {
+  "w": "пожилой",
+  "note": "пожилые люди",
+  "tr": "yaşlı",
+  "ex": "Пожилые люди особенно нуждаются в доступной медицинской помощи.",
+  "exTr": "Yaşlılar özellikle erişilebilir sağlık hizmetine ihtiyaç duyar."
+ },
+ {
+  "w": "материальный",
+  "note": "материальное положение",
+  "tr": "maddi",
+  "ex": "Материальное положение семьи влияет на образовательные возможности детей.",
+  "exTr": "Ailenin maddi durumu çocukların eğitim olanaklarını etkiliyor."
+ },
+ {
+  "w": "духовный",
+  "note": "духовные ценности",
+  "tr": "manevi, ruhani",
+  "ex": "Литература отражает духовные ценности и идеалы своей эпохи.",
+  "exTr": "Edebiyat, döneminin manevi değerlerini ve ideallerini yansıtır."
+ },
+ {
+  "w": "нравственный",
+  "note": "кратк. нравствен",
+  "tr": "ahlaki",
+  "ex": "Развитие генной инженерии поднимает сложные нравственные вопросы.",
+  "exTr": "Genetik mühendisliğinin gelişmesi karmaşık ahlaki soruları gündeme getiriyor."
+ },
+ {
+  "w": "художественный",
+  "note": "художественная литература",
+  "tr": "sanatsal, edebî",
+  "ex": "Роман обладает высокой художественной ценностью и переведён на многие языки.",
+  "exTr": "Roman yüksek bir sanatsal değere sahiptir ve pek çok dile çevrilmiştir."
+ },
+ {
+  "w": "уникальный",
+  "note": "кратк. уникален",
+  "tr": "eşsiz, benzersiz",
+  "ex": "Озеро Байкал представляет собой уникальную природную экосистему.",
+  "exTr": "Baykal Gölü eşsiz bir doğal ekosistemdir."
+ },
+ {
+  "w": "типичный",
+  "note": "кратк. типичен · типичный для чего",
+  "tr": "tipik",
+  "ex": "Такая структура семьи была типичной для крестьянского общества.",
+  "exTr": "Böyle bir aile yapısı köylü toplumu için tipikti."
+ },
+ {
+  "w": "характерный",
+  "note": "кратк. характерен · характерный для чего",
+  "tr": "karakteristik, özgü",
+  "ex": "Для этого периода характерен быстрый рост городского населения.",
+  "exTr": "Bu döneme kentli nüfusun hızlı artışı özgüdür."
+ },
+ {
+  "w": "особый",
+  "note": "особое внимание",
+  "tr": "özel, ayrı",
+  "ex": "Особое внимание в докладе уделяется проблемам детской бедности.",
+  "exTr": "Raporda çocuk yoksulluğu sorunlarına özel bir önem veriliyor."
+ },
+ {
+  "w": "специфический",
+  "note": "кратк. специфичен",
+  "tr": "kendine özgü, spesifik",
+  "ex": "Каждый регион имеет свои специфические экономические и социальные проблемы.",
+  "exTr": "Her bölgenin kendine özgü ekonomik ve sosyal sorunları vardır."
+ },
+ {
+  "w": "существующий",
+  "note": "существующая система",
+  "tr": "mevcut, var olan",
+  "ex": "Существующая система налогообложения нуждается в серьёзной модернизации.",
+  "exTr": "Mevcut vergilendirme sistemi ciddi bir modernizasyona ihtiyaç duyuyor."
+ },
+ {
+  "w": "соответствующий",
+  "note": "соответствующий чему",
+  "tr": "uygun, ilgili, karşılık gelen",
+  "ex": "Для решения этой проблемы необходимо принять соответствующие законы.",
+  "exTr": "Bu sorunun çözümü için ilgili yasaların çıkarılması gerekiyor."
+ },
+ {
+  "w": "аналогичный",
+  "note": "кратк. аналогичен · аналогичный чему",
+  "tr": "benzer, analog",
+  "ex": "Аналогичные результаты были получены в ходе исследований в других странах.",
+  "exTr": "Diğer ülkelerdeki araştırmalarda da benzer sonuçlar elde edildi."
+ },
+ {
+  "w": "подобный",
+  "note": "кратк. подобен · подобный чему",
+  "tr": "benzer, böyle",
+  "ex": "Подобные явления наблюдались учёными и в прошлом веке.",
+  "exTr": "Benzer olgular geçen yüzyılda da bilim insanlarınca gözlemlenmişti."
+ },
+ {
+  "w": "противоположный",
+  "note": "кратк. противоположен",
+  "tr": "zıt, karşıt",
+  "ex": "Учёные пришли к противоположным выводам, изучив одни и те же данные.",
+  "exTr": "Bilim insanları aynı verileri inceleyerek zıt sonuçlara vardı."
+ },
+ {
+  "w": "взаимный",
+  "note": "взаимное доверие",
+  "tr": "karşılıklı",
+  "ex": "Успешное сотрудничество основано на взаимном доверии и уважении.",
+  "exTr": "Başarılı iş birliği karşılıklı güven ve saygıya dayanır."
+ },
+ {
+  "w": "совместный",
+  "note": "совместный проект",
+  "tr": "ortak, birlikte yapılan",
+  "ex": "Две страны реализуют совместный проект по строительству газопровода.",
+  "exTr": "İki ülke bir doğal gaz boru hattı inşası için ortak bir proje yürütüyor."
+ },
+ {
+  "w": "тесный",
+  "note": "тесная связь",
+  "tr": "sıkı, yakın; dar",
+  "ex": "Между уровнем образования и доходами существует тесная связь.",
+  "exTr": "Eğitim düzeyi ile gelir arasında sıkı bir bağlantı vardır."
+ },
+ {
+  "w": "прямой",
+  "note": "прямые инвестиции",
+  "tr": "doğrudan, düz",
+  "ex": "Прямые иностранные инвестиции в страну выросли почти вдвое.",
+  "exTr": "Ülkeye yönelik doğrudan yabancı yatırımlar neredeyse iki katına çıktı."
+ },
+ {
+  "w": "косвенный",
+  "note": "косвенные налоги",
+  "tr": "dolaylı",
+  "ex": "Повышение косвенных налогов сильнее всего ударило по бедным семьям.",
+  "exTr": "Dolaylı vergilerin artırılması en çok yoksul aileleri etkiledi."
+ },
+ {
+  "w": "непосредственный",
+  "note": "кратк. непосредствен",
+  "tr": "doğrudan, dolaysız",
+  "ex": "Загрязнение воздуха оказывает непосредственное воздействие на здоровье человека.",
+  "exTr": "Hava kirliliği insan sağlığı üzerinde doğrudan bir etki yapar."
+ },
+ {
+  "w": "явный",
+  "note": "кратк. явен",
+  "tr": "açık, belirgin, bariz",
+  "ex": "Данные свидетельствуют о явном улучшении экономической ситуации.",
+  "exTr": "Veriler ekonomik durumda belirgin bir iyileşmeye işaret ediyor."
+ },
+ {
+  "w": "скрытый",
+  "note": "кратк. скрыт · скрытая безработица",
+  "tr": "gizli, örtük",
+  "ex": "Официальная статистика не учитывает скрытую безработицу в сельских районах.",
+  "exTr": "Resmî istatistikler kırsal bölgelerdeki gizli işsizliği hesaba katmıyor."
+ },
+ {
+  "w": "выдающийся",
+  "note": "выдающийся учёный",
+  "tr": "seçkin, önde gelen, üstün",
+  "ex": "Менделеев был выдающимся учёным, открывшим периодический закон элементов.",
+  "exTr": "Mendeleyev, elementlerin periyodik yasasını keşfeden seçkin bir bilim insanıydı."
+ },
+ {
+  "w": "ведущий",
+  "note": "ведущие специалисты",
+  "tr": "önde gelen, lider",
+  "ex": "В конференции приняли участие ведущие эксперты в области энергетики.",
+  "exTr": "Konferansa enerji alanının önde gelen uzmanları katıldı."
+ },
+ {
+  "w": "решающий",
+  "note": "решающая роль",
+  "tr": "belirleyici, kesin",
+  "ex": "Решающую роль в победе сыграла поддержка союзников.",
+  "exTr": "Zaferde müttefiklerin desteği belirleyici bir rol oynadı."
+ },
+ {
+  "w": "неизбежный",
+  "note": "кратк. неизбежен",
+  "tr": "kaçınılmaz",
+  "ex": "Многие экономисты считают новый финансовый кризис практически неизбежным.",
+  "exTr": "Pek çok iktisatçı yeni bir mali krizi neredeyse kaçınılmaz görüyor."
+ },
+ {
+  "w": "относительный",
+  "note": "кратк. относителен",
+  "tr": "göreli, nispi",
+  "ex": "После войны в регионе наступил период относительной стабильности.",
+  "exTr": "Savaştan sonra bölgede göreli bir istikrar dönemi başladı."
+ },
+ {
+  "w": "абсолютный",
+  "note": "кратк. абсолютен · абсолютное большинство",
+  "tr": "mutlak, kesin",
+  "ex": "Абсолютное большинство граждан поддержало конституционную реформу на референдуме.",
+  "exTr": "Vatandaşların ezici çoğunluğu referandumda anayasa reformunu destekledi."
+ },
+ {
+  "w": "полный",
+  "note": "кратк. полон · полный чего",
+  "tr": "tam, eksiksiz, dolu",
+  "ex": "Полный анализ полученных данных займёт несколько месяцев.",
+  "exTr": "Elde edilen verilerin tam analizi birkaç ay sürecek."
+ },
+ {
+  "w": "достаточный",
+  "note": "кратк. достаточен",
+  "tr": "yeterli",
+  "ex": "У исследователей пока нет достаточных доказательств для таких выводов.",
+  "exTr": "Araştırmacıların bu tür sonuçlar için henüz yeterli kanıtı yok."
+ },
+ {
+  "w": "недостаточный",
+  "note": "кратк. недостаточен",
+  "tr": "yetersiz",
+  "ex": "Недостаточное финансирование тормозит развитие фундаментальной науки.",
+  "exTr": "Yetersiz finansman temel bilimin gelişmesini engelliyor."
+ },
+ {
+  "w": "ограниченный",
+  "note": "кратк. ограничен · ограниченные ресурсы",
+  "tr": "sınırlı",
+  "ex": "Запасы нефти на планете ограничены и рано или поздно закончатся.",
+  "exTr": "Gezegendeki petrol rezervleri sınırlıdır ve er ya da geç tükenecektir."
+ },
+ {
+  "w": "сельскохозяйственный",
+  "note": "сельскохозяйственная продукция",
+  "tr": "tarımsal",
+  "ex": "Засуха нанесла серьёзный ущерб сельскохозяйственному производству страны.",
+  "exTr": "Kuraklık ülkenin tarımsal üretimine ciddi zarar verdi."
+ },
+ {
+  "w": "производственный",
+  "note": "производственные мощности",
+  "tr": "üretime ait, üretim",
+  "ex": "Компания планирует расширить свои производственные мощности в Сибири.",
+  "exTr": "Şirket Sibirya'daki üretim kapasitesini genişletmeyi planlıyor."
+ },
+ {
+  "w": "потребительский",
+  "note": "потребительский спрос",
+  "tr": "tüketiciye ait, tüketim",
+  "ex": "Снижение потребительского спроса привело к замедлению экономического роста.",
+  "exTr": "Tüketici talebindeki düşüş ekonomik büyümenin yavaşlamasına yol açtı."
+ },
+ {
+  "w": "рыночный",
+  "note": "рыночная экономика",
+  "tr": "piyasaya ait, piyasa",
+  "ex": "Переход к рыночной экономике сопровождался ростом цен и безработицы.",
+  "exTr": "Piyasa ekonomisine geçişe fiyatların ve işsizliğin artması eşlik etti."
+ },
+ {
+  "w": "налоговый",
+  "note": "налоговая система",
+  "tr": "vergiye ait, vergi",
+  "ex": "Новая налоговая политика направлена на поддержку малого бизнеса.",
+  "exTr": "Yeni vergi politikası küçük işletmeleri desteklemeyi amaçlıyor."
+ },
+ {
+  "w": "денежный",
+  "note": "денежные средства",
+  "tr": "parasal, nakdi",
+  "ex": "Центральный банк проводит жёсткую денежную политику для сдерживания инфляции.",
+  "exTr": "Merkez bankası enflasyonu frenlemek için sıkı bir para politikası izliyor."
+ },
+ {
+  "w": "конкурентоспособный",
+  "note": "кратк. конкурентоспособен",
+  "tr": "rekabet gücü yüksek",
+  "ex": "Отечественная продукция должна стать конкурентоспособной на мировом рынке.",
+  "exTr": "Yerli ürünler dünya piyasasında rekabet edebilir hâle gelmeli."
+ },
+ {
+  "w": "жизненный",
+  "note": "жизненный уровень · кратк. жизнен",
+  "tr": "yaşamsal, hayati; hayata ait",
+  "ex": "Жизненный уровень населения заметно повысился за последнее десятилетие.",
+  "exTr": "Halkın yaşam standardı son on yılda belirgin biçimde yükseldi."
+ },
+ {
+  "w": "повседневный",
+  "note": "повседневная жизнь",
+  "tr": "gündelik, günlük",
+  "ex": "Смартфоны стали неотъемлемой частью повседневной жизни современного человека.",
+  "exTr": "Akıllı telefonlar modern insanın gündelik yaşamının ayrılmaz bir parçası oldu."
+ },
+ {
+  "w": "острый",
+  "note": "кратк. остр · острая проблема",
+  "tr": "keskin, akut, ciddi",
+  "ex": "Нехватка доступного жилья остаётся острой проблемой крупных городов.",
+  "exTr": "Uygun fiyatlı konut eksikliği büyük şehirlerin ciddi bir sorunu olmaya devam ediyor."
+ },
+ {
+  "w": "насущный",
+  "note": "кратк. насущен · насущная потребность",
+  "tr": "acil, hayati, temel",
+  "ex": "Модернизация инфраструктуры стала насущной необходимостью для развития региона.",
+  "exTr": "Altyapının modernizasyonu bölgenin kalkınması için acil bir ihtiyaç hâline geldi."
+ },
+ {
+  "w": "противоречивый",
+  "note": "кратк. противоречив",
+  "tr": "çelişkili, tartışmalı",
+  "ex": "Результаты исследований влияния кофе на здоровье остаются противоречивыми.",
+  "exTr": "Kahvenin sağlığa etkisine ilişkin araştırmaların sonuçları çelişkili olmaya devam ediyor."
+ },
+ {
+  "w": "спорный",
+  "note": "кратк. спорен · спорный вопрос",
+  "tr": "tartışmalı, ihtilaflı",
+  "ex": "Вопрос о происхождении этого племени до сих пор остаётся спорным.",
+  "exTr": "Bu kabilenin kökeni meselesi hâlâ tartışmalıdır."
+ },
+ {
+  "w": "убедительный",
+  "note": "кратк. убедителен",
+  "tr": "ikna edici, inandırıcı",
+  "ex": "Автор приводит убедительные доказательства в пользу своей гипотезы.",
+  "exTr": "Yazar, hipotezini destekleyen ikna edici kanıtlar sunuyor."
+ },
+ {
+  "w": "последовательный",
+  "note": "кратк. последователен",
+  "tr": "tutarlı, ardışık",
+  "ex": "Правительство проводит последовательную политику по борьбе с коррупцией.",
+  "exTr": "Hükümet yolsuzlukla mücadelede tutarlı bir politika izliyor."
+ },
+ {
+  "w": "активный",
+  "note": "кратк. активен · сравн. активнее",
+  "tr": "aktif, etkin, faal",
+  "ex": "Молодёжь принимает активное участие в жизни местного сообщества.",
+  "exTr": "Gençler yerel topluluğun yaşamına aktif olarak katılıyor."
+ },
+ {
+  "w": "стабильный",
+  "note": "кратк. стабилен · сравн. стабильнее",
+  "tr": "istikrarlı, kararlı",
+  "ex": "Стабильная политическая обстановка привлекает в страну иностранных инвесторов.",
+  "exTr": "İstikrarlı siyasi ortam ülkeye yabancı yatırımcıları çekiyor."
+ },
+ {
+  "w": "интенсивный",
+  "note": "кратк. интенсивен",
+  "tr": "yoğun",
+  "ex": "Интенсивное земледелие приводит к истощению почвы и загрязнению вод.",
+  "exTr": "Yoğun tarım toprağın tükenmesine ve suların kirlenmesine yol açıyor."
+ },
+ {
+  "w": "стремительный",
+  "note": "кратк. стремителен",
+  "tr": "hızlı, süratli, baş döndürücü",
+  "ex": "Стремительное развитие технологий меняет требования к образованию.",
+  "exTr": "Teknolojinin hızlı gelişimi eğitime yönelik beklentileri değiştiriyor."
+ },
+ {
+  "w": "постепенный",
+  "note": "кратк. постепенен",
+  "tr": "kademeli, aşamalı",
+  "ex": "Учёные зафиксировали постепенное повышение средней температуры океанов.",
+  "exTr": "Bilim insanları okyanusların ortalama sıcaklığında kademeli bir artış saptadı."
+ },
+ {
+  "w": "резкий",
+  "note": "кратк. резок · сравн. резче",
+  "tr": "ani, sert, keskin",
+  "ex": "Резкое падение цен на нефть ударило по бюджету страны.",
+  "exTr": "Petrol fiyatlarındaki sert düşüş ülke bütçesini vurdu."
+ },
+ {
+  "w": "огромный",
+  "note": "кратк. огромен",
+  "tr": "devasa, muazzam, çok büyük",
+  "ex": "Интернет оказал огромное влияние на развитие мировой торговли.",
+  "exTr": "İnternet dünya ticaretinin gelişimi üzerinde muazzam bir etki yarattı."
+ },
+ {
+  "w": "крупный",
+  "note": "кратк. крупен · сравн. крупнее",
+  "tr": "büyük, iri, önemli",
+  "ex": "Крупные компании переносят производство в страны с дешёвой рабочей силой.",
+  "exTr": "Büyük şirketler üretimi ucuz iş gücü olan ülkelere taşıyor."
+ },
+ {
+  "w": "мощный",
+  "note": "кратк. мощен · сравн. мощнее",
+  "tr": "güçlü, kudretli",
+  "ex": "Мощное землетрясение разрушило несколько деревень в горном районе.",
+  "exTr": "Güçlü bir deprem dağlık bölgedeki birkaç köyü yıktı."
+ },
+ {
+  "w": "влиятельный",
+  "note": "кратк. влиятелен",
+  "tr": "etkili, nüfuzlu",
+  "ex": "Этот журнал считается одним из самых влиятельных научных изданий.",
+  "exTr": "Bu dergi en etkili bilimsel yayınlardan biri olarak kabul ediliyor."
+ },
+ {
+  "w": "обширный",
+  "note": "кратк. обширен",
+  "tr": "geniş, kapsamlı",
+  "ex": "Обширные территории Сибири до сих пор остаются малонаселёнными.",
+  "exTr": "Sibirya'nın geniş toprakları hâlâ seyrek nüfusludur."
+ },
+ {
+  "w": "широкий",
+  "note": "кратк. широк · сравн. шире",
+  "tr": "geniş, yaygın",
+  "ex": "Новый метод лечения получил широкое распространение в европейских клиниках.",
+  "exTr": "Yeni tedavi yöntemi Avrupa kliniklerinde geniş bir yaygınlık kazandı."
+ },
+ {
+  "w": "распространённый",
+  "note": "кратк. распространён",
+  "tr": "yaygın",
+  "ex": "Диабет является одним из самых распространённых заболеваний в мире.",
+  "exTr": "Diyabet dünyadaki en yaygın hastalıklardan biridir."
+ },
+ {
+  "w": "редкий",
+  "note": "кратк. редок · сравн. реже",
+  "tr": "nadir, seyrek",
+  "ex": "В заповеднике обитают редкие виды птиц, занесённые в Красную книгу.",
+  "exTr": "Koruma alanında Kırmızı Liste'ye alınmış nadir kuş türleri yaşıyor."
+ },
+ {
+  "w": "частый",
+  "note": "кратк. част · сравн. чаще",
+  "tr": "sık, sık sık olan",
+  "ex": "Частые засухи вынуждают фермеров менять методы ведения хозяйства.",
+  "exTr": "Sık yaşanan kuraklıklar çiftçileri tarım yöntemlerini değiştirmeye zorluyor."
+ },
+ {
+  "w": "привычный",
+  "note": "кратк. привычен",
+  "tr": "alışılmış, olağan",
+  "ex": "Пандемия разрушила привычный образ жизни миллионов людей.",
+  "exTr": "Pandemi milyonlarca insanın alışılmış yaşam tarzını altüst etti."
+ },
+ {
+  "w": "необычный",
+  "note": "кратк. необычен",
+  "tr": "olağandışı, sıra dışı",
+  "ex": "Астрономы зафиксировали необычный сигнал из далёкой галактики.",
+  "exTr": "Gökbilimciler uzak bir galaksiden gelen olağandışı bir sinyal kaydetti."
+ },
+ {
+  "w": "разрушительный",
+  "note": "кратк. разрушителен",
+  "tr": "yıkıcı",
+  "ex": "Разрушительный ураган оставил без крова тысячи жителей побережья.",
+  "exTr": "Yıkıcı kasırga kıyıda yaşayan binlerce kişiyi evsiz bıraktı."
+ },
+ {
+  "w": "стихийный",
+  "note": "стихийное бедствие",
+  "tr": "doğal (afet); kendiliğinden",
+  "ex": "Число стихийных бедствий в последние десятилетия заметно возросло.",
+  "exTr": "Son on yıllarda doğal afetlerin sayısı belirgin biçimde arttı."
+ },
+ {
+  "w": "целесообразный",
+  "note": "кратк. целесообразен",
+  "tr": "amaca uygun, yerinde",
+  "ex": "Эксперты считают целесообразным увеличить расходы на научные исследования.",
+  "exTr": "Uzmanlar bilimsel araştırmalara yapılan harcamaların artırılmasını yerinde buluyor."
+ },
+ {
+  "w": "плодотворный",
+  "note": "кратк. плодотворен",
+  "tr": "verimli, yararlı",
+  "ex": "Переговоры оказались плодотворными, и стороны подписали важное соглашение.",
+  "exTr": "Görüşmeler verimli geçti ve taraflar önemli bir anlaşma imzaladı."
+ },
+ {
+  "w": "космический",
+  "note": "космический корабль",
+  "tr": "uzaya ait, uzay",
+  "ex": "Первый космический полёт человека состоялся в тысяча девятьсот шестьдесят первом году.",
+  "exTr": "İnsanın ilk uzay uçuşu 1961 yılında gerçekleşti."
+ },
+ {
+  "w": "гуманитарный",
+  "note": "гуманитарная помощь",
+  "tr": "insani; beşerî (bilimler)",
+  "ex": "Международные организации доставили гуманитарную помощь в пострадавший регион.",
+  "exTr": "Uluslararası kuruluşlar zarar gören bölgeye insani yardım ulaştırdı."
+ },
+ {
+  "w": "высший",
+  "note": "высшее образование",
+  "tr": "yüksek, en yüksek, üst",
+  "ex": "Доля граждан с высшим образованием постоянно увеличивается.",
+  "exTr": "Yükseköğrenim görmüş vatandaşların oranı sürekli artıyor."
+ },
+ {
+  "w": "начальный",
+  "note": "начальный этап",
+  "tr": "ilk, başlangıç",
+  "ex": "На начальном этапе проект финансировался за счёт частных пожертвований.",
+  "exTr": "Başlangıç aşamasında proje özel bağışlarla finanse edildi."
+ },
+ {
+  "w": "первичный",
+  "note": "первичные данные",
+  "tr": "birincil, ilk",
+  "ex": "Первичный анализ данных выявил ряд интересных закономерностей.",
+  "exTr": "Verilerin ilk analizi bir dizi ilginç örüntüyü ortaya çıkardı."
+ },
+ {
+  "w": "внешний",
+  "note": "внешняя политика",
+  "tr": "dış, harici",
+  "ex": "Внешняя политика страны направлена на укрепление связей с соседями.",
+  "exTr": "Ülkenin dış politikası komşularla ilişkileri güçlendirmeyi amaçlıyor."
+ },
+ {
+  "w": "внутренний",
+  "note": "внутренний рынок",
+  "tr": "iç, dahili",
+  "ex": "Рост внутреннего спроса поддержал экономику во время кризиса.",
+  "exTr": "İç talebin artışı kriz döneminde ekonomiyi destekledi."
+ },
+ {
+  "w": "зарубежный",
+  "note": "зарубежные страны",
+  "tr": "yabancı, yurt dışındaki",
+  "ex": "Зарубежный опыт показывает эффективность подобных программ поддержки.",
+  "exTr": "Yurt dışı deneyimi bu tür destek programlarının etkinliğini gösteriyor."
+ },
+ {
+  "w": "отечественный",
+  "note": "отечественное производство",
+  "tr": "yerli, ulusal",
+  "ex": "Правительство стимулирует развитие отечественного автомобилестроения.",
+  "exTr": "Hükümet yerli otomotiv sanayisinin gelişmesini teşvik ediyor."
+ },
+ {
+  "w": "иностранный",
+  "note": "иностранные инвестиции",
+  "tr": "yabancı",
+  "ex": "Иностранные студенты составляют значительную часть учащихся университета.",
+  "exTr": "Yabancı öğrenciler üniversite öğrencilerinin önemli bir kısmını oluşturuyor."
+ },
+ {
+  "w": "реальный",
+  "note": "кратк. реален · реальные доходы",
+  "tr": "gerçek, reel",
+  "ex": "Реальные доходы населения снизились из-за высокой инфляции.",
+  "exTr": "Yüksek enflasyon nedeniyle halkın reel gelirleri düştü."
+ },
+ {
+  "w": "фактический",
+  "note": "фактические данные",
+  "tr": "fiilî, gerçek",
+  "ex": "Фактические расходы на строительство значительно превысили запланированные.",
+  "exTr": "İnşaatın fiilî maliyeti planlanandan önemli ölçüde fazla oldu."
+ },
+ {
+  "w": "потенциальный",
+  "note": "потенциальная угроза",
+  "tr": "potansiyel, olası",
+  "ex": "Учёные оценивают потенциальные риски использования генетически модифицированных продуктов.",
+  "exTr": "Bilim insanları genetiği değiştirilmiş ürünlerin kullanımının olası risklerini değerlendiriyor."
+ },
+ {
+  "w": "перспективный",
+  "note": "кратк. перспективен",
+  "tr": "geleceği parlak, umut vadeden",
+  "ex": "Водородная энергетика считается одним из самых перспективных направлений.",
+  "exTr": "Hidrojen enerjisi en umut vadeden alanlardan biri olarak görülüyor."
+ },
+ {
+  "w": "ошибочный",
+  "note": "кратк. ошибочен",
+  "tr": "hatalı, yanlış",
+  "ex": "Новые данные показали, что прежняя гипотеза была ошибочной.",
+  "exTr": "Yeni veriler önceki hipotezin hatalı olduğunu gösterdi."
+ },
+ {
+  "w": "истинный",
+  "note": "кратк. истинен",
+  "tr": "gerçek, hakiki",
+  "ex": "Истинные причины распада империи до сих пор обсуждаются историками.",
+  "exTr": "İmparatorluğun çöküşünün gerçek nedenleri hâlâ tarihçiler tarafından tartışılıyor."
+ },
+ {
+  "w": "количественный",
+  "note": "количественные показатели",
+  "tr": "niceliksel",
+  "ex": "Количественные показатели производства не всегда отражают его качество.",
+  "exTr": "Üretimin niceliksel göstergeleri her zaman kalitesini yansıtmaz."
+ },
+ {
+  "w": "качественный",
+  "note": "кратк. качествен",
+  "tr": "nitel; kaliteli",
+  "ex": "Реформа привела к качественным изменениям в системе здравоохранения.",
+  "exTr": "Reform sağlık sisteminde niteliksel değişikliklere yol açtı."
+ },
+ {
+  "w": "средний",
+  "note": "в среднем · средний класс",
+  "tr": "ortalama, orta",
+  "ex": "Средняя заработная плата в столице значительно выше, чем в провинции.",
+  "exTr": "Başkentte ortalama maaş taşradakinden önemli ölçüde yüksektir."
+ },
+ {
+  "w": "минимальный",
+  "note": "кратк. минимален",
+  "tr": "asgari, en düşük",
+  "ex": "Правительство решило повысить минимальный размер оплаты труда.",
+  "exTr": "Hükümet asgari ücreti artırmaya karar verdi."
+ },
+ {
+  "w": "максимальный",
+  "note": "кратк. максимален",
+  "tr": "azami, en yüksek",
+  "ex": "Максимальная температура воздуха этим летом побила все рекорды.",
+  "exTr": "Bu yaz en yüksek hava sıcaklığı tüm rekorları kırdı."
+ },
+ {
+  "w": "оптимальный",
+  "note": "кратк. оптимален",
+  "tr": "en uygun, optimal",
+  "ex": "Исследователи ищут оптимальный способ хранения возобновляемой энергии.",
+  "exTr": "Araştırmacılar yenilenebilir enerjiyi depolamanın en uygun yolunu arıyor."
+ },
+ {
+  "w": "приблизительный",
+  "note": "кратк. приблизителен",
+  "tr": "yaklaşık",
+  "ex": "По приблизительным оценкам, в городе проживает около миллиона человек.",
+  "exTr": "Yaklaşık tahminlere göre şehirde bir milyon civarında insan yaşıyor."
+ },
+ {
+  "w": "способный",
+  "note": "кратк. способен · способный к чему / на что",
+  "tr": "yetenekli; muktedir, -ebilen",
+  "ex": "Некоторые растения способны выживать в условиях крайней засухи.",
+  "exTr": "Bazı bitkiler aşırı kuraklık koşullarında hayatta kalabilir."
+ },
+ {
+  "w": "склонный",
+  "note": "кратк. склонен · склонный к чему",
+  "tr": "eğilimli, yatkın",
+  "ex": "Подростки более склонны к рискованному поведению, чем взрослые.",
+  "exTr": "Ergenler riskli davranışlara yetişkinlerden daha yatkındır."
+ },
+ {
+  "w": "ответственный",
+  "note": "кратк. ответствен · ответственный за что",
+  "tr": "sorumlu; önemli",
+  "ex": "Комиссия установила, кто был ответственен за загрязнение реки.",
+  "exTr": "Komisyon nehrin kirlenmesinden kimin sorumlu olduğunu belirledi."
+ },
+ {
+  "w": "подверженный",
+  "note": "кратк. подвержен · подверженный чему",
+  "tr": "maruz kalan, açık, eğilimli",
+  "ex": "Прибрежные районы особенно подвержены наводнениям и эрозии.",
+  "exTr": "Kıyı bölgeleri sellere ve erozyona özellikle açıktır."
+ },
+ {
+  "w": "уязвимый",
+  "note": "кратк. уязвим · уязвимые группы",
+  "tr": "savunmasız, kırılgan",
+  "ex": "Социальные программы направлены на поддержку наиболее уязвимых групп населения.",
+  "exTr": "Sosyal programlar nüfusun en savunmasız kesimlerini desteklemeyi amaçlıyor."
+ },
+ {
+  "w": "чувствительный",
+  "note": "кратк. чувствителен · к чему",
+  "tr": "hassas, duyarlı",
+  "ex": "Коралловые рифы очень чувствительны к повышению температуры воды.",
+  "exTr": "Mercan resifleri su sıcaklığının artmasına karşı çok hassastır."
+ },
+ {
+  "w": "прочный",
+  "note": "кратк. прочен · сравн. прочнее",
+  "tr": "sağlam, dayanıklı",
+  "ex": "Новый материал значительно прочнее и легче традиционной стали.",
+  "exTr": "Yeni malzeme geleneksel çelikten çok daha sağlam ve hafiftir."
+ },
+ {
+  "w": "средневековый",
+  "note": "средневековая Европа",
+  "tr": "Orta Çağ'a ait",
+  "ex": "Средневековые города строились вокруг крепости и главного собора.",
+  "exTr": "Orta Çağ şehirleri bir kale ve ana katedralin çevresine kurulurdu."
+ },
+ {
+  "w": "древний",
+  "note": "кратк. древен · древнейший",
+  "tr": "antik, çok eski",
+  "ex": "Археологи обнаружили остатки древнего поселения на берегу реки.",
+  "exTr": "Arkeologlar nehir kıyısında antik bir yerleşimin kalıntılarını buldu."
+ },
+ {
+  "w": "революционный",
+  "note": "кратк. революционен",
+  "tr": "devrimci, devrimsel",
+  "ex": "Изобретение печатного станка стало революционным событием в истории культуры.",
+  "exTr": "Matbaanın icadı kültür tarihinde devrim niteliğinde bir olay oldu."
+ },
+ {
+  "w": "коренной",
+  "note": "коренное население · коренные изменения",
+  "tr": "yerli; köklü, temel",
+  "ex": "Коренные народы Севера сохраняют свой традиционный образ жизни.",
+  "exTr": "Kuzey'in yerli halkları geleneksel yaşam tarzlarını koruyor."
+ },
+ {
+  "w": "многонациональный",
+  "note": "многонациональное государство",
+  "tr": "çok uluslu",
+  "ex": "Россия является многонациональным государством с богатой культурной историей.",
+  "exTr": "Rusya, zengin bir kültürel tarihe sahip çok uluslu bir devlettir."
+ },
+ {
+  "w": "нынешний",
+  "note": "в нынешних условиях",
+  "tr": "şimdiki, mevcut, bugünkü",
+  "ex": "Нынешнее поколение молодёжи выросло в эпоху интернета.",
+  "exTr": "Şimdiki gençlik kuşağı internet çağında büyüdü."
+ },
+ {
+  "w": "прежний",
+  "note": "по-прежнему",
+  "tr": "önceki, eski",
+  "ex": "После реформы прежняя система управления была полностью ликвидирована.",
+  "exTr": "Reformdan sonra önceki yönetim sistemi tamamen ortadan kaldırıldı."
+ },
+ {
+  "w": "предыдущий",
+  "note": "предыдущий год",
+  "tr": "önceki, bir önceki",
+  "ex": "По сравнению с предыдущим годом экспорт вырос на десять процентов.",
+  "exTr": "Bir önceki yıla kıyasla ihracat yüzde on arttı."
+ },
+ {
+  "w": "последующий",
+  "note": "в последующие годы",
+  "tr": "sonraki, müteakip",
+  "ex": "В последующие годы население города увеличилось более чем вдвое.",
+  "exTr": "Sonraki yıllarda şehrin nüfusu iki katından fazla arttı."
+ },
+ {
+  "w": "очередной",
+  "note": "очередной этап",
+  "tr": "sıradaki, yeni bir, olağan",
+  "ex": "Учёные сделали очередной шаг к созданию вакцины против малярии.",
+  "exTr": "Bilim insanları sıtma aşısının geliştirilmesine yönelik yeni bir adım attı."
+ },
+ {
+  "w": "будущий",
+  "note": "будущие поколения",
+  "tr": "gelecekteki, gelecek",
+  "ex": "Мы обязаны сохранить природу для будущих поколений.",
+  "exTr": "Doğayı gelecek kuşaklar için korumakla yükümlüyüz."
+ },
+ {
+  "w": "разнообразный",
+  "note": "кратк. разнообразен",
+  "tr": "çeşitli, çok çeşitli",
+  "ex": "Тропические леса отличаются чрезвычайно разнообразным растительным миром.",
+  "exTr": "Tropik ormanlar son derece çeşitli bir bitki örtüsüyle öne çıkar."
+ },
+ {
+  "w": "единый",
+  "note": "единый стандарт",
+  "tr": "tek, birleşik, ortak",
+  "ex": "Страны договорились о введении единых стандартов качества продукции.",
+  "exTr": "Ülkeler ortak ürün kalite standartları getirmek konusunda anlaştı."
+ },
+ {
+  "w": "всеобщий",
+  "note": "всеобщее образование",
+  "tr": "genel, evrensel, herkese ait",
+  "ex": "Всеобщее избирательное право было введено в стране в начале века.",
+  "exTr": "Genel oy hakkı ülkede yüzyılın başında tanındı."
+ },
+ {
+  "w": "фундаментальный",
+  "note": "кратк. фундаментален",
+  "tr": "temel, köklü",
+  "ex": "Фундаментальные исследования создают основу для будущих технологических прорывов.",
+  "exTr": "Temel araştırmalar gelecekteki teknolojik atılımların zeminini oluşturur."
+ },
+ {
+  "w": "радикальный",
+  "note": "кратк. радикален",
+  "tr": "köklü, radikal",
+  "ex": "Для решения проблемы требуются радикальные изменения в энергетической политике.",
+  "exTr": "Sorunun çözümü için enerji politikasında köklü değişiklikler gerekiyor."
+ },
+ {
+  "w": "умеренный",
+  "note": "кратк. умерен · умеренный климат",
+  "tr": "ılımlı, ılıman, makul",
+  "ex": "Умеренный климат благоприятен для выращивания пшеницы и ячменя.",
+  "exTr": "Ilıman iklim buğday ve arpa yetiştirmek için elverişlidir."
+ },
+ {
+  "w": "чрезмерный",
+  "note": "кратк. чрезмерен",
+  "tr": "aşırı",
+  "ex": "Чрезмерное потребление сахара увеличивает риск развития диабета.",
+  "exTr": "Aşırı şeker tüketimi diyabet gelişme riskini artırır."
+ },
+ {
+  "w": "сопоставимый",
+  "note": "кратк. сопоставим · с чем",
+  "tr": "karşılaştırılabilir, denk",
+  "ex": "Ущерб от наводнения сопоставим с годовым бюджетом всего региона.",
+  "exTr": "Selin verdiği zarar tüm bölgenin yıllık bütçesiyle karşılaştırılabilir düzeyde."
+ },
+ {
+  "w": "вынужденный",
+  "note": "кратк. вынужден · вынужденная мера",
+  "tr": "zorunlu, mecburi kalan",
+  "ex": "Повышение тарифов было вынужденной мерой в условиях кризиса.",
+  "exTr": "Tarifelerin artırılması kriz koşullarında zorunlu bir önlemdi."
+ },
+ {
+  "w": "допустимый",
+  "note": "кратк. допустим · предельно допустимый",
+  "tr": "kabul edilebilir, izin verilen",
+  "ex": "Концентрация вредных веществ в воздухе превысила допустимые нормы.",
+  "exTr": "Havadaki zararlı madde yoğunluğu izin verilen sınırları aştı."
+ },
+ {
+  "w": "неотъемлемый",
+  "note": "неотъемлемая часть",
+  "tr": "ayrılmaz, vazgeçilmez",
+  "ex": "Свобода слова является неотъемлемым правом каждого гражданина.",
+  "exTr": "İfade özgürlüğü her vatandaşın vazgeçilmez hakkıdır."
+ },
+ {
+  "w": "всесторонний",
+  "note": "всестороннее развитие",
+  "tr": "çok yönlü, kapsamlı",
+  "ex": "Комиссия провела всесторонний анализ причин экономического спада.",
+  "exTr": "Komisyon ekonomik durgunluğun nedenlerine ilişkin kapsamlı bir analiz yaptı."
+ },
+ {
+  "w": "подробный",
+  "note": "кратк. подробен · сравн. подробнее",
+  "tr": "ayrıntılı",
+  "ex": "В докладе содержится подробный анализ состояния окружающей среды.",
+  "exTr": "Raporda çevrenin durumuna ilişkin ayrıntılı bir analiz yer alıyor."
+ },
+ {
+  "w": "заметный",
+  "note": "кратк. заметен · сравн. заметнее",
+  "tr": "belirgin, göze çarpan",
+  "ex": "В последние годы наблюдается заметное снижение рождаемости.",
+  "exTr": "Son yıllarda doğum oranında belirgin bir düşüş gözlemleniyor."
+ },
+ {
+  "w": "резервный",
+  "note": "резервный фонд",
+  "tr": "yedek, rezerv",
+  "ex": "Правительство использовало средства резервного фонда для поддержки банков.",
+  "exTr": "Hükümet bankaları desteklemek için rezerv fonunun kaynaklarını kullandı."
+ },
+ {
+  "w": "бюджетный",
+  "note": "бюджетный дефицит",
+  "tr": "bütçeye ait, bütçe",
+  "ex": "Бюджетный дефицит в этом году достиг рекордного уровня.",
+  "exTr": "Bütçe açığı bu yıl rekor seviyeye ulaştı."
+ },
+ {
+  "w": "экстремальный",
+  "note": "экстремальные условия",
+  "tr": "aşırı, uç, ekstrem",
+  "ex": "Учёные изучают организмы, способные жить в экстремальных условиях.",
+  "exTr": "Bilim insanları aşırı koşullarda yaşayabilen organizmaları inceliyor."
+ },
+ {
+  "w": "исключительный",
+  "note": "кратк. исключителен",
+  "tr": "olağanüstü, istisnai",
+  "ex": "Эта находка имеет исключительное значение для истории древнего мира.",
+  "exTr": "Bu buluntu antik dünya tarihi için olağanüstü bir öneme sahip."
+ },
+ {
+  "w": "ценный",
+  "note": "кратк. ценен · сравн. ценнее",
+  "tr": "değerli, kıymetli",
+  "ex": "Экспедиция собрала ценный материал о жизни северных народов.",
+  "exTr": "Keşif ekibi kuzey halklarının yaşamına dair değerli malzeme topladı."
+ },
+ {
+  "w": "бесплатный",
+  "note": "бесплатное образование",
+  "tr": "ücretsiz, parasız",
+  "ex": "Конституция гарантирует гражданам бесплатную медицинскую помощь.",
+  "exTr": "Anayasa vatandaşlara ücretsiz sağlık hizmeti güvence altına alır."
+ }
+]

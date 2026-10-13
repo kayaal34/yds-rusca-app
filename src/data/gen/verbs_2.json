@@ -1,0 +1,4002 @@
+[
+ {
+  "r": 501,
+  "impf": "обеспечивать",
+  "perf": "обеспечить",
+  "tr": "sağlamak, temin etmek",
+  "ex": "Государство обеспечивает граждан работой.",
+  "exTr": "Devlet vatandaşlara iş sağlıyor."
+ },
+ {
+  "r": 502,
+  "impf": "способствовать",
+  "perf": "поспособствовать",
+  "tr": "katkıda bulunmak, yardımcı olmak",
+  "ex": "Реформы способствуют росту экономики.",
+  "exTr": "Reformlar ekonominin büyümesine katkıda bulunuyor."
+ },
+ {
+  "r": 503,
+  "impf": "осуществлять",
+  "perf": "осуществить",
+  "tr": "gerçekleştirmek, yürütmek",
+  "ex": "Компания осуществляет поставки в Европу.",
+  "exTr": "Şirket Avrupa'ya sevkiyat gerçekleştiriyor."
+ },
+ {
+  "r": 504,
+  "impf": "предполагать",
+  "perf": "предположить",
+  "tr": "varsaymak, öngörmek",
+  "ex": "Учёные предполагают, что климат изменится.",
+  "exTr": "Bilim insanları iklimin değişeceğini varsayıyor."
+ },
+ {
+  "r": 505,
+  "impf": "сокращать",
+  "perf": "сократить",
+  "tr": "azaltmak, kısaltmak",
+  "ex": "Завод сократил производство на треть.",
+  "exTr": "Fabrika üretimi üçte bir oranında azalttı."
+ },
+ {
+  "r": 506,
+  "impf": "увеличивать",
+  "perf": "увеличить",
+  "tr": "artırmak, büyütmek",
+  "ex": "Банк увеличил процентную ставку.",
+  "exTr": "Banka faiz oranını artırdı."
+ },
+ {
+  "r": 507,
+  "impf": "исследовать",
+  "perf": "исследовать",
+  "tr": "araştırmak, incelemek",
+  "ex": "Учёные исследуют причины болезни.",
+  "exTr": "Bilim insanları hastalığın nedenlerini araştırıyor."
+ },
+ {
+  "r": 508,
+  "impf": "влиять",
+  "perf": "повлиять",
+  "tr": "etkilemek",
+  "ex": "Погода влияет на настроение.",
+  "exTr": "Hava durumu ruh halini etkiler."
+ },
+ {
+  "r": 509,
+  "impf": "повышать",
+  "perf": "повысить",
+  "tr": "yükseltmek, artırmak",
+  "ex": "Правительство повысило налоги.",
+  "exTr": "Hükümet vergileri yükseltti."
+ },
+ {
+  "r": 510,
+  "impf": "снижать",
+  "perf": "снизить",
+  "tr": "düşürmek, azaltmak",
+  "ex": "Магазин снизил цены.",
+  "exTr": "Mağaza fiyatları düşürdü."
+ },
+ {
+  "r": 511,
+  "impf": "развивать",
+  "perf": "развить",
+  "tr": "geliştirmek",
+  "ex": "Страна развивает туризм.",
+  "exTr": "Ülke turizmi geliştiriyor."
+ },
+ {
+  "r": 512,
+  "impf": "создавать",
+  "perf": "создать",
+  "tr": "yaratmak, oluşturmak",
+  "ex": "Они создали новую компанию.",
+  "exTr": "Yeni bir şirket kurdular."
+ },
+ {
+  "r": 513,
+  "impf": "использовать",
+  "perf": "использовать",
+  "tr": "kullanmak",
+  "ex": "Мы используем возобновляемую энергию.",
+  "exTr": "Yenilenebilir enerji kullanıyoruz."
+ },
+ {
+  "r": 514,
+  "impf": "применять",
+  "perf": "применить",
+  "tr": "uygulamak",
+  "ex": "Врачи применяют новый метод лечения.",
+  "exTr": "Doktorlar yeni bir tedavi yöntemi uyguluyor."
+ },
+ {
+  "r": 515,
+  "impf": "требовать",
+  "perf": "потребовать",
+  "tr": "talep etmek, gerektirmek",
+  "ex": "Работа требует терпения.",
+  "exTr": "İş sabır gerektirir."
+ },
+ {
+  "r": 516,
+  "impf": "предлагать",
+  "perf": "предложить",
+  "tr": "önermek, teklif etmek",
+  "ex": "Он предложил новый план.",
+  "exTr": "Yeni bir plan önerdi."
+ },
+ {
+  "r": 517,
+  "impf": "получать",
+  "perf": "получить",
+  "tr": "almak, elde etmek",
+  "ex": "Студенты получают стипендию.",
+  "exTr": "Öğrenciler burs alıyor."
+ },
+ {
+  "r": 518,
+  "impf": "принимать",
+  "perf": "принять",
+  "tr": "kabul etmek, almak",
+  "ex": "Парламент принял закон.",
+  "exTr": "Meclis yasayı kabul etti."
+ },
+ {
+  "r": 519,
+  "impf": "решать",
+  "perf": "решить",
+  "tr": "karar vermek, çözmek",
+  "ex": "Мы решили задачу вместе.",
+  "exTr": "Problemi birlikte çözdük."
+ },
+ {
+  "r": 520,
+  "impf": "вводить",
+  "perf": "ввести",
+  "tr": "uygulamaya koymak, getirmek",
+  "ex": "Власти ввели новые ограничения.",
+  "exTr": "Yetkililer yeni kısıtlamalar getirdi."
+ },
+ {
+  "r": 521,
+  "impf": "отмечать",
+  "perf": "отметить",
+  "tr": "belirtmek, kutlamak",
+  "ex": "Эксперты отмечают рост цен.",
+  "exTr": "Uzmanlar fiyat artışına dikkat çekiyor."
+ },
+ {
+  "r": 522,
+  "impf": "заявлять",
+  "perf": "заявить",
+  "tr": "açıklamak, beyan etmek",
+  "ex": "Министр заявил о реформе.",
+  "exTr": "Bakan reform yapılacağını açıkladı."
+ },
+ {
+  "r": 523,
+  "impf": "сообщать",
+  "perf": "сообщить",
+  "tr": "bildirmek, haber vermek",
+  "ex": "Агентство сообщило о происшествии.",
+  "exTr": "Ajans olayı bildirdi."
+ },
+ {
+  "r": 524,
+  "impf": "подчёркивать",
+  "perf": "подчеркнуть",
+  "tr": "vurgulamak",
+  "ex": "Автор подчёркивает важность образования.",
+  "exTr": "Yazar eğitimin önemini vurguluyor."
+ },
+ {
+  "r": 525,
+  "impf": "утверждать",
+  "perf": "утвердить",
+  "tr": "iddia etmek, onaylamak",
+  "ex": "Комиссия утвердила бюджет.",
+  "exTr": "Komisyon bütçeyi onayladı."
+ },
+ {
+  "r": 526,
+  "impf": "отвергать",
+  "perf": "отвергнуть",
+  "tr": "reddetmek",
+  "ex": "Суд отверг это обвинение.",
+  "exTr": "Mahkeme bu suçlamayı reddetti."
+ },
+ {
+  "r": 527,
+  "impf": "отрицать",
+  "perf": "",
+  "tr": "inkâr etmek",
+  "ex": "Он отрицает свою вину.",
+  "exTr": "Suçunu inkâr ediyor."
+ },
+ {
+  "r": 528,
+  "impf": "подтверждать",
+  "perf": "подтвердить",
+  "tr": "doğrulamak, teyit etmek",
+  "ex": "Данные подтверждают гипотезу.",
+  "exTr": "Veriler hipotezi doğruluyor."
+ },
+ {
+  "r": 529,
+  "impf": "опровергать",
+  "perf": "опровергнуть",
+  "tr": "çürütmek",
+  "ex": "Новое исследование опровергло теорию.",
+  "exTr": "Yeni araştırma teoriyi çürüttü."
+ },
+ {
+  "r": 530,
+  "impf": "доказывать",
+  "perf": "доказать",
+  "tr": "kanıtlamak",
+  "ex": "Учёный доказал теорему.",
+  "exTr": "Bilim insanı teoremi kanıtladı."
+ },
+ {
+  "r": 531,
+  "impf": "объяснять",
+  "perf": "объяснить",
+  "tr": "açıklamak",
+  "ex": "Учитель объяснил правило.",
+  "exTr": "Öğretmen kuralı açıkladı."
+ },
+ {
+  "r": 532,
+  "impf": "описывать",
+  "perf": "описать",
+  "tr": "tanımlamak, betimlemek",
+  "ex": "Автор описывает события подробно.",
+  "exTr": "Yazar olayları ayrıntılı biçimde anlatıyor."
+ },
+ {
+  "r": 533,
+  "impf": "изучать",
+  "perf": "изучить",
+  "tr": "öğrenmek, incelemek",
+  "ex": "Студенты изучают историю.",
+  "exTr": "Öğrenciler tarih okuyor."
+ },
+ {
+  "r": 534,
+  "impf": "анализировать",
+  "perf": "проанализировать",
+  "tr": "analiz etmek",
+  "ex": "Экономисты анализируют ситуацию.",
+  "exTr": "Ekonomistler durumu analiz ediyor."
+ },
+ {
+  "r": 535,
+  "impf": "сравнивать",
+  "perf": "сравнить",
+  "tr": "karşılaştırmak",
+  "ex": "Мы сравнили две версии.",
+  "exTr": "İki sürümü karşılaştırdık."
+ },
+ {
+  "r": 536,
+  "impf": "оценивать",
+  "perf": "оценить",
+  "tr": "değerlendirmek",
+  "ex": "Эксперты оценивают риски.",
+  "exTr": "Uzmanlar riskleri değerlendiriyor."
+ },
+ {
+  "r": 537,
+  "impf": "определять",
+  "perf": "определить",
+  "tr": "belirlemek, tanımlamak",
+  "ex": "Тест определяет уровень знаний.",
+  "exTr": "Test bilgi düzeyini belirler."
+ },
+ {
+  "r": 538,
+  "impf": "рассматривать",
+  "perf": "рассмотреть",
+  "tr": "ele almak, incelemek",
+  "ex": "Суд рассмотрел дело.",
+  "exTr": "Mahkeme davayı ele aldı."
+ },
+ {
+  "r": 539,
+  "impf": "обсуждать",
+  "perf": "обсудить",
+  "tr": "tartışmak, görüşmek",
+  "ex": "Министры обсудили вопрос.",
+  "exTr": "Bakanlar konuyu görüştü."
+ },
+ {
+  "r": 540,
+  "impf": "рассуждать",
+  "perf": "порассуждать",
+  "tr": "akıl yürütmek",
+  "ex": "Он рассуждает о политике.",
+  "exTr": "Siyaset hakkında akıl yürütüyor."
+ },
+ {
+  "r": 541,
+  "impf": "указывать",
+  "perf": "указать",
+  "tr": "belirtmek, göstermek",
+  "ex": "В отчёте указана причина.",
+  "exTr": "Raporda neden belirtilmiş."
+ },
+ {
+  "r": 542,
+  "impf": "упоминать",
+  "perf": "упомянуть",
+  "tr": "anmak, söz etmek",
+  "ex": "Он упомянул о проблеме.",
+  "exTr": "Sorundan söz etti."
+ },
+ {
+  "r": 543,
+  "impf": "ссылаться",
+  "perf": "сослаться",
+  "tr": "atıfta bulunmak, dayanmak",
+  "ex": "Автор ссылается на источники.",
+  "exTr": "Yazar kaynaklara atıfta bulunuyor."
+ },
+ {
+  "r": 544,
+  "impf": "цитировать",
+  "perf": "процитировать",
+  "tr": "alıntı yapmak",
+  "ex": "Журналист процитировал министра.",
+  "exTr": "Gazeteci bakandan alıntı yaptı."
+ },
+ {
+  "r": 545,
+  "impf": "основывать",
+  "perf": "основать",
+  "tr": "kurmak",
+  "ex": "Он основал университет.",
+  "exTr": "Üniversiteyi kurdu."
+ },
+ {
+  "r": 546,
+  "impf": "основываться",
+  "perf": "",
+  "tr": "dayanmak",
+  "ex": "Вывод основывается на фактах.",
+  "exTr": "Sonuç gerçeklere dayanıyor."
+ },
+ {
+  "r": 547,
+  "impf": "базироваться",
+  "perf": "",
+  "tr": "dayanmak, konuşlanmak",
+  "ex": "Теория базируется на опыте.",
+  "exTr": "Teori deneyime dayanır."
+ },
+ {
+  "r": 548,
+  "impf": "зависеть",
+  "perf": "",
+  "tr": "bağlı olmak",
+  "ex": "Результат зависит от погоды.",
+  "exTr": "Sonuç havaya bağlıdır."
+ },
+ {
+  "r": 549,
+  "impf": "состоять",
+  "perf": "",
+  "tr": "oluşmak, ibaret olmak",
+  "ex": "Группа состоит из пяти человек.",
+  "exTr": "Grup beş kişiden oluşuyor."
+ },
+ {
+  "r": 550,
+  "impf": "включать",
+  "perf": "включить",
+  "tr": "dahil etmek, açmak",
+  "ex": "Цена включает доставку.",
+  "exTr": "Fiyat teslimatı da içeriyor."
+ },
+ {
+  "r": 551,
+  "impf": "содержать",
+  "perf": "",
+  "tr": "içermek, barındırmak",
+  "ex": "Текст содержит ошибки.",
+  "exTr": "Metin hatalar içeriyor."
+ },
+ {
+  "r": 552,
+  "impf": "представлять",
+  "perf": "представить",
+  "tr": "temsil etmek, sunmak",
+  "ex": "Он представляет нашу страну.",
+  "exTr": "Ülkemizi temsil ediyor."
+ },
+ {
+  "r": 553,
+  "impf": "составлять",
+  "perf": "составить",
+  "tr": "oluşturmak, hazırlamak",
+  "ex": "Население составляет миллион человек.",
+  "exTr": "Nüfus bir milyon kişidir."
+ },
+ {
+  "r": 554,
+  "impf": "образовывать",
+  "perf": "образовать",
+  "tr": "oluşturmak",
+  "ex": "Эти острова образуют архипелаг.",
+  "exTr": "Bu adalar bir takımada oluşturur."
+ },
+ {
+  "r": 555,
+  "impf": "формировать",
+  "perf": "сформировать",
+  "tr": "şekillendirmek, oluşturmak",
+  "ex": "Школа формирует личность.",
+  "exTr": "Okul kişiliği şekillendirir."
+ },
+ {
+  "r": 556,
+  "impf": "вырабатывать",
+  "perf": "выработать",
+  "tr": "üretmek, geliştirmek",
+  "ex": "Станция вырабатывает электричество.",
+  "exTr": "Santral elektrik üretir."
+ },
+ {
+  "r": 557,
+  "impf": "производить",
+  "perf": "произвести",
+  "tr": "üretmek",
+  "ex": "Фабрика производит ткани.",
+  "exTr": "Fabrika kumaş üretiyor."
+ },
+ {
+  "r": 558,
+  "impf": "выпускать",
+  "perf": "выпустить",
+  "tr": "piyasaya sürmek, çıkarmak",
+  "ex": "Компания выпустила новую модель.",
+  "exTr": "Şirket yeni bir model çıkardı."
+ },
+ {
+  "r": 559,
+  "impf": "поставлять",
+  "perf": "поставить",
+  "tr": "tedarik etmek, sağlamak",
+  "ex": "Россия поставляет газ в Европу.",
+  "exTr": "Rusya Avrupa'ya gaz tedarik ediyor."
+ },
+ {
+  "r": 560,
+  "impf": "экспортировать",
+  "perf": "экспортировать",
+  "tr": "ihraç etmek",
+  "ex": "Страна экспортирует нефть.",
+  "exTr": "Ülke petrol ihraç ediyor."
+ },
+ {
+  "r": 561,
+  "impf": "импортировать",
+  "perf": "импортировать",
+  "tr": "ithal etmek",
+  "ex": "Мы импортируем оборудование.",
+  "exTr": "Ekipman ithal ediyoruz."
+ },
+ {
+  "r": 562,
+  "impf": "торговать",
+  "perf": "",
+  "tr": "ticaret yapmak",
+  "ex": "Они торгуют с соседними странами.",
+  "exTr": "Komşu ülkelerle ticaret yapıyorlar."
+ },
+ {
+  "r": 563,
+  "impf": "инвестировать",
+  "perf": "инвестировать",
+  "tr": "yatırım yapmak",
+  "ex": "Фонд инвестирует в технологии.",
+  "exTr": "Fon teknolojiye yatırım yapıyor."
+ },
+ {
+  "r": 564,
+  "impf": "финансировать",
+  "perf": "профинансировать",
+  "tr": "finanse etmek",
+  "ex": "Государство финансирует науку.",
+  "exTr": "Devlet bilimi finanse ediyor."
+ },
+ {
+  "r": 565,
+  "impf": "тратить",
+  "perf": "потратить",
+  "tr": "harcamak",
+  "ex": "Он тратит много денег.",
+  "exTr": "Çok para harcıyor."
+ },
+ {
+  "r": 566,
+  "impf": "экономить",
+  "perf": "сэкономить",
+  "tr": "tasarruf etmek",
+  "ex": "Мы экономим электричество.",
+  "exTr": "Elektrik tasarrufu yapıyoruz."
+ },
+ {
+  "r": 567,
+  "impf": "накапливать",
+  "perf": "накопить",
+  "tr": "biriktirmek",
+  "ex": "Она накопила немного денег.",
+  "exTr": "Biraz para biriktirdi."
+ },
+ {
+  "r": 568,
+  "impf": "зарабатывать",
+  "perf": "заработать",
+  "tr": "kazanmak",
+  "ex": "Он зарабатывает достаточно.",
+  "exTr": "Yeterince kazanıyor."
+ },
+ {
+  "r": 569,
+  "impf": "платить",
+  "perf": "заплатить",
+  "tr": "ödemek",
+  "ex": "Я заплатил за билет.",
+  "exTr": "Bilet için ödeme yaptım."
+ },
+ {
+  "r": 570,
+  "impf": "оплачивать",
+  "perf": "оплатить",
+  "tr": "ödemek (fatura vb.)",
+  "ex": "Клиент оплатил заказ.",
+  "exTr": "Müşteri siparişi ödedi."
+ },
+ {
+  "r": 571,
+  "impf": "продавать",
+  "perf": "продать",
+  "tr": "satmak",
+  "ex": "Они продали дом.",
+  "exTr": "Evi sattılar."
+ },
+ {
+  "r": 572,
+  "impf": "покупать",
+  "perf": "купить",
+  "tr": "satın almak",
+  "ex": "Я купил книгу.",
+  "exTr": "Kitap satın aldım."
+ },
+ {
+  "r": 573,
+  "impf": "стоить",
+  "perf": "",
+  "tr": "değerinde olmak, fiyatı olmak",
+  "ex": "Билет стоит сто рублей.",
+  "exTr": "Bilet yüz ruble."
+ },
+ {
+  "r": 574,
+  "impf": "расти",
+  "perf": "вырасти",
+  "tr": "büyümek, artmak",
+  "ex": "Экономика быстро растёт.",
+  "exTr": "Ekonomi hızla büyüyor."
+ },
+ {
+  "r": 575,
+  "impf": "возрастать",
+  "perf": "возрасти",
+  "tr": "artmak, çoğalmak",
+  "ex": "Нагрузка возрастает.",
+  "exTr": "Yük artıyor."
+ },
+ {
+  "r": 576,
+  "impf": "уменьшаться",
+  "perf": "уменьшиться",
+  "tr": "azalmak",
+  "ex": "Количество осадков уменьшилось.",
+  "exTr": "Yağış miktarı azaldı."
+ },
+ {
+  "r": 577,
+  "impf": "увеличиваться",
+  "perf": "увеличиться",
+  "tr": "artmak",
+  "ex": "Спрос увеличивается.",
+  "exTr": "Talep artıyor."
+ },
+ {
+  "r": 578,
+  "impf": "снижаться",
+  "perf": "снизиться",
+  "tr": "düşmek, azalmak",
+  "ex": "Безработица снизилась.",
+  "exTr": "İşsizlik düştü."
+ },
+ {
+  "r": 579,
+  "impf": "повышаться",
+  "perf": "повыситься",
+  "tr": "yükselmek",
+  "ex": "Температура повысилась.",
+  "exTr": "Sıcaklık yükseldi."
+ },
+ {
+  "r": 580,
+  "impf": "достигать",
+  "perf": "достичь",
+  "tr": "ulaşmak, erişmek",
+  "ex": "Они достигли соглашения.",
+  "exTr": "Anlaşmaya vardılar."
+ },
+ {
+  "r": 581,
+  "impf": "добиваться",
+  "perf": "добиться",
+  "tr": "başarmak, elde etmek",
+  "ex": "Он добился успеха.",
+  "exTr": "Başarıya ulaştı."
+ },
+ {
+  "r": 582,
+  "impf": "преодолевать",
+  "perf": "преодолеть",
+  "tr": "aşmak, üstesinden gelmek",
+  "ex": "Мы преодолели трудности.",
+  "exTr": "Zorlukların üstesinden geldik."
+ },
+ {
+  "r": 583,
+  "impf": "справляться",
+  "perf": "справиться",
+  "tr": "başa çıkmak",
+  "ex": "Она справилась с задачей.",
+  "exTr": "Görevin üstesinden geldi."
+ },
+ {
+  "r": 584,
+  "impf": "сталкиваться",
+  "perf": "столкнуться",
+  "tr": "karşılaşmak, çarpışmak",
+  "ex": "Страна столкнулась с кризисом.",
+  "exTr": "Ülke bir krizle karşılaştı."
+ },
+ {
+  "r": 585,
+  "impf": "возникать",
+  "perf": "возникнуть",
+  "tr": "ortaya çıkmak",
+  "ex": "Возникла проблема.",
+  "exTr": "Bir sorun ortaya çıktı."
+ },
+ {
+  "r": 586,
+  "impf": "появляться",
+  "perf": "появиться",
+  "tr": "ortaya çıkmak, görünmek",
+  "ex": "Новые технологии появляются быстро.",
+  "exTr": "Yeni teknolojiler hızla ortaya çıkıyor."
+ },
+ {
+  "r": 587,
+  "impf": "происходить",
+  "perf": "произойти",
+  "tr": "meydana gelmek, olmak",
+  "ex": "Авария произошла ночью.",
+  "exTr": "Kaza gece meydana geldi."
+ },
+ {
+  "r": 588,
+  "impf": "случаться",
+  "perf": "случиться",
+  "tr": "olmak, vuku bulmak",
+  "ex": "Что случилось?",
+  "exTr": "Ne oldu?"
+ },
+ {
+  "r": 589,
+  "impf": "наступать",
+  "perf": "наступить",
+  "tr": "gelmek (zaman), ilerlemek",
+  "ex": "Наступила зима.",
+  "exTr": "Kış geldi."
+ },
+ {
+  "r": 590,
+  "impf": "продолжать",
+  "perf": "продолжить",
+  "tr": "devam etmek, sürdürmek",
+  "ex": "Они продолжают переговоры.",
+  "exTr": "Görüşmeleri sürdürüyorlar."
+ },
+ {
+  "r": 591,
+  "impf": "продолжаться",
+  "perf": "продолжиться",
+  "tr": "sürmek",
+  "ex": "Конфликт продолжается.",
+  "exTr": "Çatışma sürüyor."
+ },
+ {
+  "r": 592,
+  "impf": "заканчивать",
+  "perf": "закончить",
+  "tr": "bitirmek",
+  "ex": "Я закончил работу.",
+  "exTr": "İşi bitirdim."
+ },
+ {
+  "r": 593,
+  "impf": "завершать",
+  "perf": "завершить",
+  "tr": "tamamlamak",
+  "ex": "Проект будет завершён в мае.",
+  "exTr": "Proje mayısta tamamlanacak."
+ },
+ {
+  "r": 594,
+  "impf": "прекращать",
+  "perf": "прекратить",
+  "tr": "durdurmak, kesmek",
+  "ex": "Компания прекратила выпуск товара.",
+  "exTr": "Şirket ürünün üretimini durdurdu."
+ },
+ {
+  "r": 595,
+  "impf": "останавливать",
+  "perf": "остановить",
+  "tr": "durdurmak",
+  "ex": "Полиция остановила машину.",
+  "exTr": "Polis arabayı durdurdu."
+ },
+ {
+  "r": 596,
+  "impf": "приостанавливать",
+  "perf": "приостановить",
+  "tr": "askıya almak",
+  "ex": "Суд приостановил дело.",
+  "exTr": "Mahkeme davayı askıya aldı."
+ },
+ {
+  "r": 597,
+  "impf": "отменять",
+  "perf": "отменить",
+  "tr": "iptal etmek",
+  "ex": "Рейс отменили из-за тумана.",
+  "exTr": "Sefer sis yüzünden iptal edildi."
+ },
+ {
+  "r": 598,
+  "impf": "откладывать",
+  "perf": "отложить",
+  "tr": "ertelemek",
+  "ex": "Встречу отложили на неделю.",
+  "exTr": "Toplantı bir hafta ertelendi."
+ },
+ {
+  "r": 599,
+  "impf": "переносить",
+  "perf": "перенести",
+  "tr": "ertelemek, taşımak",
+  "ex": "Мы перенесли собрание.",
+  "exTr": "Toplantıyı erteledik."
+ },
+ {
+  "r": 600,
+  "impf": "планировать",
+  "perf": "запланировать",
+  "tr": "planlamak",
+  "ex": "Мы планируем поездку.",
+  "exTr": "Bir gezi planlıyoruz."
+ },
+ {
+  "r": 601,
+  "impf": "организовывать",
+  "perf": "организовать",
+  "tr": "organize etmek",
+  "ex": "Университет организовал конференцию.",
+  "exTr": "Üniversite bir konferans düzenledi."
+ },
+ {
+  "r": 602,
+  "impf": "проводить",
+  "perf": "провести",
+  "tr": "yapmak, geçirmek, yürütmek",
+  "ex": "Учёные проводят эксперимент.",
+  "exTr": "Bilim insanları deney yapıyor."
+ },
+ {
+  "r": 603,
+  "impf": "выполнять",
+  "perf": "выполнить",
+  "tr": "yerine getirmek, yapmak",
+  "ex": "Он выполнил обещание.",
+  "exTr": "Sözünü yerine getirdi."
+ },
+ {
+  "r": 604,
+  "impf": "исполнять",
+  "perf": "исполнить",
+  "tr": "icra etmek, yerine getirmek",
+  "ex": "Оркестр исполнил симфонию.",
+  "exTr": "Orkestra senfoniyi seslendirdi."
+ },
+ {
+  "r": 605,
+  "impf": "реализовывать",
+  "perf": "реализовать",
+  "tr": "hayata geçirmek, gerçekleştirmek",
+  "ex": "Они реализуют проект.",
+  "exTr": "Projeyi hayata geçiriyorlar."
+ },
+ {
+  "r": 606,
+  "impf": "внедрять",
+  "perf": "внедрить",
+  "tr": "uygulamaya geçirmek, yaygınlaştırmak",
+  "ex": "Школа внедрила новую программу.",
+  "exTr": "Okul yeni bir program uyguladı."
+ },
+ {
+  "r": 607,
+  "impf": "разрабатывать",
+  "perf": "разработать",
+  "tr": "geliştirmek, tasarlamak",
+  "ex": "Инженеры разработали новый двигатель.",
+  "exTr": "Mühendisler yeni bir motor geliştirdi."
+ },
+ {
+  "r": 608,
+  "impf": "проектировать",
+  "perf": "спроектировать",
+  "tr": "tasarlamak",
+  "ex": "Архитектор проектирует мост.",
+  "exTr": "Mimar köprü tasarlıyor."
+ },
+ {
+  "r": 609,
+  "impf": "строить",
+  "perf": "построить",
+  "tr": "inşa etmek",
+  "ex": "Здесь построят школу.",
+  "exTr": "Burada bir okul inşa edilecek."
+ },
+ {
+  "r": 610,
+  "impf": "ремонтировать",
+  "perf": "отремонтировать",
+  "tr": "onarmak",
+  "ex": "Мастер отремонтировал компьютер.",
+  "exTr": "Usta bilgisayarı onardı."
+ },
+ {
+  "r": 611,
+  "impf": "восстанавливать",
+  "perf": "восстановить",
+  "tr": "yeniden kurmak, onarmak",
+  "ex": "Город восстановили после войны.",
+  "exTr": "Şehir savaştan sonra yeniden inşa edildi."
+ },
+ {
+  "r": 612,
+  "impf": "разрушать",
+  "perf": "разрушить",
+  "tr": "yıkmak, yok etmek",
+  "ex": "Землетрясение разрушило дома.",
+  "exTr": "Deprem evleri yıktı."
+ },
+ {
+  "r": 613,
+  "impf": "уничтожать",
+  "perf": "уничтожить",
+  "tr": "yok etmek",
+  "ex": "Пожар уничтожил лес.",
+  "exTr": "Yangın ormanı yok etti."
+ },
+ {
+  "r": 614,
+  "impf": "повреждать",
+  "perf": "повредить",
+  "tr": "zarar vermek, hasar vermek",
+  "ex": "Шторм повредил крышу.",
+  "exTr": "Fırtına çatıya hasar verdi."
+ },
+ {
+  "r": 615,
+  "impf": "угрожать",
+  "perf": "",
+  "tr": "tehdit etmek",
+  "ex": "Засуха угрожает урожаю.",
+  "exTr": "Kuraklık hasadı tehdit ediyor."
+ },
+ {
+  "r": 616,
+  "impf": "опасаться",
+  "perf": "",
+  "tr": "çekinmek, endişe etmek",
+  "ex": "Эксперты опасаются кризиса.",
+  "exTr": "Uzmanlar krizden endişe ediyor."
+ },
+ {
+  "r": 617,
+  "impf": "бояться",
+  "perf": "побояться",
+  "tr": "korkmak",
+  "ex": "Дети боятся темноты.",
+  "exTr": "Çocuklar karanlıktan korkar."
+ },
+ {
+  "r": 618,
+  "impf": "защищать",
+  "perf": "защитить",
+  "tr": "korumak, savunmak",
+  "ex": "Закон защищает права потребителей.",
+  "exTr": "Yasa tüketici haklarını korur."
+ },
+ {
+  "r": 619,
+  "impf": "охранять",
+  "perf": "",
+  "tr": "korumak, beklemek",
+  "ex": "Солдаты охраняют границу.",
+  "exTr": "Askerler sınırı koruyor."
+ },
+ {
+  "r": 620,
+  "impf": "спасать",
+  "perf": "спасти",
+  "tr": "kurtarmak",
+  "ex": "Врачи спасли ему жизнь.",
+  "exTr": "Doktorlar hayatını kurtardı."
+ },
+ {
+  "r": 621,
+  "impf": "помогать",
+  "perf": "помочь",
+  "tr": "yardım etmek",
+  "ex": "Волонтёры помогают пострадавшим.",
+  "exTr": "Gönüllüler mağdurlara yardım ediyor."
+ },
+ {
+  "r": 622,
+  "impf": "поддерживать",
+  "perf": "поддержать",
+  "tr": "desteklemek",
+  "ex": "Народ поддержал президента.",
+  "exTr": "Halk cumhurbaşkanını destekledi."
+ },
+ {
+  "r": 623,
+  "impf": "содействовать",
+  "perf": "посодействовать",
+  "tr": "katkıda bulunmak",
+  "ex": "Фонд содействует развитию науки.",
+  "exTr": "Vakıf bilimin gelişmesine katkıda bulunuyor."
+ },
+ {
+  "r": 624,
+  "impf": "сотрудничать",
+  "perf": "",
+  "tr": "işbirliği yapmak",
+  "ex": "Страны сотрудничают в области энергетики.",
+  "exTr": "Ülkeler enerji alanında işbirliği yapıyor."
+ },
+ {
+  "r": 625,
+  "impf": "участвовать",
+  "perf": "",
+  "tr": "katılmak",
+  "ex": "Он участвует в выборах.",
+  "exTr": "Seçimlere katılıyor."
+ },
+ {
+  "r": 626,
+  "impf": "присутствовать",
+  "perf": "",
+  "tr": "hazır bulunmak, mevcut olmak",
+  "ex": "На встрече присутствовали эксперты.",
+  "exTr": "Toplantıda uzmanlar hazır bulundu."
+ },
+ {
+  "r": 627,
+  "impf": "выступать",
+  "perf": "выступить",
+  "tr": "konuşma yapmak, çıkış yapmak",
+  "ex": "Президент выступил с речью.",
+  "exTr": "Cumhurbaşkanı konuşma yaptı."
+ },
+ {
+  "r": 628,
+  "impf": "голосовать",
+  "perf": "проголосовать",
+  "tr": "oy vermek",
+  "ex": "Граждане голосуют на выборах.",
+  "exTr": "Vatandaşlar seçimde oy kullanıyor."
+ },
+ {
+  "r": 629,
+  "impf": "избирать",
+  "perf": "избрать",
+  "tr": "seçmek",
+  "ex": "Парламент избрал нового председателя.",
+  "exTr": "Meclis yeni başkanı seçti."
+ },
+ {
+  "r": 630,
+  "impf": "назначать",
+  "perf": "назначить",
+  "tr": "atamak, belirlemek",
+  "ex": "Его назначили министром.",
+  "exTr": "Bakan olarak atandı."
+ },
+ {
+  "r": 631,
+  "impf": "возглавлять",
+  "perf": "возглавить",
+  "tr": "başında olmak, yönetmek",
+  "ex": "Она возглавляет компанию.",
+  "exTr": "Şirketin başında o var."
+ },
+ {
+  "r": 632,
+  "impf": "руководить",
+  "perf": "",
+  "tr": "yönetmek",
+  "ex": "Он руководит отделом.",
+  "exTr": "Bölümü yönetiyor."
+ },
+ {
+  "r": 633,
+  "impf": "управлять",
+  "perf": "",
+  "tr": "yönetmek, idare etmek",
+  "ex": "Директор управляет предприятием.",
+  "exTr": "Müdür işletmeyi yönetiyor."
+ },
+ {
+  "r": 634,
+  "impf": "контролировать",
+  "perf": "проконтролировать",
+  "tr": "denetlemek, kontrol etmek",
+  "ex": "Комиссия контролирует выборы.",
+  "exTr": "Komisyon seçimleri denetliyor."
+ },
+ {
+  "r": 635,
+  "impf": "регулировать",
+  "perf": "урегулировать",
+  "tr": "düzenlemek",
+  "ex": "Закон регулирует торговлю.",
+  "exTr": "Yasa ticareti düzenler."
+ },
+ {
+  "r": 636,
+  "impf": "запрещать",
+  "perf": "запретить",
+  "tr": "yasaklamak",
+  "ex": "Власти запретили курение.",
+  "exTr": "Yetkililer sigara içmeyi yasakladı."
+ },
+ {
+  "r": 637,
+  "impf": "разрешать",
+  "perf": "разрешить",
+  "tr": "izin vermek, çözmek",
+  "ex": "Закон разрешает такие сделки.",
+  "exTr": "Yasa bu tür işlemlere izin verir."
+ },
+ {
+  "r": 638,
+  "impf": "позволять",
+  "perf": "позволить",
+  "tr": "izin vermek",
+  "ex": "Доходы не позволяют ему купить дом.",
+  "exTr": "Gelir ev almasına izin vermiyor."
+ },
+ {
+  "r": 639,
+  "impf": "допускать",
+  "perf": "допустить",
+  "tr": "izin vermek, kabul etmek",
+  "ex": "Нельзя допускать ошибок.",
+  "exTr": "Hataya izin verilmemeli."
+ },
+ {
+  "r": 640,
+  "impf": "нарушать",
+  "perf": "нарушить",
+  "tr": "ihlal etmek, bozmak",
+  "ex": "Он нарушил правила.",
+  "exTr": "Kuralları ihlal etti."
+ },
+ {
+  "r": 641,
+  "impf": "соблюдать",
+  "perf": "соблюсти",
+  "tr": "uymak, riayet etmek",
+  "ex": "Нужно соблюдать закон.",
+  "exTr": "Yasaya uymak gerekir."
+ },
+ {
+  "r": 642,
+  "impf": "подчиняться",
+  "perf": "подчиниться",
+  "tr": "boyun eğmek, uymak",
+  "ex": "Все обязаны подчиняться закону.",
+  "exTr": "Herkes yasaya uymak zorundadır."
+ },
+ {
+  "r": 643,
+  "impf": "судить",
+  "perf": "",
+  "tr": "yargılamak",
+  "ex": "Суд будет судить обвиняемого.",
+  "exTr": "Mahkeme sanığı yargılayacak."
+ },
+ {
+  "r": 644,
+  "impf": "обвинять",
+  "perf": "обвинить",
+  "tr": "suçlamak",
+  "ex": "Его обвиняют в краже.",
+  "exTr": "Onu hırsızlıkla suçluyorlar."
+ },
+ {
+  "r": 645,
+  "impf": "арестовывать",
+  "perf": "арестовать",
+  "tr": "tutuklamak",
+  "ex": "Полиция арестовала подозреваемого.",
+  "exTr": "Polis şüpheliyi tutukladı."
+ },
+ {
+  "r": 646,
+  "impf": "задерживать",
+  "perf": "задержать",
+  "tr": "gözaltına almak, geciktirmek",
+  "ex": "Рейс задержали на час.",
+  "exTr": "Sefer bir saat geciktirildi."
+ },
+ {
+  "r": 647,
+  "impf": "освобождать",
+  "perf": "освободить",
+  "tr": "serbest bırakmak, boşaltmak",
+  "ex": "Заложников освободили.",
+  "exTr": "Rehineler serbest bırakıldı."
+ },
+ {
+  "r": 648,
+  "impf": "наказывать",
+  "perf": "наказать",
+  "tr": "cezalandırmak",
+  "ex": "Суд наказал виновных.",
+  "exTr": "Mahkeme suçluları cezalandırdı."
+ },
+ {
+  "r": 649,
+  "impf": "приговаривать",
+  "perf": "приговорить",
+  "tr": "hüküm vermek, mahkûm etmek",
+  "ex": "Суд приговорил его к штрафу.",
+  "exTr": "Mahkeme onu para cezasına çarptırdı."
+ },
+ {
+  "r": 650,
+  "impf": "расследовать",
+  "perf": "",
+  "tr": "soruşturmak",
+  "ex": "Полиция расследует преступление.",
+  "exTr": "Polis suçu soruşturuyor."
+ },
+ {
+  "r": 651,
+  "impf": "совершать",
+  "perf": "совершить",
+  "tr": "işlemek, gerçekleştirmek",
+  "ex": "Он совершил ошибку.",
+  "exTr": "Bir hata yaptı."
+ },
+ {
+  "r": 652,
+  "impf": "похищать",
+  "perf": "похитить",
+  "tr": "kaçırmak",
+  "ex": "Преступники похитили картину.",
+  "exTr": "Suçlular tabloyu çaldı."
+ },
+ {
+  "r": 653,
+  "impf": "красть",
+  "perf": "украсть",
+  "tr": "çalmak",
+  "ex": "Кто-то украл мой кошелёк.",
+  "exTr": "Biri cüzdanımı çaldı."
+ },
+ {
+  "r": 654,
+  "impf": "убивать",
+  "perf": "убить",
+  "tr": "öldürmek",
+  "ex": "Эпидемия убила тысячи людей.",
+  "exTr": "Salgın binlerce insanı öldürdü."
+ },
+ {
+  "r": 655,
+  "impf": "погибать",
+  "perf": "погибнуть",
+  "tr": "ölmek, hayatını kaybetmek",
+  "ex": "В аварии погибли двое.",
+  "exTr": "Kazada iki kişi hayatını kaybetti."
+ },
+ {
+  "r": 656,
+  "impf": "умирать",
+  "perf": "умереть",
+  "tr": "ölmek",
+  "ex": "Он умер в старости.",
+  "exTr": "Yaşlılığında öldü."
+ },
+ {
+  "r": 657,
+  "impf": "рождаться",
+  "perf": "родиться",
+  "tr": "doğmak",
+  "ex": "Он родился в Москве.",
+  "exTr": "Moskova'da doğdu."
+ },
+ {
+  "r": 658,
+  "impf": "воспитывать",
+  "perf": "воспитать",
+  "tr": "yetiştirmek, terbiye etmek",
+  "ex": "Она воспитывает троих детей.",
+  "exTr": "Üç çocuk yetiştiriyor."
+ },
+ {
+  "r": 659,
+  "impf": "обучать",
+  "perf": "обучить",
+  "tr": "eğitmek, öğretmek",
+  "ex": "Школа обучает детей языкам.",
+  "exTr": "Okul çocuklara dil öğretiyor."
+ },
+ {
+  "r": 660,
+  "impf": "преподавать",
+  "perf": "",
+  "tr": "ders vermek",
+  "ex": "Он преподаёт физику.",
+  "exTr": "Fizik dersi veriyor."
+ },
+ {
+  "r": 661,
+  "impf": "учить",
+  "perf": "выучить",
+  "tr": "öğretmek, ezberlemek",
+  "ex": "Я учу новые слова.",
+  "exTr": "Yeni kelimeler öğreniyorum."
+ },
+ {
+  "r": 662,
+  "impf": "запоминать",
+  "perf": "запомнить",
+  "tr": "aklında tutmak, ezberlemek",
+  "ex": "Запомните это правило.",
+  "exTr": "Bu kuralı aklınızda tutun."
+ },
+ {
+  "r": 663,
+  "impf": "помнить",
+  "perf": "вспомнить",
+  "tr": "hatırlamak",
+  "ex": "Я помню тот день.",
+  "exTr": "O günü hatırlıyorum."
+ },
+ {
+  "r": 664,
+  "impf": "забывать",
+  "perf": "забыть",
+  "tr": "unutmak",
+  "ex": "Не забудь позвонить.",
+  "exTr": "Aramayı unutma."
+ },
+ {
+  "r": 665,
+  "impf": "напоминать",
+  "perf": "напомнить",
+  "tr": "hatırlatmak",
+  "ex": "Он напомнил о встрече.",
+  "exTr": "Toplantıyı hatırlattı."
+ },
+ {
+  "r": 666,
+  "impf": "узнавать",
+  "perf": "узнать",
+  "tr": "öğrenmek, tanımak",
+  "ex": "Я узнал новость.",
+  "exTr": "Haberi öğrendim."
+ },
+ {
+  "r": 667,
+  "impf": "открывать",
+  "perf": "открыть",
+  "tr": "açmak, keşfetmek",
+  "ex": "Учёные открыли новую планету.",
+  "exTr": "Bilim insanları yeni bir gezegen keşfetti."
+ },
+ {
+  "r": 668,
+  "impf": "изобретать",
+  "perf": "изобрести",
+  "tr": "icat etmek",
+  "ex": "Он изобрёл новый прибор.",
+  "exTr": "Yeni bir cihaz icat etti."
+ },
+ {
+  "r": 669,
+  "impf": "находить",
+  "perf": "найти",
+  "tr": "bulmak",
+  "ex": "Исследователи нашли решение.",
+  "exTr": "Araştırmacılar çözümü buldu."
+ },
+ {
+  "r": 670,
+  "impf": "обнаруживать",
+  "perf": "обнаружить",
+  "tr": "tespit etmek, keşfetmek",
+  "ex": "Врачи обнаружили вирус.",
+  "exTr": "Doktorlar virüsü tespit etti."
+ },
+ {
+  "r": 671,
+  "impf": "выявлять",
+  "perf": "выявить",
+  "tr": "ortaya çıkarmak, tespit etmek",
+  "ex": "Проверка выявила нарушения.",
+  "exTr": "Denetim ihlalleri ortaya çıkardı."
+ },
+ {
+  "r": 672,
+  "impf": "замечать",
+  "perf": "заметить",
+  "tr": "fark etmek",
+  "ex": "Я заметил ошибку.",
+  "exTr": "Hatayı fark ettim."
+ },
+ {
+  "r": 673,
+  "impf": "наблюдать",
+  "perf": "понаблюдать",
+  "tr": "gözlemlemek",
+  "ex": "Астрономы наблюдают за звёздами.",
+  "exTr": "Astronomlar yıldızları gözlemliyor."
+ },
+ {
+  "r": 674,
+  "impf": "измерять",
+  "perf": "измерить",
+  "tr": "ölçmek",
+  "ex": "Врач измерил давление.",
+  "exTr": "Doktor tansiyonu ölçtü."
+ },
+ {
+  "r": 675,
+  "impf": "проверять",
+  "perf": "проверить",
+  "tr": "kontrol etmek",
+  "ex": "Инспектор проверяет документы.",
+  "exTr": "Müfettiş belgeleri kontrol ediyor."
+ },
+ {
+  "r": 676,
+  "impf": "испытывать",
+  "perf": "испытать",
+  "tr": "denemek, yaşamak, hissetmek",
+  "ex": "Инженеры испытывают новый самолёт.",
+  "exTr": "Mühendisler yeni uçağı test ediyor."
+ },
+ {
+  "r": 677,
+  "impf": "тестировать",
+  "perf": "протестировать",
+  "tr": "test etmek",
+  "ex": "Программисты тестируют приложение.",
+  "exTr": "Programcılar uygulamayı test ediyor."
+ },
+ {
+  "r": 678,
+  "impf": "выбирать",
+  "perf": "выбрать",
+  "tr": "seçmek",
+  "ex": "Мы выбрали лучший вариант.",
+  "exTr": "En iyi seçeneği seçtik."
+ },
+ {
+  "r": 679,
+  "impf": "предпочитать",
+  "perf": "предпочесть",
+  "tr": "tercih etmek",
+  "ex": "Я предпочитаю чай.",
+  "exTr": "Çayı tercih ederim."
+ },
+ {
+  "r": 680,
+  "impf": "отказываться",
+  "perf": "отказаться",
+  "tr": "vazgeçmek, reddetmek",
+  "ex": "Он отказался от предложения.",
+  "exTr": "Teklifi reddetti."
+ },
+ {
+  "r": 681,
+  "impf": "соглашаться",
+  "perf": "согласиться",
+  "tr": "razı olmak, kabul etmek",
+  "ex": "Мы согласились с условиями.",
+  "exTr": "Şartları kabul ettik."
+ },
+ {
+  "r": 682,
+  "impf": "возражать",
+  "perf": "возразить",
+  "tr": "itiraz etmek",
+  "ex": "Никто не возразил.",
+  "exTr": "Kimse itiraz etmedi."
+ },
+ {
+  "r": 683,
+  "impf": "спорить",
+  "perf": "поспорить",
+  "tr": "tartışmak",
+  "ex": "Они спорят о политике.",
+  "exTr": "Siyaset hakkında tartışıyorlar."
+ },
+ {
+  "r": 684,
+  "impf": "критиковать",
+  "perf": "раскритиковать",
+  "tr": "eleştirmek",
+  "ex": "Оппозиция критикует правительство.",
+  "exTr": "Muhalefet hükümeti eleştiriyor."
+ },
+ {
+  "r": 685,
+  "impf": "осуждать",
+  "perf": "осудить",
+  "tr": "kınamak",
+  "ex": "Мир осудил это нападение.",
+  "exTr": "Dünya bu saldırıyı kınadı."
+ },
+ {
+  "r": 686,
+  "impf": "одобрять",
+  "perf": "одобрить",
+  "tr": "onaylamak, uygun görmek",
+  "ex": "Совет одобрил проект.",
+  "exTr": "Konsey projeyi onayladı."
+ },
+ {
+  "r": 687,
+  "impf": "признавать",
+  "perf": "признать",
+  "tr": "kabul etmek, tanımak",
+  "ex": "Он признал свою ошибку.",
+  "exTr": "Hatasını kabul etti."
+ },
+ {
+  "r": 688,
+  "impf": "считать",
+  "perf": "счесть",
+  "tr": "saymak, kabul etmek",
+  "ex": "Многие считают это ошибкой.",
+  "exTr": "Birçok kişi bunu hata sayıyor."
+ },
+ {
+  "r": 689,
+  "impf": "полагать",
+  "perf": "",
+  "tr": "sanmak, varsaymak",
+  "ex": "Я полагаю, он прав.",
+  "exTr": "Sanırım haklı."
+ },
+ {
+  "r": 690,
+  "impf": "предвидеть",
+  "perf": "",
+  "tr": "önceden görmek, öngörmek",
+  "ex": "Никто не мог предвидеть кризис.",
+  "exTr": "Hiç kimse krizi öngöremezdi."
+ },
+ {
+  "r": 691,
+  "impf": "прогнозировать",
+  "perf": "спрогнозировать",
+  "tr": "tahmin etmek",
+  "ex": "Синоптики прогнозируют дождь.",
+  "exTr": "Meteorologlar yağmur tahmin ediyor."
+ },
+ {
+  "r": 692,
+  "impf": "ожидать",
+  "perf": "",
+  "tr": "beklemek",
+  "ex": "Эксперты ожидают роста цен.",
+  "exTr": "Uzmanlar fiyat artışı bekliyor."
+ },
+ {
+  "r": 693,
+  "impf": "надеяться",
+  "perf": "понадеяться",
+  "tr": "ummak",
+  "ex": "Мы надеемся на лучшее.",
+  "exTr": "En iyisini umuyoruz."
+ },
+ {
+  "r": 694,
+  "impf": "стремиться",
+  "perf": "",
+  "tr": "çabalamak, arzulamak",
+  "ex": "Страна стремится к миру.",
+  "exTr": "Ülke barış için çabalıyor."
+ },
+ {
+  "r": 695,
+  "impf": "пытаться",
+  "perf": "попытаться",
+  "tr": "denemek, çalışmak",
+  "ex": "Он пытался решить проблему.",
+  "exTr": "Sorunu çözmeye çalıştı."
+ },
+ {
+  "r": 696,
+  "impf": "стараться",
+  "perf": "постараться",
+  "tr": "çaba göstermek",
+  "ex": "Мы стараемся помочь.",
+  "exTr": "Yardım etmeye çalışıyoruz."
+ },
+ {
+  "r": 697,
+  "impf": "намереваться",
+  "perf": "",
+  "tr": "niyetinde olmak",
+  "ex": "Фирма намерена расшириться.",
+  "exTr": "Firma genişlemeyi amaçlıyor."
+ },
+ {
+  "r": 698,
+  "impf": "собираться",
+  "perf": "собраться",
+  "tr": "toplanmak, niyetlenmek",
+  "ex": "Мы собираемся в субботу.",
+  "exTr": "Cumartesi toplanıyoruz."
+ },
+ {
+  "r": 699,
+  "impf": "готовиться",
+  "perf": "подготовиться",
+  "tr": "hazırlanmak",
+  "ex": "Студенты готовятся к экзамену.",
+  "exTr": "Öğrenciler sınava hazırlanıyor."
+ },
+ {
+  "r": 700,
+  "impf": "готовить",
+  "perf": "приготовить",
+  "tr": "hazırlamak, pişirmek",
+  "ex": "Она готовит ужин.",
+  "exTr": "Akşam yemeği hazırlıyor."
+ },
+ {
+  "r": 701,
+  "impf": "подготавливать",
+  "perf": "подготовить",
+  "tr": "hazırlamak",
+  "ex": "Он подготовил доклад.",
+  "exTr": "Bir rapor hazırladı."
+ },
+ {
+  "r": 702,
+  "impf": "собирать",
+  "perf": "собрать",
+  "tr": "toplamak",
+  "ex": "Учёные собирают данные.",
+  "exTr": "Bilim insanları veri topluyor."
+ },
+ {
+  "r": 703,
+  "impf": "накапливаться",
+  "perf": "накопиться",
+  "tr": "birikmek",
+  "ex": "Проблемы накопились.",
+  "exTr": "Sorunlar birikti."
+ },
+ {
+  "r": 704,
+  "impf": "хранить",
+  "perf": "сохранить",
+  "tr": "saklamak, korumak",
+  "ex": "Архив хранит документы.",
+  "exTr": "Arşiv belgeleri saklıyor."
+ },
+ {
+  "r": 705,
+  "impf": "сохранять",
+  "perf": "",
+  "tr": "korumak, muhafaza etmek",
+  "ex": "Нужно сохранять спокойствие.",
+  "exTr": "Sakin kalmak gerekir."
+ },
+ {
+  "r": 706,
+  "impf": "беречь",
+  "perf": "поберечь",
+  "tr": "korumak, esirgemek",
+  "ex": "Надо беречь природу.",
+  "exTr": "Doğayı korumak gerekir."
+ },
+ {
+  "r": 707,
+  "impf": "терять",
+  "perf": "потерять",
+  "tr": "kaybetmek",
+  "ex": "Он потерял работу.",
+  "exTr": "İşini kaybetti."
+ },
+ {
+  "r": 708,
+  "impf": "приобретать",
+  "perf": "приобрести",
+  "tr": "edinmek, satın almak",
+  "ex": "Компания приобрела завод.",
+  "exTr": "Şirket fabrikayı satın aldı."
+ },
+ {
+  "r": 709,
+  "impf": "получаться",
+  "perf": "получиться",
+  "tr": "ortaya çıkmak, başarılı olmak",
+  "ex": "Эксперимент получился удачным.",
+  "exTr": "Deney başarılı oldu."
+ },
+ {
+  "r": 710,
+  "impf": "удаваться",
+  "perf": "удаться",
+  "tr": "başarmak, becerilmek",
+  "ex": "Нам удалось найти выход.",
+  "exTr": "Çıkış yolu bulmayı başardık."
+ },
+ {
+  "r": 711,
+  "impf": "успевать",
+  "perf": "успеть",
+  "tr": "yetişmek, vakit bulmak",
+  "ex": "Я не успел на поезд.",
+  "exTr": "Trene yetişemedim."
+ },
+ {
+  "r": 712,
+  "impf": "опаздывать",
+  "perf": "опоздать",
+  "tr": "geç kalmak",
+  "ex": "Он опоздал на работу.",
+  "exTr": "İşe geç kaldı."
+ },
+ {
+  "r": 713,
+  "impf": "спешить",
+  "perf": "поспешить",
+  "tr": "acele etmek",
+  "ex": "Не спеши с выводами.",
+  "exTr": "Sonuç çıkarmakta acele etme."
+ },
+ {
+  "r": 714,
+  "impf": "ждать",
+  "perf": "подождать",
+  "tr": "beklemek",
+  "ex": "Мы ждём ответа.",
+  "exTr": "Cevap bekliyoruz."
+ },
+ {
+  "r": 715,
+  "impf": "встречать",
+  "perf": "встретить",
+  "tr": "karşılamak, rastlamak",
+  "ex": "Мы встретили гостей.",
+  "exTr": "Misafirleri karşıladık."
+ },
+ {
+  "r": 716,
+  "impf": "встречаться",
+  "perf": "встретиться",
+  "tr": "buluşmak, görüşmek",
+  "ex": "Лидеры встретятся в Москве.",
+  "exTr": "Liderler Moskova'da bir araya gelecek."
+ },
+ {
+  "r": 717,
+  "impf": "знакомиться",
+  "perf": "познакомиться",
+  "tr": "tanışmak",
+  "ex": "Я познакомился с профессором.",
+  "exTr": "Profesörle tanıştım."
+ },
+ {
+  "r": 718,
+  "impf": "приглашать",
+  "perf": "пригласить",
+  "tr": "davet etmek",
+  "ex": "Нас пригласили на конференцию.",
+  "exTr": "Bizi konferansa davet ettiler."
+ },
+ {
+  "r": 719,
+  "impf": "посещать",
+  "perf": "посетить",
+  "tr": "ziyaret etmek",
+  "ex": "Президент посетил завод.",
+  "exTr": "Cumhurbaşkanı fabrikayı ziyaret etti."
+ },
+ {
+  "r": 720,
+  "impf": "приезжать",
+  "perf": "приехать",
+  "tr": "gelmek (araçla)",
+  "ex": "Делегация приехала вчера.",
+  "exTr": "Heyet dün geldi."
+ },
+ {
+  "r": 721,
+  "impf": "уезжать",
+  "perf": "уехать",
+  "tr": "gitmek (araçla), ayrılmak",
+  "ex": "Он уехал за границу.",
+  "exTr": "Yurt dışına gitti."
+ },
+ {
+  "r": 722,
+  "impf": "прибывать",
+  "perf": "прибыть",
+  "tr": "varmak",
+  "ex": "Поезд прибыл вовремя.",
+  "exTr": "Tren zamanında vardı."
+ },
+ {
+  "r": 723,
+  "impf": "отправляться",
+  "perf": "отправиться",
+  "tr": "yola çıkmak",
+  "ex": "Экспедиция отправилась в путь.",
+  "exTr": "Keşif ekibi yola çıktı."
+ },
+ {
+  "r": 724,
+  "impf": "отправлять",
+  "perf": "отправить",
+  "tr": "göndermek",
+  "ex": "Я отправил письмо.",
+  "exTr": "Mektubu gönderdim."
+ },
+ {
+  "r": 725,
+  "impf": "посылать",
+  "perf": "послать",
+  "tr": "göndermek",
+  "ex": "Они послали запрос.",
+  "exTr": "Bir talep gönderdiler."
+ },
+ {
+  "r": 726,
+  "impf": "доставлять",
+  "perf": "доставить",
+  "tr": "teslim etmek, ulaştırmak",
+  "ex": "Курьер доставил посылку.",
+  "exTr": "Kurye paketi teslim etti."
+ },
+ {
+  "r": 727,
+  "impf": "перевозить",
+  "perf": "перевезти",
+  "tr": "taşımak, nakletmek",
+  "ex": "Поезда перевозят грузы.",
+  "exTr": "Trenler yük taşır."
+ },
+ {
+  "r": 728,
+  "impf": "передавать",
+  "perf": "передать",
+  "tr": "iletmek, devretmek",
+  "ex": "Он передал документы.",
+  "exTr": "Belgeleri iletti."
+ },
+ {
+  "r": 729,
+  "impf": "переходить",
+  "perf": "перейти",
+  "tr": "geçmek",
+  "ex": "Страна перешла на новую систему.",
+  "exTr": "Ülke yeni sisteme geçti."
+ },
+ {
+  "r": 730,
+  "impf": "переезжать",
+  "perf": "переехать",
+  "tr": "taşınmak",
+  "ex": "Семья переехала в Анкару.",
+  "exTr": "Aile Ankara'ya taşındı."
+ },
+ {
+  "r": 731,
+  "impf": "возвращать",
+  "perf": "вернуть",
+  "tr": "geri vermek",
+  "ex": "Он вернул долг.",
+  "exTr": "Borcunu geri ödedi."
+ },
+ {
+  "r": 732,
+  "impf": "возвращаться",
+  "perf": "вернуться",
+  "tr": "dönmek",
+  "ex": "Туристы вернулись домой.",
+  "exTr": "Turistler eve döndü."
+ },
+ {
+  "r": 733,
+  "impf": "входить",
+  "perf": "войти",
+  "tr": "girmek",
+  "ex": "Турция входит в состав НАТО.",
+  "exTr": "Türkiye NATO üyesidir."
+ },
+ {
+  "r": 734,
+  "impf": "выходить",
+  "perf": "выйти",
+  "tr": "çıkmak",
+  "ex": "Книга вышла в прошлом году.",
+  "exTr": "Kitap geçen yıl çıktı."
+ },
+ {
+  "r": 735,
+  "impf": "проходить",
+  "perf": "пройти",
+  "tr": "geçmek, uğramak",
+  "ex": "Выборы пройдут в мае.",
+  "exTr": "Seçimler mayısta yapılacak."
+ },
+ {
+  "r": 736,
+  "impf": "приходить",
+  "perf": "прийти",
+  "tr": "gelmek",
+  "ex": "Мы пришли к выводу.",
+  "exTr": "Bir sonuca vardık."
+ },
+ {
+  "r": 737,
+  "impf": "находиться",
+  "perf": "",
+  "tr": "bulunmak",
+  "ex": "Город находится на берегу моря.",
+  "exTr": "Şehir deniz kıyısında bulunuyor."
+ },
+ {
+  "r": 738,
+  "impf": "располагаться",
+  "perf": "расположиться",
+  "tr": "yer almak, konumlanmak",
+  "ex": "Музей расположен в центре.",
+  "exTr": "Müze merkezde yer alıyor."
+ },
+ {
+  "r": 739,
+  "impf": "размещать",
+  "perf": "разместить",
+  "tr": "yerleştirmek",
+  "ex": "Компания разместила заказ.",
+  "exTr": "Şirket sipariş verdi."
+ },
+ {
+  "r": 740,
+  "impf": "занимать",
+  "perf": "занять",
+  "tr": "işgal etmek, kaplamak",
+  "ex": "Россия занимает первое место.",
+  "exTr": "Rusya birinci sırada yer alıyor."
+ },
+ {
+  "r": 741,
+  "impf": "заниматься",
+  "perf": "заняться",
+  "tr": "uğraşmak, ilgilenmek",
+  "ex": "Он занимается наукой.",
+  "exTr": "Bilimle uğraşıyor."
+ },
+ {
+  "r": 742,
+  "impf": "касаться",
+  "perf": "коснуться",
+  "tr": "ilgilendirmek, dokunmak",
+  "ex": "Это касается всех.",
+  "exTr": "Bu herkesi ilgilendirir."
+ },
+ {
+  "r": 743,
+  "impf": "относиться",
+  "perf": "отнестись",
+  "tr": "ait olmak, davranmak",
+  "ex": "Это относится к делу.",
+  "exTr": "Bu konuyla ilgilidir."
+ },
+ {
+  "r": 744,
+  "impf": "связывать",
+  "perf": "связать",
+  "tr": "bağlamak, ilişkilendirmek",
+  "ex": "Мост связывает два берега.",
+  "exTr": "Köprü iki yakayı bağlar."
+ },
+ {
+  "r": 745,
+  "impf": "соединять",
+  "perf": "соединить",
+  "tr": "birleştirmek, bağlamak",
+  "ex": "Канал соединяет два моря.",
+  "exTr": "Kanal iki denizi birleştirir."
+ },
+ {
+  "r": 746,
+  "impf": "объединять",
+  "perf": "объединить",
+  "tr": "birleştirmek",
+  "ex": "Союз объединяет страны региона.",
+  "exTr": "Birlik bölge ülkelerini birleştirir."
+ },
+ {
+  "r": 747,
+  "impf": "разделять",
+  "perf": "разделить",
+  "tr": "bölmek, paylaşmak",
+  "ex": "Граница разделяет два государства.",
+  "exTr": "Sınır iki devleti ayırır."
+ },
+ {
+  "r": 748,
+  "impf": "отделять",
+  "perf": "отделить",
+  "tr": "ayırmak",
+  "ex": "Нужно отделить факты от мнений.",
+  "exTr": "Gerçekleri görüşlerden ayırmak gerekir."
+ },
+ {
+  "r": 749,
+  "impf": "различать",
+  "perf": "различить",
+  "tr": "ayırt etmek",
+  "ex": "Он различает цвета.",
+  "exTr": "Renkleri ayırt eder."
+ },
+ {
+  "r": 750,
+  "impf": "отличаться",
+  "perf": "",
+  "tr": "farklı olmak",
+  "ex": "Язык отличается от нашего.",
+  "exTr": "Dil bizimkinden farklıdır."
+ },
+ {
+  "r": 751,
+  "impf": "совпадать",
+  "perf": "совпасть",
+  "tr": "örtüşmek, denk gelmek",
+  "ex": "Наши мнения совпадают.",
+  "exTr": "Görüşlerimiz örtüşüyor."
+ },
+ {
+  "r": 752,
+  "impf": "соответствовать",
+  "perf": "",
+  "tr": "uymak, karşılık gelmek",
+  "ex": "Товар соответствует стандарту.",
+  "exTr": "Ürün standarda uygundur."
+ },
+ {
+  "r": 753,
+  "impf": "подходить",
+  "perf": "подойти",
+  "tr": "uymak, yaklaşmak",
+  "ex": "Это решение нам подходит.",
+  "exTr": "Bu çözüm bize uyuyor."
+ },
+ {
+  "r": 754,
+  "impf": "сочетать",
+  "perf": "",
+  "tr": "birleştirmek, bağdaştırmak",
+  "ex": "Он сочетает работу и учёбу.",
+  "exTr": "İşi ve okulu bir arada yürütüyor."
+ },
+ {
+  "r": 755,
+  "impf": "заменять",
+  "perf": "заменить",
+  "tr": "değiştirmek, yerini almak",
+  "ex": "Робот заменит человека.",
+  "exTr": "Robot insanın yerini alacak."
+ },
+ {
+  "r": 756,
+  "impf": "менять",
+  "perf": "поменять",
+  "tr": "değiştirmek",
+  "ex": "Он поменял работу.",
+  "exTr": "İşini değiştirdi."
+ },
+ {
+  "r": 757,
+  "impf": "изменять",
+  "perf": "изменить",
+  "tr": "değiştirmek",
+  "ex": "Закон изменили в прошлом году.",
+  "exTr": "Yasa geçen yıl değiştirildi."
+ },
+ {
+  "r": 758,
+  "impf": "изменяться",
+  "perf": "измениться",
+  "tr": "değişmek",
+  "ex": "Климат изменился.",
+  "exTr": "İklim değişti."
+ },
+ {
+  "r": 759,
+  "impf": "превращать",
+  "perf": "превратить",
+  "tr": "dönüştürmek",
+  "ex": "Мороз превратил воду в лёд.",
+  "exTr": "Don suyu buza çevirdi."
+ },
+ {
+  "r": 760,
+  "impf": "превращаться",
+  "perf": "превратиться",
+  "tr": "dönüşmek",
+  "ex": "Гусеница превратилась в бабочку.",
+  "exTr": "Tırtıl kelebeğe dönüştü."
+ },
+ {
+  "r": 761,
+  "impf": "преобразовывать",
+  "perf": "преобразовать",
+  "tr": "dönüştürmek",
+  "ex": "Реформа преобразовала систему.",
+  "exTr": "Reform sistemi dönüştürdü."
+ },
+ {
+  "r": 762,
+  "impf": "улучшать",
+  "perf": "улучшить",
+  "tr": "iyileştirmek",
+  "ex": "Мы улучшили качество.",
+  "exTr": "Kaliteyi iyileştirdik."
+ },
+ {
+  "r": 763,
+  "impf": "ухудшать",
+  "perf": "ухудшить",
+  "tr": "kötüleştirmek",
+  "ex": "Война ухудшила ситуацию.",
+  "exTr": "Savaş durumu kötüleştirdi."
+ },
+ {
+  "r": 764,
+  "impf": "ухудшаться",
+  "perf": "ухудшиться",
+  "tr": "kötüleşmek",
+  "ex": "Состояние больного ухудшилось.",
+  "exTr": "Hastanın durumu kötüleşti."
+ },
+ {
+  "r": 765,
+  "impf": "усиливать",
+  "perf": "усилить",
+  "tr": "güçlendirmek",
+  "ex": "Меры усилили охрану.",
+  "exTr": "Önlemler korumayı güçlendirdi."
+ },
+ {
+  "r": 766,
+  "impf": "укреплять",
+  "perf": "укрепить",
+  "tr": "pekiştirmek, güçlendirmek",
+  "ex": "Союз укрепляет отношения.",
+  "exTr": "İttifak ilişkileri pekiştiriyor."
+ },
+ {
+  "r": 767,
+  "impf": "ослаблять",
+  "perf": "ослабить",
+  "tr": "zayıflatmak",
+  "ex": "Кризис ослабил экономику.",
+  "exTr": "Kriz ekonomiyi zayıflattı."
+ },
+ {
+  "r": 768,
+  "impf": "расширять",
+  "perf": "расширить",
+  "tr": "genişletmek",
+  "ex": "Фирма расширяет бизнес.",
+  "exTr": "Firma işini genişletiyor."
+ },
+ {
+  "r": 769,
+  "impf": "расширяться",
+  "perf": "расшириться",
+  "tr": "genişlemek",
+  "ex": "Город быстро расширяется.",
+  "exTr": "Şehir hızla genişliyor."
+ },
+ {
+  "r": 770,
+  "impf": "ограничивать",
+  "perf": "ограничить",
+  "tr": "sınırlamak",
+  "ex": "Закон ограничивает свободу.",
+  "exTr": "Yasa özgürlüğü kısıtlar."
+ },
+ {
+  "r": 771,
+  "impf": "сужать",
+  "perf": "сузить",
+  "tr": "daraltmak",
+  "ex": "Банки сузили кредитование.",
+  "exTr": "Bankalar kredilendirmeyi daralttı."
+ },
+ {
+  "r": 772,
+  "impf": "распространять",
+  "perf": "распространить",
+  "tr": "yaymak",
+  "ex": "СМИ распространяют информацию.",
+  "exTr": "Medya bilgi yayıyor."
+ },
+ {
+  "r": 773,
+  "impf": "распространяться",
+  "perf": "распространиться",
+  "tr": "yayılmak",
+  "ex": "Вирус быстро распространяется.",
+  "exTr": "Virüs hızla yayılıyor."
+ },
+ {
+  "r": 774,
+  "impf": "охватывать",
+  "perf": "охватить",
+  "tr": "kapsamak",
+  "ex": "Программа охватывает все регионы.",
+  "exTr": "Program tüm bölgeleri kapsıyor."
+ },
+ {
+  "r": 775,
+  "impf": "затрагивать",
+  "perf": "затронуть",
+  "tr": "etkilemek, değinmek",
+  "ex": "Кризис затронул многих.",
+  "exTr": "Kriz birçok kişiyi etkiledi."
+ },
+ {
+  "r": 776,
+  "impf": "вызывать",
+  "perf": "вызвать",
+  "tr": "neden olmak, çağırmak",
+  "ex": "Курение вызывает болезни.",
+  "exTr": "Sigara hastalıklara yol açar."
+ },
+ {
+  "r": 777,
+  "impf": "провоцировать",
+  "perf": "спровоцировать",
+  "tr": "kışkırtmak, tetiklemek",
+  "ex": "Заявление спровоцировало скандал.",
+  "exTr": "Açıklama skandalı tetikledi."
+ },
+ {
+  "r": 778,
+  "impf": "приводить",
+  "perf": "привести",
+  "tr": "getirmek, yol açmak",
+  "ex": "Это привело к кризису.",
+  "exTr": "Bu krize yol açtı."
+ },
+ {
+  "r": 779,
+  "impf": "влечь",
+  "perf": "повлечь",
+  "tr": "beraberinde getirmek",
+  "ex": "Нарушение влечёт штраф.",
+  "exTr": "İhlal para cezasını gerektirir."
+ },
+ {
+  "r": 780,
+  "impf": "порождать",
+  "perf": "породить",
+  "tr": "doğurmak, yaratmak",
+  "ex": "Бедность порождает преступность.",
+  "exTr": "Yoksulluk suçu doğurur."
+ },
+ {
+  "r": 781,
+  "impf": "следовать",
+  "perf": "последовать",
+  "tr": "izlemek, takip etmek",
+  "ex": "Из этого следует вывод.",
+  "exTr": "Bundan şu sonuç çıkar."
+ },
+ {
+  "r": 782,
+  "impf": "вытекать",
+  "perf": "вытечь",
+  "tr": "sonucu olmak, akmak",
+  "ex": "Из данных вытекает вывод.",
+  "exTr": "Verilerden bir sonuç çıkıyor."
+ },
+ {
+  "r": 783,
+  "impf": "заключать",
+  "perf": "заключить",
+  "tr": "sonuçlandırmak, akdetmek",
+  "ex": "Страны заключили договор.",
+  "exTr": "Ülkeler anlaşma imzaladı."
+ },
+ {
+  "r": 784,
+  "impf": "подписывать",
+  "perf": "подписать",
+  "tr": "imzalamak",
+  "ex": "Президент подписал указ.",
+  "exTr": "Cumhurbaşkanı kararnameyi imzaladı."
+ },
+ {
+  "r": 785,
+  "impf": "ратифицировать",
+  "perf": "ратифицировать",
+  "tr": "onaylamak (anlaşma)",
+  "ex": "Парламент ратифицировал договор.",
+  "exTr": "Meclis anlaşmayı onayladı."
+ },
+ {
+  "r": 786,
+  "impf": "договариваться",
+  "perf": "договориться",
+  "tr": "anlaşmak",
+  "ex": "Стороны договорились о цене.",
+  "exTr": "Taraflar fiyat konusunda anlaştı."
+ },
+ {
+  "r": 787,
+  "impf": "вести",
+  "perf": "повести",
+  "tr": "yürütmek, götürmek",
+  "ex": "Они ведут переговоры.",
+  "exTr": "Müzakere yürütüyorlar."
+ },
+ {
+  "r": 788,
+  "impf": "требоваться",
+  "perf": "потребоваться",
+  "tr": "gerekmek",
+  "ex": "Потребуется время.",
+  "exTr": "Zaman gerekecek."
+ },
+ {
+  "r": 789,
+  "impf": "нуждаться",
+  "perf": "",
+  "tr": "ihtiyaç duymak",
+  "ex": "Регион нуждается в помощи.",
+  "exTr": "Bölge yardıma ihtiyaç duyuyor."
+ },
+ {
+  "r": 790,
+  "impf": "страдать",
+  "perf": "пострадать",
+  "tr": "acı çekmek, zarar görmek",
+  "ex": "Многие страдают от бедности.",
+  "exTr": "Birçok kişi yoksulluktan muzdarip."
+ },
+ {
+  "r": 791,
+  "impf": "болеть",
+  "perf": "заболеть",
+  "tr": "hasta olmak, ağrımak",
+  "ex": "Он заболел гриппом.",
+  "exTr": "Grip oldu."
+ },
+ {
+  "r": 792,
+  "impf": "лечить",
+  "perf": "вылечить",
+  "tr": "tedavi etmek",
+  "ex": "Врачи лечат пациентов.",
+  "exTr": "Doktorlar hastaları tedavi ediyor."
+ },
+ {
+  "r": 793,
+  "impf": "выздоравливать",
+  "perf": "выздороветь",
+  "tr": "iyileşmek",
+  "ex": "Больной выздоровел.",
+  "exTr": "Hasta iyileşti."
+ },
+ {
+  "r": 794,
+  "impf": "восстанавливаться",
+  "perf": "восстановиться",
+  "tr": "toparlanmak",
+  "ex": "Экономика восстановилась.",
+  "exTr": "Ekonomi toparlandı."
+ },
+ {
+  "r": 795,
+  "impf": "отдыхать",
+  "perf": "отдохнуть",
+  "tr": "dinlenmek",
+  "ex": "Мы отдыхали на море.",
+  "exTr": "Deniz kenarında dinlendik."
+ },
+ {
+  "r": 796,
+  "impf": "спать",
+  "perf": "поспать",
+  "tr": "uyumak",
+  "ex": "Он спит восемь часов.",
+  "exTr": "Sekiz saat uyuyor."
+ },
+ {
+  "r": 797,
+  "impf": "просыпаться",
+  "perf": "проснуться",
+  "tr": "uyanmak",
+  "ex": "Я проснулся рано.",
+  "exTr": "Erken uyandım."
+ },
+ {
+  "r": 798,
+  "impf": "питаться",
+  "perf": "",
+  "tr": "beslenmek",
+  "ex": "Они питаются овощами.",
+  "exTr": "Sebzelerle besleniyorlar."
+ },
+ {
+  "r": 799,
+  "impf": "кормить",
+  "perf": "накормить",
+  "tr": "beslemek, yedirmek",
+  "ex": "Она кормит детей.",
+  "exTr": "Çocukları besliyor."
+ },
+ {
+  "r": 800,
+  "impf": "одевать",
+  "perf": "одеть",
+  "tr": "giydirmek",
+  "ex": "Мать одела ребёнка.",
+  "exTr": "Anne çocuğu giydirdi."
+ },
+ {
+  "r": 801,
+  "impf": "носить",
+  "perf": "",
+  "tr": "taşımak, giymek",
+  "ex": "Она носит очки.",
+  "exTr": "Gözlük takıyor."
+ },
+ {
+  "r": 802,
+  "impf": "мыть",
+  "perf": "вымыть",
+  "tr": "yıkamak",
+  "ex": "Он вымыл руки.",
+  "exTr": "Ellerini yıkadı."
+ },
+ {
+  "r": 803,
+  "impf": "убирать",
+  "perf": "убрать",
+  "tr": "toplamak, temizlemek",
+  "ex": "Мы убрали комнату.",
+  "exTr": "Odayı topladık."
+ },
+ {
+  "r": 804,
+  "impf": "чистить",
+  "perf": "почистить",
+  "tr": "temizlemek",
+  "ex": "Он чистит зубы.",
+  "exTr": "Dişlerini fırçalıyor."
+ },
+ {
+  "r": 805,
+  "impf": "резать",
+  "perf": "разрезать",
+  "tr": "kesmek",
+  "ex": "Она режет хлеб.",
+  "exTr": "Ekmek kesiyor."
+ },
+ {
+  "r": 806,
+  "impf": "ломать",
+  "perf": "сломать",
+  "tr": "kırmak",
+  "ex": "Он сломал руку.",
+  "exTr": "Kolunu kırdı."
+ },
+ {
+  "r": 807,
+  "impf": "ломаться",
+  "perf": "сломаться",
+  "tr": "bozulmak, kırılmak",
+  "ex": "Машина сломалась.",
+  "exTr": "Araba bozuldu."
+ },
+ {
+  "r": 808,
+  "impf": "рвать",
+  "perf": "порвать",
+  "tr": "yırtmak",
+  "ex": "Она порвала письмо.",
+  "exTr": "Mektubu yırttı."
+ },
+ {
+  "r": 809,
+  "impf": "бросать",
+  "perf": "бросить",
+  "tr": "atmak, bırakmak",
+  "ex": "Он бросил курить.",
+  "exTr": "Sigarayı bıraktı."
+ },
+ {
+  "r": 810,
+  "impf": "ловить",
+  "perf": "поймать",
+  "tr": "yakalamak",
+  "ex": "Полиция поймала вора.",
+  "exTr": "Polis hırsızı yakaladı."
+ },
+ {
+  "r": 811,
+  "impf": "хватать",
+  "perf": "схватить",
+  "tr": "kapmak, yakalamak",
+  "ex": "Он схватил сумку.",
+  "exTr": "Çantayı kaptı."
+ },
+ {
+  "r": 812,
+  "impf": "держать",
+  "perf": "",
+  "tr": "tutmak",
+  "ex": "Она держит ребёнка на руках.",
+  "exTr": "Çocuğu kollarında tutuyor."
+ },
+ {
+  "r": 813,
+  "impf": "нести",
+  "perf": "понести",
+  "tr": "taşımak",
+  "ex": "Она несёт тяжёлую сумку.",
+  "exTr": "Ağır bir çanta taşıyor."
+ },
+ {
+  "r": 814,
+  "impf": "везти",
+  "perf": "повезти",
+  "tr": "taşımak, şanslı olmak",
+  "ex": "Автобус везёт туристов.",
+  "exTr": "Otobüs turistleri taşıyor."
+ },
+ {
+  "r": 815,
+  "impf": "вынимать",
+  "perf": "вынуть",
+  "tr": "çıkarmak",
+  "ex": "Он вынул ключ из кармана.",
+  "exTr": "Anahtarı cebinden çıkardı."
+ },
+ {
+  "r": 816,
+  "impf": "класть",
+  "perf": "положить",
+  "tr": "koymak (yatay)",
+  "ex": "Положи книгу на стол.",
+  "exTr": "Kitabı masaya koy."
+ },
+ {
+  "r": 817,
+  "impf": "ставить",
+  "perf": "поставить",
+  "tr": "koymak (dik), sahnelemek",
+  "ex": "Театр поставил новую пьесу.",
+  "exTr": "Tiyatro yeni bir oyun sahneledi."
+ },
+ {
+  "r": 818,
+  "impf": "вешать",
+  "perf": "повесить",
+  "tr": "asmak",
+  "ex": "Он повесил картину на стену.",
+  "exTr": "Tabloyu duvara astı."
+ },
+ {
+  "r": 819,
+  "impf": "подниматься",
+  "perf": "подняться",
+  "tr": "yükselmek, çıkmak",
+  "ex": "Цены поднялись.",
+  "exTr": "Fiyatlar yükseldi."
+ },
+ {
+  "r": 820,
+  "impf": "поднимать",
+  "perf": "поднять",
+  "tr": "kaldırmak",
+  "ex": "Он поднял вопрос о налогах.",
+  "exTr": "Vergi konusunu gündeme getirdi."
+ },
+ {
+  "r": 821,
+  "impf": "опускать",
+  "perf": "опустить",
+  "tr": "indirmek",
+  "ex": "Он опустил глаза.",
+  "exTr": "Gözlerini indirdi."
+ },
+ {
+  "r": 822,
+  "impf": "спускаться",
+  "perf": "спуститься",
+  "tr": "inmek",
+  "ex": "Они спустились в долину.",
+  "exTr": "Vadiye indiler."
+ },
+ {
+  "r": 823,
+  "impf": "лежать",
+  "perf": "полежать",
+  "tr": "yatmak, bulunmak",
+  "ex": "Книга лежит на столе.",
+  "exTr": "Kitap masanın üstünde duruyor."
+ },
+ {
+  "r": 824,
+  "impf": "сидеть",
+  "perf": "посидеть",
+  "tr": "oturmak",
+  "ex": "Он сидит в кресле.",
+  "exTr": "Koltukta oturuyor."
+ },
+ {
+  "r": 825,
+  "impf": "стоять",
+  "perf": "постоять",
+  "tr": "durmak",
+  "ex": "Здание стоит на холме.",
+  "exTr": "Bina tepede duruyor."
+ },
+ {
+  "r": 826,
+  "impf": "вставать",
+  "perf": "встать",
+  "tr": "kalkmak",
+  "ex": "Я встаю в семь часов.",
+  "exTr": "Saat yedide kalkarım."
+ },
+ {
+  "r": 827,
+  "impf": "садиться",
+  "perf": "сесть",
+  "tr": "oturmak, binmek",
+  "ex": "Мы сели в поезд.",
+  "exTr": "Trene bindik."
+ },
+ {
+  "r": 828,
+  "impf": "падать",
+  "perf": "упасть",
+  "tr": "düşmek",
+  "ex": "Цены на нефть упали.",
+  "exTr": "Petrol fiyatları düştü."
+ },
+ {
+  "r": 829,
+  "impf": "бегать",
+  "perf": "побежать",
+  "tr": "koşmak",
+  "ex": "Дети бегают по двору.",
+  "exTr": "Çocuklar avluda koşuyor."
+ },
+ {
+  "r": 830,
+  "impf": "плавать",
+  "perf": "поплыть",
+  "tr": "yüzmek",
+  "ex": "Мы плаваем в бассейне.",
+  "exTr": "Havuzda yüzüyoruz."
+ },
+ {
+  "r": 831,
+  "impf": "летать",
+  "perf": "полететь",
+  "tr": "uçmak",
+  "ex": "Самолёт летит над морем.",
+  "exTr": "Uçak denizin üzerinde uçuyor."
+ },
+ {
+  "r": 832,
+  "impf": "ехать",
+  "perf": "поехать",
+  "tr": "gitmek (araçla)",
+  "ex": "Мы едем в Стамбул.",
+  "exTr": "İstanbul'a gidiyoruz."
+ },
+ {
+  "r": 833,
+  "impf": "водить",
+  "perf": "",
+  "tr": "sürmek, götürmek",
+  "ex": "Он водит автобус.",
+  "exTr": "Otobüs kullanıyor."
+ },
+ {
+  "r": 834,
+  "impf": "двигаться",
+  "perf": "двинуться",
+  "tr": "hareket etmek",
+  "ex": "Поезд двигается медленно.",
+  "exTr": "Tren yavaş ilerliyor."
+ },
+ {
+  "r": 835,
+  "impf": "перемещать",
+  "perf": "переместить",
+  "tr": "taşımak, yer değiştirmek",
+  "ex": "Он переместил мебель.",
+  "exTr": "Mobilyaları yerinden oynattı."
+ },
+ {
+  "r": 836,
+  "impf": "направлять",
+  "perf": "направить",
+  "tr": "yönlendirmek",
+  "ex": "Правительство направило помощь.",
+  "exTr": "Hükümet yardım gönderdi."
+ },
+ {
+  "r": 837,
+  "impf": "направляться",
+  "perf": "направиться",
+  "tr": "yönelmek, gitmek",
+  "ex": "Делегация направляется в Анкару.",
+  "exTr": "Heyet Ankara'ya gidiyor."
+ },
+ {
+  "r": 838,
+  "impf": "следить",
+  "perf": "проследить",
+  "tr": "izlemek, takip etmek",
+  "ex": "Он следит за новостями.",
+  "exTr": "Haberleri takip ediyor."
+ },
+ {
+  "r": 839,
+  "impf": "смотреть",
+  "perf": "посмотреть",
+  "tr": "bakmak, izlemek",
+  "ex": "Мы смотрим фильм.",
+  "exTr": "Film izliyoruz."
+ },
+ {
+  "r": 840,
+  "impf": "слушать",
+  "perf": "послушать",
+  "tr": "dinlemek",
+  "ex": "Студенты слушают лекцию.",
+  "exTr": "Öğrenciler dersi dinliyor."
+ },
+ {
+  "r": 841,
+  "impf": "слышать",
+  "perf": "услышать",
+  "tr": "duymak",
+  "ex": "Я услышал новость по радио.",
+  "exTr": "Haberi radyoda duydum."
+ },
+ {
+  "r": 842,
+  "impf": "чувствовать",
+  "perf": "почувствовать",
+  "tr": "hissetmek",
+  "ex": "Он чувствует усталость.",
+  "exTr": "Yorgunluk hissediyor."
+ },
+ {
+  "r": 843,
+  "impf": "ощущать",
+  "perf": "ощутить",
+  "tr": "hissetmek, duymak",
+  "ex": "Мы ощущаем влияние кризиса.",
+  "exTr": "Krizin etkisini hissediyoruz."
+ },
+ {
+  "r": 844,
+  "impf": "переживать",
+  "perf": "пережить",
+  "tr": "endişelenmek, yaşamak, atlatmak",
+  "ex": "Страна пережила кризис.",
+  "exTr": "Ülke krizi atlattı."
+ },
+ {
+  "r": 845,
+  "impf": "волноваться",
+  "perf": "заволноваться",
+  "tr": "endişelenmek",
+  "ex": "Мать волнуется за сына.",
+  "exTr": "Anne oğlu için endişeleniyor."
+ },
+ {
+  "r": 846,
+  "impf": "удивлять",
+  "perf": "удивить",
+  "tr": "şaşırtmak",
+  "ex": "Результат удивил экспертов.",
+  "exTr": "Sonuç uzmanları şaşırttı."
+ },
+ {
+  "r": 847,
+  "impf": "удивляться",
+  "perf": "удивиться",
+  "tr": "şaşırmak",
+  "ex": "Я удивился его ответу.",
+  "exTr": "Cevabına şaşırdım."
+ },
+ {
+  "r": 848,
+  "impf": "радоваться",
+  "perf": "обрадоваться",
+  "tr": "sevinmek",
+  "ex": "Дети радуются подаркам.",
+  "exTr": "Çocuklar hediyelere seviniyor."
+ },
+ {
+  "r": 849,
+  "impf": "огорчать",
+  "perf": "огорчить",
+  "tr": "üzmek",
+  "ex": "Новость огорчила всех.",
+  "exTr": "Haber herkesi üzdü."
+ },
+ {
+  "r": 850,
+  "impf": "раздражать",
+  "perf": "раздражить",
+  "tr": "sinirlendirmek",
+  "ex": "Шум раздражает соседей.",
+  "exTr": "Gürültü komşuları rahatsız ediyor."
+ },
+ {
+  "r": 851,
+  "impf": "беспокоить",
+  "perf": "обеспокоить",
+  "tr": "rahatsız etmek, endişelendirmek",
+  "ex": "Ситуация беспокоит экспертов.",
+  "exTr": "Durum uzmanları endişelendiriyor."
+ },
+ {
+  "r": 852,
+  "impf": "интересовать",
+  "perf": "заинтересовать",
+  "tr": "ilgilendirmek",
+  "ex": "Меня интересует история.",
+  "exTr": "Tarih ilgimi çekiyor."
+ },
+ {
+  "r": 853,
+  "impf": "интересоваться",
+  "perf": "заинтересоваться",
+  "tr": "ilgi duymak",
+  "ex": "Он интересуется политикой.",
+  "exTr": "Siyasetle ilgileniyor."
+ },
+ {
+  "r": 854,
+  "impf": "нравиться",
+  "perf": "понравиться",
+  "tr": "hoşlanmak, beğenilmek",
+  "ex": "Мне нравится эта книга.",
+  "exTr": "Bu kitabı beğeniyorum."
+ },
+ {
+  "r": 855,
+  "impf": "ненавидеть",
+  "perf": "возненавидеть",
+  "tr": "nefret etmek",
+  "ex": "Он ненавидит ложь.",
+  "exTr": "Yalandan nefret ediyor."
+ },
+ {
+  "r": 856,
+  "impf": "уважать",
+  "perf": "",
+  "tr": "saygı duymak",
+  "ex": "Мы уважаем традиции.",
+  "exTr": "Geleneklere saygı duyuyoruz."
+ },
+ {
+  "r": 857,
+  "impf": "доверять",
+  "perf": "довериться",
+  "tr": "güvenmek",
+  "ex": "Люди доверяют врачам.",
+  "exTr": "İnsanlar doktorlara güvenir."
+ },
+ {
+  "r": 858,
+  "impf": "верить",
+  "perf": "поверить",
+  "tr": "inanmak",
+  "ex": "Я верю в успех.",
+  "exTr": "Başarıya inanıyorum."
+ },
+ {
+  "r": 859,
+  "impf": "сомневаться",
+  "perf": "усомниться",
+  "tr": "şüphe etmek",
+  "ex": "Эксперты сомневаются в результатах.",
+  "exTr": "Uzmanlar sonuçlardan şüphe ediyor."
+ },
+ {
+  "r": 860,
+  "impf": "подозревать",
+  "perf": "заподозрить",
+  "tr": "şüphelenmek",
+  "ex": "Его подозревают в краже.",
+  "exTr": "Hırsızlıktan şüpheleniliyor."
+ },
+ {
+  "r": 861,
+  "impf": "обманывать",
+  "perf": "обмануть",
+  "tr": "aldatmak",
+  "ex": "Он обманул покупателей.",
+  "exTr": "Alıcıları kandırdı."
+ },
+ {
+  "r": 862,
+  "impf": "лгать",
+  "perf": "солгать",
+  "tr": "yalan söylemek",
+  "ex": "Не лги мне.",
+  "exTr": "Bana yalan söyleme."
+ },
+ {
+  "r": 863,
+  "impf": "притворяться",
+  "perf": "притвориться",
+  "tr": "rol yapmak, numara yapmak",
+  "ex": "Он притворился больным.",
+  "exTr": "Hasta numarası yaptı."
+ },
+ {
+  "r": 864,
+  "impf": "скрывать",
+  "perf": "скрыть",
+  "tr": "gizlemek",
+  "ex": "Власти скрыли правду.",
+  "exTr": "Yetkililer gerçeği gizledi."
+ },
+ {
+  "r": 865,
+  "impf": "прятать",
+  "perf": "спрятать",
+  "tr": "saklamak",
+  "ex": "Он спрятал деньги.",
+  "exTr": "Parayı sakladı."
+ },
+ {
+  "r": 866,
+  "impf": "раскрывать",
+  "perf": "раскрыть",
+  "tr": "ortaya çıkarmak, açığa vurmak",
+  "ex": "Полиция раскрыла преступление.",
+  "exTr": "Polis suçu aydınlattı."
+ },
+ {
+  "r": 867,
+  "impf": "показывать",
+  "perf": "показать",
+  "tr": "göstermek",
+  "ex": "Опрос показал рост поддержки.",
+  "exTr": "Anket desteğin arttığını gösterdi."
+ },
+ {
+  "r": 868,
+  "impf": "демонстрировать",
+  "perf": "продемонстрировать",
+  "tr": "sergilemek, göstermek",
+  "ex": "Компания демонстрирует рост.",
+  "exTr": "Şirket büyüme gösteriyor."
+ },
+ {
+  "r": 869,
+  "impf": "свидетельствовать",
+  "perf": "засвидетельствовать",
+  "tr": "kanıtlamak, tanıklık etmek",
+  "ex": "Факты свидетельствуют о кризисе.",
+  "exTr": "Gerçekler krize işaret ediyor."
+ },
+ {
+  "r": 870,
+  "impf": "означать",
+  "perf": "",
+  "tr": "anlamına gelmek",
+  "ex": "Что означает это слово?",
+  "exTr": "Bu kelime ne anlama geliyor?"
+ },
+ {
+  "r": 871,
+  "impf": "обозначать",
+  "perf": "обозначить",
+  "tr": "belirtmek, göstermek",
+  "ex": "Красный цвет обозначает опасность.",
+  "exTr": "Kırmızı renk tehlikeyi gösterir."
+ },
+ {
+  "r": 872,
+  "impf": "называть",
+  "perf": "назвать",
+  "tr": "adlandırmak",
+  "ex": "Город назвали в честь поэта.",
+  "exTr": "Şehre şairin adı verildi."
+ },
+ {
+  "r": 873,
+  "impf": "называться",
+  "perf": "",
+  "tr": "adlandırılmak",
+  "ex": "Как называется эта улица?",
+  "exTr": "Bu caddenin adı ne?"
+ },
+ {
+  "r": 874,
+  "impf": "считаться",
+  "perf": "",
+  "tr": "sayılmak",
+  "ex": "Он считается лучшим учёным.",
+  "exTr": "En iyi bilim insanı sayılıyor."
+ },
+ {
+  "r": 875,
+  "impf": "слыть",
+  "perf": "",
+  "tr": "ün salmak",
+  "ex": "Он слывёт знатоком.",
+  "exTr": "Uzman olarak tanınıyor."
+ },
+ {
+  "r": 876,
+  "impf": "выглядеть",
+  "perf": "",
+  "tr": "görünmek",
+  "ex": "Ситуация выглядит сложной.",
+  "exTr": "Durum karmaşık görünüyor."
+ },
+ {
+  "r": 877,
+  "impf": "казаться",
+  "perf": "показаться",
+  "tr": "görünmek, gibi gelmek",
+  "ex": "Мне кажется, он прав.",
+  "exTr": "Bana öyle geliyor ki haklı."
+ },
+ {
+  "r": 878,
+  "impf": "оказываться",
+  "perf": "оказаться",
+  "tr": "çıkmak, ortaya çıkmak",
+  "ex": "Прогноз оказался верным.",
+  "exTr": "Tahmin doğru çıktı."
+ },
+ {
+  "r": 879,
+  "impf": "становиться",
+  "perf": "стать",
+  "tr": "olmak",
+  "ex": "Он стал врачом.",
+  "exTr": "Doktor oldu."
+ },
+ {
+  "r": 880,
+  "impf": "оставаться",
+  "perf": "остаться",
+  "tr": "kalmak",
+  "ex": "Вопрос остаётся открытым.",
+  "exTr": "Soru açık kalıyor."
+ },
+ {
+  "r": 881,
+  "impf": "оставлять",
+  "perf": "оставить",
+  "tr": "bırakmak",
+  "ex": "Он оставил записку.",
+  "exTr": "Bir not bıraktı."
+ },
+ {
+  "r": 882,
+  "impf": "отставать",
+  "perf": "отстать",
+  "tr": "geri kalmak",
+  "ex": "Страна отстаёт в развитии.",
+  "exTr": "Ülke gelişmede geri kalıyor."
+ },
+ {
+  "r": 883,
+  "impf": "опережать",
+  "perf": "опередить",
+  "tr": "geçmek, önüne geçmek",
+  "ex": "Китай опередил США по экспорту.",
+  "exTr": "Çin ihracatta ABD'yi geçti."
+ },
+ {
+  "r": 884,
+  "impf": "превышать",
+  "perf": "превысить",
+  "tr": "aşmak",
+  "ex": "Расходы превысили доходы.",
+  "exTr": "Giderler gelirleri aştı."
+ },
+ {
+  "r": 885,
+  "impf": "превосходить",
+  "perf": "превзойти",
+  "tr": "üstün olmak, aşmak",
+  "ex": "Результат превзошёл ожидания.",
+  "exTr": "Sonuç beklentileri aştı."
+ },
+ {
+  "r": 886,
+  "impf": "уступать",
+  "perf": "уступить",
+  "tr": "geride kalmak, taviz vermek",
+  "ex": "Он не уступил в споре.",
+  "exTr": "Tartışmada taviz vermedi."
+ },
+ {
+  "r": 887,
+  "impf": "побеждать",
+  "perf": "победить",
+  "tr": "yenmek",
+  "ex": "Команда победила в финале.",
+  "exTr": "Takım finalde kazandı."
+ },
+ {
+  "r": 888,
+  "impf": "проигрывать",
+  "perf": "проиграть",
+  "tr": "kaybetmek (yarış)",
+  "ex": "Они проиграли матч.",
+  "exTr": "Maçı kaybettiler."
+ },
+ {
+  "r": 889,
+  "impf": "выигрывать",
+  "perf": "выиграть",
+  "tr": "kazanmak",
+  "ex": "Он выиграл конкурс.",
+  "exTr": "Yarışmayı kazandı."
+ },
+ {
+  "r": 890,
+  "impf": "соревноваться",
+  "perf": "",
+  "tr": "yarışmak",
+  "ex": "Компании соревнуются за клиентов.",
+  "exTr": "Şirketler müşteri için yarışıyor."
+ },
+ {
+  "r": 891,
+  "impf": "конкурировать",
+  "perf": "",
+  "tr": "rekabet etmek",
+  "ex": "Фирмы конкурируют на рынке.",
+  "exTr": "Firmalar piyasada rekabet ediyor."
+ },
+ {
+  "r": 892,
+  "impf": "бороться",
+  "perf": "",
+  "tr": "mücadele etmek",
+  "ex": "Страна борется с инфляцией.",
+  "exTr": "Ülke enflasyonla mücadele ediyor."
+ },
+ {
+  "r": 893,
+  "impf": "воевать",
+  "perf": "",
+  "tr": "savaşmak",
+  "ex": "Страны воевали десять лет.",
+  "exTr": "Ülkeler on yıl savaştı."
+ },
+ {
+  "r": 894,
+  "impf": "нападать",
+  "perf": "напасть",
+  "tr": "saldırmak",
+  "ex": "Армия напала на город.",
+  "exTr": "Ordu şehre saldırdı."
+ },
+ {
+  "r": 895,
+  "impf": "атаковать",
+  "perf": "атаковать",
+  "tr": "saldırmak, hücum etmek",
+  "ex": "Хакеры атаковали сайт.",
+  "exTr": "Hackerlar siteye saldırdı."
+ },
+ {
+  "r": 896,
+  "impf": "обстреливать",
+  "perf": "обстрелять",
+  "tr": "ateş altına almak",
+  "ex": "Артиллерия обстреляла город.",
+  "exTr": "Topçu şehri ateş altına aldı."
+ },
+ {
+  "r": 897,
+  "impf": "захватывать",
+  "perf": "захватить",
+  "tr": "ele geçirmek",
+  "ex": "Армия захватила город.",
+  "exTr": "Ordu şehri ele geçirdi."
+ },
+ {
+  "r": 898,
+  "impf": "оккупировать",
+  "perf": "оккупировать",
+  "tr": "işgal etmek",
+  "ex": "Войска оккупировали остров.",
+  "exTr": "Birlikler adayı işgal etti."
+ },
+ {
+  "r": 899,
+  "impf": "покорять",
+  "perf": "покорить",
+  "tr": "fethetmek",
+  "ex": "Он покорил вершину.",
+  "exTr": "Zirveyi fethetti."
+ },
+ {
+  "r": 900,
+  "impf": "сдаваться",
+  "perf": "сдаться",
+  "tr": "teslim olmak",
+  "ex": "Город сдался врагу.",
+  "exTr": "Şehir düşmana teslim oldu."
+ },
+ {
+  "r": 901,
+  "impf": "отступать",
+  "perf": "отступить",
+  "tr": "geri çekilmek",
+  "ex": "Армия отступила.",
+  "exTr": "Ordu geri çekildi."
+ },
+ {
+  "r": 902,
+  "impf": "взрываться",
+  "perf": "взорваться",
+  "tr": "patlamak",
+  "ex": "Бомба взорвалась.",
+  "exTr": "Bomba patladı."
+ },
+ {
+  "r": 903,
+  "impf": "стрелять",
+  "perf": "выстрелить",
+  "tr": "ateş etmek",
+  "ex": "Солдат выстрелил.",
+  "exTr": "Asker ateş etti."
+ },
+ {
+  "r": 904,
+  "impf": "вооружать",
+  "perf": "вооружить",
+  "tr": "silahlandırmak",
+  "ex": "Страна вооружает армию.",
+  "exTr": "Ülke ordusunu silahlandırıyor."
+ },
+ {
+  "r": 905,
+  "impf": "протестовать",
+  "perf": "",
+  "tr": "protesto etmek",
+  "ex": "Люди протестуют против реформы.",
+  "exTr": "İnsanlar reformu protesto ediyor."
+ },
+ {
+  "r": 906,
+  "impf": "призывать",
+  "perf": "призвать",
+  "tr": "çağırmak, çağrıda bulunmak",
+  "ex": "ООН призвала к миру.",
+  "exTr": "BM barış çağrısı yaptı."
+ },
+ {
+  "r": 907,
+  "impf": "убеждать",
+  "perf": "убедить",
+  "tr": "ikna etmek",
+  "ex": "Он убедил комиссию.",
+  "exTr": "Komisyonu ikna etti."
+ },
+ {
+  "r": 908,
+  "impf": "убеждаться",
+  "perf": "убедиться",
+  "tr": "emin olmak",
+  "ex": "Я убедился в его честности.",
+  "exTr": "Dürüstlüğünden emin oldum."
+ },
+ {
+  "r": 909,
+  "impf": "уверять",
+  "perf": "уверить",
+  "tr": "temin etmek, güvence vermek",
+  "ex": "Министр уверяет, что всё в порядке.",
+  "exTr": "Bakan her şeyin yolunda olduğunu temin ediyor."
+ },
+ {
+  "r": 910,
+  "impf": "советовать",
+  "perf": "посоветовать",
+  "tr": "tavsiye etmek",
+  "ex": "Врач посоветовал отдых.",
+  "exTr": "Doktor dinlenmeyi önerdi."
+ },
+ {
+  "r": 911,
+  "impf": "рекомендовать",
+  "perf": "порекомендовать",
+  "tr": "önermek",
+  "ex": "Эксперты рекомендуют пить воду.",
+  "exTr": "Uzmanlar su içmeyi öneriyor."
+ },
+ {
+  "r": 912,
+  "impf": "предупреждать",
+  "perf": "предупредить",
+  "tr": "uyarmak, önlemek",
+  "ex": "Синоптики предупредили о буре.",
+  "exTr": "Meteorologlar fırtınaya karşı uyardı."
+ },
+ {
+  "r": 913,
+  "impf": "предотвращать",
+  "perf": "предотвратить",
+  "tr": "önlemek",
+  "ex": "Вакцина предотвращает болезнь.",
+  "exTr": "Aşı hastalığı önler."
+ },
+ {
+  "r": 914,
+  "impf": "избегать",
+  "perf": "избежать",
+  "tr": "kaçınmak",
+  "ex": "Нужно избегать конфликтов.",
+  "exTr": "Çatışmalardan kaçınmak gerekir."
+ },
+ {
+  "r": 915,
+  "impf": "устранять",
+  "perf": "устранить",
+  "tr": "gidermek, ortadan kaldırmak",
+  "ex": "Мастер устранил неисправность.",
+  "exTr": "Usta arızayı giderdi."
+ },
+ {
+  "r": 916,
+  "impf": "исправлять",
+  "perf": "исправить",
+  "tr": "düzeltmek",
+  "ex": "Он исправил ошибки.",
+  "exTr": "Hataları düzeltti."
+ },
+ {
+  "r": 917,
+  "impf": "решаться",
+  "perf": "решиться",
+  "tr": "cesaret etmek",
+  "ex": "Он решился на переезд.",
+  "exTr": "Taşınmaya cesaret etti."
+ },
+ {
+  "r": 918,
+  "impf": "выдавать",
+  "perf": "выдать",
+  "tr": "vermek, teslim etmek",
+  "ex": "Банк выдал кредит.",
+  "exTr": "Banka kredi verdi."
+ },
+ {
+  "r": 919,
+  "impf": "предоставлять",
+  "perf": "предоставить",
+  "tr": "sağlamak, sunmak",
+  "ex": "Фонд предоставляет гранты.",
+  "exTr": "Vakıf hibe sağlıyor."
+ },
+ {
+  "r": 920,
+  "impf": "выделять",
+  "perf": "выделить",
+  "tr": "ayırmak, tahsis etmek",
+  "ex": "Государство выделило средства.",
+  "exTr": "Devlet kaynak ayırdı."
+ },
+ {
+  "r": 921,
+  "impf": "распределять",
+  "perf": "распределить",
+  "tr": "dağıtmak, paylaştırmak",
+  "ex": "Помощь распределили поровну.",
+  "exTr": "Yardım eşit dağıtıldı."
+ },
+ {
+  "r": 922,
+  "impf": "делить",
+  "perf": "поделить",
+  "tr": "bölmek, paylaşmak",
+  "ex": "Они поделили прибыль.",
+  "exTr": "Karı paylaştılar."
+ },
+ {
+  "r": 923,
+  "impf": "делиться",
+  "perf": "поделиться",
+  "tr": "paylaşmak",
+  "ex": "Он поделился опытом.",
+  "exTr": "Deneyimini paylaştı."
+ },
+ {
+  "r": 924,
+  "impf": "давать",
+  "perf": "дать",
+  "tr": "vermek",
+  "ex": "Закон даёт право на отпуск.",
+  "exTr": "Yasa izin hakkı verir."
+ },
+ {
+  "r": 925,
+  "impf": "брать",
+  "perf": "взять",
+  "tr": "almak",
+  "ex": "Она взяла кредит.",
+  "exTr": "Kredi çekti."
+ },
+ {
+  "r": 926,
+  "impf": "одалживать",
+  "perf": "одолжить",
+  "tr": "ödünç vermek",
+  "ex": "Он одолжил мне деньги.",
+  "exTr": "Bana borç verdi."
+ },
+ {
+  "r": 927,
+  "impf": "арендовать",
+  "perf": "арендовать",
+  "tr": "kiralamak",
+  "ex": "Мы арендовали офис.",
+  "exTr": "Ofis kiraladık."
+ },
+ {
+  "r": 928,
+  "impf": "снимать",
+  "perf": "снять",
+  "tr": "kiralamak, çekmek, indirmek",
+  "ex": "Студенты снимают квартиру.",
+  "exTr": "Öğrenciler ev kiralıyor."
+ },
+ {
+  "r": 929,
+  "impf": "владеть",
+  "perf": "",
+  "tr": "sahip olmak",
+  "ex": "Он владеет заводом.",
+  "exTr": "Fabrikanın sahibi."
+ },
+ {
+  "r": 930,
+  "impf": "обладать",
+  "perf": "",
+  "tr": "sahip olmak",
+  "ex": "Страна обладает богатыми ресурсами.",
+  "exTr": "Ülke zengin kaynaklara sahip."
+ },
+ {
+  "r": 931,
+  "impf": "принадлежать",
+  "perf": "",
+  "tr": "ait olmak",
+  "ex": "Дом принадлежит государству.",
+  "exTr": "Ev devlete ait."
+ },
+ {
+  "r": 932,
+  "impf": "наследовать",
+  "perf": "унаследовать",
+  "tr": "miras almak",
+  "ex": "Он унаследовал состояние.",
+  "exTr": "Servet miras aldı."
+ },
+ {
+  "r": 933,
+  "impf": "сохраняться",
+  "perf": "сохраниться",
+  "tr": "korunmak, kalmak",
+  "ex": "Традиция сохранилась.",
+  "exTr": "Gelenek korunmuştur."
+ },
+ {
+  "r": 934,
+  "impf": "существовать",
+  "perf": "",
+  "tr": "var olmak",
+  "ex": "Эта проблема существует давно.",
+  "exTr": "Bu sorun uzun zamandır var."
+ },
+ {
+  "r": 935,
+  "impf": "отсутствовать",
+  "perf": "",
+  "tr": "bulunmamak, yok olmak",
+  "ex": "Данные отсутствуют.",
+  "exTr": "Veriler mevcut değil."
+ },
+ {
+  "r": 936,
+  "impf": "иметь",
+  "perf": "",
+  "tr": "sahip olmak",
+  "ex": "Закон имеет силу с января.",
+  "exTr": "Yasa ocaktan itibaren yürürlükte."
+ },
+ {
+  "r": 937,
+  "impf": "содержаться",
+  "perf": "",
+  "tr": "içerilmek",
+  "ex": "В воде содержится соль.",
+  "exTr": "Suda tuz bulunur."
+ },
+ {
+  "r": 938,
+  "impf": "заключаться",
+  "perf": "",
+  "tr": "(…de) yatmak, içermek",
+  "ex": "Проблема заключается в деньгах.",
+  "exTr": "Sorun paradadır."
+ },
+ {
+  "r": 939,
+  "impf": "складываться",
+  "perf": "сложиться",
+  "tr": "oluşmak, şekillenmek",
+  "ex": "Ситуация сложилась непростая.",
+  "exTr": "Zor bir durum oluştu."
+ },
+ {
+  "r": 940,
+  "impf": "развиваться",
+  "perf": "развиться",
+  "tr": "gelişmek",
+  "ex": "Страна быстро развивается.",
+  "exTr": "Ülke hızla gelişiyor."
+ },
+ {
+  "r": 941,
+  "impf": "эволюционировать",
+  "perf": "",
+  "tr": "evrimleşmek",
+  "ex": "Язык постоянно эволюционирует.",
+  "exTr": "Dil sürekli evrimleşir."
+ },
+ {
+  "r": 942,
+  "impf": "формироваться",
+  "perf": "сформироваться",
+  "tr": "oluşmak",
+  "ex": "Мнение формируется годами.",
+  "exTr": "Görüş yıllar içinde oluşur."
+ },
+ {
+  "r": 943,
+  "impf": "зарождаться",
+  "perf": "зародиться",
+  "tr": "doğmak, ortaya çıkmak",
+  "ex": "Движение зародилось в XIX веке.",
+  "exTr": "Hareket 19. yüzyılda doğdu."
+ },
+ {
+  "r": 944,
+  "impf": "исчезать",
+  "perf": "исчезнуть",
+  "tr": "kaybolmak",
+  "ex": "Многие виды исчезли.",
+  "exTr": "Birçok tür yok oldu."
+ },
+ {
+  "r": 945,
+  "impf": "пропадать",
+  "perf": "пропасть",
+  "tr": "kaybolmak",
+  "ex": "Документы пропали.",
+  "exTr": "Belgeler kayboldu."
+ },
+ {
+  "r": 946,
+  "impf": "вымирать",
+  "perf": "вымереть",
+  "tr": "neslinin tükenmesi",
+  "ex": "Динозавры вымерли.",
+  "exTr": "Dinozorların nesli tükendi."
+ },
+ {
+  "r": 947,
+  "impf": "выживать",
+  "perf": "выжить",
+  "tr": "hayatta kalmak",
+  "ex": "Немногие выжили.",
+  "exTr": "Çok azı hayatta kaldı."
+ },
+ {
+  "r": 948,
+  "impf": "размножаться",
+  "perf": "размножиться",
+  "tr": "çoğalmak",
+  "ex": "Бактерии быстро размножаются.",
+  "exTr": "Bakteriler hızla çoğalır."
+ },
+ {
+  "r": 949,
+  "impf": "вырастать",
+  "perf": "",
+  "tr": "büyümek, yetişmek",
+  "ex": "Он вырос в деревне.",
+  "exTr": "Köyde büyüdü."
+ },
+ {
+  "r": 950,
+  "impf": "выращивать",
+  "perf": "вырастить",
+  "tr": "yetiştirmek",
+  "ex": "Фермеры выращивают пшеницу.",
+  "exTr": "Çiftçiler buğday yetiştiriyor."
+ },
+ {
+  "r": 951,
+  "impf": "сажать",
+  "perf": "посадить",
+  "tr": "dikmek",
+  "ex": "Мы посадили деревья.",
+  "exTr": "Ağaç diktik."
+ },
+ {
+  "r": 952,
+  "impf": "добывать",
+  "perf": "добыть",
+  "tr": "çıkarmak (maden)",
+  "ex": "Здесь добывают уголь.",
+  "exTr": "Burada kömür çıkarılıyor."
+ },
+ {
+  "r": 953,
+  "impf": "извлекать",
+  "perf": "извлечь",
+  "tr": "çıkarmak, elde etmek",
+  "ex": "Из руды извлекают металл.",
+  "exTr": "Cevherden metal çıkarılır."
+ },
+ {
+  "r": 954,
+  "impf": "перерабатывать",
+  "perf": "переработать",
+  "tr": "işlemek, geri dönüştürmek",
+  "ex": "Завод перерабатывает отходы.",
+  "exTr": "Fabrika atıkları işliyor."
+ },
+ {
+  "r": 955,
+  "impf": "загрязнять",
+  "perf": "загрязнить",
+  "tr": "kirletmek",
+  "ex": "Заводы загрязняют воздух.",
+  "exTr": "Fabrikalar havayı kirletiyor."
+ },
+ {
+  "r": 956,
+  "impf": "сжигать",
+  "perf": "сжечь",
+  "tr": "yakmak",
+  "ex": "Электростанции сжигают уголь.",
+  "exTr": "Santraller kömür yakar."
+ },
+ {
+  "r": 957,
+  "impf": "выбрасывать",
+  "perf": "выбросить",
+  "tr": "atmak, salmak",
+  "ex": "Заводы выбрасывают дым.",
+  "exTr": "Fabrikalar duman salıyor."
+ },
+ {
+  "r": 958,
+  "impf": "нагревать",
+  "perf": "нагреть",
+  "tr": "ısıtmak",
+  "ex": "Солнце нагревает землю.",
+  "exTr": "Güneş yeri ısıtır."
+ },
+ {
+  "r": 959,
+  "impf": "охлаждать",
+  "perf": "охладить",
+  "tr": "soğutmak",
+  "ex": "Система охлаждает воздух.",
+  "exTr": "Sistem havayı soğutur."
+ },
+ {
+  "r": 960,
+  "impf": "замерзать",
+  "perf": "замёрзнуть",
+  "tr": "donmak",
+  "ex": "Река замёрзла.",
+  "exTr": "Nehir dondu."
+ },
+ {
+  "r": 961,
+  "impf": "таять",
+  "perf": "растаять",
+  "tr": "erimek",
+  "ex": "Ледники тают.",
+  "exTr": "Buzullar eriyor."
+ },
+ {
+  "r": 962,
+  "impf": "кипеть",
+  "perf": "вскипеть",
+  "tr": "kaynamak",
+  "ex": "Вода кипит при ста градусах.",
+  "exTr": "Su yüz derecede kaynar."
+ },
+ {
+  "r": 963,
+  "impf": "гореть",
+  "perf": "сгореть",
+  "tr": "yanmak",
+  "ex": "Здание сгорело.",
+  "exTr": "Bina yandı."
+ },
+ {
+  "r": 964,
+  "impf": "светить",
+  "perf": "посветить",
+  "tr": "ışık vermek, aydınlatmak",
+  "ex": "Солнце светит ярко.",
+  "exTr": "Güneş parlak ışık veriyor."
+ },
+ {
+  "r": 965,
+  "impf": "сиять",
+  "perf": "",
+  "tr": "parlamak",
+  "ex": "Звёзды сияют в небе.",
+  "exTr": "Yıldızlar gökte parlıyor."
+ },
+ {
+  "r": 966,
+  "impf": "звучать",
+  "perf": "прозвучать",
+  "tr": "duyulmak, çalmak",
+  "ex": "В зале звучала музыка.",
+  "exTr": "Salonda müzik çalıyordu."
+ },
+ {
+  "r": 967,
+  "impf": "издавать",
+  "perf": "издать",
+  "tr": "yayımlamak, çıkarmak",
+  "ex": "Издательство издало книгу.",
+  "exTr": "Yayınevi kitabı yayımladı."
+ },
+ {
+  "r": 968,
+  "impf": "публиковать",
+  "perf": "опубликовать",
+  "tr": "yayımlamak",
+  "ex": "Газета опубликовала статью.",
+  "exTr": "Gazete makaleyi yayımladı."
+ },
+ {
+  "r": 969,
+  "impf": "печатать",
+  "perf": "напечатать",
+  "tr": "basmak, yazmak",
+  "ex": "Журнал напечатал интервью.",
+  "exTr": "Dergi röportajı bastı."
+ },
+ {
+  "r": 970,
+  "impf": "редактировать",
+  "perf": "отредактировать",
+  "tr": "düzenlemek",
+  "ex": "Он редактирует статьи.",
+  "exTr": "Makaleleri düzenliyor."
+ },
+ {
+  "r": 971,
+  "impf": "переводить",
+  "perf": "перевести",
+  "tr": "çevirmek, aktarmak",
+  "ex": "Она переводит с русского.",
+  "exTr": "Rusçadan çeviri yapıyor."
+ },
+ {
+  "r": 972,
+  "impf": "выражать",
+  "perf": "выразить",
+  "tr": "ifade etmek",
+  "ex": "Он выразил благодарность.",
+  "exTr": "Teşekkürünü ifade etti."
+ },
+ {
+  "r": 973,
+  "impf": "высказывать",
+  "perf": "высказать",
+  "tr": "dile getirmek",
+  "ex": "Эксперт высказал мнение.",
+  "exTr": "Uzman görüşünü dile getirdi."
+ },
+ {
+  "r": 974,
+  "impf": "излагать",
+  "perf": "изложить",
+  "tr": "ifade etmek, sunmak",
+  "ex": "Автор излагает свою позицию.",
+  "exTr": "Yazar görüşünü ortaya koyuyor."
+ },
+ {
+  "r": 975,
+  "impf": "формулировать",
+  "perf": "сформулировать",
+  "tr": "formüle etmek",
+  "ex": "Учёный сформулировал гипотезу.",
+  "exTr": "Bilim insanı hipotezi formüle etti."
+ },
+ {
+  "r": 976,
+  "impf": "резюмировать",
+  "perf": "",
+  "tr": "özetlemek",
+  "ex": "Резюмируя, можно сказать...",
+  "exTr": "Özetle şunu söyleyebiliriz..."
+ },
+ {
+  "r": 977,
+  "impf": "подводить",
+  "perf": "подвести",
+  "tr": "yaklaştırmak, özetlemek",
+  "ex": "Мы подвели итоги года.",
+  "exTr": "Yılın sonuçlarını değerlendirdik."
+ },
+ {
+  "r": 978,
+  "impf": "выводить",
+  "perf": "вывести",
+  "tr": "çıkarmak, sonuç çıkarmak",
+  "ex": "Из этого выводят закон.",
+  "exTr": "Buradan bir yasa çıkarılıyor."
+ },
+ {
+  "r": 979,
+  "impf": "отражать",
+  "perf": "отразить",
+  "tr": "yansıtmak",
+  "ex": "Статья отражает реальность.",
+  "exTr": "Makale gerçeği yansıtıyor."
+ },
+ {
+  "r": 980,
+  "impf": "отражаться",
+  "perf": "отразиться",
+  "tr": "yansımak",
+  "ex": "Кризис отразился на ценах.",
+  "exTr": "Kriz fiyatlara yansıdı."
+ },
+ {
+  "r": 981,
+  "impf": "характеризовать",
+  "perf": "охарактеризовать",
+  "tr": "nitelemek, tanımlamak",
+  "ex": "Что характеризует этот период?",
+  "exTr": "Bu dönemi ne karakterize eder?"
+ },
+ {
+  "r": 982,
+  "impf": "характеризоваться",
+  "perf": "",
+  "tr": "… ile karakterize olmak",
+  "ex": "Регион характеризуется жарким климатом.",
+  "exTr": "Bölge sıcak iklimiyle karakterizedir."
+ },
+ {
+  "r": 983,
+  "impf": "отличать",
+  "perf": "отличить",
+  "tr": "ayırt etmek",
+  "ex": "Нужно отличать факт от мнения.",
+  "exTr": "Gerçeği görüşten ayırt etmek gerekir."
+ },
+ {
+  "r": 984,
+  "impf": "выделяться",
+  "perf": "выделиться",
+  "tr": "öne çıkmak",
+  "ex": "Он выделяется среди других.",
+  "exTr": "Diğerleri arasında öne çıkıyor."
+ },
+ {
+  "r": 985,
+  "impf": "привлекать",
+  "perf": "привлечь",
+  "tr": "çekmek, cezbetmek",
+  "ex": "Город привлекает туристов.",
+  "exTr": "Şehir turistleri çekiyor."
+ },
+ {
+  "r": 986,
+  "impf": "побуждать",
+  "perf": "побудить",
+  "tr": "teşvik etmek",
+  "ex": "Нужда побудила его работать.",
+  "exTr": "İhtiyaç onu çalışmaya itti."
+ },
+ {
+  "r": 987,
+  "impf": "стимулировать",
+  "perf": "",
+  "tr": "teşvik etmek",
+  "ex": "Государство стимулирует спрос.",
+  "exTr": "Devlet talebi teşvik ediyor."
+ },
+ {
+  "r": 988,
+  "impf": "мотивировать",
+  "perf": "мотивировать",
+  "tr": "motive etmek",
+  "ex": "Награды мотивируют сотрудников.",
+  "exTr": "Ödüller çalışanları motive eder."
+ },
+ {
+  "r": 989,
+  "impf": "поощрять",
+  "perf": "поощрить",
+  "tr": "ödüllendirmek, teşvik etmek",
+  "ex": "Школа поощряет инициативу.",
+  "exTr": "Okul inisiyatifi teşvik ediyor."
+ },
+ {
+  "r": 990,
+  "impf": "награждать",
+  "perf": "наградить",
+  "tr": "ödüllendirmek",
+  "ex": "Учёного наградили премией.",
+  "exTr": "Bilim insanı ödülle onurlandırıldı."
+ },
+ {
+  "r": 991,
+  "impf": "вручать",
+  "perf": "вручить",
+  "tr": "takdim etmek, teslim etmek",
+  "ex": "Ему вручили диплом.",
+  "exTr": "Ona diploma verildi."
+ },
+ {
+  "r": 992,
+  "impf": "присуждать",
+  "perf": "присудить",
+  "tr": "vermek (ödül)",
+  "ex": "Нобелевскую премию присудили врачу.",
+  "exTr": "Nobel ödülü bir doktora verildi."
+ },
+ {
+  "r": 993,
+  "impf": "выдвигать",
+  "perf": "выдвинуть",
+  "tr": "ileri sürmek, aday göstermek",
+  "ex": "Партия выдвинула кандидата.",
+  "exTr": "Parti bir aday gösterdi."
+ },
+ {
+  "r": 994,
+  "impf": "предъявлять",
+  "perf": "предъявить",
+  "tr": "ibraz etmek, ileri sürmek",
+  "ex": "Предъявите документы.",
+  "exTr": "Belgelerinizi gösterin."
+ },
+ {
+  "r": 995,
+  "impf": "подавать",
+  "perf": "подать",
+  "tr": "sunmak, vermek",
+  "ex": "Он подал заявление.",
+  "exTr": "Dilekçe verdi."
+ },
+ {
+  "r": 996,
+  "impf": "обращаться",
+  "perf": "обратиться",
+  "tr": "başvurmak, hitap etmek",
+  "ex": "Обратитесь к врачу.",
+  "exTr": "Bir doktora başvurun."
+ },
+ {
+  "r": 997,
+  "impf": "запрашивать",
+  "perf": "запросить",
+  "tr": "talep etmek, istemek",
+  "ex": "Суд запросил документы.",
+  "exTr": "Mahkeme belge talep etti."
+ },
+ {
+  "r": 998,
+  "impf": "отвечать",
+  "perf": "ответить",
+  "tr": "cevap vermek, sorumlu olmak",
+  "ex": "Министр отвечает за образование.",
+  "exTr": "Bakan eğitimden sorumludur."
+ },
+ {
+  "r": 999,
+  "impf": "реагировать",
+  "perf": "отреагировать",
+  "tr": "tepki vermek",
+  "ex": "Рынок отреагировал на новость.",
+  "exTr": "Piyasa habere tepki verdi."
+ },
+ {
+  "r": 1000,
+  "impf": "откликаться",
+  "perf": "откликнуться",
+  "tr": "karşılık vermek",
+  "ex": "Многие откликнулись на призыв.",
+  "exTr": "Birçok kişi çağrıya karşılık verdi."
+ }
+]

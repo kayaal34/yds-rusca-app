@@ -1,0 +1,802 @@
+[
+ {
+  "impf": "предусматривать",
+  "perf": "предусмотреть",
+  "tr": "öngörmek",
+  "gov": "что?",
+  "ex": "Закон предусматривает уголовную ответственность за коррупцию.",
+  "exTr": "Kanun, yolsuzluk için cezai sorumluluk öngörür."
+ },
+ {
+  "impf": "учреждать",
+  "perf": "учредить",
+  "tr": "kurmak, tesis etmek",
+  "gov": "что?",
+  "ex": "В 1945 году была учреждена Организация Объединённых Наций.",
+  "exTr": "1945 yılında Birleşmiş Milletler Örgütü kuruldu."
+ },
+ {
+  "impf": "облагать",
+  "perf": "обложить",
+  "tr": "(vergi) koymak, vergilendirmek",
+  "gov": "что? чем?",
+  "ex": "Импортные товары облагаются высокой таможенной пошлиной.",
+  "exTr": "İthal mallara yüksek gümrük vergisi uygulanır."
+ },
+ {
+  "impf": "присоединять",
+  "perf": "присоединить",
+  "tr": "katmak, ilhak etmek",
+  "gov": "что? к чему?",
+  "ex": "В XVIII веке эти земли были присоединены к империи.",
+  "exTr": "18. yüzyılda bu topraklar imparatorluğa katıldı."
+ },
+ {
+  "impf": "возлагать",
+  "perf": "возложить",
+  "tr": "yüklemek (görev, sorumluluk)",
+  "gov": "что? на кого?",
+  "ex": "Ответственность за кризис оппозиция возложила на правительство.",
+  "exTr": "Muhalefet krizin sorumluluğunu hükümete yükledi."
+ },
+ {
+  "impf": "налагать",
+  "perf": "наложить",
+  "tr": "(yaptırım, ceza) uygulamak",
+  "gov": "что? на кого? на что?",
+  "ex": "Евросоюз наложил санкции на ряд крупных компаний.",
+  "exTr": "Avrupa Birliği bir dizi büyük şirkete yaptırım uyguladı."
+ },
+ {
+  "impf": "упразднять",
+  "perf": "упразднить",
+  "tr": "kaldırmak, lağvetmek",
+  "gov": "что?",
+  "ex": "В ходе административной реформы министерство было упразднено.",
+  "exTr": "İdari reform sürecinde bakanlık lağvedildi."
+ },
+ {
+  "impf": "провозглашать",
+  "perf": "провозгласить",
+  "tr": "ilan etmek",
+  "gov": "что? кого? кем?",
+  "ex": "В 1923 году Турция была провозглашена республикой.",
+  "exTr": "1923 yılında Türkiye cumhuriyet olarak ilan edildi."
+ },
+ {
+  "impf": "погашать",
+  "perf": "погасить",
+  "tr": "(borç) ödemek, kapatmak",
+  "gov": "что?",
+  "ex": "Страна досрочно погасила внешний долг.",
+  "exTr": "Ülke dış borcunu vadesinden önce ödedi."
+ },
+ {
+  "impf": "уклоняться",
+  "perf": "уклониться",
+  "tr": "kaçınmak, kaçmak",
+  "gov": "от чего?",
+  "ex": "Компания несколько лет уклонялась от уплаты налогов.",
+  "exTr": "Şirket birkaç yıl boyunca vergi ödemekten kaçındı."
+ },
+ {
+  "impf": "приватизировать",
+  "perf": "приватизировать",
+  "tr": "özelleştirmek",
+  "gov": "что?",
+  "ex": "В девяностые годы государство приватизировало крупные промышленные предприятия.",
+  "exTr": "Doksanlı yıllarda devlet büyük sanayi kuruluşlarını özelleştirdi."
+ },
+ {
+  "impf": "национализировать",
+  "perf": "национализировать",
+  "tr": "millileştirmek, kamulaştırmak",
+  "gov": "что?",
+  "ex": "После революции правительство национализировало банки и заводы.",
+  "exTr": "Devrimden sonra hükümet bankaları ve fabrikaları millileştirdi."
+ },
+ {
+  "impf": "противодействовать",
+  "perf": "противодействовать",
+  "tr": "karşı koymak, mücadele etmek",
+  "gov": "чему?",
+  "ex": "Государство обязано эффективно противодействовать коррупции.",
+  "exTr": "Devlet yolsuzlukla etkin biçimde mücadele etmekle yükümlüdür."
+ },
+ {
+  "impf": "отрекаться",
+  "perf": "отречься",
+  "tr": "feragat etmek, vazgeçmek",
+  "gov": "от чего? от кого?",
+  "ex": "В 1917 году Николай II отрёкся от престола.",
+  "exTr": "1917 yılında II. Nikolay tahttan feragat etti."
+ },
+ {
+  "impf": "распадаться",
+  "perf": "распасться",
+  "tr": "dağılmak, parçalanmak",
+  "gov": "на что?",
+  "ex": "В 1991 году Советский Союз распался на пятнадцать государств.",
+  "exTr": "1991 yılında Sovyetler Birliği on beş devlete bölündü."
+ },
+ {
+  "impf": "вторгаться",
+  "perf": "вторгнуться",
+  "tr": "istila etmek, girmek (zorla)",
+  "gov": "во что? куда?",
+  "ex": "В 1812 году армия Наполеона вторглась в Россию.",
+  "exTr": "1812 yılında Napolyon'un ordusu Rusya'yı istila etti."
+ },
+ {
+  "impf": "наделять",
+  "perf": "наделить",
+  "tr": "donatmak, vermek (yetki)",
+  "gov": "кого? чем?",
+  "ex": "Конституция наделяет президента широкими полномочиями.",
+  "exTr": "Anayasa cumhurbaşkanına geniş yetkiler verir."
+ },
+ {
+  "impf": "ущемлять",
+  "perf": "ущемить",
+  "tr": "zedelemek, kısıtlamak (hak)",
+  "gov": "что? кого?",
+  "ex": "Правозащитники считают, что новый закон ущемляет права меньшинств.",
+  "exTr": "İnsan hakları savunucuları yeni yasanın azınlıkların haklarını zedelediğini düşünüyor."
+ },
+ {
+  "impf": "посягать",
+  "perf": "посягнуть",
+  "tr": "saldırmak, el uzatmak (hakka)",
+  "gov": "на что?",
+  "ex": "Никто не вправе посягать на неприкосновенность частной жизни.",
+  "exTr": "Hiç kimse özel hayatın dokunulmazlığına el uzatma hakkına sahip değildir."
+ },
+ {
+  "impf": "регламентировать",
+  "perf": "регламентировать",
+  "tr": "(kurala bağlı olarak) düzenlemek",
+  "gov": "что?",
+  "ex": "Порядок проведения выборов регламентируется федеральным законом.",
+  "exTr": "Seçimlerin yapılış usulü federal kanunla düzenlenir."
+ },
+ {
+  "impf": "уполномочивать",
+  "perf": "уполномочить",
+  "tr": "yetkilendirmek",
+  "gov": "кого? на что? + inf.",
+  "ex": "Совет директоров уполномочил председателя вести переговоры.",
+  "exTr": "Yönetim kurulu, başkanı müzakereleri yürütmekle yetkilendirdi."
+ },
+ {
+  "impf": "делегировать",
+  "perf": "делегировать",
+  "tr": "devretmek (yetki), delege olarak göndermek",
+  "gov": "что? кому? кого? куда?",
+  "ex": "Федеральный центр делегировал часть полномочий регионам.",
+  "exTr": "Federal merkez yetkilerinin bir kısmını bölgelere devretti."
+ },
+ {
+  "impf": "постановлять",
+  "perf": "постановить",
+  "tr": "karar vermek (resmi olarak)",
+  "gov": "что? + inf.",
+  "ex": "Суд постановил освободить задержанного из-под стражи.",
+  "exTr": "Mahkeme gözaltındaki kişinin serbest bırakılmasına karar verdi."
+ },
+ {
+  "impf": "возмещать",
+  "perf": "возместить",
+  "tr": "tazmin etmek, karşılamak",
+  "gov": "что? кому?",
+  "ex": "Предприятие обязано возместить ущерб пострадавшим жителям.",
+  "exTr": "İşletme, zarar gören sakinlerin zararını tazmin etmekle yükümlüdür."
+ },
+ {
+  "impf": "изымать",
+  "perf": "изъять",
+  "tr": "el koymak, toplatmak",
+  "gov": "что? у кого? из чего?",
+  "ex": "При обыске у подозреваемого изъяли оружие и документы.",
+  "exTr": "Arama sırasında şüpheliden silah ve belgelere el konuldu."
+ },
+ {
+  "impf": "помиловать",
+  "perf": "помиловать",
+  "tr": "affetmek (cezayı)",
+  "gov": "кого?",
+  "ex": "Президент помиловал нескольких политических заключённых.",
+  "exTr": "Cumhurbaşkanı birkaç siyasi tutukluyu affetti."
+ },
+ {
+  "impf": "амнистировать",
+  "perf": "амнистировать",
+  "tr": "affa uğratmak, af çıkarmak",
+  "gov": "кого?",
+  "ex": "По случаю праздника государство амнистировало тысячи заключённых.",
+  "exTr": "Bayram vesilesiyle devlet binlerce mahkûmu affetti."
+ },
+ {
+  "impf": "экстрадировать",
+  "perf": "экстрадировать",
+  "tr": "iade etmek (suçluyu)",
+  "gov": "кого? куда?",
+  "ex": "Испания экстрадировала подозреваемого в Соединённые Штаты.",
+  "exTr": "İspanya şüpheliyi Amerika Birleşik Devletleri'ne iade etti."
+ },
+ {
+  "impf": "депортировать",
+  "perf": "депортировать",
+  "tr": "sınır dışı etmek",
+  "gov": "кого? куда? откуда?",
+  "ex": "Нелегальных мигрантов депортировали на родину.",
+  "exTr": "Yasa dışı göçmenler ülkelerine sınır dışı edildi."
+ },
+ {
+  "impf": "легализовать",
+  "perf": "легализовать",
+  "tr": "yasallaştırmak",
+  "gov": "что?",
+  "ex": "Ряд государств легализовал однополые браки.",
+  "exTr": "Bazı devletler eşcinsel evlilikleri yasallaştırdı."
+ },
+ {
+  "impf": "узаконивать",
+  "perf": "узаконить",
+  "tr": "yasallaştırmak, yasal hale getirmek",
+  "gov": "что?",
+  "ex": "Новый указ узаконил сложившуюся на практике процедуру.",
+  "exTr": "Yeni kararname uygulamada oluşmuş prosedürü yasal hale getirdi."
+ },
+ {
+  "impf": "санкционировать",
+  "perf": "санкционировать",
+  "tr": "onaylamak, izin vermek",
+  "gov": "что?",
+  "ex": "Прокурор санкционировал арест подозреваемого.",
+  "exTr": "Savcı şüphelinin tutuklanmasını onayladı."
+ },
+ {
+  "impf": "аннексировать",
+  "perf": "аннексировать",
+  "tr": "ilhak etmek",
+  "gov": "что?",
+  "ex": "Международное право запрещает аннексировать чужие территории.",
+  "exTr": "Uluslararası hukuk başka ülkelerin topraklarını ilhak etmeyi yasaklar."
+ },
+ {
+  "impf": "порабощать",
+  "perf": "поработить",
+  "tr": "köleleştirmek, boyun eğdirmek",
+  "gov": "кого? что?",
+  "ex": "Завоеватели стремились поработить покорённые народы.",
+  "exTr": "Fatihler boyun eğdirilmiş halkları köleleştirmeye çalışıyordu."
+ },
+ {
+  "impf": "царствовать",
+  "perf": "царствовать",
+  "tr": "hüküm sürmek (hükümdar olarak)",
+  "gov": "где? когда?",
+  "ex": "Екатерина Вторая царствовала более тридцати лет.",
+  "exTr": "II. Katerina otuz yıldan fazla hüküm sürdü."
+ },
+ {
+  "impf": "господствовать",
+  "perf": "господствовать",
+  "tr": "egemen olmak, hâkim olmak",
+  "gov": "над кем? над чем?",
+  "ex": "В Средние века церковь господствовала над умами людей.",
+  "exTr": "Orta Çağ'da kilise insanların zihinlerine hâkimdi."
+ },
+ {
+  "impf": "угнетать",
+  "perf": "угнетать",
+  "tr": "ezmek, baskı altında tutmak",
+  "gov": "кого?",
+  "ex": "Колониальные власти веками угнетали местное население.",
+  "exTr": "Sömürge yönetimi yüzyıllar boyunca yerel halkı ezdi."
+ },
+ {
+  "impf": "колонизировать",
+  "perf": "колонизировать",
+  "tr": "sömürgeleştirmek",
+  "gov": "что?",
+  "ex": "Европейские державы колонизировали большую часть Африки.",
+  "exTr": "Avrupalı güçler Afrika'nın büyük bölümünü sömürgeleştirdi."
+ },
+ {
+  "impf": "мобилизовать",
+  "perf": "мобилизовать",
+  "tr": "seferber etmek",
+  "gov": "кого? что?",
+  "ex": "Для ликвидации последствий наводнения мобилизовали все ресурсы.",
+  "exTr": "Selin sonuçlarını gidermek için tüm kaynaklar seferber edildi."
+ },
+ {
+  "impf": "капитулировать",
+  "perf": "капитулировать",
+  "tr": "teslim olmak",
+  "gov": "перед кем?",
+  "ex": "В мае 1945 года Германия безоговорочно капитулировала.",
+  "exTr": "Mayıs 1945'te Almanya koşulsuz teslim oldu."
+ },
+ {
+  "impf": "разоружать",
+  "perf": "разоружить",
+  "tr": "silahsızlandırmak",
+  "gov": "кого? что?",
+  "ex": "Миротворцы разоружили незаконные вооружённые формирования.",
+  "exTr": "Barış gücü yasa dışı silahlı grupları silahsızlandırdı."
+ },
+ {
+  "impf": "баллотироваться",
+  "perf": "баллотироваться",
+  "tr": "aday olmak",
+  "gov": "куда? в кого?",
+  "ex": "Бывший губернатор баллотировался в президенты.",
+  "exTr": "Eski vali cumhurbaşkanlığına aday oldu."
+ },
+ {
+  "impf": "смещать",
+  "perf": "сместить",
+  "tr": "görevden almak",
+  "gov": "кого? с чего?",
+  "ex": "Губернатора сместили с должности за неэффективную работу.",
+  "exTr": "Vali verimsiz çalışması nedeniyle görevden alındı."
+ },
+ {
+  "impf": "отстранять",
+  "perf": "отстранить",
+  "tr": "görevden uzaklaştırmak",
+  "gov": "кого? от чего?",
+  "ex": "Чиновника отстранили от должности до окончания расследования.",
+  "exTr": "Memur soruşturma bitene kadar görevden uzaklaştırıldı."
+ },
+ {
+  "impf": "созывать",
+  "perf": "созвать",
+  "tr": "toplantıya çağırmak",
+  "gov": "что? кого?",
+  "ex": "Президент созвал внеочередное заседание Совета безопасности.",
+  "exTr": "Cumhurbaşkanı Güvenlik Konseyi'ni olağanüstü toplantıya çağırdı."
+ },
+ {
+  "impf": "распускать",
+  "perf": "распустить",
+  "tr": "feshetmek (meclis), dağıtmak",
+  "gov": "что? кого?",
+  "ex": "Президент распустил парламент и назначил досрочные выборы.",
+  "exTr": "Cumhurbaşkanı parlamentoyu feshetti ve erken seçim kararı aldı."
+ },
+ {
+  "impf": "расторгать",
+  "perf": "расторгнуть",
+  "tr": "feshetmek (sözleşme)",
+  "gov": "что?",
+  "ex": "Компания расторгла контракт в одностороннем порядке.",
+  "exTr": "Şirket sözleşmeyi tek taraflı olarak feshetti."
+ },
+ {
+  "impf": "денонсировать",
+  "perf": "денонсировать",
+  "tr": "feshetmek (uluslararası antlaşma)",
+  "gov": "что?",
+  "ex": "Правительство объявило о намерении денонсировать двустороннее соглашение.",
+  "exTr": "Hükümet ikili anlaşmayı feshetme niyetini açıkladı."
+ },
+ {
+  "impf": "обнародовать",
+  "perf": "обнародовать",
+  "tr": "kamuoyuna açıklamak, yayımlamak",
+  "gov": "что?",
+  "ex": "Комиссия обнародовала итоги расследования.",
+  "exTr": "Komisyon soruşturmanın sonuçlarını kamuoyuna açıkladı."
+ },
+ {
+  "impf": "разглашать",
+  "perf": "разгласить",
+  "tr": "ifşa etmek",
+  "gov": "что?",
+  "ex": "Сотрудник не имеет права разглашать государственную тайну.",
+  "exTr": "Personelin devlet sırrını ifşa etme hakkı yoktur."
+ },
+ {
+  "impf": "констатировать",
+  "perf": "констатировать",
+  "tr": "tespit etmek, saptamak",
+  "gov": "что?",
+  "ex": "Эксперты констатировали замедление темпов экономического роста.",
+  "exTr": "Uzmanlar ekonomik büyüme hızında yavaşlama olduğunu tespit etti."
+ },
+ {
+  "impf": "предписывать",
+  "perf": "предписать",
+  "tr": "emretmek, öngörmek",
+  "gov": "что? кому? + inf.",
+  "ex": "Инструкция предписывает сотрудникам соблюдать строгую конфиденциальность.",
+  "exTr": "Talimat, personelin sıkı gizliliğe uymasını öngörür."
+ },
+ {
+  "impf": "ходатайствовать",
+  "perf": "походатайствовать",
+  "tr": "talepte bulunmak, dilekçe vermek",
+  "gov": "о чём? перед кем?",
+  "ex": "Защита ходатайствовала о переносе судебного заседания.",
+  "exTr": "Savunma duruşmanın ertelenmesini talep etti."
+ },
+ {
+  "impf": "подлежать",
+  "perf": "подлежать",
+  "tr": "tabi olmak, gerektirmek",
+  "gov": "чему?",
+  "ex": "Данное решение суда не подлежит обжалованию.",
+  "exTr": "Mahkemenin bu kararı itiraza tabi değildir."
+ },
+ {
+  "impf": "распоряжаться",
+  "perf": "распорядиться",
+  "tr": "tasarruf etmek; emir vermek",
+  "gov": "чем?",
+  "ex": "Собственник вправе распоряжаться своим имуществом по своему усмотрению.",
+  "exTr": "Mal sahibi mülkü üzerinde dilediği gibi tasarruf etme hakkına sahiptir."
+ },
+ {
+  "impf": "злоупотреблять",
+  "perf": "злоупотребить",
+  "tr": "kötüye kullanmak",
+  "gov": "чем?",
+  "ex": "Следствие установило, что чиновник злоупотреблял служебным положением.",
+  "exTr": "Soruşturma, memurun görevini kötüye kullandığını ortaya koydu."
+ },
+ {
+  "impf": "присваивать",
+  "perf": "присвоить",
+  "tr": "(unvan) vermek; zimmetine geçirmek",
+  "gov": "что? кому?",
+  "ex": "Учёному присвоили звание почётного академика.",
+  "exTr": "Bilim insanına onursal akademisyen unvanı verildi."
+ },
+ {
+  "impf": "подкупать",
+  "perf": "подкупить",
+  "tr": "rüşvetle satın almak",
+  "gov": "кого?",
+  "ex": "Обвиняемый пытался подкупить свидетелей.",
+  "exTr": "Sanık tanıkları rüşvetle satın almaya çalıştı."
+ },
+ {
+  "impf": "фальсифицировать",
+  "perf": "фальсифицировать",
+  "tr": "tahrif etmek, sahtesini yapmak",
+  "gov": "что?",
+  "ex": "Оппозиция заявила, что результаты выборов были фальсифицированы.",
+  "exTr": "Muhalefet seçim sonuçlarına hile karıştırıldığını açıkladı."
+ },
+ {
+  "impf": "лоббировать",
+  "perf": "лоббировать",
+  "tr": "lobi yapmak",
+  "gov": "что? чьи интересы?",
+  "ex": "Крупные корпорации активно лоббируют свои интересы в парламенте.",
+  "exTr": "Büyük şirketler parlamentoda kendi çıkarları için aktif biçimde lobi yapıyor."
+ },
+ {
+  "impf": "бойкотировать",
+  "perf": "бойкотировать",
+  "tr": "boykot etmek",
+  "gov": "что? кого?",
+  "ex": "Оппозиционные партии бойкотировали парламентские выборы.",
+  "exTr": "Muhalefet partileri parlamento seçimlerini boykot etti."
+ },
+ {
+  "impf": "искоренять",
+  "perf": "искоренить",
+  "tr": "kökünü kazımak",
+  "gov": "что?",
+  "ex": "Власти заявили о намерении искоренить коррупцию в судебной системе.",
+  "exTr": "Yetkililer yargı sistemindeki yolsuzluğun kökünü kazıma niyetlerini açıkladı."
+ },
+ {
+  "impf": "ассигновать",
+  "perf": "ассигновать",
+  "tr": "ödenek ayırmak, tahsis etmek",
+  "gov": "что? на что?",
+  "ex": "Правительство ассигновало значительные средства на восстановление региона.",
+  "exTr": "Hükümet bölgenin yeniden inşası için önemli miktarda ödenek ayırdı."
+ },
+ {
+  "impf": "уплачивать",
+  "perf": "уплатить",
+  "tr": "ödemek (vergi, harç)",
+  "gov": "что?",
+  "ex": "Организации обязаны своевременно уплачивать налог на прибыль.",
+  "exTr": "Kuruluşlar kurumlar vergisini zamanında ödemekle yükümlüdür."
+ },
+ {
+  "impf": "начислять",
+  "perf": "начислить",
+  "tr": "tahakkuk ettirmek, hesaplamak (faiz, maaş)",
+  "gov": "что? на что? кому?",
+  "ex": "Банк ежемесячно начисляет проценты на остаток по вкладу.",
+  "exTr": "Banka mevduat bakiyesine her ay faiz işletir."
+ },
+ {
+  "impf": "окупаться",
+  "perf": "окупиться",
+  "tr": "kendini amorti etmek, karşılamak",
+  "gov": "—",
+  "ex": "По расчётам экспертов, проект окупится в течение пяти лет.",
+  "exTr": "Uzmanların hesaplarına göre proje beş yıl içinde kendini amorti edecek."
+ },
+ {
+  "impf": "банкротиться",
+  "perf": "обанкротиться",
+  "tr": "iflas etmek",
+  "gov": "—",
+  "ex": "Во время финансового кризиса многие банки обанкротились.",
+  "exTr": "Finansal kriz sırasında birçok banka iflas etti."
+ },
+ {
+  "impf": "девальвировать",
+  "perf": "девальвировать",
+  "tr": "devalüe etmek",
+  "gov": "что?",
+  "ex": "Центральный банк был вынужден девальвировать национальную валюту.",
+  "exTr": "Merkez bankası ulusal parayı devalüe etmek zorunda kaldı."
+ },
+ {
+  "impf": "ввозить",
+  "perf": "ввезти",
+  "tr": "ithal etmek, (ülkeye) sokmak",
+  "gov": "что? куда? откуда?",
+  "ex": "Страна ввозит значительную часть продовольствия из-за рубежа.",
+  "exTr": "Ülke gıdasının önemli bir kısmını yurt dışından ithal ediyor."
+ },
+ {
+  "impf": "вывозить",
+  "perf": "вывезти",
+  "tr": "ihraç etmek, (dışarı) çıkarmak",
+  "gov": "что? куда? откуда?",
+  "ex": "Россия вывозит за рубеж в основном сырьё и энергоносители.",
+  "exTr": "Rusya yurt dışına ağırlıklı olarak ham madde ve enerji kaynakları ihraç ediyor."
+ },
+ {
+  "impf": "приумножать",
+  "perf": "приумножить",
+  "tr": "çoğaltmak, artırmak",
+  "gov": "что?",
+  "ex": "Наследники не только сохранили, но и приумножили семейное состояние.",
+  "exTr": "Mirasçılar aile servetini yalnızca korumakla kalmadı, artırdı da."
+ },
+ {
+  "impf": "завещать",
+  "perf": "завещать",
+  "tr": "vasiyet etmek",
+  "gov": "что? кому?",
+  "ex": "Меценат завещал свою коллекцию городскому музею.",
+  "exTr": "Hayırsever koleksiyonunu şehir müzesine vasiyet etti."
+ },
+ {
+  "impf": "страховать",
+  "perf": "застраховать",
+  "tr": "sigortalamak",
+  "gov": "что? кого? от чего?",
+  "ex": "Компания застраховала имущество от пожара и стихийных бедствий.",
+  "exTr": "Şirket mülkünü yangına ve doğal afetlere karşı sigortaladı."
+ },
+ {
+  "impf": "реформировать",
+  "perf": "реформировать",
+  "tr": "reform yapmak, yeniden düzenlemek",
+  "gov": "что?",
+  "ex": "Правительство намерено реформировать пенсионную систему.",
+  "exTr": "Hükümet emeklilik sistemini yeniden düzenlemeyi planlıyor."
+ },
+ {
+  "impf": "ликвидировать",
+  "perf": "ликвидировать",
+  "tr": "tasfiye etmek, ortadan kaldırmak",
+  "gov": "что?",
+  "ex": "Последствия аварии удалось ликвидировать лишь через несколько лет.",
+  "exTr": "Kazanın sonuçları ancak birkaç yıl sonra giderilebildi."
+ },
+ {
+  "impf": "реорганизовать",
+  "perf": "реорганизовать",
+  "tr": "yeniden yapılandırmak",
+  "gov": "что?",
+  "ex": "Министерство было реорганизовано в федеральное агентство.",
+  "exTr": "Bakanlık federal ajansa dönüştürülerek yeniden yapılandırıldı."
+ },
+ {
+  "impf": "посредничать",
+  "perf": "посредничать",
+  "tr": "arabuluculuk yapmak",
+  "gov": "в чём? между кем?",
+  "ex": "Норвегия посредничала в мирных переговорах между сторонами.",
+  "exTr": "Norveç taraflar arasındaki barış görüşmelerinde arabuluculuk yaptı."
+ },
+ {
+  "impf": "дискриминировать",
+  "perf": "дискриминировать",
+  "tr": "ayrımcılık yapmak",
+  "gov": "кого? по какому признаку?",
+  "ex": "Работодатель не вправе дискриминировать сотрудников по признаку пола.",
+  "exTr": "İşveren çalışanlara cinsiyete göre ayrımcılık yapamaz."
+ },
+ {
+  "impf": "эксплуатировать",
+  "perf": "эксплуатировать",
+  "tr": "sömürmek; işletmek",
+  "gov": "кого? что?",
+  "ex": "Фабриканты нещадно эксплуатировали труд рабочих.",
+  "exTr": "Fabrikatörler işçilerin emeğini acımasızca sömürdü."
+ },
+ {
+  "impf": "засекречивать",
+  "perf": "засекретить",
+  "tr": "gizli olarak sınıflandırmak",
+  "gov": "что?",
+  "ex": "Документы о переговорах были засекречены на пятьдесят лет.",
+  "exTr": "Görüşmelere ilişkin belgeler elli yıllığına gizli ilan edildi."
+ },
+ {
+  "impf": "преследовать",
+  "perf": "преследовать",
+  "tr": "kovuşturmak, takip etmek; (amaç) gütmek",
+  "gov": "кого? за что? что?",
+  "ex": "Реформа преследует цель повысить прозрачность государственных закупок.",
+  "exTr": "Reform, kamu alımlarının şeffaflığını artırma amacı güdüyor."
+ },
+ {
+  "impf": "исчисляться",
+  "perf": "исчисляться",
+  "tr": "ölçülmek, (sayısı) bulmak",
+  "gov": "чем?",
+  "ex": "Ущерб от наводнения исчисляется миллиардами рублей.",
+  "exTr": "Selin verdiği zarar milyarlarca rubleyi buluyor."
+ },
+ {
+  "impf": "возобновлять",
+  "perf": "возобновить",
+  "tr": "yeniden başlatmak",
+  "gov": "что?",
+  "ex": "Стороны возобновили переговоры после длительного перерыва.",
+  "exTr": "Taraflar uzun bir aradan sonra müzakereleri yeniden başlattı."
+ },
+ {
+  "impf": "аннулировать",
+  "perf": "аннулировать",
+  "tr": "iptal etmek, geçersiz kılmak",
+  "gov": "что?",
+  "ex": "Избирательная комиссия аннулировала результаты голосования на участке.",
+  "exTr": "Seçim komisyonu sandıktaki oylama sonuçlarını iptal etti."
+ },
+ {
+  "impf": "пролонгировать",
+  "perf": "пролонгировать",
+  "tr": "(süresini) uzatmak",
+  "gov": "что?",
+  "ex": "Стороны пролонгировали действие соглашения ещё на год.",
+  "exTr": "Taraflar anlaşmanın geçerlilik süresini bir yıl daha uzattı."
+ },
+ {
+  "impf": "дестабилизировать",
+  "perf": "дестабилизировать",
+  "tr": "istikrarsızlaştırmak",
+  "gov": "что?",
+  "ex": "Внешние силы пытались дестабилизировать обстановку в регионе.",
+  "exTr": "Dış güçler bölgedeki durumu istikrarsızlaştırmaya çalıştı."
+ },
+ {
+  "impf": "упрочивать",
+  "perf": "упрочить",
+  "tr": "sağlamlaştırmak, pekiştirmek",
+  "gov": "что?",
+  "ex": "Договор упрочил позиции страны на международной арене.",
+  "exTr": "Antlaşma ülkenin uluslararası arenadaki konumunu sağlamlaştırdı."
+ },
+ {
+  "impf": "узурпировать",
+  "perf": "узурпировать",
+  "tr": "gasp etmek (iktidarı)",
+  "gov": "что?",
+  "ex": "В результате переворота генерал узурпировал власть.",
+  "exTr": "Darbe sonucunda general iktidarı gasp etti."
+ },
+ {
+  "impf": "подстрекать",
+  "perf": "подстрекнуть",
+  "tr": "kışkırtmak",
+  "gov": "кого? к чему?",
+  "ex": "Его обвинили в том, что он подстрекал толпу к беспорядкам.",
+  "exTr": "Kalabalığı kargaşaya kışkırtmakla suçlandı."
+ },
+ {
+  "impf": "вымогать",
+  "perf": "вымогать",
+  "tr": "zorla koparmak (para, rüşvet)",
+  "gov": "что? у кого?",
+  "ex": "Чиновник вымогал взятки у местных предпринимателей.",
+  "exTr": "Memur yerel girişimcilerden zorla rüşvet koparıyordu."
+ },
+ {
+  "impf": "отмывать",
+  "perf": "отмыть",
+  "tr": "aklamak (kara para)",
+  "gov": "что?",
+  "ex": "Преступная группировка отмывала деньги через подставные фирмы.",
+  "exTr": "Suç örgütü paravan şirketler aracılığıyla kara para aklıyordu."
+ },
+ {
+  "impf": "уличать",
+  "perf": "уличить",
+  "tr": "(suçunu) kanıtlamak, suçüstü yakalamak",
+  "gov": "кого? в чём?",
+  "ex": "Журналисты уличили депутата во лжи.",
+  "exTr": "Gazeteciler milletvekilinin yalan söylediğini kanıtladı."
+ },
+ {
+  "impf": "изобличать",
+  "perf": "изобличить",
+  "tr": "ifşa etmek, suçunu ortaya koymak",
+  "gov": "кого? в чём? что?",
+  "ex": "Собранные улики изобличили преступника.",
+  "exTr": "Toplanan deliller suçlunun suçunu ortaya koydu."
+ },
+ {
+  "impf": "инкриминировать",
+  "perf": "инкриминировать",
+  "tr": "isnat etmek (suç)",
+  "gov": "что? кому?",
+  "ex": "Подсудимому инкриминируют мошенничество в особо крупном размере.",
+  "exTr": "Sanığa çok büyük miktarda dolandırıcılık suçu isnat ediliyor."
+ },
+ {
+  "impf": "вменять",
+  "perf": "вменить",
+  "tr": "yüklemek (suç, görev)",
+  "gov": "что? кому?",
+  "ex": "Бывшему мэру вменяют превышение должностных полномочий.",
+  "exTr": "Eski belediye başkanına görev yetkisini aşma suçu yükleniyor."
+ },
+ {
+  "impf": "квалифицировать",
+  "perf": "квалифицировать",
+  "tr": "nitelendirmek",
+  "gov": "что? как что?",
+  "ex": "Суд квалифицировал действия обвиняемого как мошенничество.",
+  "exTr": "Mahkeme sanığın eylemlerini dolandırıcılık olarak nitelendirdi."
+ },
+ {
+  "impf": "опротестовывать",
+  "perf": "опротестовать",
+  "tr": "itiraz etmek (resmi olarak)",
+  "gov": "что?",
+  "ex": "Прокурор опротестовал приговор как слишком мягкий.",
+  "exTr": "Savcı kararı fazla hafif bulduğu için itiraz etti."
+ },
+ {
+  "impf": "дотировать",
+  "perf": "дотировать",
+  "tr": "sübvanse etmek, destek ödemesi yapmak",
+  "gov": "что?",
+  "ex": "Государство дотирует цены на хлеб и молоко.",
+  "exTr": "Devlet ekmek ve süt fiyatlarını sübvanse ediyor."
+ },
+ {
+  "impf": "индексировать",
+  "perf": "индексировать",
+  "tr": "endekslemek (enflasyona göre artırmak)",
+  "gov": "что?",
+  "ex": "Пенсии ежегодно индексируются с учётом уровня инфляции.",
+  "exTr": "Emekli maaşları her yıl enflasyon oranı dikkate alınarak artırılır."
+ },
+ {
+  "impf": "монополизировать",
+  "perf": "монополизировать",
+  "tr": "tekeline almak",
+  "gov": "что?",
+  "ex": "Несколько корпораций фактически монополизировали рынок энергоносителей.",
+  "exTr": "Birkaç şirket enerji kaynakları piyasasını fiilen tekeline aldı."
+ }
+]

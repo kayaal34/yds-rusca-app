@@ -1,0 +1,802 @@
+[
+ {
+  "impf": "истощать",
+  "perf": "истощить",
+  "tr": "tüketmek, yıpratmak (toprak, organizma; исчерпать: kaynağı sonuna kadar tüketmek)",
+  "gov": "что? кого?",
+  "ex": "Интенсивное земледелие истощает почву и снижает урожайность.",
+  "exTr": "Yoğun tarım toprağı tüketir ve verimi düşürür."
+ },
+ {
+  "impf": "вытеснять",
+  "perf": "вытеснить",
+  "tr": "yerinden etmek, (yerini alarak) dışarı itmek",
+  "gov": "кого? что? откуда?",
+  "ex": "Цифровые технологии постепенно вытесняют традиционные печатные издания.",
+  "exTr": "Dijital teknolojiler geleneksel basılı yayınları giderek piyasadan siliyor."
+ },
+ {
+  "impf": "переосмысливать",
+  "perf": "переосмыслить",
+  "tr": "yeniden düşünmek, yeniden anlamlandırmak",
+  "gov": "что?",
+  "ex": "Пандемия заставила многих переосмыслить свои жизненные приоритеты.",
+  "exTr": "Pandemi birçok kişiyi hayattaki önceliklerini yeniden düşünmeye zorladı."
+ },
+ {
+  "impf": "обрабатывать",
+  "perf": "обработать",
+  "tr": "işlemek (veri), işlemden geçirmek (переработать: başka ürüne çevirmek)",
+  "gov": "что? чем?",
+  "ex": "Компьютер обрабатывает огромные объёмы информации за секунды.",
+  "exTr": "Bilgisayar devasa miktarda bilgiyi saniyeler içinde işler."
+ },
+ {
+  "impf": "поглощать",
+  "perf": "поглотить",
+  "tr": "emmek, soğurmak, yutmak (şirket)",
+  "gov": "что?",
+  "ex": "Океаны поглощают значительную часть углекислого газа.",
+  "exTr": "Okyanuslar karbondioksitin önemli bir kısmını emer."
+ },
+ {
+  "impf": "ускорять",
+  "perf": "ускорить",
+  "tr": "hızlandırmak",
+  "gov": "что?",
+  "ex": "Новые технологии ускоряют процесс обработки данных.",
+  "exTr": "Yeni teknolojiler veri işleme sürecini hızlandırıyor."
+ },
+ {
+  "impf": "замедлять",
+  "perf": "замедлить",
+  "tr": "yavaşlatmak",
+  "gov": "что?",
+  "ex": "Высокие налоги могут замедлить экономический рост.",
+  "exTr": "Yüksek vergiler ekonomik büyümeyi yavaşlatabilir."
+ },
+ {
+  "impf": "сказываться",
+  "perf": "сказаться",
+  "tr": "(genelde olumsuz) etkilemek, kendini göstermek",
+  "gov": "на ком? на чём?",
+  "ex": "Недостаток сна негативно сказывается на здоровье человека.",
+  "exTr": "Uykusuzluk insan sağlığını olumsuz etkiler."
+ },
+ {
+  "impf": "обостряться",
+  "perf": "обостриться",
+  "tr": "keskinleşmek, kızışmak, alevlenmek",
+  "gov": "",
+  "ex": "Конкуренция за водные ресурсы в регионе резко обострилась.",
+  "exTr": "Bölgede su kaynakları için rekabet keskin biçimde kızıştı."
+ },
+ {
+  "impf": "нарастать",
+  "perf": "нарасти",
+  "tr": "giderek artmak, birikerek büyümek (возрасти: artmak)",
+  "gov": "",
+  "ex": "В обществе нарастает недовольство экономической политикой.",
+  "exTr": "Toplumda ekonomi politikasına yönelik hoşnutsuzluk giderek artıyor."
+ },
+ {
+  "impf": "исчерпывать",
+  "perf": "исчерпать",
+  "tr": "(kaynağı, imkânı) sonuna kadar tüketmek (истощить: yıpratarak tüketmek)",
+  "gov": "что?",
+  "ex": "Человечество может исчерпать запасы пресной воды.",
+  "exTr": "İnsanlık tatlı su rezervlerini tüketebilir."
+ },
+ {
+  "impf": "перерастать",
+  "perf": "перерасти",
+  "tr": "dönüşmek, (büyüyüp) ...e varmak",
+  "gov": "во что?",
+  "ex": "Мирные протесты переросли в массовые беспорядки.",
+  "exTr": "Barışçıl protestolar kitlesel kargaşaya dönüştü."
+ },
+ {
+  "impf": "замещать",
+  "perf": "заместить",
+  "tr": "yerini almak, ikame etmek (заменить: değiştirmek)",
+  "gov": "что? кого? чем?",
+  "ex": "Возобновляемые источники постепенно замещают ископаемое топливо.",
+  "exTr": "Yenilenebilir kaynaklar fosil yakıtların yerini giderek alıyor."
+ },
+ {
+  "impf": "устаревать",
+  "perf": "устареть",
+  "tr": "eskimek, modası geçmek",
+  "gov": "",
+  "ex": "Современные технологии устаревают очень быстро.",
+  "exTr": "Modern teknolojiler çok hızlı eskiyor."
+ },
+ {
+  "impf": "возобновлять",
+  "perf": "возобновить",
+  "tr": "yeniden başlatmak, kaldığı yerden sürdürmek",
+  "gov": "что?",
+  "ex": "После ремонта завод возобновил работу.",
+  "exTr": "Onarımın ardından fabrika çalışmaya yeniden başladı."
+ },
+ {
+  "impf": "сдерживать",
+  "perf": "сдержать",
+  "tr": "dizginlemek, frenlemek; (söz) tutmak",
+  "gov": "что? кого?",
+  "ex": "Центральный банк пытается сдержать рост инфляции.",
+  "exTr": "Merkez bankası enflasyon artışını frenlemeye çalışıyor."
+ },
+ {
+  "impf": "недооценивать",
+  "perf": "недооценить",
+  "tr": "hafife almak, olduğundan az değer biçmek",
+  "gov": "что? кого?",
+  "ex": "Долгое время учёные недооценивали роль океанов в изменении климата.",
+  "exTr": "Bilim insanları uzun süre okyanusların iklim değişikliğindeki rolünü hafife aldı."
+ },
+ {
+  "impf": "переоценивать",
+  "perf": "переоценить",
+  "tr": "abartmak, fazla değer biçmek; yeniden değerlendirmek",
+  "gov": "что? кого?",
+  "ex": "Не стоит переоценивать возможности искусственного интеллекта.",
+  "exTr": "Yapay zekânın olanaklarını abartmamak gerekir."
+ },
+ {
+  "impf": "преувеличивать",
+  "perf": "преувеличить",
+  "tr": "abartmak",
+  "gov": "что?",
+  "ex": "Некоторые эксперты преувеличивают масштабы угрозы.",
+  "exTr": "Bazı uzmanlar tehdidin boyutunu abartıyor."
+ },
+ {
+  "impf": "отравлять",
+  "perf": "отравить",
+  "tr": "zehirlemek",
+  "gov": "что? кого? чем?",
+  "ex": "Химические выбросы отравляют воздух и воду.",
+  "exTr": "Kimyasal emisyonlar havayı ve suyu zehirliyor."
+ },
+ {
+  "impf": "засорять",
+  "perf": "засорить",
+  "tr": "kirletmek, tıkamak (çöple)",
+  "gov": "что? чем?",
+  "ex": "Пластиковые отходы засоряют Мировой океан.",
+  "exTr": "Plastik atıklar dünya okyanuslarını kirletiyor."
+ },
+ {
+  "impf": "обезвреживать",
+  "perf": "обезвредить",
+  "tr": "zararsız hale getirmek, etkisiz kılmak",
+  "gov": "что? кого?",
+  "ex": "Специальные установки обезвреживают токсичные отходы.",
+  "exTr": "Özel tesisler zehirli atıkları zararsız hale getirir."
+ },
+ {
+  "impf": "наносить",
+  "perf": "нанести",
+  "tr": "(zarar) vermek; sürmek (boya)",
+  "gov": "что? кому? чему?",
+  "ex": "Наводнение нанесло серьёзный ущерб сельскому хозяйству.",
+  "exTr": "Sel tarıma ciddi zarar verdi."
+ },
+ {
+  "impf": "причинять",
+  "perf": "причинить",
+  "tr": "(zarar, acı) vermek, neden olmak",
+  "gov": "что? кому?",
+  "ex": "Ураган причинил городу огромный ущерб.",
+  "exTr": "Kasırga şehre çok büyük zarar verdi."
+ },
+ {
+  "impf": "возмещать",
+  "perf": "возместить",
+  "tr": "tazmin etmek, telafi etmek",
+  "gov": "что? кому?",
+  "ex": "Компания обязана возместить ущерб, нанесённый природе.",
+  "exTr": "Şirket doğaya verdiği zararı tazmin etmek zorunda."
+ },
+ {
+  "impf": "вредить",
+  "perf": "навредить",
+  "tr": "zarar vermek",
+  "gov": "кому? чему?",
+  "ex": "Пестициды вредят здоровью человека и животных.",
+  "exTr": "Pestisitler insan ve hayvan sağlığına zarar verir."
+ },
+ {
+  "impf": "оснащать",
+  "perf": "оснастить",
+  "tr": "donatmak",
+  "gov": "что? чем?",
+  "ex": "Больницы оснащают современным медицинским оборудованием.",
+  "exTr": "Hastaneler modern tıbbi ekipmanla donatılıyor."
+ },
+ {
+  "impf": "отслеживать",
+  "perf": "отследить",
+  "tr": "izlemek, takip etmek",
+  "gov": "что? кого?",
+  "ex": "Спутники отслеживают изменения температуры океана.",
+  "exTr": "Uydular okyanus sıcaklığındaki değişimleri izliyor."
+ },
+ {
+  "impf": "испаряться",
+  "perf": "испариться",
+  "tr": "buharlaşmak",
+  "gov": "",
+  "ex": "При высокой температуре вода быстро испаряется.",
+  "exTr": "Yüksek sıcaklıkta su hızla buharlaşır."
+ },
+ {
+  "impf": "пересыхать",
+  "perf": "пересохнуть",
+  "tr": "(nehir, göl) kuruyup suyu kesilmek (высохнуть: genel kurumak)",
+  "gov": "",
+  "ex": "Летом небольшие реки в степи часто пересыхают.",
+  "exTr": "Yazın bozkırdaki küçük nehirler sık sık kurur."
+ },
+ {
+  "impf": "размывать",
+  "perf": "размыть",
+  "tr": "(su) aşındırmak, oymak; belirsizleştirmek",
+  "gov": "что?",
+  "ex": "Волны постепенно размывают берег.",
+  "exTr": "Dalgalar kıyıyı yavaş yavaş aşındırıyor."
+ },
+ {
+  "impf": "вырубать",
+  "perf": "вырубить",
+  "tr": "(orman) kesmek, yok etmek",
+  "gov": "что?",
+  "ex": "Ежегодно в мире вырубают миллионы гектаров леса.",
+  "exTr": "Dünyada her yıl milyonlarca hektar orman kesiliyor."
+ },
+ {
+  "impf": "осушать",
+  "perf": "осушить",
+  "tr": "kurutmak (bataklık)",
+  "gov": "что?",
+  "ex": "В прошлом веке здесь осушили болота ради сельского хозяйства.",
+  "exTr": "Geçen yüzyılda burada tarım için bataklıklar kurutuldu."
+ },
+ {
+  "impf": "орошать",
+  "perf": "оросить",
+  "tr": "sulamak (tarım arazisi)",
+  "gov": "что? чем?",
+  "ex": "Воды канала орошают тысячи гектаров засушливых земель.",
+  "exTr": "Kanalın suları binlerce hektar kurak araziyi suluyor."
+ },
+ {
+  "impf": "пополнять",
+  "perf": "пополнить",
+  "tr": "takviye etmek, doldurmak (eksiği)",
+  "gov": "что? чем?",
+  "ex": "Талые воды пополняют запасы подземных вод.",
+  "exTr": "Kar suları yeraltı su rezervlerini besler."
+ },
+ {
+  "impf": "разрастаться",
+  "perf": "разрастись",
+  "tr": "büyüyüp yayılmak, genişlemek",
+  "gov": "",
+  "ex": "Города быстро разрастаются за счёт сельских территорий.",
+  "exTr": "Şehirler kırsal alanlar pahasına hızla genişliyor."
+ },
+ {
+  "impf": "зарастать",
+  "perf": "зарасти",
+  "tr": "(bitkiyle) kaplanmak",
+  "gov": "чем?",
+  "ex": "Заброшенные поля быстро зарастают сорняками.",
+  "exTr": "Terk edilmiş tarlaları hızla yabani otlar kaplar."
+ },
+ {
+  "impf": "разлагаться",
+  "perf": "разложиться",
+  "tr": "ayrışmak, çürümek",
+  "gov": "на что?",
+  "ex": "Пластик разлагается в природе сотни лет.",
+  "exTr": "Plastik doğada yüzlerce yılda ayrışır."
+ },
+ {
+  "impf": "проникать",
+  "perf": "проникнуть",
+  "tr": "nüfuz etmek, sızmak, girmek",
+  "gov": "во что? куда?",
+  "ex": "Вредные вещества проникают в грунтовые воды.",
+  "exTr": "Zararlı maddeler yeraltı sularına sızıyor."
+ },
+ {
+  "impf": "просачиваться",
+  "perf": "просочиться",
+  "tr": "sızmak (sıvı; bilgi)",
+  "gov": "во что? куда? через что?",
+  "ex": "Информация о сделке просочилась в прессу.",
+  "exTr": "Anlaşmayla ilgili bilgiler basına sızdı."
+ },
+ {
+  "impf": "истекать",
+  "perf": "истечь",
+  "tr": "(süre) dolmak, sona ermek (вытекать: akıp çıkmak)",
+  "gov": "",
+  "ex": "Срок действия договора истекает в конце года.",
+  "exTr": "Sözleşmenin geçerlilik süresi yıl sonunda doluyor."
+ },
+ {
+  "impf": "обитать",
+  "perf": "",
+  "tr": "yaşamak (canlı türü), barınmak",
+  "gov": "где?",
+  "ex": "В этих лесах обитают редкие виды птиц.",
+  "exTr": "Bu ormanlarda nadir kuş türleri yaşar."
+ },
+ {
+  "impf": "излучать",
+  "perf": "излучить",
+  "tr": "yaymak (ışın, enerji)",
+  "gov": "что?",
+  "ex": "Солнце излучает огромное количество энергии.",
+  "exTr": "Güneş muazzam miktarda enerji yayar."
+ },
+ {
+  "impf": "насыщать",
+  "perf": "насытить",
+  "tr": "doyurmak, zenginleştirmek",
+  "gov": "что? чем?",
+  "ex": "Растения насыщают воздух кислородом.",
+  "exTr": "Bitkiler havayı oksijenle zenginleştirir."
+ },
+ {
+  "impf": "смещаться",
+  "perf": "сместиться",
+  "tr": "kaymak, yer değiştirmek",
+  "gov": "куда?",
+  "ex": "Центр мировой экономической активности сместился в Азию.",
+  "exTr": "Dünya ekonomik faaliyetinin merkezi Asya'ya kaydı."
+ },
+ {
+  "impf": "учащаться",
+  "perf": "участиться",
+  "tr": "sıklaşmak",
+  "gov": "",
+  "ex": "В последние годы участились случаи лесных пожаров.",
+  "exTr": "Son yıllarda orman yangını vakaları sıklaştı."
+ },
+ {
+  "impf": "переключаться",
+  "perf": "переключиться",
+  "tr": "geçiş yapmak, yönelmek",
+  "gov": "на что?",
+  "ex": "Многие страны переключаются на возобновляемые источники энергии.",
+  "exTr": "Birçok ülke yenilenebilir enerji kaynaklarına geçiyor."
+ },
+ {
+  "impf": "переселяться",
+  "perf": "переселиться",
+  "tr": "göç etmek, taşınmak (yerleşim)",
+  "gov": "куда? откуда?",
+  "ex": "Жители затопленных деревень переселились в город.",
+  "exTr": "Sular altında kalan köylerin sakinleri şehre taşındı."
+ },
+ {
+  "impf": "оберегать",
+  "perf": "оберечь",
+  "tr": "korumak, sakınmak",
+  "gov": "кого? что? от чего?",
+  "ex": "Заповедник оберегает редкие растения от уничтожения.",
+  "exTr": "Doğa koruma alanı nadir bitkileri yok olmaktan korur."
+ },
+ {
+  "impf": "убывать",
+  "perf": "убыть",
+  "tr": "azalmak, çekilmek (su)",
+  "gov": "",
+  "ex": "Вода в реке постепенно убывает после половодья.",
+  "exTr": "Taşkından sonra nehirdeki su yavaş yavaş çekiliyor."
+ },
+ {
+  "impf": "обесценивать",
+  "perf": "обесценить",
+  "tr": "değerini düşürmek, değersizleştirmek",
+  "gov": "что?",
+  "ex": "Высокая инфляция обесценивает сбережения населения.",
+  "exTr": "Yüksek enflasyon halkın birikimlerini değersizleştiriyor."
+ },
+ {
+  "impf": "подрывать",
+  "perf": "подорвать",
+  "tr": "baltalamak, sarsmak (güven, sağlık); havaya uçurmak",
+  "gov": "что?",
+  "ex": "Скандал подорвал доверие инвесторов к компании.",
+  "exTr": "Skandal yatırımcıların şirkete olan güvenini sarstı."
+ },
+ {
+  "impf": "наращивать",
+  "perf": "нарастить",
+  "tr": "artırmak, büyütmek (üretim, güç; нарастать: kendiliğinden artmak)",
+  "gov": "что?",
+  "ex": "Страна наращивает добычу природного газа.",
+  "exTr": "Ülke doğal gaz üretimini artırıyor."
+ },
+ {
+  "impf": "сворачивать",
+  "perf": "свернуть",
+  "tr": "durdurmak, faaliyeti kısmak/sonlandırmak; katlamak",
+  "gov": "что?",
+  "ex": "Многие иностранные компании свернули деятельность в регионе.",
+  "exTr": "Birçok yabancı şirket bölgedeki faaliyetlerini sonlandırdı."
+ },
+ {
+  "impf": "развёртывать",
+  "perf": "развернуть",
+  "tr": "başlatmak, yaygınlaştırmak (kampanya), konuşlandırmak",
+  "gov": "что?",
+  "ex": "Власти развернули масштабную кампанию по вакцинации.",
+  "exTr": "Yetkililer geniş çaplı bir aşılama kampanyası başlattı."
+ },
+ {
+  "impf": "вовлекать",
+  "perf": "вовлечь",
+  "tr": "dahil etmek, içine çekmek",
+  "gov": "кого? во что?",
+  "ex": "Проект вовлекает местных жителей в охрану природы.",
+  "exTr": "Proje yerel halkı doğa korumaya dahil ediyor."
+ },
+ {
+  "impf": "перенимать",
+  "perf": "перенять",
+  "tr": "benimsemek, (deneyim, alışkanlık) almak",
+  "gov": "что? у кого?",
+  "ex": "Развивающиеся страны перенимают опыт передовых экономик.",
+  "exTr": "Gelişmekte olan ülkeler ileri ekonomilerin deneyimini benimsiyor."
+ },
+ {
+  "impf": "перестраивать",
+  "perf": "перестроить",
+  "tr": "yeniden yapılandırmak, yeniden inşa etmek",
+  "gov": "что?",
+  "ex": "Компании вынуждены перестраивать свои бизнес-модели.",
+  "exTr": "Şirketler iş modellerini yeniden yapılandırmak zorunda kalıyor."
+ },
+ {
+  "impf": "преображаться",
+  "perf": "преобразиться",
+  "tr": "(olumlu yönde) baştan aşağı değişmek (преобразовать: dönüştürmek)",
+  "gov": "",
+  "ex": "После реконструкции набережная полностью преобразилась.",
+  "exTr": "Yenilemenin ardından sahil yolu tamamen değişti."
+ },
+ {
+  "impf": "видоизменять",
+  "perf": "видоизменить",
+  "tr": "biçimini değiştirmek, kısmen değiştirmek",
+  "gov": "что?",
+  "ex": "Человек существенно видоизменил природные ландшафты.",
+  "exTr": "İnsan doğal manzaraları önemli ölçüde değiştirdi."
+ },
+ {
+  "impf": "трансформироваться",
+  "perf": "трансформироваться",
+  "tr": "dönüşmek (iki görünüşlü)",
+  "gov": "во что?",
+  "ex": "Рынок труда трансформируется под влиянием автоматизации.",
+  "exTr": "İş piyasası otomasyonun etkisiyle dönüşüyor."
+ },
+ {
+  "impf": "деградировать",
+  "perf": "деградировать",
+  "tr": "bozulmak, gerilemek (iki görünüşlü)",
+  "gov": "",
+  "ex": "Без надлежащего ухода почвы быстро деградируют.",
+  "exTr": "Uygun bakım yapılmazsa topraklar hızla bozulur."
+ },
+ {
+  "impf": "мутировать",
+  "perf": "мутировать",
+  "tr": "mutasyona uğramak (iki görünüşlü)",
+  "gov": "",
+  "ex": "Вирус быстро мутирует, поэтому вакцину приходится обновлять.",
+  "exTr": "Virüs hızla mutasyona uğradığı için aşının güncellenmesi gerekiyor."
+ },
+ {
+  "impf": "упразднять",
+  "perf": "упразднить",
+  "tr": "lağvetmek, kaldırmak (kurum, makam)",
+  "gov": "что?",
+  "ex": "Реформа упразднила несколько государственных ведомств.",
+  "exTr": "Reform birkaç devlet kurumunu lağvetti."
+ },
+ {
+  "impf": "искоренять",
+  "perf": "искоренить",
+  "tr": "kökünü kazımak",
+  "gov": "что?",
+  "ex": "Правительство стремится искоренить коррупцию.",
+  "exTr": "Hükümet yolsuzluğun kökünü kazımaya çalışıyor."
+ },
+ {
+  "impf": "продлевать",
+  "perf": "продлить",
+  "tr": "(süre) uzatmak (удлинить: fiziksel uzatmak)",
+  "gov": "что? на сколько?",
+  "ex": "Правительство продлило действие ограничений ещё на месяц.",
+  "exTr": "Hükümet kısıtlamaların süresini bir ay daha uzattı."
+ },
+ {
+  "impf": "удлинять",
+  "perf": "удлинить",
+  "tr": "(fiziksel olarak) uzatmak (продлить: süre uzatmak)",
+  "gov": "что?",
+  "ex": "Строители удлинили взлётную полосу аэропорта.",
+  "exTr": "İnşaatçılar havalimanının pistini uzattı."
+ },
+ {
+  "impf": "урезывать",
+  "perf": "урезать",
+  "tr": "kısmak, kesinti yapmak (bütçe)",
+  "gov": "что?",
+  "ex": "Правительство урезало расходы на науку.",
+  "exTr": "Hükümet bilime ayrılan harcamalarda kesintiye gitti."
+ },
+ {
+  "impf": "сопровождаться",
+  "perf": "",
+  "tr": "eşlik edilmek, beraberinde gelmek",
+  "gov": "чем?",
+  "ex": "Землетрясение сопровождалось мощным цунами.",
+  "exTr": "Depreme güçlü bir tsunami eşlik etti."
+ },
+ {
+  "impf": "сменяться",
+  "perf": "смениться",
+  "tr": "yerini (başkasına) bırakmak",
+  "gov": "чем?",
+  "ex": "Засуха сменилась затяжными дождями.",
+  "exTr": "Kuraklık yerini uzun süren yağmurlara bıraktı."
+ },
+ {
+  "impf": "угасать",
+  "perf": "угаснуть",
+  "tr": "sönmek, yavaş yavaş azalmak",
+  "gov": "",
+  "ex": "Интерес общества к проекту постепенно угас.",
+  "exTr": "Toplumun projeye ilgisi yavaş yavaş söndü."
+ },
+ {
+  "impf": "иссякать",
+  "perf": "иссякнуть",
+  "tr": "(kaynak) kurumak, tükenmek",
+  "gov": "",
+  "ex": "Источники финансирования проекта иссякли.",
+  "exTr": "Projenin finansman kaynakları tükendi."
+ },
+ {
+  "impf": "опустошать",
+  "perf": "опустошить",
+  "tr": "harap etmek, boşaltmak",
+  "gov": "что?",
+  "ex": "Война опустошила целые регионы страны.",
+  "exTr": "Savaş ülkenin koca bölgelerini harap etti."
+ },
+ {
+  "impf": "истреблять",
+  "perf": "истребить",
+  "tr": "kırıp geçirmek, toptan yok etmek",
+  "gov": "кого? что?",
+  "ex": "Браконьеры почти полностью истребили популяцию тигров.",
+  "exTr": "Kaçak avcılar kaplan popülasyonunu neredeyse tamamen yok etti."
+ },
+ {
+  "impf": "обогащать",
+  "perf": "обогатить",
+  "tr": "zenginleştirmek",
+  "gov": "что? чем?",
+  "ex": "Бобовые растения обогащают почву азотом.",
+  "exTr": "Baklagiller toprağı azotla zenginleştirir."
+ },
+ {
+  "impf": "обеззараживать",
+  "perf": "обеззаразить",
+  "tr": "dezenfekte etmek, mikroptan arındırmak",
+  "gov": "что? чем?",
+  "ex": "Питьевую воду обеззараживают с помощью хлора.",
+  "exTr": "İçme suyu klor yardımıyla dezenfekte edilir."
+ },
+ {
+  "impf": "опреснять",
+  "perf": "опреснить",
+  "tr": "(deniz suyunu) tuzdan arındırmak",
+  "gov": "что?",
+  "ex": "В Израиле опресняют морскую воду для бытовых нужд.",
+  "exTr": "İsrail'de evsel ihtiyaçlar için deniz suyu tuzdan arındırılıyor."
+ },
+ {
+  "impf": "утилизировать",
+  "perf": "утилизировать",
+  "tr": "bertaraf etmek, geri kazanmak (iki görünüşlü)",
+  "gov": "что?",
+  "ex": "Старые батарейки необходимо утилизировать отдельно от мусора.",
+  "exTr": "Eski piller çöpten ayrı olarak bertaraf edilmelidir."
+ },
+ {
+  "impf": "сортировать",
+  "perf": "рассортировать",
+  "tr": "ayıklamak, sınıflandırmak",
+  "gov": "что? по чему?",
+  "ex": "Жители города сортируют мусор по видам отходов.",
+  "exTr": "Şehir sakinleri çöpleri atık türüne göre ayırıyor."
+ },
+ {
+  "impf": "захоранивать",
+  "perf": "захоронить",
+  "tr": "gömmek (atık; ölü)",
+  "gov": "что? где?",
+  "ex": "Радиоактивные отходы захоранивают глубоко под землёй.",
+  "exTr": "Radyoaktif atıklar yerin derinliklerine gömülür."
+ },
+ {
+  "impf": "оттаивать",
+  "perf": "оттаять",
+  "tr": "çözülmek (donmuş şey; таять: erimek)",
+  "gov": "",
+  "ex": "Вечная мерзлота оттаивает из-за глобального потепления.",
+  "exTr": "Küresel ısınma nedeniyle donmuş toprak çözülüyor."
+ },
+ {
+  "impf": "вторгаться",
+  "perf": "вторгнуться",
+  "tr": "istila etmek, izinsiz girmek",
+  "gov": "во что? куда?",
+  "ex": "Чужеродные виды вторгаются в местные экосистемы.",
+  "exTr": "Yabancı türler yerel ekosistemleri istila ediyor."
+ },
+ {
+  "impf": "обрушиваться",
+  "perf": "обрушиться",
+  "tr": "çökmek; (felaket) aniden inmek",
+  "gov": "на кого? на что?",
+  "ex": "Из-за землетрясения обрушилось несколько зданий.",
+  "exTr": "Deprem nedeniyle birkaç bina çöktü."
+ },
+ {
+  "impf": "извергаться",
+  "perf": "извергнуться",
+  "tr": "(yanardağ) püskürmek",
+  "gov": "",
+  "ex": "Вулкан извергался несколько недель подряд.",
+  "exTr": "Yanardağ birkaç hafta boyunca püskürdü."
+ },
+ {
+  "impf": "сотрясать",
+  "perf": "сотрясти",
+  "tr": "sarsmak",
+  "gov": "что?",
+  "ex": "Мощное землетрясение сотрясло побережье Японии.",
+  "exTr": "Güçlü bir deprem Japonya kıyılarını sarstı."
+ },
+ {
+  "impf": "надвигаться",
+  "perf": "надвинуться",
+  "tr": "(tehlike, fırtına) yaklaşmak",
+  "gov": "на кого? на что?",
+  "ex": "На побережье надвигается сильный шторм.",
+  "exTr": "Kıyıya şiddetli bir fırtına yaklaşıyor."
+ },
+ {
+  "impf": "стихать",
+  "perf": "стихнуть",
+  "tr": "dinmek, durulmak",
+  "gov": "",
+  "ex": "К вечеру ветер постепенно стих.",
+  "exTr": "Akşama doğru rüzgâr yavaş yavaş dindi."
+ },
+ {
+  "impf": "растворяться",
+  "perf": "раствориться",
+  "tr": "çözünmek, erimek (sıvıda)",
+  "gov": "в чём?",
+  "ex": "Углекислый газ растворяется в морской воде.",
+  "exTr": "Karbondioksit deniz suyunda çözünür."
+ },
+ {
+  "impf": "оседать",
+  "perf": "осесть",
+  "tr": "çökelmek, birikmek; yerleşmek",
+  "gov": "на чём? где?",
+  "ex": "Пыль и сажа оседают на листьях растений.",
+  "exTr": "Toz ve is bitkilerin yapraklarında birikir."
+ },
+ {
+  "impf": "скапливаться",
+  "perf": "скопиться",
+  "tr": "toplanmak, birikmek (bir yerde; накапливаться: zamanla birikmek)",
+  "gov": "где?",
+  "ex": "В низинах скапливается холодный воздух.",
+  "exTr": "Çukur yerlerde soğuk hava toplanır."
+ },
+ {
+  "impf": "выветриваться",
+  "perf": "выветриться",
+  "tr": "(kaya) aşınmak; (koku) uçmak; unutulmak",
+  "gov": "",
+  "ex": "Горные породы выветриваются под действием ветра и воды.",
+  "exTr": "Kayaçlar rüzgâr ve suyun etkisiyle aşınır."
+ },
+ {
+  "impf": "изнашиваться",
+  "perf": "износиться",
+  "tr": "yıpranmak, aşınmak",
+  "gov": "",
+  "ex": "Оборудование быстро изнашивается при интенсивной эксплуатации.",
+  "exTr": "Ekipman yoğun kullanımda hızla yıpranır."
+ },
+ {
+  "impf": "перегреваться",
+  "perf": "перегреться",
+  "tr": "aşırı ısınmak",
+  "gov": "",
+  "ex": "При длительной работе процессор может перегреться.",
+  "exTr": "Uzun süreli çalışmada işlemci aşırı ısınabilir."
+ },
+ {
+  "impf": "оцифровывать",
+  "perf": "оцифровать",
+  "tr": "dijitalleştirmek",
+  "gov": "что?",
+  "ex": "Библиотека оцифровала тысячи старинных рукописей.",
+  "exTr": "Kütüphane binlerce eski el yazmasını dijitalleştirdi."
+ },
+ {
+  "impf": "утекать",
+  "perf": "утечь",
+  "tr": "akıp gitmek, sızmak (sermaye, beyin göçü)",
+  "gov": "откуда? куда?",
+  "ex": "Из страны утекают капиталы и квалифицированные специалисты.",
+  "exTr": "Ülkeden sermaye ve nitelikli uzmanlar akıp gidiyor."
+ },
+ {
+  "impf": "сводить",
+  "perf": "свести",
+  "tr": "indirgemek (к минимуму); bir araya getirmek",
+  "gov": "что? к чему?",
+  "ex": "Новые фильтры сводят вредные выбросы к минимуму.",
+  "exTr": "Yeni filtreler zararlı emisyonları en aza indiriyor."
+ },
+ {
+  "impf": "приумножать",
+  "perf": "приумножить",
+  "tr": "çoğaltmak, artırmak (servet, miras)",
+  "gov": "что?",
+  "ex": "Необходимо не только сохранить, но и приумножить природные богатства.",
+  "exTr": "Doğal zenginlikleri yalnızca korumak değil, çoğaltmak da gerekir."
+ },
+ {
+  "impf": "нагнетать",
+  "perf": "нагнести",
+  "tr": "tırmandırmak (gerginlik, panik); basınçla pompalamak",
+  "gov": "что?",
+  "ex": "Некоторые СМИ нагнетают панику вокруг эпидемии.",
+  "exTr": "Bazı medya kuruluşları salgın konusunda paniği tırmandırıyor."
+ },
+ {
+  "impf": "разжигать",
+  "perf": "разжечь",
+  "tr": "körüklemek, alevlendirmek; ateş yakmak",
+  "gov": "что?",
+  "ex": "Некоторые политики разжигают межнациональную рознь.",
+  "exTr": "Bazı politikacılar etnik düşmanlığı körüklüyor."
+ },
+ {
+  "impf": "расшатывать",
+  "perf": "расшатать",
+  "tr": "sarsmak, zayıflatmak (yavaş yavaş)",
+  "gov": "что?",
+  "ex": "Постоянный стресс расшатывает нервную систему.",
+  "exTr": "Sürekli stres sinir sistemini yıpratır."
+ }
+]

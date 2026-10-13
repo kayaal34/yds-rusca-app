@@ -1,0 +1,1685 @@
+[
+  {
+    "topic": "padezh",
+    "title": "Hâller (Падежи)",
+    "summary": "Rusçada 6 hâl vardır; isim, sıfat ve zamirler cümledeki göreve göre çekimlenir. YDS'de doğru hâli bulmak (özellikle edat ve fiil yönetimi) en sık sorulan konudur.",
+    "sections": [
+      {
+        "h": "6 hâl ve soruları",
+        "body": "• Именительный (Yalın): кто? что? — özne\n• Родительный (-in hâli): кого? чего? — aitlik, yokluk, miktar\n• Дательный (-e hâli): кому? чему? — kime/neye, yaş, gerek\n• Винительный (-i hâli): кого? что? — doğrudan nesne, yön\n• Творительный (Araç): кем? чем? — ile, meslek, araç\n• Предложный (Bulunma): о ком? о чём? — nerede, hakkında",
+        "examples": [
+          {
+            "ru": "Студент читает книгу.",
+            "tr": "Öğrenci kitabı okuyor."
+          },
+          {
+            "ru": "У брата нет машины.",
+            "tr": "Erkek kardeşin arabası yok."
+          },
+          {
+            "ru": "Я говорю о работе.",
+            "tr": "İş hakkında konuşuyorum."
+          },
+          {
+            "ru": "Мы подарили учителю цветы.",
+            "tr": "Öğretmene çiçek hediye ettik."
+          },
+          {
+            "ru": "Она гордится своим сыном.",
+            "tr": "Oğluyla gurur duyuyor."
+          },
+          {
+            "ru": "Правительство обсуждает проблемы экономики.",
+            "tr": "Hükümet ekonominin sorunlarını görüşüyor."
+          }
+        ]
+      },
+      {
+        "h": "İsim sonları (tekil)",
+        "body": "Erkek (стол): И. стол, Р. стола, Д. столу, В. стол, Т. столом, П. о столе\nDişi -а (книга): книга, книги, книге, книгу, книгой, о книге\nDişi -я (неделя): неделя, недели, неделе, неделю, неделей, о неделе\nNötr -о (окно): окно, окна, окну, окно, окном, об окне\nDişi -ь (дверь): дверь, двери, двери, дверь, дверью, о двери\n• Canlı erkek isimlerde В. = Р.: вижу брата.",
+        "examples": [
+          {
+            "ru": "Я вижу брата и сестру.",
+            "tr": "Erkek kardeşimi ve kız kardeşimi görüyorum."
+          },
+          {
+            "ru": "Он пишет ручкой.",
+            "tr": "Kalemle yazıyor."
+          },
+          {
+            "ru": "Мы живём в новой квартире.",
+            "tr": "Yeni bir dairede yaşıyoruz."
+          },
+          {
+            "ru": "Не хлопай дверью!",
+            "tr": "Kapıyı çarpma!"
+          },
+          {
+            "ru": "Я позвонил другу на прошлой неделе.",
+            "tr": "Geçen hafta arkadaşımı aradım."
+          },
+          {
+            "ru": "Министр рассказал о новой реформе на пресс-конференции.",
+            "tr": "Bakan basın toplantısında yeni reformu anlattı."
+          }
+        ]
+      },
+      {
+        "h": "Sıfat sonları (tekil)",
+        "body": "Erkek: новый, нового, новому, новый/нового, новым, о новом\nDişi: новая, новой, новой, новую, новой, о новой\nNötr: новое, нового, новому, новое, новым, о новом\n• Sıfat ismin hâline, cinsine ve sayısına uyar.\n• Çoğul: новые, новых, новым, новые/новых, новыми, о новых",
+        "examples": [
+          {
+            "ru": "Я читаю интересную книгу.",
+            "tr": "İlginç bir kitap okuyorum."
+          },
+          {
+            "ru": "Он работает с новым компьютером.",
+            "tr": "Yeni bir bilgisayarla çalışıyor."
+          },
+          {
+            "ru": "Мы говорим о старых друзьях.",
+            "tr": "Eski arkadaşlardan söz ediyoruz."
+          },
+          {
+            "ru": "Он живёт в большом городе.",
+            "tr": "Büyük bir şehirde yaşıyor."
+          },
+          {
+            "ru": "У нашей соседки нет новой машины.",
+            "tr": "Komşumuzun yeni arabası yok."
+          },
+          {
+            "ru": "Новые технологии оказывают сильное влияние на современное общество.",
+            "tr": "Yeni teknolojiler modern toplum üzerinde güçlü bir etki yapıyor."
+          }
+        ]
+      },
+      {
+        "h": "Çoğul sonlar",
+        "body": "И.: -ы/-и (столы, книги)\nР.: -ов/-ев, -ей, boş (столов, дней, книг)\nД.: -ам/-ям (столам)\nТ.: -ами/-ями (столами)\nП.: -ах/-ях (о столах)\n• Düzensizler: человек–люди, ребёнок–дети, друг–друзья, брат–братья.",
+        "examples": [
+          {
+            "ru": "У студентов много книг.",
+            "tr": "Öğrencilerin çok kitabı var."
+          },
+          {
+            "ru": "Я иду к друзьям.",
+            "tr": "Arkadaşlarımın yanına gidiyorum."
+          },
+          {
+            "ru": "Он гордится детьми.",
+            "tr": "Çocuklarıyla gurur duyuyor."
+          },
+          {
+            "ru": "В городе много старых домов.",
+            "tr": "Şehirde çok sayıda eski ev var."
+          },
+          {
+            "ru": "Учитель рассказывает детям о книгах.",
+            "tr": "Öğretmen çocuklara kitaplardan söz ediyor."
+          },
+          {
+            "ru": "В опросе участвовали более тысячи студентов из десяти стран.",
+            "tr": "Ankete on ülkeden binden fazla öğrenci katıldı."
+          }
+        ]
+      },
+      {
+        "h": "Hâllerin başlıca kullanımları",
+        "body": "• Р.: yokluk (нет), miktar (много, мало, несколько), sahiplik (книга брата), olumsuz cümlede nesne\n• Д.: помогать, звонить, нравиться, советовать, мешать + Д.; yaş (мне 20 лет); gerek (мне нужно)\n• В.: doğrudan nesne; yön (в школу); zaman (в пятницу, через час)\n• Т.: быть, стать, работать + Т. (meslek); с + Т.; интересоваться, заниматься + Т.\n• П.: в/на (yer), о (hakkında), при",
+        "examples": [
+          {
+            "ru": "Мне нравится эта музыка.",
+            "tr": "Bu müziği beğeniyorum."
+          },
+          {
+            "ru": "Он стал врачом.",
+            "tr": "Doktor oldu."
+          },
+          {
+            "ru": "Я не вижу этой проблемы.",
+            "tr": "Bu sorunu görmüyorum."
+          },
+          {
+            "ru": "Брату нужно больше времени.",
+            "tr": "Erkek kardeşimin daha fazla zamana ihtiyacı var."
+          },
+          {
+            "ru": "В пятницу она занимается спортом.",
+            "tr": "Cuma günü spor yapıyor."
+          },
+          {
+            "ru": "Эксперты советуют правительству принять срочные меры.",
+            "tr": "Uzmanlar hükümete acil önlemler almasını tavsiye ediyor."
+          }
+        ]
+      },
+      {
+        "h": "Edatlarla hâller (kısa liste)",
+        "body": "• Р.: без, для, до, из, от, с, у, около, после, из-за\n• Д.: к, по, благодаря, согласно\n• В.: в, на (yön), за, через, про, под\n• Т.: с, над, перед, между, за, под (yer)\n• П.: в, на (yer), о, при",
+        "examples": [
+          {
+            "ru": "Я пью чай без сахара.",
+            "tr": "Çayı şekersiz içiyorum."
+          },
+          {
+            "ru": "Благодаря помощи друга, я сдал экзамен.",
+            "tr": "Arkadaşımın yardımı sayesinde sınavı geçtim."
+          },
+          {
+            "ru": "Лампа висит над столом.",
+            "tr": "Lamba masanın üstünde asılı."
+          },
+          {
+            "ru": "Мы встретимся после урока у входа.",
+            "tr": "Dersten sonra girişte buluşacağız."
+          },
+          {
+            "ru": "Каждое утро он гуляет по парку.",
+            "tr": "Her sabah parkta yürüyüş yapıyor."
+          },
+          {
+            "ru": "Согласно новому закону, этот налог будет отменён через год.",
+            "tr": "Yeni yasaya göre bu vergi bir yıl sonra kaldırılacak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "vid",
+    "title": "Fiil Görünüşü (Вид глагола)",
+    "summary": "Rusça fiillerin iki görünüşü vardır: bitmemiş (НСВ) süreci, tekrarı; bitmiş (СВ) sonucu ve tek seferlik tamamlanmış eylemi anlatır. Doğru görünüşü seçmek YDS'nin temel sorularındandır.",
+    "sections": [
+      {
+        "h": "Temel fark",
+        "body": "• НСВ (несовершенный): ne yapıyor? — süreç, alışkanlık, tekrar. Üç zamanı da vardır (читал, читаю, буду читать).\n• СВ (совершенный): ne yaptı? — sonuç, tamamlanma, tek sefer. Şimdiki zamanı yoktur; biçim olarak geçmiş ve gelecek anlatır (прочитал, прочитаю).\n• Gelecek: НСВ = буду + mastar; СВ = tek kelime.",
+        "examples": [
+          {
+            "ru": "Я читал книгу весь вечер.",
+            "tr": "Bütün akşam kitap okudum (süreç)."
+          },
+          {
+            "ru": "Я прочитал книгу за вечер.",
+            "tr": "Kitabı bir akşamda okuyup bitirdim."
+          },
+          {
+            "ru": "Завтра я напишу письмо.",
+            "tr": "Yarın mektubu yazacağım (bitireceğim)."
+          },
+          {
+            "ru": "Я буду читать эту книгу всё лето.",
+            "tr": "Bu kitabı bütün yaz okuyacağım."
+          },
+          {
+            "ru": "Вчера она долго писала доклад и наконец написала его.",
+            "tr": "Dün uzun süre raporu yazdı ve sonunda bitirdi."
+          },
+          {
+            "ru": "Учёные изучали эту проблему десять лет и наконец нашли решение.",
+            "tr": "Bilim insanları bu sorunu on yıl incelediler ve sonunda bir çözüm buldular."
+          }
+        ]
+      },
+      {
+        "h": "НСВ ne zaman kullanılır?",
+        "body": "• Süreç ve süre: долго, весь день, два часа\n• Tekrar/alışkanlık: всегда, часто, каждый день, обычно, иногда\n• Eylemin kendisi önemli, sonuç değil: Что делал? — Читал.\n• Başlama, bitirme, devam fiillerinden sonra: начать, продолжать, кончить, перестать + НСВ mastar",
+        "examples": [
+          {
+            "ru": "Он каждый день пьёт кофе.",
+            "tr": "Her gün kahve içer."
+          },
+          {
+            "ru": "Она начала готовить ужин.",
+            "tr": "Akşam yemeği hazırlamaya başladı."
+          },
+          {
+            "ru": "Мы долго разговаривали.",
+            "tr": "Uzun süre konuştuk."
+          },
+          {
+            "ru": "— Что ты делал вчера вечером? — Смотрел телевизор.",
+            "tr": "— Dün akşam ne yaptın? — Televizyon izledim."
+          },
+          {
+            "ru": "Дети перестали шуметь.",
+            "tr": "Çocuklar gürültü yapmayı kestiler."
+          },
+          {
+            "ru": "В последние годы цены на жильё постоянно растут.",
+            "tr": "Son yıllarda konut fiyatları sürekli artıyor."
+          }
+        ]
+      },
+      {
+        "h": "СВ ne zaman kullanılır?",
+        "body": "• Sonuç, tamamlanma: уже, наконец, за час, вдруг, сразу\n• Ardışık eylemler: Он встал, оделся и вышел.\n• Tek seferlik, belirli eylem\n• Gelecekte kesin niyet/söz: Я позвоню вам завтра.\n• Удалось, успеть, забыть, решить gibi fiillerden sonra СВ mastar",
+        "examples": [
+          {
+            "ru": "Я наконец решил эту задачу.",
+            "tr": "Sonunda bu problemi çözdüm."
+          },
+          {
+            "ru": "Он открыл окно и закрыл дверь.",
+            "tr": "Pencereyi açtı ve kapıyı kapattı."
+          },
+          {
+            "ru": "Мне удалось купить билет.",
+            "tr": "Bilet almayı başardım."
+          },
+          {
+            "ru": "Он встал, умылся и сел завтракать.",
+            "tr": "Kalktı, yüzünü yıkadı ve kahvaltıya oturdu."
+          },
+          {
+            "ru": "Я позвоню тебе вечером.",
+            "tr": "Akşam seni arayacağım."
+          },
+          {
+            "ru": "Парламент уже принял новый закон о защите окружающей среды.",
+            "tr": "Meclis çevre korumasına ilişkin yeni yasayı çoktan kabul etti."
+          }
+        ]
+      },
+      {
+        "h": "Görünüş çiftleri",
+        "body": "• Önek ile СВ: делать–сделать, писать–написать, читать–прочитать, видеть–увидеть, строить–построить\n• Sonek ile НСВ: решить–решать, рассказать–рассказывать, открыть–открывать, получить–получать\n• Farklı kök: брать–взять, говорить–сказать, класть–положить, ловить–поймать\n• -ну- СВ: двигать–двинуть, крикнуть (tek seferlik)",
+        "examples": [
+          {
+            "ru": "Он решает задачи, а я решил одну.",
+            "tr": "O problemleri çözüyor, ben ise bir tanesini çözdüm."
+          },
+          {
+            "ru": "Я беру книгу и возьму ещё одну.",
+            "tr": "Kitap alıyorum ve bir tane daha alacağım."
+          },
+          {
+            "ru": "Она рассказывала, а потом рассказала всё.",
+            "tr": "Anlatıyordu, sonra her şeyi anlattı."
+          },
+          {
+            "ru": "Он долго говорил, но ничего не сказал.",
+            "tr": "Uzun uzun konuştu ama hiçbir şey söylemedi."
+          },
+          {
+            "ru": "Обычно я кладу ключи на стол, а сегодня положил их в сумку.",
+            "tr": "Anahtarları genellikle masaya koyarım, bugün ise çantaya koydum."
+          },
+          {
+            "ru": "Компания строила завод три года и построила его в 2024 году.",
+            "tr": "Şirket fabrikayı üç yıl boyunca inşa etti ve 2024'te tamamladı."
+          }
+        ]
+      },
+      {
+        "h": "Emir kipi ve görünüş",
+        "body": "• СВ emir: tek, somut eylem istenir. Откройте окно.\n• НСВ emir: genel, tekrarlı eylem, nezaket, izin, hatırlatma. Открывайте окно каждое утро. Входите, садитесь!\n• Olumsuz emirde genelde НСВ: Не открывайте окно! (uyarı: Не упади! СВ olabilir — kaza)",
+        "examples": [
+          {
+            "ru": "Напишите, пожалуйста, адрес.",
+            "tr": "Lütfen adresi yazın."
+          },
+          {
+            "ru": "Не забывайте закрывать дверь.",
+            "tr": "Kapıyı kapatmayı unutmayın."
+          },
+          {
+            "ru": "Осторожно, не упади!",
+            "tr": "Dikkat, düşme!"
+          },
+          {
+            "ru": "Передайте, пожалуйста, соль.",
+            "tr": "Tuzu uzatır mısınız, lütfen?"
+          },
+          {
+            "ru": "Проходите, раздевайтесь!",
+            "tr": "Buyurun girin, üstünüzü çıkarın!"
+          },
+          {
+            "ru": "Не используйте этот препарат без консультации врача.",
+            "tr": "Bu ilacı doktora danışmadan kullanmayın."
+          }
+        ]
+      },
+      {
+        "h": "Olumsuzluk ve mastar kuralları",
+        "body": "• Olumsuz geçmişte НСВ: eylem olmadı, genel. Я не читал эту книгу (hiç okumadım).\n• Olumsuz geçmişte СВ: beklenen sonuç gerçekleşmedi. Я не прочитал книгу (bitiremedim).\n• нужно/надо/можно + НСВ: genel gereklilik; olumsuz нельзя/не надо + НСВ: yasak.\n• Нельзя + СВ: yapılamaz (imkânsız): Это нельзя забыть.",
+        "examples": [
+          {
+            "ru": "Здесь нельзя курить.",
+            "tr": "Burada sigara içilmez."
+          },
+          {
+            "ru": "Я не сдал экзамен.",
+            "tr": "Sınavı geçemedim."
+          },
+          {
+            "ru": "Не надо покупать хлеб.",
+            "tr": "Ekmek almaya gerek yok."
+          },
+          {
+            "ru": "Я не видел этот фильм.",
+            "tr": "Bu filmi hiç izlemedim."
+          },
+          {
+            "ru": "Окно нельзя открыть: оно сломано.",
+            "tr": "Pencere açılamıyor: bozuk."
+          },
+          {
+            "ru": "Комиссия не приняла решение: голосование перенесли.",
+            "tr": "Komisyon karar alamadı: oylama ertelendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dvizh",
+    "title": "Hareket Fiilleri (Глаголы движения)",
+    "summary": "Rusçada hareket fiillerinin belirli yönlü (идти) ve belirsiz yönlü (ходить) çiftleri vardır. Önek eklenince çift СВ/НСВ görünüş çiftine dönüşür; YDS'de sık sorulur.",
+    "sections": [
+      {
+        "h": "Belirli ve belirsiz yönlü fark",
+        "body": "• Belirli (однонаправленные): tek yön, şu an, belirli bir yere. Я иду в школу.\n• Belirsiz (разнонаправленные): alışkanlık, gidip gelme, yeti, genel. Я хожу в школу.\n• Geçmişte 'gidip döndü' = belirsiz: Вчера я ходил в кино (gittim ve geri döndüm).",
+        "examples": [
+          {
+            "ru": "Сейчас он идёт на работу.",
+            "tr": "Şu an işe gidiyor."
+          },
+          {
+            "ru": "Он ходит на работу каждый день.",
+            "tr": "Her gün işe gider."
+          },
+          {
+            "ru": "Ребёнок уже ходит.",
+            "tr": "Çocuk artık yürüyor."
+          },
+          {
+            "ru": "— Куда ты идёшь? — В библиотеку.",
+            "tr": "— Nereye gidiyorsun? — Kütüphaneye."
+          },
+          {
+            "ru": "Вчера мы ходили в театр.",
+            "tr": "Dün tiyatroya gittik (gidip döndük)."
+          },
+          {
+            "ru": "Каждый год миллионы туристов ездят в Турцию.",
+            "tr": "Her yıl milyonlarca turist Türkiye'ye gidiyor."
+          }
+        ]
+      },
+      {
+        "h": "8 temel çift (yürüyerek ve araçla)",
+        "body": "• идти – ходить (yürümek)\n• ехать – ездить (araçla gitmek)\n• бежать – бегать (koşmak)\n• лететь – летать (uçmak)\n• плыть – плавать (yüzmek)\n• нести – носить (taşımak)\n• вести – водить (götürmek, sürmek)\n• везти – возить (araçla taşımak)\n• Ek: ползти–ползать, лезть–лазить",
+        "examples": [
+          {
+            "ru": "Самолёт летит в Москву.",
+            "tr": "Uçak Moskova'ya uçuyor."
+          },
+          {
+            "ru": "Она носит очки.",
+            "tr": "Gözlük takıyor (taşıyor)."
+          },
+          {
+            "ru": "Мама ведёт сына в школу.",
+            "tr": "Anne oğlunu okula götürüyor."
+          },
+          {
+            "ru": "Он очень хорошо плавает.",
+            "tr": "Çok iyi yüzer."
+          },
+          {
+            "ru": "Грузовик везёт продукты в магазин.",
+            "tr": "Kamyon mağazaya gıda taşıyor."
+          },
+          {
+            "ru": "Танкеры возят нефть из России в Европу.",
+            "tr": "Tankerler Rusya'dan Avrupa'ya petrol taşıyor."
+          }
+        ]
+      },
+      {
+        "h": "Çekim özellikleri",
+        "body": "• идти: иду, идёшь, идут; geçmiş шёл, шла, шли\n• ехать: еду, едешь, едут\n• ходить: хожу, ходишь, ходят\n• ездить: езжу, ездишь, ездят\n• нести: несу, несёшь; нёс, несла\n• вести: веду, ведёшь; вёл, вела\n• везти: везу, везёшь; вёз, везла\n• лететь: лечу, летишь, летят",
+        "examples": [
+          {
+            "ru": "Мы едем на море.",
+            "tr": "Denize gidiyoruz (araçla)."
+          },
+          {
+            "ru": "Вчера он шёл домой пешком.",
+            "tr": "Dün eve yürüyerek gidiyordu."
+          },
+          {
+            "ru": "Я езжу на метро.",
+            "tr": "Metroyla giderim."
+          },
+          {
+            "ru": "Отец вёл машину очень осторожно.",
+            "tr": "Babam arabayı çok dikkatli sürüyordu."
+          },
+          {
+            "ru": "Она несла тяжёлую сумку.",
+            "tr": "Ağır bir çanta taşıyordu."
+          },
+          {
+            "ru": "Делегация летит в Пекин на переговоры.",
+            "tr": "Heyet görüşmeler için Pekin'e uçuyor."
+          }
+        ]
+      },
+      {
+        "h": "Önekler ve anlamları",
+        "body": "• в- (во-): içeri girmek: войти\n• вы-: dışarı çıkmak: выйти\n• при-: varmak, gelmek: прийти, приехать\n• у-: ayrılmak, gitmek: уйти, уехать\n• под-/подо-: yaklaşmak: подойти\n• от-: uzaklaşmak: отойти\n• пере-: karşıya geçmek: перейти\n• про-: içinden geçmek, yanından geçmek: пройти\n• за-: uğramak: зайти\n• до-: -e kadar gitmek: дойти\n• об-/обо-: çevresinden dolaşmak: обойти",
+        "examples": [
+          {
+            "ru": "Он вошёл в комнату.",
+            "tr": "Odaya girdi."
+          },
+          {
+            "ru": "Мы перешли улицу.",
+            "tr": "Caddeyi geçtik."
+          },
+          {
+            "ru": "Она зашла в магазин.",
+            "tr": "Mağazaya uğradı."
+          },
+          {
+            "ru": "Мы обошли озеро за час.",
+            "tr": "Gölün etrafını bir saatte dolaştık."
+          },
+          {
+            "ru": "Он уехал в Казань на неделю.",
+            "tr": "Bir haftalığına Kazan'a gitti."
+          },
+          {
+            "ru": "Министр приехал в Анкару с официальным визитом.",
+            "tr": "Bakan resmî bir ziyaret için Ankara'ya geldi."
+          }
+        ]
+      },
+      {
+        "h": "Önekli fiillerde görünüş",
+        "body": "• Öneklenince belirli kök СВ olur: идти → прийти, выйти\n• Belirsiz kök НСВ olur: ходить → приходить, выходить\n• Önekli НСВ geçmişte 'gidip geldi' anlamı da verir: Он приходил (geldi ve gitti)\n• -ехать → -езжать: приехать–приезжать; -лететь → -летать: прилететь–прилетать",
+        "examples": [
+          {
+            "ru": "Он придёт завтра.",
+            "tr": "Yarın gelecek."
+          },
+          {
+            "ru": "Он часто приходит рано.",
+            "tr": "Sık sık erken gelir."
+          },
+          {
+            "ru": "Вчера к тебе приходил друг.",
+            "tr": "Dün sana bir arkadaşın gelmişti (uğradı, gitti)."
+          },
+          {
+            "ru": "Каждое лето к нам приезжают родственники.",
+            "tr": "Her yaz bize akrabalar gelir."
+          },
+          {
+            "ru": "Когда выйдешь из дома, позвони мне.",
+            "tr": "Evden çıkınca beni ara."
+          },
+          {
+            "ru": "Делегация прилетит в Москву в понедельник.",
+            "tr": "Heyet pazartesi günü uçakla Moskova'ya gelecek."
+          }
+        ]
+      },
+      {
+        "h": "Edatlar ve sınav ipuçları",
+        "body": "• в/на + В. (nereye): иду в школу, еду на вокзал\n• из/с + Р. (nereden): выхожу из дома\n• к + Д. (kime/yanına): иду к врачу\n• от + Р. (kimin yanından): ухожу от врача\n• Mecazi: идти (yağmur, film, zaman, saat), ходить: Идёт дождь. Фильм идёт.\n• Sınav: cümledeki zaman belirteçlerine bak — сейчас/в это время = belirli; каждый день/часто = belirsiz",
+        "examples": [
+          {
+            "ru": "Идёт дождь.",
+            "tr": "Yağmur yağıyor."
+          },
+          {
+            "ru": "Я иду к врачу.",
+            "tr": "Doktora gidiyorum."
+          },
+          {
+            "ru": "Он вышел из дома в восемь.",
+            "tr": "Saat sekizde evden çıktı."
+          },
+          {
+            "ru": "Я еду на вокзал, а потом к брату.",
+            "tr": "Gara gidiyorum, sonra da kardeşimin yanına."
+          },
+          {
+            "ru": "Время идёт быстро.",
+            "tr": "Zaman hızlı geçiyor."
+          },
+          {
+            "ru": "Каждый день тысячи людей приезжают в столицу из пригородов.",
+            "tr": "Her gün binlerce kişi banliyölerden başkente geliyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "predlog",
+    "title": "Edatlar (Предлоги)",
+    "summary": "Rusçada her edat belirli bir hâl ister. Edat+hâl eşleşmesini ve yer/yön ayrımını bilmek YDS'de doğrudan soru çıkarır.",
+    "sections": [
+      {
+        "h": "Hâle göre edatlar",
+        "body": "• Р.: без, для, до, из, от, с, у, около, возле, после, вместо, кроме, из-за, из-под, против\n• Д.: к, по, благодаря, согласно, вопреки\n• В.: в, на, за, про, через, под, сквозь\n• Т.: с, над, перед, между, за, под, рядом с\n• П.: в, на, о (об, обо), при, по (-dikten sonra)",
+        "examples": [
+          {
+            "ru": "Кроме него, все пришли.",
+            "tr": "Ondan başka herkes geldi."
+          },
+          {
+            "ru": "Вопреки прогнозу, было тепло.",
+            "tr": "Tahmine rağmen hava ılıktı."
+          },
+          {
+            "ru": "Мы говорили про экзамен.",
+            "tr": "Sınav hakkında konuştuk."
+          },
+          {
+            "ru": "Это подарок для мамы.",
+            "tr": "Bu, annem için bir hediye."
+          },
+          {
+            "ru": "Между домом и школой есть парк.",
+            "tr": "Evle okul arasında bir park var."
+          },
+          {
+            "ru": "По окончании переговоров стороны подписали соглашение.",
+            "tr": "Görüşmelerin bitiminde taraflar anlaşmayı imzaladı."
+          }
+        ]
+      },
+      {
+        "h": "в ve на",
+        "body": "• в + П. (nerede) / в + В. (nereye): kapalı yer, şehir, ülke, kurum — в школе, в Москве, в театре\n• на + П. / на + В.: açık alan, yüzey, etkinlik, yön — на улице, на площади, на работе, на концерте, на Кавказе, на Украине (eski kullanım), на юг\n• Ezber: на заводе, на почте, на вокзале, на выставке, на уроке",
+        "examples": [
+          {
+            "ru": "Я живу в Анкаре и работаю на заводе.",
+            "tr": "Ankara'da yaşıyorum ve fabrikada çalışıyorum."
+          },
+          {
+            "ru": "Мы едем на концерт.",
+            "tr": "Konsere gidiyoruz."
+          },
+          {
+            "ru": "Книга лежит на столе.",
+            "tr": "Kitap masanın üstünde."
+          },
+          {
+            "ru": "Вчера мы были в театре, а сегодня идём на выставку.",
+            "tr": "Dün tiyatrodaydık, bugün ise sergiye gidiyoruz."
+          },
+          {
+            "ru": "Дети играют на улице.",
+            "tr": "Çocuklar sokakta oynuyor."
+          },
+          {
+            "ru": "Президент выступил на международном форуме в Санкт-Петербурге.",
+            "tr": "Cumhurbaşkanı St. Petersburg'daki uluslararası forumda konuştu."
+          }
+        ]
+      },
+      {
+        "h": "из / с / от (nereden)",
+        "body": "• из + Р.: в ile giden yerlerden (в школу → из школы)\n• с + Р.: на ile giden yerlerden (на почту → с почты)\n• от + Р.: kişiden, bir nesnenin yanından (к врачу → от врача)\n• Eşleşme kuralı: в–из, на–с, к–от",
+        "examples": [
+          {
+            "ru": "Он вернулся из Москвы.",
+            "tr": "Moskova'dan döndü."
+          },
+          {
+            "ru": "Я иду с работы.",
+            "tr": "İşten geliyorum."
+          },
+          {
+            "ru": "Письмо пришло от друга.",
+            "tr": "Mektup arkadaşımdan geldi."
+          },
+          {
+            "ru": "Она пришла с концерта поздно.",
+            "tr": "Konserden geç geldi."
+          },
+          {
+            "ru": "Я только что вернулся от врача.",
+            "tr": "Doktordan yeni döndüm."
+          },
+          {
+            "ru": "Россия импортирует фрукты из Турции.",
+            "tr": "Rusya Türkiye'den meyve ithal ediyor."
+          }
+        ]
+      },
+      {
+        "h": "Yer ve yön",
+        "body": "• Nerede? (П.): я в школе, на улице\n• Nereye? (В.): иду в школу, на улицу\n• Nereden? (Р.): из школы, с улицы\n• За, под, над, перед, между: nerede? → Т.; nereye? за, под → В.\n• Kişilerde: у + Р. (yanında), к + Д. (yanına), от + Р. (yanından)",
+        "examples": [
+          {
+            "ru": "Кошка спряталась под стол.",
+            "tr": "Kedi masanın altına saklandı."
+          },
+          {
+            "ru": "Кошка сидит под столом.",
+            "tr": "Kedi masanın altında oturuyor."
+          },
+          {
+            "ru": "Я был у врача.",
+            "tr": "Doktordaydım."
+          },
+          {
+            "ru": "Мяч упал за диван.",
+            "tr": "Top kanepenin arkasına düştü."
+          },
+          {
+            "ru": "Мы встретились перед театром.",
+            "tr": "Tiyatronun önünde buluştuk."
+          },
+          {
+            "ru": "Новый мост построят между двумя районами города.",
+            "tr": "Yeni köprü şehrin iki semti arasında inşa edilecek."
+          }
+        ]
+      },
+      {
+        "h": "Zaman edatları",
+        "body": "• в + В.: günler, в понедельник; в + П.: aylar, yıl, в мае, в 2020 году\n• через + В.: sonra (через час)\n• назад: önce (час назад)\n• до + Р.: -e kadar; после + Р.: -den sonra; во время + Р.: sırasında\n• за + В.: ... içinde (tamamlanma): за час\n• на + В.: süre için: на неделю",
+        "examples": [
+          {
+            "ru": "Он приедет через неделю.",
+            "tr": "Bir hafta sonra gelecek."
+          },
+          {
+            "ru": "Я сделал это за час.",
+            "tr": "Bunu bir saatte yaptım."
+          },
+          {
+            "ru": "Во время урока нельзя говорить.",
+            "tr": "Ders sırasında konuşulmaz."
+          },
+          {
+            "ru": "Я познакомился с ним три года назад.",
+            "tr": "Onunla üç yıl önce tanıştım."
+          },
+          {
+            "ru": "Мы уезжаем на море на две недели.",
+            "tr": "İki haftalığına denize gidiyoruz."
+          },
+          {
+            "ru": "До конца года инфляция может снизиться до пяти процентов.",
+            "tr": "Yıl sonuna kadar enflasyon yüzde beşe düşebilir."
+          }
+        ]
+      },
+      {
+        "h": "Neden/amaç edatları ve fiil yönetimi",
+        "body": "• из-за + Р.: olumsuz neden; благодаря + Д.: olumlu neden; для + Р.: amaç; ради + Р.: uğruna\n• Fiil yönetimi (ezber): думать о + П., зависеть от + Р., интересоваться + Т., бояться + Р., ждать + В./Р., участвовать в + П., верить в + В., обращать внимание на + В.\n• Sınav: önce fiil/isim hangi edatı alıyor, ona bak.",
+        "examples": [
+          {
+            "ru": "Из-за дождя мы остались дома.",
+            "tr": "Yağmur yüzünden evde kaldık."
+          },
+          {
+            "ru": "Я думаю о будущем.",
+            "tr": "Geleceği düşünüyorum."
+          },
+          {
+            "ru": "Всё зависит от тебя.",
+            "tr": "Her şey sana bağlı."
+          },
+          {
+            "ru": "Благодаря новым лекарствам многие больные выздоровели.",
+            "tr": "Yeni ilaçlar sayesinde birçok hasta iyileşti."
+          },
+          {
+            "ru": "Студенты участвуют в научной конференции.",
+            "tr": "Öğrenciler bilimsel bir konferansa katılıyor."
+          },
+          {
+            "ru": "Эксперты обращают внимание на рост цен на энергию.",
+            "tr": "Uzmanlar enerji fiyatlarındaki artışa dikkat çekiyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "prichastie",
+    "title": "Sıfat-fiil ve Zarf-fiil (Причастие и деепричастие)",
+    "summary": "Причастие sıfat gibi çekimlenen, деепричастие değişmeyen fiil biçimleridir. Yazı dilinde ve YDS metinlerinde çok geçerler; kuruluşlarını bilmek hem anlamayı hem çeviriyi kolaylaştırır.",
+    "sections": [
+      {
+        "h": "Etken sıfat-fiil şimdiki zaman",
+        "body": "• Kuruluş: НСВ fiil, 3. çoğul kökü + -ущ-/-ющ- (I çekim), -ащ-/-ящ- (II çekim) + sıfat sonu\n• читать → читающий; говорить → говорящий; писать → пишущий\n• -ся'lı fiillerde her zaman -ся kalır: учащийся\n• Anlam: şimdi yapan (который + şimdiki)",
+        "examples": [
+          {
+            "ru": "Студент, читающий книгу, мой брат.",
+            "tr": "Kitap okuyan öğrenci benim kardeşim."
+          },
+          {
+            "ru": "Девушка, говорящая по телефону, моя сестра.",
+            "tr": "Telefonla konuşan kız benim kız kardeşim."
+          },
+          {
+            "ru": "Человек, идущий по улице, мне знаком.",
+            "tr": "Sokakta yürüyen adam bana tanıdık."
+          },
+          {
+            "ru": "Учащиеся нашей школы победили на олимпиаде.",
+            "tr": "Okulumuzun öğrencileri olimpiyatta birinci oldu."
+          },
+          {
+            "ru": "Я знаю человека, пишущего стихи.",
+            "tr": "Şiir yazan birini tanıyorum."
+          },
+          {
+            "ru": "Число людей, живущих в городах, постоянно растёт.",
+            "tr": "Şehirlerde yaşayan insanların sayısı sürekli artıyor."
+          }
+        ]
+      },
+      {
+        "h": "Etken sıfat-fiil geçmiş zaman",
+        "body": "• Kuruluş: geçmiş zaman kökü (-л kaldır) + -вш- (ünlü sonrası) / -ш- (ünsüz sonrası) + sıfat sonu\n• читать → читавший; прочитать → прочитавший; принести → принёсший\n• Hem НСВ hem СВ\n• Önemli: нести → нёсший, идти → шедший, мочь → могший",
+        "examples": [
+          {
+            "ru": "Студент, прочитавший книгу, сдал экзамен.",
+            "tr": "Kitabı okuyan öğrenci sınavı geçti."
+          },
+          {
+            "ru": "Человек, пришедший вчера, врач.",
+            "tr": "Dün gelen adam doktor."
+          },
+          {
+            "ru": "Ребёнок, спавший в комнате, проснулся.",
+            "tr": "Odada uyuyan çocuk uyandı."
+          },
+          {
+            "ru": "Я встретил друга, вернувшегося из Москвы.",
+            "tr": "Moskova'dan dönen arkadaşımla karşılaştım."
+          },
+          {
+            "ru": "Девушка, шедшая впереди, вдруг остановилась.",
+            "tr": "Önde yürüyen kız birden durdu."
+          },
+          {
+            "ru": "Учёные, проводившие исследование, опубликовали результаты.",
+            "tr": "Araştırmayı yürüten bilim insanları sonuçları yayımladı."
+          }
+        ]
+      },
+      {
+        "h": "Edilgen sıfat-fiil",
+        "body": "• Şimdiki zaman (НСВ): I çekim: -ем-; II çekim: -им- — читаемый, любимый, уважаемый\n• Geçmiş zaman (çoğu СВ): -нн-, -енн-, -т-: прочитанный, сделанный, открытый, закрытый, написанный\n• Kısa form: книга прочитана, окно открыто, письмо написано (cinsiyet ve sayıya uyar)\n• Kısa formda tek -н-: прочитан, прочитана; uzun formda -нн-",
+        "examples": [
+          {
+            "ru": "Книга, написанная им, очень известна.",
+            "tr": "Onun yazdığı kitap çok ünlü."
+          },
+          {
+            "ru": "Работа выполнена вовремя.",
+            "tr": "İş zamanında yapıldı."
+          },
+          {
+            "ru": "Дверь закрыта.",
+            "tr": "Kapı kapalı."
+          },
+          {
+            "ru": "Это мой любимый фильм.",
+            "tr": "Bu benim en sevdiğim film."
+          },
+          {
+            "ru": "Я нашёл потерянный ключ.",
+            "tr": "Kaybolmuş anahtarı buldum."
+          },
+          {
+            "ru": "Проблемы, обсуждаемые на конференции, касаются экологии.",
+            "tr": "Konferansta tartışılan sorunlar ekolojiyle ilgilidir."
+          }
+        ]
+      },
+      {
+        "h": "Kısa edilgen sıfat-fiil kullanımı",
+        "body": "• Durum/sonuç bildirir: Магазин закрыт. Письмо отправлено.\n• Fail Т. ile gelebilir: Письмо написано мной.\n• Resmi dilde edilgen yapı: Решение принято. Вопрос решён.\n• Geçmiş: было/была, gelecek: будет/будут eklenir — Дом был построен в 1990 году.",
+        "examples": [
+          {
+            "ru": "Мост был построен в прошлом году.",
+            "tr": "Köprü geçen yıl inşa edildi."
+          },
+          {
+            "ru": "Вопрос будет решён завтра.",
+            "tr": "Sorun yarın çözülecek."
+          },
+          {
+            "ru": "Эта статья переведена с русского.",
+            "tr": "Bu makale Rusçadan çevrilmiş."
+          },
+          {
+            "ru": "Музей закрыт на ремонт.",
+            "tr": "Müze tadilat nedeniyle kapalı."
+          },
+          {
+            "ru": "Картина была написана известным художником.",
+            "tr": "Tablo ünlü bir ressam tarafından yapıldı."
+          },
+          {
+            "ru": "Соглашение подписано обеими сторонами.",
+            "tr": "Anlaşma her iki tarafça imzalandı."
+          }
+        ]
+      },
+      {
+        "h": "Zarf-fiil (деепричастие)",
+        "body": "• НСВ: -а/-я (şimdiki kök): читая, говоря, делая; -ся → -ась/-ясь: учась\n• Düzensiz: давать → давая; вставать → вставая; быть → будучи\n• СВ: -в, -вши (ünlü sonrası), -ши (ünsüz sonrası): прочитав, сделав (istisna: придя)\n• Anlam: НСВ = eşzamanlı eylem (…rken); СВ = önceki eylem (…ıp, …dikten sonra)\n• Özne aynı olmak zorundadır",
+        "examples": [
+          {
+            "ru": "Читая газету, он пил чай.",
+            "tr": "Gazete okurken çay içiyordu."
+          },
+          {
+            "ru": "Прочитав письмо, она заплакала.",
+            "tr": "Mektubu okuyunca ağladı."
+          },
+          {
+            "ru": "Придя домой, я позвонил маме.",
+            "tr": "Eve gelince anneme telefon ettim."
+          },
+          {
+            "ru": "Возвращаясь домой, я встретил соседа.",
+            "tr": "Eve dönerken komşumla karşılaştım."
+          },
+          {
+            "ru": "Закончив работу, он пошёл в спортзал.",
+            "tr": "İşi bitirdikten sonra spor salonuna gitti."
+          },
+          {
+            "ru": "Анализируя данные, учёные пришли к важному выводу.",
+            "tr": "Verileri analiz eden bilim insanları önemli bir sonuca vardı."
+          }
+        ]
+      },
+      {
+        "h": "Cümle içinde dönüşümler",
+        "body": "• который ↔ причастие: Студент, который читает → читающий\n• Zarf-fiil → yan cümle: Когда он пришёл домой… → Придя домой…\n• Virgül: sıfat-fiil öbeği isimden sonra virgüllenir; zarf-fiil öbeği her zaman virgülle ayrılır\n• Tuzak: zarf-fiil öznesi ana cümle öznesidir. YDS'de özneleri farklı yanlış cümleyi seç.",
+        "examples": [
+          {
+            "ru": "Девочка, играющая во дворе, моя дочь.",
+            "tr": "Bahçede oynayan kız benim kızım."
+          },
+          {
+            "ru": "Не зная языка, он не мог понять.",
+            "tr": "Dili bilmediği için anlayamadı."
+          },
+          {
+            "ru": "Сидя дома, мы смотрели фильм.",
+            "tr": "Evde otururken film izledik."
+          },
+          {
+            "ru": "Студенты, сдавшие экзамен, получили дипломы.",
+            "tr": "Sınavı geçen öğrenciler diplomalarını aldı."
+          },
+          {
+            "ru": "Вернувшись из поездки, он написал отчёт.",
+            "tr": "Geziden dönünce bir rapor yazdı."
+          },
+          {
+            "ru": "Правительство, принявшее эти меры, рассчитывает на рост экономики.",
+            "tr": "Bu önlemleri alan hükümet ekonominin büyümesini bekliyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "chislit",
+    "title": "Sayılar (Числительные)",
+    "summary": "Rusçada sayı + isim uyumu önemlidir: 1 yalın tekil, 2-4 tekil Р., 5 ve üstü çoğul Р. gelir. Sıra sayıları, tarihler ve sayıların çekimi YDS'de sık sınanır.",
+    "sections": [
+      {
+        "h": "Nicelik sayısı + isim",
+        "body": "• 1 (один, одна, одно): isim yalın tekil — один студент, одна книга\n• 2, 3, 4: tekil Р. — два студента, три книги (два/оба eril-nötr, две/обе dişil)\n• 5-20, 25-30...: çoğul Р. — пять студентов, десять книг\n• 21, 31 ... (bitişi 1): tekil yalın — двадцать один студент\n• 22-24: tekil Р. — двадцать два студента\n• много, несколько, сколько + çoğul Р.",
+        "examples": [
+          {
+            "ru": "У меня две сестры и три брата.",
+            "tr": "İki kız kardeşim ve üç erkek kardeşim var."
+          },
+          {
+            "ru": "В классе двадцать пять студентов.",
+            "tr": "Sınıfta yirmi beş öğrenci var."
+          },
+          {
+            "ru": "Я купил сорок одну книгу.",
+            "tr": "Kırk bir kitap aldım."
+          },
+          {
+            "ru": "На столе лежат четыре яблока.",
+            "tr": "Masada dört elma var."
+          },
+          {
+            "ru": "Я ждал тебя двадцать минут.",
+            "tr": "Seni yirmi dakika bekledim."
+          },
+          {
+            "ru": "Компания открыла пять новых заводов в трёх странах.",
+            "tr": "Şirket üç ülkede beş yeni fabrika açtı."
+          }
+        ]
+      },
+      {
+        "h": "Yaş ve saat",
+        "body": "• Yaş: Мне 1 год, 2-4 года, 5+ лет. Сколько вам лет?\n• Sözcük kuralı: 21 год, 22 года, 25 лет, 11-14 лет\n• Saat: один час, два/три/четыре часа, пять часов\n• В два часа, в пять часов (saat kaçta)\n• Dakika: пять минут, одна минута, две минуты",
+        "examples": [
+          {
+            "ru": "Моему брату двадцать один год.",
+            "tr": "Erkek kardeşim yirmi bir yaşında."
+          },
+          {
+            "ru": "Урок начинается в девять часов.",
+            "tr": "Ders dokuzda başlıyor."
+          },
+          {
+            "ru": "Ей тридцать пять лет.",
+            "tr": "O otuz beş yaşında."
+          },
+          {
+            "ru": "— Сколько тебе лет? — Мне двадцать два года.",
+            "tr": "— Kaç yaşındasın? — Yirmi iki yaşındayım."
+          },
+          {
+            "ru": "Поезд отходит в четыре часа.",
+            "tr": "Tren saat dörtte kalkıyor."
+          },
+          {
+            "ru": "Средняя продолжительность жизни в стране составляет семьдесят три года.",
+            "tr": "Ülkede ortalama yaşam süresi yetmiş üç yıldır."
+          }
+        ]
+      },
+      {
+        "h": "Sayıların çekimi (temel)",
+        "body": "• Один: один, одного, одному, один/одного, одним, об одном\n• Два: два, двух, двум, два/двух, двумя, о двух\n• Пять: пять, пяти, пяти, пять, пятью, о пяти\n• Сто: сто, ста, ста, сто, ста, о ста\n• Bileşik sayılarda her sözcük çekimlenir: с двадцатью пятью студентами",
+        "examples": [
+          {
+            "ru": "Я говорил с двумя студентами.",
+            "tr": "İki öğrenciyle konuştum."
+          },
+          {
+            "ru": "Я пришёл без пяти три.",
+            "tr": "Üçe beş kala geldim."
+          },
+          {
+            "ru": "Мы пришли к пяти часам.",
+            "tr": "Saat beşe doğru geldik."
+          },
+          {
+            "ru": "Он живёт в двух километрах от центра.",
+            "tr": "Merkezden iki kilometre uzakta yaşıyor."
+          },
+          {
+            "ru": "Мы встретились с одним известным писателем.",
+            "tr": "Ünlü bir yazarla görüştük."
+          },
+          {
+            "ru": "Опрос проводился в ста двадцати пяти городах.",
+            "tr": "Anket yüz yirmi beş şehirde yapıldı."
+          }
+        ]
+      },
+      {
+        "h": "Sıra sayıları",
+        "body": "• Sıfat gibi çekimlenir: первый, второй, третий, четвёртый, пятый, десятый\n• Bileşik sıra sayısında yalnızca sonuncu sıra sayısı olur: двадцать первый\n• третий düzensiz: третья, третье, третьи\n• Zaman: в первом часу, в двадцать первом веке",
+        "examples": [
+          {
+            "ru": "Это моё второе высшее образование.",
+            "tr": "Bu benim ikinci yüksek öğrenimim."
+          },
+          {
+            "ru": "Он живёт на пятом этаже.",
+            "tr": "Beşinci katta oturuyor."
+          },
+          {
+            "ru": "Двадцать первый век — век технологий.",
+            "tr": "Yirmi birinci yüzyıl teknoloji çağı."
+          },
+          {
+            "ru": "Моя сестра учится в третьем классе.",
+            "tr": "Kız kardeşim üçüncü sınıfta okuyor."
+          },
+          {
+            "ru": "Мы остановились на сорок пятой странице.",
+            "tr": "Kırk beşinci sayfada kaldık."
+          },
+          {
+            "ru": "Россия занимает первое место в мире по площади территории.",
+            "tr": "Rusya yüzölçümü bakımından dünyada birinci sırada yer alıyor."
+          }
+        ]
+      },
+      {
+        "h": "Tarih ve yıl",
+        "body": "• Tarih: sıra sayısı nötr yalın (И.) + ay Р. — первое мая; Какое сегодня число? — Сегодня пятое мая.\n• Tarihte Р.: Я родился пятого мая.\n• Yıl: sıra sayısı + год — две тысячи двадцать пятый год\n• в + П.: в 2025 году; с/до + Р.: с 2020 года, до 2000 года\n• Ay: в мае, в январе (П.)",
+        "examples": [
+          {
+            "ru": "Он родился тринадцатого июня тысяча девятьсот девяностого года.",
+            "tr": "13 Haziran 1990'da doğdu."
+          },
+          {
+            "ru": "Экзамен будет в мае две тысячи двадцать шестого года.",
+            "tr": "Sınav Mayıs 2026'da olacak."
+          },
+          {
+            "ru": "Сегодня первое сентября.",
+            "tr": "Bugün 1 Eylül."
+          },
+          {
+            "ru": "— Какое сегодня число? — Сегодня двадцать третье февраля.",
+            "tr": "— Bugün ayın kaçı? — Bugün 23 Şubat."
+          },
+          {
+            "ru": "Мы переехали в Москву в две тысячи девятнадцатом году.",
+            "tr": "2019 yılında Moskova'ya taşındık."
+          },
+          {
+            "ru": "Закон вступит в силу первого января две тысячи двадцать седьмого года.",
+            "tr": "Yasa 1 Ocak 2027'de yürürlüğe girecek."
+          }
+        ]
+      },
+      {
+        "h": "Kesirler ve toplu sayılar",
+        "body": "• Yarım: половина (Р.), полтора (1,5 + eril/nötr), полторы (dişil)\n• Kesir: одна вторая, две трети; ondalık: ноль целых пять десятых\n• Toplu sayılar: двое, трое, четверо — erkek kişi, çocuk, çoğul isimler (двое суток, трое детей)\n• Yüzde: пять процентов; 21 процент; 2-4 процента",
+        "examples": [
+          {
+            "ru": "Прошло полтора часа.",
+            "tr": "Bir buçuk saat geçti."
+          },
+          {
+            "ru": "В семье трое детей.",
+            "tr": "Ailede üç çocuk var."
+          },
+          {
+            "ru": "Двадцать процентов студентов сдали экзамен.",
+            "tr": "Öğrencilerin yüzde yirmisi sınavı geçti."
+          },
+          {
+            "ru": "Половина студентов живёт в общежитии.",
+            "tr": "Öğrencilerin yarısı yurtta kalıyor."
+          },
+          {
+            "ru": "Мы были там двое суток.",
+            "tr": "Orada iki tam gün kaldık."
+          },
+          {
+            "ru": "Экономика выросла на две целых пять десятых процента.",
+            "tr": "Ekonomi yüzde 2,5 büyüdü."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "soyuz",
+    "title": "Bağlaçlar (Союзы)",
+    "summary": "Bağlaçlar cümleleri anlam ilişkisine göre bağlar. YDS'de neden, amaç, karşıtlık, koşul ve zaman bağlaçlarını ayırt etmek temeldir.",
+    "sections": [
+      {
+        "h": "Neden bağlaçları",
+        "body": "• потому что — çünkü (cevap cümlesi)\n• так как — -diği için (resmî)\n• поскольку — madem, -diği için\n• из-за того что — -den dolayı (olumsuz)\n• благодаря тому что — sayesinde (olumlu)\n• ведь — nasılsa, ne de olsa\n• Sonuç: поэтому, поэтому и — bu yüzden; следовательно — dolayısıyla",
+        "examples": [
+          {
+            "ru": "Я не пошёл, потому что был болен.",
+            "tr": "Gitmedim çünkü hastaydım."
+          },
+          {
+            "ru": "Так как шёл дождь, мы остались дома.",
+            "tr": "Yağmur yağdığı için evde kaldık."
+          },
+          {
+            "ru": "Он много работал, поэтому сдал экзамен.",
+            "tr": "Çok çalıştı, bu yüzden sınavı geçti."
+          },
+          {
+            "ru": "Поскольку билетов не было, мы вернулись домой.",
+            "tr": "Bilet olmadığı için eve döndük."
+          },
+          {
+            "ru": "Возьми зонт, ведь на улице дождь.",
+            "tr": "Şemsiyeni al, ne de olsa dışarıda yağmur var."
+          },
+          {
+            "ru": "Благодаря тому что правительство снизило налоги, малый бизнес начал развиваться.",
+            "tr": "Hükümetin vergileri düşürmesi sayesinde küçük işletmeler gelişmeye başladı."
+          }
+        ]
+      },
+      {
+        "h": "Amaç bağlaçları",
+        "body": "• чтобы — için, -sın diye (aynı özne: mastar; farklı özne: geçmiş zaman)\n• для того чтобы — -mek için\n• с тем чтобы — amacıyla\n• Aynı özne: Я учусь, чтобы работать врачом.\n• Farklı özne: Я хочу, чтобы ты пришёл.",
+        "examples": [
+          {
+            "ru": "Он изучает русский, чтобы поступить в университет.",
+            "tr": "Üniversiteye girmek için Rusça öğreniyor."
+          },
+          {
+            "ru": "Я прошу, чтобы вы мне помогли.",
+            "tr": "Bana yardım etmenizi rica ediyorum."
+          },
+          {
+            "ru": "Она закрыла окно, чтобы не было шума.",
+            "tr": "Gürültü olmasın diye pencereyi kapattı."
+          },
+          {
+            "ru": "Я позвонил, чтобы узнать расписание.",
+            "tr": "Programı öğrenmek için aradım."
+          },
+          {
+            "ru": "Учитель говорит медленно, чтобы все поняли.",
+            "tr": "Öğretmen herkes anlasın diye yavaş konuşuyor."
+          },
+          {
+            "ru": "Правительство повысило пенсии, с тем чтобы поддержать пожилых граждан.",
+            "tr": "Hükümet yaşlı vatandaşları desteklemek amacıyla emekli maaşlarını artırdı."
+          }
+        ]
+      },
+      {
+        "h": "Karşıtlık ve ödün",
+        "body": "• но — fakat; а — oysa, ama (karşılaştırma); однако — ancak; зато — ama karşılığında\n• хотя — -e rağmen; несмотря на то что — -e rağmen\n• хоть и... всё же — her ne kadar... yine de\n• Ödün cümlesi: Хотя шёл дождь, мы пошли гулять.",
+        "examples": [
+          {
+            "ru": "Он богат, но несчастлив.",
+            "tr": "Zengin ama mutsuz."
+          },
+          {
+            "ru": "Несмотря на то что он устал, он продолжал работать.",
+            "tr": "Yorgun olmasına rağmen çalışmaya devam etti."
+          },
+          {
+            "ru": "Квартира маленькая, зато дешёвая.",
+            "tr": "Daire küçük ama karşılığında ucuz."
+          },
+          {
+            "ru": "Хотя было поздно, мы продолжали разговор.",
+            "tr": "Geç olmasına rağmen sohbete devam ettik."
+          },
+          {
+            "ru": "Я люблю чай, а мой брат — кофе.",
+            "tr": "Ben çayı severim, kardeşim ise kahveyi."
+          },
+          {
+            "ru": "Экономика растёт, однако уровень безработицы остаётся высоким.",
+            "tr": "Ekonomi büyüyor, ancak işsizlik oranı yüksek kalmaya devam ediyor."
+          }
+        ]
+      },
+      {
+        "h": "Koşul bağlaçları",
+        "body": "• если — eğer (gerçek koşul): Если будет время, я приду.\n• если бы — olsaydı (gerçek dışı): Если бы я знал, я бы сказал. (бы + geçmiş)\n• раз — madem; в случае если — -mesi hâlinde; при условии что — şartıyla\n• иначе, а то — yoksa, aksi hâlde",
+        "examples": [
+          {
+            "ru": "Если ты придёшь, я буду рад.",
+            "tr": "Gelirsen sevinirim."
+          },
+          {
+            "ru": "Если бы я был богат, я купил бы дом.",
+            "tr": "Zengin olsaydım ev alırdım."
+          },
+          {
+            "ru": "Торопись, иначе опоздаешь.",
+            "tr": "Acele et, yoksa geç kalırsın."
+          },
+          {
+            "ru": "Раз ты обещал, надо сделать.",
+            "tr": "Madem söz verdin, yapman gerek."
+          },
+          {
+            "ru": "Оденься теплее, а то простудишься.",
+            "tr": "Daha sıkı giyin, yoksa üşütürsün."
+          },
+          {
+            "ru": "В случае если переговоры провалятся, стороны обратятся в суд.",
+            "tr": "Görüşmelerin başarısız olması hâlinde taraflar mahkemeye başvuracak."
+          }
+        ]
+      },
+      {
+        "h": "Zaman bağlaçları",
+        "body": "• когда — -dığında; пока — -ken, -e kadar (пока не); после того как — -dikten sonra\n• перед тем как / прежде чем — -meden önce; до того как — -meden önce\n• как только — -er -mez; с тех пор как — -dığından beri; в то время как — -ken\n• пока не + СВ: Жди, пока я не вернусь.",
+        "examples": [
+          {
+            "ru": "Когда я пришёл, он спал.",
+            "tr": "Geldiğimde uyuyordu."
+          },
+          {
+            "ru": "Как только дождь закончился, мы вышли.",
+            "tr": "Yağmur biter bitmez çıktık."
+          },
+          {
+            "ru": "Перед тем как уйти, выключи свет.",
+            "tr": "Gitmeden önce ışığı kapat."
+          },
+          {
+            "ru": "Пока я готовил ужин, дети смотрели телевизор.",
+            "tr": "Ben akşam yemeğini hazırlarken çocuklar televizyon izliyordu."
+          },
+          {
+            "ru": "С тех пор как он переехал, мы не виделись.",
+            "tr": "O taşındığından beri görüşmedik."
+          },
+          {
+            "ru": "После того как был принят закон, цены на бензин снизились.",
+            "tr": "Yasa kabul edildikten sonra benzin fiyatları düştü."
+          }
+        ]
+      },
+      {
+        "h": "Açıklama ve diğer bağlaçlar",
+        "body": "• что — ki (açıklama); как — nasıl; ли — -mi (dolaylı soru); будто, как будто — sanki\n• Toplama: и, а также, не только... но и; seçenek: или, либо, то... то\n• Zıtlık: не... а, не только... но и\n• чем... тем: Чем больше читаешь, тем больше знаешь.",
+        "examples": [
+          {
+            "ru": "Я знаю, что он дома.",
+            "tr": "Onun evde olduğunu biliyorum."
+          },
+          {
+            "ru": "Не только он, но и она пришла.",
+            "tr": "Yalnızca o değil, o da geldi."
+          },
+          {
+            "ru": "Чем больше учишься, тем лучше знаешь язык.",
+            "tr": "Ne kadar çok çalışırsan dili o kadar iyi bilirsin."
+          },
+          {
+            "ru": "Он спросил, придёт ли она.",
+            "tr": "Onun gelip gelmeyeceğini sordu."
+          },
+          {
+            "ru": "Он говорит так, как будто всё знает.",
+            "tr": "Her şeyi biliyormuş gibi konuşuyor."
+          },
+          {
+            "ru": "Изменение климата влияет не только на природу, но и на экономику.",
+            "tr": "İklim değişikliği yalnızca doğayı değil, ekonomiyi de etkiliyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "leksika",
+    "title": "Kelime Çalışma Stratejileri (Лексика)",
+    "summary": "Rusçada kelime türetme kurallı bir sistemdir; önek, sonek ve kök kalıplarını bilen öğrenci tanımadığı kelimenin anlamını tahmin eder. YDS'de kalıp birleşimleri (kollokasyon) ve eş anlamlılar da önemlidir.",
+    "sections": [
+      {
+        "h": "Kök ailesi ile öğrenme",
+        "body": "• Kelimeleri tek tek değil, kök ailesiyle öğren.\n• Kök -вод- (su): вода, водный, водопровод, подводный\n• Kök -пис-: писать, письмо, писатель, подпись, описание\n• Kök -говор-: говорить, разговор, договор, приговор\n• Her yeni kelimede kökü ve türeyen 3-4 kelimeyi not et.",
+        "examples": [
+          {
+            "ru": "писать – писатель – письмо – описание",
+            "tr": "yazmak – yazar – mektup – tasvir"
+          },
+          {
+            "ru": "учить – учитель – учебник – учёба",
+            "tr": "öğretmek – öğretmen – ders kitabı – öğrenim"
+          },
+          {
+            "ru": "делать – дело – деловой – сделка",
+            "tr": "yapmak – iş – iş ile ilgili – anlaşma (iş anlaşması)"
+          },
+          {
+            "ru": "говорить – разговор – договор – приговор",
+            "tr": "konuşmak – sohbet – anlaşma/sözleşme – hüküm (mahkeme kararı)"
+          },
+          {
+            "ru": "вода – водный – водопровод – подводный",
+            "tr": "su – suyla ilgili – su şebekesi – sualtı"
+          },
+          {
+            "ru": "Стороны подписали договор о сотрудничестве.",
+            "tr": "Taraflar bir işbirliği anlaşması imzaladı."
+          }
+        ]
+      },
+      {
+        "h": "Önekler",
+        "body": "• без-/бес-: -sız (безработица)\n• пере-: yeniden, aşırı (переделать, перевод)\n• под-: alt, yaklaşma (подписать, подготовка)\n• раз-/рас-: ayrılma, dağılma (разделить, распад)\n• при-: yakınlık, ekleme (приехать, приложение)\n• со-/с-: birlikte, aşağı (собрание, сделать)\n• на-: üzerine, yoğun (написать, налог)\n• пред-: önce (предсказать, предисловие); недо-: yetersiz (недостаток, недооценить)",
+        "examples": [
+          {
+            "ru": "безопасность – опасность",
+            "tr": "güvenlik – tehlike"
+          },
+          {
+            "ru": "подготовить – подготовка",
+            "tr": "hazırlamak – hazırlık"
+          },
+          {
+            "ru": "разработать – разработка",
+            "tr": "geliştirmek – geliştirme"
+          },
+          {
+            "ru": "безработица – работа",
+            "tr": "işsizlik – iş"
+          },
+          {
+            "ru": "предсказать – предсказание",
+            "tr": "önceden söylemek – tahmin, kehanet"
+          },
+          {
+            "ru": "Распад Советского Союза произошёл в 1991 году.",
+            "tr": "Sovyetler Birliği'nin dağılması 1991'de gerçekleşti."
+          }
+        ]
+      },
+      {
+        "h": "Sonekler",
+        "body": "• -тель: yapan kişi (учитель, читатель)\n• -ость: soyut isim (возможность, ответственность)\n• -ение/-ание: eylem ismi (решение, описание)\n• -ник/-щик/-чик: meslek, araç (работник, переводчик)\n• -ский/-ный: sıfat (городской, важный)\n• -ство/-тво: soyut (общество, правительство)\n• -ка/-ица/-ница: dişil, küçültme",
+        "examples": [
+          {
+            "ru": "возможный – возможность",
+            "tr": "olası – olasılık"
+          },
+          {
+            "ru": "решить – решение",
+            "tr": "çözmek – çözüm"
+          },
+          {
+            "ru": "общий – общество",
+            "tr": "ortak – toplum"
+          },
+          {
+            "ru": "читать – читатель",
+            "tr": "okumak – okur"
+          },
+          {
+            "ru": "переводить – переводчик",
+            "tr": "çevirmek – çevirmen"
+          },
+          {
+            "ru": "Ответственность за это решение несёт правительство.",
+            "tr": "Bu kararın sorumluluğunu hükümet taşıyor."
+          }
+        ]
+      },
+      {
+        "h": "Sık kollokasyonlar (YDS)",
+        "body": "• принимать/принять решение (karar vermek), участие (katılmak), меры (önlem almak)\n• оказывать влияние/помощь (etkilemek, yardım etmek)\n• играть роль, иметь значение, обращать внимание\n• ставить цель/задачу, выдвигать идею/предложение\n• вести переговоры/дискуссию, проводить исследование/опыты\n• сдавать экзамен (sınava girmek), сдать/выдержать экзамен (sınavı geçmek), готовиться к экзамену",
+        "examples": [
+          {
+            "ru": "Правительство приняло важное решение.",
+            "tr": "Hükümet önemli bir karar aldı."
+          },
+          {
+            "ru": "Это играет большую роль в экономике.",
+            "tr": "Bu ekonomide büyük rol oynar."
+          },
+          {
+            "ru": "Учёные проводят исследование.",
+            "tr": "Bilim insanları araştırma yürütüyor."
+          },
+          {
+            "ru": "Россия принимает участие в переговорах.",
+            "tr": "Rusya görüşmelere katılıyor."
+          },
+          {
+            "ru": "Кризис оказал сильное влияние на рынок.",
+            "tr": "Kriz piyasayı güçlü biçimde etkiledi."
+          },
+          {
+            "ru": "Власти приняли меры против загрязнения воздуха.",
+            "tr": "Yetkililer hava kirliliğine karşı önlem aldı."
+          }
+        ]
+      },
+      {
+        "h": "Eş ve zıt anlamlılar, yalancı dostlar",
+        "body": "• Eş anlamlı çiftler: начало – старт, цель – задача, помощь – поддержка, трудный – сложный\n• Zıt: увеличить – уменьшить, повышать – понижать, согласие – разногласие\n• Türkçe benzerliklerden kaçın (ложные друзья): фамилия = soyadı (aile değil); кабинет = çalışma odası/ofis (kabine değil); магазин = mağaza (dergi değil); артист = oyuncu, sanatçı\n• Paronimler: одеть (giydirmek) – надеть (giymek); командированный – командировочный",
+        "examples": [
+          {
+            "ru": "Он надел пальто, а ребёнка одел.",
+            "tr": "O palto giydi, çocuğu giydirdi."
+          },
+          {
+            "ru": "Фамилия у него турецкая.",
+            "tr": "Soyadı Türk kökenli."
+          },
+          {
+            "ru": "Цены повысились, а доходы уменьшились.",
+            "tr": "Fiyatlar yükseldi, gelirler azaldı."
+          },
+          {
+            "ru": "Компания увеличила производство и уменьшила расходы.",
+            "tr": "Şirket üretimi artırdı ve giderleri azalttı."
+          },
+          {
+            "ru": "Директор ждёт вас в своём кабинете.",
+            "tr": "Müdür sizi odasında (ofisinde) bekliyor."
+          },
+          {
+            "ru": "Между странами возникли серьёзные разногласия.",
+            "tr": "Ülkeler arasında ciddi görüş ayrılıkları ortaya çıktı."
+          }
+        ]
+      },
+      {
+        "h": "Çalışma yöntemi",
+        "body": "• Her gün 15-20 yeni kelimeyi cümle içinde öğren; sözlük cümlesini kendi cümlenle değiştir.\n• Sözcük kartları + aralıklı tekrar (1., 3., 7., 14. gün).\n• Okuma metinlerinde bilinmeyen kelimenin önek, kök ve sonekini ayır.\n• Konu başlıklarına göre grupla: ekonomi, bilim, çevre, eğitim, sağlık — YDS metin konuları bunlardır.\n• Yanlış yaptığın kelimeleri 'hata defteri'ne yaz.",
+        "examples": [
+          {
+            "ru": "экономика, рынок, инфляция, налог, бюджет",
+            "tr": "ekonomi, pazar, enflasyon, vergi, bütçe"
+          },
+          {
+            "ru": "окружающая среда, загрязнение, выбросы, климат",
+            "tr": "çevre, kirlilik, emisyonlar, iklim"
+          },
+          {
+            "ru": "здоровье, лечение, профилактика, болезнь",
+            "tr": "sağlık, tedavi, önleme (profilaksi), hastalık"
+          },
+          {
+            "ru": "образование, университет, обучение, экзамен",
+            "tr": "eğitim, üniversite, öğretim, sınav"
+          },
+          {
+            "ru": "наука, исследование, открытие, учёный",
+            "tr": "bilim, araştırma, keşif, bilim insanı"
+          },
+          {
+            "ru": "Загрязнение окружающей среды угрожает здоровью людей.",
+            "tr": "Çevre kirliliği insan sağlığını tehdit ediyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "yds_taktik",
+    "title": "YDS Rusça Sınav Taktikleri",
+    "summary": "YDS Rusça 80 soru, 180 dakikadır. Soru tiplerini tanımak, zamanı doğru bölmek ve eleme tekniklerini kullanmak puanı belirgin biçimde artırır.",
+    "sections": [
+      {
+        "h": "Sınav yapısı ve zaman yönetimi",
+        "body": "• 80 soru, 180 dakika → ortalama 2 dakika 15 saniye/soru.\n• Önerilen plan: kelime ve dil bilgisi (ilk 30 soru) 40 dk; cümle tamamlama, çeviri 40 dk; okuma 70 dk; son 20 dk kontrol ve işaretleme.\n• Bilmediğin soruda 1 dakikadan fazla kalma; işaretle, geç, sonra dön.\n• Yanlış doğruyu götürür; son 5 dakikada boş bıraktıklarına tahmin işaretle (elemeyle).\n• Optik forma her 10 soruda bir aktar, panik yapma.",
+        "examples": [
+          {
+            "ru": "Первые 40 минут – лексика и грамматика.",
+            "tr": "İlk 40 dakika kelime ve dil bilgisi."
+          },
+          {
+            "ru": "Последние 20 минут – проверка.",
+            "tr": "Son 20 dakika kontrol."
+          },
+          {
+            "ru": "Если не знаешь, пропусти и вернись.",
+            "tr": "Bilmiyorsan geç ve sonra dön."
+          },
+          {
+            "ru": "Не трать на один вопрос больше двух минут.",
+            "tr": "Bir soruya iki dakikadan fazla harcama."
+          },
+          {
+            "ru": "Переноси ответы в бланк после каждых десяти вопросов.",
+            "tr": "Cevapları her on soruda bir optik forma aktar."
+          },
+          {
+            "ru": "На чтение текстов оставь семьдесят минут.",
+            "tr": "Okuma parçalarına yetmiş dakika ayır."
+          }
+        ]
+      },
+      {
+        "h": "Boşluk doldurma (cloze) ve kelime soruları",
+        "body": "• Önce boşluğun öncesi ve sonrasına bak: edat, hâl, görünüş ipucu var mı?\n• Gramer sorusu mu, anlam sorusu mu? Seçenekler aynı kökse gramerdir (hâl, görünüş, zaman).\n• Seçenekler farklı kelimeyse anlam/kollokasyon sorusudur.\n• Metin cloze: önce bütün metni oku, ana fikri bul, sonra doldur.\n• Bağlaç sorusunda cümleler arası ilişkiyi belirle (neden, zıtlık, sonuç).",
+        "examples": [
+          {
+            "ru": "Я интересуюсь ... (музыка / музыкой / музыку)",
+            "tr": "Müzikle ilgileniyorum. Doğru: ikinci seçenek — \"ilgilenmek\" fiili araç hâli ister."
+          },
+          {
+            "ru": "Он остался дома, ... был болен. (потому что / чтобы / хотя)",
+            "tr": "Hasta olduğu için evde kaldı. Doğru: ilk seçenek — neden bildiren bağlaç (\"çünkü\")."
+          },
+          {
+            "ru": "Вчера я ... письмо. (писал / написал)",
+            "tr": "Bağlama göre süreç mi sonuç mu karar ver."
+          },
+          {
+            "ru": "Он часто ... в Москву. (ездит / едет)",
+            "tr": "Doğru: ilk seçenek — \"sık sık\" tekrarlanan hareket bildirir, belirsiz yönlü fiil gerekir."
+          },
+          {
+            "ru": "Мы помогаем ... (друга / другу / другом)",
+            "tr": "Doğru: ikinci seçenek — \"yardım etmek\" fiili yönelme (datif) hâli ister."
+          },
+          {
+            "ru": "Правительство приняло ... меры. (срочные / долгие / старые)",
+            "tr": "Doğru: ilk seçenek — \"acil önlem almak\" kalıplaşmış bir eşdizimdir."
+          }
+        ]
+      },
+      {
+        "h": "Cümle tamamlama ve diyalog",
+        "body": "• Cümle tamamlama: ilk yarının bağlacını bul (если, хотя, потому что…) ve ikinci yarının anlamı uysun.\n• Gramer uyumu kontrol: özne–yüklem cinsiyeti, zaman, görünüş.\n• Diyalog: son cümleye verilen soru/yanıt biçimine uy (Да/Нет, Почему? → потому что…).\n• Resmî/gayriresmî dil ayrımına dikkat (вы/ты).\n• Çelişen ya da anlamsız seçenekleri elerken yapıya değil bağlama bak.",
+        "examples": [
+          {
+            "ru": "— Почему ты не пришёл? — ...",
+            "tr": "Cevap \"çünkü\" anlamındaki bağlaçla başlamalı."
+          },
+          {
+            "ru": "Хотя он устал, ...",
+            "tr": "Ödün bağlacından sonra karşıt sonuç gelir."
+          },
+          {
+            "ru": "— Вы не скажете, как пройти к вокзалу?",
+            "tr": "Nezaket sorusuna yönlendirme cevabı seçilir."
+          },
+          {
+            "ru": "Если завтра будет хорошая погода, ...",
+            "tr": "Gerçek koşuldan sonra gelecek zamanlı bir sonuç seçilir."
+          },
+          {
+            "ru": "— Спасибо за помощь! — ...",
+            "tr": "Teşekküre uygun cevap \"rica ederim\" anlamındaki seçenektir."
+          },
+          {
+            "ru": "— Вы не могли бы закрыть окно? — Конечно.",
+            "tr": "Kibar bir ricaya \"elbette\" türünden onay cevabı uyar."
+          }
+        ]
+      },
+      {
+        "h": "Çeviri soruları (RU→TR ve TR→RU)",
+        "body": "• Rusça→Türkçe: özneyi, yüklemi ve zaman/kipi bul; yan cümleleri ayır. Seçenekte anlamı bozan 'kaçak' kelimeyi ara (inkâr, zaman, sayı).\n• Türkçe→Rusça: önce fiilin görünüşü ve yönetimini belirle; sonra edat ve hâl kontrolü.\n• Aynı çeviri gibi görünen iki seçenekte küçük farka bak: не/ни, был/будет, tekil/çoğul.\n• Mecaz ve deyimleri kelime kelime çevirme (Идёт дождь = yağmur yağıyor, \"yürüyor\" değil).\n• Eleme: önce kesin yanlışları at; kalan ikiden anlamı tam örten kalır.",
+        "examples": [
+          {
+            "ru": "Если бы он пришёл, мы бы начали.",
+            "tr": "Gelseydi başlardık (gerçek dışı koşul)."
+          },
+          {
+            "ru": "Прочитав книгу, я посмотрел фильм.",
+            "tr": "Kitabı okuduktan sonra film izledim."
+          },
+          {
+            "ru": "Он не мог не прийти.",
+            "tr": "Gelmemesi mümkün değildi (gelmek zorundaydı)."
+          },
+          {
+            "ru": "Несмотря на кризис, экономика продолжает расти.",
+            "tr": "Krize rağmen ekonomi büyümeye devam ediyor."
+          },
+          {
+            "ru": "Ни один студент не опоздал.",
+            "tr": "Hiçbir öğrenci geç kalmadı (çift olumsuzluk, anlam olumsuz)."
+          },
+          {
+            "ru": "Этот вопрос будет рассмотрен на следующей неделе.",
+            "tr": "Bu konu gelecek hafta ele alınacak (edilgen yapı)."
+          }
+        ]
+      },
+      {
+        "h": "Okuma parçaları",
+        "body": "• Önce soruları oku, sonra parçayı tara; anahtar sözcükleri işaretle.\n• Ana fikir: ilk ve son paragraf. Ayrıntı: soru sözcüğünü metinde bul.\n• Çıkarım sorularında metinde açık yazanı değil, mantıksal sonucu seç.\n• Aşırı genelleme (всегда, никогда, все) içeren seçenekler genellikle yanlıştır.\n• Bilinmeyen kelime: önek-kök-sonek ve bağlamdan tahmin et; takılma.",
+        "examples": [
+          {
+            "ru": "Основная мысль текста – ...",
+            "tr": "Metnin ana fikri ... (ilk/son paragraf)."
+          },
+          {
+            "ru": "Согласно тексту, ...",
+            "tr": "Metne göre ... (ayrıntı sorusu)."
+          },
+          {
+            "ru": "Автор считает, что ...",
+            "tr": "Yazar ... olduğunu düşünür (çıkarım)."
+          },
+          {
+            "ru": "Из текста следует, что ...",
+            "tr": "Metinden ... sonucu çıkar (çıkarım sorusu)."
+          },
+          {
+            "ru": "Какое из утверждений не соответствует тексту?",
+            "tr": "Hangi ifade metne uymaz? (metinde olmayanı bul)"
+          },
+          {
+            "ru": "В статье речь идёт о ...",
+            "tr": "Makalede ... söz konusudur (konu sorusu)."
+          }
+        ]
+      },
+      {
+        "h": "Paragraftaki ilgisiz cümle ve genel eleme teknikleri",
+        "body": "• İlgisiz cümle: paragrafın konusunu bul, konudan sapan veya başka bir fikre geçen cümleyi işaretle.\n• Eleme sırası: 1) dilbilgisel hatalı, 2) anlamı bozan, 3) fazla genel/aşırı, 4) konu dışı.\n• Seçeneklerde 'hep', 'yalnızca', 'asla' gibi sınırlayıcı ifadelere dikkat.\n• Bir soruda 3 dakikadan fazla zaman harcama.\n• Sınav öncesi: çıkmış sorular, haftalık deneme, hata defteri.",
+        "examples": [
+          {
+            "ru": "Лишнее предложение не связано с основной темой.",
+            "tr": "İlgisiz cümle ana konuyla bağlantısızdır."
+          },
+          {
+            "ru": "Слова всегда и никогда часто делают вариант неверным.",
+            "tr": "'Her zaman' ve 'asla' sözcükleri seçeneği çoğunlukla yanlış yapar."
+          },
+          {
+            "ru": "Сначала исключи явно неверные варианты.",
+            "tr": "Önce kesin yanlış seçenekleri ele."
+          },
+          {
+            "ru": "Найди тему абзаца и предложение, которое от неё отклоняется.",
+            "tr": "Paragrafın konusunu bul ve ondan sapan cümleyi belirle."
+          },
+          {
+            "ru": "Слово «только» часто делает вариант слишком узким.",
+            "tr": "\"Yalnızca\" sözcüğü seçeneği çoğu zaman fazla dar yapar."
+          },
+          {
+            "ru": "Решай пробные тесты каждую неделю.",
+            "tr": "Her hafta deneme sınavı çöz."
+          }
+        ]
+      }
+    ]
+  }
+]

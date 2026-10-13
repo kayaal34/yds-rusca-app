@@ -1,0 +1,1142 @@
+[
+ {
+  "topic": "cloze",
+  "passage": "Байкал — самое глубокое озеро на планете. Его максимальная глубина (1) ______ более 1600 метров. В озере обитает множество видов животных, (2) ______ не встречаются больше нигде в мире. Учёные считают, что Байкалу около 25 миллионов лет. (3) ______ своему возрасту и чистоте воды озеро включено в список Всемирного наследия ЮНЕСКО. Однако в последние годы экологи всё чаще (4) ______ о загрязнении его берегов.",
+  "text": "(1) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "состоит",
+   "содержит",
+   "принадлежит",
+   "составляет",
+   "относится"
+  ],
+  "answer": 3,
+  "explanation": "«Глубина составляет … метров» kalıbı; diğer fiiller ölçü bildirmez ya da farklı yönetim ister."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Байкал — самое глубокое озеро на планете. Его максимальная глубина (1) ______ более 1600 метров. В озере обитает множество видов животных, (2) ______ не встречаются больше нигде в мире. Учёные считают, что Байкалу около 25 миллионов лет. (3) ______ своему возрасту и чистоте воды озеро включено в список Всемирного наследия ЮНЕСКО. Однако в последние годы экологи всё чаще (4) ______ о загрязнении его берегов.",
+  "text": "(2) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "которых",
+   "которые",
+   "которым",
+   "куда",
+   "чьи"
+  ],
+  "answer": 1,
+  "explanation": "Yan cümlede özne gereklidir: «виды, которые не встречаются» (yalın hâl, çoğul)."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Байкал — самое глубокое озеро на планете. Его максимальная глубина (1) ______ более 1600 метров. В озере обитает множество видов животных, (2) ______ не встречаются больше нигде в мире. Учёные считают, что Байкалу около 25 миллионов лет. (3) ______ своему возрасту и чистоте воды озеро включено в список Всемирного наследия ЮНЕСКО. Однако в последние годы экологи всё чаще (4) ______ о загрязнении его берегов.",
+  "text": "(3) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "Вопреки",
+   "Несмотря на",
+   "Из-за",
+   "Ввиду",
+   "Благодаря"
+  ],
+  "answer": 4,
+  "explanation": "«своему возрасту» yönelme hâlindedir; anlamca olumlu sebep bildiren «благодаря» uygundur."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Байкал — самое глубокое озеро на планете. Его максимальная глубина (1) ______ более 1600 метров. В озере обитает множество видов животных, (2) ______ не встречаются больше нигде в мире. Учёные считают, что Байкалу около 25 миллионов лет. (3) ______ своему возрасту и чистоте воды озеро включено в список Всемирного наследия ЮНЕСКО. Однако в последние годы экологи всё чаще (4) ______ о загрязнении его берегов.",
+  "text": "(4) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "обсуждают",
+   "замечают",
+   "говорят",
+   "изучают",
+   "указывают"
+  ],
+  "answer": 2,
+  "explanation": "Boşluktan sonra «о + -де hâli» geliyor; bunu yalnızca «говорят о» alır."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Интернет сильно изменил то, как люди получают информацию. Раньше, (1) ______ узнать новости, нужно было купить газету или включить телевизор. Сегодня достаточно открыть смартфон. (2) ______, у этого удобства есть и обратная сторона. В сети легко распространяются ложные сведения, (3) ______ проверить их бывает непросто. Поэтому специалисты советуют (4) ______ к любой информации критически.",
+  "text": "(1) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "чтобы",
+   "если",
+   "хотя",
+   "когда бы",
+   "потому что"
+  ],
+  "answer": 0,
+  "explanation": "Amaç bildiren mastarlı yapı: «чтобы узнать новости» (haber öğrenmek için)."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Интернет сильно изменил то, как люди получают информацию. Раньше, (1) ______ узнать новости, нужно было купить газету или включить телевизор. Сегодня достаточно открыть смартфон. (2) ______, у этого удобства есть и обратная сторона. В сети легко распространяются ложные сведения, (3) ______ проверить их бывает непросто. Поэтому специалисты советуют (4) ______ к любой информации критически.",
+  "text": "(2) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "Поэтому",
+   "Например",
+   "Итак",
+   "Однако",
+   "Следовательно"
+  ],
+  "answer": 3,
+  "explanation": "Önceki cümledeki kolaylığa karşıt bir durum («обратная сторона») geliyor; zıtlık bağlacı «однако» gerekir."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Интернет сильно изменил то, как люди получают информацию. Раньше, (1) ______ узнать новости, нужно было купить газету или включить телевизор. Сегодня достаточно открыть смартфон. (2) ______, у этого удобства есть и обратная сторона. В сети легко распространяются ложные сведения, (3) ______ проверить их бывает непросто. Поэтому специалисты советуют (4) ______ к любой информации критически.",
+  "text": "(3) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "ни",
+   "а",
+   "чтобы",
+   "если",
+   "либо"
+  ],
+  "answer": 1,
+  "explanation": "İki durumu karşılaştıran «а»: yanlış bilgi kolay yayılır, oysa doğrulamak zordur."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Интернет сильно изменил то, как люди получают информацию. Раньше, (1) ______ узнать новости, нужно было купить газету или включить телевизор. Сегодня достаточно открыть смартфон. (2) ______, у этого удобства есть и обратная сторона. В сети легко распространяются ложные сведения, (3) ______ проверить их бывает непросто. Поэтому специалисты советуют (4) ______ к любой информации критически.",
+  "text": "(4) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "относятся",
+   "отнеслись",
+   "относящийся",
+   "относись",
+   "относиться"
+  ],
+  "answer": 4,
+  "explanation": "«советуют» fiilinden sonra mastar gelir: «советуют относиться»."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Регулярные физические упражнения полезны (1) ______ людей любого возраста. Они укрепляют сердце и помогают (2) ______ лишний вес. Кроме того, спорт положительно влияет на настроение: во время тренировки организм вырабатывает гормоны радости. Врачи рекомендуют уделять физической активности (3) ______ 30 минут в день. Главное — заниматься регулярно, (4) ______ результат не заставит себя ждать.",
+  "text": "(1) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "к",
+   "у",
+   "для",
+   "от",
+   "при"
+  ],
+  "answer": 2,
+  "explanation": "«полезны для кого-либо» kalıbı (biri için faydalı)."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Регулярные физические упражнения полезны (1) ______ людей любого возраста. Они укрепляют сердце и помогают (2) ______ лишний вес. Кроме того, спорт положительно влияет на настроение: во время тренировки организм вырабатывает гормоны радости. Врачи рекомендуют уделять физической активности (3) ______ 30 минут в день. Главное — заниматься регулярно, (4) ______ результат не заставит себя ждать.",
+  "text": "(2) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "сбросить",
+   "сбросят",
+   "сбросив",
+   "сброшенный",
+   "сбрасывающий"
+  ],
+  "answer": 0,
+  "explanation": "«помогают» fiilinden sonra mastar gelir: «помогают сбросить лишний вес»."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Регулярные физические упражнения полезны (1) ______ людей любого возраста. Они укрепляют сердце и помогают (2) ______ лишний вес. Кроме того, спорт положительно влияет на настроение: во время тренировки организм вырабатывает гормоны радости. Врачи рекомендуют уделять физической активности (3) ______ 30 минут в день. Главное — заниматься регулярно, (4) ______ результат не заставит себя ждать.",
+  "text": "(3) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "ни менее",
+   "не столько",
+   "тем более",
+   "не менее",
+   "как можно"
+  ],
+  "answer": 3,
+  "explanation": "«не менее 30 минут» = en az 30 dakika; diğerleri bu bağlamda dil bilgisi açısından yanlıştır."
+ },
+ {
+  "topic": "cloze",
+  "passage": "Регулярные физические упражнения полезны (1) ______ людей любого возраста. Они укрепляют сердце и помогают (2) ______ лишний вес. Кроме того, спорт положительно влияет на настроение: во время тренировки организм вырабатывает гормоны радости. Врачи рекомендуют уделять физической активности (3) ______ 30 минут в день. Главное — заниматься регулярно, (4) ______ результат не заставит себя ждать.",
+  "text": "(4) numaralı boşluğa hangisi gelir?",
+  "options": [
+   "иначе",
+   "и тогда",
+   "хотя",
+   "несмотря на то что",
+   "как будто"
+  ],
+  "answer": 1,
+  "explanation": "Düzenli spor yapmanın sonucu: «и тогда результат не заставит себя ждать» (o zaman sonuç gecikmez)."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Если бы я знал о собрании заранее, ...",
+  "options": [
+   "я обязательно приду",
+   "поэтому я не пришёл",
+   "я приходил каждый день",
+   "я бы обязательно пришёл",
+   "я пришёл бы вчера и приду"
+  ],
+  "answer": 3,
+  "explanation": "«Если бы» ile kurulan gerçek dışı şart, ana cümlede de «бы» ister."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Несмотря на плохую погоду, ...",
+  "options": [
+   "мы остались дома",
+   "мы всё-таки поехали за город",
+   "поэтому мы не поехали на дачу",
+   "потому что шёл дождь",
+   "так как было холодно"
+  ],
+  "answer": 1,
+  "explanation": "«Несмотря на» beklenene aykırı bir sonuç gerektirir: kötü havaya rağmen yine de gittik."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Чем больше человек читает, ...",
+  "options": [
+   "так как он любит книги",
+   "поэтому его словарь становится беднее",
+   "тем меньше он знает слов",
+   "чтобы его словарь стал меньше",
+   "тем богаче становится его словарный запас"
+  ],
+  "answer": 4,
+  "explanation": "«Чем …, тем …» kalıbı mantıklı bir orantıyla tamamlanmalı: ne kadar çok okursa kelime hazinesi o kadar zenginleşir."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Он так устал после работы, ...",
+  "options": [
+   "чтобы сразу лечь спать",
+   "потому что сразу лёг спать",
+   "что сразу лёг спать",
+   "хотя сразу лёг спать",
+   "если сразу ляжет спать"
+  ],
+  "answer": 2,
+  "explanation": "«так …, что …» sonuç kalıbı: o kadar yorgundu ki hemen yattı."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Учёные до сих пор не могут объяснить, ...",
+  "options": [
+   "почему исчезли динозавры",
+   "потому что динозавры исчезли",
+   "чтобы динозавры исчезли",
+   "если исчезли динозавры",
+   "динозавров исчезновение"
+  ],
+  "answer": 0,
+  "explanation": "«объяснить» fiili dolaylı soru alır: «почему исчезли динозавры»."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Чтобы получить визу, ...",
+  "options": [
+   "он получил визу вчера",
+   "поэтому документы не нужны",
+   "потому что консульство закрыто",
+   "необходимо заранее подать документы в консульство",
+   "если бы он подал документы"
+  ],
+  "answer": 3,
+  "explanation": "Amaç yan cümlesi («чтобы получить визу») ana cümlede yapılması gerekeni ister."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Мы не успели на поезд, ...",
+  "options": [
+   "поэтому приехали на вокзал заранее",
+   "потому что попали в пробку по дороге на вокзал",
+   "хотя вышли из дома очень поздно",
+   "чтобы приехать вовремя",
+   "если бы такси приехало"
+  ],
+  "answer": 1,
+  "explanation": "Treni kaçırmanın mantıklı sebebi: trafiğe takılmak."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Врач посоветовал больному ...",
+  "options": [
+   "что он меньше работает",
+   "чтобы меньше работает",
+   "меньше работы и больше отдыхает",
+   "меньше работал бы и отдыхал",
+   "меньше работать и больше отдыхать"
+  ],
+  "answer": 4,
+  "explanation": "«посоветовать кому + mastar»: «посоветовал меньше работать и больше отдыхать»."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Хотя экзамен был очень трудным, ...",
+  "options": [
+   "поэтому многие его не сдали",
+   "потому что студенты плохо подготовились",
+   "большинство студентов сдали его успешно",
+   "так как вопросы были сложными",
+   "многие студенты его провалили"
+  ],
+  "answer": 2,
+  "explanation": "«Хотя» zıtlık bildirir: sınav zordu ama çoğu öğrenci geçti."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Это тот самый город, ...",
+  "options": [
+   "в котором я родился и вырос",
+   "который я родился и вырос",
+   "в которой я родился и вырос",
+   "о котором я родился и вырос",
+   "куда я родился и вырос"
+  ],
+  "answer": 0,
+  "explanation": "«город» eril; «родиться в городе» → «в котором»."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Как только закончились занятия, ...",
+  "options": [
+   "студенты будут расходиться по домам",
+   "студенты придут на занятия",
+   "студенты ещё не пришли на урок",
+   "студенты сразу разошлись по домам",
+   "студенты расходятся бы по домам"
+  ],
+  "answer": 3,
+  "explanation": "«Как только» + geçmiş zaman, ana cümlede de geçmiş zamanda hemen gerçekleşen eylemi ister."
+ },
+ {
+  "topic": "tamamlama",
+  "text": "Новый закон вступит в силу только после того, ...",
+  "options": [
+   "что его подписал президент",
+   "как его подпишет президент",
+   "чтобы президент подписал",
+   "когда президент подписывал бы",
+   "как президент его подписывали"
+  ],
+  "answer": 1,
+  "explanation": "«после того, как» kalıbı; gelecek zamanla uyumlu: «как его подпишет президент»."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Я давно не видел своих старых друзей.",
+  "options": [
+   "Eski arkadaşlarımı uzun zamandır görüyorum.",
+   "Eski arkadaşlarım beni uzun zamandır görmedi.",
+   "Eski arkadaşlarımı yakında göreceğim.",
+   "Eski arkadaşlarımı uzun zamandır görmedim.",
+   "Yeni arkadaşlarımı uzun zamandır görmedim."
+  ],
+  "answer": 3,
+  "explanation": "«давно не видел» = uzun zamandır görmedim; özne «я», nesne «старых друзей»."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Если завтра будет дождь, экскурсию отменят.",
+  "options": [
+   "Yarın yağmur yağsaydı gezi iptal edilirdi.",
+   "Yarın yağmur yağarsa gezi iptal edilecek.",
+   "Dün yağmur yağdığı için gezi iptal edildi.",
+   "Yarın yağmur yağsa bile gezi iptal edilmeyecek.",
+   "Yarın yağmur yağarsa geziyi biz iptal edeceğiz."
+  ],
+  "answer": 1,
+  "explanation": "Gerçek şart + gelecek zaman; «отменят» öznesiz yapı → «iptal edilecek»."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Этот музей был основан в начале девятнадцатого века.",
+  "options": [
+   "Bu müze on dokuzuncu yüzyılın sonunda kuruldu.",
+   "Bu müze on sekizinci yüzyılın başında kuruldu.",
+   "Bu müze on dokuzuncu yüzyılın başından beri ziyaret ediliyor.",
+   "Bu müzeyi on dokuzuncu yüzyılın başında bir kral kurdu.",
+   "Bu müze on dokuzuncu yüzyılın başında kuruldu."
+  ],
+  "answer": 4,
+  "explanation": "«в начале девятнадцатого века» = 19. yüzyılın başında; «был основан» = kuruldu (edilgen)."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Ей не удалось найти работу по специальности.",
+  "options": [
+   "Mesleğine uygun bir iş bulmayı başardı.",
+   "Mesleğine uygun bir iş aramadı.",
+   "Mesleğine uygun bir iş bulamadı.",
+   "Mesleği dışında bir iş bulamadı.",
+   "Mesleğine uygun bir iş bulmak istemedi."
+  ],
+  "answer": 2,
+  "explanation": "«не удалось найти» = bulamadı (başaramadı); «по специальности» = mesleğine uygun."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Чем раньше начнёшь изучать язык, тем легче будет.",
+  "options": [
+   "Bir dili ne kadar erken öğrenmeye başlarsan o kadar kolay olur.",
+   "Bir dili ne kadar geç öğrenmeye başlarsan o kadar kolay olur.",
+   "Bir dili erken öğrenmeye başlamak her zaman zordur.",
+   "Bir dili ne kadar erken öğrenmeye başlarsan o kadar zor olur.",
+   "Bir dili öğrenmeye başlamadan önce kolay olduğunu düşünürsün."
+  ],
+  "answer": 0,
+  "explanation": "«Чем раньше …, тем легче» = ne kadar erken …, o kadar kolay."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Студенты, сдавшие экзамен, получат сертификаты.",
+  "options": [
+   "Sınavı geçemeyen öğrenciler sertifika alacak.",
+   "Sınavı geçen öğrenciler sertifika aldı.",
+   "Öğrenciler sınavı geçerse sertifika almayacak.",
+   "Sınavı geçen öğrenciler sertifika alacak.",
+   "Sertifika alan öğrenciler sınavı geçecek."
+  ],
+  "answer": 3,
+  "explanation": "«сдавшие экзамен» sıfat-fiil = sınavı geçen; «получат» gelecek zaman = alacak."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Он сделал вид, что ничего не заметил.",
+  "options": [
+   "Hiçbir şey fark etmedi.",
+   "Hiçbir şey fark etmemiş gibi yaptı.",
+   "Her şeyi fark etmiş gibi yaptı.",
+   "Hiçbir şey fark etmemesi için uğraştı.",
+   "Bir şey fark ettiğini söyledi."
+  ],
+  "answer": 1,
+  "explanation": "«сделать вид» = …mış gibi yapmak; «ничего не заметил» = hiçbir şey fark etmedi."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Мне пришлось отложить поездку из-за болезни.",
+  "options": [
+   "Hastalığa rağmen yolculuğumu ertelemedim.",
+   "Hastalık yüzünden yolculuğumu iptal etmek istedim.",
+   "Hastalık yüzünden yolculuğumu ertelemek zorunda kalacağım.",
+   "Hastalığım geçince yolculuğa çıktım.",
+   "Hastalık yüzünden yolculuğumu ertelemek zorunda kaldım."
+  ],
+  "answer": 4,
+  "explanation": "«пришлось» = zorunda kaldım (geçmiş); «отложить» = ertelemek; «из-за» = yüzünden."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Никто из нас не знал, где находится вокзал.",
+  "options": [
+   "Hepimiz garın nerede olduğunu biliyorduk.",
+   "İçimizden biri garın nerede olduğunu bilmiyordu.",
+   "İçimizden hiç kimse garın nerede olduğunu bilmiyordu.",
+   "İçimizden hiç kimse garın ne zaman açıldığını bilmiyordu.",
+   "İçimizden hiç kimse gara nasıl gidileceğini sormadı."
+  ],
+  "answer": 2,
+  "explanation": "«Никто из нас не знал» = içimizden hiç kimse bilmiyordu; «где находится» = nerede olduğu."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Книга, которую ты мне дал, оказалась очень интересной.",
+  "options": [
+   "Bana verdiğin kitap çok ilginç çıktı.",
+   "Sana verdiğim kitap çok ilginç çıktı.",
+   "Bana vereceğin kitap çok ilginç olacak.",
+   "Bana verdiğin kitap hiç ilginç değildi.",
+   "Bana verdiğin dergi çok ilginç çıktı."
+  ],
+  "answer": 0,
+  "explanation": "«которую ты мне дал» = bana verdiğin; «оказалась» = (beklenmedik şekilde) çıktı."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Вряд ли он придёт вовремя.",
+  "options": [
+   "Kesinlikle zamanında gelecek.",
+   "Zamanında gelmedi.",
+   "Zamanında gelmesi gerekiyor.",
+   "Zamanında geleceği pek olası değil.",
+   "Belki erken gelir."
+  ],
+  "answer": 3,
+  "explanation": "«Вряд ли» = pek sanmam / pek olası değil; gelecek zaman korunmalı."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Правительство приняло решение повысить налоги на табак.",
+  "options": [
+   "Hükümet tütün vergilerini düşürme kararı aldı.",
+   "Hükümet tütün vergilerini artırma kararı aldı.",
+   "Hükümet tütün vergilerini artırmayı düşünüyor.",
+   "Hükümet alkol vergilerini artırma kararı aldı.",
+   "Halk tütün vergilerinin artırılmasına karar verdi."
+  ],
+  "answer": 1,
+  "explanation": "«приняло решение» = karar aldı (geçmiş, kesin); «повысить» = artırmak; «табак» = tütün."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu romanı okumaya geçen yıl başladım ama hâlâ bitiremedim.",
+  "options": [
+   "Я закончил читать этот роман в прошлом году.",
+   "Я начну читать этот роман в следующем году, но не закончу.",
+   "Я начал читать этот роман в прошлом году и быстро его закончил.",
+   "Я начал читать этот роман в прошлом году, но до сих пор не смог его закончить.",
+   "Я не начинал читать этот роман, хотя купил его в прошлом году."
+  ],
+  "answer": 3,
+  "explanation": "«hâlâ bitiremedim» = «до сих пор не смог закончить»; başlama geçen yıl."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Hava çok soğuk olduğu için okullar tatil edildi.",
+  "options": [
+   "Несмотря на холод, школы продолжали работать.",
+   "Так как было очень холодно, школы закрыли.",
+   "Так как было очень жарко, школы закрыли.",
+   "Если будет очень холодно, школы закроют.",
+   "Школы закрыли, поэтому стало очень холодно."
+  ],
+  "answer": 1,
+  "explanation": "Sebep «olduğu için» = «так как»; sonuç geçmişte gerçekleşmiş: «школы закрыли»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Toplantıya katılamayacağımı müdüre söylemeyi unuttum.",
+  "options": [
+   "Я не забыл сказать директору, что не смогу прийти на собрание.",
+   "Директор забыл сказать мне, что не сможет прийти на собрание.",
+   "Я забыл сказать директору, что смогу прийти на собрание.",
+   "Я забыл прийти на собрание к директору.",
+   "Я забыл сказать директору, что не смогу прийти на собрание."
+  ],
+  "answer": 4,
+  "explanation": "Unutan «я», söylenecek kişi müdür, içerik olumsuz: «не смогу прийти»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bilim insanları bu hastalığa karşı yeni bir aşı geliştirdi.",
+  "options": [
+   "Учёные разрабатывают новую вакцину против этой болезни.",
+   "Учёные разработают новую вакцину против этой болезни.",
+   "Учёные разработали новую вакцину против этой болезни.",
+   "Учёные испытали старую вакцину против этой болезни.",
+   "Врачи вылечили эту болезнь новой вакциной."
+  ],
+  "answer": 2,
+  "explanation": "«geliştirdi» tamamlanmış geçmiş → «разработали» (bitmiş görünüş)."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Keşke bu kadar çok para harcamasaydık.",
+  "options": [
+   "Жаль, что мы потратили так много денег.",
+   "Хорошо, что мы потратили так много денег.",
+   "Мы потратим так много денег.",
+   "Жаль, что мы не потратили больше денег.",
+   "Если бы у нас было много денег, мы бы их потратили."
+  ],
+  "answer": 0,
+  "explanation": "«Keşke …masaydık» pişmanlık bildirir: «Жаль, что мы потратили так много»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Annem bana her akşam masal okurdu.",
+  "options": [
+   "Мама прочитала мне сказку вчера вечером.",
+   "Я каждый вечер читал маме сказки.",
+   "Мама будет читать мне сказки каждый вечер.",
+   "Мама каждый вечер читала мне сказки.",
+   "Мама никогда не читала мне сказки."
+  ],
+  "answer": 3,
+  "explanation": "Geçmişte alışkanlık («okurdu») → bitmemiş görünüş «читала»; «каждый вечер»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Kapıyı kapatmadan çıkma.",
+  "options": [
+   "Уходя, не закрывай дверь.",
+   "Не уходи, не закрыв дверь.",
+   "Закрой дверь, когда придёшь.",
+   "Не открывай дверь, когда уходишь.",
+   "Он ушёл, не закрыв дверь."
+  ],
+  "answer": 1,
+  "explanation": "Olumsuz emir + «-madan» = «не закрыв» (zarf-fiil): «Не уходи, не закрыв дверь»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu sorunu çözmek düşündüğümüzden daha zor oldu.",
+  "options": [
+   "Решить эту проблему оказалось легче, чем мы думали.",
+   "Решить эту проблему будет труднее, чем мы думаем.",
+   "Мы думали, что эту проблему невозможно решить.",
+   "Решить эту проблему оказалось так же трудно, как мы думали.",
+   "Решить эту проблему оказалось труднее, чем мы думали."
+  ],
+  "answer": 4,
+  "explanation": "«düşündüğümüzden daha zor oldu» = «оказалось труднее, чем мы думали»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Türkiye'nin en kalabalık şehri İstanbul'dur.",
+  "options": [
+   "Самый большой по площади город Турции — Стамбул.",
+   "Столица Турции — Стамбул.",
+   "Самый населённый город Турции — Стамбул.",
+   "Стамбул — один из самых населённых городов Турции.",
+   "Самый населённый город Турции — Анкара."
+  ],
+  "answer": 2,
+  "explanation": "«en kalabalık» = «самый населённый»; «biri» değil, tek ve en kalabalık şehir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Ona yardım etmeseydin işi zamanında bitiremezdi.",
+  "options": [
+   "Если бы ты ему не помог, он не закончил бы работу вовремя.",
+   "Если ты ему не поможешь, он не закончит работу вовремя.",
+   "Ты ему не помог, поэтому он не закончил работу вовремя.",
+   "Если бы ты ему помог, он закончил бы работу вовремя.",
+   "Хотя ты ему помог, он не закончил работу вовремя."
+  ],
+  "answer": 0,
+  "explanation": "Gerçek dışı geçmiş şart → «если бы … не помог, … не закончил бы»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Doktor her gün en az iki litre su içmemi tavsiye etti.",
+  "options": [
+   "Врач посоветовал мне выпивать не более двух литров воды в день.",
+   "Врач посоветовал мне пить два литра воды раз в неделю.",
+   "Я посоветовал врачу пить не менее двух литров воды в день.",
+   "Врач посоветовал мне выпивать не менее двух литров воды в день.",
+   "Врач запретил мне пить больше двух литров воды в день."
+  ],
+  "answer": 3,
+  "explanation": "«en az» = «не менее»; «her gün» = «в день»; tavsiye eden doktor."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu yasa önümüzdeki aydan itibaren yürürlüğe girecek.",
+  "options": [
+   "Этот закон вступил в силу в прошлом месяце.",
+   "Этот закон вступит в силу со следующего месяца.",
+   "Этот закон перестанет действовать со следующего месяца.",
+   "Этот закон, возможно, будет принят в следующем месяце.",
+   "Этот закон действует уже месяц."
+  ],
+  "answer": 1,
+  "explanation": "«yürürlüğe girmek» = «вступить в силу»; gelecek zaman ve «со следующего месяца»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Коралловые рифы занимают менее одного процента площади океанов, однако в них обитает почти четверть всех морских видов. Поэтому их часто называют «тропическими лесами моря». В последние десятилетия рифы страдают от так называемого обесцвечивания. Когда температура воды поднимается выше нормы, кораллы теряют микроскопические водоросли, которые живут в их тканях и снабжают их питанием. Без водорослей кораллы белеют и, если высокая температура держится долго, погибают. По данным учёных, с 1950-х годов мир потерял около половины коралловых рифов. Специалисты подчёркивают, что главной причиной этого является глобальное потепление, хотя загрязнение воды и чрезмерный вылов рыбы также наносят рифам серьёзный вред.",
+  "text": "Parçaya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Mercan resifleri okyanusların yaklaşık dörtte birini kaplar.",
+   "1950'lerden bu yana mercan resiflerinin sayısı iki katına çıkmıştır.",
+   "Mercanlar, dokularında yaşayan algleri besler.",
+   "Mercan resifleri okyanusların küçük bir kısmını kaplasa da deniz türlerinin yaklaşık dörtte birine ev sahipliği yapar.",
+   "Aşırı balıkçılık, resiflerin yok olmasının tek nedenidir."
+  ],
+  "answer": 3,
+  "explanation": "Parçanın ilk cümlesi: resifler okyanusların %1'inden azını kaplar ama türlerin dörtte biri orada yaşar."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Коралловые рифы занимают менее одного процента площади океанов, однако в них обитает почти четверть всех морских видов. Поэтому их часто называют «тропическими лесами моря». В последние десятилетия рифы страдают от так называемого обесцвечивания. Когда температура воды поднимается выше нормы, кораллы теряют микроскопические водоросли, которые живут в их тканях и снабжают их питанием. Без водорослей кораллы белеют и, если высокая температура держится долго, погибают. По данным учёных, с 1950-х годов мир потерял около половины коралловых рифов. Специалисты подчёркивают, что главной причиной этого является глобальное потепление, хотя загрязнение воды и чрезмерный вылов рыбы также наносят рифам серьёзный вред.",
+  "text": "Parçaya göre mercanların beyazlamasının doğrudan nedeni nedir?",
+  "options": [
+   "Okyanus suyunun tuzluluğunun azalması",
+   "Su sıcaklığının normalin üzerine çıkmasıyla alglerin kaybedilmesi",
+   "Balıkların mercanları yemesi",
+   "Suyun kirlenmesiyle mercanların zehirlenmesi",
+   "Su sıcaklığının aniden düşmesi"
+  ],
+  "answer": 1,
+  "explanation": "Su ısınınca mercanlar onları besleyen algleri kaybeder ve beyazlar."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Коралловые рифы занимают менее одного процента площади океанов, однако в них обитает почти четверть всех морских видов. Поэтому их часто называют «тропическими лесами моря». В последние десятилетия рифы страдают от так называемого обесцвечивания. Когда температура воды поднимается выше нормы, кораллы теряют микроскопические водоросли, которые живут в их тканях и снабжают их питанием. Без водорослей кораллы белеют и, если высокая температура держится долго, погибают. По данным учёных, с 1950-х годов мир потерял около половины коралловых рифов. Специалисты подчёркивают, что главной причиной этого является глобальное потепление, хотя загрязнение воды и чрезмерный вылов рыбы также наносят рифам серьёзный вред.",
+  "text": "Parçaya göre uzmanlar resiflerin yok olmasının başlıca nedeni olarak neyi görmektedir?",
+  "options": [
+   "Su kirliliğini",
+   "Aşırı balıkçılığı",
+   "Turizmi",
+   "Tropik ormanların yok edilmesini",
+   "Küresel ısınmayı"
+  ],
+  "answer": 4,
+  "explanation": "«главной причиной … является глобальное потепление»; kirlilik ve balıkçılık yalnızca ek zararlar olarak geçer."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Первая точно датированная русская печатная книга «Апостол» вышла в Москве в 1564 году. Её издал Иван Фёдоров вместе со своим помощником Петром Мстиславцем. До этого книги на Руси переписывали от руки, что требовало много времени и делало их очень дорогими. Однако книгопечатание встретило сопротивление со стороны переписчиков, которые боялись потерять свой заработок. Вскоре после выхода книги Фёдорову пришлось покинуть Москву. Он продолжил работу во Львове и Остроге, где напечатал одну из первых печатных азбук и знаменитую Острожскую Библию. Сегодня Ивана Фёдорова считают основателем книгопечатания в России и Украине.",
+  "text": "Parçaya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "«Apostol» kitabını Pyotr Mstislavets tek başına bastı.",
+   "Fyodorov Moskova'dan ayrıldıktan sonra kitap basmayı bıraktı.",
+   "Matbaadan önce Rusya'da kitaplar elle kopyalandığı için çok pahalıydı.",
+   "Kopyacılar matbaanın yayılmasını memnuniyetle karşıladı.",
+   "Ostrog İncili Moskova'da basıldı."
+  ],
+  "answer": 2,
+  "explanation": "Parçada kitapların elle kopyalandığı ve bu yüzden çok pahalı olduğu belirtilir."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Первая точно датированная русская печатная книга «Апостол» вышла в Москве в 1564 году. Её издал Иван Фёдоров вместе со своим помощником Петром Мстиславцем. До этого книги на Руси переписывали от руки, что требовало много времени и делало их очень дорогими. Однако книгопечатание встретило сопротивление со стороны переписчиков, которые боялись потерять свой заработок. Вскоре после выхода книги Фёдорову пришлось покинуть Москву. Он продолжил работу во Львове и Остроге, где напечатал одну из первых печатных азбук и знаменитую Острожскую Библию. Сегодня Ивана Фёдорова считают основателем книгопечатания в России и Украине.",
+  "text": "Parçaya göre kopyacılar matbaaya neden karşı çıktı?",
+  "options": [
+   "Gelirlerini kaybetmekten korktukları için",
+   "Basılı kitapları dine aykırı buldukları için",
+   "Basılı kitapların kalitesiz olduğunu düşündükleri için",
+   "Fyodorov'u yabancı biri olarak gördükleri için",
+   "Matbaanın çok pahalı olduğunu düşündükleri için"
+  ],
+  "answer": 0,
+  "explanation": "«боялись потерять свой заработок» = kazançlarını kaybetmekten korkuyorlardı."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Первая точно датированная русская печатная книга «Апостол» вышла в Москве в 1564 году. Её издал Иван Фёдоров вместе со своим помощником Петром Мстиславцем. До этого книги на Руси переписывали от руки, что требовало много времени и делало их очень дорогими. Однако книгопечатание встретило сопротивление со стороны переписчиков, которые боялись потерять свой заработок. Вскоре после выхода книги Фёдорову пришлось покинуть Москву. Он продолжил работу во Львове и Остроге, где напечатал одну из первых печатных азбук и знаменитую Острожскую Библию. Сегодня Ивана Фёдорова считают основателем книгопечатания в России и Украине.",
+  "text": "Parçaya göre Fyodorov Lviv ve Ostrog'da ne yapmıştır?",
+  "options": [
+   "İlk Rus matbaasını kurup «Apostol»u basmıştır.",
+   "Kopyacılar için bir okul açmıştır.",
+   "Elle yazılmış kitapları toplamıştır.",
+   "İlk basılı alfabe kitaplarından birini ve Ostrog İncili'ni basmıştır.",
+   "Moskova'ya dönmek için izin beklemiştir."
+  ],
+  "answer": 3,
+  "explanation": "Lviv ve Ostrog'da bir alfabe kitabı ve Ostrog İncili'ni bastığı söylenir; «Apostol» Moskova'da basılmıştır."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Сон играет ключевую роль в здоровье человека. Во время сна мозг обрабатывает информацию, полученную за день, и закрепляет воспоминания. Исследования показывают, что взрослым людям необходимо от семи до девяти часов сна в сутки. Хронический недостаток сна повышает риск ожирения, диабета и сердечно-сосудистых заболеваний. Кроме того, невыспавшийся человек хуже концентрируется и чаще допускает ошибки. Одной из причин плохого сна врачи называют использование смартфонов перед сном: синий свет экрана подавляет выработку мелатонина — гормона, регулирующего сон. Поэтому специалисты рекомендуют откладывать гаджеты как минимум за час до сна.",
+  "text": "Parçaya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Uyku sırasında beyin tamamen dinlenir ve bilgi işlemez.",
+   "Yetişkinlerin günde yedi ila dokuz saat uykuya ihtiyacı vardır.",
+   "Mavi ışık melatonin üretimini artırır.",
+   "Uykusuzluk yalnızca konsantrasyonu etkiler.",
+   "Uzmanlar yatmadan hemen önce telefon kullanmayı önerir."
+  ],
+  "answer": 1,
+  "explanation": "«взрослым людям необходимо от семи до девяти часов сна»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Сон играет ключевую роль в здоровье человека. Во время сна мозг обрабатывает информацию, полученную за день, и закрепляет воспоминания. Исследования показывают, что взрослым людям необходимо от семи до девяти часов сна в сутки. Хронический недостаток сна повышает риск ожирения, диабета и сердечно-сосудистых заболеваний. Кроме того, невыспавшийся человек хуже концентрируется и чаще допускает ошибки. Одной из причин плохого сна врачи называют использование смартфонов перед сном: синий свет экрана подавляет выработку мелатонина — гормона, регулирующего сон. Поэтому специалисты рекомендуют откладывать гаджеты как минимум за час до сна.",
+  "text": "Parçaya göre melatonin nedir?",
+  "options": [
+   "Ekranlardan yayılan bir ışık türü",
+   "Kalp hastalıklarına neden olan bir madde",
+   "Hafızayı güçlendiren bir ilaç",
+   "Obeziteye yol açan bir hormon",
+   "Uykuyu düzenleyen bir hormon"
+  ],
+  "answer": 4,
+  "explanation": "«мелатонин — гормон, регулирующий сон»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "Сон играет ключевую роль в здоровье человека. Во время сна мозг обрабатывает информацию, полученную за день, и закрепляет воспоминания. Исследования показывают, что взрослым людям необходимо от семи до девяти часов сна в сутки. Хронический недостаток сна повышает риск ожирения, диабета и сердечно-сосудистых заболеваний. Кроме того, невыспавшийся человек хуже концентрируется и чаще допускает ошибки. Одной из причин плохого сна врачи называют использование смартфонов перед сном: синий свет экрана подавляет выработку мелатонина — гормона, регулирующего сон. Поэтому специалисты рекомендуют откладывать гаджеты как минимум за час до сна.",
+  "text": "Parçaya göre uzmanların tavsiyesi nedir?",
+  "options": [
+   "Günde en az on saat uyumak",
+   "Yatmadan önce melatonin almak",
+   "Yatmadan en az bir saat önce elektronik cihazları bırakmak",
+   "Ekran parlaklığını artırmak",
+   "Gündüz kısa uykular uyumak"
+  ],
+  "answer": 2,
+  "explanation": "«откладывать гаджеты как минимум за час до сна»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "За последние двадцать лет солнечная энергетика стала одной из самых быстрорастущих отраслей в мире. Главной причиной этого является резкое снижение стоимости солнечных панелей: с 2010 года их цена упала почти на 90 процентов. Сегодня в ряде стран электричество, полученное от солнца, стоит дешевле, чем энергия угольных электростанций. Тем не менее у солнечной энергетики есть серьёзный недостаток: панели производят электричество только днём и в ясную погоду. Чтобы решить эту проблему, инженеры разрабатывают более ёмкие и дешёвые аккумуляторы, способные накапливать энергию и отдавать её ночью.",
+  "text": "Parçaya göre güneş enerjisinin hızla büyümesinin başlıca nedeni nedir?",
+  "options": [
+   "Güneş panellerinin maliyetinin büyük ölçüde düşmesi",
+   "Kömür santrallerinin tamamen kapatılması",
+   "Panellerin gece de elektrik üretebilmesi",
+   "Bataryaların ucuzlaması",
+   "Hükümetlerin güneş enerjisini zorunlu kılması"
+  ],
+  "answer": 0,
+  "explanation": "«Главной причиной … является резкое снижение стоимости солнечных панелей»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "За последние двадцать лет солнечная энергетика стала одной из самых быстрорастущих отраслей в мире. Главной причиной этого является резкое снижение стоимости солнечных панелей: с 2010 года их цена упала почти на 90 процентов. Сегодня в ряде стран электричество, полученное от солнца, стоит дешевле, чем энергия угольных электростанций. Тем не менее у солнечной энергетики есть серьёзный недостаток: панели производят электричество только днём и в ясную погоду. Чтобы решить эту проблему, инженеры разрабатывают более ёмкие и дешёвые аккумуляторы, способные накапливать энергию и отдавать её ночью.",
+  "text": "Parçada güneş enerjisinin hangi dezavantajından söz edilmektedir?",
+  "options": [
+   "Panellerin çok pahalı olması",
+   "Panellerin çevreyi kirletmesi",
+   "Güneş enerjisinin her yerde kömürden daha pahalı olması",
+   "Panellerin yalnızca gündüz ve açık havada elektrik üretmesi",
+   "Panellerin kısa ömürlü olması"
+  ],
+  "answer": 3,
+  "explanation": "«панели производят электричество только днём и в ясную погоду»."
+ },
+ {
+  "topic": "paragraf",
+  "passage": "За последние двадцать лет солнечная энергетика стала одной из самых быстрорастущих отраслей в мире. Главной причиной этого является резкое снижение стоимости солнечных панелей: с 2010 года их цена упала почти на 90 процентов. Сегодня в ряде стран электричество, полученное от солнца, стоит дешевле, чем энергия угольных электростанций. Тем не менее у солнечной энергетики есть серьёзный недостаток: панели производят электричество только днём и в ясную погоду. Чтобы решить эту проблему, инженеры разрабатывают более ёмкие и дешёвые аккумуляторы, способные накапливать энергию и отдавать её ночью.",
+  "text": "Parçaya göre aşağıdakilerden hangisi söylenebilir?",
+  "options": [
+   "Güneş panellerinin fiyatı 2010'dan bu yana yaklaşık yüzde 50 düşmüştür.",
+   "Bazı ülkelerde güneş enerjisi kömürden elde edilen enerjiden daha ucuzdur.",
+   "Mühendisler güneş panellerini gece çalıştırmanın yolunu bulmuştur.",
+   "Güneş enerjisi son yirmi yılda en yavaş büyüyen sektördür.",
+   "Bataryalar bugün güneş enerjisinin sorununu tamamen çözmüştür."
+  ],
+  "answer": 1,
+  "explanation": "«в ряде стран электричество от солнца стоит дешевле, чем энергия угольных электростанций»."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Привет! Ты не знаешь, который час?\n— ______\n— Спасибо! Тогда я ещё успею на автобус.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Я не люблю ездить на автобусе.",
+   "Вчера я был очень занят.",
+   "Мне нравятся эти часы.",
+   "Сейчас без пятнадцати три.",
+   "Нет, я никогда не опаздываю."
+  ],
+  "answer": 3,
+  "explanation": "Saat soruluyor ve cevaptan sonra otobüse yetişileceği söyleniyor; saati söyleyen replik gerekir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Добрый день! Я хотел бы забронировать столик на вечер.\n— ______\n— На четверых, часов на восемь.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Извините, мы уже закрываемся.",
+   "Конечно. На сколько человек и на какое время?",
+   "Ваш заказ будет готов через десять минут.",
+   "Меню лежит на столе.",
+   "Спасибо, всё было очень вкусно."
+  ],
+  "answer": 1,
+  "explanation": "Sonraki cevap kişi sayısı ve saati veriyor; bunları soran replik gerekir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Что с тобой? Ты выглядишь усталым.\n— ______\n— Тогда тебе нужно сегодня лечь пораньше.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Я отлично выспался.",
+   "Я только что вернулся из отпуска и полон сил.",
+   "Мне очень нравится этот фильм.",
+   "Я купил новую машину.",
+   "Я почти не спал прошлой ночью."
+  ],
+  "answer": 4,
+  "explanation": "«Erken yat» tavsiyesi, uykusuzluktan yakınan bir cevabı gerektirir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Простите, как пройти к Третьяковской галерее?\n— ______\n— Большое спасибо! Это далеко?\n— Нет, минут десять пешком.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Галерея открыта с десяти утра.",
+   "Я тоже не местный, извините.",
+   "Идите прямо до светофора, а потом поверните направо.",
+   "Билеты стоят пятьсот рублей.",
+   "В галерее много картин Репина."
+  ],
+  "answer": 2,
+  "explanation": "Yol soruluyor, ardından teşekkür edilip uzaklık soruluyor; yol tarifi gerekir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Ты уже сдал экзамен по истории?\n— ______\n— Не переживай, в следующий раз обязательно получится.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Сдавал, но, к сожалению, провалил.",
+   "Да, получил пятёрку!",
+   "Нет, экзамен будет только через неделю.",
+   "Я очень люблю историю.",
+   "Да, это было совсем легко."
+  ],
+  "answer": 0,
+  "explanation": "«Üzülme, bir dahaki sefere olur» teselli cümlesi sınavda başarısız olunduğunu gösterir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Алло, можно поговорить с Анной?\n— ______\n— Хорошо, я перезвоню через час.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Да, это я. Слушаю вас.",
+   "Анна передаёт вам привет.",
+   "Здесь такая не живёт.",
+   "Её сейчас нет дома. Что-нибудь передать?",
+   "Анна очень любит музыку."
+  ],
+  "answer": 3,
+  "explanation": "Arayan kişi bir saat sonra tekrar arayacağını söylüyor; Anna'nın şu an evde olmadığı anlaşılır."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Как ты думаешь, стоит ли идти на этот фильм?\n— ______\n— Ну, тогда я лучше посмотрю что-нибудь другое.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Обязательно сходи, это лучший фильм года!",
+   "Честно говоря, мне он показался скучным.",
+   "Я пойду с тобой с удовольствием.",
+   "Кинотеатр находится рядом с метро.",
+   "Фильм начинается в семь часов."
+  ],
+  "answer": 1,
+  "explanation": "Konuşmacı başka bir film izlemeye karar veriyor; filmin olumsuz değerlendirildiği replik gerekir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Мне нужно купить подарок для мамы, но я не знаю, что выбрать.\n— ______\n— Хорошая идея! Она как раз любит цветы.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Подари ей новую книгу.",
+   "Я тоже не знаю, что подарить брату.",
+   "У твоей мамы день рождения в мае?",
+   "Магазин закрывается в девять.",
+   "Может быть, купишь ей красивый букет?"
+  ],
+  "answer": 4,
+  "explanation": "«İyi fikir! Zaten çiçekleri sever» cevabı çiçek önerisini gerektirir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Извините, это место свободно?\n— ______\n— Спасибо, тогда я сяду здесь.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Нет, здесь сидит мой друг.",
+   "Поезд отправляется через пять минут.",
+   "Да, пожалуйста, садитесь.",
+   "Это мой билет.",
+   "Я не говорю по-русски."
+  ],
+  "answer": 2,
+  "explanation": "«O zaman buraya oturayım» cevabı yerin boş olduğunu söyleyen repliği gerektirir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Почему ты вчера не пришёл на день рождения Олега?\n— ______\n— Как жаль! Надеюсь, тебе уже лучше.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Я заболел и весь день пролежал с температурой.",
+   "Я пришёл, но очень поздно.",
+   "Я забыл, а потом было неудобно звонить.",
+   "Мне не нравится Олег.",
+   "Я был на работе до вечера."
+  ],
+  "answer": 0,
+  "explanation": "«Umarım şimdi daha iyisindir» yalnızca hastalık mazeretine uyar."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Сколько стоят эти яблоки?\n— ______\n— Отлично, дайте мне, пожалуйста, два килограмма.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Их привезли из Краснодара.",
+   "Извините, яблоки уже закончились.",
+   "Они очень сладкие.",
+   "Сто двадцать рублей за килограмм.",
+   "Магазин работает до восьми."
+  ],
+  "answer": 3,
+  "explanation": "Fiyat soruluyor ve ardından iki kilo isteniyor; fiyatı söyleyen replik gerekir."
+ },
+ {
+  "topic": "diyalog",
+  "passage": "— Вы не могли бы говорить помедленнее?\n— ______\n— Да, спасибо, теперь всё понятно.",
+  "text": "Boşluğa hangisi gelmelidir?",
+  "options": [
+   "Нет, я очень тороплюсь.",
+   "Конечно. Я объясню ещё раз, медленно.",
+   "Я говорю по-английски.",
+   "Вы говорите слишком тихо.",
+   "До свидания, мне пора."
+  ],
+  "answer": 1,
+  "explanation": "Daha yavaş konuşma rica ediliyor, sonra «artık her şey anlaşıldı» deniyor; ricayı kabul eden replik gerekir."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Москва — один из древнейших городов России. (II) Впервые она упоминается в летописи в 1147 году в связи с именем князя Юрия Долгорукого. (III) Со временем небольшое поселение превратилось в центр русских земель. (IV) Летом в Сочи отдыхает много туристов. (V) В XV веке Москва стала столицей единого Русского государства.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 3,
+  "explanation": "Parça Moskova'nın tarihini anlatır; Soçi'deki turistlerden söz eden IV. cümle konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Чай — один из самых популярных напитков в мире. (II) Родиной чая считается Китай. (III) Футбол появился в Англии в XIX веке. (IV) В Европу чай привезли в XVII веке голландские купцы. (V) Сегодня крупнейшими производителями чая являются Китай и Индия.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 2,
+  "explanation": "Parça çayın tarihini anlatır; futbolla ilgili III. cümle akışı bozar."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Пчёлы играют важную роль в природе. (II) Мёд издавна используется в народной медицине. (III) Пчёлы опыляют множество растений, в том числе сельскохозяйственных. (IV) Без них урожай многих фруктов и овощей резко сократился бы. (V) Именно поэтому снижение численности пчёл вызывает серьёзную тревогу у учёных.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 1,
+  "explanation": "Parça arıların tozlaşmadaki rolünü anlatır; balın halk tıbbında kullanımı (II) konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Многие дети сегодня проводят за экранами смартфонов по несколько часов в день. (II) Психологи предупреждают, что это может негативно сказываться на их развитии. (III) У таких детей чаще наблюдаются проблемы со сном и концентрацией внимания. (IV) Кроме того, они меньше двигаются и реже общаются со сверстниками вживую. (V) Первые мобильные телефоны появились в 1970-х годах.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 4,
+  "explanation": "Parça ekran kullanımının çocuklara etkisini anlatır; ilk cep telefonlarının tarihi (V) konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Леса Амазонии часто называют «лёгкими планеты». (II) Они поглощают огромное количество углекислого газа и выделяют кислород. (III) Амазонка протекает через несколько стран и впадает в Атлантический океан. (IV) Однако каждый год значительная часть этих лесов вырубается. (V) Учёные опасаются, что это ускорит глобальное потепление.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 2,
+  "explanation": "Parça ormanların iklimdeki rolü ve yok edilmesi üzerinedir; nehrin coğrafyasını anlatan III. cümle akışı bozar."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Лев Толстой — один из величайших писателей мира. (II) Его романы «Война и мир» и «Анна Каренина» переведены на десятки языков. (III) Помимо литературы, Толстой много занимался вопросами образования. (IV) В своём имении Ясная Поляна он открыл школу для крестьянских детей. (V) Пушкин погиб на дуэли в 1837 году.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 4,
+  "explanation": "Parça Tolstoy hakkındadır; Puşkin'in ölümünü anlatan V. cümle konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Человеку необходимо ежедневно пить достаточное количество воды. (II) Вода участвует почти во всех процессах, происходящих в организме. (III) Она регулирует температуру тела и помогает выводить токсины. (IV) Вода Мёртвого моря настолько солёная, что в ней невозможно утонуть. (V) При недостатке воды человек быстро устаёт и хуже концентрируется.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 3,
+  "explanation": "Parça suyun vücut için önemini anlatır; Lut Gölü'nün tuzluluğu (IV) konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) После пандемии многие компании перешли на удалённую работу. (II) Сотрудники экономят время, которое раньше тратили на дорогу в офис. (III) Многие офисные здания в центре Москвы отличаются современной архитектурой. (IV) Однако некоторые работники жалуются на чувство одиночества. (V) Поэтому всё больше фирм выбирают гибридный формат, сочетающий работу дома и в офисе.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 2,
+  "explanation": "Parça uzaktan çalışmanın artı ve eksilerini anlatır; binaların mimarisi (III) konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Первые современные Олимпийские игры прошли в Афинах в 1896 году. (II) Их инициатором стал французский барон Пьер де Кубертен. (III) Он мечтал возродить спортивные традиции Древней Греции. (IV) Греция славится своими оливками и вином. (V) С тех пор игры проводятся каждые четыре года, за исключением военных лет.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 3,
+  "explanation": "Parça modern Olimpiyatların tarihini anlatır; Yunanistan'ın zeytin ve şarabı (IV) konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Русский язык — один из шести официальных языков ООН. (II) Китайский язык считается одним из самых сложных для изучения. (III) На русском языке говорят более 250 миллионов человек. (IV) Он широко используется в странах бывшего СССР. (V) Кроме того, русский входит в десятку самых распространённых языков мира.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 1,
+  "explanation": "Parça Rusçanın yaygınlığını anlatır; Çincenin zorluğundan söz eden II. cümle konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) Футбол — самый популярный вид спорта в Бразилии. (II) Кофе — один из самых популярных напитков в мире. (III) Ежедневно люди выпивают более двух миллиардов чашек этого напитка. (IV) Учёные выяснили, что умеренное потребление кофе может снижать риск некоторых заболеваний. (V) Однако чрезмерное количество кофеина вызывает бессонницу и учащённое сердцебиение.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 0,
+  "explanation": "Parça kahve ve sağlığa etkisi üzerinedir; Brezilya'da futbolu anlatan I. cümle konu dışıdır."
+ },
+ {
+  "topic": "anlam",
+  "passage": "(I) В древности люди писали на глиняных табличках. (II) Переработка отходов — важный способ защиты окружающей среды. (III) Из старой бумаги можно сделать новую и тем самым сохранить деревья. (IV) Переработка пластика уменьшает количество мусора на свалках и в океанах. (V) Поэтому во многих городах устанавливают контейнеры для раздельного сбора мусора.",
+  "text": "Parçada anlam bütünlüğünü bozan cümle hangisidir?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V"
+  ],
+  "answer": 0,
+  "explanation": "Parça atıkların geri dönüşümünü anlatır; kil tabletlere yazı yazılması (I) konu dışıdır."
+ }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "topic": "paragraf",
+    "title": "Okuma ve Paragraf Soruları",
+    "summary": "YDS'deki 20 okuma sorusunu hızlı ve doğru çözmek için soru tiplerini, tarama tekniklerini, paraphrase tuzaklarını ve sinyal kelimeleri öğren.",
+    "sections": [
+      {
+        "h": "Soru tipleri ve kalıpları",
+        "body": "YDS okuma sorularında beş temel soru tipi döner. Soru kökünü önce oku, sonra metne dön.\nAna fikir: Основная мысль текста… / Текст посвящён…\nDetay: Согласно тексту… / В тексте говорится, что…\nÇıkarım: Из текста можно сделать вывод, что…\nYazarın tutumu: Автор относится к… / Позиция автора…\nBağlamda kelime: Слово «…» в тексте означает…\n• Ana fikir sorusunda tüm metni kapsayan şıkkı seç; tek bir paragrafa ait şık yanlıştır.",
+        "examples": [
+          {
+            "ru": "Какова основная мысль текста?",
+            "tr": "Metnin ana fikri nedir?"
+          },
+          {
+            "ru": "Согласно тексту, учёные пришли к выводу, что…",
+            "tr": "Metne göre bilim insanları … sonucuna vardılar."
+          },
+          {
+            "ru": "Из текста можно сделать вывод, что автор сомневается в успехе реформы.",
+            "tr": "Metinden yazarın reformun başarısından şüphe ettiği sonucu çıkarılabilir."
+          }
+        ]
+      },
+      {
+        "h": "Göz atma ve tarama (skimming / scanning)",
+        "body": "• Skimming: metnin ilk ve son cümlesini, paragrafların ilk cümlelerini oku; konuyu ve yazarın yönünü yakala.\n• Scanning: soru kökündeki anahtar kelimeyi (isim, sayı, tarih, özel ad) metinde ara.\n• Cevabı bulduğun cümlenin bir önceki ve bir sonraki cümlesini de oku; cevap çoğu zaman oradadır.\n• Sayılar ve tarihler hızlı tarama için en iyi işaretlerdir: в 2010 году, на 30 процентов.\n• Bilmediğin kelimelere takılma; cümlenin genel yönü (olumlu/olumsuz) çoğu zaman yeterlidir.",
+        "examples": [
+          {
+            "ru": "В 2015 году число туристов выросло на 20 процентов.",
+            "tr": "2015 yılında turist sayısı yüzde 20 arttı."
+          },
+          {
+            "ru": "Первое предложение абзаца обычно выражает его главную мысль.",
+            "tr": "Paragrafın ilk cümlesi genellikle onun ana fikrini ifade eder."
+          },
+          {
+            "ru": "Исследование проводилось в течение пяти лет.",
+            "tr": "Araştırma beş yıl boyunca yürütüldü."
+          }
+        ]
+      },
+      {
+        "h": "Anahtar kelime tuzağı ve paraphrase",
+        "body": "Metindeki kelimeleri birebir tekrar eden şık çoğu zaman tuzaktır. Doğru şık aynı bilgiyi farklı kelimelerle (paraphrase) verir.\nMetin: цены выросли вдвое\nDoğru şık: стоимость увеличилась в два раза\nTuzak şık: цены выросли, но не вдвое\n• Eş anlamlıları tanı: увеличиться = вырасти, сократиться = уменьшиться, причина = фактор.\n• Aynı kelimeler geçse bile özne, zaman veya olumsuzluk değişmişse şık yanlıştır.",
+        "examples": [
+          {
+            "ru": "Цены на жильё за год выросли вдвое.",
+            "tr": "Konut fiyatları bir yılda iki katına çıktı."
+          },
+          {
+            "ru": "Стоимость квартир за год увеличилась в два раза.",
+            "tr": "Dairelerin fiyatı bir yılda iki kat arttı."
+          },
+          {
+            "ru": "Число безработных заметно сократилось.",
+            "tr": "İşsizlerin sayısı belirgin şekilde azaldı."
+          }
+        ]
+      },
+      {
+        "h": "Olumsuz sorular",
+        "body": "Soru kökünde не, кроме veya «неверно» varsa metinde YER ALMAYAN ya da metne AYKIRI şıkkı arıyorsun.\n• Soru kökündeki не kelimesinin altını zihninde çiz; dikkatsizlik en çok burada puan kaybettirir.\n• Strateji: her şıkkı metinde kontrol et, doğru olanları ele; kalan şık cevaptır.\n• Metinde hiç geçmeyen bilgi de «не соответствует тексту» sayılır.\nKalıplar: Какое утверждение НЕ соответствует тексту? / В тексте НЕ упоминается… / Все утверждения верны, КРОМЕ…",
+        "examples": [
+          {
+            "ru": "Какое утверждение не соответствует содержанию текста?",
+            "tr": "Hangi ifade metnin içeriğiyle uyuşmaz?"
+          },
+          {
+            "ru": "В тексте не упоминается, сколько стоил проект.",
+            "tr": "Metinde projenin ne kadara mal olduğundan söz edilmiyor."
+          },
+          {
+            "ru": "Все утверждения верны, кроме одного.",
+            "tr": "Biri hariç bütün ifadeler doğrudur."
+          }
+        ]
+      },
+      {
+        "h": "Zaman yönetimi ve tipik çeldiriciler",
+        "body": "20 okuma sorusu için yaklaşık 50–55 dakika ayır; soru başına ortalama 2,5 dakika.\n• Uzun bir soruda 4 dakikayı geçtiysen işaretle, sona bırak.\n• Önce kısa metinleri ve detay sorularını çöz; ana fikir sorularını metni bitirince yanıtla.\nÇok genel şık: metnin konusundan daha geniş bir iddia\nÇok dar şık: sadece bir paragrafa ait detay\nAşırı ifade: всегда, никогда, все, только, полностью\nTers sebep-sonuç: sebep ile sonucun yer değiştirmesi\nDoğru ama metinde yok: genel kültür bilgisi",
+        "examples": [
+          {
+            "ru": "Все учёные полностью согласны с этой теорией.",
+            "tr": "Bütün bilim insanları bu teoriye tamamen katılıyor."
+          },
+          {
+            "ru": "Только государство может решить эту проблему.",
+            "tr": "Bu sorunu yalnızca devlet çözebilir."
+          },
+          {
+            "ru": "Загрязнение воздуха стало причиной роста числа заболеваний.",
+            "tr": "Hava kirliliği hastalık sayısının artmasına neden oldu."
+          }
+        ]
+      },
+      {
+        "h": "Sinyal kelimeler",
+        "body": "Bağlaçlar yazarın düşünce akışını gösterir; cevabın yeri çoğu zaman bu kelimelerden sonradır.\nAna fikir / sonuç: таким образом, итак, следовательно, в целом, главное\nZıtlık: однако, но, тем не менее, вместе с тем, в то же время, напротив\nYazarın tutumu (olumlu): несомненно, безусловно, к счастью\nYazarın tutumu (olumsuz): к сожалению, вряд ли, сомнительно\nTahmin / belirsizlik: по-видимому, вероятно, возможно\n• однако ve тем не менее sonrası genellikle yazarın asıl görüşüdür.",
+        "examples": [
+          {
+            "ru": "Таким образом, главная причина кризиса — нехватка воды.",
+            "tr": "Dolayısıyla krizin asıl nedeni su kıtlığıdır."
+          },
+          {
+            "ru": "Многие считают этот метод эффективным. Однако результаты говорят об обратном.",
+            "tr": "Birçokları bu yöntemi etkili sayıyor. Ancak sonuçlar bunun tersini gösteriyor."
+          },
+          {
+            "ru": "К сожалению, власти вряд ли изменят свою позицию.",
+            "tr": "Ne yazık ki yetkililerin tutumlarını değiştirmesi pek olası değil."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ceviri_rt",
+    "title": "Çeviri: Rusçadan Türkçeye",
+    "summary": "Rusça cümlenin iskeletini çözüp ortaç, zarf-fiil, который ve edilgen yapıları doğru Türkçeye aktarmayı ve yanlış şıkları hızlıca elemeyi öğren.",
+    "sections": [
+      {
+        "h": "Cümlenin iskeleti: özne ve yüklem",
+        "body": "Uzun Rusça cümlede önce çekimli ana fiili (yüklemi) bul, sonra yalın hâldeki özneyi bul.\n• Virgüllerle ayrılmış ortaç, zarf-fiil ve который grupları yan bilgidir; önce onları parantez içine al.\n• Özne her zaman fiilden önce gelmez: В зале выступал министр → özne министр.\n• Yüklem Türkçe cümlenin sonuna gider; şıklarda önce yüklemi karşılaştır.\nAdım 1: ana fiil ve zamanı\nAdım 2: özne (именительный падеж)\nAdım 3: nesne ve tümleçler\nAdım 4: yan cümleleri yerleştir",
+        "examples": [
+          {
+            "ru": "В зале выступал министр образования.",
+            "tr": "Salonda Milli Eğitim Bakanı konuşma yapıyordu."
+          },
+          {
+            "ru": "Компания, основанная в 1990 году, открыла новый завод в Казани.",
+            "tr": "1990 yılında kurulan şirket Kazan'da yeni bir fabrika açtı."
+          },
+          {
+            "ru": "Решение, принятое правительством, вызвало критику экспертов.",
+            "tr": "Hükümetin aldığı karar uzmanların eleştirisine yol açtı."
+          }
+        ]
+      },
+      {
+        "h": "Ortaç ve zarf-fiil grupları",
+        "body": "Ortaç (причастие) isimden önce sıfat gibi çevrilir; zarf-fiil (деепричастие) cümleye zaman veya tarz ekler.\nчитающий (etken, şimdiki): okuyan\nчитавший (etken, geçmiş): okumuş olan, okuyan\nчитаемый (edilgen, şimdiki): okunan\nпрочитанный (edilgen, geçmiş): okunmuş, okunan\nчитая (НСВ zarf-fiil): okurken, okuyarak\nпрочитав (СВ zarf-fiil): okuduktan sonra, okuyup\n• Edilgen ortaçta yapan kişi творительный hâldedir: написанный автором → yazarın yazdığı.",
+        "examples": [
+          {
+            "ru": "Студенты, сдавшие экзамен, получат сертификаты.",
+            "tr": "Sınavı geçen öğrenciler sertifika alacak."
+          },
+          {
+            "ru": "Закончив работу, он поехал домой.",
+            "tr": "İşi bitirdikten sonra eve gitti."
+          },
+          {
+            "ru": "Слушая музыку, она готовила ужин.",
+            "tr": "Müzik dinlerken akşam yemeği hazırlıyordu."
+          },
+          {
+            "ru": "Роман, написанный этим автором, переведён на двадцать языков.",
+            "tr": "Bu yazarın yazdığı roman yirmi dile çevrildi."
+          }
+        ]
+      },
+      {
+        "h": "который cümleleri → -en / -dığı",
+        "body": "который cümlesi Türkçede ismin önüne geçen bir sıfat-fiil grubu olur.\n• который yan cümlenin öznesiyse (yalın hâl) → -en/-an: студент, который живёт здесь → burada yaşayan öğrenci.\n• который nesne veya tümleçse → -dığı/-diği (+iyelik): книга, которую я купил → satın aldığım kitap.\n• Edatlı который → Türkçe ek veya edat: город, в котором я родился → doğduğum şehir.\n• Gelecek anlamda -acağı kullanılır: проект, который мы начнём → başlayacağımız proje.",
+        "examples": [
+          {
+            "ru": "Человек, который звонил вчера, — мой бывший коллега.",
+            "tr": "Dün arayan kişi eski iş arkadaşım."
+          },
+          {
+            "ru": "Книга, которую ты мне дал, очень интересная.",
+            "tr": "Bana verdiğin kitap çok ilginç."
+          },
+          {
+            "ru": "Город, в котором я вырос, сильно изменился.",
+            "tr": "Büyüdüğüm şehir çok değişti."
+          }
+        ]
+      },
+      {
+        "h": "Edilgen ve öznesiz yapılar",
+        "body": "Rusçada edilgenlik üç yolla kurulur; Türkçede çoğunlukla -ıl/-ın edilgen eki kullanılır.\n-ся (НСВ): дом строится → ev inşa ediliyor\nkısa ortaç (СВ): дом был построен → ev inşa edildi\nони + fiil (öznesiz): здесь строят дом → burada ev inşa ediliyor\nсчитается, что: … olduğu düşünülüyor / kabul ediliyor\nможно / нужно / нельзя + inf.: -ebilir / gerekir / -mez, yasak\nмне + sıfat-zarf (холодно, трудно): üşüyorum, zorlanıyorum",
+        "examples": [
+          {
+            "ru": "Новый мост был построен за два года.",
+            "tr": "Yeni köprü iki yılda inşa edildi."
+          },
+          {
+            "ru": "В газете сообщили о землетрясении.",
+            "tr": "Gazetede depremden haber verildi."
+          },
+          {
+            "ru": "Считается, что этот метод наиболее эффективен.",
+            "tr": "Bu yöntemin en etkili yöntem olduğu kabul ediliyor."
+          },
+          {
+            "ru": "Здесь нельзя курить.",
+            "tr": "Burada sigara içilmez."
+          }
+        ]
+      },
+      {
+        "h": "Söz dizimi farkları",
+        "body": "Rusça temel olarak özne-yüklem-nesne (SVO), Türkçe özne-nesne-yüklem (SOV) dizilir.\n• Rusçada yeni bilgi cümle sonundadır; Türkçede yeni bilgi yüklemin hemen önüne gelir.\n• В комнате сидел мужчина → Odada bir adam oturuyordu (yeni bilgi: мужчина → «bir adam»).\n• Мужчина сидел в комнате → Adam odada oturuyordu (bilinen kişi: «adam»).\n• Uzun tümleçleri Türkçede yüklemden önce topla; ortaç ve который gruplarını ismin önüne taşı.\n• Rusçadaki и ile bağlı iki yüklem Türkçede -ıp/-ip ile birleşebilir.",
+        "examples": [
+          {
+            "ru": "В комнату вошла незнакомая женщина.",
+            "tr": "Odaya tanımadığım bir kadın girdi."
+          },
+          {
+            "ru": "Женщина вошла в комнату и села у окна.",
+            "tr": "Kadın odaya girip pencerenin yanına oturdu."
+          },
+          {
+            "ru": "Об этом событии писали все газеты.",
+            "tr": "Bu olayı bütün gazeteler yazdı."
+          }
+        ]
+      },
+      {
+        "h": "Şık eleme stratejisi",
+        "body": "Çeviri sorularında doğru şık genellikle en «güzel» değil, anlamı eksiksiz veren şıktır. Şıkları şu sırayla kontrol et.\nZaman ve görünüş: построил (inşa etti) ≠ строил (inşa ediyordu)\nOlumsuzluk: не, ни, никогда, нельзя\nMiktar ve derece: несколько, многие, почти, более, около\nÖzne-nesne uyumu: kim kime ne yaptı?\nKip: может, должен, нужно, вероятно\nKarşılaştırma: больше, чем / так же, как\n• Bir ögesi eksik ya da fazladan bilgi ekleyen şıkkı hemen ele.",
+        "examples": [
+          {
+            "ru": "Почти половина жителей города не участвовала в выборах.",
+            "tr": "Şehir sakinlerinin neredeyse yarısı seçimlere katılmadı."
+          },
+          {
+            "ru": "Правительство должно сократить расходы.",
+            "tr": "Hükümet harcamaları azaltmak zorunda."
+          },
+          {
+            "ru": "Эта страна производит больше нефти, чем её соседи.",
+            "tr": "Bu ülke komşularından daha fazla petrol üretiyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ceviri_tr",
+    "title": "Çeviri: Türkçeden Rusçaya",
+    "summary": "Türkçe cümleyi Rusçaya aktarırken doğru görünüş ve zamanı, fiil yönetimini, -ken/-ince/-dığı için karşılıklarını ve который yapısını seçmeyi öğren.",
+    "sections": [
+      {
+        "h": "Görünüş (вид) ve zaman seçimi",
+        "body": "Türkçe zaman eki tek başına yetmez; eylemin bitip bitmediğine ve tekrarına bak.\n-dı (bir kez, tamamlandı): СВ прошедшее → написал\n-iyordu / -ardı (süreç, alışkanlık): НСВ прошедшее → писал\n-ecek (tek, sonuçlu eylem): СВ будущее → напишу\n-ecek (süreç, düzenli): буду + НСВ инфинитив → буду писать\n-iyor / -ir (şimdi, genel): НСВ настоящее → пишу\n• Her gün, sık sık, genellikle gibi zarflar НСВ ister; birden, nihayet, sonunda СВ ister.",
+        "examples": [
+          {
+            "ru": "Вчера я написал письмо директору.",
+            "tr": "Dün müdüre bir mektup yazdım."
+          },
+          {
+            "ru": "В детстве я часто писал стихи.",
+            "tr": "Çocukken sık sık şiir yazardım."
+          },
+          {
+            "ru": "Завтра я обязательно позвоню тебе.",
+            "tr": "Yarın seni mutlaka arayacağım."
+          },
+          {
+            "ru": "Летом я буду изучать русский язык каждый день.",
+            "tr": "Yazın her gün Rusça çalışacağım."
+          }
+        ]
+      },
+      {
+        "h": "Fiillerin hâl yönetimi",
+        "body": "Türkçedeki hâl eki Rusçada aynı hâle denk gelmeyebilir; fiilin yönettiği hâli ezberle.\nпомогать, звонить, советовать + Д.: birine yardım etmek, telefon etmek\nблагодарить, поздравлять + В.: birine teşekkür etmek, birini kutlamak\nзаниматься, интересоваться + Т.: bir şeyle uğraşmak, ilgilenmek\nбояться, избегать + Р.: bir şeyden korkmak, kaçınmak\nзависеть от + Р.: bir şeye bağlı olmak\nучаствовать в + П.: bir şeye katılmak\nвлиять на + В.: bir şeyi etkilemek",
+        "examples": [
+          {
+            "ru": "Я благодарю вас за помощь.",
+            "tr": "Yardımınız için size teşekkür ederim."
+          },
+          {
+            "ru": "Мой брат интересуется историей.",
+            "tr": "Ağabeyim tarihle ilgileniyor."
+          },
+          {
+            "ru": "Успех зависит от нашей работы.",
+            "tr": "Başarı bizim çalışmamıza bağlı."
+          },
+          {
+            "ru": "Климат влияет на здоровье людей.",
+            "tr": "İklim insanların sağlığını etkiler."
+          }
+        ]
+      },
+      {
+        "h": "-ken, -ince, -dığı için karşılıkları",
+        "body": "-ken / -iyorken: когда, пока, в то время как\n-ince / -diğinde: когда, как только\n-dikten sonra: после того как\n-meden önce: перед тем как, до того как\n-ene kadar: пока не, до тех пор пока не\n-diği için / -diğinden: потому что, так как\n-mek için / -sin diye: чтобы, для того чтобы\n-mesine rağmen: хотя, несмотря на то что",
+        "examples": [
+          {
+            "ru": "Пока я готовил ужин, дети смотрели телевизор.",
+            "tr": "Ben akşam yemeği hazırlarken çocuklar televizyon izliyordu."
+          },
+          {
+            "ru": "Как только он пришёл домой, начался дождь.",
+            "tr": "Eve gelir gelmez yağmur başladı."
+          },
+          {
+            "ru": "Я не пошёл на работу, потому что заболел.",
+            "tr": "Hastalandığım için işe gitmedim."
+          },
+          {
+            "ru": "Подожди здесь, пока я не вернусь.",
+            "tr": "Ben dönene kadar burada bekle."
+          }
+        ]
+      },
+      {
+        "h": "İlgi cümleleri: который",
+        "body": "Türkçe -en / -dığı sıfat-fiil grupları Rusçada ismin arkasına gelen который cümlesine dönüşür.\n• Cins ve sayı nitelenen isme göre: мужчина → который, женщина → которая, письмо → которое, люди → которые.\n• Hâl yan cümledeki göreve göre: tanıştığım kadın → женщина, с которой я познакомился.\n• -en (özne) → который в именительном: gelen öğrenci → студент, который пришёл.\n• -dığı (nesne) → которого/которую: okuduğum kitap → книга, которую я читал.\n• Kısa ve resmî metinlerde ortaç da kullanılabilir: gelen öğrenci → пришедший студент.",
+        "examples": [
+          {
+            "ru": "Женщина, с которой я познакомился, работает в посольстве.",
+            "tr": "Tanıştığım kadın büyükelçilikte çalışıyor."
+          },
+          {
+            "ru": "Дом, в котором жил писатель, стал музеем.",
+            "tr": "Yazarın yaşadığı ev müzeye dönüştü."
+          },
+          {
+            "ru": "Люди, которые приехали из деревни, искали работу.",
+            "tr": "Köyden gelen insanlar iş arıyordu."
+          }
+        ]
+      },
+      {
+        "h": "Söz dizimi ve vurgu",
+        "body": "Türkçede vurgulu öge yüklemin hemen önündedir; Rusçada vurgulanan yeni bilgi cümlenin sonuna gider.\n• Bu kitabı Ahmet yazdı → Эту книгу написал Ахмет (yeni bilgi Ахмет sonda).\n• Ahmet bu kitabı yazdı → Ахмет написал эту книгу (yeni bilgi kitap).\n• «de/da» (bile, dahi) → тоже, также, даже; «sadece» → только; «tam da» → именно.\n• только, даже, именно vurguladıkları kelimenin hemen önüne gelir.\n• Türkçede «bir» belirsizliği Rusçada öğeyi cümle sonuna koyarak verilir: Kapıda bir adam duruyordu → У двери стоял мужчина.",
+        "examples": [
+          {
+            "ru": "Эту книгу написал известный журналист.",
+            "tr": "Bu kitabı tanınmış bir gazeteci yazdı."
+          },
+          {
+            "ru": "На собрание пришёл даже директор.",
+            "tr": "Toplantıya müdür bile geldi."
+          },
+          {
+            "ru": "Именно это я и хотел сказать.",
+            "tr": "Tam da bunu söylemek istiyordum."
+          }
+        ]
+      },
+      {
+        "h": "Şıklarda anlam kaymasını kontrol et",
+        "body": "Rusça şıklar dilbilgisi açısından doğru olabilir ama anlamı kaydırabilir. Türkçe cümleyle karşılaştırırken şunlara bak.\nGörünüş ve zaman: решил (karar verdi) ≠ решал (karar veriyordu)\nOlumsuzluk: не, ни, никто, ничего, нельзя\nKip: может (-ebilir), должен (-meli), надо (gerek)\nMiktar: все, многие, некоторые, несколько\nZarf: уже (zaten, artık), ещё (henüz, hâlâ), только (sadece)\nÖzne-nesne: kim kimi? hâl ekleri yer değiştirmiş mi?",
+        "examples": [
+          {
+            "ru": "Некоторые студенты ещё не сдали экзамен.",
+            "tr": "Bazı öğrenciler sınavı henüz vermedi."
+          },
+          {
+            "ru": "Врачи должны работать по ночам.",
+            "tr": "Doktorlar geceleri çalışmak zorunda."
+          },
+          {
+            "ru": "Мы уже обсудили этот вопрос.",
+            "tr": "Bu meseleyi zaten görüştük."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "cloze",
+    "title": "Bağlantı İfadeleri ve Cloze Stratejisi",
+    "summary": "Cloze ve cümle tamamlama sorularında boşluğa gelecek bağlacı, edatı ve hâli işlevine göre seçmeyi ve tipik tuzaklardan kaçınmayı öğren.",
+    "sections": [
+      {
+        "h": "Ekleme, örnek ve özet bağlaçları",
+        "body": "Bağlacı seçerken iki cümle arasındaki mantıksal ilişkiye bak: aynı yönde mi devam ediyor, örnek mi veriyor, toparlıyor mu?\nEkleme: кроме того, к тому же, также, более того, а также\nÖrnek: например, к примеру, в частности, так\nAçıklama: то есть, иначе говоря, а именно\nÖzet / sonuç: таким образом, итак, в итоге, в целом, одним словом\n• более того bir öncekinden daha güçlü bir bilgi ekler.\n• кроме того (ayrıca) ile кроме + Р. (… hariç) karıştırılmamalı.",
+        "examples": [
+          {
+            "ru": "Этот метод дешёвый. Кроме того, он очень простой.",
+            "tr": "Bu yöntem ucuz. Ayrıca çok basit."
+          },
+          {
+            "ru": "Многие страны, в частности Германия, поддержали проект.",
+            "tr": "Birçok ülke, özellikle Almanya, projeyi destekledi."
+          },
+          {
+            "ru": "Итак, все наши предположения подтвердились.",
+            "tr": "Sonuç olarak bütün tahminlerimiz doğrulandı."
+          }
+        ]
+      },
+      {
+        "h": "Zıtlık ve taviz bağlaçları",
+        "body": "Boşluktan önce ve sonra gelen cümleler zıt yöndeyse zıtlık veya taviz bağlacı gerekir.\nZıtlık: но, однако, а, зато, тем не менее, напротив, в то время как\nTaviz (+ cümle): хотя, несмотря на то что, пусть\nTaviz (+ isim): несмотря на + В.\nYine de: всё же, всё-таки, тем не менее\n• а karşılaştırma yapar (ben… o ise…), но beklentiyi bozar.\n• зато olumsuzluğu dengeleyen olumlu bir şey getirir: pahalı ama kaliteli.",
+        "examples": [
+          {
+            "ru": "Несмотря на плохую погоду, мы поехали на экскурсию.",
+            "tr": "Kötü havaya rağmen geziye gittik."
+          },
+          {
+            "ru": "Хотя он много занимался, экзамен он не сдал.",
+            "tr": "Çok çalışmasına rağmen sınavı geçemedi."
+          },
+          {
+            "ru": "Квартира небольшая, зато в центре города.",
+            "tr": "Daire küçük ama buna karşılık şehir merkezinde."
+          },
+          {
+            "ru": "Я люблю чай, а мой брат предпочитает кофе.",
+            "tr": "Ben çayı severim, ağabeyim ise kahveyi tercih eder."
+          }
+        ]
+      },
+      {
+        "h": "Sebep, sonuç, koşul ve amaç",
+        "body": "Sebep (+ cümle): потому что, так как, поскольку\nSebep (+ isim): из-за + Р. (olumsuz), благодаря + Д. (olumlu)\nSonuç: поэтому, следовательно, в результате, так что\nKoşul: если, при условии что, в случае если, в случае + Р.\nAmaç: чтобы, для того чтобы, для + Р., с целью + Р.\n• чтобы + mastar: iki cümlenin öznesi aynıysa; чтобы + geçmiş zaman: özneler farklıysa.\n• потому что sebebi, поэтому sonucu verir; yönü ters seçmek en sık hatadır.",
+        "examples": [
+          {
+            "ru": "Из-за аварии движение было остановлено.",
+            "tr": "Kaza yüzünden trafik durduruldu."
+          },
+          {
+            "ru": "Благодаря помощи друзей он быстро нашёл работу.",
+            "tr": "Arkadaşlarının yardımı sayesinde hızla iş buldu."
+          },
+          {
+            "ru": "Шёл сильный дождь, поэтому матч перенесли.",
+            "tr": "Şiddetli yağmur yağıyordu, bu yüzden maç ertelendi."
+          },
+          {
+            "ru": "Учитель повторил объяснение, чтобы все поняли тему.",
+            "tr": "Öğretmen herkes konuyu anlasın diye açıklamayı tekrarladı."
+          }
+        ]
+      },
+      {
+        "h": "Boşlukta edat + hâl",
+        "body": "Boşluk bir edatsa, arkasından gelen ismin hâline bak; hâl çoğu zaman edatı belirler.\nРодительный: без, для, до, из, от, у, после, около, кроме, вокруг\nДательный: к, по, благодаря, согласно, вопреки\nВинительный: через, про, сквозь; в/на (yön)\nТворительный: над, под, перед, между, за (yer); с (ile)\nПредложный: о, при; в/на (yer)\n• в/на: nerede? → предложный, nereye? → винительный.\n• с + Т. (ile), с + Р. (-den itibaren, -den aşağı).",
+        "examples": [
+          {
+            "ru": "Согласно закону, все граждане должны платить налоги.",
+            "tr": "Kanuna göre bütün vatandaşlar vergi ödemek zorundadır."
+          },
+          {
+            "ru": "После окончания университета она уехала за границу.",
+            "tr": "Üniversiteyi bitirdikten sonra yurt dışına gitti."
+          },
+          {
+            "ru": "Между двумя странами был подписан договор.",
+            "tr": "İki ülke arasında bir anlaşma imzalandı."
+          }
+        ]
+      },
+      {
+        "h": "Cloze nasıl çözülür?",
+        "body": "Adım 1: boşluklara bakmadan tüm metni hızlıca oku\nAdım 2: boşluğun hangi türde olduğunu belirle\nAdım 3: boşluğun solu ve sağındaki kelimelere bak\nAdım 4: hâl, cins-sayı uyumu ve görünüşü kontrol et\nAdım 5: seçtiğin şıkla cümleyi baştan oku\n• Bağlaç boşluğunda iki cümlenin ilişkisini Türkçe olarak kendine söyle: «ama mı, çünkü mü, bu yüzden mi?»\n• Fiil boşluğunda zaman zarflarına (вчера, обычно, уже) ve öznenin cinsine bak.",
+        "examples": [
+          {
+            "ru": "Обычно он вставал в семь часов.",
+            "tr": "Genellikle saat yedide kalkardı."
+          },
+          {
+            "ru": "Новая технология позволила значительно снизить затраты.",
+            "tr": "Yeni teknoloji maliyetlerin önemli ölçüde düşürülmesini sağladı."
+          },
+          {
+            "ru": "Эта проблема касается всех жителей региона.",
+            "tr": "Bu sorun bölgenin bütün sakinlerini ilgilendiriyor."
+          }
+        ]
+      },
+      {
+        "h": "Tipik tuzaklar",
+        "body": "• хотя + cümle, несмотря на + isim: несмотря на то что ise cümle alır.\n• потому что (çünkü) ↔ поэтому (bu yüzden): yön ters olursa anlam bozulur.\n• так как (çünkü) ↔ так что (bu yüzden): birbirine çok benzer, anlamları zıttır.\n• благодаря olumlu, из-за olumsuz sonuç için kullanılır.\n• начать, кончить, продолжать, перестать sonrasında mastar her zaman НСВ olur: начал читать.\n• чтобы sonrasında farklı özne varsa fiil geçmiş zaman biçimindedir: чтобы ты пришёл.",
+        "examples": [
+          {
+            "ru": "Мы опоздали, так как попали в пробку.",
+            "tr": "Trafiğe yakalandığımız için geç kaldık."
+          },
+          {
+            "ru": "Мы попали в пробку, так что опоздали.",
+            "tr": "Trafiğe yakalandık, bu yüzden geç kaldık."
+          },
+          {
+            "ru": "Он перестал курить два года назад.",
+            "tr": "İki yıl önce sigarayı bıraktı."
+          },
+          {
+            "ru": "Мама хочет, чтобы я стал врачом.",
+            "tr": "Annem doktor olmamı istiyor."
+          }
+        ]
+      }
+    ]
+  }
+]
