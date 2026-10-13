@@ -51,3 +51,6 @@ qr-expo.png
 # Ortam değişkenleri ve gizli anahtarlar asla depoya girmez
 .env
 .env.*
+
+# ÖSYM çıkmış soruları (telifli): yalnız yerelde
+src/data/osym/*.json
