@@ -3,7 +3,7 @@ import { BackHandler, Keyboard, KeyboardAvoidingView, Platform, Pressable, Scrol
 import Animated, { Easing, FadeIn, FadeOut, useAnimatedStyle, useSharedValue, withDelay, withTiming } from 'react-native-reanimated';
 import { Clover, LogoMark } from '../Logo';
 import { font, radius, useTheme } from '../theme';
-import { band, daysUntil, EXAMS, examPassed, useSettings } from '../settings';
+import { band, daysUntil, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily } from '../notify';
 import { Btn, Chip, DateWheel, Icon, IconBadge, IconName, LevelPicker, Slider, T, TimeWheel } from '../ui';
 
@@ -172,7 +172,7 @@ export function Onboarding() {
               <T v="h1">Sınavın ne zaman?</T>
               <T v="body" color="text2">{"Ana sayfada kalan günleri sayarız. Sonra Ayarlar'dan değiştirebilirsin."}</T>
               <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-                {EXAMS.filter((e) => !examPassed(e.date)).map((e) => <Chip key={e.date} label={e.id} on={examDate === e.date} onPress={() => setExamDate(e.date)} />)}
+                {EXAMS.filter((e) => !examPassed(e.date)).map((e) => <Chip key={e.date} label={`YDS · ${examLabel(e.date)}`} on={examDate === e.date} onPress={() => setExamDate(e.date)} />)}
               </View>
               <DateWheel value={examDate} onChange={setExamDate} />
               <T v="smallM" color={examPassed(examDate) ? 'bad' : 'primary'} style={{ textAlign: 'center' }}>

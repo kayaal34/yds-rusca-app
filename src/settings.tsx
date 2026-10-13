@@ -17,8 +17,10 @@ export type Settings = {
   days: string; // hatırlatma günleri, expo hafta günü (1=Pazar … 7=Cumartesi), ör. "1234567"
 };
 
-// 2026-YDS/2 (ÖSYM duyurusu). 2027-YDS/1 tarihi açıklanınca EXAMS'a eklenmeli.
-export const EXAMS = [{ id: '2026-YDS/2', date: '2026-11-22' }];
+// Bilinen ÖSYM YDS tarihleri (hızlı seçim); kullanıcı başka tarihi elle de seçebilir
+export const EXAMS = [{ id: 'YDS', date: '2026-11-22' }];
+// Kısa tarih etiketi: "22 Kasım 2026"
+export const examLabel = (date: string) => new Date(date + 'T12:00:00').toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 
 export const DEFAULTS: Settings = {
   onboarded: false,

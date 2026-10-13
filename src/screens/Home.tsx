@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Pressable, ScrollView, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 import { radius, useTheme } from '../theme';
-import { band, daysUntil, EXAMS, examPassed, useSettings } from '../settings';
+import { band, daysUntil, examPassed, useSettings } from '../settings';
 import { questions, topicName } from '../data/questions';
 import { verbs } from '../data/gen';
 import { activityDays, dayGoals, favQids, saveDayGoal, last7, streak, todayCount, topicStats, verbKnown, wrongQids } from '../db';
@@ -53,7 +53,6 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
   const days = daysUntil(st.examDate);
   const passed = examPassed(st.examDate);
-  const exam = EXAMS.find((e) => e.date === st.examDate);
   const h = new Date().getHours();
   const greet = h < 6 ? 'İyi geceler' : h < 12 ? 'Günaydın' : h < 18 ? 'İyi günler' : 'İyi akşamlar';
   const examDay = new Date(st.examDate + 'T09:00:00').toLocaleDateString('tr-TR', { day: 'numeric', month: 'long' });
@@ -128,7 +127,7 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
       <Animated.View entering={FadeIn.duration(300).delay(40)} style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
         <Chip icon="clock" label={passed ? 'Sınav geçti' : days === 0 ? 'Sınav bugün' : `${days} gün`} onPress={passed ? openSettings : undefined} />
-        <T v="small" color="muted" style={{ flex: 1 }} numberOfLines={1}>{passed ? 'Yeni sınav tarihini Ayarlar\'dan seç' : `${exam?.id ?? 'Hedef sınav'} · ${examDay}`}</T>
+        <T v="small" color="muted" style={{ flex: 1 }} numberOfLines={1}>{passed ? 'Yeni sınav tarihini Ayarlar\'dan seç' : `${'YDS'} · ${examDay}`}</T>
       </Animated.View>
 
       {/* Hedef puan */}

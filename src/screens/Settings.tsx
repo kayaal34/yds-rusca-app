@@ -1,7 +1,7 @@
 import { ReactNode, useState } from 'react';
 import { Alert, Linking, Platform, Pressable, ScrollView, Switch, TextInput, View } from 'react-native';
 import { font, useTheme } from '../theme';
-import { band, EXAMS, examPassed, useSettings } from '../settings';
+import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
 import { resetAll, resetProgress } from '../db';
 import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, ListGroup, Section, Segmented, Slider, T, TimeWheel } from '../ui';
@@ -98,7 +98,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           </View>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
             <View style={{ flex: 1, gap: 2 }}>
-              <T v="h3">{EXAMS.find((e) => e.date === st.examDate)?.id ?? 'Kendi tarihin'}</T>
+              <T v="h3">YDS sınavı</T>
               <T v="small" color={examPassed(st.examDate) ? 'bad' : 'muted'}>
                 {new Date(st.examDate + 'T12:00:00').toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}
                 {examPassed(st.examDate) ? ' · geçti, yeni tarih seç' : ''}
@@ -112,7 +112,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
             <>
               {/* Bilinen ÖSYM tarihleri hızlı seçim; istenen tarih tekerle elle girilir */}
               <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-                {EXAMS.filter((e) => !examPassed(e.date)).map((e) => <Chip key={e.date} label={e.id} on={st.examDate === e.date} onPress={() => update({ examDate: e.date })} />)}
+                {EXAMS.filter((e) => !examPassed(e.date)).map((e) => <Chip key={e.date} label={`YDS · ${examLabel(e.date)}`} on={st.examDate === e.date} onPress={() => update({ examDate: e.date })} />)}
               </View>
               <DateWheel value={st.examDate} onChange={(d) => update({ examDate: d })} />
             </>

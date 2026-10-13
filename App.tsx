@@ -7,6 +7,7 @@ import { useFonts, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_
 import { palettes, ThemeCtx, useTheme } from './src/theme';
 import { SettingsProvider, useSettings } from './src/settings';
 import { cancelDaily, syncReminder } from './src/notify';
+import { syncWidgets } from './src/widgets/sync';
 import { resetAll } from './src/db';
 import { DEMO, seedDemoIfEmpty } from './src/demo';
 
@@ -97,8 +98,11 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
 
   // Hatırlatmalar bugünkü hedefe göre kurulur: hedef tamamsa bugün bildirim gelmez
   useEffect(() => {
-    if (loaded && !wiping && !seeding && s.onboarded) syncReminder(s).catch(() => {});
-  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal]);
+    if (!loaded || wiping || seeding || !s.onboarded) return;
+    syncReminder(s).catch(() => {});
+    // iPhone widget'ları (seri, günün fiili) her açılışta ve test bitince tazelenir
+    syncWidgets(s).catch(() => {});
+  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate]);
 
   // Açılıştan sonra uygulama aşağıdan süzülerek gelir; yalnızca ilk girişte
   const [intro, setIntro] = useState(true);

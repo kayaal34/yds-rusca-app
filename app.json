@@ -34,7 +34,36 @@
           "backgroundColor": "#2F4A3E"
         }
       ],
-      "expo-font"
+      "expo-font",
+      [
+        "expo-widgets",
+        {
+          "widgets": [
+            {
+              "name": "StreakWidget",
+              "displayName": "Seri",
+              "description": "Yonca serin, bugünkü hedefin ve sınava kalan gün",
+              "ios": {
+                "supportedFamilies": [
+                  "systemSmall",
+                  "systemMedium"
+                ]
+              }
+            },
+            {
+              "name": "VerbWidget",
+              "displayName": "Günün fiili",
+              "description": "Her gün yeni bir Rusça fiil, çevirisi ve örnek cümlesi",
+              "ios": {
+                "supportedFamilies": [
+                  "systemSmall",
+                  "systemMedium"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     ]
   }
 }
