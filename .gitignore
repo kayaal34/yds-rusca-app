@@ -47,3 +47,7 @@ yarn-error.*
 # ÖSYM kaynak PDF'leri (telif) ve geçici dosyalar
 osym_raw/
 qr-expo.png
+
+# Ortam değişkenleri ve gizli anahtarlar asla depoya girmez
+.env
+.env.*
