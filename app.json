@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "YDS Rusça",
+    "slug": "yds-rusca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ydsrusca.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2F4A3E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ydsrusca.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "backgroundColor": "#2F4A3E"
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
