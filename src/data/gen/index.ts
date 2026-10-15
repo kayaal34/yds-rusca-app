@@ -1,6 +1,8 @@
 import qa from './q_grammar_a.json';
 import qb from './q_grammar_b.json';
 import qy from './q_yds_types.json';
+import qc from './q_grammar_c.json';
+import qma from './q_yds_more_a.json';
 import lessonsJson from './lessons.json';
 import lessonsExtra from './lessons_extra.json';
 import v1 from './verbs_1.json';
@@ -20,7 +22,7 @@ export type RawQ = { topic: string; text: string; options: string[]; answer: num
 export type Lesson = { topic: string; title: string; summary: string; sections: { h: string; body: string; examples: { ru: string; tr: string }[] }[] };
 export type Verb = { r: number; impf: string; perf: string; tr: string; ex: string; exTr: string; gov?: string };
 
-export const genQuestions: RawQ[] = [...qa, ...qb, ...qy] as RawQ[];
+export const genQuestions: RawQ[] = [...qa, ...qb, ...qy, ...qc, ...qma] as RawQ[];
 // Ek dersler: okuma, iki yönlü çeviri, bağlantı ifadeleri (cloze)
 export const lessons: Lesson[] = [...lessonsJson, ...lessonsExtra] as Lesson[];
 
