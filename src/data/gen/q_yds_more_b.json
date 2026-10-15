@@ -1,0 +1,1302 @@
+[
+ {
+  "topic": "ceviri_rt",
+  "text": "Учёные, изучающие изменение климата, предупреждают, что к середине века уровень моря может подняться на полметра, если выбросы парниковых газов не будут сокращены.",
+  "options": [
+   "İklim değişikliğini inceleyen bilim insanları, sera gazı emisyonları azaltılsa bile yüzyılın ortasına kadar deniz seviyesinin yarım metre yükseleceği konusunda uyarıyor.",
+   "İklim değişikliğini inceleyen bilim insanları, sera gazı emisyonları azaltılmazsa yüzyılın sonuna kadar deniz seviyesinin en az yarım metre yükseleceğini öngörüyor.",
+   "İklim değişikliğini inceleyen bilim insanları, sera gazı emisyonları azaltılmazsa yüzyılın ortasına kadar deniz seviyesinin yarım metre yükselebileceği konusunda uyarıyor.",
+   "Bilim insanlarının iklim değişikliği üzerine yaptığı araştırmalar, deniz seviyesinin yükselmesinin yüzyılın ortasına kadar sera gazı emisyonlarını yarı yarıya artıracağını gösteriyor.",
+   "İklim değişikliğini inceleyen bilim insanları, deniz seviyesi yarım metre yükselirse yüzyılın ortasına kadar sera gazı emisyonlarının azaltılamayacağı konusunda uyarıyor."
+  ],
+  "answer": 2,
+  "explanation": "«может подняться» olasılık bildirir (yükselebilir), «если ... не будут сокращены» ise «azaltılmazsa» şartıdır; «к середине века» = yüzyılın ortasına kadar."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Археологи, проводившие раскопки на юге Турции, обнаружили остатки храма, построенного, по их мнению, более десяти тысяч лет назад.",
+  "options": [
+   "Türkiye'nin güneyinde kazı yapan arkeologlar, kendi görüşlerine göre on bin yıldan daha uzun bir süre önce inşa edilmiş bir tapınağın kalıntılarını buldular.",
+   "Türkiye'nin güneyinde kazı yapan arkeologlar, on bin yıl kadar önce inşa edildiği kesin olarak kanıtlanan bir tapınağın kalıntılarını buldular.",
+   "Türkiye'nin güneyinde kazı yapacak olan arkeologlar, on bin yıldan daha uzun bir süre önce inşa edildiğini düşündükleri bir tapınağın kalıntılarını bulmayı umuyorlar.",
+   "Arkeologlar, Türkiye'nin güneyinde on bin yıldan daha uzun bir süre önce inşa edilen tapınakların çoğunun kalıntılarının bulunduğunu düşünüyor.",
+   "Türkiye'nin güneyinde kazı yapan arkeologlar, kalıntılarını buldukları tapınağın on bin yıldan daha kısa bir süre önce inşa edildiğini düşünüyorlar."
+  ],
+  "answer": 0,
+  "explanation": "«по их мнению» tarihlendirmenin kesin değil, arkeologların görüşü olduğunu; «более десяти тысяч лет назад» ise on bin yıldan daha uzun süre önce anlamını verir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Несмотря на то что доходы населения в прошлом году заметно выросли, потребительские расходы остались практически на прежнем уровне.",
+  "options": [
+   "Geçen yıl halkın gelirleri belirgin şekilde arttığı için tüketim harcamaları da neredeyse aynı oranda yükseldi.",
+   "Geçen yıl halkın gelirleri neredeyse eski düzeyinde kalmasına rağmen tüketim harcamaları belirgin şekilde arttı.",
+   "Geçen yıl halkın gelirleri belirgin şekilde azalmış olmasına rağmen tüketim harcamaları neredeyse eski düzeyinde kaldı.",
+   "Halkın gelirlerinin bu yıl belirgin şekilde artması beklense de tüketim harcamalarının eski düzeyinde kalacağı tahmin ediliyor.",
+   "Geçen yıl halkın gelirleri belirgin şekilde artmış olmasına rağmen tüketim harcamaları neredeyse eski düzeyinde kaldı."
+  ],
+  "answer": 4,
+  "explanation": "«Несмотря на то что» = -masına rağmen; artan gelirler, değişmeyen harcamalar ve geçmiş zaman yalnızca E'de doğru verilmiştir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Новое лекарство, разработанное группой японских биологов, пока не прошло всех необходимых испытаний, поэтому применять его в клиниках ещё рано.",
+  "options": [
+   "Bir grup Japon biyoloğun geliştirdiği yeni ilaç, gerekli testlerin hiçbirinden henüz geçmediğinden kliniklerde kullanılması için daha erken.",
+   "Bir grup Japon biyoloğun geliştirdiği yeni ilaç, gerekli testlerin tamamından henüz geçmediğinden kliniklerde kullanılması için daha erken.",
+   "Bir grup Japon biyoloğun geliştirdiği yeni ilaç, gerekli testlerin tamamından geçtiği hâlde kliniklerde henüz kullanılmıyor.",
+   "Japon biyologlar, geliştirdikleri yeni ilacın gerekli testlerin tamamından geçmesi için kliniklerde kullanılmasının şart olduğunu düşünüyor.",
+   "Bir grup Japon biyoloğun geliştirdiği yeni ilaç, gerekli testlerin tamamından henüz geçmemiş olsa da kliniklerde kullanılmaya başlandı."
+  ],
+  "answer": 1,
+  "explanation": "«не прошло всех испытаний» testlerin hepsinden değil, bir kısmından geçildiğini anlatır (hiçbirinden değil); «поэтому ... ещё рано» sonuç ilişkisidir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "По данным Всемирной организации здравоохранения, почти половина населения планеты до сих пор не имеет доступа к основным медицинским услугам.",
+  "options": [
+   "Dünya Sağlık Örgütünün verilerine göre gezegen nüfusunun yarısından fazlası hâlâ temel sağlık hizmetlerine erişemiyor.",
+   "Dünya Sağlık Örgütünün verilerine göre gezegen nüfusunun neredeyse yarısı artık temel sağlık hizmetlerine erişebiliyor.",
+   "Dünya Sağlık Örgütü, gezegen nüfusunun neredeyse yarısının yakında temel sağlık hizmetlerine erişemeyeceği uyarısında bulunuyor.",
+   "Dünya Sağlık Örgütünün verilerine göre gezegen nüfusunun neredeyse yarısı hâlâ temel sağlık hizmetlerine erişemiyor.",
+   "Dünya Sağlık Örgütünün verilerine göre gezegen nüfusunun neredeyse yarısı hâlâ ileri düzey sağlık hizmetlerinden yararlanamıyor."
+  ],
+  "answer": 3,
+  "explanation": "«почти половина» = neredeyse yarısı, «до сих пор не имеет доступа» = hâlâ erişemiyor, «основным» = temel."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Если бы правительство вовремя приняло меры по защите лесов, площадь вырубок за последние десять лет не увеличилась бы вдвое.",
+  "options": [
+   "Hükûmet ormanları korumaya yönelik önlemleri zamanında aldığı için son on yılda kesilen alanların büyüklüğü iki katına çıkmadı.",
+   "Hükûmet ormanları korumaya yönelik önlemleri zamanında almış olsaydı, son on yılda kesilen alanların büyüklüğü iki katına çıkmazdı.",
+   "Hükûmet ormanları korumaya yönelik önlemleri zamanında alırsa önümüzdeki on yılda kesilen alanların büyüklüğü iki katına çıkmayacak.",
+   "Hükûmet ormanları korumaya yönelik önlemleri zamanında almış olsaydı, son on yılda kesilen alanların büyüklüğü yarı yarıya azalırdı.",
+   "Hükûmetin ormanları korumak için aldığı önlemler zamanında uygulanmasaydı, son on yılda kesilen alanların büyüklüğü iki katına çıkardı."
+  ],
+  "answer": 1,
+  "explanation": "«Если бы ... приняло ... не увеличилась бы» geçmişe yönelik gerçekleşmemiş şarttır: önlem alınmamış, alan iki katına çıkmıştır."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Исследование, опубликованное в британском медицинском журнале, показало, что люди, регулярно занимающиеся спортом, реже страдают от бессонницы.",
+  "options": [
+   "Bir İngiliz tıp dergisinde yayımlanan araştırma, uykusuzluk çeken kişilerin daha seyrek spor yaptığını gösterdi.",
+   "Bir İngiliz tıp dergisinde yayımlanacak araştırma, düzenli olarak spor yapan kişilerin daha seyrek uykusuzluk çektiğini gösterecek.",
+   "Bir İngiliz tıp dergisinde yayımlanan araştırma, düzenli olarak spor yapan kişilerin hiçbir zaman uykusuzluk çekmediğini gösterdi.",
+   "Bir İngiliz tıp dergisinde yayımlanan araştırma, düzenli olarak spor yapmanın uykusuzluğu tamamen ortadan kaldırdığını gösterdi.",
+   "Bir İngiliz tıp dergisinde yayımlanan araştırma, düzenli olarak spor yapan kişilerin daha seyrek uykusuzluk çektiğini gösterdi."
+  ],
+  "answer": 4,
+  "explanation": "«реже страдают» = daha seyrek çekerler; «hiçbir zaman» ya da «tamamen ortadan kaldırmak» anlamı abartır."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Благодаря развитию цифровых технологий многие небольшие компании смогли выйти на международные рынки, не открывая представительств за рубежом.",
+  "options": [
+   "Dijital teknolojilerin gelişmesi sayesinde birçok küçük şirket, yurt dışında temsilcilik açmadan uluslararası pazarlara girebildi.",
+   "Dijital teknolojilerin gelişmesi sayesinde birçok küçük şirket, yurt dışında temsilcilik açarak uluslararası pazarlara girebildi.",
+   "Dijital teknolojilerin gelişmesine rağmen küçük şirketlerin çoğu, yurt dışında temsilcilik açmadan uluslararası pazarlara giremedi.",
+   "Dijital teknolojilerin gelişmesi sayesinde birçok büyük şirket, yurt dışındaki temsilciliklerini kapatıp uluslararası pazarlardan çekildi.",
+   "Dijital teknolojilerin gelişmesi sayesinde bazı küçük şirketler, yurt dışında temsilcilik açmadan uluslararası pazarlara girmeyi planlıyor."
+  ],
+  "answer": 0,
+  "explanation": "«не открывая» olumsuz zarf-fiildir (açmadan); «смогли выйти» gerçekleşmiş bir başarıyı bildirir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Музей, который был закрыт на реконструкцию почти пять лет, вновь открылся для посетителей, сохранив при этом исторический облик здания.",
+  "options": [
+   "Beş yıldan uzun bir süre restorasyon nedeniyle kapalı kalan müze, binanın tarihî görünümünü koruyarak ziyaretçilere yeniden açıldı.",
+   "Neredeyse beş yıl boyunca restorasyon nedeniyle kapalı kalan müze, binanın tarihî görünümü değiştirilerek ziyaretçilere yeniden açıldı.",
+   "Neredeyse beş yıl boyunca restorasyon nedeniyle kapalı kalan müzenin, binanın tarihî görünümü korunduktan sonra ziyaretçilere açılması planlanıyor.",
+   "Neredeyse beş yıl boyunca restorasyon nedeniyle kapalı kalan müze, binanın tarihî görünümünü koruyarak ziyaretçilere yeniden açıldı.",
+   "Neredeyse beş yıl önce restorasyon nedeniyle kapatılan müze, binanın tarihî görünümünü korumak amacıyla ziyaretçilere kapalı tutuluyor."
+  ],
+  "answer": 3,
+  "explanation": "«почти пять лет» = neredeyse beş yıl; «вновь открылся» gerçekleşmiş açılışı, «сохранив» ise görünümün korunduğunu bildirir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Чем больше времени дети проводят перед экранами, тем труднее им сосредоточиться на выполнении школьных заданий, считают психологи.",
+  "options": [
+   "Psikologlara göre çocuklar ekran başında ne kadar az zaman geçirirse okul ödevlerini yaparken dikkatlerini toplamaları o kadar zorlaşıyor.",
+   "Psikologlara göre okul ödevlerini yapmakta zorlanan çocuklar ekran başında daha çok zaman geçiriyor.",
+   "Psikologlara göre çocuklar ekran başında ne kadar çok zaman geçirirse okul ödevlerini yaparken dikkatlerini toplamaları o kadar zorlaşıyor.",
+   "Psikologlar, çocukların ekran başında geçirdiği zamanın okul ödevlerini yaparken dikkatlerini toplamalarını hiç etkilemediğini düşünüyor.",
+   "Psikologlara göre çocuklar ekran başında ne kadar çok zaman geçirirse okul ödevlerine o kadar kolay odaklanabiliyor."
+  ],
+  "answer": 2,
+  "explanation": "«Чем больше ..., тем труднее» = ne kadar çok ..., o kadar zor; neden-sonuç yönü de korunmalıdır."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Экономисты не исключают, что в следующем году инфляция снова ускорится, если цены на энергоносители продолжат расти.",
+  "options": [
+   "Ekonomistler, enerji fiyatları artmaya devam etse bile gelecek yıl enflasyonun yeniden hızlanmayacağından emin.",
+   "Ekonomistler, enerji fiyatları artmaya devam ederse gelecek yıl enflasyonun kesinlikle yeniden hızlanacağını açıkladı.",
+   "Ekonomistler, enflasyon yeniden hızlanırsa gelecek yıl enerji fiyatlarının artmaya devam etmesi ihtimalini dışlamıyor.",
+   "Ekonomistler, enerji fiyatları artmaya devam ederse gelecek yıl enflasyonun yeniden hızlanması ihtimalini dışlamıyor.",
+   "Ekonomistler, enerji fiyatları düşmeye devam ederse gelecek yıl enflasyonun yeniden yavaşlaması ihtimalini dışlamıyor."
+  ],
+  "answer": 3,
+  "explanation": "«не исключают» kesinlik değil olasılık bildirir (ihtimali dışlamıyor); şart enerji fiyatlarının artmaya devam etmesidir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Только после того как были расшифрованы древние надписи, историкам удалось установить, кем и когда был основан этот город.",
+  "options": [
+   "Tarihçiler bu şehrin kim tarafından ve ne zaman kurulduğunu eski yazıtları çözmeden önce belirlemişti.",
+   "Tarihçiler bu şehrin ne zaman kurulduğunu eski yazıtlar çözüldükten sonra belirleyebildi, ancak kim tarafından kurulduğu hâlâ bilinmiyor.",
+   "Tarihçiler bu şehrin kim tarafından ve ne zaman kurulduğunu ancak eski yazıtlar çözüldükten sonra belirleyebildi.",
+   "Eski yazıtlar çözüldükten sonra bile tarihçiler bu şehrin kim tarafından ve ne zaman kurulduğunu belirleyemedi.",
+   "Tarihçiler eski yazıtları ancak bu şehrin kim tarafından ve ne zaman kurulduğunu belirledikten sonra çözebildi."
+  ],
+  "answer": 2,
+  "explanation": "«Только после того как» = ancak ...dikten sonra; «удалось установить» başarıyla belirlendiğini, «кем и когда» ise iki bilginin de bulunduğunu gösterir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Многие виды птиц, зимующих в Африке, возвращаются в Европу всё раньше, что учёные связывают с потеплением климата.",
+  "options": [
+   "Kışı Afrika'da geçiren birçok kuş türü Avrupa'ya giderek daha geç dönüyor ve bilim insanları bunu iklimin ısınmasıyla ilişkilendiriyor.",
+   "Kışı Afrika'da geçiren birçok kuş türü Avrupa'ya giderek daha erken dönüyor ve bilim insanları bunu iklimin ısınmasıyla ilişkilendiriyor.",
+   "Kışı Avrupa'da geçiren birçok kuş türü Afrika'ya giderek daha erken dönüyor ve bilim insanları bunu iklimin ısınmasıyla ilişkilendiriyor.",
+   "Kışı Afrika'da geçiren kuş türlerinin tamamı Avrupa'ya giderek daha erken dönüyor, ancak bilim insanları bunun iklimin ısınmasıyla ilgisi olmadığını düşünüyor.",
+   "Bilim insanları, iklimin ısınması nedeniyle kışı Afrika'da geçiren birçok kuş türünün gelecekte Avrupa'ya hiç dönmeyeceğini öngörüyor."
+  ],
+  "answer": 1,
+  "explanation": "«всё раньше» = giderek daha erken; «многие виды» = birçok tür; «что учёные связывают с» = bilim insanlarının bunu ilişkilendirmesi."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Власти города решили ограничить въезд частных автомобилей в исторический центр, чтобы снизить уровень загрязнения воздуха.",
+  "options": [
+   "Şehir yönetimi, hava kirliliği düzeyi azaldığı için özel otomobillerin tarihî merkeze girişine yeniden izin vermeye karar verdi.",
+   "Şehir yönetimi, hava kirliliği düzeyini azaltmak amacıyla özel otomobillerin tarihî merkeze girişini tamamen yasakladı.",
+   "Şehir yönetimi, hava kirliliği düzeyini azaltmak amacıyla toplu taşıma araçlarının tarihî merkeze girişini sınırlamaya karar verdi.",
+   "Şehir sakinleri, hava kirliliği düzeyini azaltmak amacıyla özel otomobillerin tarihî merkeze girişinin sınırlandırılmasını talep etti.",
+   "Şehir yönetimi, hava kirliliği düzeyini azaltmak amacıyla özel otomobillerin tarihî merkeze girişini sınırlamaya karar verdi."
+  ],
+  "answer": 4,
+  "explanation": "«решили ограничить» = sınırlamaya karar verdi (tamamen yasaklamak değil); «чтобы снизить» amaç bildirir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Учёным впервые удалось получить изображение чёрной дыры, существование которой долгое время оставалось лишь теоретическим предположением.",
+  "options": [
+   "Bilim insanları, varlığı uzun süre yalnızca teorik bir varsayım olarak kalan bir kara deliğin görüntüsünü ilk kez elde etmeyi başardı.",
+   "Bilim insanları, varlığı uzun süredir kanıtlanmış olan bir kara deliğin görüntüsünü ilk kez elde etmeyi başardı.",
+   "Bilim insanları bir kara deliğin görüntüsünü elde etmeyi başaramadığı için onun varlığı yalnızca teorik bir varsayım olarak kalıyor.",
+   "Bilim insanları, varlığı uzun süre yalnızca teorik bir varsayım olarak kalan kara deliklerin görüntüsünü yeniden elde etmeyi başardı.",
+   "Bilim insanları, bir kara deliğin görüntüsünü ilk kez elde etmeyi başardıktan sonra onun varlığını teorik bir varsayım olarak ileri sürdü."
+  ],
+  "answer": 0,
+  "explanation": "«впервые удалось получить» = ilk kez elde etmeyi başardı; «которой ... оставалось лишь теоретическим предположением» varlığın uzun süre yalnızca varsayım olduğunu anlatır."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Хотя солнечная энергетика становится всё дешевле, во многих странах её доля в общем производстве электроэнергии пока остаётся незначительной.",
+  "options": [
+   "Güneş enerjisi giderek ucuzlasa da birçok ülkede toplam elektrik üretimindeki payı henüz önemsiz düzeyde kalıyor.",
+   "Güneş enerjisi giderek ucuzladığı için birçok ülkede toplam elektrik üretimindeki payı hızla artıyor.",
+   "Güneş enerjisi giderek pahalılaşsa da birçok ülkede toplam elektrik üretimindeki payı henüz önemsiz düzeyde kalıyor.",
+   "Güneş enerjisi giderek ucuzlasa da ülkelerin çoğunda toplam elektrik üretimindeki payı artık önemli bir düzeye ulaştı.",
+   "Güneş enerjisinin toplam elektrik üretimindeki payı birçok ülkede önemsiz düzeyde kaldığı için bu enerji giderek ucuzluyor."
+  ],
+  "answer": 0,
+  "explanation": "«Хотя» = -sa da (karşıtlık); «всё дешевле» giderek ucuzlamayı, «пока остаётся незначительной» payın henüz önemsiz kaldığını bildirir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Врачи рекомендуют пожилым людям ежедневно гулять на свежем воздухе, поскольку даже умеренная физическая активность снижает риск сердечно-сосудистых заболеваний.",
+  "options": [
+   "Doktorlar, yalnızca yoğun fiziksel aktivite kalp-damar hastalıkları riskini azalttığı için yaşlılara her gün spor salonuna gitmelerini öneriyor.",
+   "Doktorlar, ılımlı bir fiziksel aktivite bile kalp-damar hastalıkları riskini artırabildiği için yaşlıların her gün açık havada yürümemesini öneriyor.",
+   "Doktorlar, ılımlı bir fiziksel aktivite bile kalp-damar hastalıkları riskini azalttığı için gençlere haftada bir açık havada yürüyüş yapmalarını öneriyor.",
+   "Doktorlar, ılımlı bir fiziksel aktivite bile kalp-damar hastalıkları riskini azalttığı için yaşlılara her gün açık havada yürüyüş yapmalarını öneriyor.",
+   "Doktorlar, her gün açık havada yürüyüş yapan yaşlıların kalp-damar hastalıklarına hiç yakalanmadığını belirtiyor."
+  ],
+  "answer": 3,
+  "explanation": "«пожилым людям» = yaşlılara, «ежедневно» = her gün; «даже умеренная активность снижает риск» gerekçeyi verir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Переговоры между двумя странами, которые продолжались несколько месяцев, были прерваны из-за разногласий по вопросу о таможенных пошлинах.",
+  "options": [
+   "İki ülke arasında birkaç ay süren müzakereler, gümrük vergileri konusunda anlaşmaya varılmasıyla sonuçlandı.",
+   "İki ülke arasında birkaç yıl süren müzakereler, gümrük vergileri konusundaki anlaşmazlıklara rağmen sürdürüldü.",
+   "İki ülke arasında birkaç ay süren müzakereler, gümrük vergileri konusundaki anlaşmazlıklar nedeniyle kesintiye uğradı.",
+   "İki ülke arasındaki gümrük vergileri anlaşmazlığı, birkaç ay süren müzakerelerin kesintiye uğraması nedeniyle ortaya çıktı.",
+   "İki ülke arasında birkaç ay sürmesi planlanan müzakereler, gümrük vergileri konusundaki anlaşmazlıklar nedeniyle ertelendi."
+  ],
+  "answer": 2,
+  "explanation": "«были прерваны из-за разногласий» = anlaşmazlıklar nedeniyle kesintiye uğradı; «продолжались несколько месяцев» müzakerelerin fiilen birkaç ay sürdüğünü gösterir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Чтобы сохранить редкие виды растений, ботанический сад ежегодно отправляет семена в хранилища, расположенные в разных частях света.",
+  "options": [
+   "Botanik bahçesi, nadir bitki türlerini korumak amacıyla dünyanın farklı bölgelerindeki depolardan her yıl tohum getiriyor.",
+   "Botanik bahçesi, nadir bitki türlerini korumak amacıyla birkaç yılda bir dünyanın farklı bölgelerindeki depolara tohum gönderiyor.",
+   "Botanik bahçesi, nadir bitki türlerinin korunabilmesi için dünyanın farklı bölgelerinde yeni depolar kurmayı planlıyor.",
+   "Botanik bahçesi, dünyanın farklı bölgelerindeki depolara her yıl tohum gönderdiği hâlde nadir bitki türlerini korumayı başaramıyor.",
+   "Botanik bahçesi, nadir bitki türlerini korumak amacıyla her yıl dünyanın farklı bölgelerindeki depolara tohum gönderiyor."
+  ],
+  "answer": 4,
+  "explanation": "«ежегодно отправляет» = her yıl gönderiyor (getirmek değil); «Чтобы сохранить» amaç bildirir."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Как выяснилось, многие пользователи социальных сетей не читают условия соглашения, прежде чем дать согласие на обработку своих персональных данных.",
+  "options": [
+   "Ortaya çıktığı üzere sosyal ağ kullanıcılarının birçoğu, sözleşme koşullarını okuduktan sonra kişisel verilerinin işlenmesine onay vermiyor.",
+   "Ortaya çıktığı üzere sosyal ağ kullanıcılarının birçoğu, kişisel verilerinin işlenmesine onay vermeden önce sözleşme koşullarını okumuyor.",
+   "Ortaya çıktığı üzere sosyal ağ kullanıcılarının birçoğu, kişisel verilerinin işlenmesine onay verdikten sonra sözleşme koşullarını okuyor.",
+   "Ortaya çıktığı üzere sosyal ağlar, kullanıcılarının birçoğuna kişisel verilerinin işlenmesine onay vermeden önce sözleşme koşullarını okuma imkânı tanımıyor.",
+   "Sosyal ağ kullanıcılarının birçoğunun, kişisel verilerinin işlenmesine onay vermeden önce sözleşme koşullarını okuması gerektiği ortaya çıktı."
+  ],
+  "answer": 1,
+  "explanation": "«не читают ..., прежде чем дать согласие» = onay vermeden önce okumuyorlar; «Как выяснилось» = ortaya çıktığı üzere."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Если темпы вырубки тропических лесов не снизятся, через несколько десятилетий многие животные, обитающие в них, могут полностью исчезнуть.",
+  "options": [
+   "Tropikal ormanların kesilme hızı düşse bile birkaç on yıl içinde bu ormanlarda yaşayan birçok hayvan tamamen yok olacak.",
+   "Tropikal ormanların kesilme hızı düşmezse birkaç yıl içinde bu ormanlarda yaşayan hayvanların tamamı yok olacak.",
+   "Tropikal ormanların kesilme hızı düşmediği için son birkaç on yılda bu ormanlarda yaşayan birçok hayvan tamamen yok oldu.",
+   "Bu ormanlarda yaşayan birçok hayvan tamamen yok olursa birkaç on yıl içinde tropikal ormanların kesilme hızı düşebilir.",
+   "Tropikal ormanların kesilme hızı düşmezse birkaç on yıl içinde bu ormanlarda yaşayan birçok hayvan tamamen yok olabilir."
+  ],
+  "answer": 4,
+  "explanation": "Gelecek zamanlı gerçek şart (düşmezse), «через несколько десятилетий» = birkaç on yıl içinde ve «могут исчезнуть» olasılığı yalnızca E'de korunmuştur."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Писатель, чьи романы переведены более чем на сорок языков, признался, что начал писать лишь после того, как вышел на пенсию.",
+  "options": [
+   "Romanları kırka yakın dile çevrilmiş olan yazar, yazmaya ancak emekli olduktan sonra başladığını itiraf etti.",
+   "Romanları kırktan fazla dile çevrilmiş olan yazar, yazmaya ancak emekli olduktan sonra başladığını itiraf etti.",
+   "Romanları kırktan fazla dile çevrilmiş olan yazar, emekli olduktan sonra yazmayı bıraktığını itiraf etti.",
+   "Romanları kırktan fazla dile çevrilmiş olan yazar, emekli olmadan çok önce yazmaya başladığını itiraf etti.",
+   "Kırktan fazla dil bilen yazar, romanlarını ancak emekli olduktan sonra çevirmeye başladığını itiraf etti."
+  ],
+  "answer": 1,
+  "explanation": "«более чем на сорок языков» = kırktan fazla dile; «лишь после того, как вышел на пенсию» = ancak emekli olduktan sonra."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Несмотря на усилия международного сообщества, число беженцев в мире за последние годы не сократилось, а, напротив, достигло рекордного уровня.",
+  "options": [
+   "Uluslararası toplumun çabaları sayesinde dünyadaki mülteci sayısı son yıllarda azaldı ve rekor düşük düzeye indi.",
+   "Uluslararası toplumun çabalarına rağmen dünyadaki mülteci sayısı son yıllarda azalmadı, ancak rekor düzeye de ulaşmadı.",
+   "Uluslararası toplum, dünyadaki mülteci sayısı son yıllarda rekor düzeye ulaştığı için çabalarını artırmaya karar verdi.",
+   "Uluslararası toplumun çabalarına rağmen dünyadaki mülteci sayısı son yıllarda azalmadı, aksine rekor düzeye ulaştı.",
+   "Uluslararası toplumun çabalarına rağmen dünyadaki mülteci sayısının önümüzdeki yıllarda rekor düzeye ulaşması bekleniyor."
+  ],
+  "answer": 3,
+  "explanation": "«Несмотря на усилия» = çabalarına rağmen; «не сократилось, а, напротив, достигло» = azalmadı, aksine ulaştı."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Исследователи установили, что пчёлы способны запоминать расположение цветков и возвращаться к ним даже через несколько дней.",
+  "options": [
+   "Araştırmacılar, arıların çiçeklerin konumunu hatırlayabildiğini ve birkaç gün sonra bile onlara geri dönebildiğini tespit etti.",
+   "Araştırmacılar, arıların çiçeklerin konumunu hatırlayamadığı için birkaç gün sonra onlara geri dönemediğini tespit etti.",
+   "Araştırmacılar, arıların çiçeklerin konumunu ancak birkaç gün boyunca hatırlayabildiğini, sonra unuttuğunu tespit etti.",
+   "Araştırmacılar, arıların çiçeklerin rengini hatırlayabildiğini ve birkaç saat sonra bile onlara geri dönebildiğini tespit etti.",
+   "Araştırmacılar, arıların çiçeklerin konumunu hatırlayıp hatırlayamadığını belirlemek için birkaç gün süren bir deney planladı."
+  ],
+  "answer": 0,
+  "explanation": "«способны запоминать расположение» = konumu hatırlayabilir; «даже через несколько дней» = birkaç gün sonra bile."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Реформа системы образования, о которой так долго говорили, так и не была проведена из-за нехватки средств в государственном бюджете.",
+  "options": [
+   "Uzun zamandır sözü edilen eğitim sistemi reformu, devlet bütçesindeki kaynak yetersizliğine rağmen sonunda gerçekleştirildi.",
+   "Uzun zamandır sözü edilen eğitim sistemi reformu, devlet bütçesinde kaynak yetersizliğine yol açtığı için yarıda bırakıldı.",
+   "Uzun zamandır sözü edilen eğitim sistemi reformu, devlet bütçesindeki kaynak yetersizliği nedeniyle bir türlü gerçekleştirilemedi.",
+   "Eğitim sistemi reformu hakkında, devlet bütçesindeki kaynak yetersizliği nedeniyle uzun zamandır hiç konuşulmuyor.",
+   "Uzun zamandır sözü edilen eğitim sistemi reformunun, devlet bütçesindeki kaynak yetersizliği giderilirse gelecek yıl gerçekleştirilmesi planlanıyor."
+  ],
+  "answer": 2,
+  "explanation": "«так и не была проведена» = bir türlü gerçekleştirilemedi; neden «из-за нехватки средств» = kaynak yetersizliği nedeniyle."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Появление книгопечатания в пятнадцатом веке сделало книги доступными для широких слоёв населения, что способствовало распространению грамотности в Европе.",
+  "options": [
+   "On beşinci yüzyılda okuryazarlığın Avrupa'da yayılması, matbaanın ortaya çıkmasına ve kitapların halkın geniş kesimleri için erişilebilir olmasına katkıda bulundu.",
+   "On beşinci yüzyılda matbaanın ortaya çıkması kitapları yalnızca varlıklı kesimler için erişilebilir kıldı ve bu durum Avrupa'da okuryazarlığın yayılmasını yavaşlattı.",
+   "On beşinci yüzyılda matbaanın ortaya çıkması kitapları halkın geniş kesimleri için erişilebilir kıldı ve bu durum Avrupa'da okuryazarlığın yayılmasına katkıda bulundu.",
+   "On beşinci yüzyılda matbaanın ortaya çıkması kitapları halkın geniş kesimleri için erişilebilir kılsa da Avrupa'da okuryazarlığın yayılmasına katkıda bulunmadı.",
+   "On altıncı yüzyılda matbaanın ortaya çıkması kitapları halkın geniş kesimleri için erişilebilir kıldı ve bu durum Avrupa dışında okuryazarlığın yayılmasına katkıda bulundu."
+  ],
+  "answer": 2,
+  "explanation": "Neden matbaanın ortaya çıkması, sonuç kitapların yaygınlaşması ve okuryazarlığın yayılmasıdır; «что способствовало» = bu durum katkıda bulundu."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "По мнению специалистов, искусственный интеллект в ближайшем будущем не заменит врачей, но значительно облегчит постановку диагноза.",
+  "options": [
+   "Uzmanlara göre yapay zekâ yakın gelecekte doktorların yerini alacak ve teşhis koymayı önemli ölçüde kolaylaştıracak.",
+   "Uzmanlara göre yapay zekâ yakın gelecekte doktorların yerini almayacak ve teşhis koymayı da kolaylaştırmayacak.",
+   "Uzmanlara göre yapay zekâ, teşhis koymayı önemli ölçüde kolaylaştırdığı için yakın gelecekte doktorların yerini alabilir.",
+   "Uzmanlara göre yapay zekâ uzak gelecekte doktorların yerini almayacak, ancak teşhis koymayı kısmen kolaylaştırabilir.",
+   "Uzmanlara göre yapay zekâ yakın gelecekte doktorların yerini almayacak, ancak teşhis koymayı önemli ölçüde kolaylaştıracak."
+  ],
+  "answer": 4,
+  "explanation": "«не заменит врачей, но значительно облегчит» = yerini almayacak ama önemli ölçüde kolaylaştıracak; «в ближайшем будущем» = yakın gelecekte."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Ни одна из гипотез, выдвинутых для объяснения исчезновения этой древней цивилизации, пока не получила убедительного подтверждения.",
+  "options": [
+   "Bu eski uygarlığın ortadan kalkmasını açıklamak için ileri sürülen hipotezlerin hiçbiri henüz ikna edici bir şekilde doğrulanmadı.",
+   "Bu eski uygarlığın ortadan kalkmasını açıklamak için ileri sürülen hipotezlerden yalnızca biri ikna edici bir şekilde doğrulandı.",
+   "Bu eski uygarlığın ortadan kalkmasını açıklamak için ileri sürülen hipotezlerin hepsi ikna edici bir şekilde çürütüldü.",
+   "Bu eski uygarlığın ortadan kalkmasını açıklamak için henüz hiçbir hipotez ileri sürülmedi.",
+   "Bu eski uygarlığın ortadan kalkmasını açıklamak için ileri sürülen hipotezlerin hiçbiri artık ciddiye alınmıyor."
+  ],
+  "answer": 0,
+  "explanation": "«Ни одна из гипотез ... не получила подтверждения» = hipotezlerin hiçbiri doğrulanmadı; çürütülme değil, doğrulanmama söz konusudur."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Компания объявила, что с будущего года её сотрудники смогут работать из дома три дня в неделю, если это позволяет характер их обязанностей.",
+  "options": [
+   "Şirket, gelecek yıldan itibaren çalışanlarının, görevlerinin niteliği ne olursa olsun haftada üç gün evden çalışmak zorunda olacağını duyurdu.",
+   "Şirket, gelecek yıldan itibaren çalışanlarının, görevlerinin niteliği izin verdiği takdirde haftada üç gün evden çalışabileceğini duyurdu.",
+   "Şirket, bu yıldan itibaren çalışanlarının, görevlerinin niteliği izin verdiği takdirde haftada üç gün evden çalışabildiğini duyurdu.",
+   "Şirket, gelecek yıldan itibaren çalışanlarının, görevlerinin niteliği izin verdiği takdirde haftada yalnızca üç gün ofiste çalışabileceğini duyurdu.",
+   "Şirket, gelecek yıldan itibaren çalışanlarının, görevlerinin niteliği izin verdiği takdirde ayda üç gün evden çalışabileceğini duyurdu."
+  ],
+  "answer": 1,
+  "explanation": "«с будущего года» = gelecek yıldan itibaren, «смогут» imkân (zorunluluk değil), «три дня в неделю» = haftada üç gün."
+ },
+ {
+  "topic": "ceviri_rt",
+  "text": "Землетрясение, произошедшее ночью у побережья Японии, не вызвало цунами, однако в нескольких прибрежных городах были повреждены здания.",
+  "options": [
+   "Gece Japonya kıyılarında meydana gelen deprem tsunamiye yol açtı ve birkaç kıyı kentinde binalar hasar gördü.",
+   "Gece Japonya kıyılarında meydana gelen deprem tsunamiye yol açmadı ve kıyı kentlerinin hiçbirinde binalar hasar görmedi.",
+   "Gece Japonya kıyılarında meydana gelen tsunami, birkaç kıyı kentinde binaların hasar görmesine ve depreme yol açtı.",
+   "Gece Japonya kıyılarında meydana gelen deprem tsunamiye yol açmadı, ancak birkaç kıyı kentinde binalar hasar gördü.",
+   "Gece Japonya kıyılarında meydana gelen deprem tsunamiye yol açmadı, ancak kıyı kentlerinin çoğunda binalar yıkıldı."
+  ],
+  "answer": 3,
+  "explanation": "«не вызвало цунами, однако ... были повреждены здания» = tsunamiye yol açmadı ama binalar hasar gördü; «в нескольких» = birkaç kentte."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Son yıllarda yapılan araştırmalar, düzenli uykunun bağışıklık sistemini güçlendirdiğini ortaya koymuştur.",
+  "options": [
+   "Исследования, проведённые в последние годы, показали, что иммунная система укрепляет регулярный сон.",
+   "Исследования, которые будут проведены в ближайшие годы, покажут, что регулярный сон укрепляет иммунную систему.",
+   "Исследования, проведённые в последние годы, показали, что регулярный сон ослабляет иммунную систему.",
+   "Исследования, проведённые в последние годы, показали, что регулярный сон укрепляет иммунную систему.",
+   "Исследования, проведённые в последние годы, показали, что регулярный сон укрепляет иммунной системой."
+  ],
+  "answer": 3,
+  "explanation": "Özne «регулярный сон», nesne «иммунную систему» (belirtme hâli); E'deki «иммунной системой» hâl hatasıdır, diğerleri anlamı değiştirir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Hükûmet, yenilenebilir enerji kaynaklarına yatırım yapan şirketlere vergi indirimi sağlamayı planlıyor.",
+  "options": [
+   "Правительство планирует предоставить налоговые льготы компаниям, которые инвестируют в невозобновляемые источники энергии.",
+   "Правительство планирует предоставить налоговые льготы компаниям, которые инвестируют в возобновляемые источники энергии.",
+   "Правительство уже предоставило налоговые льготы компаниям, которые инвестируют в возобновляемые источники энергии.",
+   "Правительство планирует предоставить налоговые льготы компаниям, которые инвестируют в возобновляемых источниках энергии.",
+   "Компании, которые инвестируют в возобновляемые источники энергии, планируют предоставить правительству налоговые льготы."
+  ],
+  "answer": 1,
+  "explanation": "«инвестировать во что» belirtme hâli ister (в возобновляемые источники); «planlıyor» = «планирует», henüz gerçekleşmemiştir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu bölgede yaşayan halkların gelenekleri, yüzyıllar boyunca neredeyse hiç değişmeden korunmuştur.",
+  "options": [
+   "Традиции народов, живущих в этом регионе, на протяжении веков полностью изменились.",
+   "Традиции народов, живших в этом регионе, были забыты почти без следа за несколько десятилетий.",
+   "Народы, живущие в этом регионе, на протяжении веков почти не сохраняли своих традиций.",
+   "Традиции народов, живущих в этом регионе, на протяжении веков сохранились почти без изменениями.",
+   "Традиции народов, живущих в этом регионе, на протяжении веков сохранились почти без изменений."
+  ],
+  "answer": 4,
+  "explanation": "«neredeyse hiç değişmeden» = «почти без изменений»; «без» edatı -in hâli (родительный) ister, D'deki «изменениями» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Uzmanlar, plastik atıkların okyanuslardaki canlılar için ciddi bir tehdit oluşturduğu konusunda hemfikir.",
+  "options": [
+   "Специалисты сходятся во мнении, что пластиковые отходы представляют серьёзную угрозу для обитателей океанов.",
+   "Специалисты расходятся во мнении о том, представляют ли пластиковые отходы угрозу для обитателей океанов.",
+   "Специалисты сходятся во мнении, что пластиковые отходы не представляют серьёзной угрозы для обитателей океанов.",
+   "Специалисты сходятся во мнении, что пластиковые отходы представляют серьёзную угрозу только для обитателей прибрежных вод.",
+   "Специалисты сходятся во мнении, что пластиковые отходы представляют серьёзную угрозу для обитателями океанов."
+  ],
+  "answer": 0,
+  "explanation": "«hemfikir» = «сходятся во мнении»; «для» edatından sonra -in hâli gelir (для обитателей), E'deki hâl yanlıştır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Mimar, binanın tasarımında yalnızca yerel malzemeler kullanılmasında ısrar etti.",
+  "options": [
+   "Архитектор настоял на том, чтобы при проектировании здания использовались в том числе местные материалы.",
+   "Архитектор отказался от того, чтобы при проектировании здания использовались только местные материалы.",
+   "Архитектор настоял на том, чтобы при проектировании здания использовались только местные материалы.",
+   "Архитектор настоял на то, чтобы при проектировании здания использовались только местные материалы.",
+   "Архитектор предложил, чтобы при строительстве здания использовались преимущественно местные материалы."
+  ],
+  "answer": 2,
+  "explanation": "«ısrar etmek» = «настоять на чём» (bulunma hâli: на том); «yalnızca» = «только», «в том числе» ya da «преимущественно» kapsamı değiştirir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Kuraklık nedeniyle bu yıl buğday hasadı geçen yıla göre yüzde otuz daha az oldu.",
+  "options": [
+   "Из-за засухи урожай пшеницы в этом году оказался на тридцать процентов меньше, чем в прошлом.",
+   "Несмотря на засуху, урожай пшеницы в этом году оказался на тридцать процентов больше, чем в прошлом.",
+   "Из-за засухи урожай пшеницы в этом году составил тридцать процентов от прошлогоднего.",
+   "Из-за засухи урожай пшеницы в прошлом году оказался на тридцать процентов меньше, чем в этом.",
+   "Из-за засуха урожай пшеницы в этом году оказался на тридцать процентов меньше, чем в прошлом."
+  ],
+  "answer": 0,
+  "explanation": "«yüzde otuz daha az» = «на тридцать процентов меньше»; «из-за» -in hâli ister (из-за засухи), E hatalıdır; C ise geçen yılın yüzde otuzu anlamına gelir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Ünlü fizikçi, ömrünün son yıllarını evrenin kökenini açıklayacak bir kuram geliştirmeye adadı.",
+  "options": [
+   "Известный физик посвятил первые годы своей научной деятельности разработке теории, которая объяснила бы происхождение Вселенной.",
+   "Известный физик в последние годы жизни опроверг теорию, объяснявшую происхождение Вселенной.",
+   "Известный физик посвятил последние годы жизни разработке теории, которая объяснила бы происхождение Вселенной.",
+   "Известный физик посвятил последние годы жизни разработку теории, которая объяснила бы происхождение Вселенной.",
+   "Последние годы жизни известного физика были посвящены изучению теорий других учёных о происхождении Вселенной."
+  ],
+  "answer": 2,
+  "explanation": "«посвятить что чему» yapısında amaç yönelme hâlindedir (разработке); D'deki «разработку» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Yeni metro hattı açıldıktan sonra şehirdeki trafik sıkışıklığı kısmen azaldı.",
+  "options": [
+   "После открытия новой линии метро заторы на дорогах города полностью исчезли.",
+   "До открытия новой линии метро заторы на дорогах города частично сократились.",
+   "После открытия новой линии метро заторы на дорогах города, напротив, усилились.",
+   "После открытия новой линии метро заторы на дорогах города частично сократились.",
+   "Новая линия метро была открыта после того, как заторы на дорогах города частично сократились."
+  ],
+  "answer": 3,
+  "explanation": "«açıldıktan sonra» = «после открытия», «kısmen azaldı» = «частично сократились»; «полностью исчезли» abartılıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu ilacın yan etkileri hakkında yeterli veri bulunmadığından, hamile kadınlara önerilmiyor.",
+  "options": [
+   "Поскольку данных о побочных эффектах этого лекарства достаточно, его рекомендуют беременным женщинам.",
+   "Хотя данных о побочных эффектах этого лекарства недостаточно, его рекомендуют беременным женщинам.",
+   "Поскольку у этого лекарства много побочных эффектов, его запрещено принимать всем женщинам.",
+   "Поскольку данных о побочных эффектах этого лекарства недостаточно, его не рекомендуют беременных женщин.",
+   "Поскольку данных о побочных эффектах этого лекарства недостаточно, его не рекомендуют беременным женщинам."
+  ],
+  "answer": 4,
+  "explanation": "«рекомендовать кому» yönelme hâli ister (беременным женщинам); neden «yeterli veri bulunmaması»dır, yan etkilerin çokluğu değil."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Müze, koleksiyonunu dijital ortama aktararak dünyanın her yerinden insanların eserleri ücretsiz incelemesini mümkün kıldı.",
+  "options": [
+   "Переведя свою коллекцию в цифровой формат, музей дал людям со всего мира возможность изучать экспонаты за небольшую плату.",
+   "Переведя свою коллекцию в цифровой формат, музей дал людям со всего мира возможность бесплатно изучать экспонаты.",
+   "Музей планирует перевести свою коллекцию в цифровой формат, чтобы люди со всего мира могли бесплатно изучать экспонаты.",
+   "Хотя музей перевёл свою коллекцию в цифровой формат, изучать экспонаты бесплатно могут только местные жители.",
+   "Переведя свою коллекцию в цифровой формат, музей дал людям со всего мира возможность бесплатно изучить экспонатов."
+  ],
+  "answer": 1,
+  "explanation": "«aktararak» = «переведя», «ücretsiz» = «бесплатно»; «изучить» belirtme hâli ister, E'deki «экспонатов» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bilim insanları, bu bakterinin antibiyotiklere karşı nasıl direnç kazandığını henüz tam olarak anlayamadı.",
+  "options": [
+   "Учёные наконец поняли, каким образом эта бактерия приобретает устойчивость к антибиотикам.",
+   "Учёные пока не смогли до конца понять, почему антибиотики приобретают устойчивость к этой бактерии.",
+   "Учёные пока не смогли до конца понять, каким образом эта бактерия теряет устойчивость к антибиотикам.",
+   "Учёные пока не смогли до конца понять, каким образом эта бактерия приобретает устойчивость антибиотикам.",
+   "Учёные пока не смогли до конца понять, каким образом эта бактерия приобретает устойчивость к антибиотикам."
+  ],
+  "answer": 4,
+  "explanation": "«henüz tam olarak anlayamadı» = «пока не смогли до конца понять»; «устойчивость» «к» edatıyla kullanılır, D bu nedenle hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Göç, ülkenin nüfus yapısını son elli yılda köklü bir şekilde değiştirdi.",
+  "options": [
+   "За последние пятьдесят лет миграция почти не повлияла на демографическую структуру страны.",
+   "В ближайшие пятьдесят лет миграция коренным образом изменит демографическую структуру страны.",
+   "За последние пятнадцать лет миграция коренным образом изменила демографическую структуру страны.",
+   "За последние пятьдесят лет миграция коренным образом изменила демографическую структуру страны.",
+   "За последние пятьдесят лет изменение демографической структуры страны коренным образом повлияло на миграцию."
+  ],
+  "answer": 3,
+  "explanation": "«son elli yılda» = «за последние пятьдесят лет», «köklü bir şekilde değiştirdi» = «коренным образом изменила»; özne göçtür."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Ekonomik krizin etkilerini azaltmak için merkez bankası faiz oranlarını düşürmeye karar verdi.",
+  "options": [
+   "Чтобы смягчить последствия экономического кризиса, центральный банк решил повысить процентные ставки.",
+   "Чтобы смягчить последствия экономического кризиса, центральный банк решил снизить процентные ставки.",
+   "Из-за того что центральный банк снизил процентные ставки, последствия экономического кризиса усилились.",
+   "Чтобы смягчить последствия экономического кризиса, центральный банк решил снижать процентных ставок.",
+   "Чтобы смягчить последствия экономического кризиса, центральный банк отказался снижать процентные ставки."
+  ],
+  "answer": 1,
+  "explanation": "«düşürmeye karar verdi» = «решил снизить»; geçişli fiil belirtme hâli ister, D'deki «процентных ставок» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Arkeologların bulduğu seramik parçaları, bu bölgede ticaretin sanıldığından çok daha önce geliştiğini gösteriyor.",
+  "options": [
+   "Фрагменты керамики, найденные археологами, свидетельствуют о том, что торговля в этом регионе развилась гораздо позже, чем считалось.",
+   "Фрагменты керамики, найденные археологами, подтверждают, что торговля в этом регионе развилась именно тогда, когда и предполагалось.",
+   "Фрагменты керамики, найденные археологами, свидетельствуют о том, что торговля в этом регионе развилась гораздо раньше, чем считалось.",
+   "Археологи считают, что фрагменты керамики попали в этот регион гораздо раньше, чем начала развиваться торговля.",
+   "Фрагменты керамики, найденные археологами, свидетельствуют то, что торговля в этом регионе развилась гораздо раньше, чем считалось."
+  ],
+  "answer": 2,
+  "explanation": "«sanıldığından çok daha önce» = «гораздо раньше, чем считалось»; «свидетельствовать» «о чём» yapısıyla kullanılır, E hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Yazarın ilk romanı yayımlandığı dönemde pek ilgi görmemiş, ancak yıllar sonra bir klasik olarak kabul edilmiştir.",
+  "options": [
+   "Первый роман писателя в момент выхода не привлёк особого внимания, однако спустя годы был признан классикой.",
+   "Первый роман писателя сразу привлёк большое внимание, однако спустя годы был забыт.",
+   "Первый роман писателя в момент выхода не привлёк особого внимания и так и не был признан классикой.",
+   "Последний роман писателя в момент выхода не привлёк особого внимания, однако спустя годы был признан классикой.",
+   "Первый роман писателя в момент выхода не привлёк особого внимания, однако спустя годы был признан классикам."
+  ],
+  "answer": 0,
+  "explanation": "«признан кем/чем» araç hâli ister (классикой); «ilk romanı» = «первый роман», ilgi görmeme ve sonradan klasikleşme birlikte verilmelidir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Okyanus sıcaklıklarındaki artış, mercan resiflerinin hızla beyazlamasına yol açıyor.",
+  "options": [
+   "Повышение температуры океана приводит к медленному восстановлению коралловых рифов.",
+   "Повышение температуры океана приводит к стремительному обесцвечиванию коралловых рифов.",
+   "Стремительное обесцвечивание коралловых рифов приводит к повышению температуры океана.",
+   "Повышение температуры океана приводит стремительное обесцвечивание коралловых рифов.",
+   "Понижение температуры океана может привести к постепенному обесцвечиванию коралловых рифов."
+  ],
+  "answer": 1,
+  "explanation": "«yol açmak» = «приводить к чему»; D'de «к» edatı eksiktir, C'de neden-sonuç tersine çevrilmiştir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Çocukluk döneminde ikinci bir dil öğrenen bireylerin, ileriki yaşlarda problem çözme becerilerinin daha gelişmiş olduğu görülmüştür.",
+  "options": [
+   "Было установлено, что у людей, выучивших второй язык в детстве, в более зрелом возрасте лучше развиты навыки решения проблем.",
+   "Было установлено, что у людей, которые начинают учить второй язык в зрелом возрасте, лучше развиты навыки решения проблем.",
+   "Было установлено, что у людей, выучивших второй язык в детстве, навыки решения проблем развиты хуже, чем у их сверстников.",
+   "Предполагается, что люди, выучившие второй язык в детстве, в более зрелом возрасте легче выучат и третий язык.",
+   "Было установлено, что у людей, выучивших второй язык в детстве, в более зрелом возрасте лучше развиты навыками решения проблем."
+  ],
+  "answer": 0,
+  "explanation": "«görülmüştür» = «было установлено»; özne «навыки» yalın hâlde olmalıdır, E'deki «навыками» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Yetkililer, sel felaketinden etkilenen köylere yardım ulaştırmanın birkaç gün sürebileceğini açıkladı.",
+  "options": [
+   "Власти заявили, что помощь в деревни, пострадавшие от наводнения, уже доставлена за несколько дней.",
+   "Власти заявили, что доставка помощи в деревни, пострадавшие от землетрясения, может занять несколько недель.",
+   "Власти заявили, что доставка помощи в деревни, пострадавшие от наводнения, может занять несколько дней.",
+   "Жители деревень, пострадавших от наводнения, заявили, что помощь не поступала к ним уже несколько дней.",
+   "Власти заявили, что доставка помощи в деревни, пострадавших от наводнения, может занять несколько дней."
+  ],
+  "answer": 2,
+  "explanation": "«sürebileceğini» = «может занять»; ortaç «деревни» ile uyumlu olmalıdır (пострадавшие), E'deki «пострадавших» uyum hatasıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Şirket, çevreye verdiği zararı azaltmak amacıyla üretim sürecini tamamen yeniledi.",
+  "options": [
+   "Чтобы уменьшить вред, наносимый окружающей среде, компания частично обновила производственный процесс.",
+   "Компания полностью обновила производственный процесс, в результате чего вред окружающей среде увеличился.",
+   "Чтобы увеличить объём производства, компания полностью обновила производственный процесс, не думая об окружающей среде.",
+   "Чтобы уменьшить вред, наносимый окружающей среде, компания полностью обновила производственный процесс.",
+   "Чтобы уменьшить вред, наносимый окружающую среду, компания полностью обновила производственный процесс."
+  ],
+  "answer": 3,
+  "explanation": "«наносить вред чему» yönelme hâli ister (окружающей среде); «tamamen» = «полностью», «amacıyla» = «чтобы»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu antlaşma imzalanmasaydı, iki ülke arasındaki savaş muhtemelen yıllarca sürecekti.",
+  "options": [
+   "Если этот договор не будет подписан, война между двумя странами, вероятно, продлится ещё много лет.",
+   "Поскольку этот договор не был подписан, война между двумя странами продолжалась ещё много лет.",
+   "Если бы этот договор не был подписан, война между двумя странами, несомненно, закончилась бы через несколько лет.",
+   "Хотя этот договор был подписан, война между двумя странами, вероятно, продолжалась ещё много лет.",
+   "Если бы этот договор не был подписан, война между двумя странами, вероятно, продолжалась бы ещё много лет."
+  ],
+  "answer": 4,
+  "explanation": "Geçmişe yönelik gerçek dışı şart «если бы ... бы» ile verilir; «muhtemelen» = «вероятно»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Uzay teleskobunun gönderdiği görüntüler, gökbilimcilerin galaksilerin oluşumuna ilişkin görüşlerini yeniden gözden geçirmelerine neden oldu.",
+  "options": [
+   "Снимки, переданные космическим телескопом, подтвердили представления астрономов о формировании галактик.",
+   "Астрономы пересмотрели снимки, переданные космическим телескопом, чтобы уточнить свои представления о формировании галактик.",
+   "Снимки, переданные космическим телескопом, заставили астрономов пересмотреть свои представления о формировании галактик.",
+   "Снимки, переданные космическим телескопом, заставили астрономов пересматривать своих представлений о формировании галактик.",
+   "Снимки, которые передаст космический телескоп, могут заставить астрономов пересмотреть свои представления о формировании звёзд."
+  ],
+  "answer": 2,
+  "explanation": "«neden oldu» = «заставили»; gözden geçirilen şey görüşlerdir ve belirtme hâlinde olmalıdır (свои представления), D hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Gıda fiyatlarındaki artış en çok düşük gelirli aileleri etkiliyor.",
+  "options": [
+   "Рост цен на продукты питания почти не сказывается на семьях с низким доходом.",
+   "Рост цен на продукты питания сильнее всего сказывается на семьях с высоким доходом.",
+   "Семьи с низким доходом сильнее всего влияют на рост цен на продукты питания.",
+   "Рост цен на продукты питания сильнее всего сказывается семьям с низким доходом.",
+   "Рост цен на продукты питания сильнее всего сказывается на семьях с низким доходом."
+  ],
+  "answer": 4,
+  "explanation": "«сказываться на ком» yapısı gerekir (на семьях); «en çok» = «сильнее всего», «düşük gelirli» = «с низким доходом»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Antik kentte yapılan kazılar, halkın su kanalları inşa etme konusunda ileri bir bilgiye sahip olduğunu kanıtladı.",
+  "options": [
+   "Раскопки в древнем городе доказали, что его жители обладали передовыми знаниями в строительстве водных каналов.",
+   "Раскопки в древнем городе доказали, что его жители не умели строить водные каналы и получали воду из колодцев.",
+   "Раскопки в древнем городе позволили предположить, что его жители, возможно, умели строить водные каналы.",
+   "Раскопки в древнем городе доказали, что его жители обладали передовыми знаниями в строительство водных каналов.",
+   "Раскопки в древнем городе доказали, что водные каналы были построены жителями соседних городов."
+  ],
+  "answer": 0,
+  "explanation": "«kanıtladı» kesinlik bildirir (доказали); «в» burada bulunma hâli ister (в строительстве), D hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Uzmanlar, çocukların günde en az bir saat fiziksel aktivite yapması gerektiğini vurguluyor.",
+  "options": [
+   "Специалисты подчёркивают, что детям достаточно заниматься физической активностью не более часа в день.",
+   "Специалисты подчёркивают, что детям необходимо заниматься физической активностью не менее часа в день.",
+   "Специалисты подчёркивают, что детям необходимо заниматься физической активностью не менее часа в неделю.",
+   "Специалисты подчёркивают, что детям необходимо заниматься физической активности не менее часа в день.",
+   "Специалисты сомневаются, что детям необходимо заниматься физической активностью каждый день."
+  ],
+  "answer": 1,
+  "explanation": "«en az» = «не менее», «günde» = «в день»; «заниматься чем» araç hâli ister, D'deki «активности» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Turizm gelirleri, salgın sırasında yaşanan düşüşün ardından ilk kez eski düzeyine ulaştı.",
+  "options": [
+   "Доходы от туризма впервые после спада, произошедшего во время пандемии, превысили прежний уровень вдвое.",
+   "Доходы от туризма, несмотря на пандемию, впервые за много лет не снизились.",
+   "Доходы от туризма после спада, произошедшего во время пандемии, так и не достигли прежнего уровня.",
+   "Доходы от туризма впервые после спада, произошедшего во время пандемии, достигли прежнего уровня.",
+   "Доходы от туризма впервые после спада, произошедшего во время пандемии, достигли прежний уровень."
+  ],
+  "answer": 3,
+  "explanation": "«достичь чего» -in hâli ister (прежнего уровня), E bu yüzden hatalıdır; «ilk kez ... ulaştı» = «впервые достигли»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Bu yasa, kamu kurumlarının harcamalarını daha şeffaf hâle getirmeyi amaçlıyor.",
+  "options": [
+   "Этот закон направлен на то, чтобы сократить расходы государственных учреждений.",
+   "Этот закон, по мнению критиков, сделал расходы государственных учреждений менее прозрачными.",
+   "Этот закон направлен на то, чтобы сделать расходы частных компаний более прозрачными.",
+   "Этот закон направлен на то, чтобы сделать расходы государственных учреждений более прозрачными.",
+   "Этот закон направлен на то, чтобы сделать расходы государственных учреждений более прозрачным."
+  ],
+  "answer": 3,
+  "explanation": "«amaçlıyor» = «направлен на то, чтобы»; sıfat «расходы» ile çoğulda uyuşmalıdır (прозрачными), E hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Gezgin, yolculuğu sırasında karşılaştığı halkların yaşam biçimlerini ayrıntılı bir şekilde kaydetti.",
+  "options": [
+   "Путешественник подробно описал образ жизни народов, с которыми ему довелось встретиться во время странствий.",
+   "Путешественник кратко упомянул о народах, с которыми ему довелось встретиться во время странствий.",
+   "Народы, с которыми путешественнику довелось встретиться во время странствий, подробно описали его образ жизни.",
+   "Путешественник подробно описал образ жизни народов, с которыми ему так и не довелось встретиться во время странствий.",
+   "Путешественник подробно описал образ жизни народов, которых ему довелось встретиться во время странствий."
+  ],
+  "answer": 0,
+  "explanation": "«ayrıntılı bir şekilde kaydetti» = «подробно описал»; «встретиться с кем» yapısı gerekir, E'de edat eksiktir."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Kentlerde yaşayan insanların sayısı, 2050 yılına kadar iki katına çıkabilir.",
+  "options": [
+   "К 2050 году число людей, живущих в городах, может сократиться вдвое.",
+   "К 2050 году число людей, живущих в сельской местности, может увеличиться вдвое.",
+   "С 2050 года число людей, живущих в городах, будет непременно расти.",
+   "К 2050 году число людей, живущих в городах, может увеличиться в три раза.",
+   "К 2050 году число людей, живущих в городах, может увеличиться вдвое."
+  ],
+  "answer": 4,
+  "explanation": "«2050 yılına kadar» = «к 2050 году», «iki katına çıkabilir» = «может увеличиться вдвое»."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Ressamın son tablosu, ölümünden yalnızca birkaç hafta önce tamamlanmıştı.",
+  "options": [
+   "Последняя картина художника была завершена через несколько недель после его смерти.",
+   "Первая картина художника была завершена всего за несколько недель до его смерти.",
+   "Последняя картина художника была завершена всего за несколько недель до его смерти.",
+   "Последняя картина художника так и не была завершена, хотя он работал над ней несколько недель.",
+   "Последняя картина художника была завершена всего за несколько недель до его смерть."
+  ],
+  "answer": 2,
+  "explanation": "«ölümünden ... önce» = «за ... до его смерти»; «до» edatı -in hâli ister, E'deki «смерть» hatalıdır."
+ },
+ {
+  "topic": "ceviri_tr",
+  "text": "Okul yönetimi, öğrencilerin ders sırasında cep telefonu kullanmasını yasaklamaya karar verdi.",
+  "options": [
+   "Администрация школы решила разрешить ученикам пользоваться мобильными телефонами во время уроков.",
+   "Администрация школы решила запретить ученикам пользоваться мобильными телефонами во время уроков.",
+   "Администрация школы решила запретить ученикам пользоваться мобильными телефонами на переменах.",
+   "Администрация школы решила запретить учеников пользоваться мобильными телефонами во время уроков.",
+   "Ученики решили не пользоваться мобильными телефонами во время уроков по просьбе администрации школы."
+  ],
+  "answer": 1,
+  "explanation": "«запретить кому» yönelme hâli ister (ученикам), D hatalıdır; «ders sırasında» = «во время уроков»."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Из-за сильных морозов занятия в школах города были отменены на три дня.",
+  "options": [
+   "Несмотря на сильные морозы, в течение трёх дней школы города работали в обычном режиме.",
+   "Школы города не проводили занятия в течение трёх дней, поскольку стояли сильные морозы.",
+   "Из-за сильных морозов занятия в школах города были отменены на три недели.",
+   "Если морозы усилятся, занятия в школах города отменят на три дня.",
+   "Из-за сильных морозов занятия были отменены в трёх школах города."
+  ],
+  "answer": 1,
+  "explanation": "B aynı neden (sert soğuklar), aynı süre (üç gün) ve aynı sonucu (derslerin yapılmaması) farklı bir yapıyla verir; E kapsamı «üç okul»a daraltır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Большинство опрошенных экономистов считают, что в ближайшие месяцы курс национальной валюты останется стабильным.",
+  "options": [
+   "Все опрошенные экономисты уверены, что в ближайшие месяцы курс национальной валюты останется стабильным.",
+   "Большинство опрошенных экономистов считают, что в ближайшие месяцы курс национальной валюты резко упадёт.",
+   "Лишь некоторые из опрошенных экономистов считают, что в ближайшие месяцы курс национальной валюты останется стабильным.",
+   "По мнению большей части опрошенных экономистов, в ближайшие месяцы существенных колебаний курса национальной валюты не произойдёт.",
+   "Большинство опрошенных экономистов считают, что в последние месяцы курс национальной валюты был стабильным."
+  ],
+  "answer": 3,
+  "explanation": "«большинство» = «большая часть», «останется стабильным» = «существенных колебаний не произойдёт»; diğerleri kapsamı, yönü ya da zamanı değiştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Учёные пока не могут однозначно ответить на вопрос, почему динозавры вымерли так быстро.",
+  "options": [
+   "Причина столь быстрого вымирания динозавров до сих пор не установлена учёными окончательно.",
+   "Учёные наконец однозначно объяснили, почему динозавры вымерли так быстро.",
+   "Учёные пока не могут однозначно ответить на вопрос, когда именно вымерли динозавры.",
+   "Учёные однозначно считают, что динозавры вымерли не так быстро, как предполагалось.",
+   "Учёные не хотят отвечать на вопрос о том, почему динозавры вымерли так быстро."
+  ],
+  "answer": 0,
+  "explanation": "Hızlı yok oluşun nedeninin henüz kesin olarak bilinmediğini yalnızca A korur; C soruyu «ne zaman»a, E ise «istememek»e çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Чем раньше заболевание будет обнаружено, тем выше шансы на полное выздоровление.",
+  "options": [
+   "Чем позже заболевание будет обнаружено, тем выше шансы на полное выздоровление.",
+   "Даже если заболевание обнаружено рано, шансы на полное выздоровление невелики.",
+   "Раннее обнаружение заболевания гарантирует полное выздоровление в любом случае.",
+   "Чем раньше заболевание будет обнаружено, тем дольше продлится лечение.",
+   "Вероятность полного выздоровления увеличивается, если болезнь выявлена на ранней стадии."
+  ],
+  "answer": 4,
+  "explanation": "Erken teşhisin tam iyileşme olasılığını artırdığı fikri E'de korunur; C olasılığı kesinliğe («гарантирует») dönüştürür."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Новая выставка в музее привлекла вдвое больше посетителей, чем ожидали организаторы.",
+  "options": [
+   "Новая выставка в музее привлекла вдвое меньше посетителей, чем ожидали организаторы.",
+   "Новая выставка в музее привлекла столько посетителей, сколько и ожидали организаторы.",
+   "Организаторы новой выставки в музее рассчитывали на число посетителей, в два раза меньшее, чем пришло на самом деле.",
+   "Организаторы ожидали, что новая выставка в музее привлечёт вдвое больше посетителей, чем предыдущая.",
+   "Новая выставка в музее привлекла вдвое больше посетителей, чем предыдущая, хотя организаторы этого не ожидали."
+  ],
+  "answer": 2,
+  "explanation": "Beklenenin iki katı ziyaretçi gelmesi, beklentinin gerçekleşenin yarısı olması demektir; D ve E karşılaştırmayı önceki sergiye kaydırır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Правительство отказалось от планов повысить налоги на малый бизнес в следующем году.",
+  "options": [
+   "Правительство намерено повысить налоги на малый бизнес уже в следующем году.",
+   "Правительство отказалось от планов снизить налоги на малый бизнес в следующем году.",
+   "Правительство отказалось от планов повысить налоги на крупный бизнес в следующем году.",
+   "Малый бизнес отказался платить повышенные налоги, которые правительство ввело в прошлом году.",
+   "Правительство решило не увеличивать в следующем году налоговую нагрузку на малый бизнес."
+  ],
+  "answer": 4,
+  "explanation": "«отказалось от планов повысить» = «решило не увеличивать»; diğer seçenekler yönü (indirim), kapsamı (büyük işletmeler) ya da özneyi değiştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Эксперимент удалось повторить лишь двум лабораториям из десяти.",
+  "options": [
+   "Восемь из десяти лабораторий не смогли повторить эксперимент.",
+   "Эксперимент удалось повторить всем лабораториям, кроме двух.",
+   "Эксперимент удалось повторить по крайней мере двум лабораториям из десяти.",
+   "Две лаборатории из десяти отказались повторять эксперимент.",
+   "Эксперимент удалось повторить лишь двум лабораториям из двенадцати."
+  ],
+  "answer": 0,
+  "explanation": "On laboratuvardan yalnızca ikisi başardıysa sekizi başaramamıştır; «по крайней мере» (en az) kesin sayıyı belirsizleştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Если бы не помощь волонтёров, многие животные из приюта погибли бы во время наводнения.",
+  "options": [
+   "Несмотря на помощь волонтёров, многие животные из приюта погибли во время наводнения.",
+   "Если волонтёры не помогут, многие животные из приюта погибнут во время наводнения.",
+   "Именно благодаря помощи волонтёров многие животные из приюта не погибли во время наводнения.",
+   "Волонтёры помогли приюту после наводнения, во время которого погибли многие животные.",
+   "Благодаря помощи волонтёров все животные из приюта спаслись, хотя наводнение разрушило здание."
+  ],
+  "answer": 2,
+  "explanation": "Gerçek dışı şart, gönüllüler sayesinde birçok hayvanın kurtulduğunu anlatır; E «hepsi» diyerek kapsamı genişletir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Далеко не все исследователи согласны с тем, что эта рукопись принадлежит перу знаменитого поэта.",
+  "options": [
+   "Все исследователи согласны с тем, что эта рукопись принадлежит перу знаменитого поэта.",
+   "Среди исследователей нет единого мнения о том, что эту рукопись написал знаменитый поэт.",
+   "Ни один исследователь не согласен с тем, что эта рукопись принадлежит перу знаменитого поэта.",
+   "Далеко не все исследователи согласны с тем, что эта рукопись была найдена в архиве знаменитого поэта.",
+   "Исследователи согласны с тем, что знаменитый поэт читал эту рукопись, но не писал её."
+  ],
+  "answer": 1,
+  "explanation": "«Далеко не все согласны» araştırmacılar arasında görüş birliği olmadığını anlatır; C ise hiç kimsenin katılmadığını söyleyerek anlamı aşırılaştırır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Мероприятие перенесли на следующую неделю, так как многие участники не смогли приехать вовремя.",
+  "options": [
+   "Мероприятие отменили, так как многие участники не смогли приехать вовремя.",
+   "Мероприятие перенесли на следующую неделю, хотя все участники приехали вовремя.",
+   "Многие участники не смогли приехать вовремя, так как мероприятие перенесли на следующую неделю.",
+   "Поскольку значительная часть участников не успела прибыть к назначенному сроку, мероприятие было отложено на неделю.",
+   "Мероприятие перенесли на следующий месяц, так как некоторые участники не смогли приехать вовремя."
+  ],
+  "answer": 3,
+  "explanation": "D aynı neden-sonuç ilişkisini ve bir haftalık ertelemeyi korur; C neden ile sonucu yer değiştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Мало кто знает, что первые часы с маятником были созданы голландским учёным Христианом Гюйгенсом.",
+  "options": [
+   "Всем известно, что первые часы с маятником были созданы голландским учёным Христианом Гюйгенсом.",
+   "Мало кто знает, что голландский учёный Христиан Гюйгенс усовершенствовал уже существовавшие часы с маятником.",
+   "Лишь немногим известно, что изобретателем первых маятниковых часов был голландский учёный Христиан Гюйгенс.",
+   "Мало кто знает, что первые часы с маятником были созданы задолго до рождения голландского учёного Христиана Гюйгенса.",
+   "Голландский учёный Христиан Гюйгенс мало знал о часах с маятником, созданных до него."
+  ],
+  "answer": 2,
+  "explanation": "«Мало кто знает» = «лишь немногим известно»; Huygens'in ilk sarkaçlı saatin yaratıcısı olduğu bilgisi yalnızca C'de korunur."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Чтобы сократить потребление воды, жителям засушливых регионов рекомендуют поливать сады только по вечерам.",
+  "options": [
+   "Чтобы сократить потребление воды, жителям засушливых регионов запрещают поливать сады.",
+   "Чтобы сократить потребление воды, жителям засушливых регионов рекомендуют поливать сады только по утрам.",
+   "Жители засушливых регионов поливают сады только по вечерам, поэтому потребление воды там растёт.",
+   "Чтобы сократить потребление воды, жителям засушливых регионов рекомендуют поливать сады в том числе и по вечерам.",
+   "Жителям засушливых регионов советуют поливать сады исключительно в вечернее время, чтобы расходовать меньше воды."
+  ],
+  "answer": 4,
+  "explanation": "«рекомендуют» = «советуют», «только по вечерам» = «исключительно в вечернее время»; D «в том числе» ile kısıtlamayı kaldırır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Согласно новому закону, курить в общественных местах будет запрещено с начала следующего года.",
+  "options": [
+   "Согласно новому закону, курить в общественных местах было запрещено с начала этого года.",
+   "С начала следующего года, в соответствии с новым законом, курение в общественных местах окажется под запретом.",
+   "Согласно новому закону, курить в общественных местах будет разрешено с начала следующего года.",
+   "Согласно новому закону, курить в общественных местах будет запрещено только в будние дни.",
+   "Новый закон, запрещающий курение в общественных местах, возможно, будет рассмотрен в следующем году."
+  ],
+  "answer": 1,
+  "explanation": "Aynı yasak, aynı zaman (gelecek yılın başı) ve aynı kaynak (yeni yasa) yalnızca B'de korunmuştur; E kesinliği olasılığa çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Именно открытие пенициллина положило начало эпохе антибиотиков в медицине.",
+  "options": [
+   "Открытие пенициллина стало одним из многих событий эпохи антибиотиков в медицине.",
+   "Эпоха антибиотиков в медицине закончилась с открытием пенициллина.",
+   "Открытие пенициллина стало возможным лишь благодаря эпохе антибиотиков в медицине.",
+   "Эпоха антибиотиков в медицине началась с открытия пенициллина.",
+   "Пенициллин был открыт задолго до начала эпохи антибиотиков в медицине."
+  ],
+  "answer": 3,
+  "explanation": "«положило начало» = «началась с»; C neden-sonucu tersine çevirir, A ise başlangıç rolünü sıradan bir olaya indirger."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Спрос на электромобили растёт, однако их доля на рынке всё ещё невелика.",
+  "options": [
+   "Хотя электромобили пользуются всё большим спросом, они пока занимают лишь небольшую часть рынка.",
+   "Спрос на электромобили падает, поэтому их доля на рынке всё ещё невелика.",
+   "Спрос на электромобили растёт, и их доля на рынке уже весьма значительна.",
+   "Доля электромобилей на рынке невелика, поэтому спрос на них не растёт.",
+   "Спрос на электромобили растёт, однако их производство пока сокращается."
+  ],
+  "answer": 0,
+  "explanation": "Artan talep ile hâlâ küçük pazar payı arasındaki karşıtlık A'da «хотя» ile korunmuştur."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Ни одна страна не сможет в одиночку справиться с последствиями глобального потепления.",
+  "options": [
+   "Преодолеть последствия глобального потепления возможно только совместными усилиями разных государств.",
+   "Каждая страна сможет самостоятельно справиться с последствиями глобального потепления.",
+   "Лишь несколько развитых стран смогут в одиночку справиться с последствиями глобального потепления.",
+   "Ни одна страна пока не признала существование глобального потепления.",
+   "Ни одна страна не сможет в одиночку предотвратить глобальное потепление, но с его последствиями справиться легко."
+  ],
+  "answer": 0,
+  "explanation": "Hiçbir ülkenin tek başına başa çıkamaması, sorunun ancak ortak çabayla aşılabileceği anlamına gelir; C bazı ülkeleri istisna sayar."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Книга была переведена на русский язык лишь спустя полвека после её первой публикации.",
+  "options": [
+   "Книга была переведена на русский язык почти сразу после её первой публикации.",
+   "Книга была впервые опубликована на русском языке, а спустя полвека её перевели на другие языки.",
+   "С момента первого издания книги прошло целых пятьдесят лет, прежде чем появился её русский перевод.",
+   "Книга была переведена на русский язык спустя полтора века после её первой публикации.",
+   "Русский перевод книги, сделанный полвека назад, до сих пор не опубликован."
+  ],
+  "answer": 2,
+  "explanation": "«полвека» = elli yıl; ilk yayımdan Rusça çeviriye kadar geçen süre yalnızca C'de doğru korunur, D «полтора века» (yüz elli yıl) der."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Врачи предупреждают, что бесконтрольный приём антибиотиков может привести к снижению их эффективности.",
+  "options": [
+   "Врачи предупреждают, что бесконтрольный приём антибиотиков неизбежно приводит к тяжёлым заболеваниям.",
+   "Врачи предупреждают, что эффективность антибиотиков снижается, если их принимают слишком редко.",
+   "Врачи предупреждают, что бесконтрольный приём антибиотиков никак не влияет на их эффективность.",
+   "По словам медиков, если принимать антибиотики без контроля, они со временем могут начать хуже действовать.",
+   "Врачи предупреждают, что снижение эффективности антибиотиков может привести к их бесконтрольному приёму."
+  ],
+  "answer": 3,
+  "explanation": "«бесконтрольный приём» = «принимать без контроля», «снижение эффективности» = «хуже действовать»; olasılık («может») da korunmuştur."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Проект оказался бы успешным, если бы его финансирование не было урезано.",
+  "options": [
+   "Проект оказался успешным, хотя его финансирование было урезано.",
+   "Именно сокращение финансирования помешало проекту добиться успеха.",
+   "Если финансирование проекта будет урезано, он окажется неуспешным.",
+   "Проект оказался неуспешным, несмотря на то что его финансирование было увеличено.",
+   "Финансирование проекта было урезано, потому что он оказался неуспешным."
+  ],
+  "answer": 1,
+  "explanation": "Gerçek dışı şart, finansmanın kesildiğini ve projenin bu yüzden başarısız olduğunu anlatır; E neden-sonucu tersine çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Последние исследования ставят под сомнение распространённое мнение о вреде кофе для сердца.",
+  "options": [
+   "Последние исследования подтверждают распространённое мнение о вреде кофе для сердца.",
+   "Последние исследования доказали, что кофе полезен для всех органов, кроме сердца.",
+   "Распространённое мнение о вреде кофе для сердца основано на последних исследованиях.",
+   "Последние исследования ставят под сомнение распространённое мнение о пользе кофе для сердца.",
+   "Согласно последним исследованиям, широко распространённое представление о том, что кофе вредит сердцу, может оказаться ошибочным."
+  ],
+  "answer": 4,
+  "explanation": "«ставят под сомнение» = «может оказаться ошибочным»; sorgulanan görüş kahvenin kalbe zararıdır, D bunu «yarar»a çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Чем выше уровень образования населения, тем ниже, как правило, уровень преступности.",
+  "options": [
+   "Чем выше уровень образования населения, тем выше, как правило, уровень преступности.",
+   "Уровень преступности всегда снижается, как только повышается уровень образования населения.",
+   "Чем ниже уровень преступности, тем, как правило, меньше люди интересуются образованием.",
+   "Обычно в обществах с более образованным населением совершается меньше преступлений.",
+   "Уровень образования населения никак не связан с уровнем преступности."
+  ],
+  "answer": 3,
+  "explanation": "«как правило» = «обычно»; B «всегда» diyerek genellemeyi kesinliğe dönüştürür."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Учёные не исключают, что на одном из спутников Юпитера может существовать жизнь.",
+  "options": [
+   "Учёные уверены, что на одном из спутников Юпитера существует жизнь.",
+   "По мнению учёных, существование жизни на одном из спутников Юпитера вполне возможно.",
+   "Учёные исключают возможность существования жизни на спутниках Юпитера.",
+   "Учёные не исключают, что на всех спутниках Юпитера может существовать жизнь.",
+   "Учёные не исключают, что на Юпитере когда-то существовала жизнь."
+  ],
+  "answer": 1,
+  "explanation": "«не исключают» = «вполне возможно»; A olasılığı kesinliğe çevirir, D kapsamı tüm uydulara genişletir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Несмотря на все усилия спасателей, найти пропавших туристов до наступления темноты не удалось.",
+  "options": [
+   "Благодаря усилиям спасателей пропавших туристов нашли ещё до наступления темноты.",
+   "Спасатели не прилагали особых усилий, поэтому пропавших туристов нашли только после наступления темноты.",
+   "Несмотря на все усилия спасателей, пропавших туристов так и не нашли.",
+   "Несмотря на все усилия спасателей, пропавших туристов нашли лишь на рассвете.",
+   "Спасатели приложили максимум усилий, однако до того, как стемнело, отыскать пропавших туристов им не удалось."
+  ],
+  "answer": 4,
+  "explanation": "Cümle yalnızca karanlık çökmeden önce bulunamadıklarını söyler; C «hiç bulunamadı», D «şafakta bulundu» diyerek bilgi ekler."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Доступ к архиву открыт только для исследователей, получивших специальное разрешение.",
+  "options": [
+   "Работать с архивом могут лишь те исследователи, у которых есть специальное разрешение.",
+   "Доступ к архиву открыт для всех исследователей, даже если у них нет специального разрешения.",
+   "Исследователи, получившие специальное разрешение, обязаны работать в архиве.",
+   "Доступ к архиву закрыт даже для исследователей, получивших специальное разрешение.",
+   "Для получения специального разрешения исследователям нужно сначала поработать в архиве."
+  ],
+  "answer": 0,
+  "explanation": "«только для ... получивших разрешение» = «лишь те, у которых есть разрешение»; C izni zorunluluğa çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Вряд ли новая модель смартфона будет пользоваться спросом из-за своей высокой цены.",
+  "options": [
+   "Новая модель смартфона, несмотря на высокую цену, наверняка будет пользоваться большим спросом.",
+   "Новая модель смартфона точно не будет пользоваться спросом, так как она слишком дешёвая.",
+   "Высокая стоимость новой модели смартфона, скорее всего, не позволит ей стать востребованной.",
+   "Высокая цена новой модели смартфона объясняется тем, что она пользуется большим спросом.",
+   "Новая модель смартфона уже не пользуется спросом из-за своей высокой цены."
+  ],
+  "answer": 2,
+  "explanation": "«Вряд ли» güçlü bir olasılık bildirir = «скорее всего, не»; E olasılığı gerçekleşmiş bir olguya çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "В отличие от предыдущих лет, в этом году урожай винограда в регионе оказался рекордным.",
+  "options": [
+   "Как и в предыдущие годы, в этом году урожай винограда в регионе оказался рекордным.",
+   "В отличие от предыдущих лет, в этом году урожай винограда в регионе оказался очень низким.",
+   "В этом году виноградники региона дали такой урожай, какого не было ни в один из прошлых лет.",
+   "В этом году урожай винограда в регионе оказался почти таким же, как в предыдущие годы.",
+   "В отличие от предыдущих лет, в этом году урожай винограда в регионе, вероятно, будет рекордным."
+  ],
+  "answer": 2,
+  "explanation": "Rekor hasat, önceki yılların hiçbirinde görülmemiş bir hasat demektir; E gerçekleşmiş durumu tahmine çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Если в ближайшие годы не принять меры, этот вид бабочек может исчезнуть.",
+  "options": [
+   "Если в ближайшие годы не будут предприняты необходимые действия, этот вид бабочек рискует исчезнуть.",
+   "Даже если в ближайшие годы принять меры, этот вид бабочек обязательно исчезнет.",
+   "Этот вид бабочек исчез, потому что в последние годы не было принято никаких мер.",
+   "Если в ближайшие годы не принять меры, этот вид бабочек может вытеснить другие виды.",
+   "Если в ближайшие годы не принять меры, все виды бабочек в регионе исчезнут."
+  ],
+  "answer": 0,
+  "explanation": "«может исчезнуть» = «рискует исчезнуть», şart da aynıdır; E kapsamı tüm türlere genişletip olasılığı kesinliğe çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Писатель редко давал интервью, предпочитая общаться с читателями через свои книги.",
+  "options": [
+   "Писатель часто давал интервью, поскольку не любил общаться с читателями через свои книги.",
+   "Предпочитая говорить с читателями посредством своих произведений, писатель нечасто соглашался на интервью.",
+   "Писатель редко писал книги, предпочитая общаться с читателями в интервью.",
+   "Писатель никогда не давал интервью и не общался с читателями.",
+   "Читатели редко брали интервью у писателя, потому что предпочитали читать его книги."
+  ],
+  "answer": 1,
+  "explanation": "«редко» = «нечасто», «через свои книги» = «посредством своих произведений»; D «никогда» diyerek sıklığı değiştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Строительство дороги было приостановлено, после того как рабочие обнаружили древнее захоронение.",
+  "options": [
+   "Строительство дороги было окончательно прекращено, после того как рабочие обнаружили древнее захоронение.",
+   "Рабочие обнаружили древнее захоронение уже после того, как строительство дороги было завершено.",
+   "Строительство дороги продолжилось, хотя рабочие обнаружили древнее захоронение.",
+   "Строительство дороги было приостановлено, поэтому рабочие смогли заняться поиском древнего захоронения.",
+   "Обнаружение рабочими древнего захоронения привело к временной остановке строительства дороги."
+  ],
+  "answer": 4,
+  "explanation": "«приостановлено» geçici durdurma demektir = «временная остановка»; A «окончательно» ile kalıcı bir durdurmadan söz eder."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Эта технология пока слишком дорога, чтобы её можно было применять в массовом производстве.",
+  "options": [
+   "Эта технология настолько дешева, что её уже применяют в массовом производстве.",
+   "Эта технология пока слишком сложна, чтобы её можно было применять в массовом производстве.",
+   "Применение этой технологии в массовом производстве сделало её слишком дорогой.",
+   "Из-за высокой стоимости эту технологию в настоящее время невозможно использовать в массовом производстве.",
+   "Эта технология никогда не сможет применяться в массовом производстве, как бы она ни подешевела."
+  ],
+  "answer": 3,
+  "explanation": "«пока слишком дорога, чтобы» = şu an yüksek maliyet nedeniyle kullanılamaz; E «никогда» diyerek zaman sınırını kaldırır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Город, когда-то известный своими текстильными фабриками, сегодня живёт в основном за счёт туризма.",
+  "options": [
+   "Город, когда-то известный своими текстильными фабриками, сегодня полностью отказался от туризма.",
+   "Город, когда-то известный туризмом, сегодня живёт в основном за счёт текстильных фабрик.",
+   "Город, когда-то известный своими текстильными фабриками, сегодня живёт исключительно за счёт туризма.",
+   "Город по-прежнему славится своими текстильными фабриками, которые привлекают много туристов.",
+   "Главным источником дохода для города, который раньше славился текстильным производством, теперь является туризм."
+  ],
+  "answer": 4,
+  "explanation": "«в основном за счёт туризма» = turizmin başlıca gelir kaynağı olması; C «исключительно» diyerek kapsamı daraltır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Полученные результаты носят предварительный характер и нуждаются в дальнейшей проверке.",
+  "options": [
+   "Полученные результаты окончательны и не нуждаются в дальнейшей проверке.",
+   "Полученные результаты носят предварительный характер, поэтому их проверка уже не требуется.",
+   "Полученные результаты уже прошли несколько проверок и признаны достоверными.",
+   "Полученные данные пока нельзя считать окончательными, так как их необходимо дополнительно проверить.",
+   "Полученные результаты носят предварительный характер, хотя их проверка была завершена."
+  ],
+  "answer": 3,
+  "explanation": "Ön nitelikteki sonuçlar henüz kesin sayılamaz ve doğrulanmaları gerekir: «предварительный характер» = «пока нельзя считать окончательными»; A ve C sonuçları kesinleşmiş gösterir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Тренер команды подал в отставку сразу после того, как она проиграла финальный матч.",
+  "options": [
+   "Сразу после поражения команды в финальном матче её тренер ушёл со своего поста.",
+   "Тренер команды подал в отставку ещё до того, как она сыграла финальный матч.",
+   "Тренер команды подал в отставку сразу после того, как она выиграла финальный матч.",
+   "Команда проиграла финальный матч сразу после того, как её тренер подал в отставку.",
+   "Тренер команды отказался уходить в отставку, несмотря на поражение в финальном матче."
+  ],
+  "answer": 0,
+  "explanation": "«подал в отставку» = «ушёл со своего поста»; olayların sırası (önce yenilgi, hemen ardından istifa) yalnızca A'da korunur."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Нельзя утверждать, что эти два явления связаны между собой, пока не будут собраны дополнительные данные.",
+  "options": [
+   "Дополнительные данные уже доказали, что эти два явления связаны между собой.",
+   "Эти два явления точно не связаны между собой, поэтому собирать дополнительные данные не нужно.",
+   "До получения дополнительных данных говорить о наличии связи между этими двумя явлениями преждевременно.",
+   "Нельзя утверждать, что эти два явления связаны между собой, даже если будут собраны дополнительные данные.",
+   "Чтобы собрать дополнительные данные, нужно сначала доказать, что эти два явления связаны между собой."
+  ],
+  "answer": 2,
+  "explanation": "«Нельзя утверждать ..., пока не будут собраны» = ek veriler gelmeden bağlantıdan söz etmek erken; D «даже если» ile koşulu ortadan kaldırır."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Мост, построенный более ста лет назад, до сих пор выдерживает интенсивное движение транспорта.",
+  "options": [
+   "Мост, построенный менее ста лет назад, уже не выдерживает интенсивного движения транспорта.",
+   "Несмотря на свой более чем вековой возраст, мост и сегодня справляется с большим транспортным потоком.",
+   "Мост, построенный более ста лет назад, был закрыт для транспорта из-за ветхости.",
+   "Мост, построенный более ста лет назад, выдерживал интенсивное движение транспорта лишь в первые годы.",
+   "Интенсивное движение транспорта более ста лет назад привело к строительству нового моста."
+  ],
+  "answer": 1,
+  "explanation": "Yüz yılı aşkın yaşına rağmen köprünün bugün de yoğun trafiği taşıdığı yalnızca B'de korunur: «до сих пор выдерживает» = «и сегодня справляется»."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Ему так и не удалось убедить коллег в правильности своей гипотезы.",
+  "options": [
+   "Ему в конце концов удалось убедить коллег в правильности своей гипотезы.",
+   "Коллеги учёного в итоге так и не согласились с тем, что его гипотеза верна.",
+   "Коллеги так и не смогли убедить его в том, что его гипотеза ошибочна.",
+   "Ему не удалось убедить в правильности своей гипотезы лишь одного из коллег.",
+   "Он так и не решился рассказать коллегам о своей гипотезе."
+  ],
+  "answer": 1,
+  "explanation": "İkna edememek, meslektaşların hipotezin doğruluğunu kabul etmemesi demektir; C ikna edenle edileni yer değiştirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Производство бумаги из переработанного сырья требует значительно меньше воды и энергии.",
+  "options": [
+   "Производство бумаги из переработанного сырья требует значительно больше воды и энергии.",
+   "Производство бумаги из переработанного сырья требует меньше воды, но больше энергии.",
+   "Производство бумаги из переработанного сырья требует ненамного меньше воды и энергии.",
+   "Для переработки использованной бумаги нужно значительно больше воды и энергии, чем считалось ранее.",
+   "На изготовление бумаги из вторичного сырья расходуется гораздо меньше водных и энергетических ресурсов."
+  ],
+  "answer": 4,
+  "explanation": "«переработанное сырьё» = «вторичное сырьё», «значительно меньше» = «гораздо меньше»; C farkın küçük olduğunu söyler."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Лишь после того как сократились продажи, руководство компании задумалось о смене стратегии.",
+  "options": [
+   "Руководство компании сменило стратегию задолго до того, как сократились продажи.",
+   "Продажи сократились, потому что руководство компании решило сменить стратегию.",
+   "Пока продажи не сократились, руководство компании не задумывалось о смене стратегии.",
+   "Даже после того как сократились продажи, руководство компании не задумывалось о смене стратегии.",
+   "После того как сократились продажи, руководство компании сразу сменило стратегию."
+  ],
+  "answer": 2,
+  "explanation": "«Лишь после того как» satışlar düşene kadar strateji değişikliğinin düşünülmediğini anlatır; E düşünmeyi fiilî değişikliğe çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Как показывают данные опроса, молодёжь всё реже смотрит телевизор и всё чаще получает новости из интернета.",
+  "options": [
+   "Как показывают данные опроса, молодёжь всё чаще смотрит телевизор и всё реже получает новости из интернета.",
+   "Как показывают данные опроса, молодёжь совсем перестала смотреть телевизор и получает новости только из интернета.",
+   "Как показывают данные опроса, старшее поколение всё реже смотрит телевизор и всё чаще получает новости из интернета.",
+   "Судя по результатам опроса, молодые люди всё реже включают телевизор, а новости всё чаще узнают из сети.",
+   "Как показывают данные опроса, молодёжь всё реже получает новости, поскольку больше времени проводит в интернете."
+  ],
+  "answer": 3,
+  "explanation": "Gençlerin televizyonu giderek daha seyrek açması ve haberleri giderek daha sık internetten öğrenmesi yalnızca D'de korunur; B eğilimi mutlak bir duruma çevirir."
+ },
+ {
+  "topic": "yakin_anlam",
+  "text": "Музей временно закрыт для посетителей в связи с проведением ремонтных работ.",
+  "options": [
+   "Пока в музее ведётся ремонт, посетители не могут туда попасть.",
+   "Музей навсегда закрыт для посетителей в связи с проведением ремонтных работ.",
+   "Музей временно открыт для посетителей, несмотря на проведение ремонтных работ.",
+   "Музей временно закрыт для посетителей, поэтому в нём проводятся ремонтные работы.",
+   "Музей будет закрыт для посетителей, если начнутся ремонтные работы."
+  ],
+  "answer": 0,
+  "explanation": "«временно закрыт в связи с ремонтом» = onarım sürdüğü müddetçe ziyaretçiler giremez; D neden-sonucu tersine çevirir."
+ }
+]
