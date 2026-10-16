@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { BackHandler, Pressable, ScrollView, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
-import { font, radius, useTheme } from '../theme';
+import { font, icon as ICON, radius, space, useTheme } from '../theme';
 import { Question, questions, Topic, topics } from '../data/questions';
 import { lessons } from '../data/gen';
 import { lastResults } from '../db';
-import { Btn, Card, Header, Icon, IconBadge, Row, Section, T, useTap } from '../ui';
+import { Bar, Btn, Card, Chip, Header, Icon, IconBadge, IconBtn, ListGroup, ListItem, Row, Section, T, useTap } from '../ui';
 import { shuffle } from '../Quiz';
 import type { Start } from './types';
 
@@ -39,7 +39,7 @@ export function Study({ start }: { start: Start }) {
           key={t.id}
           icon={t.icon}
           title={t.name}
-          subtitle={[hasLesson ? 'Anlatım' : null, `${pool.solved}/${pool.all.length} çözüldü`, pool.solved ? `%${pool.acc} doğru` : null].filter(Boolean).join('  ·  ')}
+          subtitle={[hasLesson ? 'Anlatım' : null, `${pool.solved}/${pool.all.length} çözüldü`, pool.solved ? `%${pool.acc} doğru` : null].filter(Boolean).join(' · ')}
           progress={pool.all.length ? pool.solved / pool.all.length : 0}
           onPress={() => setOpen(t.id)}
         />
@@ -47,16 +47,16 @@ export function Study({ start }: { start: Start }) {
     });
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 20, gap: 12, paddingBottom: 32 }} showsVerticalScrollIndicator={false}>
-      <Header title="Çalış" subtitle="Konu anlatımını oku, ardından süresiz konu testini çöz." />
+    <ScrollView contentContainerStyle={{ padding: space.screen, gap: 12, paddingBottom: 32 }} showsVerticalScrollIndicator={false}>
+      <Header title="Çalış" />
       {tactic && (
-        <Card onPress={() => setOpen('yds_taktik')} style={{ backgroundColor: c.panel, flexDirection: 'row', alignItems: 'center', gap: 16, marginTop: 8 }}>
+        <Card onPress={() => setOpen('yds_taktik')} style={{ backgroundColor: c.panel, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
           <IconBadge name="award" />
           <View style={{ flex: 1, gap: 2 }}>
             <T v="h3">{tactic.title}</T>
             <T v="small" color="text2">Soru tipleri, süre yönetimi, eleme yöntemleri</T>
           </View>
-          <Icon name="chevron-right" size={20} color={c.muted} />
+          <Icon name="chevron-right" size={ICON.row} color={c.muted} />
         </Card>
       )}
       <Section title="Dilbilgisi" />
@@ -80,7 +80,7 @@ function pools(all: Question[], res: Map<string, boolean>) {
 // Ders metnindeki satırları biçimlendirir: "•" madde, ":" ile biten alt başlık, diğerleri paragraf
 // Metindeki Rusça parçalar vurgulu: Türkçe açıklamanın içinde göz önce Rusça biçime takılsın
 const CYR = /([А-Яа-яЁё][А-Яа-яЁё\-́]*(?:\s+[А-Яа-яЁё][А-Яа-яЁё\-́]*)*)/;
-function Rich({ text, v = 'body', color = 'text2' }: { text: string; v?: 'body' | 'small'; color?: 'text2' | 'text' }) {
+function Rich({ text, v = 'reading', color = 'text2' }: { text: string; v?: 'reading' | 'small'; color?: 'text2' | 'text' }) {
   const { c } = useTheme();
   return (
     <T v={v} color={color} style={{ flex: 1 }}>
@@ -194,9 +194,9 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
 
   // Soru havuzu kartı: kaç soru var, kaçı çözüldü, test hangi sorulardan gelecek
   const testBtns = qs.length > 0 && (
-    <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: 16, gap: 12 }}>
+    <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: space.card, gap: 12 }}>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
-        <T v="overline" color="muted">Soru havuzu</T>
+        <T v="overline" color="muted">Konu testi</T>
         <T v="smallM">{pool.solved}/{qs.length} çözüldü{pool.solved ? ` · %${pool.acc} doğru` : ''}</T>
       </View>
       <View style={{ height: 6, borderRadius: 3, backgroundColor: c.card2, flexDirection: 'row', overflow: 'hidden' }}>
@@ -208,7 +208,7 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
         <T v="small" color="text2">Doğru {pool.right.length}</T>
         <T v="small" color="text2">Yanlış {pool.wrong.length}</T>
       </View>
-      <T v="small" color="muted">{pool.fresh.length ? 'Test önce hiç çözmediğin sorulardan gelir, sonra yanlışlarından.' : 'Hepsini çözdün. Test önce yanlışlarından gelir.'}</T>
+      <T v="small" color="muted">{pool.fresh.length ? 'Önce çözmediklerin, sonra yanlışların gelir' : 'Hepsini çözdün · önce yanlışların gelir'}</T>
       <View style={{ flexDirection: 'row', gap: 8 }}>
         <Btn title={`${Math.min(10, qs.length)} soru`} icon="play" onPress={() => start({ title: name, qs: pool.next(10) })} style={{ flex: 1 }} />
         {pool.wrong.length > 0 && <Btn kind="secondary" title={`Yanlışlar · ${pool.wrong.length}`} onPress={() => start({ title: `${name} · yanlışlar`, qs: shuffle(pool.wrong) })} style={{ flex: 1 }} />}
@@ -218,7 +218,7 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
 
   if (!lesson) {
     return (
-      <ScrollView contentContainerStyle={{ padding: 20, gap: 16 }}>
+      <ScrollView contentContainerStyle={{ padding: space.screen, gap: space.gap }}>
         <Header title={topic?.name ?? ''} onBack={back} />
         <Card><T v="body" color="text2">Bu soru tipi için ayrı bir anlatım yok; YDS taktikleri dersinde ele alınıyor. Doğrudan pratik yaparak başlayabilirsin.</T></Card>
         {testBtns}
@@ -234,16 +234,17 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
       <ScrollView ref={scroll} contentContainerStyle={{ padding: 20, gap: 16, paddingBottom: 24 }} showsVerticalScrollIndicator={false}>
         <Header title={lesson.title} onBack={back} />
         <T v="body" color="muted" style={{ marginTop: -6 }}>{lesson.summary}</T>
-        {/* Konu testi en üstte: havuz durumu ve başlat düğmesi dersten önce de görünür */}
-        {testBtns}
+        {/* Konu testi en üstte tek satır: dersten önce de görünür; tam kart son bölümde */}
+        {qs.length > 0 && (
+          <ListGroup>
+            <ListItem icon="play-circle" title="Konu testi" sub={`${pool.solved}/${qs.length} çözüldü${pool.solved ? ` · %${pool.acc} doğru` : ''} · 10 soru`} onPress={() => start({ title: name, qs: pool.next(10) })} />
+          </ListGroup>
+        )}
 
         <View style={{ gap: 12 }}>
-          <ScrollView ref={tocRef} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8 }}>
-            {lesson.sections.map((x, k) => (
-              <Pressable key={k} onPress={() => goSec(k)} style={{ paddingHorizontal: 12, paddingVertical: 8, borderRadius: radius.pill, borderWidth: 1, borderColor: k === sec ? c.primary : c.border, backgroundColor: k === sec ? c.primarySoft : c.card }}>
-                <T v="smallM" color={k === sec ? 'primary' : 'text2'} numberOfLines={1}>{k + 1}. {x.h}</T>
-              </Pressable>
-            ))}
+          <Bar value={(sec + 1) / total} height={2} track={c.primary + '24'} />
+          <ScrollView ref={tocRef} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 4 }}>
+            {lesson.sections.map((x, k) => <Chip key={k} label={`${k + 1}. ${x.h}`} on={k === sec} onPress={() => goSec(k)} />)}
           </ScrollView>
         </View>
 
@@ -264,14 +265,15 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
             </View>
           )}
         </Animated.View>
+        {last && testBtns}
 
       </ScrollView>
-      <View style={{ flexDirection: 'row', gap: 12, paddingHorizontal: 20, paddingVertical: 12, borderTopWidth: 1, borderTopColor: c.border, backgroundColor: c.bg }}>
-        <Btn kind="secondary" title="Önceki" icon="arrow-left" onPress={() => goSec(sec - 1)} disabled={sec === 0} style={{ flex: 1 }} />
+      <View style={{ flexDirection: 'row', gap: 12, paddingHorizontal: space.screen, paddingVertical: 12, borderTopWidth: 1, borderTopColor: c.border, backgroundColor: c.bg }}>
+        <IconBtn name="chevron-left" label="Önceki bölüm" size={52} tone="outline" disabled={sec === 0} onPress={() => goSec(sec - 1)} />
         {last ? (
           qs.length > 0 ? <Btn title="Teste başla" icon="play" onPress={() => start({ title: name, qs: pool.next(10) })} style={{ flex: 1 }} /> : <Btn title="Dersi bitir" onPress={back} style={{ flex: 1 }} />
         ) : (
-          <Btn title="Sonraki" onPress={() => goSec(sec + 1)} style={{ flex: 1 }} />
+          <Btn title={`Sonraki: ${lesson.sections[sec + 1].h}`} onPress={() => goSec(sec + 1)} style={{ flex: 1 }} />
         )}
       </View>
     </View>
