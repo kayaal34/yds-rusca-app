@@ -1460,13 +1460,13 @@
     "text": "Этот автомобиль очень ______: на сто километров он расходует всего пять литров бензина.",
     "options": [
       "экономический",
-      "экономный",
+      "экономически",
       "экономичный",
       "хозяйственный",
       "бережливый"
     ],
     "answer": 2,
-    "explanation": "Paronim: экономичный = az tüketen, ekonomik (makine, araç); экономический = ekonomiye ait; экономный/бережливый = tutumlu (insan)."
+    "explanation": "Paronim: экономичный = az tüketen, ekonomik (makine, araç); экономический = ekonomiye ait; бережливый/хозяйственный = tutumlu (insan); экономически bir zarftır ve isim yüklemi olarak kullanılamaz."
   },
   {
     "topic": "leksika",
