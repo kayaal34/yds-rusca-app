@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { FlatList, PanResponder, Pressable, ScrollView, View } from 'react-native';
+import { useEffect, useMemo, useState } from 'react';
+import { FlatList, Pressable, ScrollView, View } from 'react-native';
+import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, { Easing, FadeIn, interpolate, runOnJS, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { icon as ICON, radius, space, useTheme } from '../theme';
 import { Clover } from '../Logo';
@@ -103,27 +104,26 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
     tx.set(0);
     setI(i + 1);
   };
-  // PanResponder bir kez kurulur; güncel cevap işlevine ref üzerinden ulaşır
-  const answerRef = useRef(answer);
-  useEffect(() => { answerRef.current = answer; });
-  // cardPan ref nesnesini yalnız hareket sırasında okur, render sırasında değil
-  // eslint-disable-next-line react-hooks/refs
-  const [pan] = useState(() =>
-    PanResponder.create({
-      // Capture: karttaki dokunma (çevirme) alanı hareketi önce yakalamasın; yatay sürüklemeyi kart katmanı alır (iOS)
-      onMoveShouldSetPanResponderCapture: (_, g) => Math.abs(g.dx) > 10 && Math.abs(g.dx) > Math.abs(g.dy) * 1.5,
-      onMoveShouldSetPanResponder: (_, g) => Math.abs(g.dx) > 10 && Math.abs(g.dx) > Math.abs(g.dy) * 1.5,
-      onPanResponderTerminationRequest: () => false,
-      onPanResponderMove: (_, g) => tx.set(g.dx),
-      onPanResponderRelease: (_, g) => {
-        if (Math.abs(g.dx) > SWIPE) {
-          const ok = g.dx > 0;
-          tx.set(withTiming(ok ? 500 : -500, { duration: 180 }, () => runOnJS(answerRef.current)(ok)));
-        } else tx.set(withTiming(0, { duration: 180 }));
-      },
-      onPanResponderTerminate: () => tx.set(withTiming(0, { duration: 180 })),
-    })
-  );
+  // Kartın her yerinden: yatay sürükleme cevaplar, dokunma çevirir (iOS ve Android'de yerel dokunma sistemiyle)
+  const [flipped, setFlipped] = useState(false);
+  const flipCard = () => {
+    tap();
+    setFlipped(!flipped);
+    flip.set(withTiming(flipped ? 0 : 1, { duration: 420, easing: Easing.inOut(Easing.cubic) }));
+  };
+  const swiped = (ok: boolean) => { setFlipped(false); answer(ok); };
+  const pan = Gesture.Pan()
+    .activeOffsetX([-12, 12])
+    .failOffsetY([-16, 16])
+    .onUpdate((e) => { tx.set(e.translationX); })
+    .onEnd((e) => {
+      if (Math.abs(e.translationX) > SWIPE) {
+        const ok = e.translationX > 0;
+        tx.set(withTiming(ok ? 500 : -500, { duration: 180 }, () => runOnJS(swiped)(ok)));
+      } else tx.set(withTiming(0, { duration: 180 }));
+    });
+  const tapG = Gesture.Tap().maxDistance(10).onEnd(() => { runOnJS(flipCard)(); });
+  const gesture = Gesture.Exclusive(pan, tapG);
 
   if (!v) {
     return (
@@ -154,13 +154,11 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
       <View style={{ flex: 1 }}>
         {/* Arkada sıradaki kart: destenin devam ettiği hissi */}
         {nextV && <View style={{ position: 'absolute', top: 8, left: 0, right: 0, bottom: -8, backgroundColor: c.card, borderRadius: radius.card, opacity: 0.6, transform: [{ scale: 0.96 }] }} />}
-        <Animated.View key={v.r} entering={FadeIn.duration(220)} style={[{ flex: 1 }, drag]} {...pan.panHandlers}>
-          <Pressable style={{ flex: 1 }} onPress={() => { tap(); flip.set(withTiming(flip.get() > 0.5 ? 0 : 1, { duration: 420, easing: Easing.inOut(Easing.cubic) })); }} accessibilityRole="button" accessibilityHint="Çevirmek için dokun">
+        <GestureDetector gesture={gesture}>
+        <Animated.View key={v.r} entering={FadeIn.duration(220)} style={[{ flex: 1 }, drag]} accessible accessibilityRole="button" accessibilityLabel={flipped ? `${v.tr}. ${v.ex}` : v.impf} accessibilityHint="Çevirmek için dokun, öğrendim için sağa, tekrar için sola kaydır">
+          <View style={{ flex: 1 }}>
             <Animated.View style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: c.card, borderRadius: radius.card, alignItems: 'center', justifyContent: 'center', padding: 24, gap: 12 }, front]}>
               <View style={{ position: 'absolute', top: 18, left: space.card }}><T v="overline" color="muted">No. {v.r % HARD_BASE}</T></View>
-              <View style={{ position: 'absolute', top: 10, right: 10 }}>
-                <IconBtn name="volume-2" label="Sesli oku" onPress={() => say(v.impf)} />
-              </View>
               <T v="word" style={{ textAlign: 'center' }} adjustsFontSizeToFit numberOfLines={v.impf.includes(' ') ? 2 : 1}>{v.impf}</T>
               {!!v.gov && <T v="smallM" color="muted">{v.gov}</T>}
               {!!v.perf && (
@@ -176,10 +174,9 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
                 <View style={{ height: 1, width: 60, backgroundColor: c.primary + '40' }} />
                 <T v="readingM" style={{ textAlign: 'center' }}>{v.ex}</T>
                 <T v="small" color="text2" style={{ textAlign: 'center' }}>{v.exTr}</T>
-                <IconBtn name="volume-2" label="Örneği sesli oku" onPress={() => say(v.ex)} />
               </View>
             </Animated.View>
-          </Pressable>
+          </View>
           <Animated.View pointerEvents="none" style={[{ position: 'absolute', top: 20, right: 20, flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: c.primarySoft, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 6 }, hintOk]}>
             <Icon name="check" size={ICON.inline} color={c.primary} />
             <T v="chip" color="primary">Öğrendim</T>
@@ -189,6 +186,11 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
             <T v="chip" color="text2">Tekrar</T>
           </Animated.View>
         </Animated.View>
+        </GestureDetector>
+        {/* Ses düğmesi kartın dokunma alanı dışında: basınca kart çevrilmez */}
+        <View style={{ position: 'absolute', bottom: 12, right: 12 }}>
+          <IconBtn name="volume-2" label={flipped ? 'Örneği sesli oku' : 'Sesli oku'} onPress={() => say(flipped ? v.ex : v.impf)} />
+        </View>
       </View>
       <View style={{ flexDirection: 'row', gap: 12 }}>
         <Btn kind="secondary" title="Tekrar et" icon="rotate-ccw" onPress={() => answer(false)} style={{ flex: 1 }} />

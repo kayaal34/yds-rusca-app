@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BackHandler, Pressable, useColorScheme, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Animated, { Easing, FadeIn, FadeInDown } from 'react-native-reanimated';
 import { useFonts, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
 import { brand, palettes, ThemeCtx, useTheme } from './src/theme';
@@ -40,11 +41,13 @@ const TABS: { id: Tab; icon: IconName; label: string }[] = [
 export default function App() {
   const [fontsReady, fontError] = useFonts({ Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
     <SafeAreaProvider>
       <SettingsProvider>
         <Themed fontsLoaded={fontsReady || !!fontError} />
       </SettingsProvider>
     </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
 
