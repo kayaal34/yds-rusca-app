@@ -1,18 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
-import { FlatList, Pressable, TextInput, View } from 'react-native';
+import { FlatList, Pressable, ScrollView, TextInput, View } from 'react-native';
 import Animated, { Easing, FadeIn, interpolate, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { font, radius, useTheme } from '../theme';
-import { adjectives, HARD_BASE, hardVerbs, nouns, phrases, Verb, verbs } from '../data/gen';
+import { adjectives, adverbs, HARD_BASE, hardVerbs, nouns, phrases, Verb, verbs } from '../data/gen';
 
 import { setVerbKnown, verbKnown } from '../db';
-import { Btn, Card, Header, Icon, Segmented, T, useTap } from '../ui';
+import { Btn, Card, Chip, Header, Icon, Segmented, T, useTap } from '../ui';
 import { useSettings } from '../settings';
 import { shuffle } from '../Quiz';
 
 // Kelime kategorileri: sık fiiller, YDS'de çıkabilecek zor fiiller, akademik isimler, sıfatlar ve kalıplar
-type Cat = 'common' | 'hard' | 'noun' | 'adj' | 'phrase';
-const LISTS: Record<Cat, Verb[]> = { common: verbs, hard: hardVerbs, noun: nouns, adj: adjectives, phrase: phrases };
-const CATS: [Cat, string][] = [['common', 'Fiil'], ['hard', 'Zor fiil'], ['noun', 'İsim'], ['adj', 'Sıfat'], ['phrase', 'Kalıp']];
+type Cat = 'common' | 'hard' | 'noun' | 'adj' | 'adv' | 'phrase';
+const LISTS: Record<Cat, Verb[]> = { common: verbs, hard: hardVerbs, noun: nouns, adj: adjectives, adv: adverbs, phrase: phrases };
+const CATS: [Cat, string][] = [['common', 'Fiil'], ['hard', 'Zor fiil'], ['noun', 'İsim'], ['adj', 'Sıfat'], ['adv', 'Zarf'], ['phrase', 'Kalıp']];
 
 export function Verbs() {
   const { c } = useTheme();
@@ -36,7 +36,12 @@ export function Verbs() {
     <View style={{ flex: 1 }}>
       <View style={{ padding: 20, paddingBottom: 4, gap: 12 }}>
         <Header title="Kelimeler" />
-        <Segmented items={CATS.filter(([v]) => LISTS[v].length > 0).map(([v, l]) => ({ v, l }))} value={cat} onChange={(v) => { setCat(v); setRound((r) => r + 1); }} />
+        {/* Altı kategori dar ekrana sığsın diye kayan çip satırı */}
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 2 }} style={{ flexGrow: 0, marginHorizontal: -20 }}>
+          <View style={{ width: 12 }} />
+          {CATS.filter(([v]) => LISTS[v].length > 0).map(([v, l]) => <Chip key={v} label={`${l} · ${LISTS[v].length}`} on={cat === v} onPress={() => { setCat(v); setRound((r) => r + 1); }} />)}
+          <View style={{ width: 12 }} />
+        </ScrollView>
         {/* Tur boyutu Ayarlar'da */}
         <View style={{ gap: 8 }}>
           <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>

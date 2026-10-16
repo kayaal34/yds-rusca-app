@@ -1,6 +1,6 @@
 // Veri kontrolü: npx tsx scripts/check-data.ts
 import { questions, topics } from '../src/data/questions';
-import { adjectives, lessons, nouns, phrases, verbs } from '../src/data/gen';
+import { adjectives, adverbs, lessons, nouns, phrases, verbs } from '../src/data/gen';
 
 const fail: string[] = [];
 const ids = new Set<string>();
@@ -12,11 +12,11 @@ for (const q of questions) {
   if (!topics.some((t) => t.id === q.topic)) fail.push(`bilinmeyen konu: ${q.id}`);
 }
 // Kelime kartları: alanlar dolu, Rusça alanlarda Latin, Türkçe alanlarda Kiril harf yok
-for (const w of [...nouns, ...adjectives, ...phrases]) {
+for (const w of [...nouns, ...adjectives, ...adverbs, ...phrases]) {
   if (!w.impf || !w.tr || !w.ex || !w.exTr) fail.push(`kelime alanı boş: ${w.impf}`);
   if (/[a-z]/i.test(w.impf + w.ex) || /[а-яё]/i.test(w.tr + w.exTr)) fail.push(`kelime alanları karışık: ${w.impf}`);
 }
-console.log(`kelimeler: isim ${nouns.length}, sıfat ${adjectives.length}, kalıp ${phrases.length}`);
+console.log(`kelimeler: isim ${nouns.length}, sıfat ${adjectives.length}, zarf ${adverbs.length}, kalıp ${phrases.length}`);
 const vk = new Set<string>();
 for (const v of verbs) for (const k of new Set([v.impf, v.perf].filter(Boolean))) {
   if (vk.has(k)) fail.push(`tekrarlanan fiil: ${k}`);
