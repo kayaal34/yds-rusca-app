@@ -1,13 +1,13 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, AppState, BackHandler, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, View } from 'react-native';
 import Animated, { FadeIn, FadeInUp, FadeOutUp } from 'react-native-reanimated';
-import { font, radius, useTheme } from './theme';
+import { radius, space, type, useTheme } from './theme';
 import { fmtScore, score, useSettings } from './settings';
 import { Clover } from './Logo';
 import { bySource, Question, questions as allQuestions, topicName } from './data/questions';
 import type { Draft } from './exam';
-import { favQids, getNote, getReasons, getSetting, markActive, setFav, markSeen, Reason, REASONS, saveAnswer, saveExam, saveReason, setNote, setSetting } from './db';
-import { Bar, Btn, Chip, Hero, Icon, ListGroup, Stat, T, useTap } from './ui';
+import { exams, favQids, getNote, getReasons, getSetting, markActive, setFav, markSeen, Reason, REASONS, saveAnswer, saveExam, saveReason, setNote, setSetting, todayCount } from './db';
+import { Bar, BigNum, Btn, Chip, Hero, Icon, IconBtn, LinkBtn, ListGroup, Section, T, useTap } from './ui';
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 // Olay işleyicilerinde kullanılır; derleyici kuralı Date.now'u render içinde sanmasın
@@ -206,7 +206,6 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   };
 
   const toggleFlag = () => {
-    tap();
     setFlags((f) => { const n = new Set(f); n.has(i) ? n.delete(i) : n.add(i); return n; });
   };
 
@@ -250,20 +249,16 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   const top = (
     <View style={{ paddingHorizontal: 20, paddingTop: 12, gap: 12 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-        <Pressable onPress={review ? () => setReview(false) : quit} hitSlop={12} accessibilityLabel={review ? 'Sorulara dön' : 'Çık'} style={{ width: 36, height: 36, borderRadius: 18, backgroundColor: c.card, alignItems: 'center', justifyContent: 'center' }}>
-          <Icon name={review ? 'chevron-left' : 'x'} size={18} color={c.text2} />
-        </Pressable>
+        <IconBtn name={review ? 'chevron-left' : 'x'} label={review ? 'Sorulara dön' : 'Çık'} onPress={review ? () => setReview(false) : quit} />
         {minutes ? (
           <Clock minutes={minutes} started={started} alerts={st.examAlerts} onAlert={onAlert} onEnd={finish} />
         ) : (
           <T v="smallM" color="text2" numberOfLines={1} style={{ flex: 1, textAlign: 'center', marginHorizontal: 12 }}>{title}</T>
         )}
         {exam ? (
-          <Pressable onPress={() => { tap(); setReview(!review); }} hitSlop={12} accessibilityLabel="Kontrol ekranı" style={{ width: 36, height: 36, borderRadius: 18, backgroundColor: review ? c.primary : c.card, alignItems: 'center', justifyContent: 'center' }}>
-            <Icon name="grid" size={16} color={review ? c.onPrimary : c.text2} />
-          </Pressable>
+          <IconBtn name="grid" label="Kontrol ekranı" on={review} onPress={() => setReview(!review)} />
         ) : (
-          <T v="smallM" color="muted" style={{ minWidth: 36, textAlign: 'right', fontVariant: ['tabular-nums'] }}>{i + 1}/{items.length}</T>
+          <T v="smallM" color="muted" style={{ minWidth: 40, textAlign: 'right', fontVariant: ['tabular-nums'] }}>{i + 1}/{items.length}</T>
         )}
       </View>
       {exam && !review && (
@@ -307,7 +302,7 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
               <T v="reading">{p.q.passage}</T>
             </View>
           )}
-          <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: 16 }}>
+          <View style={{ backgroundColor: c.card, borderRadius: radius.btn, padding: 16 }}>
             <T v="question">{p.q.text}</T>
           </View>
           <View style={{ gap: 8 }}>
@@ -330,16 +325,12 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
       <View style={{ flexDirection: 'row', gap: 8, paddingHorizontal: 20, paddingTop: 12, paddingBottom: 16 }}>
         {exam ? (
           <>
-            <Pressable onPress={() => go(i - 1)} disabled={i === 0} accessibilityLabel="Önceki soru" style={{ width: 52, height: 52, borderRadius: 26, borderWidth: 1, borderColor: c.muted + '66', alignItems: 'center', justifyContent: 'center', opacity: i === 0 ? 0.35 : 1 }}>
-              <Icon name="chevron-left" size={20} color={c.primary} />
-            </Pressable>
-            <Pressable onPress={toggleFlag} accessibilityLabel={flags.has(i) ? 'İşareti kaldır' : 'Soruyu işaretle'} style={{ width: 52, height: 52, borderRadius: 26, borderWidth: 1, borderColor: flags.has(i) ? c.primary : c.muted + '66', backgroundColor: flags.has(i) ? c.primarySoft : 'transparent', alignItems: 'center', justifyContent: 'center' }}>
-              <Icon name="flag" size={18} color={c.primary} />
-            </Pressable>
+            <IconBtn name="chevron-left" label="Önceki soru" size={52} tone="outline" disabled={i === 0} onPress={() => go(i - 1)} />
+            <IconBtn name="flag" label={flags.has(i) ? 'İşareti kaldır' : 'Soruyu işaretle'} size={52} tone="outline" on={flags.has(i)} onPress={toggleFlag} />
             <Btn title={i + 1 >= items.length ? 'Gözden geçir' : 'Sonraki'} onPress={() => go(i + 1)} style={{ flex: 1 }} />
           </>
         ) : (
-          <Btn title={i + 1 >= items.length ? 'Sonucu gör' : 'Devam'} onPress={() => go(i + 1)} disabled={!reveal} style={{ flex: 1 }} />
+          <Btn title={i + 1 >= items.length ? 'Sonucu gör' : 'Sonraki'} onPress={() => go(i + 1)} disabled={!reveal} style={{ flex: 1 }} />
         )}
       </View>
     </KeyboardAvoidingView>
@@ -390,7 +381,7 @@ const Dot = memo(function Dot({ n, state, flag, onPress, size = 34 }: { n: numbe
   const desc = [state === 'ans' ? 'yanıtlı' : 'boş', flag && 'işaretli'].filter(Boolean).join(', ');
   return (
     <Pressable onPress={() => onPress(n - 1)} hitSlop={5} accessibilityRole="button" accessibilityLabel={`Soru ${n}, ${desc}`} accessibilityState={{ selected: state === 'cur' }} style={{ width: size, height: size, borderRadius: size / 2, backgroundColor: bg, borderWidth: state === 'cur' ? 2 : 1, borderColor: state === 'empty' ? c.border : c.primary, alignItems: 'center', justifyContent: 'center' }}>
-      <T v="smallM" color={state === 'ans' ? c.onPrimary : state === 'cur' ? 'primary' : 'muted'} style={{ fontSize: size < 30 ? 10 : 11, fontVariant: ['tabular-nums'] }}>{n}</T>
+      <T v="microM" color={state === 'ans' ? c.onPrimary : state === 'cur' ? 'primary' : 'muted'} style={{ fontVariant: ['tabular-nums'] }}>{n}</T>
       {flag && <View style={{ position: 'absolute', top: -1, right: -1, width: 8, height: 8, borderRadius: 4, backgroundColor: c.primary, borderWidth: 1.5, borderColor: c.bg }} />}
     </Pressable>
   );
@@ -462,10 +453,7 @@ function NoteBox({ qid }: { qid: string }) {
   };
   if (!open && !text) {
     return (
-      <Pressable onPress={() => setOpen(true)} accessibilityRole="button" style={{ flexDirection: 'row', alignItems: 'center', gap: 8, alignSelf: 'flex-start', minHeight: 44, paddingHorizontal: 4 }}>
-        <Icon name="edit-3" size={14} color={c.primary} />
-        <T v="smallM" color="primary">Not ekle</T>
-      </Pressable>
+      <LinkBtn title="Not ekle" icon="edit-3" onPress={() => setOpen(true)} />
     );
   }
   return (
@@ -486,7 +474,7 @@ function NoteBox({ qid }: { qid: string }) {
         placeholderTextColor={c.muted}
         multiline
         maxLength={280}
-        style={{ color: c.text, fontFamily: font.regular, fontSize: 14, minHeight: 22, paddingVertical: 2 }}
+        style={[type.body, { color: c.text, minHeight: 22, paddingVertical: 2 }]}
       />
     </View>
   );
@@ -512,7 +500,7 @@ function Review({ items, picks, flags, jump, finish }: { items: Prepared[]; pick
           ))}
         </View>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-          {items.map((_, k) => <Dot key={k} n={k + 1} size={30} state={picks[k] !== null ? 'ans' : 'empty'} flag={flags.has(k)} onPress={jump} />)}
+          {items.map((_, k) => <Dot key={k} n={k + 1} size={36} state={picks[k] !== null ? 'ans' : 'empty'} flag={flags.has(k)} onPress={jump} />)}
         </View>
         <View style={{ flexDirection: 'row', gap: 16 }}>
           <Legend color={c.primary} label="Yanıtlı" />
@@ -564,44 +552,90 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
   const byTopic = [...missed.reduce((m, { it }) => m.set(it.q.topic, (m.get(it.q.topic) ?? 0) + 1), new Map<string, number>())].sort((a, b) => b[1] - a[1]);
   const pts = score(right, items.length);
   const hit = full && pts >= st.target;
-  useEffect(() => { if (hit && !readOnly) tap('success'); }, []);
+  const need = Math.ceil(((st.target - pts) * items.length) / 100);
+  // Önceki tam denemeyle fark ve günlük hedef: cevaplar kaydedildikten sonra okunur
+  const [prev, setPrev] = useState<number | null>(null);
+  const [goal, setGoal] = useState<{ today: number; done: boolean } | null>(null);
+  useEffect(() => {
+    if (readOnly) return;
+    const t = setTimeout(() => {
+      if (full) {
+        exams()
+          .then((rows) => {
+            const older = rows.filter((r) => (r.full === null ? r.total >= 76 : r.full === 1) && Date.now() - r.ts > 15000)[0];
+            if (older) setPrev(score(older.right, older.total));
+          })
+          .catch(() => {});
+      }
+      todayCount()
+        .then((n) => {
+          const done = n >= st.goal;
+          setGoal({ today: n, done });
+          if (done || hit) tap('success');
+        })
+        .catch(() => {});
+    }, 400);
+    return () => clearTimeout(t);
+  }, []);
 
   if (analyze) return <Analysis items={missed} picks={picks} onDone={() => setAnalyze(false)} />;
 
   return (
     <View style={{ flex: 1 }}>
-      <ScrollView contentContainerStyle={{ padding: 20, gap: 12, paddingBottom: 24 }} showsVerticalScrollIndicator={false}>
-        <T v="overline" color="muted" style={{ textAlign: 'center', marginTop: 8 }}>{title}</T>
+      <View style={{ flexDirection: 'row', alignItems: 'center', paddingHorizontal: space.screen, paddingTop: 12 }}>
+        <IconBtn name="x" label="Kapat" onPress={onExit} />
+        <T v="overline" color="muted" numberOfLines={1} style={{ flex: 1, textAlign: 'center', marginHorizontal: 12 }}>{title}</T>
+        <View style={{ width: 40 }} />
+      </View>
+      <ScrollView contentContainerStyle={{ padding: space.screen, gap: space.gap, paddingBottom: 24 }} showsVerticalScrollIndicator={false}>
         <Animated.View entering={FadeIn.duration(300)}>
-          <Hero style={{ alignItems: 'center', paddingVertical: 24 }}>
+          <Hero style={{ alignItems: 'center', gap: 8, paddingVertical: 28 }}>
             <T v="small" color="text2">{full ? 'Puan' : 'Doğru'}</T>
-            <View style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 8 }}>
-              <T v="bigL">{full ? fmtScore(right, items.length) : right}</T>
-              <T v="h2" color="muted" style={{ marginBottom: 16, fontFamily: font.light }}>/ {full ? 100 : items.length}</T>
-            </View>
+            <BigNum size="L" value={full ? fmtScore(right, items.length) : right} unit={`/ ${full ? 100 : items.length}`} />
             <T v="small" color="text2">{full ? `${right} doğru${items.length === 80 ? ' × 1,25' : ` / ${items.length} soru`} · ` : ''}{clock(secs)}</T>
             {full && (
-              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 12 }}>
-                <Clover size={22} color={hit ? c.primary : c.muted} weight={1.5} filled={hit} />
-                <T v="smallM" color={hit ? 'primary' : 'text2'}>
-                  Hedef {st.target} · {hit ? 'hedefine ulaştın' : `${Math.ceil(((st.target - pts) * items.length) / 100)} doğru daha`}
-                </T>
+              <View style={{ alignSelf: 'stretch', gap: 8, marginTop: 8 }}>
+                {/* Puan çubuğu ve hedef çentiği */}
+                <View>
+                  <Bar value={pts / 100} height={4} track={c.primary + '24'} />
+                  <View style={{ position: 'absolute', left: `${st.target}%`, top: -4, width: 2, height: 12, borderRadius: 1, backgroundColor: c.text2 }} />
+                </View>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                  <T v="micro" color="muted">Hedef {st.target}</T>
+                  <T v="microM" color={hit ? 'primary' : 'text2'}>{hit ? `Hedefin ${fmtScore(Math.round(((pts - st.target) * items.length) / 100), items.length)} puan üstünde` : `Hedefe ${need} doğru`}</T>
+                </View>
+                {prev !== null && <T v="microM" color={pts >= prev ? 'primary' : 'muted'} style={{ textAlign: 'center' }}>{pts >= prev ? '+' : '−'}{String(Math.abs(Math.round((pts - prev) * 100) / 100)).replace('.', ',')} puan, geçen tam denemeye göre</T>}
               </View>
             )}
           </Hero>
         </Animated.View>
-        <View style={{ flexDirection: 'row', gap: 12 }}>
-          <Stat value={right} label="Doğru" color={c.good} />
-          <Stat value={wrong} label="Yanlış" color={c.bad} />
-          <Stat value={empty} label="Boş" />
+        {/* Doğru, yanlış, boş: tek kartta üç sütun */}
+        <View style={{ flexDirection: 'row', backgroundColor: c.card, borderRadius: radius.card }}>
+          {([[right, 'Doğru', c.good], [wrong, 'Yanlış', c.bad], [empty, 'Boş', c.text]] as [number, string, string][]).map(([v, l, col], k) => (
+            <View key={l} style={[{ flex: 1, alignItems: 'center', paddingVertical: 16 }, k > 0 && { borderLeftWidth: 1, borderLeftColor: c.border }]}>
+              <T v="num" color={col}>{v}</T>
+              <T v="small" color="muted">{l}</T>
+            </View>
+          ))}
         </View>
         {exam && full && <T v="small" color="muted" style={{ textAlign: 'center' }}>Yanlışlar puan götürmez.</T>}
+        {/* Günlük hedef: bu test hedefi tamamladıysa yonca yeşerir */}
+        {goal && (
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: goal.done ? c.primarySoft : c.card, borderRadius: radius.btn, padding: 16 }}>
+            <View style={{ transform: [{ rotate: '18deg' }] }}>
+              <Clover size={28} color={goal.done ? c.primary : c.muted} weight={1.4} filled={goal.done} />
+            </View>
+            <T v="smallM" color={goal.done ? 'primary' : 'text2'} style={{ flex: 1 }}>
+              {goal.done ? 'Yoncan yeşerdi: bugünkü hedef tamam' : `Bugün ${goal.today}/${st.goal} · hedefe ${st.goal - goal.today} soru`}
+            </T>
+          </View>
+        )}
         {byTopic.length > 0 && (
           <>
-            <T v="overline" color="muted" style={{ marginTop: 8 }}>Yanlış ve boşlar konulara göre</T>
+            <Section title="Yanlış ve boşlar konulara göre" />
             <ListGroup>
               {byTopic.slice(0, 6).map(([t, n]) => (
-                <View key={t} style={{ flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 12, paddingHorizontal: 16 }}>
+                <View key={t} style={{ flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 12, paddingHorizontal: space.card }}>
                   <T v="body">{topicName(t)}</T>
                   <T v="bodyM">{n}</T>
                 </View>
@@ -611,8 +645,8 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
         )}
       </ScrollView>
       <View style={{ paddingHorizontal: 20, paddingTop: 12, paddingBottom: 16, gap: 8 }}>
-        {missed.length > 0 && <Btn title="Yanlışları analiz et" icon="search" onPress={() => setAnalyze(true)} />}
-        <Btn kind={missed.length ? 'secondary' : 'primary'} title={readOnly ? 'Kapat' : 'Bitir'} onPress={onExit} />
+        {missed.length > 0 && <Btn title="Yanlışları incele" icon="search" onPress={() => setAnalyze(true)} />}
+        <Btn kind={missed.length ? 'ghost' : 'primary'} title={readOnly ? 'Kapat' : 'Bitir'} onPress={onExit} />
       </View>
     </View>
   );
@@ -634,11 +668,9 @@ function Analysis({ items, picks, onDone }: { items: { it: Prepared; k: number }
   return (
     <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 12 }}>
-        <Pressable onPress={onDone} hitSlop={12} accessibilityLabel="Sonuca dön" style={{ width: 36, height: 36, borderRadius: 18, backgroundColor: c.card, alignItems: 'center', justifyContent: 'center' }}>
-          <Icon name="chevron-left" size={18} color={c.text2} />
-        </Pressable>
+        <IconBtn name="chevron-left" label="Sonuca dön" onPress={onDone} />
         <T v="overline" color="muted">İnceleme {j + 1} / {items.length}</T>
-        <View style={{ width: 36 }} />
+        <View style={{ width: 40 }} />
       </View>
       <ScrollView contentContainerStyle={{ padding: 20, gap: 12 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
         <Animated.View key={it.q.id} entering={FadeIn.duration(200)} style={{ gap: 12 }}>
@@ -649,7 +681,7 @@ function Analysis({ items, picks, onDone }: { items: { it: Prepared; k: number }
             <FavStar key={it.q.id} qid={it.q.id} />
           </View>
           {it.q.passage && <View style={{ backgroundColor: c.panel, borderRadius: radius.btn, padding: 16 }}><T v="reading">{it.q.passage}</T></View>}
-          <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: 16 }}>
+          <View style={{ backgroundColor: c.card, borderRadius: radius.btn, padding: 16 }}>
             <T v="question">{it.q.text}</T>
           </View>
           {mine !== null ? <Option k={mine} text={it.options[mine]} state="wrong" /> : <T v="small" color="muted">Bu soruyu boş bıraktın.</T>}
