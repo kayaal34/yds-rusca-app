@@ -62,17 +62,21 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
   // Günün tek önerisi: zayıf konu, yoksa hedef tamamlanana kadar hızlı test, sonra fiil turu
   const next: Item = goalDone
-    ? { icon: 'layers', title: 'Fiil turu', sub: `Bugünkü hedef tamam · ${st.verbBatch} fiil`, onPress: () => goTab('verbs') }
+    ? { icon: 'layers', title: 'Kelime turu', sub: `${st.verbBatch} kelime · yaklaşık ${Math.max(2, Math.round(st.verbBatch / 4))} dk`, onPress: () => goTab('verbs') }
     : weak
       ? { icon: 'target', title: topicName(weak), sub: `En zayıf konun · hedefe ${st.goal - today} soru`, onPress: () => start({ title: topicName(weak), qs: pick(10, questions.filter((q) => q.topic === weak)) }) }
       : { icon: 'zap', title: 'Hızlı test', sub: `Hedefe ${st.goal - today} soru kaldı`, onPress: () => start({ title: 'Hızlı test', qs: pick(10) }) };
 
-  // Deneme, fiiller ve konular alt sekmelerde; burada yalnız sekmelerde olmayan kısayollar
+  // Kayıtlı id'lerden yalnız uygulamada hâlâ bulunan sorular (içerik düzeltmesi id'yi değiştirebilir)
+  const wrongQs = questions.filter((q) => wrong.includes(q.id));
+  const favQs = questions.filter((q) => favs.includes(q.id));
+
+  // Deneme, kelimeler ve konular alt sekmelerde; burada yalnız sekmelerde olmayan kısayollar
   const items: Item[] = [
     ...(weak || goalDone ? [{ icon: 'zap' as IconName, title: 'Hızlı test', sub: '10 karma soru, süresiz', onPress: () => start({ title: 'Hızlı test', qs: pick(10) }) }] : []),
-    ...(wrong.length ? [{ icon: 'rotate-ccw' as IconName, title: 'Yanlışlarını tekrar et', sub: wrong.length > 20 ? `${wrong.length} soru bekliyor · 20'şer` : `${wrong.length} soru bekliyor`, onPress: () => start({ title: 'Yanlışlarım', qs: pick(20, questions.filter((q) => wrong.includes(q.id))) }) }] : []),
+    ...(wrongQs.length ? [{ icon: 'rotate-ccw' as IconName, title: 'Yanlışlarını tekrar et', sub: wrongQs.length > 20 ? `${wrongQs.length} soru bekliyor · 20'şer` : `${wrongQs.length} soru bekliyor`, onPress: () => start({ title: 'Yanlışlarım', qs: pick(20, wrongQs) }) }] : []),
     ...(draft ? [{ icon: 'pause-circle' as IconName, title: 'Yarım kalan deneme', sub: `${draft.title} · ${draft.picks.filter((x) => x !== null).length}/${draft.ids.length} yanıtlı`, onPress: () => goTab('mock') }] : []),
-    ...(favs.length ? [{ icon: 'star' as IconName, title: 'Favori soruların', sub: favs.length > 20 ? `${favs.length} soru · 20'şer` : `${favs.length} soru`, onPress: () => start({ title: 'Favoriler', qs: pick(20, questions.filter((q) => favs.includes(q.id))) }) }] : []),
+    ...(favQs.length ? [{ icon: 'star' as IconName, title: 'Favori soruların', sub: favQs.length > 20 ? `${favQs.length} soru · 20'şer` : `${favQs.length} soru`, onPress: () => start({ title: 'Favoriler', qs: pick(20, favQs) }) }] : []),
   ];
 
 

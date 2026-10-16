@@ -3,7 +3,7 @@ import { ScrollView, View } from 'react-native';
 import Animated, { Easing, useAnimatedStyle, useSharedValue, withDelay, withTiming } from 'react-native-reanimated';
 import { useTheme } from '../theme';
 import { questions, topicName } from '../data/questions';
-import { last7, Reason, REASONS, reasonStats, topicStats, TopicStat, totals } from '../db';
+import { last7, lastResults, Reason, REASONS, reasonStats, topicStats, TopicStat } from '../db';
 import { Bar, Btn, Card, Header, Hero, Icon, Section, Stat, T } from '../ui';
 import { shuffle } from '../Quiz';
 import type { Start } from './types';
@@ -36,7 +36,8 @@ export function Stats({ start }: { start: Start }) {
   useEffect(() => {
     topicStats().then(setStats).catch(() => setStats([]));
     last7().then(setWeek).catch(() => {});
-    totals().then(setTot).catch(() => {});
+    // Konu satırlarıyla aynı tanım: çözülen farklı soru ve son cevabı doğru olanlar
+    lastResults().then((m) => setTot({ total: m.size, right: [...m.values()].filter(Boolean).length })).catch(() => {});
     reasonStats().then(setReasons).catch(() => {});
   }, []);
 
@@ -64,7 +65,7 @@ export function Stats({ start }: { start: Start }) {
               <T v="bigL">{Math.round((tot.right / tot.total) * 100)}</T>
               <T v="h1" color="muted" style={{ marginBottom: 12 }}>%</T>
             </View>
-            <T v="small" color="text2">{tot.total} cevap verdin</T>
+            <T v="small" color="text2">{tot.total} farklı soru çözdün</T>
           </Hero>
           <View style={{ flexDirection: 'row', gap: 12 }}>
             <Stat value={tot.right} label="Doğru" color={c.good} />

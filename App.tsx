@@ -14,7 +14,8 @@ import { DEMO, seedDemoIfEmpty } from './src/demo';
 // Geliştirme sırasında her açılışta tüm veriyi siler; açılış animasyonu ve tanıtım baştan görünür.
 // Yalnız Expo Go / geliştirme sunucusunda çalışır (__DEV__), APK ve mağaza sürümünü etkilemez. Kapatmak için false yap.
 const FRESH_START_IN_DEV = true;
-// Bayrak globalThis'te: dosya kaydedilince modül yeniden yüklense de veri tekrar silinmez, yalnız uygulama yeniden açılınca
+// Bayrak globalThis'te: dosya kaydedilince (Fast Refresh) veri silinmez. Tam yeniden yükleme (Metro'da r, Reload) ve
+// uygulamayı yeniden açmak veriyi siler.
 const G = globalThis as { __ydsFreshDone?: boolean };
 import { Quiz } from './src/Quiz';
 import { Home } from './src/screens/Home';
@@ -100,9 +101,13 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   useEffect(() => {
     if (!loaded || wiping || seeding || !s.onboarded) return;
     syncReminder(s).catch(() => {});
-    // iPhone widget'ları (seri, günün fiili) her açılışta ve test bitince tazelenir
+  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal]);
+
+  // iPhone widget'ları (seri, günün fiili) her açılışta, test bitince ve hedef/tarih değişince tazelenir
+  useEffect(() => {
+    if (!loaded || wiping || seeding || !s.onboarded) return;
     syncWidgets(s).catch(() => {});
-  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate]);
+  }, [loaded, wiping, seeding, rev, s.onboarded, s.goal, s.examDate]);
 
   // Açılıştan sonra uygulama aşağıdan süzülerek gelir; yalnızca ilk girişte
   const [intro, setIntro] = useState(true);

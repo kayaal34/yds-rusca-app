@@ -158,4 +158,8 @@ const osym: Question[] = osymQuestions
 
 export const questions: Question[] = [...base, ...extra, ...osym];
 
+// Paragraf içindeki soruların asıl sırası: ÖSYM'de kitapçık numarası, özgünde veri dosyasındaki sıra
+const pos = new Map(questions.map((q, i) => [q.id, i]));
+export const bySource = (a: Question, b: Question) => (a.no ?? 0) - (b.no ?? 0) || (pos.get(a.id) ?? 0) - (pos.get(b.id) ?? 0);
+
 export const topicName = (id: string) => topics.find((t) => t.id === id)?.name ?? id;

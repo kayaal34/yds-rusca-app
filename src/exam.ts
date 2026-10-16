@@ -1,4 +1,4 @@
-import { Question, questions } from './data/questions';
+import { bySource, Question, questions } from './data/questions';
 
 // Gerçek YDS'nin bölüm sırası ve 80 soruluk dağılımı (ÖSYM kitapçık düzeni).
 // Dilbilgisi bölümü yedi dilbilgisi konusundan karışık gelir.
@@ -38,7 +38,8 @@ export function buildExam(n: number, pool: Question[] = questions, seen: Map<str
       const k = q.passage ? 'p:' + q.passage : 'q:' + q.id;
       m.set(k, [...(m.get(k) ?? []), q]);
     }
-    return [...m.values()];
+    // Grup sırası rastgele/görülmeye göre, grubun içi asıl soru sırasıyla
+    return [...m.values()].map((g) => g.sort(bySource));
   };
   const used = new Set<string>();
   const out: Question[] = [];

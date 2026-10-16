@@ -92,8 +92,8 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
         <Animated.View entering={FadeIn} style={{ flex: 1, justifyContent: 'center' }}>
           <Card style={{ alignItems: 'center', gap: 12, padding: 28 }}>
             <Icon name="check-circle" size={36} color={c.good} />
-            <T v="h2" style={{ textAlign: 'center' }}>{deck.length ? 'Tur tamamlandı' : 'Tüm fiilleri öğrendin'}</T>
-            <T v="small" color="muted" style={{ textAlign: 'center' }}>{deck.length ? `${deck.length} fiil gözden geçti. Yeni turda sıradaki fiiller gelir.` : 'Listeden istediğin fiili tekrar çalışabilirsin.'}</T>
+            <T v="h2" style={{ textAlign: 'center' }}>{deck.length ? 'Tur tamamlandı' : 'Bu listenin hepsini öğrendin'}</T>
+            <T v="small" color="muted" style={{ textAlign: 'center' }}>{deck.length ? `${deck.length} kelime gözden geçti. Yeni turda sıradakiler gelir.` : 'Listeden istediğin kelimeyi tekrar çalışabilirsin.'}</T>
             {deck.length > 0 && <Btn title="Yeni tur" onPress={again} style={{ alignSelf: 'stretch', marginTop: 8 }} />}
           </Card>
         </Animated.View>
@@ -153,6 +153,8 @@ function List({ list, known, mark }: { list: Verb[]; known: Map<string, boolean>
         <TextInput value={q} onChangeText={setQ} placeholder="Ara: идти, gitmek" placeholderTextColor={c.muted} style={{ flex: 1, paddingVertical: 12, color: c.text, fontSize: 15, fontFamily: font.regular }} />
       </View>
       <FlatList
+        keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="on-drag"
         data={data}
         extraData={known}
         ListEmptyComponent={<T v="small" color="muted" style={{ textAlign: 'center', marginTop: 24 }}>Sonuç yok. Rusça ya da Türkçe yazmayı dene.</T>}

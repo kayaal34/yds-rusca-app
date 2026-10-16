@@ -4,7 +4,7 @@ import Animated, { FadeIn, FadeInUp, FadeOutUp } from 'react-native-reanimated';
 import { font, radius, useTheme } from './theme';
 import { fmtScore, score, useSettings } from './settings';
 import { Clover } from './Logo';
-import { Question, questions as allQuestions, topicName } from './data/questions';
+import { bySource, Question, questions as allQuestions, topicName } from './data/questions';
 import type { Draft } from './exam';
 import { favQids, getNote, getReasons, getSetting, markActive, setFav, markSeen, Reason, REASONS, saveAnswer, saveExam, saveReason, setNote, setSetting } from './db';
 import { Bar, Btn, Chip, Hero, Icon, ListGroup, Stat, T, useTap } from './ui';
@@ -30,7 +30,7 @@ function order(qs: Question[]): Question[] {
     const k = q.passage ? 'p:' + q.passage : 'q:' + q.id;
     groups.set(k, [...(groups.get(k) ?? []), q]);
   }
-  return shuffle([...groups.values()]).flat();
+  return shuffle([...groups.values()].map((g) => g.sort(bySource))).flat();
 }
 
 function prepare(q: Question, keep: boolean): Prepared {
@@ -44,10 +44,11 @@ const withPerm = (q: Question, perm: number[]): Prepared => ({ q, perm, options:
 // Kaydedilmiş soru ve şık sırasından denemeyi yeniden kurar (yarım deneme, geçmiş deneme ayrıntısı)
 // Veri güncellemesiyle kalkan sorular atlanır; cevaplar soruyla birlikte süzülür ki kaymasın.
 // Şık sayısı değişmişse kayıtlı sıra yerine asıl sıra kullanılır.
-export function restore(ids: string[], perms: number[][], picks: (number | null)[] = []): { items: Prepared[]; picks: (number | null)[] } {
+export function restore(ids: string[], perms: number[][], picks: (number | null)[] = []): { items: Prepared[]; picks: (number | null)[]; kept: number[] } {
   const byId = new Map(allQuestions.map((q) => [q.id, q]));
   const items: Prepared[] = [];
   const out: (number | null)[] = [];
+  const kept: number[] = []; // kalan her sorunun kayıttaki eski sırası
   ids.forEach((id, k) => {
     const q = byId.get(id);
     if (!q) return;
@@ -55,10 +56,11 @@ export function restore(ids: string[], perms: number[][], picks: (number | null)
     const p = perms[k];
     const ok = Array.isArray(p) && p.length === id0.length && id0.every((i) => p.includes(i));
     items.push(withPerm(q, ok ? p : id0));
+    kept.push(k);
     const pk = picks[k];
     out.push(ok && typeof pk === 'number' && pk >= 0 && pk < id0.length ? pk : null);
   });
-  return { items, picks: out };
+  return { items, picks: out, kept };
 }
 
 export function parseDetail(raw: string | null): { ids: string[]; perms: number[][]; picks: (number | null)[] } | null {
@@ -96,9 +98,14 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
     () => restored?.items ?? (keepOrder || inOrder ? questions : order(questions)).map((q) => prepare(q, keepOrder)),
     [questions, restored]
   );
-  const [i, setI] = useState(draft?.i ?? 0);
+  // Taslaktaki konum ve işaretler, silinen sorular çıkarıldıktan sonraki sıraya taşınır
+  const [i, setI] = useState(() => {
+    if (!draft || !restored) return 0;
+    const k = restored.kept.findIndex((old) => old >= draft.i);
+    return Math.max(0, Math.min(items.length - 1, k < 0 ? items.length - 1 : k));
+  });
   const [picks, setPicks] = useState<(number | null)[]>(() => restored?.picks ?? items.map(() => null));
-  const [flags, setFlags] = useState<Set<number>>(() => new Set(draft?.flags ?? []));
+  const [flags, setFlags] = useState<Set<number>>(() => new Set((draft?.flags ?? []).map((old) => restored?.kept.indexOf(old) ?? old).filter((k) => k >= 0)));
   const [review, setReview] = useState(false);
   const [done, setDone] = useState(false);
   const [spent, setSpent] = useState(0);
@@ -234,6 +241,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
     return () => sub.remove();
   });
 
+  // Hiç soru yoksa (ör. taslaktaki sorular güncellemeyle kalktıysa) boş ekranda çökmeden çık
+  if (!items.length) return <EmptyQuiz onExit={() => { if (draft) clearDraft().catch(() => {}); onExit(); }} />;
   if (done) return <Result title={title} items={items} picks={picks} secs={spent} full={full} exam={exam} onExit={onExit} />;
 
   const reveal = !exam && picked !== null;
@@ -335,6 +344,11 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
       </View>
     </KeyboardAvoidingView>
   );
+}
+
+function EmptyQuiz({ onExit }: { onExit: () => void }) {
+  useEffect(() => { onExit(); }, []);
+  return null;
 }
 
 // Kalan süre: başlangıç zamanından hesaplanır (arka planda geçen süre de sayılır). Her saniye yalnız bu bileşen çizilir.

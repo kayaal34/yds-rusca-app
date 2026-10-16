@@ -387,7 +387,7 @@ export function DateWheel({ value, onChange }: { value: string; onChange: (d: st
   return (
     <View style={{ alignSelf: 'center', flexDirection: 'row', alignItems: 'center', height: ROW * VISIBLE, paddingHorizontal: 8 }}>
       <View pointerEvents="none" style={{ position: 'absolute', left: 0, right: 0, top: ROW * 2, height: ROW, borderRadius: radius.btn, backgroundColor: c.card2 }} />
-      <Wheel label="Gün" values={DAYS31} value={d} format={two} onChange={(v) => set(y, m, v)} />
+      <Wheel key={`${y}-${m}`} label="Gün" values={DAYS31.slice(0, new Date(y, m, 0).getDate())} value={d} format={two} onChange={(v) => set(y, m, v)} />
       <Wheel label="Ay" values={MONTH_NUMS} value={m} format={(v) => MONTHS[v - 1]} onChange={(v) => set(y, v, d)} />
       <Wheel label="Yıl" values={years.includes(y) ? years : [y, ...years]} value={y} onChange={(v) => set(v, m, d)} width={88} />
     </View>

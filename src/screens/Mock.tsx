@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Alert, Pressable, ScrollView, View } from 'react-native';
 import { radius, useTheme } from '../theme';
 import { fmtScore, score, useSettings } from '../settings';
@@ -12,6 +12,10 @@ import type { Start } from './types';
 // YDS: 80 soru 180 dk, yani soru başı 2,25 dk. Alt sınır soru başı 1 dk.
 const recommended = (n: number) => Math.round((n * 2.25) / 5) * 5;
 const bounds = (n: number) => ({ min: Math.max(5, Math.round(n / 5) * 5), max: Math.round((n * 3.5) / 5) * 5 });
+
+// ÖSYM sınavları ve soruları bir kez gruplanır (veri değişmez)
+const OSYM_EXAMS = [...new Set(questions.filter((q) => q.source === 'osym' && q.exam).map((q) => q.exam!))];
+const OSYM_BY_EXAM = new Map(OSYM_EXAMS.map((e) => [e, questions.filter((q) => q.exam === e).sort((a, b) => (a.no ?? 0) - (b.no ?? 0))]));
 
 const SOURCES = [
   { v: 'all' as const, l: 'Karma' },
@@ -37,14 +41,21 @@ export function Mock({ start }: { start: Start }) {
 
   const b = bounds(n);
   const setCount = (v: number) => { setN(v); setMins(recommended(v)); };
-  const pool = src === 'all' ? questions : questions.filter((q) => q.source === src);
-  const unseen = pool.filter((q) => !seen.has(q.id)).length;
+  // ~1400 soru üzerinde süzme: süre kaydırılırken her çizimde tekrarlanmasın
+  const { pool, unseen, short, allFresh } = useMemo(() => {
+    const pool = src === 'all' ? questions : questions.filter((x) => x.source === src);
+    const fresh = pool.filter((x) => !seen.has(x.id));
+    // Bölüm bölüm yeterlilik: havuz her bölümün payını karşılıyor mu, görülmemiş sorular yetiyor mu
+    const q = quotas(n);
+    const inSec = (k: number, qs: { topic: string }[]) => qs.filter((x) => SECTIONS[k].topics.includes(x.topic)).length;
+    return {
+      pool,
+      unseen: fresh.length,
+      short: SECTIONS.filter((_, k) => inSec(k, pool) < q[k]).map((s) => s.name),
+      allFresh: SECTIONS.every((_, k) => inSec(k, fresh) >= q[k]),
+    };
+  }, [src, n, seen]);
   const fresh = Math.floor(unseen / n);
-  // Bölüm bölüm yeterlilik: havuz her bölümün payını karşılıyor mu, görülmemiş sorular yetiyor mu
-  const q = quotas(n);
-  const inSec = (k: number, qs: { topic: string }[]) => qs.filter((x) => SECTIONS[k].topics.includes(x.topic)).length;
-  const short = SECTIONS.filter((_, k) => inSec(k, pool) < q[k]).map((s) => s.name);
-  const allFresh = SECTIONS.every((_, k) => inSec(k, pool.filter((x) => !seen.has(x.id))) >= q[k]);
 
   // Yeni deneme her yerde aynı akıştan başlar: yarım deneme varsa silineceği sorulur
   const launch = (go: () => void, confirm?: [string, string]) => {
@@ -80,7 +91,7 @@ export function Mock({ start }: { start: Start }) {
       { text: 'Sıfırla', onPress: () => resetSeen().then(() => setSeen(new Map())).catch(() => {}) },
     ]);
 
-  const osymExams = [...new Set(questions.filter((q) => q.source === 'osym' && q.exam).map((q) => q.exam!))];
+  const osymExams = OSYM_EXAMS;
 
   return (
     <ScrollView contentContainerStyle={{ padding: 20, gap: 12, paddingBottom: 32 }} showsVerticalScrollIndicator={false}>
@@ -152,7 +163,7 @@ export function Mock({ start }: { start: Start }) {
           <Section title="ÖSYM çıkmış sınavlar" />
           <ListGroup>
             {osymExams.map((e) => {
-              const qs = questions.filter((q) => q.exam === e).sort((a, b) => (a.no ?? 0) - (b.no ?? 0));
+              const qs = OSYM_BY_EXAM.get(e) ?? [];
               const m = Math.round(qs.length * 2.25);
               return <ListItem key={e} title={e} sub={`${qs.length} soru · ${m} dk · orijinal sıra`} onPress={() => launch(() => start({ title: e, qs, minutes: m, exam: true, keepOrder: true, full: true }), [e, `${qs.length} soru, ${m} dakika. Süre hemen başlar.`])} />;
             })}

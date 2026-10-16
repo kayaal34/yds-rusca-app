@@ -34,7 +34,7 @@ export async function seedDemoIfEmpty(): Promise<boolean> {
     for (const [i, day] of days.entries()) {
       const isToday = i === days.length - 1;
       const n = isToday ? 22 : 12 + Math.floor(rnd() * 30);
-      const ts0 = new Date(day + 'T19:00:00').getTime();
+      const ts0 = isToday ? Date.now() - n * 45000 : new Date(day + 'T19:00:00').getTime();
       for (const [j, q] of pickN(questions, n).entries()) {
         // Zamanla biraz gelişsin
         const ok = rnd() < (SKILL[q.topic] ?? 0.7) + i * 0.004;

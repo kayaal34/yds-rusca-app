@@ -3,6 +3,7 @@ import { Alert, Linking, Platform, Pressable, ScrollView, Switch, TextInput, Vie
 import { font, useTheme } from '../theme';
 import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
+import { syncWidgets } from '../widgets/sync';
 import { resetAll, resetProgress } from '../db';
 import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, ListGroup, Section, Segmented, Slider, T, TimeWheel } from '../ui';
 import { LogoMark } from '../Logo';
@@ -157,9 +158,9 @@ export function SettingsScreen({ back }: { back: () => void }) {
         <View style={{ padding: 16, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="layers" size={18} color={c.text2} />
-            <T v="bodyM">Fiil turu</T>
+            <T v="bodyM">Kelime turu</T>
           </View>
-          <Segmented items={[10, 20, 30, 50].map((g) => ({ v: g, l: `${g} fiil` }))} value={st.verbBatch} onChange={(v) => update({ verbBatch: v })} />
+          <Segmented items={[10, 20, 30, 50].map((g) => ({ v: g, l: `${g} kelime` }))} value={st.verbBatch} onChange={(v) => update({ verbBatch: v })} />
         </View>
       </Group>
 
@@ -202,9 +203,9 @@ export function SettingsScreen({ back }: { back: () => void }) {
           label="İlerlemeyi sıfırla"
           danger
           onPress={() =>
-            Alert.alert('İlerleme sıfırlansın mı?', 'Cevapların, denemelerin, fiil ilerlemen ve yanlış analizlerin silinir. Ayarların, notların ve favorilerin kalır. Bu işlem geri alınamaz.', [
+            Alert.alert('İlerleme sıfırlansın mı?', 'Cevapların, denemelerin, yarım denemen, serin, kelime ilerlemen, görülen sorular ve yanlış analizlerin silinir. Ayarların, notların ve favorilerin kalır. Bu işlem geri alınamaz.', [
               { text: 'Vazgeç', style: 'cancel' },
-              { text: 'Sıfırla', style: 'destructive', onPress: () => resetProgress().then(() => { syncReminder(st).catch(() => {}); Alert.alert('İlerleme sıfırlandı'); }).catch(() => Alert.alert('Sıfırlanamadı', 'Tekrar dene.')) },
+              { text: 'Sıfırla', style: 'destructive', onPress: () => resetProgress().then(() => { syncReminder(st).catch(() => {}); syncWidgets(st).catch(() => {}); Alert.alert('İlerleme sıfırlandı'); }).catch(() => Alert.alert('Sıfırlanamadı', 'Tekrar dene.')) },
             ])
           }
         />
