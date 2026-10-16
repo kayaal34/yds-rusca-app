@@ -101,7 +101,7 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   useEffect(() => {
     if (!loaded || wiping || seeding || !s.onboarded) return;
     syncReminder(s).catch(() => {});
-  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal]);
+  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate]);
 
   // iPhone widget'ları (seri, günün fiili) her açılışta, test bitince ve hedef/tarih değişince tazelenir
   useEffect(() => {

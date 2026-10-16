@@ -28,11 +28,17 @@ const serial = <T,>(job: () => Promise<T>): Promise<T> => {
 
 // Seçilen günlerde (1=Pazar … 7=Cumartesi) verilen saatte hatırlatma kurar; öncekileri temizler.
 // doneToday: bugünkü hedef tamamsa bugünün bildirimi atlanır. İzin yoksa false döner.
-export function scheduleDaily(hour: number, minute: number, days = '1234567', doneToday = false, ask = true): Promise<boolean> {
-  return serial(() => schedule(hour, minute, days, doneToday, ask));
+// examDate: sınava 7 ve 1 gün kala ve sınav sabahı, seçili günlerden bağımsız özel hatırlatma
+export function scheduleDaily(hour: number, minute: number, days = '1234567', doneToday = false, ask = true, examDate?: string): Promise<boolean> {
+  return serial(() => schedule(hour, minute, days, doneToday, ask, examDate));
 }
 
-async function schedule(hour: number, minute: number, days: string, doneToday: boolean, ask: boolean): Promise<boolean> {
+const EXAM_NOTES: Record<number, string> = {
+  7: 'Sınava 1 hafta kaldı: bu hafta bir tam deneme çöz, kimliğini ve sınav yerini kontrol et.',
+  1: 'Yarın sınav günü. Bugün hafif bir tekrar yap ve erken uyu.',
+};
+
+async function schedule(hour: number, minute: number, days: string, doneToday: boolean, ask: boolean, examDate?: string): Promise<boolean> {
   const perm = ask ? await Notifications.requestPermissionsAsync() : await Notifications.getPermissionsAsync();
   if (!perm.granted) return false;
   await Notifications.cancelAllScheduledNotificationsAsync();
@@ -41,9 +47,18 @@ async function schedule(hour: number, minute: number, days: string, doneToday: b
     const d = new Date(now);
     d.setDate(now.getDate() + i);
     d.setHours(hour, minute, 0, 0);
-    if (d <= now || (i === 0 && doneToday) || !days.includes(String(d.getDay() + 1))) continue;
+    const left = examDate ? Math.round((new Date(examDate + 'T12:00:00').getTime() - new Date(d).setHours(12, 0, 0, 0)) / 86400000) : -1;
+    if (left === 0) {
+      // Sınav sabahı: saat seçiminden bağımsız, erkenden
+      const morning = new Date(d);
+      morning.setHours(7, 30, 0, 0);
+      if (morning > now) await Notifications.scheduleNotificationAsync({ content: { title: 'YDS Rusça', body: 'Bugün sınav günü. Hazırsın, başarılar!' }, trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: morning } });
+      continue;
+    }
+    const special = EXAM_NOTES[left];
+    if (d <= now || (!special && ((i === 0 && doneToday) || !days.includes(String(d.getDay() + 1))))) continue;
     await Notifications.scheduleNotificationAsync({
-      content: { title: 'YDS Rusça', body: BODIES[i % BODIES.length] },
+      content: { title: 'YDS Rusça', body: special ?? BODIES[i % BODIES.length] },
       trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: d },
     });
   }
@@ -51,10 +66,10 @@ async function schedule(hour: number, minute: number, days: string, doneToday: b
 }
 
 // Hatırlatma açıksa bildirimleri bugünkü duruma göre yeniden kurar (izin istemez)
-export async function syncReminder(s: { reminder: boolean; hour: number; minute: number; days: string; goal: number }) {
+export async function syncReminder(s: { reminder: boolean; hour: number; minute: number; days: string; goal: number; examDate?: string }) {
   if (!s.reminder) return;
   const done = (await todayCount()) >= s.goal;
-  await scheduleDaily(s.hour, s.minute, s.days, done, false);
+  await scheduleDaily(s.hour, s.minute, s.days, done, false, s.examDate);
 }
 
 export function cancelDaily() {
