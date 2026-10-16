@@ -1,30 +1,23 @@
 import { ReactNode, useState } from 'react';
-import { Alert, Linking, Platform, Pressable, ScrollView, Switch, TextInput, View } from 'react-native';
-import { font, useTheme } from '../theme';
+import { Alert, Linking, Platform, ScrollView, Switch, TextInput, View } from 'react-native';
+import { font, space, useTheme } from '../theme';
 import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
 import { syncWidgets } from '../widgets/sync';
 import { resetAll, resetProgress } from '../db';
-import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, ListGroup, Section, Segmented, Slider, T, TimeWheel } from '../ui';
+import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, LinkBtn, ListGroup, ListItem, Section, Segmented, Slider, T, TimeWheel } from '../ui';
 import { LogoMark } from '../Logo';
 
 // expo hafta günü numarası (1=Pazar) ve kısa ad; Pazartesiden başlar
 const DAYS: [string, string][] = [['2', 'Pt'], ['3', 'Sa'], ['4', 'Ça'], ['5', 'Pe'], ['6', 'Cu'], ['7', 'Ct'], ['1', 'Pz']];
 
-// Ayarlar listesinde tek satır
+// Ayarlar satırı: ortak ListItem (sağda anahtar ya da değer); dokunulabilir satırlarda ok işareti ListItem'dan gelir
 function Item({ icon, label, children, onPress, danger }: { icon: IconName; label: string; children?: ReactNode; onPress?: () => void; danger?: boolean }) {
-  const { c } = useTheme();
-  const body = (
-    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 52, paddingVertical: 8, paddingHorizontal: 16 }}>
-      <Icon name={icon} size={18} color={danger ? c.bad : c.text2} />
-      <T v="bodyM" color={danger ? 'bad' : 'text'} style={{ flex: 1 }}>{label}</T>
-      {children}
-    </View>
-  );
-  return onPress ? <Pressable onPress={onPress} accessibilityRole="button" style={({ pressed }) => pressed && { opacity: 0.6 }}>{body}</Pressable> : body;
+  return <ListItem icon={icon} title={label} right={children} onPress={onPress} danger={danger} />;
 }
 
-const Group = ({ children }: { children: ReactNode }) => <ListGroup inset={46}>{children}</ListGroup>;
+// Ayraç metinle hizalı: kart boşluğu + ikon + aralık
+const Group = ({ children }: { children: ReactNode }) => <ListGroup inset={space.card + 18 + 16}>{children}</ListGroup>;
 
 // Geri bildirim adresi; boşken "Bize ulaşın" satırları bilgi mesajı gösterir
 const CONTACT_EMAIL = 'kodmod034@gmail.com';
@@ -62,7 +55,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
   const setTime = (h: number, m: number) => update({ hour: h, minute: m });
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 20, gap: 8, paddingBottom: 40 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
+    <ScrollView contentContainerStyle={{ padding: space.screen, gap: 8, paddingBottom: 40 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
       <Header title="Ayarlar" onBack={back} />
 
       <Section title="Profil" />
@@ -72,17 +65,17 @@ export function SettingsScreen({ back }: { back: () => void }) {
           <TextInput defaultValue={st.name} onChangeText={(t) => update({ name: t.trim() })} placeholder="Adını yaz" placeholderTextColor={c.muted} maxLength={20} accessibilityLabel="Ad" returnKeyType="done" style={{ flex: 1, maxWidth: 180, textAlign: 'right', color: c.text2, fontFamily: font.regular, fontSize: 15, paddingVertical: 6 }} />
           <Icon name="edit-2" size={14} color={c.muted} />
         </Item>
-        <View style={{ padding: 16, gap: 12 }}>
+        <View style={{ padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="target" size={18} color={c.text2} />
-            <T v="bodyM">Günlük hedef</T>
+            <T v="h3">Günlük hedef</T>
           </View>
           <Segmented items={[10, 20, 30, 50].map((g) => ({ v: g, l: `${g} soru` }))} value={st.goal} onChange={(v) => update({ goal: v })} />
         </View>
-        <View style={{ padding: 16, gap: 4 }}>
+        <View style={{ padding: space.card, gap: 4 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="award" size={18} color={c.text2} />
-            <T v="bodyM" style={{ flex: 1 }}>Hedef puan</T>
+            <T v="h3" style={{ flex: 1 }}>Hedef puan</T>
             <T v="bodyM">{st.target}{band(st.target) ? ` · ${band(st.target)}` : ''}</T>
           </View>
           <Slider value={st.target} min={40} max={100} step={1} onChange={(v) => update({ target: v })} />
@@ -92,10 +85,10 @@ export function SettingsScreen({ back }: { back: () => void }) {
 
       <Section title="Sınav" />
       <Group>
-        <View style={{ padding: 16, gap: 12 }}>
+        <View style={{ padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="calendar" size={18} color={c.text2} />
-            <T v="bodyM">Hedef sınav</T>
+            <T v="h3">Hedef sınav</T>
           </View>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
             <View style={{ flex: 1, gap: 2 }}>
@@ -105,9 +98,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
                 {examPassed(st.examDate) ? ' · geçti, yeni tarih seç' : ''}
               </T>
             </View>
-            <Pressable onPress={() => setEditDate(!editDate)} hitSlop={10} accessibilityRole="button">
-              <T v="smallM" color="primary">{editDate ? 'Tamam' : 'Düzenle'}</T>
-            </Pressable>
+            <LinkBtn title={editDate ? 'Tamam' : 'Düzenle'} onPress={() => setEditDate(!editDate)} />
           </View>
           {editDate && (
             <>
@@ -119,7 +110,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
             </>
           )}
         </View>
-        <Item icon="alert-circle" label="Sınav uyarıları">
+        <Item icon="watch" label="Sınav uyarıları">
           <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
@@ -131,19 +122,19 @@ export function SettingsScreen({ back }: { back: () => void }) {
           <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
         </Item>
         {st.reminder && (
-        <View style={{ padding: 16, gap: 8 }}>
+        <View style={{ padding: space.card, gap: 8 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="clock" size={18} color={c.text2} />
-            <T v="bodyM">Saat</T>
+            <T v="h3">Saat</T>
           </View>
           <TimeWheel hour={st.hour} minute={st.minute} onChange={setTime} />
         </View>
         )}
         {st.reminder && (
-        <View style={{ padding: 16, gap: 12 }}>
+        <View style={{ padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="calendar" size={18} color={c.text2} />
-            <T v="bodyM">Günler</T>
+            <T v="h3">Günler</T>
           </View>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
             {DAYS.map(([d, l]) => <Chip key={d} label={l} on={st.days.includes(d)} onPress={() => toggleDay(d)} />)}
@@ -155,10 +146,10 @@ export function SettingsScreen({ back }: { back: () => void }) {
 
       <Section title="Çalışma" />
       <Group>
-        <View style={{ padding: 16, gap: 12 }}>
+        <View style={{ padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="layers" size={18} color={c.text2} />
-            <T v="bodyM">Kelime turu</T>
+            <T v="h3">Kelime turu</T>
           </View>
           <Segmented items={[10, 20, 30, 50].map((g) => ({ v: g, l: `${g} kelime` }))} value={st.verbBatch} onChange={(v) => update({ verbBatch: v })} />
         </View>
@@ -166,10 +157,10 @@ export function SettingsScreen({ back }: { back: () => void }) {
 
       <Section title="Görünüm" />
       <Group>
-        <View style={{ padding: 16, gap: 12 }}>
+        <View style={{ padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
             <Icon name="moon" size={18} color={c.text2} />
-            <T v="bodyM">Tema</T>
+            <T v="h3">Tema</T>
           </View>
           <Segmented items={[{ v: 'system' as const, l: 'Sistem' }, { v: 'light' as const, l: 'Açık' }, { v: 'dark' as const, l: 'Koyu' }]} value={st.theme} onChange={(v) => update({ theme: v })} />
         </View>
@@ -181,18 +172,10 @@ export function SettingsScreen({ back }: { back: () => void }) {
       <Section title="Yardım" />
       <Group>
         {/* Ayarlar önce kapanır; yoksa tanıtımdayken geri tuşu görünmeyen Ayarlar'ı kapatır */}
-        <Item icon="play-circle" label="Tanıtımı tekrar göster" onPress={() => { back(); update({ onboarded: false }); }}>
-          <Icon name="chevron-right" size={18} color={c.muted} />
-        </Item>
-        <Item icon="message-circle" label="Öneri gönder" onPress={() => mail('Öneri')}>
-          <Icon name="chevron-right" size={18} color={c.muted} />
-        </Item>
-        <Item icon="alert-circle" label="Hata bildir" onPress={() => mail('Hata bildirimi')}>
-          <Icon name="chevron-right" size={18} color={c.muted} />
-        </Item>
-        <Item icon="edit-3" label="Soruda hata var" onPress={() => mail('Soru hatası')}>
-          <Icon name="chevron-right" size={18} color={c.muted} />
-        </Item>
+        <Item icon="play-circle" label="Tanıtımı tekrar göster" onPress={() => { back(); update({ onboarded: false }); }} />
+        <Item icon="message-circle" label="Öneri gönder" onPress={() => mail('Öneri')} />
+        <Item icon="alert-circle" label="Hata bildir" onPress={() => mail('Hata bildirimi')} />
+        <Item icon="edit-3" label="Soruda hata var" onPress={() => mail('Soru hatası')} />
       </Group>
       <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>{CONTACT_EMAIL ? `Bize ulaş: ${CONTACT_EMAIL}` : 'İletişim adresi yakında eklenecek.'}</T>
 
@@ -225,7 +208,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
 
       <View style={{ alignItems: 'center', gap: 12, marginTop: 28 }}>
         <LogoMark size={40} color={c.primary} />
-        <T v="smallM" color="text2">YDS Rusça  ·  v{VERSION}</T>
+        <T v="smallM" color="text2">YDS Rusça · v{VERSION}</T>
       </View>
     </ScrollView>
   );
