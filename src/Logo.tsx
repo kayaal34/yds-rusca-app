@@ -70,3 +70,23 @@ export function LogoMark({ size = 104, color, fill, animate = false, delay = 0 }
     </View>
   );
 }
+
+// Günlük hedef halkası: halka bugünkü ilerleme kadar dolar, ortada yonca; hedef tamamsa yonca yeşerir
+export function ProgressClover({ value, size = 72, color, track, done }: { value: number; size?: number; color: string; track: string; done: boolean }) {
+  const p = useSharedValue(0);
+  useEffect(() => {
+    p.set(withTiming(Math.max(0, Math.min(1, value)), { duration: 700, easing: Easing.out(Easing.cubic) }));
+  }, [value]);
+  const ringP = useAnimatedProps(() => ({ strokeDashoffset: RING * (1 - p.get()) }));
+  return (
+    <View style={{ width: size, height: size, alignItems: 'center', justifyContent: 'center' }}>
+      <Svg width={size} height={size} viewBox="0 0 104 104" style={{ position: 'absolute' }}>
+        <Circle cx={52} cy={52} r={R} fill="none" stroke={track} strokeWidth={5} />
+        <ACircle cx={52} cy={52} r={R} fill="none" stroke={color} strokeWidth={5} strokeLinecap="round" strokeDasharray={`${RING} ${RING}`} animatedProps={ringP} transform="rotate(-90 52 52)" />
+      </Svg>
+      <View style={{ transform: [{ rotate: '18deg' }] }}>
+        <Clover size={size * 0.5} color={color} weight={1.4} filled={done} />
+      </View>
+    </View>
+  );
+}
