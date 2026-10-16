@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
 import { Alert, Linking, Platform, ScrollView, Switch, TextInput, View } from 'react-native';
-import { font, space, useTheme } from '../theme';
+import { brand, font, space, useTheme } from '../theme';
 import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
 import { syncWidgets } from '../widgets/sync';
@@ -111,7 +111,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           )}
         </View>
         <Item icon="watch" label="Sınav uyarıları">
-          <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
+          <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
       <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>Denemede yarı süre, 30 dakika ve 5 dakika kala kısa bir uyarı ve titreşim.</T>
@@ -119,7 +119,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
       <Section title="Bildirim" />
       <Group>
         <Item icon="bell" label="Günlük hatırlatma">
-          <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
+          <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
         {st.reminder && (
         <View style={{ padding: space.card, gap: 8 }}>
@@ -165,7 +165,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           <Segmented items={[{ v: 'system' as const, l: 'Sistem' }, { v: 'light' as const, l: 'Açık' }, { v: 'dark' as const, l: 'Koyu' }]} value={st.theme} onChange={(v) => update({ theme: v })} />
         </View>
         <Item icon="smartphone" label="Titreşim">
-          <Switch value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.haptics ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
+          <Switch value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.haptics ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
 
