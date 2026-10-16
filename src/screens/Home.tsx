@@ -5,7 +5,7 @@ import { space, useTheme } from '../theme';
 import { band, daysUntil, examPassed, useSettings } from '../settings';
 import { questions, topicName } from '../data/questions';
 import { activityDays, dayGoals, dayStr, favQids, saveDayGoal, last7, streak, todayCount, topicStats, wrongQids } from '../db';
-import { Btn, Hero, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
+import { Btn, Hero, Icon, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
 import { Clover, ProgressClover } from '../Logo';
 import { loadDraft, shuffle } from '../Quiz';
 import type { Draft } from '../exam';
@@ -184,7 +184,7 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
 // Sınava geri sayım: gün, saat, dakika ve saniye (saniye dakikanın yanında, yeşil). ÖSYM oturumu 10:15'te başlar.
 // Kendi saniyelik sayacı var; ana sayfa her saniye yeniden çizilmez.
-const PREP_DAYS = 90; // ilerleme çizgisi: sınavdan önceki son 90 günün ne kadarı geçti
+const WEEKS = 13; // hazırlık penceresi: sınavdan önceki son 13 hafta, her nokta bir hafta
 function Countdown({ date }: { date: string }) {
   const { c } = useTheme();
   const exam = new Date(date + 'T10:15:00').getTime();
@@ -198,7 +198,7 @@ function Countdown({ date }: { date: string }) {
   s %= 86400;
   const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
   const two = (n: number) => String(n).padStart(2, '0');
-  const progress = Math.max(0, Math.min(1, 1 - (exam - now) / (PREP_DAYS * 86400000)));
+  const passedWeeks = Math.max(0, Math.min(WEEKS, WEEKS - Math.ceil((exam - now) / (7 * 86400000))));
   return (
     <View style={{ gap: 8 }} accessible accessibilityLabel={`Sınava ${d} gün ${h} saat ${m} dakika kaldı`}>
       <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
@@ -211,8 +211,12 @@ function Countdown({ date }: { date: string }) {
         <T v="numS" color="primary" style={{ marginLeft: 6 }}>{two(sec)}</T>
         <T v="small" color="muted">sn</T>
       </View>
-      <View style={{ height: 2, borderRadius: 1, backgroundColor: c.border }}>
-        <View style={{ width: `${progress * 100}%`, height: 2, borderRadius: 1, backgroundColor: c.primary }} />
+      {/* Haftalık noktalar: geçen haftalar dolu, içinde bulunulan hafta yarı ton, sonda sınav bayrağı */}
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 3 }} accessible accessibilityLabel={`${WEEKS} haftanın ${passedWeeks} haftası geçti`}>
+        {Array.from({ length: WEEKS }, (_, k) => (
+          <View key={k} style={{ flex: 1, height: 6, borderRadius: 3, backgroundColor: k < passedWeeks ? c.primary : k === passedWeeks ? c.primary + '66' : c.border }} />
+        ))}
+        <Icon name="flag" size={14} color={c.text} />
       </View>
     </View>
   );
