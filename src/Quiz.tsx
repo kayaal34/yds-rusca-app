@@ -109,6 +109,7 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   const [review, setReview] = useState(false);
   const [done, setDone] = useState(false);
   const [spent, setSpent] = useState(0);
+  const [saved, setSaved] = useState<Promise<unknown>>(() => Promise.resolve());
   const [alert, setAlert] = useState<string | null>(null);
   const finished = useRef(false); // çift dokunuşta deneme iki kez kaydedilmesin
   const [started] = useState(() => Date.now() - (draft?.elapsed ?? 0) * 1000);
@@ -166,13 +167,19 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
     setSpent(secs);
     const right = items.filter((it, k) => picks[k] === it.answer).length;
     if (exam) {
+      clearDraft().catch(() => {});
       // Sınav modunda cevaplar bitişte kaydedilir; boş bırakılanlar istatistiğe girmez
       const answered = picks.filter((x) => x !== null).length;
+      // Hiç işaretlenmeden biten deneme geçmişe 0 puan olarak yazılmaz (grafik ve fark bozulmasın)
+      if (!answered) return;
       const per = Math.round((secs * 1000) / Math.max(1, answered));
-      items.forEach((it, k) => picks[k] !== null && saveAnswer(it.q.id, it.q.topic, picks[k] === it.answer, per).catch(() => {}));
       const detail = JSON.stringify({ ids: items.map((it) => it.q.id), perms: items.map((it) => it.perm), picks });
-      saveExam(title, right, items.length, secs, full, detail).catch(() => {});
-      clearDraft().catch(() => {});
+      setSaved(
+        Promise.all([
+          ...items.map((it, k) => (picks[k] !== null ? saveAnswer(it.q.id, it.q.topic, picks[k] === it.answer, per) : null)),
+          saveExam(title, right, items.length, secs, full, detail),
+        ]).catch(() => {})
+      );
       // Sorular ancak deneme bitince "görüldü" sayılır; yarıda çıkılırsa havuzda yeni kalır
       markSeen(items.map((it) => it.q.id)).catch(() => {});
     }
@@ -242,7 +249,7 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
 
   // Hiç soru yoksa (ör. taslaktaki sorular güncellemeyle kalktıysa) boş ekranda çökmeden çık
   if (!items.length) return <EmptyQuiz onExit={() => { if (draft) clearDraft().catch(() => {}); onExit(); }} />;
-  if (done) return <Result title={title} items={items} picks={picks} secs={spent} full={full} exam={exam} onExit={onExit} />;
+  if (done) return <Result title={title} items={items} picks={picks} secs={spent} full={full} exam={exam} onExit={onExit} saved={saved} />;
 
   const reveal = !exam && picked !== null;
 
@@ -530,7 +537,8 @@ function Legend({ color, border, label, small }: { color: string; border?: strin
 }
 
 // readOnly: geçmiş denemeyi yeniden açarken (düğme "Kapat", kutlama titreşimi yok)
-export function Result({ title, items, picks, secs, full, exam, onExit, readOnly = false }: { title: string; items: Prepared[]; picks: (number | null)[]; secs: number; full: boolean; exam: boolean; onExit: () => void; readOnly?: boolean }) {
+// saved: cevap ve deneme kayıtları bitince çözülür; günlük hedef ve önceki deneme ondan sonra okunur
+export function Result({ title, items, picks, secs, full, exam, onExit, readOnly = false, saved }: { title: string; items: Prepared[]; picks: (number | null)[]; secs: number; full: boolean; exam: boolean; onExit: () => void; readOnly?: boolean; saved?: Promise<unknown> }) {
   const { c } = useTheme();
   const { s: st } = useSettings();
   const tap = useTap();
@@ -555,14 +563,17 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
   const need = Math.ceil(((st.target - pts) * items.length) / 100);
   // Önceki tam denemeyle fark ve günlük hedef: cevaplar kaydedildikten sonra okunur
   const [prev, setPrev] = useState<number | null>(null);
-  const [goal, setGoal] = useState<{ today: number; done: boolean } | null>(null);
+  const [goal, setGoal] = useState<{ today: number; done: boolean; justNow: boolean } | null>(null);
   useEffect(() => {
     if (readOnly) return;
-    const t = setTimeout(() => {
+    let alive = true;
+    (saved ?? Promise.resolve()).then(() => {
+      if (!alive) return;
       if (full) {
         exams()
           .then((rows) => {
-            const older = rows.filter((r) => (r.full === null ? r.total >= 76 : r.full === 1) && Date.now() - r.ts > 15000)[0];
+            // En yenisi bu deneme; ondan önceki tam deneme
+            const older = rows.filter((r) => (r.full === null ? r.total >= 76 : r.full === 1))[1];
             if (older) setPrev(score(older.right, older.total));
           })
           .catch(() => {});
@@ -570,12 +581,15 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
       todayCount()
         .then((n) => {
           const done = n >= st.goal;
-          setGoal({ today: n, done });
-          if (done || hit) tap('success');
+          // Bu testten önce hedef tamam değildiyse "yoncan yeşerdi" anı bu testin
+          const answeredNow = picks.filter((x) => x !== null).length;
+          const justNow = done && n - answeredNow < st.goal;
+          setGoal({ today: n, done, justNow });
+          if (alive && (justNow || hit)) tap('success');
         })
         .catch(() => {});
-    }, 400);
-    return () => clearTimeout(t);
+    });
+    return () => { alive = false; };
   }, []);
 
   if (analyze) return <Analysis items={missed} picks={picks} onDone={() => setAnalyze(false)} />;
@@ -602,7 +616,7 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
                 </View>
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                   <T v="micro" color="muted">Hedef {st.target}</T>
-                  <T v="microM" color={hit ? 'primary' : 'text2'}>{hit ? `Hedefin ${fmtScore(Math.round(((pts - st.target) * items.length) / 100), items.length)} puan üstünde` : `Hedefe ${need} doğru`}</T>
+                  <T v="microM" color={hit ? 'primary' : 'text2'}>{hit ? (pts === st.target ? 'Hedefe tam ulaştın' : `Hedefin ${String(Math.round((pts - st.target) * 100) / 100).replace('.', ',')} puan üstünde`) : `Hedefe ${need} doğru`}</T>
                 </View>
                 {prev !== null && <T v="microM" color={pts >= prev ? 'primary' : 'muted'} style={{ textAlign: 'center' }}>{pts >= prev ? '+' : '−'}{String(Math.abs(Math.round((pts - prev) * 100) / 100)).replace('.', ',')} puan, geçen tam denemeye göre</T>}
               </View>
@@ -626,7 +640,7 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
               <Clover size={28} color={goal.done ? c.primary : c.muted} weight={1.4} filled={goal.done} />
             </View>
             <T v="smallM" color={goal.done ? 'primary' : 'text2'} style={{ flex: 1 }}>
-              {goal.done ? 'Yoncan yeşerdi: bugünkü hedef tamam' : `Bugün ${goal.today}/${st.goal} · hedefe ${st.goal - goal.today} soru`}
+              {goal.done ? (goal.justNow ? 'Yoncan yeşerdi: bugünkü hedef tamam' : 'Bugünkü hedef tamam, yoncan yeşil') : `Bugün ${goal.today}/${st.goal} · hedefe ${st.goal - goal.today} soru`}
             </T>
           </View>
         )}

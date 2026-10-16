@@ -86,6 +86,11 @@ export function Mock({ start }: { start: Start }) {
     const r = d && restore(d.ids, d.perms, d.picks);
     if (r?.items.length) return <Result title={open.title} items={r.items} picks={r.picks} secs={open.secs} full={full} exam readOnly onExit={() => setOpen(null)} />;
   }
+  const openHistory = (h: ExamRow) => {
+    const d = parseDetail(h.detail);
+    if (d && restore(d.ids, d.perms, d.picks).items.length) return setOpen(h);
+    Alert.alert('Ayrıntı açılamıyor', 'Bu denemenin soruları güncellemeyle değişti.');
+  };
   const fullHist = hist.filter((h) => (h.full === null ? h.total >= 76 : h.full === 1)).slice(0, 10).reverse();
   const clearSeen = () =>
     Alert.alert('Görülen sorular sıfırlansın mı?', 'Denemelerde gördüğün sorular yeniden "görülmemiş" sayılır. Puanların ve geçmiş denemelerin silinmez.', [
@@ -116,7 +121,7 @@ export function Mock({ start }: { start: Start }) {
       <View style={{ gap: 8 }}>
         <Section title="Soru sayısı" />
         <Segmented items={[{ v: 20, l: '20' }, { v: 40, l: '40' }, { v: 80, l: '80 · tam' }]} value={n} onChange={setCount} />
-        <T v="small" color="muted">{n === 80 ? 'Gerçek YDS bölüm düzeni · her doğru 1,25 puan' : 'YDS bölümleri küçültülmüş · doğru ve yanlış sayısı'}</T>
+        <T v="small" color="muted">{n === 80 ? (short.length ? 'Gerçek YDS düzeni · eksik bölüm var, doğru sayısı gösterilir' : 'Gerçek YDS bölüm düzeni · her doğru 1,25 puan') : 'YDS bölümleri küçültülmüş · doğru ve yanlış sayısı'}</T>
       </View>
 
       <View style={{ gap: 8 }}>
@@ -195,7 +200,7 @@ export function Mock({ start }: { start: Start }) {
                 sub={`${new Date(h.ts).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' })} · ${Math.round(h.secs / 60)} dk`}
                 right={<T v="numS">{full ? `${fmtScore(h.right, h.total)} puan` : `${h.right}/${h.total}`}</T>}
                 disabled={!h.detail}
-                onPress={() => setOpen(h)}
+                onPress={() => openHistory(h)}
               />
             );
           })}

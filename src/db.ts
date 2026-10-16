@@ -188,6 +188,11 @@ export async function setVerbKnown(w: string, known: boolean, active = true) {
   if (active) await markActive();
 }
 
+export async function clearVerb(w: string) {
+  const d = await db();
+  await d.runAsync('DELETE FROM verbs_learn WHERE w = ?', [w]);
+}
+
 // O günün hedefi (geçmiş günler kendi hedefiyle değerlendirilir)
 export async function saveDayGoal(goal: number) {
   const d = await db();

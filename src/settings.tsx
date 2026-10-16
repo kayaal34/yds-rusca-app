@@ -93,7 +93,9 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
 export const useSettings = () => useContext(Ctx);
 
 // Sınav tarihi geçtiyse true (sayaç "0 gün"de takılmasın)
-export const examPassed = (date: string) => new Date(date + 'T18:00:00').getTime() < Date.now();
+// Sınav 10:15'te başlar, 180 dk sürer: 13:15'ten sonra geçmiş sayılır
+export const examStart = (date: string) => new Date(date + 'T10:15:00').getTime();
+export const examPassed = (date: string) => examStart(date) + 3 * 3600000 < Date.now();
 
 // Tam sınav puanı 100 üzerinden: 80 soruda her doğru 1,25, yanlış götürmez. İptal sorulu (ör. 76 soruluk)
 // sınavlarda puan kalan sorular üzerinden hesaplanır. Türkçe ondalık virgülle.
@@ -106,8 +108,7 @@ export const band = (p: number) => (p >= 85 ? 'C2' : p >= 66 ? 'C1' : p >= 50 ? 
 export const BANDS = 'B1 40–49 · B2 50–65 · C1 66–84 · C2 85–100';
 
 // Takvim günü farkı: sınav günü 0 ("Sınav bugün"), önceki gün 1
+// Kalan tam gün: ana sayfadaki geri sayımla aynı (0 = sınava 24 saatten az kaldı)
 export function daysUntil(date: string) {
-  const today = new Date();
-  today.setHours(12, 0, 0, 0);
-  return Math.max(0, Math.round((new Date(date + 'T12:00:00').getTime() - today.getTime()) / 86400000));
+  return Math.max(0, Math.floor((examStart(date) - Date.now()) / 86400000));
 }

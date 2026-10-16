@@ -58,7 +58,7 @@ export function Btn({ title, onPress, kind = 'primary', icon, style, disabled }:
       ]}
     >
       {icon && <Feather name={icon} size={ICON.row} color={fg} />}
-      <Text style={[type.bodyM, { color: fg }]}>{title}</Text>
+      <Text style={[type.bodyM, { color: fg, flexShrink: 1 }]} numberOfLines={1}>{title}</Text>
     </Pressable>
   );
 }
@@ -127,7 +127,8 @@ export function ListItem({ icon, title, sub, right, onPress, disabled, danger, c
     </>
   );
   const row = { flexDirection: 'row' as const, alignItems: 'center' as const, gap: 16, paddingHorizontal: space.card, paddingVertical: 12, minHeight: 56 };
-  if (!onPress || disabled) return <View style={row}>{body}</View>;
+  if (!onPress) return <View style={row}>{body}</View>;
+  if (disabled) return <View style={[row, { opacity: 0.6 }]}>{body}</View>;
   return (
     <Pressable onPress={() => { tap(); onPress(); }} accessibilityRole="button" style={({ pressed }) => [row, pressed && { opacity: PRESSED }]}>
       {body}
@@ -360,7 +361,9 @@ export function Wheel({ values, value, onChange, format = String, label, width =
   const start = Math.max(0, values.indexOf(value));
   const y = useSharedValue(start * ROW);
   const last = useSharedValue(start);
+  const { s: settings } = useSettings();
   const tick = () => tap();
+  // Titreşim ayarı değişince işleyici yeniden kurulsun (bayat ayar kalmasın)
   const onScroll = useAnimatedScrollHandler((e) => {
     y.value = e.contentOffset.y;
     const k = Math.round(e.contentOffset.y / ROW);
@@ -368,7 +371,7 @@ export function Wheel({ values, value, onChange, format = String, label, width =
       last.value = k;
       runOnJS(tick)();
     }
-  });
+  }, [settings.haptics, values.length]);
   // Değer dışarıdan değişince (ör. hızlı seçim çipi, ay değişince gün düzeltmesi) teker o satıra kayar
   useEffect(() => {
     const k = values.indexOf(value);

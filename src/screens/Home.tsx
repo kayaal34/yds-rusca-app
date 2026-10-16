@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 import { space, useTheme } from '../theme';
-import { band, daysUntil, examPassed, useSettings } from '../settings';
+import { band, daysUntil, examPassed, examStart, useSettings } from '../settings';
 import { questions, topicName } from '../data/questions';
 import { activityDays, dayGoals, dayStr, favQids, saveDayGoal, last7, streak, todayCount, topicStats, wrongQids } from '../db';
 import { Btn, Hero, Icon, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
@@ -22,6 +22,8 @@ const emptyWeek = () => Array.from({ length: 7 }, (_, k) => {
 // Son okunan değerler: ekran yeniden kurulunca önce bunlar görünür, sonra tazelenir
 const cache: { today: number; str: number; week: { day: string; total: number }[]; act: Set<string> } = { today: 0, str: 0, week: [], act: new Set() };
 const remember = (p: Partial<typeof cache>) => Object.assign(cache, p);
+// Sıfırlamadan sonra eski seri ve şerit bir an bile görünmesin
+export const resetHomeCache = () => remember({ today: 0, str: 0, week: [], act: new Set() });
 const DAYS = ['Pz', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct'];
 
 type Item = { icon: IconName; title: string; sub: string; onPress: () => void; tint?: string };
@@ -90,13 +92,13 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
   const phase = passed
     ? 'Sınav geçti, yeni tarihi Ayarlar\'dan seç'
     : days === 0
-      ? 'Bugün sınav günü. Hazırsın.'
+      ? 'Sınava 24 saatten az kaldı. Hazırsın.'
       : days <= 7
         ? 'Sınav haftası: kimliğini ve sınav yerini kontrol et'
         : days <= 30
-          ? 'Son düzlük: yanlışlarını tekrar et, haftada bir tam deneme'
+          ? 'Son düzlük: yanlışlarını tekrar et, haftada iki tam deneme'
           : days <= 60
-            ? 'Deneme dönemi: haftada iki tam deneme'
+            ? 'Deneme dönemi: haftada bir tam deneme'
             : 'Temel dönem: her gün konu ve kelime';
   const left = Math.max(0, st.goal - today);
 
@@ -187,7 +189,7 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 const WEEKS = 13; // hazırlık penceresi: sınavdan önceki son 13 hafta, her nokta bir hafta
 function Countdown({ date }: { date: string }) {
   const { c } = useTheme();
-  const exam = new Date(date + 'T10:15:00').getTime();
+  const exam = examStart(date);
   const [now, setNow] = useState(() => Date.now());
   useEffect(() => {
     const t = setInterval(() => setNow(Date.now()), 1000);
@@ -200,7 +202,7 @@ function Countdown({ date }: { date: string }) {
   const two = (n: number) => String(n).padStart(2, '0');
   const passedWeeks = Math.max(0, Math.min(WEEKS, WEEKS - Math.ceil((exam - now) / (7 * 86400000))));
   return (
-    <View style={{ gap: 8 }} accessible accessibilityLabel={`Sınava ${d} gün ${h} saat ${m} dakika kaldı`}>
+    <View style={{ gap: 8 }} accessible accessibilityLabel={`Sınava ${d} gün ${h} saat ${m} dakika kaldı. ${WEEKS} haftalık hazırlığın ${passedWeeks} haftası geçti`}>
       <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
         <T v="numL" style={{ fontSize: 40, lineHeight: 44 }}>{d}</T>
         <T v="small" color="muted">gün</T>
@@ -212,7 +214,7 @@ function Countdown({ date }: { date: string }) {
         <T v="small" color="muted">sn</T>
       </View>
       {/* Haftalık noktalar: geçen haftalar dolu, içinde bulunulan hafta yarı ton, sonda sınav bayrağı */}
-      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 3 }} accessible accessibilityLabel={`${WEEKS} haftanın ${passedWeeks} haftası geçti`}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 3 }}>
         {Array.from({ length: WEEKS }, (_, k) => (
           <View key={k} style={{ flex: 1, height: 6, borderRadius: 3, backgroundColor: k < passedWeeks ? c.primary : k === passedWeeks ? c.primary + '66' : c.border }} />
         ))}

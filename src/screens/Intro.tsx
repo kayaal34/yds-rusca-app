@@ -153,7 +153,7 @@ export function Onboarding() {
           )}
           <DateWheel value={examDate} onChange={setExamDate} />
           <T v="smallM" color={examPassed(examDate) ? 'bad' : 'primary'} style={{ textAlign: 'center' }}>
-            {examPassed(examDate) ? 'Bu tarih geçmiş, ileri bir tarih seç' : days === 0 ? 'Sınav bugün' : `${days} gün kaldı`}
+            {examPassed(examDate) ? 'Bu tarih geçmiş, ileri bir tarih seç' : days === 0 ? 'Sınava 24 saatten az kaldı' : `${days} gün kaldı`}
           </T>
         </Step>
       )}
@@ -198,7 +198,7 @@ export function Onboarding() {
             <LogoMark size={96} color={c.primary} fill={c.primary + '8C'} animate />
           </View>
           <ListGroup>
-            <ListItem icon="calendar" title={examPassed(examDate) ? 'Sınav tarihi seçilmedi' : `${days} gün`} sub={`YDS · ${examLabel(examDate)}`} chevron={false} />
+            <ListItem icon="calendar" title={examPassed(examDate) ? 'Sınav tarihi seçilmedi' : days === 0 ? '24 saatten az' : `${days} gün`} sub={`YDS · ${examLabel(examDate)}`} chevron={false} />
             <ListItem icon="check-circle" title={`Günde ${goal} soru`} sub="Bir soru ya da bir kelime kartı serini sürdürür" chevron={false} />
             <ListItem icon="target" title={`Hedef ${target}${band(target) ? ` · ${band(target)}` : ''}`} sub={reminder ? `Hatırlatma ${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}` : 'Hatırlatma kapalı'} chevron={false} />
           </ListGroup>

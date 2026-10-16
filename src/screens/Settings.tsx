@@ -4,6 +4,7 @@ import { brand, font, space, useTheme } from '../theme';
 import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
 import { syncWidgets } from '../widgets/sync';
+import { resetHomeCache } from './Home';
 import { resetAll, resetProgress } from '../db';
 import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, LinkBtn, ListGroup, ListItem, Section, Segmented, Slider, T, TimeWheel } from '../ui';
 import { LogoMark } from '../Logo';
@@ -111,7 +112,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           )}
         </View>
         <Item icon="watch" label="Sınav uyarıları">
-          <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
+          <Switch accessibilityLabel="Sınav uyarıları" value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
       <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>Denemede yarı süre, 30 dakika ve 5 dakika kala kısa bir uyarı ve titreşim.</T>
@@ -119,7 +120,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
       <Section title="Bildirim" />
       <Group>
         <Item icon="bell" label="Günlük hatırlatma">
-          <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
+          <Switch accessibilityLabel="Günlük hatırlatma" value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
         {st.reminder && (
         <View style={{ padding: space.card, gap: 8 }}>
@@ -165,7 +166,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           <Segmented items={[{ v: 'system' as const, l: 'Sistem' }, { v: 'light' as const, l: 'Açık' }, { v: 'dark' as const, l: 'Koyu' }]} value={st.theme} onChange={(v) => update({ theme: v })} />
         </View>
         <Item icon="smartphone" label="Titreşim">
-          <Switch value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.haptics ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
+          <Switch accessibilityLabel="Titreşim" value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.haptics ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
 
@@ -188,7 +189,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           onPress={() =>
             Alert.alert('İlerleme sıfırlansın mı?', 'Cevapların, denemelerin, yarım denemen, serin, kelime ilerlemen, görülen sorular ve yanlış analizlerin silinir. Ayarların, notların ve favorilerin kalır. Bu işlem geri alınamaz.', [
               { text: 'Vazgeç', style: 'cancel' },
-              { text: 'Sıfırla', style: 'destructive', onPress: () => resetProgress().then(() => { syncReminder(st).catch(() => {}); syncWidgets(st).catch(() => {}); Alert.alert('İlerleme sıfırlandı'); }).catch(() => Alert.alert('Sıfırlanamadı', 'Tekrar dene.')) },
+              { text: 'Sıfırla', style: 'destructive', onPress: () => resetProgress().then(() => { resetHomeCache(); syncReminder(st).catch(() => {}); syncWidgets(st).catch(() => {}); Alert.alert('İlerleme sıfırlandı'); }).catch(() => Alert.alert('Sıfırlanamadı', 'Tekrar dene.')) },
             ])
           }
         />
@@ -197,9 +198,9 @@ export function SettingsScreen({ back }: { back: () => void }) {
           label="Her şeyi sıfırla"
           danger
           onPress={() =>
-            Alert.alert('Her şey silinsin mi?', 'İlerlemen, notların ve ayarların silinir, uygulama ilk açılıştaki gibi tanıtımla başlar. Bu işlem geri alınamaz.', [
+            Alert.alert('Her şey sıfırlansın mı?', 'İlerlemen, notların ve ayarların silinir, uygulama ilk açılıştaki gibi tanıtımla başlar. Bu işlem geri alınamaz.', [
               { text: 'Vazgeç', style: 'cancel' },
-              { text: 'Her şeyi sil', style: 'destructive', onPress: () => cancelDaily().catch(() => {}).then(resetAll).then(() => { back(); return reload(); }).catch(() => Alert.alert('Silinemedi', 'Tekrar dene.')) },
+              { text: 'Her şeyi sıfırla', style: 'destructive', onPress: () => cancelDaily().catch(() => {}).then(resetAll).then(() => { resetHomeCache(); back(); return reload(); }).catch(() => Alert.alert('Silinemedi', 'Tekrar dene.')) },
             ])
           }
         />

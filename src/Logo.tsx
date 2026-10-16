@@ -73,7 +73,7 @@ export function LogoMark({ size = 104, color, fill, animate = false, delay = 0 }
 
 // Günlük hedef halkası: halka bugünkü ilerleme kadar dolar, ortada yonca; hedef tamamsa yonca yeşerir
 export function ProgressClover({ value, size = 72, color, track, done }: { value: number; size?: number; color: string; track: string; done: boolean }) {
-  const p = useSharedValue(0);
+  const p = useSharedValue(Math.max(0, Math.min(1, value)));
   useEffect(() => {
     p.set(withTiming(Math.max(0, Math.min(1, value)), { duration: 700, easing: Easing.out(Easing.cubic) }));
   }, [value]);

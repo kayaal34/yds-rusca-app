@@ -1,187 +1,1290 @@
 [
-{"w": "в зависимости от", "note": "+ Р.п. (чего?)", "tr": "-e bağlı olarak", "ex": "Цены меняются в зависимости от сезона и спроса.", "exTr": "Fiyatlar mevsime ve talebe bağlı olarak değişir."},
-{"w": "тем не менее", "note": "bağlaç, karşıtlık", "tr": "buna rağmen, yine de", "ex": "Эксперимент оказался сложным; тем не менее учёные получили важные результаты.", "exTr": "Deney zorlu geçti; buna rağmen bilim insanları önemli sonuçlar elde etti."},
-{"w": "в то время как", "note": "bağlaç, karşıtlık / eşzamanlılık", "tr": "-iken, oysa", "ex": "Одни исследователи поддерживают эту гипотезу, в то время как другие её отвергают.", "exTr": "Bazı araştırmacılar bu hipotezi desteklerken diğerleri onu reddediyor."},
-{"w": "в связи с тем что", "note": "bağlaç, sebep bildirir", "tr": "-dığı için, nedeniyle", "ex": "Проект был отложен в связи с тем, что не хватало финансирования.", "exTr": "Finansman yetersiz olduğu için proje ertelendi."},
-{"w": "следовательно", "note": "bağlaç, sonuç bildirir", "tr": "dolayısıyla, bu nedenle", "ex": "Данные подтверждают гипотезу, следовательно, её можно считать вполне обоснованной.", "exTr": "Veriler hipotezi doğruluyor, dolayısıyla onu oldukça sağlam kabul edebiliriz."},
-{"w": "иными словами", "note": "ara söz, açıklama", "tr": "başka bir deyişle", "ex": "Рынок перенасыщен, иными словами, предложение значительно превышает спрос.", "exTr": "Piyasa doymuş durumda, başka bir deyişle arz talebi önemli ölçüde aşıyor."},
-{"w": "в первую очередь", "note": "zarf, öncelik bildirir", "tr": "öncelikle, ilk olarak", "ex": "Реформа должна в первую очередь затронуть систему высшего образования.", "exTr": "Reform öncelikle yükseköğretim sistemini kapsamalıdır."},
-{"w": "с одной стороны… с другой стороны", "note": "kalıp, iki yönü karşılaştırır", "tr": "bir yandan… öte yandan", "ex": "С одной стороны, технологии облегчают жизнь, с другой стороны, создают новые риски.", "exTr": "Teknoloji bir yandan hayatı kolaylaştırıyor, öte yandan yeni riskler doğuruyor."},
-{"w": "в результате", "note": "+ Р.п. (чего?)", "tr": "sonucunda", "ex": "В результате реформы уровень безработицы в стране заметно снизился.", "exTr": "Reform sonucunda ülkedeki işsizlik oranı belirgin şekilde düştü."},
-{"w": "благодаря", "note": "+ Д.п. (чему?)", "tr": "sayesinde", "ex": "Благодаря новым технологиям производство стало более эффективным и дешёвым.", "exTr": "Yeni teknolojiler sayesinde üretim daha verimli ve ucuz hale geldi."},
-{"w": "несмотря на", "note": "+ В.п. (что?)", "tr": "-e rağmen", "ex": "Несмотря на трудности, компания сумела сохранить свои позиции на рынке.", "exTr": "Zorluklara rağmen şirket piyasadaki konumunu korumayı başardı."},
-{"w": "по сравнению с", "note": "+ Т.п. (чем?)", "tr": "-e kıyasla, -e göre", "ex": "По сравнению с прошлым годом экспорт увеличился на десять процентов.", "exTr": "Geçen yıla kıyasla ihracat yüzde on arttı."},
-{"w": "с точки зрения", "note": "+ Р.п. (чего? кого?)", "tr": "açısından, bakımından", "ex": "С точки зрения экономики этот проект является весьма выгодным.", "exTr": "Ekonomi açısından bu proje oldukça kârlıdır."},
-{"w": "принимать решение", "note": "kalıp: о чём? + инф.", "tr": "karar almak", "ex": "Правительство приняло решение значительно увеличить расходы на здравоохранение.", "exTr": "Hükümet sağlık harcamalarını önemli ölçüde artırma kararı aldı."},
-{"w": "играть роль", "note": "kalıp: какую? в чём?", "tr": "rol oynamak", "ex": "Образование играет ключевую роль в развитии современного общества.", "exTr": "Eğitim, modern toplumun gelişmesinde kilit bir rol oynar."},
-{"w": "оказывать влияние", "note": "+ на что? (В.п.)", "tr": "etki etmek, etkilemek", "ex": "Климат оказывает значительное влияние на сельское хозяйство региона.", "exTr": "İklim, bölgenin tarımı üzerinde önemli bir etkiye sahiptir."},
-{"w": "уделять внимание", "note": "+ Д.п. (чему?)", "tr": "önem vermek, ilgi göstermek", "ex": "В своей статье автор уделяет особое внимание социальным проблемам молодёжи.", "exTr": "Yazar makalesinde gençlerin sosyal sorunlarına özel önem veriyor."},
-{"w": "иметь значение", "note": "kalıp: для кого? для чего?", "tr": "önem taşımak, önemli olmak", "ex": "Для экономики страны это открытие имеет огромное значение.", "exTr": "Bu keşif ülke ekonomisi için büyük önem taşıyor."},
-{"w": "вызывать интерес", "note": "+ у кого? (Р.п.)", "tr": "ilgi uyandırmak", "ex": "Новая теория вызвала большой интерес у научного сообщества.", "exTr": "Yeni teori bilim camiasında büyük ilgi uyandırdı."},
-{"w": "таким образом", "note": "ara söz, sonuç/özet", "tr": "böylece, dolayısıyla", "ex": "Таким образом, полученные данные полностью подтверждают нашу гипотезу.", "exTr": "Böylece elde edilen veriler hipotezimizi tamamen doğruluyor."},
-{"w": "кроме того", "note": "ara söz, ekleme", "tr": "ayrıca, bunun yanı sıra", "ex": "Метод эффективен; кроме того, он не требует больших затрат.", "exTr": "Yöntem etkilidir; ayrıca büyük masraf gerektirmez."},
-{"w": "вместе с тем", "note": "bağlaç, karşıtlık / ekleme", "tr": "bununla birlikte", "ex": "Решение выглядит простым, вместе с тем оно требует тщательной проверки.", "exTr": "Çözüm basit görünüyor, bununla birlikte titiz bir denetim gerektiriyor."},
-{"w": "в том числе", "note": "ara söz, kapsama", "tr": "dahil olmak üzere", "ex": "Конференция собрала многих специалистов, в том числе иностранных учёных.", "exTr": "Konferans, yabancı bilim insanları dahil olmak üzere pek çok uzmanı bir araya getirdi."},
-{"w": "а также", "note": "bağlaç, ekleme", "tr": "ve ayrıca, bir de", "ex": "Программа включает лекции, семинары, а также практические занятия.", "exTr": "Program dersler, seminerler ve ayrıca uygulamalı çalışmalar içeriyor."},
-{"w": "несмотря на то что", "note": "bağlaç, yan cümle başlatır", "tr": "-mesine rağmen", "ex": "Несмотря на то что цены выросли, спрос остался стабильным.", "exTr": "Fiyatlar artmasına rağmen talep istikrarlı kaldı."},
-{"w": "так как", "note": "bağlaç, sebep bildirir", "tr": "çünkü, -dığı için", "ex": "Эксперимент пришлось повторить, так как результаты оказались противоречивыми.", "exTr": "Sonuçlar çelişkili çıktığı için deneyin tekrarlanması gerekti."},
-{"w": "для того чтобы", "note": "bağlaç, amaç + инф.", "tr": "-mek için", "ex": "Для того чтобы решить проблему, необходимо объединить усилия всех стран.", "exTr": "Sorunu çözmek için tüm ülkelerin çabalarını birleştirmesi gerekir."},
-{"w": "по мнению", "note": "+ Р.п. (кого?)", "tr": "-e göre, görüşüne göre", "ex": "По мнению экспертов, кризис продлится ещё несколько лет.", "exTr": "Uzmanlara göre kriz birkaç yıl daha sürecek."},
-{"w": "в соответствии с", "note": "+ Т.п. (чем?)", "tr": "-e uygun olarak, uyarınca", "ex": "Все работы выполнялись в соответствии с международными стандартами.", "exTr": "Tüm çalışmalar uluslararası standartlara uygun olarak yürütüldü."},
-{"w": "в связи с", "note": "+ Т.п. (чем?)", "tr": "ile bağlantılı olarak, nedeniyle", "ex": "В связи с ростом цен спрос на жильё заметно снизился.", "exTr": "Fiyatların artması nedeniyle konut talebi belirgin şekilde düştü."},
-{"w": "в отличие от", "note": "+ Р.п. (чего? кого?)", "tr": "-den farklı olarak", "ex": "В отличие от своих предшественников, автор опирается на статистические данные.", "exTr": "Yazar, öncüllerinden farklı olarak istatistiksel verilere dayanıyor."},
-{"w": "в ходе", "note": "+ Р.п. (чего?)", "tr": "sırasında, sürecinde", "ex": "В ходе исследования учёные обнаружили неожиданную и важную закономерность.", "exTr": "Araştırma sırasında bilim insanları beklenmedik ve önemli bir örüntü keşfetti."},
-{"w": "в течение", "note": "+ Р.п. (чего?)", "tr": "boyunca, süresince", "ex": "В течение последних десяти лет население города постоянно росло.", "exTr": "Son on yıl boyunca şehrin nüfusu sürekli arttı."},
-{"w": "в рамках", "note": "+ Р.п. (чего?)", "tr": "çerçevesinde", "ex": "Проект реализуется в рамках государственной программы поддержки науки.", "exTr": "Proje, devletin bilimi destekleme programı çerçevesinde yürütülüyor."},
-{"w": "с целью", "note": "+ Р.п. / + инф.", "tr": "amacıyla", "ex": "Опрос проводился с целью изучения мнения студентов о реформе.", "exTr": "Anket, öğrencilerin reform hakkındaki görüşlerini incelemek amacıyla yapıldı."},
-{"w": "что касается", "note": "+ Р.п. (чего?)", "tr": "-e gelince", "ex": "Что касается финансовой стороны вопроса, она требует отдельного обсуждения.", "exTr": "Konunun mali boyutuna gelince, bu ayrı bir tartışma gerektiriyor."},
-{"w": "в частности", "note": "ara söz, örnekleme", "tr": "özellikle, bilhassa", "ex": "Многие отрасли, в частности энергетика, нуждаются в серьёзных инвестициях.", "exTr": "Pek çok sektör, özellikle enerji, ciddi yatırımlara ihtiyaç duyuyor."},
-{"w": "в целом", "note": "ara söz, genelleme", "tr": "genel olarak", "ex": "В целом результаты исследования можно признать вполне удовлетворительными.", "exTr": "Genel olarak araştırmanın sonuçları oldukça tatmin edici kabul edilebilir."},
-{"w": "прежде всего", "note": "ara söz, öncelik", "tr": "her şeyden önce", "ex": "Прежде всего необходимо определить цели и задачи исследования.", "exTr": "Her şeyden önce araştırmanın amaç ve hedeflerini belirlemek gerekir."},
-{"w": "то есть", "note": "bağlaç, açıklama", "tr": "yani", "ex": "Рост составил десять процентов, то есть больше, чем ожидалось.", "exTr": "Büyüme yüzde on oldu, yani beklenenden fazla."},
-{"w": "а именно", "note": "bağlaç, sıralama/açıklama", "tr": "yani, şöyle ki", "ex": "Автор выделяет три фактора, а именно цену, качество и доступность.", "exTr": "Yazar üç etkeni öne çıkarıyor: yani fiyat, kalite ve erişilebilirlik."},
-{"w": "в свою очередь", "note": "ara söz", "tr": "kendi payına, buna karşılık", "ex": "Рост доходов, в свою очередь, стимулирует потребительский спрос.", "exTr": "Gelirlerin artması da kendi payına tüketici talebini canlandırıyor."},
-{"w": "в то же время", "note": "ara söz, karşıtlık", "tr": "aynı zamanda, öte yandan", "ex": "Метод прост в применении, в то же время он достаточно точен.", "exTr": "Yöntemin uygulanması kolaydır, aynı zamanda yeterince hassastır."},
-{"w": "более того", "note": "ara söz, güçlendirme", "tr": "üstelik, dahası", "ex": "Метод неэффективен; более того, он может быть опасен для здоровья.", "exTr": "Yöntem etkisizdir; üstelik sağlık için tehlikeli olabilir."},
-{"w": "при этом", "note": "ara söz, ek durum", "tr": "bu arada, bununla birlikte", "ex": "Цены выросли, при этом качество товаров осталось прежним.", "exTr": "Fiyatlar arttı, bununla birlikte ürünlerin kalitesi aynı kaldı."},
-{"w": "не только… но и", "note": "bağlaç, ekleme", "tr": "sadece… değil, … de", "ex": "Туризм приносит не только доход, но и новые рабочие места.", "exTr": "Turizm sadece gelir değil, yeni iş olanakları da sağlıyor."},
-{"w": "как… так и", "note": "bağlaç, kapsama", "tr": "hem… hem de", "ex": "Реформа затронула как государственный, так и частный сектор экономики.", "exTr": "Reform ekonominin hem kamu hem de özel sektörünü etkiledi."},
-{"w": "в случае", "note": "+ Р.п. (чего?)", "tr": "durumunda", "ex": "В случае отказа оборудования система автоматически переходит в резервный режим.", "exTr": "Ekipman arızası durumunda sistem otomatik olarak yedek moda geçer."},
-{"w": "в случае если", "note": "bağlaç, koşul", "tr": "eğer… ise, … takdirde", "ex": "В случае если условия изменятся, план придётся полностью пересмотреть.", "exTr": "Koşullar değişirse planın tamamen gözden geçirilmesi gerekecek."},
-{"w": "при условии что", "note": "bağlaç, koşul", "tr": "şartıyla", "ex": "Экономика будет расти при условии, что инфляция останется низкой.", "exTr": "Enflasyonun düşük kalması şartıyla ekonomi büyüyecek."},
-{"w": "на основе", "note": "+ Р.п. (чего?)", "tr": "temelinde, -e dayanarak", "ex": "Выводы сделаны на основе анализа большого количества статистических данных.", "exTr": "Sonuçlar çok sayıda istatistiksel verinin analizine dayanarak çıkarıldı."},
-{"w": "на основании", "note": "+ Р.п. (чего?)", "tr": "-e dayanarak, gereğince", "ex": "На основании полученных результатов можно сделать несколько важных выводов.", "exTr": "Elde edilen sonuçlara dayanarak birkaç önemli çıkarım yapılabilir."},
-{"w": "по мере", "note": "+ Р.п. (чего?)", "tr": "-dıkça, ölçüsünde", "ex": "По мере развития технологий меняется и характер человеческого труда.", "exTr": "Teknoloji geliştikçe insan emeğinin niteliği de değişiyor."},
-{"w": "по мере того как", "note": "bağlaç, yan cümle başlatır", "tr": "-dıkça", "ex": "По мере того как город рос, увеличивалась нагрузка на транспорт.", "exTr": "Şehir büyüdükçe ulaşım üzerindeki yük arttı."},
-{"w": "за счёт", "note": "+ Р.п. (чего?)", "tr": "sayesinde, aracılığıyla", "ex": "Рост производительности был достигнут за счёт внедрения новых технологий.", "exTr": "Verimlilik artışı yeni teknolojilerin uygulanması sayesinde sağlandı."},
-{"w": "вследствие", "note": "+ Р.п. (чего?)", "tr": "sonucunda, yüzünden", "ex": "Вследствие длительной засухи урожай зерновых в регионе сократился почти вдвое.", "exTr": "Uzun süren kuraklık sonucunda bölgedeki tahıl rekoltesi neredeyse yarıya indi."},
-{"w": "в силу", "note": "+ Р.п. (чего?)", "tr": "nedeniyle, gereği", "ex": "В силу ряда причин проект так и не был завершён.", "exTr": "Bir dizi nedenden dolayı proje bir türlü tamamlanamadı."},
-{"w": "по причине", "note": "+ Р.п. (чего?)", "tr": "nedeniyle, sebebiyle", "ex": "Заседание было перенесено по причине болезни одного из докладчиков.", "exTr": "Toplantı, konuşmacılardan birinin hastalığı nedeniyle ertelendi."},
-{"w": "наряду с", "note": "+ Т.п. (чем?)", "tr": "-in yanı sıra, ile birlikte", "ex": "Наряду с экономическими факторами важную роль играют культурные традиции.", "exTr": "Ekonomik etkenlerin yanı sıra kültürel gelenekler de önemli bir rol oynar."},
-{"w": "по отношению к", "note": "+ Д.п. (чему? кому?)", "tr": "-e karşı, -e oranla", "ex": "Курс рубля по отношению к доллару за год заметно снизился.", "exTr": "Rublenin dolar karşısındaki kuru bir yılda belirgin şekilde düştü."},
-{"w": "в отношении", "note": "+ Р.п. (чего? кого?)", "tr": "hakkında, konusunda", "ex": "В отношении нарушителей закона будут приняты самые строгие меры.", "exTr": "Yasayı ihlal edenler hakkında en sert önlemler alınacak."},
-{"w": "по крайней мере", "note": "ara söz, sınırlama", "tr": "en azından", "ex": "Эта проблема, по крайней мере, заслуживает серьёзного научного обсуждения.", "exTr": "Bu sorun en azından ciddi bir bilimsel tartışmayı hak ediyor."},
-{"w": "в конечном счёте", "note": "ara söz, nihai sonuç", "tr": "nihayetinde, son tahlilde", "ex": "Все эти меры в конечном счёте должны повысить качество жизни.", "exTr": "Tüm bu önlemler nihayetinde yaşam kalitesini artırmalıdır."},
-{"w": "в итоге", "note": "+ Р.п. / ara söz", "tr": "sonuçta, sonunda", "ex": "В итоге долгих переговоров стороны пришли к взаимовыгодному соглашению.", "exTr": "Uzun müzakerelerin sonunda taraflar karşılıklı yarar sağlayan bir anlaşmaya vardı."},
-{"w": "в конце концов", "note": "ara söz", "tr": "sonunda, nihayet", "ex": "В конце концов учёным удалось найти объяснение этому явлению.", "exTr": "Sonunda bilim insanları bu olguya bir açıklama bulmayı başardı."},
-{"w": "до сих пор", "note": "zarf, süreklilik", "tr": "hâlâ, şimdiye kadar", "ex": "Причины этого природного явления до сих пор остаются невыясненными.", "exTr": "Bu doğa olayının nedenleri hâlâ aydınlatılamamıştır."},
-{"w": "в настоящее время", "note": "zarf, zaman", "tr": "şu anda, günümüzde", "ex": "В настоящее время учёные активно изучают возможности искусственного интеллекта.", "exTr": "Günümüzde bilim insanları yapay zekânın olanaklarını yoğun biçimde inceliyor."},
-{"w": "на сегодняшний день", "note": "zarf, zaman", "tr": "bugün itibarıyla, günümüzde", "ex": "На сегодняшний день эта проблема остаётся одной из самых острых.", "exTr": "Bugün itibarıyla bu sorun en acil sorunlardan biri olmaya devam ediyor."},
-{"w": "в последнее время", "note": "zarf, zaman", "tr": "son zamanlarda", "ex": "В последнее время интерес к возобновляемой энергетике значительно вырос.", "exTr": "Son zamanlarda yenilenebilir enerjiye olan ilgi önemli ölçüde arttı."},
-{"w": "с течением времени", "note": "zarf, zaman", "tr": "zamanla, zaman içinde", "ex": "С течением времени взгляды общества на эту проблему существенно изменились.", "exTr": "Zamanla toplumun bu soruna bakışı önemli ölçüde değişti."},
-{"w": "на протяжении", "note": "+ Р.п. (чего?)", "tr": "boyunca", "ex": "На протяжении многих веков город оставался важным торговым центром.", "exTr": "Şehir yüzyıllar boyunca önemli bir ticaret merkezi olarak kaldı."},
-{"w": "с помощью", "note": "+ Р.п. (чего? кого?)", "tr": "yardımıyla, aracılığıyla", "ex": "С помощью новых методов удалось значительно ускорить анализ данных.", "exTr": "Yeni yöntemler yardımıyla veri analizi önemli ölçüde hızlandırıldı."},
-{"w": "путём", "note": "+ Р.п. (чего?)", "tr": "yoluyla", "ex": "Проблему удалось решить путём переговоров и взаимных уступок.", "exTr": "Sorun müzakereler ve karşılıklı tavizler yoluyla çözüldü."},
-{"w": "в виде", "note": "+ Р.п. (чего?)", "tr": "şeklinde, biçiminde", "ex": "Результаты исследования представлены в виде таблиц и диаграмм.", "exTr": "Araştırmanın sonuçları tablolar ve grafikler şeklinde sunulmuştur."},
-{"w": "в качестве", "note": "+ Р.п. (кого? чего?)", "tr": "olarak, sıfatıyla", "ex": "В качестве примера автор приводит опыт скандинавских стран.", "exTr": "Yazar örnek olarak İskandinav ülkelerinin deneyimini gösteriyor."},
-{"w": "в пользу", "note": "+ Р.п. (чего? кого?)", "tr": "lehine", "ex": "Большинство приведённых аргументов говорит в пользу предложенного решения.", "exTr": "Öne sürülen argümanların çoğu önerilen çözümün lehine."},
-{"w": "в области", "note": "+ Р.п. (чего?)", "tr": "alanında", "ex": "Россия добилась значительных успехов в области космических исследований.", "exTr": "Rusya uzay araştırmaları alanında önemli başarılar elde etti."},
-{"w": "в сфере", "note": "+ Р.п. (чего?)", "tr": "alanında, sektöründe", "ex": "В сфере услуг занята большая часть трудоспособного населения.", "exTr": "Çalışabilir nüfusun büyük bölümü hizmet sektöründe istihdam ediliyor."},
-{"w": "за исключением", "note": "+ Р.п. (чего? кого?)", "tr": "hariç, dışında", "ex": "За исключением нескольких случаев, эксперимент дал предсказуемые результаты.", "exTr": "Birkaç durum dışında deney öngörülebilir sonuçlar verdi."},
-{"w": "независимо от", "note": "+ Р.п. (чего?)", "tr": "-den bağımsız olarak", "ex": "Все граждане равны перед законом независимо от своего происхождения.", "exTr": "Tüm vatandaşlar kökenlerinden bağımsız olarak yasa önünde eşittir."},
-{"w": "согласно", "note": "+ Д.п. (чему?)", "tr": "-e göre, uyarınca", "ex": "Согласно последним данным статистики, численность населения страны продолжает сокращаться.", "exTr": "Son istatistik verilerine göre ülkenin nüfusu azalmaya devam ediyor."},
-{"w": "по данным", "note": "+ Р.п. (чего? кого?)", "tr": "verilerine göre", "ex": "По данным Всемирного банка, экономика региона выросла на три процента.", "exTr": "Dünya Bankası verilerine göre bölge ekonomisi yüzde üç büyüdü."},
-{"w": "судя по", "note": "+ Д.п. (чему?)", "tr": "-e bakılırsa", "ex": "Судя по результатам опроса, большинство жителей поддерживает реформу.", "exTr": "Anket sonuçlarına bakılırsa sakinlerin çoğu reformu destekliyor."},
-{"w": "с учётом", "note": "+ Р.п. (чего?)", "tr": "dikkate alınarak", "ex": "Бюджет на следующий год был составлен с учётом прогнозируемой инфляции.", "exTr": "Gelecek yılın bütçesi öngörülen enflasyon dikkate alınarak hazırlandı."},
-{"w": "исходя из", "note": "+ Р.п. (чего?)", "tr": "-den yola çıkarak", "ex": "Исходя из полученных данных, можно предположить наличие связи между факторами.", "exTr": "Elde edilen verilerden yola çıkarak etkenler arasında bir bağ olduğu varsayılabilir."},
-{"w": "в условиях", "note": "+ Р.п. (чего?)", "tr": "koşullarında, ortamında", "ex": "В условиях глобализации роль иностранных языков постоянно возрастает.", "exTr": "Küreselleşme koşullarında yabancı dillerin rolü sürekli artıyor."},
-{"w": "на фоне", "note": "+ Р.п. (чего?)", "tr": "-in ortamında, -in eşliğinde", "ex": "На фоне экономического кризиса безработица в стране резко выросла.", "exTr": "Ekonomik kriz ortamında ülkede işsizlik keskin bir şekilde arttı."},
-{"w": "под влиянием", "note": "+ Р.п. (чего? кого?)", "tr": "etkisi altında", "ex": "Под влиянием западной культуры изменились многие местные традиции.", "exTr": "Batı kültürünün etkisi altında pek çok yerel gelenek değişti."},
-{"w": "помимо", "note": "+ Р.п. (чего?)", "tr": "-in yanı sıra, dışında", "ex": "Помимо экономических проблем, страна столкнулась с серьёзным политическим кризисом.", "exTr": "Ekonomik sorunların yanı sıra ülke ciddi bir siyasi krizle karşılaştı."},
-{"w": "вопреки", "note": "+ Д.п. (чему?)", "tr": "-e rağmen, -in aksine", "ex": "Вопреки ожиданиям многих аналитиков, экономика страны продолжила быстро расти.", "exTr": "Birçok analistin beklentilerinin aksine ülke ekonomisi hızla büyümeye devam etti."},
-{"w": "ввиду", "note": "+ Р.п. (чего?)", "tr": "nedeniyle, göz önünde tutularak", "ex": "Ввиду сложности задачи было решено привлечь дополнительных специалистов.", "exTr": "Görevin karmaşıklığı nedeniyle ek uzmanların görevlendirilmesine karar verildi."},
-{"w": "в целях", "note": "+ Р.п. (чего?)", "tr": "amacıyla", "ex": "В целях безопасности доступ к лаборатории строго ограничен.", "exTr": "Güvenlik amacıyla laboratuvara erişim sıkı biçimde kısıtlanmıştır."},
-{"w": "во избежание", "note": "+ Р.п. (чего?)", "tr": "-den kaçınmak için", "ex": "Во избежание ошибок все расчёты были проверены дважды.", "exTr": "Hatalardan kaçınmak için tüm hesaplamalar iki kez kontrol edildi."},
-{"w": "по поводу", "note": "+ Р.п. (чего?)", "tr": "hakkında, ilişkin", "ex": "Учёные до сих пор спорят по поводу происхождения этого языка.", "exTr": "Bilim insanları bu dilin kökeni hakkında hâlâ tartışıyor."},
-{"w": "на примере", "note": "+ Р.п. (чего?)", "tr": "örneğinde, örneği üzerinden", "ex": "Автор рассматривает эту проблему на примере нескольких крупных городов.", "exTr": "Yazar bu sorunu birkaç büyük şehir örneği üzerinden inceliyor."},
-{"w": "в пределах", "note": "+ Р.п. (чего?)", "tr": "sınırları içinde, arasında", "ex": "Температура воды колеблется в пределах от пяти до десяти градусов.", "exTr": "Su sıcaklığı beş ile on derece arasında değişiyor."},
-{"w": "по аналогии с", "note": "+ Т.п. (чем?)", "tr": "-e benzer şekilde, örnek alınarak", "ex": "Новый закон был разработан по аналогии с европейским законодательством.", "exTr": "Yeni yasa Avrupa mevzuatı örnek alınarak hazırlandı."},
-{"w": "в ответ на", "note": "+ В.п. (что?)", "tr": "-e cevap olarak", "ex": "В ответ на критику автор опубликовал подробное разъяснение своей позиции.", "exTr": "Eleştirilere cevap olarak yazar tutumunu ayrıntılı biçimde açıklayan bir yazı yayımladı."},
-{"w": "по словам", "note": "+ Р.п. (кого?)", "tr": "-in sözlerine göre", "ex": "По словам министра, бюджет будет сбалансирован уже в следующем году.", "exTr": "Bakanın sözlerine göre bütçe daha gelecek yıl dengelenecek."},
-{"w": "благодаря тому что", "note": "bağlaç, olumlu sebep", "tr": "-dığı için, sayesinde", "ex": "Благодаря тому что учёные объединили усилия, открытие было сделано быстрее.", "exTr": "Bilim insanları güçlerini birleştirdiği için keşif daha hızlı gerçekleşti."},
-{"w": "в результате того что", "note": "bağlaç, sebep-sonuç", "tr": "-mesi sonucunda", "ex": "Урожай погиб в результате того, что лето было слишком засушливым.", "exTr": "Yazın aşırı kurak geçmesi sonucunda ürün mahvoldu."},
-{"w": "из-за того что", "note": "bağlaç, olumsuz sebep", "tr": "-dığı için (olumsuz)", "ex": "Из-за того что поставки задержались, производство было временно остановлено.", "exTr": "Teslimatlar geciktiği için üretim geçici olarak durduruldu."},
-{"w": "с тем чтобы", "note": "bağlaç, amaç", "tr": "-mek amacıyla", "ex": "Правительство снизило налоги с тем, чтобы поддержать малый бизнес.", "exTr": "Hükümet küçük işletmeleri desteklemek amacıyla vergileri düşürdü."},
-{"w": "вместо того чтобы", "note": "bağlaç + инф.", "tr": "-mek yerine", "ex": "Вместо того чтобы решать проблему, власти долго откладывали необходимые реформы.", "exTr": "Yetkililer sorunu çözmek yerine gerekli reformları uzun süre erteledi."},
-{"w": "тем более что", "note": "bağlaç, ek gerekçe", "tr": "üstelik, hele ki", "ex": "Эту проблему нужно решать срочно, тем более что ситуация ухудшается.", "exTr": "Bu sorunun acilen çözülmesi gerekiyor, hele ki durum kötüleşiyorken."},
-{"w": "так что", "note": "bağlaç, sonuç", "tr": "bu yüzden, öyle ki", "ex": "Данных пока недостаточно, так что делать выводы ещё рано.", "exTr": "Henüz yeterli veri yok, bu yüzden sonuç çıkarmak için erken."},
-{"w": "до тех пор пока", "note": "bağlaç, zaman/koşul", "tr": "-medikçe, -e kadar", "ex": "Проблема не будет решена до тех пор, пока не изменится законодательство.", "exTr": "Mevzuat değişmedikçe sorun çözülmeyecek."},
-{"w": "после того как", "note": "bağlaç, zaman", "tr": "-dikten sonra", "ex": "После того как закон был принят, ситуация существенно улучшилась.", "exTr": "Yasa kabul edildikten sonra durum önemli ölçüde düzeldi."},
-{"w": "перед тем как", "note": "bağlaç, zaman", "tr": "-meden önce", "ex": "Перед тем как начать эксперимент, необходимо проверить всё оборудование.", "exTr": "Deneye başlamadan önce tüm ekipmanı kontrol etmek gerekir."},
-{"w": "с тех пор как", "note": "bağlaç, zaman", "tr": "-den beri", "ex": "С тех пор как был принят закон, ситуация изменилась к лучшему.", "exTr": "Yasa kabul edildiğinden beri durum iyiye doğru değişti."},
-{"w": "чем… тем", "note": "kalıp, karşılaştırmalı", "tr": "ne kadar… o kadar", "ex": "Чем выше уровень образования, тем ниже вероятность остаться без работы.", "exTr": "Eğitim düzeyi ne kadar yüksekse işsiz kalma olasılığı o kadar düşüktür."},
-{"w": "либо… либо", "note": "bağlaç, seçenek", "tr": "ya… ya da", "ex": "Проблему можно решить либо путём переговоров, либо через суд.", "exTr": "Sorun ya müzakere yoluyla ya da mahkeme aracılığıyla çözülebilir."},
-{"w": "так же как", "note": "bağlaç, benzerlik", "tr": "-diği gibi, aynı şekilde", "ex": "Так же как и в Европе, в России растёт интерес к экологии.", "exTr": "Avrupa'da olduğu gibi Rusya'da da ekolojiye ilgi artıyor."},
-{"w": "в большей степени", "note": "zarf, derece", "tr": "daha çok, daha fazla", "ex": "Этот фактор в большей степени влияет на развитие малого бизнеса.", "exTr": "Bu etken daha çok küçük işletmelerin gelişimini etkiliyor."},
-{"w": "в значительной степени", "note": "zarf, derece", "tr": "büyük ölçüde", "ex": "Успех реформы в значительной степени зависит от поддержки населения.", "exTr": "Reformun başarısı büyük ölçüde halkın desteğine bağlıdır."},
-{"w": "в некоторой степени", "note": "zarf, derece", "tr": "bir dereceye kadar", "ex": "В некоторой степени эти выводы применимы и к другим странам.", "exTr": "Bu sonuçlar bir dereceye kadar diğer ülkeler için de geçerlidir."},
-{"w": "в той или иной степени", "note": "zarf, derece", "tr": "şu ya da bu ölçüde", "ex": "Эта проблема в той или иной степени касается всех стран.", "exTr": "Bu sorun şu ya da bu ölçüde tüm ülkeleri ilgilendiriyor."},
-{"w": "во многом", "note": "zarf, derece", "tr": "büyük ölçüde, birçok bakımdan", "ex": "Успех любого проекта во многом определяется квалификацией его сотрудников.", "exTr": "Her projenin başarısı büyük ölçüde çalışanlarının yetkinliğiyle belirlenir."},
-{"w": "в основном", "note": "zarf", "tr": "esas olarak, çoğunlukla", "ex": "Население региона занято в основном в сельском хозяйстве.", "exTr": "Bölge nüfusu çoğunlukla tarımda çalışıyor."},
-{"w": "как правило", "note": "ara söz", "tr": "genellikle, kural olarak", "ex": "Как правило, подобные масштабные исследования занимают несколько лет.", "exTr": "Genellikle bu tür kapsamlı araştırmalar birkaç yıl sürer."},
-{"w": "по сути", "note": "ara söz", "tr": "özünde, aslında", "ex": "По сути, речь идёт о новом подходе к образованию.", "exTr": "Özünde söz konusu olan, eğitime yeni bir yaklaşımdır."},
-{"w": "на самом деле", "note": "ara söz", "tr": "aslında, gerçekte", "ex": "На самом деле ситуация оказалась гораздо сложнее, чем предполагалось.", "exTr": "Aslında durum sanıldığından çok daha karmaşık çıktı."},
-{"w": "на первый взгляд", "note": "ara söz", "tr": "ilk bakışta", "ex": "На первый взгляд задача кажется простой, но это не так.", "exTr": "İlk bakışta görev basit görünüyor, ama öyle değil."},
-{"w": "по всей видимости", "note": "ara söz, olasılık", "tr": "görünüşe göre, büyük olasılıkla", "ex": "По всей видимости, климат на планете будет и дальше теплеть.", "exTr": "Görünüşe göre gezegendeki iklim ısınmaya devam edecek."},
-{"w": "как известно", "note": "ara söz", "tr": "bilindiği gibi", "ex": "Как известно, вода является основой жизни на нашей планете.", "exTr": "Bilindiği gibi su, gezegenimizdeki yaşamın temelidir."},
-{"w": "по-прежнему", "note": "zarf, süreklilik", "tr": "hâlâ, eskisi gibi", "ex": "Проблема загрязнения воздуха в крупных городах по-прежнему остаётся актуальной.", "exTr": "Büyük şehirlerde hava kirliliği sorunu hâlâ güncelliğini koruyor."},
-{"w": "к сожалению", "note": "ara söz", "tr": "ne yazık ki", "ex": "К сожалению, многие важные документы того периода не сохранились.", "exTr": "Ne yazık ki o döneme ait pek çok önemli belge günümüze ulaşmadı."},
-{"w": "во-первых", "note": "ara söz, sıralama", "tr": "birincisi, ilk olarak", "ex": "Во-первых, необходимо провести тщательный анализ существующей экономической ситуации.", "exTr": "Birincisi, mevcut ekonomik durumun titiz bir analizini yapmak gerekir."},
-{"w": "подводя итог", "note": "ara söz, özet", "tr": "özetlemek gerekirse", "ex": "Подводя итог, можно сказать, что эксперимент оказался вполне успешным.", "exTr": "Özetlemek gerekirse deneyin oldukça başarılı olduğu söylenebilir."},
-{"w": "в заключение", "note": "ara söz, kapanış", "tr": "sonuç olarak, son olarak", "ex": "В заключение автор формулирует основные выводы своего исследования.", "exTr": "Son olarak yazar araştırmasının temel sonuçlarını ortaya koyuyor."},
-{"w": "на практике", "note": "zarf", "tr": "uygulamada", "ex": "На практике этот метод оказался значительно сложнее, чем в теории.", "exTr": "Uygulamada bu yöntem teoride olduğundan çok daha zor çıktı."},
-{"w": "в долгосрочной перспективе", "note": "zarf, zaman", "tr": "uzun vadede", "ex": "В долгосрочной перспективе эти инвестиции принесут значительную прибыль.", "exTr": "Uzun vadede bu yatırımlar önemli kâr getirecek."},
-{"w": "зависеть от", "note": "+ Р.п. (чего?)", "tr": "-e bağlı olmak", "ex": "Качество образования во многом зависит от квалификации преподавателей.", "exTr": "Eğitimin kalitesi büyük ölçüde öğretmenlerin yeterliliğine bağlıdır."},
-{"w": "приводить к", "note": "+ Д.п. (чему?)", "tr": "-e yol açmak", "ex": "Загрязнение окружающей среды приводит к серьёзным проблемам со здоровьем.", "exTr": "Çevre kirliliği ciddi sağlık sorunlarına yol açıyor."},
-{"w": "заключаться в", "note": "+ П.п. (в чём?)", "tr": "-den ibaret olmak, -de yatmak", "ex": "Главная задача исследования заключается в анализе причин миграции.", "exTr": "Araştırmanın temel amacı göçün nedenlerini analiz etmektir."},
-{"w": "состоять из", "note": "+ Р.п. (чего? кого?)", "tr": "-den oluşmak", "ex": "Экспертная комиссия состоит из двенадцати независимых и квалифицированных специалистов.", "exTr": "Uzman komisyonu on iki bağımsız ve nitelikli uzmandan oluşuyor."},
-{"w": "относиться к", "note": "+ Д.п. (чему? кому?)", "tr": "-e ait olmak; -e yaklaşmak", "ex": "Русский и украинский языки относятся к одной языковой семье.", "exTr": "Rusça ve Ukraynaca aynı dil ailesine aittir."},
-{"w": "сводиться к", "note": "+ Д.п. (чему?)", "tr": "-e indirgenmek", "ex": "Проблема не сводится только к нехватке финансовых ресурсов.", "exTr": "Sorun yalnızca mali kaynak eksikliğine indirgenemez."},
-{"w": "представлять собой", "note": "+ В.п. (что?)", "tr": "-dır, teşkil etmek", "ex": "Данная работа представляет собой обзор современных методов анализа.", "exTr": "Bu çalışma, modern analiz yöntemlerinin bir derlemesidir."},
-{"w": "обращать внимание", "note": "+ на что? (В.п.)", "tr": "dikkat etmek, dikkat çekmek", "ex": "Исследователи обратили особое внимание на необычное поведение элементарных частиц.", "exTr": "Araştırmacılar temel parçacıkların olağandışı davranışına özellikle dikkat etti."},
-{"w": "принимать участие", "note": "+ в чём? (П.п.)", "tr": "katılmak", "ex": "В конференции приняли участие представители более тридцати стран.", "exTr": "Konferansa otuzdan fazla ülkenin temsilcileri katıldı."},
-{"w": "принимать меры", "note": "+ по чему? / против чего?", "tr": "önlem almak", "ex": "Власти приняли срочные меры по борьбе с загрязнением рек.", "exTr": "Yetkililer nehir kirliliğiyle mücadele için acil önlemler aldı."},
-{"w": "принимать во внимание", "note": "+ В.п. (что?)", "tr": "dikkate almak", "ex": "При оценке проекта необходимо принимать во внимание все возможные риски.", "exTr": "Proje değerlendirilirken tüm olası riskleri dikkate almak gerekir."},
-{"w": "проводить исследование", "note": "kalıp: чего? / о чём?", "tr": "araştırma yapmak", "ex": "Группа учёных провела исследование влияния стресса на память.", "exTr": "Bir grup bilim insanı stresin bellek üzerindeki etkisine dair bir araştırma yaptı."},
-{"w": "делать вывод", "note": "+ о чём? / что…", "tr": "sonuç çıkarmak", "ex": "На основе этих данных можно сделать вывод о росте экономики.", "exTr": "Bu verilere dayanarak ekonominin büyüdüğü sonucuna varılabilir."},
-{"w": "приходить к выводу", "note": "kalıp: что…", "tr": "sonuca varmak", "ex": "Авторы пришли к выводу, что проблема требует комплексного подхода.", "exTr": "Yazarlar sorunun kapsamlı bir yaklaşım gerektirdiği sonucuna vardı."},
-{"w": "приходить к соглашению", "note": "+ о чём? (П.п.)", "tr": "anlaşmaya varmak", "ex": "После долгих переговоров стороны пришли к соглашению о сотрудничестве.", "exTr": "Uzun müzakerelerin ardından taraflar işbirliği konusunda anlaşmaya vardı."},
-{"w": "вносить вклад", "note": "+ в что? (В.п.)", "tr": "katkıda bulunmak", "ex": "Этот учёный внёс огромный вклад в развитие современной физики.", "exTr": "Bu bilim insanı modern fiziğin gelişimine büyük katkıda bulundu."},
-{"w": "оказывать помощь", "note": "+ Д.п. (кому?)", "tr": "yardım etmek, yardım sağlamak", "ex": "Международные организации оказывают помощь пострадавшим от наводнения регионам.", "exTr": "Uluslararası kuruluşlar selden etkilenen bölgelere yardım sağlıyor."},
-{"w": "оказывать поддержку", "note": "+ Д.п. (кому?)", "tr": "destek vermek", "ex": "Государство оказывает поддержку молодым учёным и начинающим предпринимателям.", "exTr": "Devlet genç bilim insanlarına ve yeni girişimcilere destek veriyor."},
-{"w": "оказывать давление", "note": "+ на кого? (В.п.)", "tr": "baskı yapmak", "ex": "Международное сообщество продолжает оказывать давление на правительство этой страны.", "exTr": "Uluslararası toplum bu ülkenin hükümetine baskı yapmaya devam ediyor."},
-{"w": "достигать успеха", "note": "+ в чём? (П.п.)", "tr": "başarı elde etmek", "ex": "За короткое время компания достигла значительного успеха на международном рынке.", "exTr": "Şirket kısa sürede uluslararası piyasada önemli bir başarı elde etti."},
-{"w": "добиваться результатов", "note": "kalıp: каких?", "tr": "sonuç elde etmek", "ex": "Благодаря упорному и систематическому труду команда добилась впечатляющих результатов.", "exTr": "Ekip, azimli ve sistemli çalışması sayesinde etkileyici sonuçlar elde etti."},
-{"w": "решать проблему", "note": "kalıp: чего? / какую?", "tr": "sorunu çözmek", "ex": "Мировое сообщество должно совместными усилиями решать проблему изменения климата.", "exTr": "Dünya toplumu iklim değişikliği sorununu ortak çabayla çözmelidir."},
-{"w": "ставить вопрос", "note": "+ о чём? (П.п.)", "tr": "sorunu gündeme getirmek", "ex": "Автор ставит вопрос о будущем традиционных средств массовой информации.", "exTr": "Yazar geleneksel kitle iletişim araçlarının geleceği sorusunu gündeme getiriyor."},
-{"w": "ставить цель", "note": "+ перед кем? + инф.", "tr": "hedef koymak", "ex": "Исследователи ставили перед собой цель создать более дешёвый материал.", "exTr": "Araştırmacılar kendilerine daha ucuz bir malzeme geliştirmeyi hedef koymuştu."},
-{"w": "рассматривать вопрос", "note": "kalıp: о чём? / какой?", "tr": "konuyu ele almak, incelemek", "ex": "Специальная комиссия рассмотрит этот вопрос на следующем заседании.", "exTr": "Özel komisyon bu konuyu bir sonraki toplantıda ele alacak."},
-{"w": "иметь место", "note": "kalıp: где? когда?", "tr": "meydana gelmek, yaşanmak", "ex": "Подобные случаи имели место и в других регионах страны.", "exTr": "Benzer olaylar ülkenin diğer bölgelerinde de yaşandı."},
-{"w": "иметь в виду", "note": "+ В.п. (что? кого?)", "tr": "kastetmek", "ex": "Говоря о кризисе, автор имеет в виду прежде всего финансовый сектор.", "exTr": "Yazar krizden söz ederken her şeyden önce finans sektörünü kastediyor."},
-{"w": "иметь отношение к", "note": "+ Д.п. (чему?)", "tr": "ile ilgisi olmak", "ex": "Эти данные не имеют прямого отношения к теме исследования.", "exTr": "Bu verilerin araştırma konusuyla doğrudan bir ilgisi yok."},
-{"w": "иметь возможность", "note": "+ инф.", "tr": "imkânı olmak", "ex": "Студенты университета имеют возможность пройти стажировку в зарубежных компаниях.", "exTr": "Üniversite öğrencilerinin yabancı şirketlerde staj yapma imkânı var."},
-{"w": "давать возможность", "note": "+ Д.п. + инф.", "tr": "imkân vermek, olanak tanımak", "ex": "Новые технологии дают возможность значительно сократить производственные расходы.", "exTr": "Yeni teknolojiler üretim maliyetlerini önemli ölçüde azaltma imkânı veriyor."},
-{"w": "нести ответственность", "note": "+ за что? (В.п.)", "tr": "sorumluluk taşımak", "ex": "Руководство компании несёт полную ответственность за безопасность сотрудников.", "exTr": "Şirket yönetimi çalışanların güvenliğinden tamamen sorumludur."},
-{"w": "брать на себя ответственность", "note": "+ за что? (В.п.)", "tr": "sorumluluğu üstlenmek", "ex": "Министерство взяло на себя ответственность за реализацию этой программы.", "exTr": "Bakanlık bu programın uygulanmasının sorumluluğunu üstlendi."},
-{"w": "выражать мнение", "note": "kalıp: что… / о чём?", "tr": "görüş bildirmek", "ex": "Многие эксперты выразили мнение, что реформа была проведена слишком поспешно.", "exTr": "Pek çok uzman reformun fazla aceleyle yapıldığı görüşünü dile getirdi."},
-{"w": "занимать место", "note": "kalıp: какое? по чему?", "tr": "yer almak, sırada olmak", "ex": "Россия занимает первое место в мире по площади территории.", "exTr": "Rusya yüzölçümü bakımından dünyada birinci sırada yer alıyor."},
-{"w": "получать распространение", "note": "kalıp: где? среди кого?", "tr": "yaygınlaşmak", "ex": "В последние годы дистанционное обучение получило широкое распространение.", "exTr": "Son yıllarda uzaktan eğitim geniş çapta yaygınlaştı."},
-{"w": "находить применение", "note": "+ в чём? (П.п.)", "tr": "kullanım alanı bulmak", "ex": "Это открытие нашло широкое применение в медицине и промышленности.", "exTr": "Bu keşif tıpta ve sanayide geniş bir kullanım alanı buldu."},
-{"w": "вызывать сомнения", "note": "+ у кого? (Р.п.)", "tr": "şüphe uyandırmak", "ex": "Достоверность этих данных вызывает серьёзные сомнения у многих специалистов.", "exTr": "Bu verilerin güvenilirliği birçok uzmanda ciddi şüpheler uyandırıyor."},
-{"w": "подвергать критике", "note": "+ В.п. (что? кого?)", "tr": "eleştirmek, eleştiriye tabi tutmak", "ex": "Многие известные специалисты подвергли новую теорию резкой критике.", "exTr": "Pek çok tanınmış uzman yeni teoriyi sert bir şekilde eleştirdi."},
-{"w": "пользоваться спросом", "note": "+ у кого? (Р.п.)", "tr": "rağbet görmek", "ex": "Экологически чистые продукты пользуются большим спросом у покупателей.", "exTr": "Ekolojik açıdan temiz ürünler alıcılar arasında büyük rağbet görüyor."},
-{"w": "пользоваться популярностью", "note": "+ среди кого? / у кого?", "tr": "popüler olmak, rağbet görmek", "ex": "Этот метод пользуется особой популярностью среди молодых исследователей.", "exTr": "Bu yöntem genç araştırmacılar arasında özellikle popüler."},
-{"w": "отдавать предпочтение", "note": "+ Д.п. (чему? кому?)", "tr": "tercih etmek", "ex": "Многие современные потребители отдают предпочтение товарам отечественного производства.", "exTr": "Günümüzde birçok tüketici yerli üretim ürünleri tercih ediyor."},
-{"w": "уступать место", "note": "+ Д.п. (чему?)", "tr": "yerini bırakmak", "ex": "Традиционные методы обучения постепенно уступают место современным цифровым технологиям.", "exTr": "Geleneksel öğretim yöntemleri yerini yavaş yavaş modern dijital teknolojilere bırakıyor."},
-{"w": "вступать в силу", "note": "kalıp: когда? с какого числа?", "tr": "yürürlüğe girmek", "ex": "Новый закон вступит в силу с первого января следующего года.", "exTr": "Yeni yasa gelecek yılın 1 Ocak tarihinden itibaren yürürlüğe girecek."},
-{"w": "вести переговоры", "note": "+ о чём? (П.п.) с кем?", "tr": "müzakere yürütmek", "ex": "Стороны ведут переговоры о заключении нового торгового соглашения.", "exTr": "Taraflar yeni bir ticaret anlaşması imzalanması için müzakere yürütüyor."},
-{"w": "наносить ущерб", "note": "+ Д.п. (чему? кому?)", "tr": "zarar vermek", "ex": "Промышленные выбросы наносят серьёзный ущерб окружающей среде и здоровью людей.", "exTr": "Sanayi emisyonları çevreye ve insan sağlığına ciddi zarar veriyor."},
-{"w": "производить впечатление", "note": "+ на кого? (В.п.)", "tr": "izlenim bırakmak, etkilemek", "ex": "Доклад молодого учёного произвёл сильное впечатление на слушателей.", "exTr": "Genç bilim insanının sunumu dinleyiciler üzerinde güçlü bir izlenim bıraktı."},
-{"w": "удовлетворять потребности", "note": "+ Р.п. (кого? чего?)", "tr": "ihtiyaçları karşılamak", "ex": "Производство пока не может удовлетворить растущие потребности населения.", "exTr": "Üretim henüz nüfusun artan ihtiyaçlarını karşılayamıyor."},
-{"w": "отвечать требованиям", "note": "+ Р.п. (чего?)", "tr": "gereksinimleri karşılamak", "ex": "Новое оборудование лаборатории полностью отвечает современным требованиям безопасности.", "exTr": "Laboratuvarın yeni ekipmanı modern güvenlik gereksinimlerini tamamen karşılıyor."},
-{"w": "служить примером", "note": "+ для кого? / Д.п.", "tr": "örnek teşkil etmek", "ex": "Опыт этой страны может служить примером для её соседей.", "exTr": "Bu ülkenin deneyimi komşuları için örnek teşkil edebilir."},
-{"w": "выходить за рамки", "note": "+ Р.п. (чего?)", "tr": "sınırlarını aşmak", "ex": "Этот сложный вопрос выходит далеко за рамки нашего исследования.", "exTr": "Bu karmaşık mesele araştırmamızın sınırlarını çok aşıyor."},
-{"w": "оставлять желать лучшего", "note": "deyim, olumsuz değerlendirme", "tr": "istenen düzeyde olmamak", "ex": "Качество медицинских услуг в регионе пока оставляет желать лучшего.", "exTr": "Bölgedeki sağlık hizmetlerinin kalitesi henüz istenen düzeyde değil."},
-{"w": "быть в состоянии", "note": "+ инф.", "tr": "-ebilecek durumda olmak", "ex": "Малые предприятия не в состоянии конкурировать с крупными корпорациями.", "exTr": "Küçük işletmeler büyük şirketlerle rekabet edebilecek durumda değil."},
-{"w": "обращаться к", "note": "+ Д.п. (к чему? к кому?)", "tr": "başvurmak, ele almak", "ex": "В своей книге автор обращается к истории русской культуры.", "exTr": "Yazar kitabında Rus kültürünün tarihini ele alıyor."}
+ {
+  "w": "в зависимости от",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-e bağlı olarak",
+  "ex": "Цены меняются в зависимости от сезона и спроса.",
+  "exTr": "Fiyatlar mevsime ve talebe bağlı olarak değişir."
+ },
+ {
+  "w": "тем не менее",
+  "note": "bağlaç, karşıtlık",
+  "tr": "buna rağmen, yine de",
+  "ex": "Эксперимент оказался сложным; тем не менее учёные получили важные результаты.",
+  "exTr": "Deney zorlu geçti; buna rağmen bilim insanları önemli sonuçlar elde etti."
+ },
+ {
+  "w": "в то время как",
+  "note": "bağlaç, karşıtlık / eşzamanlılık",
+  "tr": "-iken, oysa",
+  "ex": "Одни исследователи поддерживают эту гипотезу, в то время как другие её отвергают.",
+  "exTr": "Bazı araştırmacılar bu hipotezi desteklerken diğerleri onu reddediyor."
+ },
+ {
+  "w": "в связи с тем что",
+  "note": "bağlaç, sebep bildirir",
+  "tr": "-dığı için, nedeniyle",
+  "ex": "Проект был отложен в связи с тем, что не хватало финансирования.",
+  "exTr": "Finansman yetersiz olduğu için proje ertelendi."
+ },
+ {
+  "w": "следовательно",
+  "note": "bağlaç, sonuç bildirir",
+  "tr": "dolayısıyla, bu nedenle",
+  "ex": "Данные подтверждают гипотезу, следовательно, её можно считать вполне обоснованной.",
+  "exTr": "Veriler hipotezi doğruluyor, dolayısıyla onu oldukça sağlam kabul edebiliriz."
+ },
+ {
+  "w": "иными словами",
+  "note": "ara söz, açıklama",
+  "tr": "başka bir deyişle",
+  "ex": "Рынок перенасыщен, иными словами, предложение значительно превышает спрос.",
+  "exTr": "Piyasa doymuş durumda, başka bir deyişle arz talebi önemli ölçüde aşıyor."
+ },
+ {
+  "w": "в первую очередь",
+  "note": "zarf, öncelik bildirir",
+  "tr": "öncelikle, ilk olarak",
+  "ex": "Реформа должна в первую очередь затронуть систему высшего образования.",
+  "exTr": "Reform öncelikle yükseköğretim sistemini kapsamalıdır."
+ },
+ {
+  "w": "с одной стороны… с другой стороны",
+  "note": "kalıp, iki yönü karşılaştırır",
+  "tr": "bir yandan… öte yandan",
+  "ex": "С одной стороны, технологии облегчают жизнь, с другой стороны, создают новые риски.",
+  "exTr": "Teknoloji bir yandan hayatı kolaylaştırıyor, öte yandan yeni riskler doğuruyor."
+ },
+ {
+  "w": "в результате",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sonucunda",
+  "ex": "В результате реформы уровень безработицы в стране заметно снизился.",
+  "exTr": "Reform sonucunda ülkedeki işsizlik oranı belirgin şekilde düştü."
+ },
+ {
+  "w": "благодаря",
+  "note": "+ Д.п. (чему?)",
+  "tr": "sayesinde",
+  "ex": "Благодаря новым технологиям производство стало более эффективным и дешёвым.",
+  "exTr": "Yeni teknolojiler sayesinde üretim daha verimli ve ucuz hale geldi."
+ },
+ {
+  "w": "несмотря на",
+  "note": "+ В.п. (что?)",
+  "tr": "-e rağmen",
+  "ex": "Несмотря на трудности, компания сумела сохранить свои позиции на рынке.",
+  "exTr": "Zorluklara rağmen şirket piyasadaki konumunu korumayı başardı."
+ },
+ {
+  "w": "по сравнению с",
+  "note": "+ Т.п. (чем?)",
+  "tr": "-e kıyasla, -e göre",
+  "ex": "По сравнению с прошлым годом экспорт увеличился на десять процентов.",
+  "exTr": "Geçen yıla kıyasla ihracat yüzde on arttı."
+ },
+ {
+  "w": "с точки зрения",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "açısından, bakımından",
+  "ex": "С точки зрения экономики этот проект является весьма выгодным.",
+  "exTr": "Ekonomi açısından bu proje oldukça kârlıdır."
+ },
+ {
+  "w": "принимать решение",
+  "note": "kalıp: о чём? + инф.",
+  "tr": "karar almak",
+  "ex": "Правительство приняло решение значительно увеличить расходы на здравоохранение.",
+  "exTr": "Hükümet sağlık harcamalarını önemli ölçüde artırma kararı aldı."
+ },
+ {
+  "w": "играть роль",
+  "note": "kalıp: какую? в чём?",
+  "tr": "rol oynamak",
+  "ex": "Образование играет ключевую роль в развитии современного общества.",
+  "exTr": "Eğitim, modern toplumun gelişmesinde kilit bir rol oynar."
+ },
+ {
+  "w": "оказывать влияние",
+  "note": "+ на что? (В.п.)",
+  "tr": "etki etmek, etkilemek",
+  "ex": "Климат оказывает значительное влияние на сельское хозяйство региона.",
+  "exTr": "İklim, bölgenin tarımı üzerinde önemli bir etkiye sahiptir."
+ },
+ {
+  "w": "уделять внимание",
+  "note": "+ Д.п. (чему?)",
+  "tr": "önem vermek, ilgi göstermek",
+  "ex": "В своей статье автор уделяет особое внимание социальным проблемам молодёжи.",
+  "exTr": "Yazar makalesinde gençlerin sosyal sorunlarına özel önem veriyor."
+ },
+ {
+  "w": "иметь значение",
+  "note": "kalıp: для кого? для чего?",
+  "tr": "önem taşımak, önemli olmak",
+  "ex": "Для экономики страны это открытие имеет огромное значение.",
+  "exTr": "Bu keşif ülke ekonomisi için büyük önem taşıyor."
+ },
+ {
+  "w": "вызывать интерес",
+  "note": "+ у кого? (Р.п.)",
+  "tr": "ilgi uyandırmak",
+  "ex": "Новая теория вызвала большой интерес у научного сообщества.",
+  "exTr": "Yeni teori bilim camiasında büyük ilgi uyandırdı."
+ },
+ {
+  "w": "таким образом",
+  "note": "ara söz, sonuç/özet",
+  "tr": "böylece, dolayısıyla",
+  "ex": "Таким образом, полученные данные полностью подтверждают нашу гипотезу.",
+  "exTr": "Böylece elde edilen veriler hipotezimizi tamamen doğruluyor."
+ },
+ {
+  "w": "кроме того",
+  "note": "ara söz, ekleme",
+  "tr": "ayrıca, bunun yanı sıra",
+  "ex": "Метод эффективен; кроме того, он не требует больших затрат.",
+  "exTr": "Yöntem etkilidir; ayrıca büyük masraf gerektirmez."
+ },
+ {
+  "w": "вместе с тем",
+  "note": "bağlaç, karşıtlık / ekleme",
+  "tr": "bununla birlikte",
+  "ex": "Решение выглядит простым, вместе с тем оно требует тщательной проверки.",
+  "exTr": "Çözüm basit görünüyor, bununla birlikte titiz bir denetim gerektiriyor."
+ },
+ {
+  "w": "в том числе",
+  "note": "ara söz, kapsama",
+  "tr": "dahil olmak üzere",
+  "ex": "Конференция собрала многих специалистов, в том числе иностранных учёных.",
+  "exTr": "Konferans, yabancı bilim insanları dahil olmak üzere pek çok uzmanı bir araya getirdi."
+ },
+ {
+  "w": "а также",
+  "note": "bağlaç, ekleme",
+  "tr": "ve ayrıca, bir de",
+  "ex": "Программа включает лекции, семинары, а также практические занятия.",
+  "exTr": "Program dersler, seminerler ve ayrıca uygulamalı çalışmalar içeriyor."
+ },
+ {
+  "w": "несмотря на то что",
+  "note": "bağlaç, yan cümle başlatır",
+  "tr": "-mesine rağmen",
+  "ex": "Несмотря на то что цены выросли, спрос остался стабильным.",
+  "exTr": "Fiyatlar artmasına rağmen talep istikrarlı kaldı."
+ },
+ {
+  "w": "так как",
+  "note": "bağlaç, sebep bildirir",
+  "tr": "çünkü, -dığı için",
+  "ex": "Эксперимент пришлось повторить, так как результаты оказались противоречивыми.",
+  "exTr": "Sonuçlar çelişkili çıktığı için deneyin tekrarlanması gerekti."
+ },
+ {
+  "w": "для того чтобы",
+  "note": "bağlaç, amaç + инф.",
+  "tr": "-mek için",
+  "ex": "Для того чтобы решить проблему, необходимо объединить усилия всех стран.",
+  "exTr": "Sorunu çözmek için tüm ülkelerin çabalarını birleştirmesi gerekir."
+ },
+ {
+  "w": "по мнению",
+  "note": "+ Р.п. (кого?)",
+  "tr": "-e göre, görüşüne göre",
+  "ex": "По мнению экспертов, кризис продлится ещё несколько лет.",
+  "exTr": "Uzmanlara göre kriz birkaç yıl daha sürecek."
+ },
+ {
+  "w": "в соответствии с",
+  "note": "+ Т.п. (чем?)",
+  "tr": "-e uygun olarak, uyarınca",
+  "ex": "Все работы выполнялись в соответствии с международными стандартами.",
+  "exTr": "Tüm çalışmalar uluslararası standartlara uygun olarak yürütüldü."
+ },
+ {
+  "w": "в связи с",
+  "note": "+ Т.п. (чем?)",
+  "tr": "ile bağlantılı olarak, nedeniyle",
+  "ex": "В связи с ростом цен спрос на жильё заметно снизился.",
+  "exTr": "Fiyatların artması nedeniyle konut talebi belirgin şekilde düştü."
+ },
+ {
+  "w": "в отличие от",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "-den farklı olarak",
+  "ex": "В отличие от своих предшественников, автор опирается на статистические данные.",
+  "exTr": "Yazar, öncüllerinden farklı olarak istatistiksel verilere dayanıyor."
+ },
+ {
+  "w": "в ходе",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sırasında, sürecinde",
+  "ex": "В ходе исследования учёные обнаружили неожиданную и важную закономерность.",
+  "exTr": "Araştırma sırasında bilim insanları beklenmedik ve önemli bir örüntü keşfetti."
+ },
+ {
+  "w": "в течение",
+  "note": "+ Р.п. (чего?)",
+  "tr": "boyunca, süresince",
+  "ex": "В течение последних десяти лет население города постоянно росло.",
+  "exTr": "Son on yıl boyunca şehrin nüfusu sürekli arttı."
+ },
+ {
+  "w": "в рамках",
+  "note": "+ Р.п. (чего?)",
+  "tr": "çerçevesinde",
+  "ex": "Проект реализуется в рамках государственной программы поддержки науки.",
+  "exTr": "Proje, devletin bilimi destekleme programı çerçevesinde yürütülüyor."
+ },
+ {
+  "w": "с целью",
+  "note": "+ Р.п. / + инф.",
+  "tr": "amacıyla",
+  "ex": "Опрос проводился с целью изучения мнения студентов о реформе.",
+  "exTr": "Anket, öğrencilerin reform hakkındaki görüşlerini incelemek amacıyla yapıldı."
+ },
+ {
+  "w": "что касается",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-e gelince",
+  "ex": "Что касается финансовой стороны вопроса, она требует отдельного обсуждения.",
+  "exTr": "Konunun mali boyutuna gelince, bu ayrı bir tartışma gerektiriyor."
+ },
+ {
+  "w": "в частности",
+  "note": "ara söz, örnekleme",
+  "tr": "özellikle, bilhassa",
+  "ex": "Многие отрасли, в частности энергетика, нуждаются в серьёзных инвестициях.",
+  "exTr": "Pek çok sektör, özellikle enerji, ciddi yatırımlara ihtiyaç duyuyor."
+ },
+ {
+  "w": "в целом",
+  "note": "ara söz, genelleme",
+  "tr": "genel olarak",
+  "ex": "В целом результаты исследования можно признать вполне удовлетворительными.",
+  "exTr": "Genel olarak araştırmanın sonuçları oldukça tatmin edici kabul edilebilir."
+ },
+ {
+  "w": "прежде всего",
+  "note": "ara söz, öncelik",
+  "tr": "her şeyden önce",
+  "ex": "Прежде всего необходимо определить цели и задачи исследования.",
+  "exTr": "Her şeyden önce araştırmanın amaç ve hedeflerini belirlemek gerekir."
+ },
+ {
+  "w": "то есть",
+  "note": "bağlaç, açıklama",
+  "tr": "yani",
+  "ex": "Рост составил десять процентов, то есть больше, чем ожидалось.",
+  "exTr": "Büyüme yüzde on oldu, yani beklenenden fazla."
+ },
+ {
+  "w": "а именно",
+  "note": "bağlaç, sıralama/açıklama",
+  "tr": "yani, şöyle ki",
+  "ex": "Автор выделяет три фактора, а именно цену, качество и доступность.",
+  "exTr": "Yazar üç etkeni öne çıkarıyor: yani fiyat, kalite ve erişilebilirlik."
+ },
+ {
+  "w": "в свою очередь",
+  "note": "ara söz",
+  "tr": "kendi payına, buna karşılık",
+  "ex": "Рост доходов, в свою очередь, стимулирует потребительский спрос.",
+  "exTr": "Gelirlerin artması da kendi payına tüketici talebini canlandırıyor."
+ },
+ {
+  "w": "в то же время",
+  "note": "ara söz, karşıtlık",
+  "tr": "aynı zamanda, öte yandan",
+  "ex": "Метод прост в применении, в то же время он достаточно точен.",
+  "exTr": "Yöntemin uygulanması kolaydır, aynı zamanda yeterince hassastır."
+ },
+ {
+  "w": "более того",
+  "note": "ara söz, güçlendirme",
+  "tr": "üstelik, dahası",
+  "ex": "Метод неэффективен; более того, он может быть опасен для здоровья.",
+  "exTr": "Yöntem etkisizdir; üstelik sağlık için tehlikeli olabilir."
+ },
+ {
+  "w": "при этом",
+  "note": "ara söz, ek durum",
+  "tr": "bu arada, bununla birlikte",
+  "ex": "Цены выросли, при этом качество товаров осталось прежним.",
+  "exTr": "Fiyatlar arttı, bununla birlikte ürünlerin kalitesi aynı kaldı."
+ },
+ {
+  "w": "не только… но и",
+  "note": "bağlaç, ekleme",
+  "tr": "sadece… değil, … de",
+  "ex": "Туризм приносит не только доход, но и новые рабочие места.",
+  "exTr": "Turizm sadece gelir değil, yeni iş olanakları da sağlıyor."
+ },
+ {
+  "w": "как… так и",
+  "note": "bağlaç, kapsama",
+  "tr": "hem… hem de",
+  "ex": "Реформа затронула как государственный, так и частный сектор экономики.",
+  "exTr": "Reform ekonominin hem kamu hem de özel sektörünü etkiledi."
+ },
+ {
+  "w": "в случае",
+  "note": "+ Р.п. (чего?)",
+  "tr": "durumunda",
+  "ex": "В случае отказа оборудования система автоматически переходит в резервный режим.",
+  "exTr": "Ekipman arızası durumunda sistem otomatik olarak yedek moda geçer."
+ },
+ {
+  "w": "в случае если",
+  "note": "bağlaç, koşul",
+  "tr": "eğer… ise, … takdirde",
+  "ex": "В случае если условия изменятся, план придётся полностью пересмотреть.",
+  "exTr": "Koşullar değişirse planın tamamen gözden geçirilmesi gerekecek."
+ },
+ {
+  "w": "при условии что",
+  "note": "bağlaç, koşul",
+  "tr": "şartıyla",
+  "ex": "Экономика будет расти при условии, что инфляция останется низкой.",
+  "exTr": "Enflasyonun düşük kalması şartıyla ekonomi büyüyecek."
+ },
+ {
+  "w": "на основе",
+  "note": "+ Р.п. (чего?)",
+  "tr": "temelinde, -e dayanarak",
+  "ex": "Выводы сделаны на основе анализа большого количества статистических данных.",
+  "exTr": "Sonuçlar çok sayıda istatistiksel verinin analizine dayanarak çıkarıldı."
+ },
+ {
+  "w": "на основании",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-e dayanarak, gereğince",
+  "ex": "На основании полученных результатов можно сделать несколько важных выводов.",
+  "exTr": "Elde edilen sonuçlara dayanarak birkaç önemli çıkarım yapılabilir."
+ },
+ {
+  "w": "по мере",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-dıkça, ölçüsünde",
+  "ex": "По мере развития технологий меняется и характер человеческого труда.",
+  "exTr": "Teknoloji geliştikçe insan emeğinin niteliği de değişiyor."
+ },
+ {
+  "w": "по мере того как",
+  "note": "bağlaç, yan cümle başlatır",
+  "tr": "-dıkça",
+  "ex": "По мере того как город рос, увеличивалась нагрузка на транспорт.",
+  "exTr": "Şehir büyüdükçe ulaşım üzerindeki yük arttı."
+ },
+ {
+  "w": "за счёт",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sayesinde, aracılığıyla",
+  "ex": "Рост производительности был достигнут за счёт внедрения новых технологий.",
+  "exTr": "Verimlilik artışı yeni teknolojilerin uygulanması sayesinde sağlandı."
+ },
+ {
+  "w": "вследствие",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sonucunda, yüzünden",
+  "ex": "Вследствие длительной засухи урожай зерновых в регионе сократился почти вдвое.",
+  "exTr": "Uzun süren kuraklık sonucunda bölgedeki tahıl rekoltesi neredeyse yarıya indi."
+ },
+ {
+  "w": "в силу",
+  "note": "+ Р.п. (чего?)",
+  "tr": "nedeniyle, gereği",
+  "ex": "В силу ряда причин проект так и не был завершён.",
+  "exTr": "Bir dizi nedenden dolayı proje bir türlü tamamlanamadı."
+ },
+ {
+  "w": "по причине",
+  "note": "+ Р.п. (чего?)",
+  "tr": "nedeniyle, sebebiyle",
+  "ex": "Заседание было перенесено по причине болезни одного из докладчиков.",
+  "exTr": "Toplantı, konuşmacılardan birinin hastalığı nedeniyle ertelendi."
+ },
+ {
+  "w": "наряду с",
+  "note": "+ Т.п. (чем?)",
+  "tr": "-in yanı sıra, ile birlikte",
+  "ex": "Наряду с экономическими факторами важную роль играют культурные традиции.",
+  "exTr": "Ekonomik etkenlerin yanı sıra kültürel gelenekler de önemli bir rol oynar."
+ },
+ {
+  "w": "по отношению к",
+  "note": "+ Д.п. (чему? кому?)",
+  "tr": "-e karşı, -e oranla",
+  "ex": "Курс рубля по отношению к доллару за год заметно снизился.",
+  "exTr": "Rublenin dolar karşısındaki kuru bir yılda belirgin şekilde düştü."
+ },
+ {
+  "w": "в отношении",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "hakkında, konusunda",
+  "ex": "В отношении нарушителей закона будут приняты самые строгие меры.",
+  "exTr": "Yasayı ihlal edenler hakkında en sert önlemler alınacak."
+ },
+ {
+  "w": "по крайней мере",
+  "note": "ara söz, sınırlama",
+  "tr": "en azından",
+  "ex": "Эта проблема, по крайней мере, заслуживает серьёзного научного обсуждения.",
+  "exTr": "Bu sorun en azından ciddi bir bilimsel tartışmayı hak ediyor."
+ },
+ {
+  "w": "в конечном счёте",
+  "note": "ara söz, nihai sonuç",
+  "tr": "nihayetinde, son tahlilde",
+  "ex": "Все эти меры в конечном счёте должны повысить качество жизни.",
+  "exTr": "Tüm bu önlemler nihayetinde yaşam kalitesini artırmalıdır."
+ },
+ {
+  "w": "в итоге",
+  "note": "+ Р.п. / ara söz",
+  "tr": "sonuçta, sonunda",
+  "ex": "В итоге долгих переговоров стороны пришли к взаимовыгодному соглашению.",
+  "exTr": "Uzun müzakerelerin sonunda taraflar karşılıklı yarar sağlayan bir anlaşmaya vardı."
+ },
+ {
+  "w": "в конце концов",
+  "note": "ara söz",
+  "tr": "sonunda, nihayet",
+  "ex": "В конце концов учёным удалось найти объяснение этому явлению.",
+  "exTr": "Sonunda bilim insanları bu olguya bir açıklama bulmayı başardı."
+ },
+ {
+  "w": "до сих пор",
+  "note": "zarf, süreklilik",
+  "tr": "hâlâ, şimdiye kadar",
+  "ex": "Причины этого природного явления до сих пор остаются невыясненными.",
+  "exTr": "Bu doğa olayının nedenleri hâlâ aydınlatılamamıştır."
+ },
+ {
+  "w": "в настоящее время",
+  "note": "zarf, zaman",
+  "tr": "şu anda, günümüzde",
+  "ex": "В настоящее время учёные активно изучают возможности искусственного интеллекта.",
+  "exTr": "Günümüzde bilim insanları yapay zekânın olanaklarını yoğun biçimde inceliyor."
+ },
+ {
+  "w": "на сегодняшний день",
+  "note": "zarf, zaman",
+  "tr": "bugün itibarıyla, günümüzde",
+  "ex": "На сегодняшний день эта проблема остаётся одной из самых острых.",
+  "exTr": "Bugün itibarıyla bu sorun en acil sorunlardan biri olmaya devam ediyor."
+ },
+ {
+  "w": "в последнее время",
+  "note": "zarf, zaman",
+  "tr": "son zamanlarda",
+  "ex": "В последнее время интерес к возобновляемой энергетике значительно вырос.",
+  "exTr": "Son zamanlarda yenilenebilir enerjiye olan ilgi önemli ölçüde arttı."
+ },
+ {
+  "w": "с течением времени",
+  "note": "zarf, zaman",
+  "tr": "zamanla, zaman içinde",
+  "ex": "С течением времени взгляды общества на эту проблему существенно изменились.",
+  "exTr": "Zamanla toplumun bu soruna bakışı önemli ölçüde değişti."
+ },
+ {
+  "w": "на протяжении",
+  "note": "+ Р.п. (чего?)",
+  "tr": "boyunca",
+  "ex": "На протяжении многих веков город оставался важным торговым центром.",
+  "exTr": "Şehir yüzyıllar boyunca önemli bir ticaret merkezi olarak kaldı."
+ },
+ {
+  "w": "с помощью",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "yardımıyla, aracılığıyla",
+  "ex": "С помощью новых методов удалось значительно ускорить анализ данных.",
+  "exTr": "Yeni yöntemler yardımıyla veri analizi önemli ölçüde hızlandırıldı."
+ },
+ {
+  "w": "путём",
+  "note": "+ Р.п. (чего?)",
+  "tr": "yoluyla",
+  "ex": "Проблему удалось решить путём переговоров и взаимных уступок.",
+  "exTr": "Sorun müzakereler ve karşılıklı tavizler yoluyla çözüldü."
+ },
+ {
+  "w": "в виде",
+  "note": "+ Р.п. (чего?)",
+  "tr": "şeklinde, biçiminde",
+  "ex": "Результаты исследования представлены в виде таблиц и диаграмм.",
+  "exTr": "Araştırmanın sonuçları tablolar ve grafikler şeklinde sunulmuştur."
+ },
+ {
+  "w": "в качестве",
+  "note": "+ Р.п. (кого? чего?)",
+  "tr": "olarak, sıfatıyla",
+  "ex": "В качестве примера автор приводит опыт скандинавских стран.",
+  "exTr": "Yazar örnek olarak İskandinav ülkelerinin deneyimini gösteriyor."
+ },
+ {
+  "w": "в пользу",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "lehine",
+  "ex": "Большинство приведённых аргументов говорит в пользу предложенного решения.",
+  "exTr": "Öne sürülen argümanların çoğu önerilen çözümün lehine."
+ },
+ {
+  "w": "в области",
+  "note": "+ Р.п. (чего?)",
+  "tr": "alanında",
+  "ex": "Россия добилась значительных успехов в области космических исследований.",
+  "exTr": "Rusya uzay araştırmaları alanında önemli başarılar elde etti."
+ },
+ {
+  "w": "в сфере",
+  "note": "+ Р.п. (чего?)",
+  "tr": "alanında, sektöründe",
+  "ex": "В сфере услуг занята большая часть трудоспособного населения.",
+  "exTr": "Çalışabilir nüfusun büyük bölümü hizmet sektöründe istihdam ediliyor."
+ },
+ {
+  "w": "за исключением",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "hariç, dışında",
+  "ex": "За исключением нескольких случаев, эксперимент дал предсказуемые результаты.",
+  "exTr": "Birkaç durum dışında deney öngörülebilir sonuçlar verdi."
+ },
+ {
+  "w": "независимо от",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-den bağımsız olarak",
+  "ex": "Все граждане равны перед законом независимо от своего происхождения.",
+  "exTr": "Tüm vatandaşlar kökenlerinden bağımsız olarak yasa önünde eşittir."
+ },
+ {
+  "w": "согласно",
+  "note": "+ Д.п. (чему?)",
+  "tr": "-e göre, uyarınca",
+  "ex": "Согласно последним данным статистики, численность населения страны продолжает сокращаться.",
+  "exTr": "Son istatistik verilerine göre ülkenin nüfusu azalmaya devam ediyor."
+ },
+ {
+  "w": "по данным",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "verilerine göre",
+  "ex": "По данным Всемирного банка, экономика региона выросла на три процента.",
+  "exTr": "Dünya Bankası verilerine göre bölge ekonomisi yüzde üç büyüdü."
+ },
+ {
+  "w": "судя по",
+  "note": "+ Д.п. (чему?)",
+  "tr": "-e bakılırsa",
+  "ex": "Судя по результатам опроса, большинство жителей поддерживает реформу.",
+  "exTr": "Anket sonuçlarına bakılırsa sakinlerin çoğu reformu destekliyor."
+ },
+ {
+  "w": "с учётом",
+  "note": "+ Р.п. (чего?)",
+  "tr": "dikkate alınarak",
+  "ex": "Бюджет на следующий год был составлен с учётом прогнозируемой инфляции.",
+  "exTr": "Gelecek yılın bütçesi öngörülen enflasyon dikkate alınarak hazırlandı."
+ },
+ {
+  "w": "исходя из",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-den yola çıkarak",
+  "ex": "Исходя из полученных данных, можно предположить наличие связи между факторами.",
+  "exTr": "Elde edilen verilerden yola çıkarak etkenler arasında bir bağ olduğu varsayılabilir."
+ },
+ {
+  "w": "в условиях",
+  "note": "+ Р.п. (чего?)",
+  "tr": "koşullarında, ortamında",
+  "ex": "В условиях глобализации роль иностранных языков постоянно возрастает.",
+  "exTr": "Küreselleşme koşullarında yabancı dillerin rolü sürekli artıyor."
+ },
+ {
+  "w": "на фоне",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-in ortamında, -in eşliğinde",
+  "ex": "На фоне экономического кризиса безработица в стране резко выросла.",
+  "exTr": "Ekonomik kriz ortamında ülkede işsizlik keskin bir şekilde arttı."
+ },
+ {
+  "w": "под влиянием",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "etkisi altında",
+  "ex": "Под влиянием западной культуры изменились многие местные традиции.",
+  "exTr": "Batı kültürünün etkisi altında pek çok yerel gelenek değişti."
+ },
+ {
+  "w": "помимо",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-in yanı sıra, dışında",
+  "ex": "Помимо экономических проблем, страна столкнулась с серьёзным политическим кризисом.",
+  "exTr": "Ekonomik sorunların yanı sıra ülke ciddi bir siyasi krizle karşılaştı."
+ },
+ {
+  "w": "вопреки",
+  "note": "+ Д.п. (чему?)",
+  "tr": "-e rağmen, -in aksine",
+  "ex": "Вопреки ожиданиям многих аналитиков, экономика страны продолжила быстро расти.",
+  "exTr": "Birçok analistin beklentilerinin aksine ülke ekonomisi hızla büyümeye devam etti."
+ },
+ {
+  "w": "ввиду",
+  "note": "+ Р.п. (чего?)",
+  "tr": "nedeniyle, göz önünde tutularak",
+  "ex": "Ввиду сложности задачи было решено привлечь дополнительных специалистов.",
+  "exTr": "Görevin karmaşıklığı nedeniyle ek uzmanların görevlendirilmesine karar verildi."
+ },
+ {
+  "w": "в целях",
+  "note": "+ Р.п. (чего?)",
+  "tr": "amacıyla",
+  "ex": "В целях безопасности доступ к лаборатории строго ограничен.",
+  "exTr": "Güvenlik amacıyla laboratuvara erişim sıkı biçimde kısıtlanmıştır."
+ },
+ {
+  "w": "во избежание",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-den kaçınmak için",
+  "ex": "Во избежание ошибок все расчёты были проверены дважды.",
+  "exTr": "Hatalardan kaçınmak için tüm hesaplamalar iki kez kontrol edildi."
+ },
+ {
+  "w": "по поводу",
+  "note": "+ Р.п. (чего?)",
+  "tr": "hakkında, ilişkin",
+  "ex": "Учёные до сих пор спорят по поводу происхождения этого языка.",
+  "exTr": "Bilim insanları bu dilin kökeni hakkında hâlâ tartışıyor."
+ },
+ {
+  "w": "на примере",
+  "note": "+ Р.п. (чего?)",
+  "tr": "örneğinde, örneği üzerinden",
+  "ex": "Автор рассматривает эту проблему на примере нескольких крупных городов.",
+  "exTr": "Yazar bu sorunu birkaç büyük şehir örneği üzerinden inceliyor."
+ },
+ {
+  "w": "в пределах",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sınırları içinde, arasında",
+  "ex": "Температура воды колеблется в пределах от пяти до десяти градусов.",
+  "exTr": "Su sıcaklığı beş ile on derece arasında değişiyor."
+ },
+ {
+  "w": "по аналогии с",
+  "note": "+ Т.п. (чем?)",
+  "tr": "-e benzer şekilde, örnek alınarak",
+  "ex": "Новый закон был разработан по аналогии с европейским законодательством.",
+  "exTr": "Yeni yasa Avrupa mevzuatı örnek alınarak hazırlandı."
+ },
+ {
+  "w": "в ответ на",
+  "note": "+ В.п. (что?)",
+  "tr": "-e cevap olarak",
+  "ex": "В ответ на критику автор опубликовал подробное разъяснение своей позиции.",
+  "exTr": "Eleştirilere cevap olarak yazar tutumunu ayrıntılı biçimde açıklayan bir yazı yayımladı."
+ },
+ {
+  "w": "по словам",
+  "note": "+ Р.п. (кого?)",
+  "tr": "-in sözlerine göre",
+  "ex": "По словам министра, бюджет будет сбалансирован уже в следующем году.",
+  "exTr": "Bakanın sözlerine göre bütçe daha gelecek yıl dengelenecek."
+ },
+ {
+  "w": "благодаря тому что",
+  "note": "bağlaç, olumlu sebep",
+  "tr": "-dığı için, sayesinde",
+  "ex": "Благодаря тому что учёные объединили усилия, открытие было сделано быстрее.",
+  "exTr": "Bilim insanları güçlerini birleştirdiği için keşif daha hızlı gerçekleşti."
+ },
+ {
+  "w": "в результате того что",
+  "note": "bağlaç, sebep-sonuç",
+  "tr": "-mesi sonucunda",
+  "ex": "Урожай погиб в результате того, что лето было слишком засушливым.",
+  "exTr": "Yazın aşırı kurak geçmesi sonucunda ürün mahvoldu."
+ },
+ {
+  "w": "из-за того что",
+  "note": "bağlaç, olumsuz sebep",
+  "tr": "-dığı için (olumsuz)",
+  "ex": "Из-за того что поставки задержались, производство было временно остановлено.",
+  "exTr": "Teslimatlar geciktiği için üretim geçici olarak durduruldu."
+ },
+ {
+  "w": "с тем чтобы",
+  "note": "bağlaç, amaç",
+  "tr": "-mek amacıyla",
+  "ex": "Правительство снизило налоги с тем, чтобы поддержать малый бизнес.",
+  "exTr": "Hükümet küçük işletmeleri desteklemek amacıyla vergileri düşürdü."
+ },
+ {
+  "w": "вместо того чтобы",
+  "note": "bağlaç + инф.",
+  "tr": "-mek yerine",
+  "ex": "Вместо того чтобы решать проблему, власти долго откладывали необходимые реформы.",
+  "exTr": "Yetkililer sorunu çözmek yerine gerekli reformları uzun süre erteledi."
+ },
+ {
+  "w": "тем более что",
+  "note": "bağlaç, ek gerekçe",
+  "tr": "üstelik, hele ki",
+  "ex": "Эту проблему нужно решать срочно, тем более что ситуация ухудшается.",
+  "exTr": "Bu sorunun acilen çözülmesi gerekiyor, hele ki durum kötüleşiyorken."
+ },
+ {
+  "w": "так что",
+  "note": "bağlaç, sonuç",
+  "tr": "bu yüzden, öyle ki",
+  "ex": "Данных пока недостаточно, так что делать выводы ещё рано.",
+  "exTr": "Henüz yeterli veri yok, bu yüzden sonuç çıkarmak için erken."
+ },
+ {
+  "w": "до тех пор пока",
+  "note": "bağlaç, zaman/koşul",
+  "tr": "-medikçe, -e kadar",
+  "ex": "Проблема не будет решена до тех пор, пока не изменится законодательство.",
+  "exTr": "Mevzuat değişmedikçe sorun çözülmeyecek."
+ },
+ {
+  "w": "после того как",
+  "note": "bağlaç, zaman",
+  "tr": "-dikten sonra",
+  "ex": "После того как закон был принят, ситуация существенно улучшилась.",
+  "exTr": "Yasa kabul edildikten sonra durum önemli ölçüde düzeldi."
+ },
+ {
+  "w": "перед тем как",
+  "note": "bağlaç, zaman",
+  "tr": "-meden önce",
+  "ex": "Перед тем как начать эксперимент, необходимо проверить всё оборудование.",
+  "exTr": "Deneye başlamadan önce tüm ekipmanı kontrol etmek gerekir."
+ },
+ {
+  "w": "с тех пор как",
+  "note": "bağlaç, zaman",
+  "tr": "-den beri",
+  "ex": "С тех пор как был принят закон, ситуация изменилась к лучшему.",
+  "exTr": "Yasa kabul edildiğinden beri durum iyiye doğru değişti."
+ },
+ {
+  "w": "чем… тем",
+  "note": "kalıp, karşılaştırmalı",
+  "tr": "ne kadar… o kadar",
+  "ex": "Чем выше уровень образования, тем ниже вероятность остаться без работы.",
+  "exTr": "Eğitim düzeyi ne kadar yüksekse işsiz kalma olasılığı o kadar düşüktür."
+ },
+ {
+  "w": "либо… либо",
+  "note": "bağlaç, seçenek",
+  "tr": "ya… ya da",
+  "ex": "Проблему можно решить либо путём переговоров, либо через суд.",
+  "exTr": "Sorun ya müzakere yoluyla ya da mahkeme aracılığıyla çözülebilir."
+ },
+ {
+  "w": "так же как",
+  "note": "bağlaç, benzerlik",
+  "tr": "-diği gibi, aynı şekilde",
+  "ex": "Так же как и в Европе, в России растёт интерес к экологии.",
+  "exTr": "Avrupa'da olduğu gibi Rusya'da da ekolojiye ilgi artıyor."
+ },
+ {
+  "w": "в большей степени",
+  "note": "zarf, derece",
+  "tr": "daha çok, daha fazla",
+  "ex": "Этот фактор в большей степени влияет на развитие малого бизнеса.",
+  "exTr": "Bu etken daha çok küçük işletmelerin gelişimini etkiliyor."
+ },
+ {
+  "w": "в значительной степени",
+  "note": "zarf, derece",
+  "tr": "büyük ölçüde",
+  "ex": "Успех реформы в значительной степени зависит от поддержки населения.",
+  "exTr": "Reformun başarısı büyük ölçüde halkın desteğine bağlıdır."
+ },
+ {
+  "w": "в некоторой степени",
+  "note": "zarf, derece",
+  "tr": "bir dereceye kadar",
+  "ex": "В некоторой степени эти выводы применимы и к другим странам.",
+  "exTr": "Bu sonuçlar bir dereceye kadar diğer ülkeler için de geçerlidir."
+ },
+ {
+  "w": "в той или иной степени",
+  "note": "zarf, derece",
+  "tr": "şu ya da bu ölçüde",
+  "ex": "Эта проблема в той или иной степени касается всех стран.",
+  "exTr": "Bu sorun şu ya da bu ölçüde tüm ülkeleri ilgilendiriyor."
+ },
+ {
+  "w": "во многом",
+  "note": "zarf, derece",
+  "tr": "büyük ölçüde, birçok bakımdan",
+  "ex": "Успех любого проекта во многом определяется квалификацией его сотрудников.",
+  "exTr": "Her projenin başarısı büyük ölçüde çalışanlarının yetkinliğiyle belirlenir."
+ },
+ {
+  "w": "в основном",
+  "note": "zarf",
+  "tr": "esas olarak, çoğunlukla",
+  "ex": "Население региона занято в основном в сельском хозяйстве.",
+  "exTr": "Bölge nüfusu çoğunlukla tarımda çalışıyor."
+ },
+ {
+  "w": "как правило",
+  "note": "ara söz",
+  "tr": "genellikle, kural olarak",
+  "ex": "Как правило, подобные масштабные исследования занимают несколько лет.",
+  "exTr": "Genellikle bu tür kapsamlı araştırmalar birkaç yıl sürer."
+ },
+ {
+  "w": "по сути",
+  "note": "ara söz",
+  "tr": "özünde, aslında",
+  "ex": "По сути, речь идёт о новом подходе к образованию.",
+  "exTr": "Özünde söz konusu olan, eğitime yeni bir yaklaşımdır."
+ },
+ {
+  "w": "на самом деле",
+  "note": "ara söz",
+  "tr": "aslında, gerçekte",
+  "ex": "На самом деле ситуация оказалась гораздо сложнее, чем предполагалось.",
+  "exTr": "Aslında durum sanıldığından çok daha karmaşık çıktı."
+ },
+ {
+  "w": "на первый взгляд",
+  "note": "ara söz",
+  "tr": "ilk bakışta",
+  "ex": "На первый взгляд задача кажется простой, но это не так.",
+  "exTr": "İlk bakışta görev basit görünüyor, ama öyle değil."
+ },
+ {
+  "w": "по всей видимости",
+  "note": "ara söz, olasılık",
+  "tr": "görünüşe göre, büyük olasılıkla",
+  "ex": "По всей видимости, климат на планете будет и дальше теплеть.",
+  "exTr": "Görünüşe göre gezegendeki iklim ısınmaya devam edecek."
+ },
+ {
+  "w": "как известно",
+  "note": "ara söz",
+  "tr": "bilindiği gibi",
+  "ex": "Как известно, вода является основой жизни на нашей планете.",
+  "exTr": "Bilindiği gibi su, gezegenimizdeki yaşamın temelidir."
+ },
+ {
+  "w": "по-прежнему",
+  "note": "zarf, süreklilik",
+  "tr": "hâlâ, eskisi gibi",
+  "ex": "Проблема загрязнения воздуха в крупных городах по-прежнему остаётся актуальной.",
+  "exTr": "Büyük şehirlerde hava kirliliği sorunu hâlâ güncelliğini koruyor."
+ },
+ {
+  "w": "к сожалению",
+  "note": "ara söz",
+  "tr": "ne yazık ki",
+  "ex": "К сожалению, многие важные документы того периода не сохранились.",
+  "exTr": "Ne yazık ki o döneme ait pek çok önemli belge günümüze ulaşmadı."
+ },
+ {
+  "w": "во-первых",
+  "note": "ara söz, sıralama",
+  "tr": "birincisi, ilk olarak",
+  "ex": "Во-первых, необходимо провести тщательный анализ существующей экономической ситуации.",
+  "exTr": "Birincisi, mevcut ekonomik durumun titiz bir analizini yapmak gerekir."
+ },
+ {
+  "w": "подводя итог",
+  "note": "ara söz, özet",
+  "tr": "özetlemek gerekirse",
+  "ex": "Подводя итог, можно сказать, что эксперимент оказался вполне успешным.",
+  "exTr": "Özetlemek gerekirse deneyin oldukça başarılı olduğu söylenebilir."
+ },
+ {
+  "w": "в заключение",
+  "note": "ara söz, kapanış",
+  "tr": "sonuç olarak, son olarak",
+  "ex": "В заключение автор формулирует основные выводы своего исследования.",
+  "exTr": "Son olarak yazar araştırmasının temel sonuçlarını ortaya koyuyor."
+ },
+ {
+  "w": "на практике",
+  "note": "zarf",
+  "tr": "uygulamada",
+  "ex": "На практике этот метод оказался значительно сложнее, чем в теории.",
+  "exTr": "Uygulamada bu yöntem teoride olduğundan çok daha zor çıktı."
+ },
+ {
+  "w": "в долгосрочной перспективе",
+  "note": "zarf, zaman",
+  "tr": "uzun vadede",
+  "ex": "В долгосрочной перспективе эти инвестиции принесут значительную прибыль.",
+  "exTr": "Uzun vadede bu yatırımlar önemli kâr getirecek."
+ },
+ {
+  "w": "зависеть от",
+  "note": "+ Р.п. (чего?)",
+  "tr": "-e bağlı olmak",
+  "ex": "Качество образования во многом зависит от квалификации преподавателей.",
+  "exTr": "Eğitimin kalitesi büyük ölçüde öğretmenlerin yeterliliğine bağlıdır."
+ },
+ {
+  "w": "приводить к",
+  "note": "+ Д.п. (чему?)",
+  "tr": "-e yol açmak",
+  "ex": "Загрязнение окружающей среды приводит к серьёзным проблемам со здоровьем.",
+  "exTr": "Çevre kirliliği ciddi sağlık sorunlarına yol açıyor."
+ },
+ {
+  "w": "заключаться в",
+  "note": "+ П.п. (в чём?)",
+  "tr": "-den ibaret olmak, -de yatmak",
+  "ex": "Главная задача исследования заключается в анализе причин миграции.",
+  "exTr": "Araştırmanın temel amacı göçün nedenlerini analiz etmektir."
+ },
+ {
+  "w": "состоять из",
+  "note": "+ Р.п. (чего? кого?)",
+  "tr": "-den oluşmak",
+  "ex": "Экспертная комиссия состоит из двенадцати независимых и квалифицированных специалистов.",
+  "exTr": "Uzman komisyonu on iki bağımsız ve nitelikli uzmandan oluşuyor."
+ },
+ {
+  "w": "относиться к",
+  "note": "+ Д.п. (чему? кому?)",
+  "tr": "-e ait olmak; -e yaklaşmak",
+  "ex": "Русский и украинский языки относятся к одной языковой семье.",
+  "exTr": "Rusça ve Ukraynaca aynı dil ailesine aittir."
+ },
+ {
+  "w": "сводиться к",
+  "note": "+ Д.п. (чему?)",
+  "tr": "-e indirgenmek",
+  "ex": "Проблема не сводится только к нехватке финансовых ресурсов.",
+  "exTr": "Sorun yalnızca mali kaynak eksikliğine indirgenemez."
+ },
+ {
+  "w": "обращать внимание",
+  "note": "+ на что? (В.п.)",
+  "tr": "dikkat etmek, dikkat çekmek",
+  "ex": "Исследователи обратили особое внимание на необычное поведение элементарных частиц.",
+  "exTr": "Araştırmacılar temel parçacıkların olağandışı davranışına özellikle dikkat etti."
+ },
+ {
+  "w": "принимать участие",
+  "note": "+ в чём? (П.п.)",
+  "tr": "katılmak",
+  "ex": "В конференции приняли участие представители более тридцати стран.",
+  "exTr": "Konferansa otuzdan fazla ülkenin temsilcileri katıldı."
+ },
+ {
+  "w": "принимать меры",
+  "note": "+ по чему? / против чего?",
+  "tr": "önlem almak",
+  "ex": "Власти приняли срочные меры по борьбе с загрязнением рек.",
+  "exTr": "Yetkililer nehir kirliliğiyle mücadele için acil önlemler aldı."
+ },
+ {
+  "w": "принимать во внимание",
+  "note": "+ В.п. (что?)",
+  "tr": "dikkate almak",
+  "ex": "При оценке проекта необходимо принимать во внимание все возможные риски.",
+  "exTr": "Proje değerlendirilirken tüm olası riskleri dikkate almak gerekir."
+ },
+ {
+  "w": "проводить исследование",
+  "note": "kalıp: чего? / о чём?",
+  "tr": "araştırma yapmak",
+  "ex": "Группа учёных провела исследование влияния стресса на память.",
+  "exTr": "Bir grup bilim insanı stresin bellek üzerindeki etkisine dair bir araştırma yaptı."
+ },
+ {
+  "w": "делать вывод",
+  "note": "+ о чём? / что…",
+  "tr": "sonuç çıkarmak",
+  "ex": "На основе этих данных можно сделать вывод о росте экономики.",
+  "exTr": "Bu verilere dayanarak ekonominin büyüdüğü sonucuna varılabilir."
+ },
+ {
+  "w": "приходить к выводу",
+  "note": "kalıp: что…",
+  "tr": "sonuca varmak",
+  "ex": "Авторы пришли к выводу, что проблема требует комплексного подхода.",
+  "exTr": "Yazarlar sorunun kapsamlı bir yaklaşım gerektirdiği sonucuna vardı."
+ },
+ {
+  "w": "приходить к соглашению",
+  "note": "+ о чём? (П.п.)",
+  "tr": "anlaşmaya varmak",
+  "ex": "После долгих переговоров стороны пришли к соглашению о сотрудничестве.",
+  "exTr": "Uzun müzakerelerin ardından taraflar işbirliği konusunda anlaşmaya vardı."
+ },
+ {
+  "w": "вносить вклад",
+  "note": "+ в что? (В.п.)",
+  "tr": "katkıda bulunmak",
+  "ex": "Этот учёный внёс огромный вклад в развитие современной физики.",
+  "exTr": "Bu bilim insanı modern fiziğin gelişimine büyük katkıda bulundu."
+ },
+ {
+  "w": "оказывать помощь",
+  "note": "+ Д.п. (кому?)",
+  "tr": "yardım etmek, yardım sağlamak",
+  "ex": "Международные организации оказывают помощь пострадавшим от наводнения регионам.",
+  "exTr": "Uluslararası kuruluşlar selden etkilenen bölgelere yardım sağlıyor."
+ },
+ {
+  "w": "оказывать поддержку",
+  "note": "+ Д.п. (кому?)",
+  "tr": "destek vermek",
+  "ex": "Государство оказывает поддержку молодым учёным и начинающим предпринимателям.",
+  "exTr": "Devlet genç bilim insanlarına ve yeni girişimcilere destek veriyor."
+ },
+ {
+  "w": "оказывать давление",
+  "note": "+ на кого? (В.п.)",
+  "tr": "baskı yapmak",
+  "ex": "Международное сообщество продолжает оказывать давление на правительство этой страны.",
+  "exTr": "Uluslararası toplum bu ülkenin hükümetine baskı yapmaya devam ediyor."
+ },
+ {
+  "w": "достигать успеха",
+  "note": "+ в чём? (П.п.)",
+  "tr": "başarı elde etmek",
+  "ex": "За короткое время компания достигла значительного успеха на международном рынке.",
+  "exTr": "Şirket kısa sürede uluslararası piyasada önemli bir başarı elde etti."
+ },
+ {
+  "w": "добиваться результатов",
+  "note": "kalıp: каких?",
+  "tr": "sonuç elde etmek",
+  "ex": "Благодаря упорному и систематическому труду команда добилась впечатляющих результатов.",
+  "exTr": "Ekip, azimli ve sistemli çalışması sayesinde etkileyici sonuçlar elde etti."
+ },
+ {
+  "w": "решать проблему",
+  "note": "kalıp: чего? / какую?",
+  "tr": "sorunu çözmek",
+  "ex": "Мировое сообщество должно совместными усилиями решать проблему изменения климата.",
+  "exTr": "Dünya toplumu iklim değişikliği sorununu ortak çabayla çözmelidir."
+ },
+ {
+  "w": "ставить вопрос",
+  "note": "+ о чём? (П.п.)",
+  "tr": "sorunu gündeme getirmek",
+  "ex": "Автор ставит вопрос о будущем традиционных средств массовой информации.",
+  "exTr": "Yazar geleneksel kitle iletişim araçlarının geleceği sorusunu gündeme getiriyor."
+ },
+ {
+  "w": "ставить цель",
+  "note": "+ перед кем? + инф.",
+  "tr": "hedef koymak",
+  "ex": "Исследователи ставили перед собой цель создать более дешёвый материал.",
+  "exTr": "Araştırmacılar kendilerine daha ucuz bir malzeme geliştirmeyi hedef koymuştu."
+ },
+ {
+  "w": "рассматривать вопрос",
+  "note": "kalıp: о чём? / какой?",
+  "tr": "konuyu ele almak, incelemek",
+  "ex": "Специальная комиссия рассмотрит этот вопрос на следующем заседании.",
+  "exTr": "Özel komisyon bu konuyu bir sonraki toplantıda ele alacak."
+ },
+ {
+  "w": "иметь место",
+  "note": "kalıp: где? когда?",
+  "tr": "meydana gelmek, yaşanmak",
+  "ex": "Подобные случаи имели место и в других регионах страны.",
+  "exTr": "Benzer olaylar ülkenin diğer bölgelerinde de yaşandı."
+ },
+ {
+  "w": "иметь в виду",
+  "note": "+ В.п. (что? кого?)",
+  "tr": "kastetmek",
+  "ex": "Говоря о кризисе, автор имеет в виду прежде всего финансовый сектор.",
+  "exTr": "Yazar krizden söz ederken her şeyden önce finans sektörünü kastediyor."
+ },
+ {
+  "w": "иметь отношение к",
+  "note": "+ Д.п. (чему?)",
+  "tr": "ile ilgisi olmak",
+  "ex": "Эти данные не имеют прямого отношения к теме исследования.",
+  "exTr": "Bu verilerin araştırma konusuyla doğrudan bir ilgisi yok."
+ },
+ {
+  "w": "иметь возможность",
+  "note": "+ инф.",
+  "tr": "imkânı olmak",
+  "ex": "Студенты университета имеют возможность пройти стажировку в зарубежных компаниях.",
+  "exTr": "Üniversite öğrencilerinin yabancı şirketlerde staj yapma imkânı var."
+ },
+ {
+  "w": "давать возможность",
+  "note": "+ Д.п. + инф.",
+  "tr": "imkân vermek, olanak tanımak",
+  "ex": "Новые технологии дают возможность значительно сократить производственные расходы.",
+  "exTr": "Yeni teknolojiler üretim maliyetlerini önemli ölçüde azaltma imkânı veriyor."
+ },
+ {
+  "w": "нести ответственность",
+  "note": "+ за что? (В.п.)",
+  "tr": "sorumluluk taşımak",
+  "ex": "Руководство компании несёт полную ответственность за безопасность сотрудников.",
+  "exTr": "Şirket yönetimi çalışanların güvenliğinden tamamen sorumludur."
+ },
+ {
+  "w": "брать на себя ответственность",
+  "note": "+ за что? (В.п.)",
+  "tr": "sorumluluğu üstlenmek",
+  "ex": "Министерство взяло на себя ответственность за реализацию этой программы.",
+  "exTr": "Bakanlık bu programın uygulanmasının sorumluluğunu üstlendi."
+ },
+ {
+  "w": "выражать мнение",
+  "note": "kalıp: что… / о чём?",
+  "tr": "görüş bildirmek",
+  "ex": "Многие эксперты выразили мнение, что реформа была проведена слишком поспешно.",
+  "exTr": "Pek çok uzman reformun fazla aceleyle yapıldığı görüşünü dile getirdi."
+ },
+ {
+  "w": "занимать место",
+  "note": "kalıp: какое? по чему?",
+  "tr": "yer almak, sırada olmak",
+  "ex": "Россия занимает первое место в мире по площади территории.",
+  "exTr": "Rusya yüzölçümü bakımından dünyada birinci sırada yer alıyor."
+ },
+ {
+  "w": "получать распространение",
+  "note": "kalıp: где? среди кого?",
+  "tr": "yaygınlaşmak",
+  "ex": "В последние годы дистанционное обучение получило широкое распространение.",
+  "exTr": "Son yıllarda uzaktan eğitim geniş çapta yaygınlaştı."
+ },
+ {
+  "w": "находить применение",
+  "note": "+ в чём? (П.п.)",
+  "tr": "kullanım alanı bulmak",
+  "ex": "Это открытие нашло широкое применение в медицине и промышленности.",
+  "exTr": "Bu keşif tıpta ve sanayide geniş bir kullanım alanı buldu."
+ },
+ {
+  "w": "вызывать сомнения",
+  "note": "+ у кого? (Р.п.)",
+  "tr": "şüphe uyandırmak",
+  "ex": "Достоверность этих данных вызывает серьёзные сомнения у многих специалистов.",
+  "exTr": "Bu verilerin güvenilirliği birçok uzmanda ciddi şüpheler uyandırıyor."
+ },
+ {
+  "w": "подвергать критике",
+  "note": "+ В.п. (что? кого?)",
+  "tr": "eleştirmek, eleştiriye tabi tutmak",
+  "ex": "Многие известные специалисты подвергли новую теорию резкой критике.",
+  "exTr": "Pek çok tanınmış uzman yeni teoriyi sert bir şekilde eleştirdi."
+ },
+ {
+  "w": "пользоваться спросом",
+  "note": "+ у кого? (Р.п.)",
+  "tr": "rağbet görmek",
+  "ex": "Экологически чистые продукты пользуются большим спросом у покупателей.",
+  "exTr": "Ekolojik açıdan temiz ürünler alıcılar arasında büyük rağbet görüyor."
+ },
+ {
+  "w": "пользоваться популярностью",
+  "note": "+ среди кого? / у кого?",
+  "tr": "popüler olmak, rağbet görmek",
+  "ex": "Этот метод пользуется особой популярностью среди молодых исследователей.",
+  "exTr": "Bu yöntem genç araştırmacılar arasında özellikle popüler."
+ },
+ {
+  "w": "отдавать предпочтение",
+  "note": "+ Д.п. (чему? кому?)",
+  "tr": "tercih etmek",
+  "ex": "Многие современные потребители отдают предпочтение товарам отечественного производства.",
+  "exTr": "Günümüzde birçok tüketici yerli üretim ürünleri tercih ediyor."
+ },
+ {
+  "w": "уступать место",
+  "note": "+ Д.п. (чему?)",
+  "tr": "yerini bırakmak",
+  "ex": "Традиционные методы обучения постепенно уступают место современным цифровым технологиям.",
+  "exTr": "Geleneksel öğretim yöntemleri yerini yavaş yavaş modern dijital teknolojilere bırakıyor."
+ },
+ {
+  "w": "вступать в силу",
+  "note": "kalıp: когда? с какого числа?",
+  "tr": "yürürlüğe girmek",
+  "ex": "Новый закон вступит в силу с первого января следующего года.",
+  "exTr": "Yeni yasa gelecek yılın 1 Ocak tarihinden itibaren yürürlüğe girecek."
+ },
+ {
+  "w": "вести переговоры",
+  "note": "+ о чём? (П.п.) с кем?",
+  "tr": "müzakere yürütmek",
+  "ex": "Стороны ведут переговоры о заключении нового торгового соглашения.",
+  "exTr": "Taraflar yeni bir ticaret anlaşması imzalanması için müzakere yürütüyor."
+ },
+ {
+  "w": "наносить ущерб",
+  "note": "+ Д.п. (чему? кому?)",
+  "tr": "zarar vermek",
+  "ex": "Промышленные выбросы наносят серьёзный ущерб окружающей среде и здоровью людей.",
+  "exTr": "Sanayi emisyonları çevreye ve insan sağlığına ciddi zarar veriyor."
+ },
+ {
+  "w": "производить впечатление",
+  "note": "+ на кого? (В.п.)",
+  "tr": "izlenim bırakmak, etkilemek",
+  "ex": "Доклад молодого учёного произвёл сильное впечатление на слушателей.",
+  "exTr": "Genç bilim insanının sunumu dinleyiciler üzerinde güçlü bir izlenim bıraktı."
+ },
+ {
+  "w": "удовлетворять потребности",
+  "note": "+ Р.п. (кого? чего?)",
+  "tr": "ihtiyaçları karşılamak",
+  "ex": "Производство пока не может удовлетворить растущие потребности населения.",
+  "exTr": "Üretim henüz nüfusun artan ihtiyaçlarını karşılayamıyor."
+ },
+ {
+  "w": "отвечать требованиям",
+  "note": "+ Р.п. (чего?)",
+  "tr": "gereksinimleri karşılamak",
+  "ex": "Новое оборудование лаборатории полностью отвечает современным требованиям безопасности.",
+  "exTr": "Laboratuvarın yeni ekipmanı modern güvenlik gereksinimlerini tamamen karşılıyor."
+ },
+ {
+  "w": "служить примером",
+  "note": "+ для кого? / Д.п.",
+  "tr": "örnek teşkil etmek",
+  "ex": "Опыт этой страны может служить примером для её соседей.",
+  "exTr": "Bu ülkenin deneyimi komşuları için örnek teşkil edebilir."
+ },
+ {
+  "w": "выходить за рамки",
+  "note": "+ Р.п. (чего?)",
+  "tr": "sınırlarını aşmak",
+  "ex": "Этот сложный вопрос выходит далеко за рамки нашего исследования.",
+  "exTr": "Bu karmaşık mesele araştırmamızın sınırlarını çok aşıyor."
+ },
+ {
+  "w": "оставлять желать лучшего",
+  "note": "deyim, olumsuz değerlendirme",
+  "tr": "istenen düzeyde olmamak",
+  "ex": "Качество медицинских услуг в регионе пока оставляет желать лучшего.",
+  "exTr": "Bölgedeki sağlık hizmetlerinin kalitesi henüz istenen düzeyde değil."
+ },
+ {
+  "w": "быть в состоянии",
+  "note": "+ инф.",
+  "tr": "-ebilecek durumda olmak",
+  "ex": "Малые предприятия не в состоянии конкурировать с крупными корпорациями.",
+  "exTr": "Küçük işletmeler büyük şirketlerle rekabet edebilecek durumda değil."
+ },
+ {
+  "w": "обращаться к",
+  "note": "+ Д.п. (к чему? к кому?)",
+  "tr": "başvurmak, ele almak",
+  "ex": "В своей книге автор обращается к истории русской культуры.",
+  "exTr": "Yazar kitabında Rus kültürünün tarihini ele alıyor."
+ }
 ]

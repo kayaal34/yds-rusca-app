@@ -177,7 +177,8 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
   useEffect(() => { lastResults().then(setRes).catch(() => {}); }, []);
   const pool = pools(qs, res);
   const name = topic?.name ?? lesson?.title ?? '';
-  const [sec, setSecState] = useState(() => (resume?.id === id ? resume.sec : 0));
+  const [secRaw, setSecState] = useState(() => (resume?.id === id ? resume.sec : 0));
+  const sec = Math.max(0, Math.min(secRaw, (lesson?.sections.length ?? 1) - 1));
   const setSec = (n: number) => {
     remember({ id, sec: n });
     setSecState(n);
@@ -211,7 +212,7 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
       <T v="small" color="muted">{pool.fresh.length ? 'Önce çözmediklerin, sonra yanlışların gelir' : 'Hepsini çözdün · önce yanlışların gelir'}</T>
       <View style={{ flexDirection: 'row', gap: 8 }}>
         <Btn title={`${Math.min(10, qs.length)} soru`} icon="play" onPress={() => start({ title: name, qs: pool.next(10) })} style={{ flex: 1 }} />
-        {pool.wrong.length > 0 && <Btn kind="secondary" title={`Yanlışlar · ${pool.wrong.length}`} onPress={() => start({ title: `${name} · yanlışlar`, qs: shuffle(pool.wrong) })} style={{ flex: 1 }} />}
+        {pool.wrong.length > 0 && <Btn kind="secondary" title={`Yanlışlar · ${pool.wrong.length}`} onPress={() => start({ title: `${name} · yanlışlar`, qs: shuffle(pool.wrong).slice(0, 20) })} style={{ flex: 1 }} />}
       </View>
     </View>
   );
@@ -273,7 +274,7 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
         {last ? (
           qs.length > 0 ? <Btn title="Teste başla" icon="play" onPress={() => start({ title: name, qs: pool.next(10) })} style={{ flex: 1 }} /> : <Btn title="Dersi bitir" onPress={back} style={{ flex: 1 }} />
         ) : (
-          <Btn title={`Sonraki: ${lesson.sections[sec + 1].h}`} onPress={() => goSec(sec + 1)} style={{ flex: 1 }} />
+          <Btn title={`Sonraki: ${lesson.sections[sec + 1]?.h ?? ''}`} onPress={() => goSec(sec + 1)} style={{ flex: 1 }} />
         )}
       </View>
     </View>

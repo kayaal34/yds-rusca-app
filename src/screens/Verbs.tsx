@@ -7,7 +7,7 @@ import { Clover } from '../Logo';
 import * as Speech from 'expo-speech';
 import { adjectives, adverbs, HARD_BASE, hardVerbs, nouns, phrases, Verb, verbs } from '../data/gen';
 
-import { setVerbKnown, verbKnown } from '../db';
+import { clearVerb, setVerbKnown, verbKnown } from '../db';
 import { Bar, Btn, Card, Chip, Header, Icon, IconBtn, Input, T, useTap } from '../ui';
 import { useSettings } from '../settings';
 import { shuffle } from '../Quiz';
@@ -40,6 +40,11 @@ export function Verbs() {
     setKnown((m) => new Map(m ?? []).set(w, k));
     setVerbKnown(w, k, active).catch((e) => console.warn('Kelime kaydedilemedi', e));
   };
+  // Listede işaret kaldırılınca kelime "hiç çalışılmamış" olur (tekrar listesine düşmez)
+  const unmark = (w: string) => {
+    setKnown((m) => { const n = new Map(m ?? []); n.delete(w); return n; });
+    clearVerb(w).catch(() => {});
+  };
   const knownCount = list.filter((v) => known?.get(v.impf) === true).length;
   const review = list.filter((v) => known?.get(v.impf) === false).length;
 
@@ -66,7 +71,7 @@ export function Verbs() {
         </View>
       </View>
       {/* Deste ancak ilerleme yüklendikten sonra kurulur; yoksa öğrenilenler ilk turda yeniden gelir */}
-      {!known ? null : mode === 'cards' ? <Cards key={round} list={list} batch={st.verbBatch} known={known} mark={mark} again={() => setRound((r) => r + 1)} /> : <List key={cat} list={list} known={known} mark={(w, k) => mark(w, k, false)} />}
+      {!known ? null : mode === 'cards' ? <Cards key={round} list={list} batch={st.verbBatch} known={known} mark={mark} again={() => setRound((r) => r + 1)} /> : <List key={cat} list={list} known={known} mark={(w, k) => (k ? mark(w, true, false) : unmark(w))} />}
     </View>
   );
 }
@@ -95,8 +100,13 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
 
   const v: Verb | undefined = deck[i];
   const nextV: Verb | undefined = deck[i + 1];
+  const answered = useSharedValue(-1); // kaydırma animasyonu sürerken düğmeye basılırsa aynı kart iki kez sayılmasın
+  useEffect(() => () => { Speech.stop(); }, []);
   const answer = (k: boolean) => {
-    if (!v) return;
+    if (!v || answered.get() === i) return;
+    answered.set(i);
+    Speech.stop();
+    setFlipped(false);
     tap(k ? 'success' : 'light');
     mark(v.impf, k);
     setTally((t) => (k ? { ...t, ok: t.ok + 1 } : { ...t, again: t.again + 1 }));
@@ -111,7 +121,7 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
     setFlipped(!flipped);
     flip.set(withTiming(flipped ? 0 : 1, { duration: 420, easing: Easing.inOut(Easing.cubic) }));
   };
-  const swiped = (ok: boolean) => { setFlipped(false); answer(ok); };
+  const swiped = (ok: boolean) => answer(ok);
   const pan = Gesture.Pan()
     .activeOffsetX([-12, 12])
     .failOffsetY([-16, 16])

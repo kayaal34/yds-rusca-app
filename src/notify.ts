@@ -29,8 +29,9 @@ const serial = <T,>(job: () => Promise<T>): Promise<T> => {
 // Seçilen günlerde (1=Pazar … 7=Cumartesi) verilen saatte hatırlatma kurar; öncekileri temizler.
 // doneToday: bugünkü hedef tamamsa bugünün bildirimi atlanır. İzin yoksa false döner.
 // examDate: sınava 7 ve 1 gün kala ve sınav sabahı, seçili günlerden bağımsız özel hatırlatma
-export function scheduleDaily(hour: number, minute: number, days = '1234567', doneToday = false, ask = true, examDate?: string): Promise<boolean> {
-  return serial(() => schedule(hour, minute, days, doneToday, ask, examDate));
+// daily=false: yalnız sınav hatırlatmaları (7 gün, 1 gün, sınav sabahı) kurulur
+export function scheduleDaily(hour: number, minute: number, days = '1234567', doneToday = false, ask = true, examDate?: string, daily = true): Promise<boolean> {
+  return serial(() => schedule(hour, minute, days, doneToday, ask, examDate, daily));
 }
 
 const EXAM_NOTES: Record<number, string> = {
@@ -38,7 +39,7 @@ const EXAM_NOTES: Record<number, string> = {
   1: 'Yarın sınav günü. Bugün hafif bir tekrar yap ve erken uyu.',
 };
 
-async function schedule(hour: number, minute: number, days: string, doneToday: boolean, ask: boolean, examDate?: string): Promise<boolean> {
+async function schedule(hour: number, minute: number, days: string, doneToday: boolean, ask: boolean, examDate?: string, daily = true): Promise<boolean> {
   const perm = ask ? await Notifications.requestPermissionsAsync() : await Notifications.getPermissionsAsync();
   if (!perm.granted) return false;
   await Notifications.cancelAllScheduledNotificationsAsync();
@@ -56,7 +57,7 @@ async function schedule(hour: number, minute: number, days: string, doneToday: b
       continue;
     }
     const special = EXAM_NOTES[left];
-    if (d <= now || (!special && ((i === 0 && doneToday) || !days.includes(String(d.getDay() + 1))))) continue;
+    if (d <= now || (!special && (!daily || (i === 0 && doneToday) || !days.includes(String(d.getDay() + 1))))) continue;
     await Notifications.scheduleNotificationAsync({
       content: { title: 'YDS Rusça', body: special ?? BODIES[i % BODIES.length] },
       trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: d },
@@ -66,10 +67,11 @@ async function schedule(hour: number, minute: number, days: string, doneToday: b
 }
 
 // Hatırlatma açıksa bildirimleri bugünkü duruma göre yeniden kurar (izin istemez)
-export async function syncReminder(s: { reminder: boolean; hour: number; minute: number; days: string; goal: number; examDate?: string }) {
-  if (!s.reminder) return;
+// Dönen değer: günlük hatırlatma açıkken izin yoksa false (çağıran anahtarı kapatır)
+export async function syncReminder(s: { reminder: boolean; hour: number; minute: number; days: string; goal: number; examDate?: string }): Promise<boolean> {
   const done = (await todayCount()) >= s.goal;
-  await scheduleDaily(s.hour, s.minute, s.days, done, false, s.examDate);
+  const ok = await scheduleDaily(s.hour, s.minute, s.days, done, false, s.examDate, s.reminder);
+  return ok || !s.reminder;
 }
 
 export function cancelDaily() {

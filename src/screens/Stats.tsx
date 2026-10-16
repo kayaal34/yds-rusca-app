@@ -57,7 +57,8 @@ export function Stats({ start }: { start: Start }) {
     SECTIONS.reduce((sum, s) => {
       const r = stats.filter((x) => s.topics.includes(x.topic));
       const n = r.reduce((a, x) => a + x.total, 0);
-      const acc = n >= 3 ? r.reduce((a, x) => a + x.right, 0) / n : overall;
+      // Az veriyle uç değer olmasın: bölüm başarısı 5 sanal soru kadar genel başarıya çekilir
+      const acc = (r.reduce((a, x) => a + x.right, 0) + 5 * overall) / (n + 5);
       return sum + s.n * acc * 1.25;
     }, 0)
   );
@@ -98,7 +99,7 @@ export function Stats({ start }: { start: Start }) {
 
           {/* Doğru, yanlış, bu hafta: tek kartta üç sütun */}
           <View style={{ flexDirection: 'row', backgroundColor: c.card, borderRadius: radius.card }}>
-            {([[tot.right, 'Doğru', c.good], [tot.total - tot.right, 'Yanlış', c.bad], [weekTotal, 'Bu hafta', c.text]] as [number, string, string][]).map(([v, l, col], k) => (
+            {([[tot.right, 'Doğru', c.good], [tot.total - tot.right, 'Yanlış', c.bad], [weekTotal, 'Bu hafta cevap', c.text]] as [number, string, string][]).map(([v, l, col], k) => (
               <View key={l} style={[{ flex: 1, alignItems: 'center', paddingVertical: 16 }, k > 0 && { borderLeftWidth: 1, borderLeftColor: c.border }]}>
                 <T v="num" color={col}>{v}</T>
                 <T v="small" color="muted">{l}</T>

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { BackHandler, Pressable, useColorScheme, View } from 'react-native';
+import { AppState, BackHandler, Pressable, useColorScheme, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -9,12 +9,12 @@ import { brand, palettes, ThemeCtx, useTheme } from './src/theme';
 import { SettingsProvider, useSettings } from './src/settings';
 import { cancelDaily, syncReminder } from './src/notify';
 import { syncWidgets } from './src/widgets/sync';
-import { resetAll } from './src/db';
+import { dayStr, resetAll } from './src/db';
 import { DEMO, seedDemoIfEmpty } from './src/demo';
 
 // Geliştirme sırasında her açılışta tüm veriyi siler; açılış animasyonu ve tanıtım baştan görünür.
 // Yalnız Expo Go / geliştirme sunucusunda çalışır (__DEV__), APK ve mağaza sürümünü etkilemez. Kapatmak için false yap.
-const FRESH_START_IN_DEV = true;
+const FRESH_START_IN_DEV = false;
 // Bayrak globalThis'te: dosya kaydedilince (Fast Refresh) veri silinmez. Tam yeniden yükleme (Metro'da r, Reload) ve
 // uygulamayı yeniden açmak veriyi siler.
 const G = globalThis as { __ydsFreshDone?: boolean };
@@ -66,7 +66,7 @@ function Themed({ fontsLoaded }: { fontsLoaded: boolean }) {
 
 function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   const { c } = useTheme();
-  const { s, loaded, reload } = useSettings();
+  const { s, loaded, reload, update } = useSettings();
   // Silme bitene kadar açılış ekranı kalır; eski ayarlarla bildirim kurulmaz
   const [wiping, setWiping] = useState(() => __DEV__ && FRESH_START_IN_DEV && !G.__ydsFreshDone);
   useEffect(() => {
@@ -85,6 +85,14 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   const [session, setSession] = useState<Session | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [rev, setRev] = useState(0); // test bitince ekranlardaki sayılar tazelensin
+  // Uygulama açık kalıp gün değişirse (gece yarısı) ana sayfa ve sayaçlar yeni güne geçsin
+  useEffect(() => {
+    let day = dayStr();
+    const sub = AppState.addEventListener('change', (st) => {
+      if (st === 'active' && dayStr() !== day) { day = dayStr(); setRev((r) => r + 1); }
+    });
+    return () => sub.remove();
+  }, []);
 
   // Geri tuşu bir kez, en başta kaydolur; ekranların (ders, sonuç, tanıtım) kendi işleyicileri her zaman önce çalışır
   const nav = useRef({ session, settingsOpen, tab });
@@ -103,7 +111,11 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   // Hatırlatmalar bugünkü hedefe göre kurulur: hedef tamamsa bugün bildirim gelmez
   useEffect(() => {
     if (!loaded || wiping || seeding || !s.onboarded) return;
-    syncReminder(s).catch(() => {});
+    // Tekerlek çevrilirken her adımda 30 bildirim yeniden kurulmasın
+    const t = setTimeout(() => {
+      syncReminder(s).then((ok) => { if (!ok) update({ reminder: false }); }).catch(() => {});
+    }, 500);
+    return () => clearTimeout(t);
   }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate]);
 
   // iPhone widget'ları (seri, günün fiili) her açılışta, test bitince ve hedef/tarih değişince tazelenir
