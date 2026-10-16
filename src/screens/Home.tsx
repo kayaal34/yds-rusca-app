@@ -163,11 +163,8 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
       {/* Sınav: kalan gün, tarih, hedef puan ve döneme göre öneri */}
       <Animated.View entering={FadeIn.duration(350).delay(100)} style={{ gap: 4 }}>
+        {!passed && <Countdown date={st.examDate} />}
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-          <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 4 }}>
-            <T v="numS">{passed ? '—' : days}</T>
-            <T v="micro" color="muted">gün</T>
-          </View>
           <T v="small" color="muted" style={{ flex: 1 }} numberOfLines={1}>YDS · {examDay}</T>
           <LinkBtn title={`Hedef ${st.target}${band(st.target) ? ` · ${band(st.target)}` : ''}`} icon="target" onPress={openSettings} />
         </View>
@@ -182,5 +179,41 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
         </Animated.View>
       )}
     </ScrollView>
+  );
+}
+
+// Sınava geri sayım: gün, saat, dakika ve saniye (saniye dakikanın yanında, yeşil). ÖSYM oturumu 10:15'te başlar.
+// Kendi saniyelik sayacı var; ana sayfa her saniye yeniden çizilmez.
+const PREP_DAYS = 90; // ilerleme çizgisi: sınavdan önceki son 90 günün ne kadarı geçti
+function Countdown({ date }: { date: string }) {
+  const { c } = useTheme();
+  const exam = new Date(date + 'T10:15:00').getTime();
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  let s = Math.max(0, Math.floor((exam - now) / 1000));
+  const d = Math.floor(s / 86400);
+  s %= 86400;
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+  const two = (n: number) => String(n).padStart(2, '0');
+  const progress = Math.max(0, Math.min(1, 1 - (exam - now) / (PREP_DAYS * 86400000)));
+  return (
+    <View style={{ gap: 8 }} accessible accessibilityLabel={`Sınava ${d} gün ${h} saat ${m} dakika kaldı`}>
+      <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
+        <T v="numL" style={{ fontSize: 40, lineHeight: 44 }}>{d}</T>
+        <T v="small" color="muted">gün</T>
+        <T v="numS" style={{ marginLeft: 6 }}>{two(h)}</T>
+        <T v="small" color="muted">sa</T>
+        <T v="numS" style={{ marginLeft: 6 }}>{two(m)}</T>
+        <T v="small" color="muted">dk</T>
+        <T v="numS" color="primary" style={{ marginLeft: 6 }}>{two(sec)}</T>
+        <T v="small" color="muted">sn</T>
+      </View>
+      <View style={{ height: 2, borderRadius: 1, backgroundColor: c.border }}>
+        <View style={{ width: `${progress * 100}%`, height: 2, borderRadius: 1, backgroundColor: c.primary }} />
+      </View>
+    </View>
   );
 }
