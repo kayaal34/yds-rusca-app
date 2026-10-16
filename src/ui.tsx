@@ -400,6 +400,10 @@ export function Wheel({ values, value, onChange, format = String, label, width =
         decelerationRate="fast"
         nestedScrollEnabled
         overScrollMode="never"
+        // iOS kaydırma alanına kendiliğinden boşluk eklemesin; satırlar seçili şeritle hizalı kalsın
+        contentInsetAdjustmentBehavior="never"
+        automaticallyAdjustContentInsets={false}
+        bounces={false}
         contentOffset={{ x: 0, y: start * ROW }}
         contentContainerStyle={{ paddingVertical: ROW * 2 }}
         scrollEventThrottle={16}

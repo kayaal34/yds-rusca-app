@@ -110,7 +110,10 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
   // eslint-disable-next-line react-hooks/refs
   const [pan] = useState(() =>
     PanResponder.create({
+      // Capture: karttaki dokunma (çevirme) alanı hareketi önce yakalamasın; yatay sürüklemeyi kart katmanı alır (iOS)
+      onMoveShouldSetPanResponderCapture: (_, g) => Math.abs(g.dx) > 10 && Math.abs(g.dx) > Math.abs(g.dy) * 1.5,
       onMoveShouldSetPanResponder: (_, g) => Math.abs(g.dx) > 10 && Math.abs(g.dx) > Math.abs(g.dy) * 1.5,
+      onPanResponderTerminationRequest: () => false,
       onPanResponderMove: (_, g) => tx.set(g.dx),
       onPanResponderRelease: (_, g) => {
         if (Math.abs(g.dx) > SWIPE) {
