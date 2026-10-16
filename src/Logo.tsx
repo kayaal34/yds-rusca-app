@@ -77,7 +77,8 @@ export function ProgressClover({ value, size = 72, color, track, done }: { value
   useEffect(() => {
     p.set(withTiming(Math.max(0, Math.min(1, value)), { duration: 700, easing: Easing.out(Easing.cubic) }));
   }, [value]);
-  const ringP = useAnimatedProps(() => ({ strokeDashoffset: RING * (1 - p.get()) }));
+  // Sıfırda yuvarlak uç tek nokta bırakmasın
+  const ringP = useAnimatedProps(() => ({ strokeDashoffset: RING * (1 - p.get()), strokeOpacity: p.get() > 0.01 ? 1 : 0 }));
   return (
     <View style={{ width: size, height: size, alignItems: 'center', justifyContent: 'center' }}>
       <Svg width={size} height={size} viewBox="0 0 104 104" style={{ position: 'absolute' }}>

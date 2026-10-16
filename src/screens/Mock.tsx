@@ -144,7 +144,7 @@ export function Mock({ start }: { start: Start }) {
         <T v="overline" color="muted">Süre</T>
         <View style={{ alignItems: 'center' }}><BigNum value={mins} unit="dk" /></View>
         <Slider value={mins} min={b.min} max={b.max} step={5} onChange={setMins} />
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
           <T v="small" color="muted">{b.min} dk</T>
           <LinkBtn tone={mins === recommended(n) ? 'muted' : 'primary'} title={`Önerilen ${recommended(n)} dk`} onPress={() => setMins(recommended(n))} />
           <T v="small" color="muted">{b.max} dk</T>
