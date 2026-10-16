@@ -3,6 +3,8 @@ import qb from './q_grammar_b.json';
 import qy from './q_yds_types.json';
 import qc from './q_grammar_c.json';
 import qma from './q_yds_more_a.json';
+import qmb from './q_yds_more_b.json';
+import qr from './q_reading.json';
 import lessonsJson from './lessons.json';
 import lessonsExtra from './lessons_extra.json';
 import v1 from './verbs_1.json';
@@ -15,6 +17,8 @@ import h4 from './hard_verbs_4.json';
 import h5 from './hard_verbs_5.json';
 import h6 from './hard_verbs_6.json';
 import wNoun from './words_nouns.json';
+import wNoun2 from './words_nouns_2.json';
+import wAdv from './words_adverbs.json';
 import wAdj from './words_adj.json';
 import wPhr from './words_phrases.json';
 
@@ -22,7 +26,7 @@ export type RawQ = { topic: string; text: string; options: string[]; answer: num
 export type Lesson = { topic: string; title: string; summary: string; sections: { h: string; body: string; examples: { ru: string; tr: string }[] }[] };
 export type Verb = { r: number; impf: string; perf: string; tr: string; ex: string; exTr: string; gov?: string };
 
-export const genQuestions: RawQ[] = [...qa, ...qb, ...qy, ...qc, ...qma] as RawQ[];
+export const genQuestions: RawQ[] = [...qa, ...qb, ...qy, ...qc, ...qma, ...qmb, ...qr] as RawQ[];
 // Ek dersler: okuma, iki yönlü çeviri, bağlantı ifadeleri (cloze)
 export const lessons: Lesson[] = [...lessonsJson, ...lessonsExtra] as Lesson[];
 
@@ -69,6 +73,7 @@ const asCards = (raw: WordRaw[], base: number): Verb[] => {
     .filter((x) => !seenW.has(x.w) && !!seenW.add(x.w))
     .map((x, i) => ({ r: base + i + 1, impf: x.w, perf: '', gov: x.note, tr: x.tr, ex: x.ex, exTr: x.exTr }));
 };
-export const nouns: Verb[] = asCards(wNoun as WordRaw[], 2 * HARD_BASE);
+export const nouns: Verb[] = asCards([...wNoun, ...wNoun2] as WordRaw[], 2 * HARD_BASE);
 export const adjectives: Verb[] = asCards(wAdj as WordRaw[], 3 * HARD_BASE);
 export const phrases: Verb[] = asCards(wPhr as WordRaw[], 4 * HARD_BASE);
+export const adverbs: Verb[] = asCards(wAdv as WordRaw[], 5 * HARD_BASE);
