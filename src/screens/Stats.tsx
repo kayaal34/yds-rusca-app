@@ -5,7 +5,7 @@ import { icon as ICON, radius, space, useTheme } from '../theme';
 import { useSettings } from '../settings';
 import { SECTIONS } from '../exam';
 import { questions, topicName } from '../data/questions';
-import { last7, lastResults, Reason, REASONS, reasonStats, topicStats, TopicStat } from '../db';
+import { last7, lastResults, weekSummary, Reason, REASONS, reasonStats, topicStats, TopicStat } from '../db';
 import { Bar, BigNum, Btn, Card, Header, Hero, Icon, ListGroup, Section, T } from '../ui';
 import { shuffle } from '../Quiz';
 import type { Start } from './types';
@@ -35,6 +35,7 @@ export function Stats({ start }: { start: Start }) {
   const [week, setWeek] = useState<{ day: string; total: number; right: number }[]>([]);
   const [tot, setTot] = useState({ total: 0, right: 0 });
   const [reasons, setReasons] = useState<{ reason: Reason; n: number }[]>([]);
+  const [wk, setWk] = useState<Awaited<ReturnType<typeof weekSummary>> | null>(null);
 
   useEffect(() => {
     topicStats().then(setStats).catch(() => setStats([]));
@@ -42,6 +43,7 @@ export function Stats({ start }: { start: Start }) {
     // Konu satırlarıyla aynı tanım: çözülen farklı soru ve son cevabı doğru olanlar
     lastResults().then((m) => setTot({ total: m.size, right: [...m.values()].filter(Boolean).length })).catch(() => {});
     reasonStats().then(setReasons).catch(() => {});
+    weekSummary().then(setWk).catch(() => {});
   }, []);
 
   if (!stats) return <View style={{ flex: 1, padding: space.screen }}><Header title="Analiz" /></View>;
@@ -105,7 +107,15 @@ export function Stats({ start }: { start: Start }) {
           </View>
 
           <Card style={{ gap: 12 }}>
-            <T v="h3">Son 7 gün</T>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
+              <T v="h3">Son 7 gün</T>
+              {/* Haftalık özet: geçen haftayla doğru oranı farkı */}
+              {wk && wk.now.n > 0 && (() => {
+                const acc = Math.round((wk.now.right / wk.now.n) * 100);
+                const prevAcc = wk.prev.n ? Math.round((wk.prev.right / wk.prev.n) * 100) : null;
+                return <T v="small" color="text2">{wk.now.n} soru · %{acc} doğru{prevAcc !== null && acc !== prevAcc ? ` · ${acc > prevAcc ? '+' : '−'}${Math.abs(acc - prevAcc)}` : ''}</T>;
+              })()}
+            </View>
             <View style={{ flexDirection: 'row', alignItems: 'flex-end' }}>
               {week.map((w, i) => <Column key={w.day} i={i} v={w.total} max={max} today={i === week.length - 1} label={DAYS[new Date(w.day + 'T12:00:00').getDay()]} />)}
             </View>

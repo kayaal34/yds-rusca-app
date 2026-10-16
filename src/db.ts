@@ -124,6 +124,16 @@ export async function last7(): Promise<{ day: string; total: number; right: numb
   return out;
 }
 
+// Haftalık özet: son 7 gün ve ondan önceki 7 gün (soru sayısı ve doğru oranı)
+export async function weekSummary(): Promise<{ now: { n: number; right: number }; prev: { n: number; right: number } }> {
+  const d = await db();
+  const day = (k: number) => { const t = new Date(); t.setDate(t.getDate() - k); return dayStr(t); };
+  const q = (from: string, to: string) =>
+    d.getFirstAsync<{ n: number; right: number }>('SELECT COUNT(*) AS n, COALESCE(SUM(correct),0) AS right FROM answers WHERE day >= ? AND day <= ?', [from, to]);
+  const [now, prev] = await Promise.all([q(day(6), day(0)), q(day(13), day(7))]);
+  return { now: now ?? { n: 0, right: 0 }, prev: prev ?? { n: 0, right: 0 } };
+}
+
 export async function totals(): Promise<{ total: number; right: number }> {
   const d = await db();
   const r = await d.getFirstAsync<{ total: number; right: number }>('SELECT COUNT(*) AS total, COALESCE(SUM(correct),0) AS right FROM answers');
