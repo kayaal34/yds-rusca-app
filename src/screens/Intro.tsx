@@ -6,7 +6,7 @@ import { brand, font, radius, space, useTheme } from '../theme';
 import { osymQuestions } from '../data/osym';
 import { band, daysUntil, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily } from '../notify';
-import { Btn, Chip, DateWheel, IconBadge, IconBtn, IconName, Input, LevelPicker, ListGroup, ListItem, Section, Segmented, Slider, T, TimeWheel, useTap } from '../ui';
+import { Btn, Chip, DateWheel, IconBadge, IconBtn, IconName, Input, LevelPicker, ListGroup, ListItem, Section, Segmented, Slider, T, TimeWheel } from '../ui';
 
 const SPLASH_BG = brand.bg;
 const SPLASH_FG = brand.fg;
@@ -84,7 +84,6 @@ function Step({ icon, title, text, children, actions }: { icon?: IconName; title
 // İlk açılış: tanıtım → ad → sınav tarihi → hedef → bildirim → plan
 export function Onboarding() {
   const { c } = useTheme();
-  const tap = useTap();
   const { s: st, update } = useSettings();
   const [step, setStep] = useState(0);
   const [name, setName] = useState(st.name);
@@ -169,7 +168,7 @@ export function Onboarding() {
           <Slider value={target} min={40} max={100} step={1} onChange={setTarget} />
           <LevelPicker value={target} onChange={setTarget} />
           <Section title="Günde kaç soru" />
-          <Segmented items={GOALS.map(([g, l]) => ({ v: g, l: `${g} · ${l}` }))} value={goal} onChange={(g) => { tap(); setGoal(g); }} />
+          <Segmented items={GOALS.map(([g, l]) => ({ v: g, l: `${g} · ${l}` }))} value={goal} onChange={setGoal} />
           {/* Seri ve yonca kuralı baştan anlatılır */}
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: c.card, borderRadius: radius.card, padding: space.card }}>
             <View style={{ transform: [{ rotate: '18deg' }] }}>
