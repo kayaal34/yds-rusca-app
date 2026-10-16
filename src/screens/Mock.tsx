@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Alert, Pressable, ScrollView, View } from 'react-native';
-import { radius, useTheme } from '../theme';
+import { Alert, ScrollView, View } from 'react-native';
+import { radius, space, useTheme } from '../theme';
 import { fmtScore, score, useSettings } from '../settings';
 import { questions } from '../data/questions';
 import { buildExam, Draft, quotas, SECTIONS } from '../exam';
 import { clearDraft, loadDraft, parseDetail, restore, Result } from '../Quiz';
 import { ExamRow, exams, examSeen, resetSeen } from '../db';
-import { Bar, Btn, Card, Header, Hero, Icon, ListGroup, ListItem, Section, Segmented, Slider, T } from '../ui';
+import { Bar, BigNum, Btn, Card, Header, Hero, IconBadge, LinkBtn, ListGroup, ListItem, Section, Segmented, Slider, T } from '../ui';
 import type { Start } from './types';
 
 // YDS: 80 soru 180 dk, yani soru başı 2,25 dk. Alt sınır soru başı 1 dk.
@@ -17,11 +17,13 @@ const bounds = (n: number) => ({ min: Math.max(5, Math.round(n / 5) * 5), max: M
 const OSYM_EXAMS = [...new Set(questions.filter((q) => q.source === 'osym' && q.exam).map((q) => q.exam!))];
 const OSYM_BY_EXAM = new Map(OSYM_EXAMS.map((e) => [e, questions.filter((q) => q.exam === e).sort((a, b) => (a.no ?? 0) - (b.no ?? 0))]));
 
-const SOURCES = [
+// ÖSYM verisi yoksa (depodaki sürüm) kaynak seçimi gizlenir
+const SOURCE_LIST = [
   { v: 'all' as const, l: 'Karma' },
   { v: 'ozgun' as const, l: 'Özgün' },
   { v: 'osym' as const, l: 'ÖSYM' },
 ];
+const sources = OSYM_EXAMS.length ? SOURCE_LIST : SOURCE_LIST.filter((x) => x.v === 'ozgun');
 
 export function Mock({ start }: { start: Start }) {
   const { c } = useTheme();
@@ -94,33 +96,33 @@ export function Mock({ start }: { start: Start }) {
   const osymExams = OSYM_EXAMS;
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 20, gap: 12, paddingBottom: 32 }} showsVerticalScrollIndicator={false}>
+    <ScrollView contentContainerStyle={{ padding: space.screen, gap: space.gap, paddingBottom: 32 }} showsVerticalScrollIndicator={false}>
       <Header title="Deneme" />
 
       {draft && (
-        <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: 16, gap: 12 }}>
+        <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: space.card, gap: 12 }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-            <Icon name="pause-circle" size={20} color={c.primary} />
+            <IconBadge name="pause-circle" />
             <View style={{ flex: 1, gap: 2 }}>
               <T v="h3">Yarım kalan deneme</T>
               <T v="small" color="muted">{draft.title} · {draft.picks.filter((x) => x !== null).length}/{draft.ids.length} yanıtlı{draft.minutes ? ` · ${Math.max(0, draft.minutes - Math.floor(draft.elapsed / 60))} dk kaldı` : ''}</T>
             </View>
           </View>
           <Btn title="Kaldığın yerden devam et" icon="play" onPress={() => resume(draft)} />
-          <Btn kind="ghost" title="Yarım denemeyi sil" onPress={() => Alert.alert('Yarım deneme silinsin mi?', 'Cevapların kaydedilmez.', [{ text: 'Vazgeç', style: 'cancel' }, { text: 'Sil', style: 'destructive', onPress: () => { clearDraft().catch(() => {}); setDraft(null); } }])} />
+          <LinkBtn tone="muted" title="Yarım denemeyi sil" onPress={() => Alert.alert('Yarım deneme silinsin mi?', 'Cevapların kaydedilmez.', [{ text: 'Vazgeç', style: 'cancel' }, { text: 'Sil', style: 'destructive', onPress: () => { clearDraft().catch(() => {}); setDraft(null); } }])} />
         </View>
       )}
 
       <View style={{ gap: 8 }}>
-        <T v="overline" color="muted">Soru sayısı</T>
+        <Section title="Soru sayısı" />
         <Segmented items={[{ v: 20, l: '20' }, { v: 40, l: '40' }, { v: 80, l: '80 · tam' }]} value={n} onChange={setCount} />
-        <T v="small" color="muted">{n === 80 ? 'Gerçek YDS düzeni: 6 kelime, 10 dilbilgisi, 10 cloze, 10 cümle tamamlama, 6 çeviri, 20 okuma, 5 diyalog, 4 yakın anlam, 4 paragraf tamamlama, 5 anlam bütünlüğü. Her doğru 1,25 puan.' : 'YDS bölümleri aynı oranda ve sırada, küçültülmüş. Sonuçta doğru ve yanlış sayın gösterilir.'}</T>
+        <T v="small" color="muted">{n === 80 ? 'Gerçek YDS bölüm düzeni · her doğru 1,25 puan' : 'YDS bölümleri küçültülmüş · doğru ve yanlış sayısı'}</T>
       </View>
 
       <View style={{ gap: 8 }}>
-        <T v="overline" color="muted">Sorular</T>
-        <Segmented items={SOURCES} value={src} onChange={setSrc} />
-        <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: 16, gap: 8 }}>
+        {sources.length > 1 && <Section title="Sorular" />}
+        {sources.length > 1 && <Segmented items={sources} value={src} onChange={setSrc} />}
+        <View style={{ backgroundColor: c.card, borderRadius: radius.card, padding: space.card, gap: 8 }}>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
             <T v="small" color="text2">Havuzda</T>
             <T v="smallM">{pool.length} soru</T>
@@ -131,32 +133,25 @@ export function Mock({ start }: { start: Start }) {
           </View>
           <Bar value={unseen / Math.max(1, pool.length)} height={4} />
           <T v="small" color="muted">
-            {allFresh ? `Tümü yeni sorulardan. Yaklaşık ${fresh} deneme daha yeni sorularla çözebilirsin.` : 'Bazı bölümlerde yeni soru bitti; o bölümler en eski gördüklerinden tamamlanır.'}
-            {short.length ? ` Bu havuzda eksik bölüm var (${short.join(', ')}); eksikler diğer bölümlerden tamamlanır${n === 80 ? ', puan yerine doğru sayısı gösterilir' : ''}.` : ''}
+            {allFresh ? `Tümü yeni sorulardan · yaklaşık ${fresh} deneme daha` : 'Bazı bölümler en eski gördüklerinden tamamlanır'}
           </T>
-          {seen.size > 0 && (
-            <Pressable onPress={clearSeen} hitSlop={6} style={{ alignSelf: 'flex-start' }}>
-              <T v="smallM" color="primary">Görülenleri sıfırla</T>
-            </Pressable>
-          )}
+          {short.length > 0 && <T v="small" color="muted">{`Eksik bölüm: ${short.join(', ')}${n === 80 ? ' · puan yerine doğru sayısı' : ''}`}</T>}
+          {seen.size > 0 && <LinkBtn title="Görülenleri sıfırla" onPress={clearSeen} />}
         </View>
       </View>
 
-      <Hero style={{ gap: 8, marginTop: 4 }}>
+      <Hero style={{ gap: 8 }}>
         <T v="overline" color="muted">Süre</T>
-        <View style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'center', gap: 8 }}>
-          <T v="big">{mins}</T>
-          <T v="body" color="muted" style={{ marginBottom: 12 }}>dk</T>
-        </View>
+        <View style={{ alignItems: 'center' }}><BigNum value={mins} unit="dk" /></View>
         <Slider value={mins} min={b.min} max={b.max} step={5} onChange={setMins} />
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
           <T v="small" color="muted">{b.min} dk</T>
-          <Pressable onPress={() => setMins(recommended(n))} hitSlop={6}><T v="smallM" color={mins === recommended(n) ? 'muted' : 'primary'}>Önerilen {recommended(n)} dk</T></Pressable>
+          <LinkBtn tone={mins === recommended(n) ? 'muted' : 'primary'} title={`Önerilen ${recommended(n)} dk`} onPress={() => setMins(recommended(n))} />
           <T v="small" color="muted">{b.max} dk</T>
         </View>
       </Hero>
 
-      <Btn title="Denemeyi başlat" onPress={begin} style={{ marginTop: 4 }} />
+      <Btn title="Denemeyi başlat" icon="play" onPress={begin} />
 
       {osymExams.length > 0 && (
         <>
@@ -183,7 +178,7 @@ export function Mock({ start }: { start: Start }) {
             <View pointerEvents="none" style={{ position: 'absolute', left: 0, right: 0, bottom: `${st.target}%`, height: 1, backgroundColor: c.primary + '55' }} />
             {fullHist.map((h) => {
               const p = score(h.right, h.total);
-              return <View key={h.id} accessibilityLabel={`${fmtScore(h.right, h.total)} puan`} style={{ flex: 1, height: `${Math.max(4, p)}%`, borderRadius: 6, backgroundColor: p >= st.target ? c.primary : c.primary + '59' }} />;
+              return <View key={h.id} accessibilityLabel={`${fmtScore(h.right, h.total)} puan`} style={{ flex: 1, height: `${Math.max(4, p)}%`, borderRadius: radius.sm, backgroundColor: p >= st.target ? c.primary : c.primary + '59' }} />;
             })}
           </View>
         </View>
