@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import Animated, { Easing, FadeIn, FadeInDown } from 'react-native-reanimated';
 import { useFonts, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
-import { palettes, ThemeCtx, useTheme } from './src/theme';
+import { brand, palettes, ThemeCtx, useTheme } from './src/theme';
 import { SettingsProvider, useSettings } from './src/settings';
 import { cancelDaily, syncReminder } from './src/notify';
 import { syncWidgets } from './src/widgets/sync';
@@ -118,7 +118,7 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   }, [splash]);
   const enter = intro ? FadeInDown.duration(700).delay(150).easing(Easing.out(Easing.cubic)) : undefined;
 
-  if (!fontsLoaded) return <View style={{ flex: 1, backgroundColor: '#2F4A3E' }} />;
+  if (!fontsLoaded) return <View style={{ flex: 1, backgroundColor: brand.bg }} />;
   if (splash || !loaded || wiping || seeding) return <><StatusBar style="light" /><Splash onDone={() => setSplash(false)} /></>;
 
   const wrap = (child: React.ReactNode) => <SafeAreaView style={{ flex: 1, backgroundColor: c.bg }}>{child}</SafeAreaView>;

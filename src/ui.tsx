@@ -1,9 +1,9 @@
 import { Children, ComponentProps, ReactNode, useEffect, useRef, useState } from 'react';
-import { PanResponder, Pressable, StyleProp, Text, TextProps, View, ViewStyle } from 'react-native';
+import { PanResponder, Pressable, StyleProp, Text, TextInput, TextProps, View, ViewStyle } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import Feather from '@expo/vector-icons/Feather';
 import Animated, { Easing, runOnJS, SharedValue, useAnimatedScrollHandler, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
-import { radius, type, useStyles, useTheme } from './theme';
+import { icon as ICON, PRESSED, radius, space, type, useStyles, useTheme } from './theme';
 import { band, useSettings } from './settings';
 
 export type IconName = ComponentProps<typeof Feather>['name'];
@@ -53,22 +53,22 @@ export function Btn({ title, onPress, kind = 'primary', icon, style, disabled }:
       onPress={() => { tap(); onPress(); }}
       style={({ pressed }) => [
         { backgroundColor: bg, borderRadius: radius.pill, height: 52, paddingHorizontal: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8 },
-        (pressed || disabled) && { opacity: disabled ? 0.4 : 0.85 },
+        (pressed || disabled) && { opacity: disabled ? 0.4 : PRESSED },
         style,
       ]}
     >
-      {icon && <Feather name={icon} size={18} color={fg} />}
+      {icon && <Feather name={icon} size={ICON.row} color={fg} />}
       <Text style={[type.bodyM, { color: fg }]}>{title}</Text>
     </Pressable>
   );
 }
 
 export function Card({ children, style, onPress }: { children: ReactNode; style?: StyleProp<ViewStyle>; onPress?: () => void }) {
-  const st = useStyles((c) => ({ card: { backgroundColor: c.card, borderRadius: radius.card, padding: 16, gap: 8 } }));
+  const st = useStyles((c) => ({ card: { backgroundColor: c.card, borderRadius: radius.card, padding: space.card, gap: 8 } }));
   const tap = useTap();
   if (!onPress) return <View style={[st.card, style]}>{children}</View>;
   return (
-    <Pressable onPress={() => { tap(); onPress(); }} style={({ pressed }) => [st.card, pressed && { opacity: 0.75 }, style]}>
+    <Pressable onPress={() => { tap(); onPress(); }} style={({ pressed }) => [st.card, pressed && { opacity: PRESSED }, style]}>
       {children}
     </Pressable>
   );
@@ -87,7 +87,7 @@ export function Row({ icon, title, subtitle, right, onPress, progress, tint }: {
         {!!subtitle && <T v="small" color="muted">{subtitle}</T>}
         {progress !== undefined && <View style={{ marginTop: 8 }}><Bar value={progress} height={4} /></View>}
       </View>
-      {right ?? (onPress ? <Feather name="chevron-right" size={20} color={c.muted} /> : null)}
+      {right ?? (onPress ? <Feather name="chevron-right" size={ICON.row} color={c.muted} /> : null)}
     </Card>
   );
 }
@@ -111,24 +111,25 @@ export function ListGroup({ children, inset = 16, style }: { children: ReactNode
 }
 
 // ListGroup satırı: ikon, başlık, alt yazı, sağda değer; dokunulabiliyorsa ok işareti
-export function ListItem({ icon, title, sub, right, onPress, disabled }: { icon?: IconName; title: string; sub?: string; right?: ReactNode; onPress?: () => void; disabled?: boolean }) {
+// İkon nötr (text2); yeşil yalnız durum ve ana eylem için. danger: sıfırlama gibi geri alınamaz satırlar.
+export function ListItem({ icon, title, sub, right, onPress, disabled, danger, chevron = true }: { icon?: IconName; title: string; sub?: string; right?: ReactNode; onPress?: () => void; disabled?: boolean; danger?: boolean; chevron?: boolean }) {
   const { c } = useTheme();
   const tap = useTap();
   const body = (
     <>
-      {icon && <Feather name={icon} size={18} color={c.primary} />}
+      {icon && <Feather name={icon} size={ICON.row} color={danger ? c.bad : c.text2} />}
       <View style={{ flex: 1, gap: 2 }}>
-        <T v="h3">{title}</T>
+        <T v="h3" color={danger ? 'bad' : 'text'}>{title}</T>
         {!!sub && <T v="small" color="muted">{sub}</T>}
       </View>
       {right}
-      {onPress && !disabled && <Feather name="chevron-right" size={18} color={c.muted} />}
+      {onPress && !disabled && chevron && !danger && <Feather name="chevron-right" size={ICON.row} color={c.muted} />}
     </>
   );
-  const row = { flexDirection: 'row' as const, alignItems: 'center' as const, gap: 16, padding: 16, minHeight: 56 };
+  const row = { flexDirection: 'row' as const, alignItems: 'center' as const, gap: 16, paddingHorizontal: space.card, paddingVertical: 12, minHeight: 56 };
   if (!onPress || disabled) return <View style={row}>{body}</View>;
   return (
-    <Pressable onPress={() => { tap(); onPress(); }} accessibilityRole="button" style={({ pressed }) => [row, pressed && { opacity: 0.6 }]}>
+    <Pressable onPress={() => { tap(); onPress(); }} accessibilityRole="button" style={({ pressed }) => [row, pressed && { opacity: PRESSED }]}>
       {body}
     </Pressable>
   );
@@ -136,7 +137,7 @@ export function ListItem({ icon, title, sub, right, onPress, disabled }: { icon?
 
 export function Hero({ children, style }: { children: ReactNode; style?: StyleProp<ViewStyle> }) {
   const { c } = useTheme();
-  return <View style={[{ backgroundColor: c.panel, borderRadius: radius.card, padding: 20 }, style]}>{children}</View>;
+  return <View style={[{ backgroundColor: c.panel, borderRadius: radius.card, padding: space.card }, style]}>{children}</View>;
 }
 
 // Genişliği yumuşakça dolan ilerleme çubuğu
@@ -154,11 +155,12 @@ export function Bar({ value, color, height = 6, track }: { value: number; color?
 
 export function Header({ title, subtitle, right, onBack }: { title: string; subtitle?: string; right?: ReactNode; onBack?: () => void }) {
   const { c } = useTheme();
+  const tap = useTap();
   return (
     <View style={{ gap: 4, marginTop: 4, marginBottom: 4 }}>
       {onBack && (
-        <Pressable onPress={onBack} hitSlop={12} style={{ flexDirection: 'row', alignItems: 'center', gap: 4, marginBottom: 8, alignSelf: 'flex-start' }}>
-          <Feather name="chevron-left" size={20} color={c.primary} />
+        <Pressable onPress={() => { tap(); onBack(); }} hitSlop={12} accessibilityRole="button" style={{ flexDirection: 'row', alignItems: 'center', gap: 4, minHeight: 44, alignSelf: 'flex-start' }}>
+          <Feather name="chevron-left" size={ICON.nav} color={c.primary} />
           <T v="bodyM" color="primary">Geri</T>
         </Pressable>
       )}
@@ -188,8 +190,8 @@ export function Segmented<V extends string | number>({ items, value, onChange }:
       {items.map((it) => {
         const on = it.v === value;
         return (
-          <Pressable key={String(it.v)} onPress={() => { tap(); onChange(it.v); }} accessibilityRole="button" accessibilityState={{ selected: on }} style={[{ flex: 1, paddingVertical: 11, borderRadius: radius.pill, alignItems: 'center' }, on && { backgroundColor: c.primary }]}>
-            <T v="smallM" color={on ? c.onPrimary : 'muted'}>{it.l}</T>
+          <Pressable key={String(it.v)} onPress={() => { tap(); onChange(it.v); }} accessibilityRole="button" accessibilityState={{ selected: on }} style={[{ flex: 1, minHeight: 44, justifyContent: 'center', borderRadius: radius.pill, alignItems: 'center', borderWidth: 1, borderColor: 'transparent' }, on && { backgroundColor: c.primarySoft, borderColor: c.primary + '59' }]}>
+            <T v="smallM" color={on ? 'primary' : 'muted'}>{it.l}</T>
           </Pressable>
         );
       })}
@@ -197,9 +199,67 @@ export function Segmented<V extends string | number>({ items, value, onChange }:
   );
 }
 
+// Yuvarlak ikon düğmesi: üst çubukta 40, alt eylem çubuğunda 52
+export function IconBtn({ name, onPress, label, size = 40, on, disabled, tone = 'card' }: { name: IconName; onPress: () => void; label: string; size?: 40 | 52; on?: boolean; disabled?: boolean; tone?: 'card' | 'outline' }) {
+  const { c } = useTheme();
+  const tap = useTap();
+  return (
+    <Pressable
+      onPress={() => { tap(); onPress(); }}
+      disabled={disabled}
+      hitSlop={size < 44 ? 4 : 0}
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      accessibilityState={{ selected: !!on, disabled: !!disabled }}
+      style={({ pressed }) => [
+        { width: size, height: size, borderRadius: size / 2, alignItems: 'center', justifyContent: 'center' },
+        tone === 'card' ? { backgroundColor: on ? c.primarySoft : c.card } : { borderWidth: 1, borderColor: on ? c.primary + '59' : c.border, backgroundColor: on ? c.primarySoft : 'transparent' },
+        (pressed || disabled) && { opacity: disabled ? 0.35 : PRESSED },
+      ]}
+    >
+      <Feather name={name} size={size > 44 ? ICON.nav : ICON.row} color={on ? c.primary : tone === 'outline' ? c.primary : c.text2} />
+    </Pressable>
+  );
+}
+
+// Üçüncül eylem: düz yeşil metin bağlantısı (Düzenle, Sıfırla, Not ekle …), 44pt dokunma alanı
+export function LinkBtn({ title, onPress, icon, tone = 'primary' }: { title: string; onPress: () => void; icon?: IconName; tone?: 'primary' | 'muted' }) {
+  const { c } = useTheme();
+  const tap = useTap();
+  const col = tone === 'primary' ? c.primary : c.muted;
+  return (
+    <Pressable onPress={() => { tap(); onPress(); }} accessibilityRole="button" style={({ pressed }) => [{ flexDirection: 'row', alignItems: 'center', gap: 6, minHeight: 44, alignSelf: 'flex-start' }, pressed && { opacity: PRESSED }]}>
+      {icon && <Feather name={icon} size={ICON.inline} color={col} />}
+      <T v="smallM" color={col}>{title}</T>
+    </Pressable>
+  );
+}
+
+// Büyük ince rakam ve yanında soluk birim (puan, gün, yüzde) — her yerde aynı hiza
+export function BigNum({ value, unit, size = 'S', color }: { value: string | number; unit?: string; size?: 'S' | 'L'; color?: string }) {
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+      <T v={size === 'L' ? 'bigL' : 'bigS'} color={color}>{String(value)}</T>
+      {!!unit && <T v="numS" color="muted">{unit}</T>}
+    </View>
+  );
+}
+
+// Metin girişi: tek stil (ad, arama, not)
+export function Input(props: ComponentProps<typeof TextInput> & { icon?: IconName }) {
+  const { c } = useTheme();
+  const { icon: ic, style, ...rest } = props;
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: c.card, borderRadius: radius.btn, borderWidth: 1, borderColor: c.border, paddingHorizontal: 16, minHeight: 48 }}>
+      {ic && <Feather name={ic} size={ICON.row} color={c.muted} />}
+      <TextInput placeholderTextColor={c.muted} {...rest} style={[type.body, { flex: 1, color: c.text, paddingVertical: 12 }, style]} />
+    </View>
+  );
+}
+
 export function Stat({ value, label, color, style }: { value: string | number; label: string; color?: string; style?: StyleProp<ViewStyle> }) {
   return (
-    <Card style={[{ flex: 1, gap: 2, padding: 16 }, style]}>
+    <Card style={[{ flex: 1, gap: 2 }, style]}>
       <T v="num" color={color}>{String(value)}</T>
       <T v="small" color="muted">{label}</T>
     </Card>
@@ -221,9 +281,9 @@ export function Chip({ label, on, onPress, icon }: { label: string; on?: boolean
   const { c } = useTheme();
   const tap = useTap();
   const body = (
-    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 8, backgroundColor: on ? c.primary : c.card, borderWidth: 1, borderColor: on ? c.primary : c.border }}>
-      {icon && <Feather name={icon} size={13} color={on ? c.onPrimary : c.text2} />}
-      <T v="chip" color={on ? c.onPrimary : 'text2'}>{label}</T>
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, borderRadius: radius.pill, paddingHorizontal: 12, minHeight: 34, backgroundColor: on ? c.primarySoft : c.card, borderWidth: 1, borderColor: on ? c.primary + '59' : c.border }}>
+      {icon && <Feather name={icon} size={ICON.inline} color={on ? c.primary : c.text2} />}
+      <T v="chip" color={on ? 'primary' : 'text2'}>{label}</T>
     </View>
   );
   if (!onPress) return body;
@@ -406,9 +466,9 @@ export function LevelPicker({ value, onChange }: { value: number; onChange: (v: 
         const on = cur === l;
         return (
           <Pressable key={l} onPress={() => { tap(); onChange(min); }} accessibilityRole="button" accessibilityState={{ selected: on }} accessibilityLabel={`${l} seviyesi, ${range} puan`}
-            style={{ flex: 1, alignItems: 'center', paddingVertical: 8, minHeight: 48, borderRadius: radius.btn, backgroundColor: on ? c.primary : c.card2 }}>
-            <T v="smallM" color={on ? c.onPrimary : 'text'}>{l}</T>
-            <T v="micro" color={on ? c.onPrimary : 'muted'} style={{ fontVariant: ['tabular-nums'] }}>{range}</T>
+            style={{ flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 48, borderRadius: radius.btn, backgroundColor: on ? c.primarySoft : c.card2, borderWidth: 1, borderColor: on ? c.primary + '59' : 'transparent' }}>
+            <T v="smallM" color={on ? 'primary' : 'text'}>{l}</T>
+            <T v="micro" color={on ? 'primary' : 'muted'} style={{ fontVariant: ['tabular-nums'] }}>{range}</T>
           </Pressable>
         );
       })}

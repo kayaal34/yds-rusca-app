@@ -12,7 +12,6 @@ const light = {
   text2: '#46524C',
   muted: '#5E6862', // açık zeminde okunur kontrast
   primary: '#2F4A3E',
-  primaryDark: '#223A30',
   primarySoft: '#C9DACF', // panelden bir ton yeşil, panel üstünde de seçilir
   good: '#2E7D55',
   goodSoft: '#DCEBDF',
@@ -20,8 +19,6 @@ const light = {
   badSoft: '#EBD9D3',
   warn: '#9A6B16',
   onPrimary: '#F1F5F2',
-  hero1: '#D5DED7',
-  hero2: '#D5DED7',
 };
 
 // Koyu "Sis": gece ormanı. Zemin, kart ve panel ayrı katmanlar; vurgu yumuşak adaçayı yeşili
@@ -35,7 +32,6 @@ const dark: typeof light = {
   text2: '#BAC6BF',
   muted: '#8B988F',
   primary: '#9CCDB2',
-  primaryDark: '#86B99D',
   primarySoft: '#1E3229',
   good: '#8AD4AA',
   goodSoft: '#173026',
@@ -43,14 +39,20 @@ const dark: typeof light = {
   badSoft: '#34211B',
   warn: '#E8C070',
   onPrimary: '#0B1A13',
-  hero1: '#1B2621',
-  hero2: '#1B2621',
 };
 
 export type Colors = typeof light;
 export const palettes = { light, dark };
 // Köşe ölçeği: küçük öğeler 8, düğme ve satırlar 16, kartlar 24, hap 999
 export const radius = { sm: 8, btn: 16, card: 24, pill: 999 };
+// Boşluk: kart içi 20 (tüm kartlar aynı hizada başlar), ekran kenarı 20, bloklar arası 16
+export const space = { card: 20, screen: 20, gap: 16 };
+// İkon ölçeği: satır içi 14, satır/düğme 18, gezinme 20, boş durum 32
+export const icon = { inline: 14, row: 18, nav: 20, empty: 32 };
+// Basınca tek geri bildirim
+export const PRESSED = 0.7;
+// Marka renkleri: açılış ekranı ve sistem çubuğu (temadan bağımsız)
+export const brand = { bg: '#2F4A3E', fg: '#E8ECE7', muted: '#A9BDB1', leaf: '#8FC2A6' };
 
 export const font = {
   thin: 'Inter_200ExtraLight',
@@ -88,6 +90,7 @@ export const type: Record<string, TextStyle> = {
   numL: { fontFamily: font.thin, fontSize: 48, letterSpacing: -1.5, lineHeight: 52, fontVariant: ['tabular-nums'] },
   bigS: { fontFamily: font.thin, fontSize: 56, letterSpacing: -2, lineHeight: 60, fontVariant: ['tabular-nums'] },
   bigL: { fontFamily: font.thin, fontSize: 76, letterSpacing: -3, lineHeight: 82, fontVariant: ['tabular-nums'] },
+  word: { fontFamily: font.light, fontSize: 40, letterSpacing: -1, lineHeight: 46 }, // kelime kartı
 };
 
 export const ThemeCtx = createContext<{ c: Colors; isDark: boolean }>({ c: light, isDark: false });

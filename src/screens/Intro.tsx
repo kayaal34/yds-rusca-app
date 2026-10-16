@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import { BackHandler, Keyboard, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, View } from 'react-native';
 import Animated, { Easing, FadeIn, FadeOut, useAnimatedStyle, useSharedValue, withDelay, withTiming } from 'react-native-reanimated';
 import { Clover, LogoMark } from '../Logo';
-import { font, radius, useTheme } from '../theme';
+import { brand, font, radius, useTheme } from '../theme';
 import { band, daysUntil, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily } from '../notify';
 import { Btn, Chip, DateWheel, Icon, IconBadge, IconName, LevelPicker, Slider, T, TimeWheel } from '../ui';
 
-const SPLASH_BG = '#2F4A3E';
-const SPLASH_FG = '#E8ECE7';
-const SPLASH_MUTED = '#A9BDB1';
-const SPLASH_LEAF = '#8FC2A6';
+const SPLASH_BG = brand.bg;
+const SPLASH_FG = brand.fg;
+const SPLASH_MUTED = brand.muted;
+const SPLASH_LEAF = brand.leaf;
 const out = Easing.out(Easing.cubic);
 
 // Tek harf: aşağıdan süzülerek belirir
