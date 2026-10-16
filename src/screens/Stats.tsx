@@ -119,7 +119,7 @@ export function Stats({ start }: { start: Start }) {
 
           <Section title="Konu bazında" />
           {rows.map((r) => {
-            const color = r.p < 0.5 ? c.bad : r.p < 0.7 ? c.warn : c.good;
+            const color = r.p < 0.5 ? c.bad : c.primary; // tek vurgu; yalnız çok düşük başarı kırmızı
             return (
               <Card key={r.topic} style={{ gap: 12 }}>
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>

@@ -119,7 +119,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           )}
         </View>
         <Item icon="alert-circle" label="Sınav uyarıları">
-          <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.border }} thumbColor={c.card} />
+          <Switch value={st.examAlerts} onValueChange={(v) => update({ examAlerts: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.examAlerts ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
       <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>Denemede yarı süre, 30 dakika ve 5 dakika kala kısa bir uyarı ve titreşim.</T>
@@ -127,7 +127,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
       <Section title="Bildirim" />
       <Group>
         <Item icon="bell" label="Günlük hatırlatma">
-          <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.border }} thumbColor={c.card} />
+          <Switch value={st.reminder} onValueChange={(v) => setReminder(v)} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.reminder ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
         </Item>
         {st.reminder && (
         <View style={{ padding: 16, gap: 8 }}>
@@ -173,7 +173,7 @@ export function SettingsScreen({ back }: { back: () => void }) {
           <Segmented items={[{ v: 'system' as const, l: 'Sistem' }, { v: 'light' as const, l: 'Açık' }, { v: 'dark' as const, l: 'Koyu' }]} value={st.theme} onChange={(v) => update({ theme: v })} />
         </View>
         <Item icon="smartphone" label="Titreşim">
-          <Switch value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.border }} thumbColor={c.card} />
+          <Switch value={st.haptics} onValueChange={(v) => update({ haptics: v })} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.haptics ? c.onPrimary : c.text2} ios_backgroundColor={c.card2} />
         </Item>
       </Group>
 

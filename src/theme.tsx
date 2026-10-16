@@ -29,7 +29,7 @@ const dark: typeof light = {
   bg: '#0C1210',
   card: '#151D1A',
   card2: '#1E2824',
-  panel: '#18221E',
+  panel: '#1B2621', // karttan (#151D1A) bir ton açık: Hero ve paragraf kutuları ayrışır
   border: '#25302B',
   text: '#E9EFEB',
   text2: '#BAC6BF',
@@ -43,8 +43,8 @@ const dark: typeof light = {
   badSoft: '#34211B',
   warn: '#E8C070',
   onPrimary: '#0B1A13',
-  hero1: '#18221E',
-  hero2: '#18221E',
+  hero1: '#1B2621',
+  hero2: '#1B2621',
 };
 
 export type Colors = typeof light;

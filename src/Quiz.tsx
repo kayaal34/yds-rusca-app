@@ -324,8 +324,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
             <Pressable onPress={() => go(i - 1)} disabled={i === 0} accessibilityLabel="Önceki soru" style={{ width: 52, height: 52, borderRadius: 26, borderWidth: 1, borderColor: c.muted + '66', alignItems: 'center', justifyContent: 'center', opacity: i === 0 ? 0.35 : 1 }}>
               <Icon name="chevron-left" size={20} color={c.primary} />
             </Pressable>
-            <Pressable onPress={toggleFlag} accessibilityLabel={flags.has(i) ? 'İşareti kaldır' : 'Soruyu işaretle'} style={{ width: 52, height: 52, borderRadius: 26, borderWidth: 1, borderColor: flags.has(i) ? c.warn : c.muted + '66', backgroundColor: flags.has(i) ? c.warn + '22' : 'transparent', alignItems: 'center', justifyContent: 'center' }}>
-              <Icon name="flag" size={18} color={flags.has(i) ? c.warn : c.primary} />
+            <Pressable onPress={toggleFlag} accessibilityLabel={flags.has(i) ? 'İşareti kaldır' : 'Soruyu işaretle'} style={{ width: 52, height: 52, borderRadius: 26, borderWidth: 1, borderColor: flags.has(i) ? c.primary : c.muted + '66', backgroundColor: flags.has(i) ? c.primarySoft : 'transparent', alignItems: 'center', justifyContent: 'center' }}>
+              <Icon name="flag" size={18} color={c.primary} />
             </Pressable>
             <Btn title={i + 1 >= items.length ? 'Gözden geçir' : 'Sonraki'} onPress={() => go(i + 1)} style={{ flex: 1 }} />
           </>
@@ -377,7 +377,7 @@ const Dot = memo(function Dot({ n, state, flag, onPress, size = 34 }: { n: numbe
   return (
     <Pressable onPress={() => onPress(n - 1)} hitSlop={5} accessibilityRole="button" accessibilityLabel={`Soru ${n}, ${desc}`} accessibilityState={{ selected: state === 'cur' }} style={{ width: size, height: size, borderRadius: size / 2, backgroundColor: bg, borderWidth: state === 'cur' ? 2 : 1, borderColor: state === 'empty' ? c.border : c.primary, alignItems: 'center', justifyContent: 'center' }}>
       <T v="smallM" color={state === 'ans' ? c.onPrimary : state === 'cur' ? 'primary' : 'muted'} style={{ fontSize: size < 30 ? 10 : 11, fontVariant: ['tabular-nums'] }}>{n}</T>
-      {flag && <View style={{ position: 'absolute', top: -1, right: -1, width: 8, height: 8, borderRadius: 4, backgroundColor: c.warn, borderWidth: 1.5, borderColor: c.bg }} />}
+      {flag && <View style={{ position: 'absolute', top: -1, right: -1, width: 8, height: 8, borderRadius: 4, backgroundColor: c.primary, borderWidth: 1.5, borderColor: c.bg }} />}
     </Pressable>
   );
 });
@@ -411,9 +411,9 @@ function FavStar({ qid }: { qid: string }) {
   };
   return (
     <Pressable onPress={toggle} hitSlop={8} accessibilityRole="button" accessibilityLabel={on ? 'Favorilerden çıkar' : 'Favorilere ekle'} accessibilityState={{ selected: on }}
-      style={{ flexDirection: 'row', alignItems: 'center', gap: 6, height: 32, paddingHorizontal: 12, borderRadius: radius.pill, borderWidth: 1, borderColor: on ? c.warn : c.border, backgroundColor: on ? c.warn + '22' : c.card }}>
-      <Icon name="star" size={15} color={on ? c.warn : c.text2} />
-      <T v="chip" color={on ? c.warn : 'text2'}>{on ? 'Favoride' : 'Favori'}</T>
+      style={{ flexDirection: 'row', alignItems: 'center', gap: 6, height: 32, paddingHorizontal: 12, borderRadius: radius.pill, borderWidth: 1, borderColor: on ? c.primary + '59' : c.border, backgroundColor: on ? c.primarySoft : c.card }}>
+      <Icon name="star" size={15} color={on ? c.primary : c.text2} />
+      <T v="chip" color={on ? 'primary' : 'text2'}>{on ? 'Favoride' : 'Favori'}</T>
     </Pressable>
   );
 }
@@ -503,7 +503,7 @@ function Review({ items, picks, flags, jump, finish }: { items: Prepared[]; pick
         <View style={{ flexDirection: 'row', gap: 16 }}>
           <Legend color={c.primary} label="Yanıtlı" />
           <Legend color={c.card} border={c.border} label="Boş" />
-          <Legend color={c.warn} label="İşaretli" small />
+          <Legend color={c.primary} label="İşaretli" small />
         </View>
         <T v="small" color="text2">
           {empty ? `${empty} soru boş. Yanlış cevap puan götürmez, boş bırakmak yerine tahmin et. ` : 'Tüm soruları yanıtladın. '}
