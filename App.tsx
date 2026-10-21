@@ -28,6 +28,10 @@ import { SettingsScreen } from './src/screens/Settings';
 import { Onboarding, Splash } from './src/screens/Intro';
 import type { Session } from './src/screens/types';
 import { Icon, IconName, T, useTap } from './src/ui';
+import { ErrorBoundary } from './src/ErrorBoundary';
+import { installCrashHandler } from './src/crash';
+
+installCrashHandler();
 
 type Tab = 'home' | 'study' | 'mock' | 'verbs' | 'stats';
 const TABS: { id: Tab; icon: IconName; label: string }[] = [
@@ -42,11 +46,13 @@ export default function App() {
   const [fontsReady, fontError] = useFonts({ Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+    <ErrorBoundary>
     <SafeAreaProvider>
       <SettingsProvider>
         <Themed fontsLoaded={fontsReady || !!fontError} />
       </SettingsProvider>
     </SafeAreaProvider>
+    </ErrorBoundary>
     </GestureHandlerRootView>
   );
 }

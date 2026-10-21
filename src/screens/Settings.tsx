@@ -1,11 +1,12 @@
 import { ReactNode, useState } from 'react';
-import { Alert, Linking, Platform, ScrollView, Switch, TextInput, View } from 'react-native';
+import { Alert, ScrollView, Switch, TextInput, View } from 'react-native';
 import { brand, font, space, useTheme } from '../theme';
 import { band, EXAMS, examLabel, examPassed, useSettings } from '../settings';
 import { cancelDaily, scheduleDaily, syncReminder } from '../notify';
 import { syncWidgets } from '../widgets/sync';
 import { resetHomeCache } from './Home';
 import { resetAll, resetProgress } from '../db';
+import { clearCrash, CONTACT_EMAIL, lastCrash, mail, VERSION } from '../crash';
 import { Chip, DateWheel, Header, Icon, IconName, LevelPicker, LinkBtn, ListGroup, ListItem, Section, Segmented, Slider, T, TimeWheel } from '../ui';
 import { LogoMark } from '../Logo';
 
@@ -19,17 +20,6 @@ function Item({ icon, label, children, onPress, danger }: { icon: IconName; labe
 
 // Ayraç metinle hizalı: kart boşluğu + ikon + aralık
 const Group = ({ children }: { children: ReactNode }) => <ListGroup inset={space.card + 18 + 16}>{children}</ListGroup>;
-
-// Geri bildirim adresi; boşken "Bize ulaşın" satırları bilgi mesajı gösterir
-const CONTACT_EMAIL = 'kodmod034@gmail.com';
-const VERSION = '1.0';
-
-function mail(subject: string) {
-  if (!CONTACT_EMAIL) return Alert.alert('Yakında', 'İletişim adresi henüz eklenmedi.');
-  const body = `\n\n---\nYDS Rusça v${VERSION} · ${Platform.OS} ${Platform.Version}`;
-  Linking.openURL(`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('YDS Rusça · ' + subject)}&body=${encodeURIComponent(body)}`)
-    .catch(() => Alert.alert('E-posta açılamadı', `Bize ${CONTACT_EMAIL} adresinden yazabilirsin.`));
-}
 
 export function SettingsScreen({ back }: { back: () => void }) {
   const { c } = useTheme();
@@ -175,10 +165,10 @@ export function SettingsScreen({ back }: { back: () => void }) {
         {/* Ayarlar önce kapanır; yoksa tanıtımdayken geri tuşu görünmeyen Ayarlar'ı kapatır */}
         <Item icon="play-circle" label="Tanıtımı tekrar göster" onPress={() => { back(); update({ onboarded: false }); }} />
         <Item icon="message-circle" label="Öneri gönder" onPress={() => mail('Öneri')} />
-        <Item icon="alert-circle" label="Hata bildir" onPress={() => mail('Hata bildirimi')} />
+        <Item icon="alert-circle" label="Hata bildir" onPress={() => lastCrash().then((c) => mail('Hata bildirimi', c)).then(clearCrash)} />
         <Item icon="edit-3" label="Soruda hata var" onPress={() => mail('Soru hatası')} />
       </Group>
-      <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>{CONTACT_EMAIL ? `Bize ulaş: ${CONTACT_EMAIL}` : 'İletişim adresi yakında eklenecek.'}</T>
+      <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>{`Bize ulaş: ${CONTACT_EMAIL}`}</T>
 
       <Section title="Sıfırlama" />
       <Group>
