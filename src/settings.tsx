@@ -14,6 +14,9 @@ export type Settings = {
   examAlerts: boolean; // denemede yarı süre, 30 dk ve 5 dk kala uyarı
   target: number; // hedef YDS puanı (0-100)
   verbBatch: number; // fiil turunda kaç kart
+  wordNotif: boolean; // her gün günün kelimesi bildirimi
+  wordHour: number;
+  wordMinute: number;
   days: string; // hatırlatma günleri, expo hafta günü (1=Pazar … 7=Cumartesi), ör. "1234567"
 };
 
@@ -36,6 +39,9 @@ export const DEFAULTS: Settings = {
   target: 70,
   verbBatch: 20,
   days: '1234567',
+  wordNotif: true,
+  wordHour: 9,
+  wordMinute: 0,
 };
 
 function parse(raw: Record<string, string>): Settings {
@@ -52,6 +58,9 @@ function parse(raw: Record<string, string>): Settings {
   if (raw.examAlerts) s.examAlerts = raw.examAlerts === '1';
   if (raw.target) s.target = Math.min(100, Math.max(0, Number(raw.target) || DEFAULTS.target));
   if (raw.verbBatch) s.verbBatch = Number(raw.verbBatch) || DEFAULTS.verbBatch;
+  if (raw.wordNotif) s.wordNotif = raw.wordNotif === '1';
+  if (raw.wordHour) s.wordHour = Number(raw.wordHour);
+  if (raw.wordMinute) s.wordMinute = Number(raw.wordMinute);
   if (raw.days !== undefined && /^[1-7]*$/.test(raw.days)) s.days = raw.days;
   return s;
 }

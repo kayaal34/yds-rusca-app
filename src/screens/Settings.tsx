@@ -36,6 +36,16 @@ export function SettingsScreen({ back }: { back: () => void }) {
     await update({ reminder: on, hour, minute, days });
   };
 
+  // Günün kelimesi: açarken izin istenir; kurulumu Root'taki syncReminder yapar
+  const setWordNotif = async (on: boolean) => {
+    setMsg('');
+    if (on) {
+      const ok = await scheduleDaily(st.hour, st.minute, st.days, false, true, st.examDate, st.reminder, { hour: st.wordHour, minute: st.wordMinute }).catch(() => false);
+      if (!ok) { setMsg('Bildirim izni verilmedi. Telefon ayarlarından izin verebilirsin.'); return; }
+    }
+    await update({ wordNotif: on });
+  };
+
   // Gün seç/kaldır; en az bir gün kalır
   const toggleDay = (d: string) => {
     const next = st.days.includes(d) ? st.days.replace(d, '') : [...st.days + d].sort().join('');
@@ -132,7 +142,20 @@ export function SettingsScreen({ back }: { back: () => void }) {
           </View>
         </View>
         )}
+        <Item icon="book" label="Günün kelimesi">
+          <Switch accessibilityLabel="Günün kelimesi bildirimi" value={st.wordNotif} onValueChange={setWordNotif} trackColor={{ true: c.primary, false: c.card2 }} thumbColor={st.wordNotif ? brand.fg : c.text2} ios_backgroundColor={c.card2} />
+        </Item>
+        {st.wordNotif && (
+        <View style={{ padding: space.card, gap: 8 }}>
+          <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+            <Icon name="clock" size={18} color={c.text2} />
+            <T v="h3">Kelime saati</T>
+          </View>
+          <TimeWheel hour={st.wordHour} minute={st.wordMinute} onChange={(h, m) => update({ wordHour: h, wordMinute: m })} />
+        </View>
+        )}
       </Group>
+      <T v="small" color="muted" style={{ paddingHorizontal: 4 }}>Her gün seçtiğin saatte bir YDS kelimesi, anlamı ve örnek cümlesiyle gelir.</T>
       {!!msg && <T v="small" color="bad">{msg}</T>}
 
       <Section title="Çalışma" />

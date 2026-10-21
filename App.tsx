@@ -122,7 +122,7 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
       syncReminder(s).then((ok) => { if (!ok) update({ reminder: false }); }).catch(() => {});
     }, 500);
     return () => clearTimeout(t);
-  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate]);
+  }, [loaded, wiping, seeding, rev, s.onboarded, s.reminder, s.hour, s.minute, s.days, s.goal, s.examDate, s.wordNotif, s.wordHour, s.wordMinute]);
 
   // iPhone widget'ları (seri, günün fiili) her açılışta, test bitince ve hedef/tarih değişince tazelenir
   useEffect(() => {
