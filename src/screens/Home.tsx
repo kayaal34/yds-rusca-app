@@ -4,8 +4,12 @@ import Animated, { FadeIn } from 'react-native-reanimated';
 import { space, useTheme } from '../theme';
 import { band, daysUntil, EXAMS, examLabel, examPassed, examStart, useSettings } from '../settings';
 import { questions, topicName } from '../data/questions';
-import { activityDays, dayGoals, dayStr, favQids, saveDayGoal, last7, streak, todayCount, topicStats, wrongQids } from '../db';
-import { Btn, Hero, Icon, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
+import { activityDays, dayGoals, dayStr, favQids, getSetting, saveDayGoal, last7, streak, todayCount, topicStats, weekSummary, wrongQids } from '../db';
+import { lessons } from '../data/gen';
+import { LESSON_KEY, openLesson } from './Study';
+import { verbOfDay } from '../widgets/sync';
+import * as Speech from 'expo-speech';
+import { Btn, Card, Hero, Icon, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
 import { Clover, ProgressClover } from '../Logo';
 import { loadDraft, shuffle } from '../Quiz';
 import type { Draft } from '../exam';
@@ -28,7 +32,7 @@ const DAYS = ['Pz', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct'];
 
 type Item = { icon: IconName; title: string; sub: string; onPress: () => void; tint?: string };
 
-export function Home({ start, openSettings, goTab }: { start: Start; openSettings: () => void; goTab: (t: 'study' | 'mock' | 'verbs') => void }) {
+export function Home({ start, openSettings, goTab }: { start: Start; openSettings: () => void; goTab: (t: 'study' | 'mock' | 'verbs' | 'stats') => void }) {
   const { c } = useTheme();
   const { s: st, update } = useSettings();
   const [today, setToday] = useState(cache.today);
@@ -42,6 +46,8 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
   const [weak, setWeak] = useState<string | null>(null);
   const [week, setWeek] = useState<{ day: string; total: number }[]>(() => (cache.week.length ? cache.week : emptyWeek()));
   const [act, setAct] = useState<Set<string>>(cache.act);
+  const [lessonRes, setLessonRes] = useState<{ id: string; sec: number } | null>(null);
+  const [wk, setWk] = useState<{ now: { n: number; right: number }; prev: { n: number; right: number } } | null>(null);
 
   useEffect(() => {
     todayCount().then((v) => { remember({ today: v }); setToday(v); }).catch(() => {});
@@ -49,6 +55,8 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
     wrongQids().then(setWrong).catch(() => {});
     favQids().then(setFavs).catch(() => {});
     loadDraft().then(setDraft).catch(() => {});
+    getSetting(LESSON_KEY).then((v) => setLessonRes(v ? JSON.parse(v) : null)).catch(() => {});
+    weekSummary().then(setWk).catch(() => {});
     last7().then((v) => { remember({ week: v }); setWeek(v); }).catch(() => {});
     activityDays().then((v) => { remember({ act: v }); setAct(v); }).catch(() => {});
     topicStats()
@@ -82,11 +90,21 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
   const wrongQs = questions.filter((q) => wrong.includes(q.id));
   const favQs = questions.filter((q) => favs.includes(q.id));
 
+  const resLesson = lessonRes ? lessons.find((l) => l.topic === lessonRes.id) : undefined;
+  const resumeRow: Item | null = draft
+    ? { icon: 'pause-circle', title: 'Yarım kalan deneme', sub: `${draft.title} · ${draft.picks.filter((x) => x !== null).length}/${draft.ids.length} yanıtlı`, onPress: () => goTab('mock') }
+    : resLesson && lessonRes
+      ? { icon: 'book-open', title: resLesson.title, sub: `Konu anlatımı · bölüm ${lessonRes.sec + 1}/${resLesson.sections.length}`, onPress: () => { openLesson(lessonRes.id, lessonRes.sec); goTab('study'); } }
+      : null;
+  const vod = verbOfDay(new Date());
+  const weekAcc = wk && wk.now.n ? Math.round((wk.now.right / wk.now.n) * 100) : 0;
+  const prevAcc = wk && wk.prev.n ? Math.round((wk.prev.right / wk.prev.n) * 100) : null;
+  const weekDiff = prevAcc === null ? "Ayrıntılar Analiz'de" : weekAcc === prevAcc ? 'Geçen haftayla aynı doğru oranı' : `Geçen haftadan ${weekAcc > prevAcc ? '+' : '−'}${Math.abs(weekAcc - prevAcc)} puan`;
+
   // Deneme, kelimeler ve konular alt sekmelerde; burada yalnız sekmelerde olmayan kısayollar
   const items: Item[] = [
     ...(weak || goalDone ? [{ icon: 'zap' as IconName, title: 'Hızlı test', sub: '10 karma soru · süresiz', onPress: () => start({ title: 'Hızlı test', qs: pick(10) }) }] : []),
     ...(wrongQs.length ? [{ icon: 'rotate-ccw' as IconName, title: 'Yanlışlarını tekrar et', sub: wrongQs.length > 20 ? `${wrongQs.length} soru bekliyor · 20'şer` : `${wrongQs.length} soru bekliyor`, onPress: () => start({ title: 'Yanlışlarım', qs: pick(20, wrongQs) }) }] : []),
-    ...(draft ? [{ icon: 'pause-circle' as IconName, title: 'Yarım kalan deneme', sub: `${draft.title} · ${draft.picks.filter((x) => x !== null).length}/${draft.ids.length} yanıtlı`, onPress: () => goTab('mock') }] : []),
     ...(favQs.length ? [{ icon: 'star' as IconName, title: 'Favori soruların', sub: favQs.length > 20 ? `${favQs.length} soru · 20'şer` : `${favQs.length} soru`, onPress: () => start({ title: 'Favoriler', qs: pick(20, favQs) }) }] : []),
   ];
 
@@ -145,6 +163,15 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
         })}
       </View>
 
+      {/* Kaldığın yerden devam: yalnız yarım deneme ya da yarıda bırakılan ders varsa */}
+      {resumeRow && (
+        <Animated.View entering={FadeIn.duration(300)}>
+          <ListGroup inset={space.card + 18 + 16}>
+            <ListItem icon={resumeRow.icon} title={resumeRow.title} sub={resumeRow.sub} onPress={resumeRow.onPress} right={<T v="smallM" color="primary">Devam et</T>} />
+          </ListGroup>
+        </Animated.View>
+      )}
+
       {/* Bugün: hedef halkası, kalan soru ve tek ana eylem */}
       <Animated.View entering={FadeIn.duration(350).delay(60)}>
         {goalDone ? (
@@ -195,6 +222,32 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
         <Animated.View entering={FadeIn.duration(350).delay(140)}>
           <ListGroup inset={space.card + 18 + 16}>
             {items.map((it) => <ListItem key={it.title} icon={it.icon} title={it.title} sub={it.sub} onPress={it.onPress} />)}
+          </ListGroup>
+        </Animated.View>
+      )}
+
+      {/* Günün kelimesi: her gün bir fiil (iPhone widget'ıyla aynı seçim); dokununca kelime kartları */}
+      <Animated.View entering={FadeIn.duration(350).delay(180)}>
+        <Card onPress={() => goTab('verbs')}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <T v="overline" color="muted">Günün kelimesi</T>
+            <IconBtn name="volume-2" label="Sesli oku" onPress={() => { Speech.stop(); Speech.speak(vod.word, { language: 'ru-RU', rate: 0.9 }); }} />
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
+            <T v="h2">{vod.word}</T>
+            {!!vod.pair && <T v="small" color="muted">{vod.pair}</T>}
+          </View>
+          <T v="bodyM" color="primary">{vod.tr}</T>
+          {!!vod.ex && <T v="small" color="text2">{vod.ex}</T>}
+          {!!vod.exTr && <T v="small" color="muted">{vod.exTr}</T>}
+        </Card>
+      </Animated.View>
+
+      {/* Haftalık özet: son 7 gün; dokununca Analiz */}
+      {wk && wk.now.n > 0 && (
+        <Animated.View entering={FadeIn.duration(350).delay(220)}>
+          <ListGroup inset={space.card + 18 + 16}>
+            <ListItem icon="bar-chart-2" title={`Bu hafta ${wk.now.n} soru · %${weekAcc} doğru`} sub={weekDiff} onPress={() => goTab('stats')} />
           </ListGroup>
         </Animated.View>
       )}
