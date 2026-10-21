@@ -363,6 +363,17 @@ export function Wheel({ values, value, onChange, format = String, label, width =
   const last = useSharedValue(start);
   const { s: settings } = useSettings();
   const tick = () => tap();
+  // Kaydırma bitiş olayları (bırakma / ivme sonu) bazen gelmez (ör. Android'de üstteki liste hareketi kapınca);
+  // satıra oturup 160 ms kıpırdamazsa değer yine de bildirilir. Hep en güncel pickAt çağrılır.
+  const settleTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pickRef = useRef<(off: number) => void>(() => {});
+  const settle = (off: number) => {
+    if (settleTimer.current) clearTimeout(settleTimer.current);
+    settleTimer.current = setTimeout(() => {
+      if (Math.abs(off / ROW - Math.round(off / ROW)) < 0.02) pickRef.current(off);
+    }, 160);
+  };
+  useEffect(() => () => { if (settleTimer.current) clearTimeout(settleTimer.current); }, []);
   // Titreşim ayarı değişince işleyici yeniden kurulsun (bayat ayar kalmasın)
   const onScroll = useAnimatedScrollHandler((e) => {
     y.value = e.contentOffset.y;
@@ -371,6 +382,7 @@ export function Wheel({ values, value, onChange, format = String, label, width =
       last.value = k;
       runOnJS(tick)();
     }
+    runOnJS(settle)(e.contentOffset.y);
   }, [settings.haptics, values.length]);
   // Değer dışarıdan değişince (ör. hızlı seçim çipi, ay değişince gün düzeltmesi) teker o satıra kayar
   useEffect(() => {
@@ -381,6 +393,7 @@ export function Wheel({ values, value, onChange, format = String, label, width =
     const k = Math.max(0, Math.min(values.length - 1, Math.round(off / ROW)));
     if (values[k] !== value) onChange(values[k]);
   };
+  useEffect(() => { pickRef.current = pickAt; });
   const step = (dir: number) => {
     const k = Math.max(0, Math.min(values.length - 1, values.indexOf(value) + dir));
     ref.current?.scrollTo({ y: k * ROW, animated: true });
