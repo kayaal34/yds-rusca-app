@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ScrollView, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 import { space, useTheme } from '../theme';
-import { band, daysUntil, examPassed, examStart, useSettings } from '../settings';
+import { band, daysUntil, EXAMS, examLabel, examPassed, examStart, useSettings } from '../settings';
 import { questions, topicName } from '../data/questions';
 import { activityDays, dayGoals, dayStr, favQids, saveDayGoal, last7, streak, todayCount, topicStats, wrongQids } from '../db';
 import { Btn, Hero, Icon, IconBtn, IconName, LinkBtn, ListGroup, ListItem, T } from '../ui';
@@ -30,7 +30,7 @@ type Item = { icon: IconName; title: string; sub: string; onPress: () => void; t
 
 export function Home({ start, openSettings, goTab }: { start: Start; openSettings: () => void; goTab: (t: 'study' | 'mock' | 'verbs') => void }) {
   const { c } = useTheme();
-  const { s: st } = useSettings();
+  const { s: st, update } = useSettings();
   const [today, setToday] = useState(cache.today);
   const [str, setStr] = useState(cache.str);
   const [wrong, setWrong] = useState<string[]>([]);
@@ -63,7 +63,10 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
   const passed = examPassed(st.examDate);
   const h = new Date().getHours();
   const greet = h < 6 ? 'İyi geceler' : h < 12 ? 'Günaydın' : h < 18 ? 'İyi günler' : 'İyi akşamlar';
-  const examDay = new Date(st.examDate + 'T09:00:00').toLocaleDateString('tr-TR', { day: 'numeric', month: 'long' });
+  // Yıl da gösterilir: tarih değiştirilip geri alınırken yıl kayarsa fark edilsin
+  const examDay = new Date(st.examDate + 'T09:00:00').toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+  const official = EXAMS.find((e) => !examPassed(e.date));
+  const offDate = official && official.date !== st.examDate && !EXAMS.some((e) => e.date === st.examDate);
   const goalDone = today >= st.goal;
   // Seri: en az 1 soru ya da 1 kelime kartı çalışılan gün sayılır. Dolu yeşil yonca: günlük hedef tamam.
   const workedToday = today > 0 || act.has(week[week.length - 1]?.day ?? '');
@@ -144,6 +147,17 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
 
       {/* Bugün: hedef halkası, kalan soru ve tek ana eylem */}
       <Animated.View entering={FadeIn.duration(350).delay(60)}>
+        {goalDone ? (
+          // Hedef tamamlanınca kart tek satıra küçülür; öneri yanında bağlantı olarak kalır
+          <Hero style={{ flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 14 }}>
+            <ProgressClover value={1} size={44} color={c.primary} track={c.primary + '24'} done />
+            <View style={{ flex: 1, gap: 2 }}>
+              <T v="overline" color="primary">Bugün · hedef tamam</T>
+              <T v="smallM">{Math.min(today, 999)} / {st.goal} soru</T>
+            </View>
+            <LinkBtn title={next.title} icon={next.icon} onPress={next.onPress} />
+          </Hero>
+        ) : (
         <Hero style={{ gap: space.gap }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.gap }}>
             <ProgressClover value={today / Math.max(1, st.goal)} color={c.primary} track={c.primary + '24'} done={goalDone} />
@@ -161,6 +175,7 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
           <Btn kind={goalDone ? 'secondary' : 'primary'} title={next.title} icon={next.icon} onPress={next.onPress} />
           <T v="micro" color="muted" style={{ textAlign: 'center', marginTop: -8 }}>{next.sub}</T>
         </Hero>
+        )}
       </Animated.View>
 
       {/* Sınav: kalan gün, tarih, hedef puan ve döneme göre öneri */}
@@ -170,6 +185,9 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
           <T v="small" color="muted" style={{ flex: 1 }} numberOfLines={1}>YDS · {examDay}</T>
           <LinkBtn title={`Hedef ${st.target}${band(st.target) ? ` · ${band(st.target)}` : ''}`} icon="target" onPress={openSettings} />
         </View>
+        {offDate && (
+          <LinkBtn tone="muted" title={`Resmî YDS tarihi ${examLabel(official.date)} · düzelt`} icon="alert-circle" onPress={() => update({ examDate: official.date })} />
+        )}
         <T v="small" color="text2">{phase}</T>
       </Animated.View>
 
