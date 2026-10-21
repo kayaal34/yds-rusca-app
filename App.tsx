@@ -125,16 +125,20 @@ function Root({ fontsLoaded }: { fontsLoaded: boolean }) {
   }, [loaded, wiping, seeding, rev, s.onboarded, s.goal, s.examDate]);
 
   // Açılıştan sonra uygulama aşağıdan süzülerek gelir; yalnızca ilk girişte
+  // Kurulumu bitmiş kullanıcıda açılış kısa ve süzülme yok; karar ayarlar ilk okunduğunda bir kez verilir
+  const quickRef = useRef<boolean | null>(null);
+  if (loaded && quickRef.current === null) quickRef.current = s.onboarded;
+  const launchQuick = quickRef.current;
   const [intro, setIntro] = useState(true);
   useEffect(() => {
     if (splash) return;
     const t = setTimeout(() => setIntro(false), 1200);
     return () => clearTimeout(t);
   }, [splash]);
-  const enter = intro ? FadeInDown.duration(700).delay(150).easing(Easing.out(Easing.cubic)) : undefined;
+  const enter = intro && !launchQuick ? FadeInDown.duration(700).delay(150).easing(Easing.out(Easing.cubic)) : undefined;
 
   if (!fontsLoaded) return <View style={{ flex: 1, backgroundColor: brand.bg }} />;
-  if (splash || !loaded || wiping || seeding) return <><StatusBar style="light" /><Splash onDone={() => setSplash(false)} /></>;
+  if (splash || !loaded || wiping || seeding) return <><StatusBar style="light" /><Splash quick={launchQuick} onDone={() => setSplash(false)} /></>;
 
   const wrap = (child: React.ReactNode) => <SafeAreaView style={{ flex: 1, backgroundColor: c.bg }}>{child}</SafeAreaView>;
 

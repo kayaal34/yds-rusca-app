@@ -15,41 +15,52 @@ const SPLASH_LEAF = brand.leaf;
 const out = Easing.out(Easing.cubic);
 
 // Tek harf: aşağıdan süzülerek belirir
-function Letter({ ch, delay }: { ch: string; delay: number }) {
-  const v = useSharedValue(0);
-  useEffect(() => { v.value = withDelay(delay, withTiming(1, { duration: 450, easing: out })); }, []);
+function Letter({ ch, delay, instant = false }: { ch: string; delay: number; instant?: boolean }) {
+  const v = useSharedValue(instant ? 1 : 0);
+  useEffect(() => { if (!instant) v.value = withDelay(delay, withTiming(1, { duration: 450, easing: out })); }, []);
   const st = useAnimatedStyle(() => ({ opacity: v.value, transform: [{ translateY: (1 - v.value) * 14 }] }));
   return <Animated.Text style={[{ fontFamily: font.thin, fontSize: 44, lineHeight: 50, color: SPLASH_FG, marginHorizontal: 6 }, st]}>{ch}</Animated.Text>;
 }
 
-// Açılış (2,25 sn): işaret belirir, halka kapanır, içinde yonca açılır ve yaprakları tek tek yeşerir,
-// "YDS" harf harf gelir, altında ince çizgi açılır ve "Rusça" belirir.
-export function Splash({ onDone }: { onDone: () => void }) {
+// Açılış: ilk kurulumda tam animasyon (2,25 sn): işaret belirir, halka kapanır, yonca yeşerir, "YDS" harf harf gelir,
+// altında çizgi açılır ve "Rusça" belirir. Kurulumu bitmiş kullanıcıda her şey hazır görünür, 0,7 sn sonra uygulama açılır.
+// quick=null: ayarlar henüz okunmadı, yalnız zemin gösterilir.
+export function Splash({ onDone, quick }: { onDone: () => void; quick: boolean | null }) {
   const mark = useSharedValue(0);
   const line = useSharedValue(0);
   const sub = useSharedValue(0);
   useEffect(() => {
+    if (quick === null) return;
+    if (quick) {
+      mark.value = 1; line.value = 1; sub.value = 1;
+      const t = setTimeout(onDone, 700);
+      return () => clearTimeout(t);
+    }
     mark.value = withTiming(1, { duration: 600, easing: out });
     line.value = withDelay(1250, withTiming(1, { duration: 400, easing: out }));
     sub.value = withDelay(1400, withTiming(1, { duration: 400, easing: out }));
     const t = setTimeout(onDone, 2250);
     return () => clearTimeout(t);
-  }, []);
+  }, [quick]);
   const markSt = useAnimatedStyle(() => ({ opacity: Math.min(1, mark.value * 2), transform: [{ scale: 0.92 + mark.value * 0.08 }] }));
   const lineSt = useAnimatedStyle(() => ({ width: 64 * line.value, opacity: line.value }));
   const subSt = useAnimatedStyle(() => ({ opacity: sub.value, transform: [{ translateY: (1 - sub.value) * 6 }] }));
   return (
-    <Animated.View exiting={FadeOut.duration(450)} style={{ flex: 1, backgroundColor: SPLASH_BG, alignItems: 'center', justifyContent: 'center' }}>
-      <View style={{ width: 108, height: 108, alignItems: 'center', justifyContent: 'center' }}>
-        <Animated.View style={markSt}>
-          <LogoMark size={108} color={SPLASH_FG} fill={SPLASH_LEAF} animate delay={100} />
-        </Animated.View>
-      </View>
-      <View style={{ flexDirection: 'row', marginTop: 30 }}>
-        {['Y', 'D', 'S'].map((ch, k) => <Letter key={ch} ch={ch} delay={950 + k * 100} />)}
-      </View>
-      <Animated.View style={[{ height: 1, backgroundColor: SPLASH_MUTED, marginTop: 10 }, lineSt]} />
-      <Animated.Text style={[{ fontFamily: font.thin, fontSize: 24, lineHeight: 30, color: SPLASH_FG, marginTop: 10, letterSpacing: 3, paddingLeft: 3 }, subSt]}>Rusça</Animated.Text>
+    <Animated.View exiting={FadeOut.duration(quick ? 250 : 450)} style={{ flex: 1, backgroundColor: SPLASH_BG, alignItems: "center", justifyContent: "center" }}>
+      {quick !== null && (
+        <>
+          <View style={{ width: 108, height: 108, alignItems: "center", justifyContent: "center" }}>
+            <Animated.View style={markSt}>
+              <LogoMark size={108} color={SPLASH_FG} fill={SPLASH_LEAF} animate={!quick} delay={100} />
+            </Animated.View>
+          </View>
+          <View style={{ flexDirection: "row", marginTop: 30 }}>
+            {["Y", "D", "S"].map((ch, k) => <Letter key={ch} ch={ch} delay={quick ? 0 : 950 + k * 100} instant={quick} />)}
+          </View>
+          <Animated.View style={[{ height: 1, backgroundColor: SPLASH_MUTED, marginTop: 10 }, lineSt]} />
+          <Animated.Text style={[{ fontFamily: font.thin, fontSize: 24, lineHeight: 30, color: SPLASH_FG, marginTop: 10, letterSpacing: 3, paddingLeft: 3 }, subSt]}>Rusça</Animated.Text>
+        </>
+      )}
     </Animated.View>
   );
 }
