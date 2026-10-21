@@ -694,7 +694,7 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
               <Clover size={28} color={goal.done ? c.primary : c.muted} weight={1.4} filled={goal.done} />
             </View>
             <T v="smallM" color={goal.done ? 'primary' : 'text2'} style={{ flex: 1 }}>
-              {goal.done ? (goal.justNow ? 'Yoncan yeşerdi: bugünkü hedef tamam' : 'Bugünkü hedef tamam, yoncan yeşil') : `Bugün ${goal.today}/${st.goal} · hedefe ${st.goal - goal.today} soru`}
+              {goal.done ? (goal.justNow ? 'Bugünkü hedef tamamlandı' : 'Bugünkü hedef tamam') : `Bugün ${goal.today}/${st.goal} · hedefe ${st.goal - goal.today} soru`}
             </T>
           </View>
         )}

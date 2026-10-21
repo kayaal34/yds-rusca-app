@@ -185,7 +185,7 @@ export function Onboarding() {
             <View style={{ transform: [{ rotate: '18deg' }] }}>
               <Clover size={30} color={c.primary} weight={1.4} filled />
             </View>
-            <T v="small" color="text2" style={{ flex: 1 }}>Her gün gel, yoncan solmasın. Bir soru ya da bir kelime kartı serini sürdürür, günlük hedefini tamamlayınca yoncan yeşerir.</T>
+            <T v="small" color="text2" style={{ flex: 1 }}>Bir soru ya da bir kelime kartı serini sürdürür. Günlük hedefini tamamladığın gün yonca dolar.</T>
           </View>
         </Step>
       )}

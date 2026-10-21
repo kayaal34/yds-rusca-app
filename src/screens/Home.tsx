@@ -168,7 +168,7 @@ export function Home({ start, openSettings, goTab }: { start: Start; openSetting
                 <T v="numS" color="muted">/ {st.goal}</T>
               </View>
               <T v="small" color={goalDone ? 'primary' : 'text2'}>
-                {goalDone ? 'Hedef tamam, yoncan yeşil' : workedToday ? `Yoncanı yeşertmek için ${left} soru daha` : 'Yoncan solmasın: 1 soru ya da 1 kelime kartı'}
+                {workedToday ? `Bugünkü hedefe ${left} soru kaldı` : 'Seriyi korumak için bugün 1 soru ya da 1 kelime kartı yeter'}
               </T>
             </View>
           </View>

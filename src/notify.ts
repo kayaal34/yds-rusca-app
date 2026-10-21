@@ -11,9 +11,9 @@ Notifications.setNotificationHandler({
 });
 
 const BODIES = [
-  'Yoncan solmasın. Bugünkü hedefin seni bekliyor.',
-  'Birkaç soru çöz, yoncan yeşil kalsın.',
-  'Serini koru: günlük hedefini tamamla, yoncan solmasın.',
+  'Bugünkü hedefin seni bekliyor.',
+  'Birkaç soru çöz, serin devam etsin.',
+  'Serini koru: bugünkü hedefini tamamla.',
 ];
 // Tek seferlik bildirimler bu kadar gün ileriye kurulur; uygulama her açıldığında yenilenir (iOS en çok 64 bekleyen bildirim tutar)
 const AHEAD = 30;
