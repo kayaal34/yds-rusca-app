@@ -1,5 +1,5 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, AppState, BackHandler, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, View } from 'react-native';
+import { Alert, AppState, BackHandler, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, useWindowDimensions, View } from 'react-native';
 import Animated, { FadeIn, FadeInUp, FadeOutUp } from 'react-native-reanimated';
 import { radius, space, type, useTheme } from './theme';
 import { fmtScore, score, useSettings } from './settings';
@@ -107,6 +107,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   const [picks, setPicks] = useState<(number | null)[]>(() => restored?.picks ?? items.map(() => null));
   const [flags, setFlags] = useState<Set<number>>(() => new Set((draft?.flags ?? []).map((old) => restored?.kept.indexOf(old) ?? old).filter((k) => k >= 0)));
   const [review, setReview] = useState(false);
+  const [revisit, setRevisit] = useState<number[] | null>(null); // alıştırmada sona gelince dönülecek sorular
+  const [timeUp, setTimeUp] = useState(false);
   const [done, setDone] = useState(false);
   const [spent, setSpent] = useState(0);
   const [saved, setSaved] = useState<Promise<unknown>>(() => Promise.resolve());
@@ -205,7 +207,22 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   }, []);
 
   const go = (n: number) => {
-    if (n >= items.length) return exam ? setReview(true) : finish();
+    if (!exam && revisit) {
+      // Dönüş turunda yalnızca atlanan/işaretli sorular arasında ilerlenir
+      const next = revisit[revisit.indexOf(i) + 1];
+      return next === undefined ? finish() : jump(next);
+    }
+    if (n >= items.length) {
+      if (exam) return setReview(true);
+      const back = items.map((_, k) => k).filter((k) => picks[k] === null || flags.has(k));
+      if (!back.length) return finish();
+      const skipped = back.filter((k) => picks[k] === null).length;
+      const parts = [skipped && `${skipped} atlanan`, back.length - skipped && `${back.length - skipped} işaretli`].filter(Boolean).join(', ');
+      return Alert.alert('Bitirmeden önce', `${parts} soru var. Onlara dönmek ister misin?`, [
+        { text: 'Sonucu gör', style: 'cancel', onPress: finish },
+        { text: 'Dön', onPress: () => { setRevisit(back); jump(back[0]); } },
+      ]);
+    }
     setReview(false);
     setI(Math.max(0, n));
     t0.current = now();
@@ -249,7 +266,7 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
 
   // Hiç soru yoksa (ör. taslaktaki sorular güncellemeyle kalktıysa) boş ekranda çökmeden çık
   if (!items.length) return <EmptyQuiz onExit={() => { if (draft) clearDraft().catch(() => {}); onExit(); }} />;
-  if (done) return <Result title={title} items={items} picks={picks} secs={spent} full={full} exam={exam} onExit={onExit} saved={saved} />;
+  if (done) return <Result title={title} items={items} picks={picks} secs={spent} full={full} exam={exam} onExit={onExit} saved={saved} timeUp={timeUp} />;
 
   const reveal = !exam && picked !== null;
 
@@ -258,7 +275,7 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
         <IconBtn name={review ? 'chevron-left' : 'x'} label={review ? 'Sorulara dön' : 'Çık'} onPress={review ? () => setReview(false) : quit} />
         {minutes ? (
-          <Clock minutes={minutes} started={started} alerts={st.examAlerts} onAlert={onAlert} onEnd={finish} />
+          <Clock minutes={minutes} started={started} alerts={st.examAlerts} onAlert={onAlert} onEnd={() => { setTimeUp(true); finish(); }} />
         ) : (
           <T v="smallM" color="text2" numberOfLines={1} style={{ flex: 1, textAlign: 'center', marginHorizontal: 12 }}>{title}</T>
         )}
@@ -273,7 +290,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
           {items.map((_, k) => <Dot key={k} n={k + 1} state={k === i ? 'cur' : picks[k] !== null ? 'ans' : 'empty'} flag={flags.has(k)} onPress={jump} />)}
         </ScrollView>
       )}
-      {!exam && <Bar value={(i + (picked !== null ? 1 : 0)) / items.length} height={4} />}
+      {!exam && <Bar value={picks.filter((x) => x !== null).length / items.length} height={4} />}
+      {!exam && revisit && <T v="small" color="muted" style={{ textAlign: 'center' }}>Atlanan ve işaretli sorular · {revisit.indexOf(i) + 1}/{revisit.length}</T>}
       {alert && (
         <Animated.View entering={FadeInUp.duration(250)} exiting={FadeOutUp.duration(250)} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: c.primary, borderRadius: radius.pill, paddingHorizontal: 16, paddingVertical: 8, alignSelf: 'center' }}>
           <Icon name="bell" size={14} color={c.onPrimary} />
@@ -295,6 +313,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   return (
     <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       {top}
+      {/* Aynı paragrafın soruları arasında panel (kaydırma ve açık/kapalı durumu) korunur */}
+      {p.q.passage && <Passage key={p.q.passage} text={p.q.passage} />}
       <ScrollView ref={scroll} contentContainerStyle={{ padding: 20, paddingTop: 16, gap: 12, paddingBottom: 24 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
         <Animated.View key={p.q.id} entering={FadeIn.duration(220)} style={{ gap: 12 }}>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -304,11 +324,6 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
               <FavStar key={p.q.id} qid={p.q.id} />
             </View>
           </View>
-          {p.q.passage && (
-            <View style={{ backgroundColor: c.panel, borderRadius: radius.btn, padding: 16 }}>
-              <T v="reading">{p.q.passage}</T>
-            </View>
-          )}
           <View style={{ backgroundColor: c.card, borderRadius: radius.btn, padding: 16 }}>
             <T v="question">{p.q.text}</T>
           </View>
@@ -337,10 +352,43 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
             <Btn title={i + 1 >= items.length ? 'Gözden geçir' : 'Sonraki'} onPress={() => go(i + 1)} style={{ flex: 1 }} />
           </>
         ) : (
-          <Btn title={i + 1 >= items.length ? 'Sonucu gör' : 'Sonraki'} onPress={() => go(i + 1)} disabled={!reveal} style={{ flex: 1 }} />
+          <>
+            <IconBtn name="flag" label={flags.has(i) ? 'İşareti kaldır' : 'İşaretle, sonra dön'} size={52} tone="outline" on={flags.has(i)} onPress={toggleFlag} />
+            <Btn
+              kind={reveal ? 'primary' : 'secondary'}
+              title={!reveal ? 'Atla' : (revisit ? revisit.indexOf(i) === revisit.length - 1 : i + 1 >= items.length) ? 'Sonucu gör' : 'Sonraki'}
+              onPress={() => go(i + 1)}
+              style={{ flex: 1 }}
+            />
+          </>
         )}
       </View>
     </KeyboardAvoidingView>
+  );
+}
+
+// Okuma metni: soru ve şıklar ekranda kalsın diye ekran yüksekliğinin üçte biriyle sınırlı, kendi içinde kayar
+function Passage({ text }: { text: string }) {
+  const { c } = useTheme();
+  const { height } = useWindowDimensions();
+  const [open, setOpen] = useState(true);
+  return (
+    <View style={{ marginHorizontal: 20, marginTop: 12, backgroundColor: c.panel, borderRadius: radius.btn, overflow: 'hidden' }}>
+      <Pressable
+        onPress={() => setOpen(!open)}
+        accessibilityRole="button"
+        accessibilityLabel={open ? 'Okuma metnini küçült' : 'Okuma metnini göster'}
+        style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 10 }}
+      >
+        <T v="overline" color="muted">{open ? 'Okuma metni · kaydırarak oku' : 'Okuma metni'}</T>
+        <Icon name={open ? 'chevron-up' : 'chevron-down'} size={16} color={c.muted} />
+      </Pressable>
+      {open && (
+        <ScrollView style={{ maxHeight: height * 0.34 }} contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 16 }} nestedScrollEnabled persistentScrollbar>
+          <T v="reading">{text}</T>
+        </ScrollView>
+      )}
+    </View>
   );
 }
 
@@ -538,7 +586,7 @@ function Legend({ color, border, label, small }: { color: string; border?: strin
 
 // readOnly: geçmiş denemeyi yeniden açarken (düğme "Kapat", kutlama titreşimi yok)
 // saved: cevap ve deneme kayıtları bitince çözülür; günlük hedef ve önceki deneme ondan sonra okunur
-export function Result({ title, items, picks, secs, full, exam, onExit, readOnly = false, saved }: { title: string; items: Prepared[]; picks: (number | null)[]; secs: number; full: boolean; exam: boolean; onExit: () => void; readOnly?: boolean; saved?: Promise<unknown> }) {
+export function Result({ title, items, picks, secs, full, exam, onExit, readOnly = false, saved, timeUp = false }: { title: string; items: Prepared[]; picks: (number | null)[]; secs: number; full: boolean; exam: boolean; onExit: () => void; readOnly?: boolean; saved?: Promise<unknown>; timeUp?: boolean }) {
   const { c } = useTheme();
   const { s: st } = useSettings();
   const tap = useTap();
@@ -602,6 +650,12 @@ export function Result({ title, items, picks, secs, full, exam, onExit, readOnly
         <View style={{ width: 40 }} />
       </View>
       <ScrollView contentContainerStyle={{ padding: space.screen, gap: space.gap, paddingBottom: 24 }} showsVerticalScrollIndicator={false}>
+        {timeUp && (
+          <View accessibilityRole="alert" style={{ flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: c.badSoft, borderRadius: radius.btn, padding: 14 }}>
+            <Icon name="clock" size={18} color={c.bad} />
+            <T v="bodyM" color="bad" style={{ flex: 1 }}>Süre doldu, deneme otomatik olarak bitirildi. Boş kalan sorular yanlış sayılmaz.</T>
+          </View>
+        )}
         <Animated.View entering={FadeIn.duration(300)}>
           <Hero style={{ alignItems: 'center', gap: 8, paddingVertical: 28 }}>
             <T v="small" color="text2">{full ? 'Puan' : 'Doğru'}</T>
