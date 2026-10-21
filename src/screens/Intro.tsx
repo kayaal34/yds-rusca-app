@@ -49,7 +49,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
         {['Y', 'D', 'S'].map((ch, k) => <Letter key={ch} ch={ch} delay={950 + k * 100} />)}
       </View>
       <Animated.View style={[{ height: 1, backgroundColor: SPLASH_MUTED, marginTop: 10 }, lineSt]} />
-      <Animated.Text style={[{ fontFamily: font.light, fontSize: 13, color: SPLASH_MUTED, marginTop: 10, textTransform: 'uppercase', letterSpacing: 6, paddingLeft: 6 }, subSt]}>Rusça</Animated.Text>
+      <Animated.Text style={[{ fontFamily: font.thin, fontSize: 24, lineHeight: 30, color: SPLASH_FG, marginTop: 10, letterSpacing: 3, paddingLeft: 3 }, subSt]}>Rusça</Animated.Text>
     </Animated.View>
   );
 }
