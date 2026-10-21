@@ -1,0 +1,1202 @@
+[
+ {
+  "impf": "активизировать",
+  "perf": "активизировать",
+  "tr": "harekete geçirmek, canlandırmak",
+  "gov": "что?",
+  "ex": "Правительство активизировало борьбу с безработицей.",
+  "exTr": "Hükümet işsizlikle mücadeleyi hızlandırdı."
+ },
+ {
+  "impf": "амортизировать",
+  "perf": "амортизировать",
+  "tr": "(darbeyi) sönümlemek; amorti etmek",
+  "gov": "что?",
+  "ex": "Подвеска амортизирует удары на неровной дороге.",
+  "exTr": "Süspansiyon bozuk yolda darbeleri sönümler."
+ },
+ {
+  "impf": "ассимилировать",
+  "perf": "ассимилировать",
+  "tr": "özümsetmek, asimile etmek",
+  "gov": "кого? что?",
+  "ex": "Мигранты постепенно ассимилировались в новой стране.",
+  "exTr": "Göçmenler yeni ülkede giderek asimile oldu."
+ },
+ {
+  "impf": "афишировать",
+  "perf": "афишировать",
+  "tr": "açıkça sergilemek, duyurmak",
+  "gov": "что?",
+  "ex": "Он не любит афишировать свои заслуги.",
+  "exTr": "O, başarılarını ortaya sermeyi sevmez."
+ },
+ {
+  "impf": "благоволить",
+  "perf": "",
+  "tr": "iltimas göstermek, hoş görmek",
+  "gov": "к кому? кому?",
+  "ex": "Правитель благоволил к учёным и художникам.",
+  "exTr": "Hükümdar bilim insanlarına ve sanatçılara iltifat ederdi."
+ },
+ {
+  "impf": "бичевать",
+  "perf": "",
+  "tr": "kınamak, sert eleştirmek",
+  "gov": "кого? что?",
+  "ex": "Сатирик бичевал пороки современного общества.",
+  "exTr": "Hicivci çağdaş toplumun kusurlarını sert biçimde eleştirdi."
+ },
+ {
+  "impf": "будоражить",
+  "perf": "взбудоражить",
+  "tr": "telaşlandırmak, heyecanlandırmak",
+  "gov": "кого? что?",
+  "ex": "Новость будоражила умы жителей города.",
+  "exTr": "Haber şehir halkının zihnini heyecanlandırdı."
+ },
+ {
+  "impf": "вбирать",
+  "perf": "вобрать",
+  "tr": "içine çekmek, bünyesine katmak",
+  "gov": "что?",
+  "ex": "Культура вобрала в себя черты разных народов.",
+  "exTr": "Kültür farklı halkların özelliklerini bünyesine kattı."
+ },
+ {
+  "impf": "венчать",
+  "perf": "увенчать",
+  "tr": "taçlandırmak, sonuçlandırmak",
+  "gov": "что? чем?",
+  "ex": "Успех увенчал многолетний труд учёных.",
+  "exTr": "Başarı bilim insanlarının yıllarca süren emeğini taçlandırdı."
+ },
+ {
+  "impf": "воздавать",
+  "perf": "воздать",
+  "tr": "karşılığını vermek, hakkını teslim etmek",
+  "gov": "что? кому?",
+  "ex": "Потомки воздали должное подвигу героев.",
+  "exTr": "Gelecek kuşaklar kahramanların fedakârlığının hakkını teslim etti."
+ },
+ {
+  "impf": "возобладать",
+  "perf": "",
+  "tr": "ağır basmak, üstün gelmek",
+  "gov": "над кем? над чем?",
+  "ex": "В итоге возобладала точка зрения большинства.",
+  "exTr": "Sonunda çoğunluğun görüşü ağır bastı."
+ },
+ {
+  "impf": "воссоздавать",
+  "perf": "воссоздать",
+  "tr": "yeniden yaratmak, aslına uygun kurmak",
+  "gov": "что?",
+  "ex": "Реставраторы воссоздали облик древнего храма.",
+  "exTr": "Restoratörler eski tapınağın görünümünü yeniden oluşturdu."
+ },
+ {
+  "impf": "восполнять",
+  "perf": "восполнить",
+  "tr": "tamamlamak, telafi etmek (eksiği)",
+  "gov": "что?",
+  "ex": "Нужно восполнить пробелы в знаниях.",
+  "exTr": "Bilgideki eksiklikleri tamamlamak gerekiyor."
+ },
+ {
+  "impf": "гармонизировать",
+  "perf": "гармонизировать",
+  "tr": "uyumlu hale getirmek",
+  "gov": "что?",
+  "ex": "Страны стремятся гармонизировать законодательство.",
+  "exTr": "Ülkeler mevzuatlarını uyumlu hale getirmeye çalışıyor."
+ },
+ {
+  "impf": "дезавуировать",
+  "perf": "дезавуировать",
+  "tr": "yalanlamak, sahip çıkmamak",
+  "gov": "что?",
+  "ex": "Министерство дезавуировало заявление своего представителя.",
+  "exTr": "Bakanlık sözcüsünün açıklamasına sahip çıkmadı."
+ },
+ {
+  "impf": "дезориентировать",
+  "perf": "дезориентировать",
+  "tr": "yanıltmak, yönünü şaşırtmak",
+  "gov": "кого?",
+  "ex": "Противоречивая информация дезориентирует население.",
+  "exTr": "Çelişkili bilgi halkı yanıltıyor."
+ },
+ {
+  "impf": "демонтировать",
+  "perf": "демонтировать",
+  "tr": "sökmek, demonte etmek",
+  "gov": "что?",
+  "ex": "Рабочие демонтировали старое оборудование.",
+  "exTr": "İşçiler eski ekipmanı söktü."
+ },
+ {
+  "impf": "идентифицировать",
+  "perf": "идентифицировать",
+  "tr": "kimliğini saptamak, özdeşleştirmek",
+  "gov": "кого? что?",
+  "ex": "Эксперты идентифицировали личность погибшего.",
+  "exTr": "Uzmanlar ölen kişinin kimliğini saptadı."
+ },
+ {
+  "impf": "имитировать",
+  "perf": "имитировать",
+  "tr": "taklit etmek, öykünmek",
+  "gov": "что? кого?",
+  "ex": "Устройство имитирует звуки живой природы.",
+  "exTr": "Cihaz canlı doğanın seslerini taklit eder."
+ },
+ {
+  "impf": "инспектировать",
+  "perf": "инспектировать",
+  "tr": "denetlemek, teftiş etmek",
+  "gov": "что?",
+  "ex": "Комиссия инспектировала работу школ региона.",
+  "exTr": "Komisyon bölgedeki okulların çalışmalarını denetledi."
+ },
+ {
+  "impf": "интегрировать",
+  "perf": "интегрировать",
+  "tr": "bütünleştirmek, entegre etmek",
+  "gov": "что? во что?",
+  "ex": "Страна стремится интегрировать экономику в мировую систему.",
+  "exTr": "Ülke ekonomisini dünya sistemine entegre etmeye çalışıyor."
+ },
+ {
+  "impf": "интенсифицировать",
+  "perf": "интенсифицировать",
+  "tr": "yoğunlaştırmak",
+  "gov": "что?",
+  "ex": "Компания интенсифицировала выпуск продукции.",
+  "exTr": "Şirket üretimi yoğunlaştırdı."
+ },
+ {
+  "impf": "инсценировать",
+  "perf": "инсценировать",
+  "tr": "sahnelemek; (olayı) kurgulamak",
+  "gov": "что?",
+  "ex": "Преступник инсценировал ограбление.",
+  "exTr": "Suçlu soygunu kurguladı."
+ },
+ {
+  "impf": "кодифицировать",
+  "perf": "кодифицировать",
+  "tr": "kodlamak, yasa halinde düzenlemek",
+  "gov": "что?",
+  "ex": "Законодатели кодифицировали нормы трудового права.",
+  "exTr": "Yasa koyucular iş hukuku normlarını kanun haline getirdi."
+ },
+ {
+  "impf": "консервировать",
+  "perf": "законсервировать",
+  "tr": "muhafaza etmek, durdurmak (projeyi)",
+  "gov": "что?",
+  "ex": "Из-за нехватки средств строительство законсервировали.",
+  "exTr": "Fon yetersizliği yüzünden inşaat askıya alındı."
+ },
+ {
+  "impf": "лавировать",
+  "perf": "",
+  "tr": "manevra yapmak, idare etmek",
+  "gov": "между чем?",
+  "ex": "Дипломаты лавировали между двумя сверхдержавами.",
+  "exTr": "Diplomatlar iki süper güç arasında manevra yaptı."
+ },
+ {
+  "impf": "легитимировать",
+  "perf": "легитимировать",
+  "tr": "meşrulaştırmak",
+  "gov": "что?",
+  "ex": "Выборы призваны легитимировать власть.",
+  "exTr": "Seçimler iktidarı meşrulaştırmak içindir."
+ },
+ {
+  "impf": "лимитировать",
+  "perf": "лимитировать",
+  "tr": "sınırlamak, kotaya bağlamak",
+  "gov": "что?",
+  "ex": "Закон лимитирует объём добычи рыбы.",
+  "exTr": "Yasa balık avı miktarını sınırlıyor."
+ },
+ {
+  "impf": "маргинализировать",
+  "perf": "маргинализировать",
+  "tr": "marjinalleştirmek, kenara itmek",
+  "gov": "кого? что?",
+  "ex": "Экономический кризис маргинализировал часть населения.",
+  "exTr": "Ekonomik kriz nüfusun bir kısmını marjinalleştirdi."
+ },
+ {
+  "impf": "маскировать",
+  "perf": "замаскировать",
+  "tr": "gizlemek, kamufle etmek",
+  "gov": "что? чем?",
+  "ex": "Компания пыталась замаскировать убытки.",
+  "exTr": "Şirket zararlarını gizlemeye çalıştı."
+ },
+ {
+  "impf": "материализоваться",
+  "perf": "",
+  "tr": "somutlaşmak, gerçekleşmek",
+  "gov": "",
+  "ex": "Угроза вскоре материализовалась.",
+  "exTr": "Tehdit kısa sürede somutlaştı."
+ },
+ {
+  "impf": "минимизировать",
+  "perf": "минимизировать",
+  "tr": "en aza indirmek",
+  "gov": "что?",
+  "ex": "Нужно минимизировать риски для вкладчиков.",
+  "exTr": "Mudiler için riskleri en aza indirmek gerekiyor."
+ },
+ {
+  "impf": "нормализовать",
+  "perf": "нормализовать",
+  "tr": "normalleştirmek",
+  "gov": "что?",
+  "ex": "Стороны нормализовали отношения после долгого конфликта.",
+  "exTr": "Taraflar uzun bir çatışmadan sonra ilişkileri normalleştirdi."
+ },
+ {
+  "impf": "облагораживать",
+  "perf": "облагородить",
+  "tr": "soylulaştırmak, güzelleştirmek",
+  "gov": "что? кого?",
+  "ex": "Искусство облагораживает человеческую душу.",
+  "exTr": "Sanat insan ruhunu inceltir."
+ },
+ {
+  "impf": "оборачиваться",
+  "perf": "обернуться",
+  "tr": "dönüşmek; sonuçlanmak",
+  "gov": "чем? (во что?)",
+  "ex": "Скромная реформа обернулась масштабным кризисом.",
+  "exTr": "Mütevazı reform büyük bir krize dönüştü."
+ },
+ {
+  "impf": "ограждать",
+  "perf": "оградить",
+  "tr": "korumak, çevirmek",
+  "gov": "кого? что? от чего?",
+  "ex": "Закон призван оградить потребителей от обмана.",
+  "exTr": "Yasa tüketicileri aldatmaya karşı korumayı amaçlıyor."
+ },
+ {
+  "impf": "оптимизировать",
+  "perf": "оптимизировать",
+  "tr": "optimize etmek, verimli kılmak",
+  "gov": "что?",
+  "ex": "Компания оптимизировала логистические процессы.",
+  "exTr": "Şirket lojistik süreçlerini optimize etti."
+ },
+ {
+  "impf": "ориентироваться",
+  "perf": "сориентироваться",
+  "tr": "yönelmek; yönünü bulmak",
+  "gov": "на что? в чём?",
+  "ex": "Предприятия ориентируются на экспортные рынки.",
+  "exTr": "İşletmeler ihracat pazarlarına yöneliyor."
+ },
+ {
+  "impf": "отторгать",
+  "perf": "отторгнуть",
+  "tr": "reddetmek; koparmak",
+  "gov": "что?",
+  "ex": "Организм может отторгать пересаженный орган.",
+  "exTr": "Vücut nakledilen organı reddedebilir."
+ },
+ {
+  "impf": "парировать",
+  "perf": "парировать",
+  "tr": "savuşturmak, karşılık vermek",
+  "gov": "что?",
+  "ex": "Министр парировал критику оппозиции.",
+  "exTr": "Bakan muhalefetin eleştirisini savuşturdu."
+ },
+ {
+  "impf": "пересекаться",
+  "perf": "пересечься",
+  "tr": "kesişmek",
+  "gov": "с чем?",
+  "ex": "Интересы двух держав пересекаются на Ближнем Востоке.",
+  "exTr": "İki gücün çıkarları Ortadoğu'da kesişiyor."
+ },
+ {
+  "impf": "персонифицировать",
+  "perf": "персонифицировать",
+  "tr": "kişileştirmek",
+  "gov": "что?",
+  "ex": "Герой персонифицирует идеалы эпохи.",
+  "exTr": "Kahraman dönemin ideallerini kişileştirir."
+ },
+ {
+  "impf": "полемизировать",
+  "perf": "",
+  "tr": "tartışmak, polemik yapmak",
+  "gov": "с кем? о чём?",
+  "ex": "Критики полемизируют о роли государства в экономике.",
+  "exTr": "Eleştirmenler devletin ekonomideki rolü hakkında polemik yapıyor."
+ },
+ {
+  "impf": "популяризировать",
+  "perf": "популяризировать",
+  "tr": "yaygınlaştırmak, halka tanıtmak",
+  "gov": "что?",
+  "ex": "Телепередача популяризирует научные знания.",
+  "exTr": "Televizyon programı bilimsel bilgileri yaygınlaştırıyor."
+ },
+ {
+  "impf": "прерывать",
+  "perf": "прервать",
+  "tr": "kesmek, yarıda bırakmak",
+  "gov": "что? кого?",
+  "ex": "Страны прервали дипломатические отношения.",
+  "exTr": "Ülkeler diplomatik ilişkileri kesti."
+ },
+ {
+  "impf": "прогрессировать",
+  "perf": "",
+  "tr": "ilerlemek (gelişmek veya yayılmak)",
+  "gov": "",
+  "ex": "Болезнь быстро прогрессирует без лечения.",
+  "exTr": "Hastalık tedavi edilmezse hızla ilerler."
+ },
+ {
+  "impf": "пронизывать",
+  "perf": "пронизать",
+  "tr": "delip geçmek, her yere sinmek",
+  "gov": "что? кого?",
+  "ex": "Идея равенства пронизывает весь текст конституции.",
+  "exTr": "Eşitlik fikri anayasa metninin tamamına sinmiştir."
+ },
+ {
+  "impf": "протекать",
+  "perf": "протечь",
+  "tr": "geçmek, seyretmek; akmak",
+  "gov": "",
+  "ex": "Переговоры протекали в напряжённой обстановке.",
+  "exTr": "Müzakereler gergin bir ortamda geçti."
+ },
+ {
+  "impf": "регрессировать",
+  "perf": "",
+  "tr": "gerilemek",
+  "gov": "",
+  "ex": "Отрасль регрессировала из-за отсутствия инвестиций.",
+  "exTr": "Sektör yatırım eksikliği yüzünden geriledi."
+ },
+ {
+  "impf": "рекрутировать",
+  "perf": "рекрутировать",
+  "tr": "asker/eleman devşirmek",
+  "gov": "кого?",
+  "ex": "Группировка рекрутировала новых сторонников.",
+  "exTr": "Grup yeni taraftarlar devşirdi."
+ },
+ {
+  "impf": "репрессировать",
+  "perf": "репрессировать",
+  "tr": "baskı uygulamak, cezalandırmak (siyasi)",
+  "gov": "кого?",
+  "ex": "В тридцатые годы репрессировали многих учёных.",
+  "exTr": "Otuzlu yıllarda birçok bilim insanı baskıya uğradı."
+ },
+ {
+  "impf": "сбалансировать",
+  "perf": "сбалансировать",
+  "tr": "dengelemek",
+  "gov": "что?",
+  "ex": "Правительство сбалансировало бюджет.",
+  "exTr": "Hükümet bütçeyi dengeledi."
+ },
+ {
+  "impf": "сосуществовать",
+  "perf": "",
+  "tr": "bir arada var olmak",
+  "gov": "с кем? с чем?",
+  "ex": "Разные культуры мирно сосуществуют в регионе.",
+  "exTr": "Farklı kültürler bölgede barış içinde bir arada yaşıyor."
+ },
+ {
+  "impf": "стагнировать",
+  "perf": "",
+  "tr": "durgunluk içinde olmak",
+  "gov": "",
+  "ex": "Экономика страны стагнирует уже несколько лет.",
+  "exTr": "Ülke ekonomisi birkaç yıldır durgunluk içinde."
+ },
+ {
+  "impf": "стандартизировать",
+  "perf": "стандартизировать",
+  "tr": "standartlaştırmak",
+  "gov": "что?",
+  "ex": "Производители стандартизировали размеры комплектующих.",
+  "exTr": "Üreticiler yedek parça boyutlarını standartlaştırdı."
+ },
+ {
+  "impf": "трансформировать",
+  "perf": "трансформировать",
+  "tr": "dönüştürmek",
+  "gov": "что? во что?",
+  "ex": "Реформы трансформировали структуру экономики.",
+  "exTr": "Reformlar ekonominin yapısını dönüştürdü."
+ },
+ {
+  "impf": "унифицировать",
+  "perf": "унифицировать",
+  "tr": "tek tipe getirmek",
+  "gov": "что?",
+  "ex": "Нужно унифицировать правила для всех регионов.",
+  "exTr": "Kuralları tüm bölgeler için tek tipe getirmek gerekiyor."
+ },
+ {
+  "impf": "фокусировать",
+  "perf": "сфокусировать",
+  "tr": "odaklamak",
+  "gov": "что? на чём?",
+  "ex": "Исследователи сфокусировали внимание на причинах кризиса.",
+  "exTr": "Araştırmacılar dikkatlerini krizin nedenlerine odakladı."
+ },
+ {
+  "impf": "формализовать",
+  "perf": "формализовать",
+  "tr": "resmîleştirmek, kurallara bağlamak",
+  "gov": "что?",
+  "ex": "Стороны формализовали договорённости в письменном виде.",
+  "exTr": "Taraflar anlaşmaları yazılı olarak resmîleştirdi."
+ },
+ {
+  "impf": "функционировать",
+  "perf": "",
+  "tr": "işlemek, çalışmak",
+  "gov": "",
+  "ex": "Система функционирует без сбоев.",
+  "exTr": "Sistem aksaksız çalışıyor."
+ },
+ {
+  "impf": "централизовать",
+  "perf": "централизовать",
+  "tr": "merkezileştirmek",
+  "gov": "что?",
+  "ex": "Реформа централизовала управление отраслью.",
+  "exTr": "Reform sektörün yönetimini merkezileştirdi."
+ },
+ {
+  "impf": "эскалировать",
+  "perf": "эскалировать",
+  "tr": "tırmandırmak",
+  "gov": "что?",
+  "ex": "Стороны эскалируют конфликт вместо поиска компромисса.",
+  "exTr": "Taraflar uzlaşı aramak yerine çatışmayı tırmandırıyor."
+ },
+ {
+  "impf": "абсорбировать",
+  "perf": "абсорбировать",
+  "tr": "emmek, soğurmak",
+  "gov": "что?",
+  "ex": "Почва абсорбирует влагу и питательные вещества.",
+  "exTr": "Toprak nemi ve besin maddelerini emer."
+ },
+ {
+  "impf": "аккредитовать",
+  "perf": "аккредитовать",
+  "tr": "akredite etmek, yetki vermek",
+  "gov": "кого? что?",
+  "ex": "МИД аккредитовал иностранных журналистов.",
+  "exTr": "Dışişleri bakanlığı yabancı gazetecileri akredite etti."
+ },
+ {
+  "impf": "возвещать",
+  "perf": "возвестить",
+  "tr": "duyurmak, müjdelemek",
+  "gov": "что? о чём?",
+  "ex": "Колокола возвестили о начале праздника.",
+  "exTr": "Çanlar bayramın başladığını duyurdu."
+ },
+ {
+  "impf": "вознаграждать",
+  "perf": "вознаградить",
+  "tr": "ödüllendirmek",
+  "gov": "кого? чем?",
+  "ex": "Компания вознаградила сотрудников премиями.",
+  "exTr": "Şirket çalışanlarını ikramiyelerle ödüllendirdi."
+ },
+ {
+  "impf": "восхвалять",
+  "perf": "восхвалить",
+  "tr": "göklere çıkarmak, övmek",
+  "gov": "кого? что?",
+  "ex": "Газеты восхваляли подвиг лётчиков.",
+  "exTr": "Gazeteler pilotların kahramanlığını övdü."
+ },
+ {
+  "impf": "вторить",
+  "perf": "",
+  "tr": "eşlik etmek, tekrarlamak",
+  "gov": "кому? чему?",
+  "ex": "Критики вторили мнению авторитетного эксперта.",
+  "exTr": "Eleştirmenler saygın uzmanın görüşünü tekrarladı."
+ },
+ {
+  "impf": "вырождаться",
+  "perf": "выродиться",
+  "tr": "yozlaşmak, soyu bozulmak",
+  "gov": "",
+  "ex": "Идея реформы выродилась в формальность.",
+  "exTr": "Reform fikri bir formaliteye yozlaştı."
+ },
+ {
+  "impf": "высвобождать",
+  "perf": "высвободить",
+  "tr": "serbest bırakmak, kurtarmak",
+  "gov": "что? кого?",
+  "ex": "Автоматизация высвободит часть рабочей силы.",
+  "exTr": "Otomasyon işgücünün bir kısmını serbest bırakacak."
+ },
+ {
+  "impf": "дезинформировать",
+  "perf": "дезинформировать",
+  "tr": "yanlış bilgilendirmek",
+  "gov": "кого?",
+  "ex": "Сайт дезинформировал читателей о ходе выборов.",
+  "exTr": "Site okurları seçimin gidişatı hakkında yanlış bilgilendirdi."
+ },
+ {
+  "impf": "демократизировать",
+  "perf": "демократизировать",
+  "tr": "demokratikleştirmek",
+  "gov": "что?",
+  "ex": "Страна стремится демократизировать политическую систему.",
+  "exTr": "Ülke siyasi sistemi demokratikleştirmeye çalışıyor."
+ },
+ {
+  "impf": "демилитаризировать",
+  "perf": "демилитаризировать",
+  "tr": "askerî varlıktan arındırmak",
+  "gov": "что?",
+  "ex": "Договор демилитаризировал приграничную зону.",
+  "exTr": "Anlaşma sınır bölgesini askerden arındırdı."
+ },
+ {
+  "impf": "дерегулировать",
+  "perf": "дерегулировать",
+  "tr": "serbestleştirmek, düzenlemeleri kaldırmak",
+  "gov": "что?",
+  "ex": "Власти дерегулировали рынок авиаперевозок.",
+  "exTr": "Yetkililer hava taşımacılığı pazarını serbestleştirdi."
+ },
+ {
+  "impf": "диверсифицировать",
+  "perf": "диверсифицировать",
+  "tr": "çeşitlendirmek",
+  "gov": "что?",
+  "ex": "Страна пытается диверсифицировать экономику.",
+  "exTr": "Ülke ekonomisini çeşitlendirmeye çalışıyor."
+ },
+ {
+  "impf": "дистанцироваться",
+  "perf": "дистанцироваться",
+  "tr": "uzak durmak, mesafe koymak",
+  "gov": "от кого? от чего?",
+  "ex": "Партия дистанцировалась от радикальных заявлений.",
+  "exTr": "Parti radikal açıklamalardan uzak durdu."
+ },
+ {
+  "impf": "зондировать",
+  "perf": "прозондировать",
+  "tr": "yoklamak, sondalamak",
+  "gov": "что?",
+  "ex": "Дипломаты зондировали почву для переговоров.",
+  "exTr": "Diplomatlar müzakereler için zemini yokladı."
+ },
+ {
+  "impf": "идеализировать",
+  "perf": "идеализировать",
+  "tr": "idealleştirmek",
+  "gov": "кого? что?",
+  "ex": "Не стоит идеализировать прошлое.",
+  "exTr": "Geçmişi idealleştirmemek gerekir."
+ },
+ {
+  "impf": "изолировать",
+  "perf": "изолировать",
+  "tr": "yalıtmak, tecrit etmek",
+  "gov": "кого? что? от чего?",
+  "ex": "Больных изолировали от остальных пациентов.",
+  "exTr": "Hastalar diğer hastalardan ayrı tutuldu."
+ },
+ {
+  "impf": "инфицировать",
+  "perf": "инфицировать",
+  "tr": "enfekte etmek",
+  "gov": "кого? что?",
+  "ex": "Вирус инфицировал компьютеры по всему миру.",
+  "exTr": "Virüs dünya çapında bilgisayarları enfekte etti."
+ },
+ {
+  "impf": "катализировать",
+  "perf": "катализировать",
+  "tr": "katalizör olmak, hızlandırmak",
+  "gov": "что?",
+  "ex": "Платина катализирует многие химические реакции.",
+  "exTr": "Platin birçok kimyasal tepkimeyi hızlandırır."
+ },
+ {
+  "impf": "кооптировать",
+  "perf": "кооптировать",
+  "tr": "ek üye olarak seçmek",
+  "gov": "кого?",
+  "ex": "Совет кооптировал в свой состав двух экспертов.",
+  "exTr": "Konsey iki uzmanı üyeliğe aldı."
+ },
+ {
+  "impf": "коммерциализировать",
+  "perf": "коммерциализировать",
+  "tr": "ticarileştirmek",
+  "gov": "что?",
+  "ex": "Университет коммерциализировал результаты исследований.",
+  "exTr": "Üniversite araştırma sonuçlarını ticarileştirdi."
+ },
+ {
+  "impf": "конвертировать",
+  "perf": "конвертировать",
+  "tr": "dönüştürmek, çevirmek (para, format)",
+  "gov": "что? во что?",
+  "ex": "Банк конвертировал рубли в доллары.",
+  "exTr": "Banka rubleleri dolara çevirdi."
+ },
+ {
+  "impf": "локализовать",
+  "perf": "локализовать",
+  "tr": "sınırlamak, bölgeye hapsetmek",
+  "gov": "что?",
+  "ex": "Пожарным удалось локализовать пожар.",
+  "exTr": "İtfaiyeciler yangını kontrol altına almayı başardı."
+ },
+ {
+  "impf": "нормировать",
+  "perf": "нормировать",
+  "tr": "norm koymak, standartlaştırmak",
+  "gov": "что?",
+  "ex": "Закон нормирует продолжительность рабочего дня.",
+  "exTr": "Yasa iş gününün süresine norm getirir."
+ },
+ {
+  "impf": "опошлять",
+  "perf": "опошлить",
+  "tr": "bayağılaştırmak",
+  "gov": "что?",
+  "ex": "Массовая культура опошляет высокие идеи.",
+  "exTr": "Kitle kültürü yüksek fikirleri bayağılaştırır."
+ },
+ {
+  "impf": "оттеснять",
+  "perf": "оттеснить",
+  "tr": "geriye itmek, kenara itmek",
+  "gov": "кого? что?",
+  "ex": "Новые технологии оттеснили традиционные ремёсла.",
+  "exTr": "Yeni teknolojiler geleneksel el sanatlarını geri plana itti."
+ },
+ {
+  "impf": "отчуждать",
+  "perf": "отчудить",
+  "tr": "devretmek; yabancılaştırmak",
+  "gov": "что? кого?",
+  "ex": "Земля может быть отчуждена для государственных нужд.",
+  "exTr": "Arazi kamu ihtiyaçları için devredilebilir."
+ },
+ {
+  "impf": "политизировать",
+  "perf": "политизировать",
+  "tr": "siyasallaştırmak",
+  "gov": "что?",
+  "ex": "Не следует политизировать вопросы здравоохранения.",
+  "exTr": "Sağlık konularını siyasallaştırmamak gerekir."
+ },
+ {
+  "impf": "поляризовать",
+  "perf": "поляризовать",
+  "tr": "kutuplaştırmak",
+  "gov": "что?",
+  "ex": "Дискуссия поляризовала общество.",
+  "exTr": "Tartışma toplumu kutuplaştırdı."
+ },
+ {
+  "impf": "предаваться",
+  "perf": "предаться",
+  "tr": "kendini kaptırmak, dalmak",
+  "gov": "чему?",
+  "ex": "Старик предавался воспоминаниям о молодости.",
+  "exTr": "Yaşlı adam gençlik anılarına daldı."
+ },
+ {
+  "impf": "предрекать",
+  "perf": "предречь",
+  "tr": "kehanette bulunmak, önceden bildirmek",
+  "gov": "что?",
+  "ex": "Аналитики предрекали скорый крах рынка.",
+  "exTr": "Analistler piyasanın yakında çökeceğini öngörüyordu."
+ },
+ {
+  "impf": "присягать",
+  "perf": "присягнуть",
+  "tr": "yemin etmek, sadakat yemini etmek",
+  "gov": "кому? чему?",
+  "ex": "Новые офицеры присягнули на верность родине.",
+  "exTr": "Yeni subaylar vatana bağlılık yemini etti."
+ },
+ {
+  "impf": "пропитывать",
+  "perf": "пропитать",
+  "tr": "emdirmek, sindirmek",
+  "gov": "что? чем?",
+  "ex": "Дерево пропитывают специальным составом от гниения.",
+  "exTr": "Ahşap çürümeye karşı özel bir karışımla emdirilir."
+ },
+ {
+  "impf": "радикализировать",
+  "perf": "радикализировать",
+  "tr": "radikalleştirmek",
+  "gov": "что?",
+  "ex": "Безработица радикализировала часть молодёжи.",
+  "exTr": "İşsizlik gençlerin bir kısmını radikalleştirdi."
+ },
+ {
+  "impf": "рационализировать",
+  "perf": "рационализировать",
+  "tr": "rasyonalize etmek, verimli hale getirmek",
+  "gov": "что?",
+  "ex": "Менеджеры рационализировали производственный процесс.",
+  "exTr": "Yöneticiler üretim sürecini rasyonelleştirdi."
+ },
+ {
+  "impf": "реквизировать",
+  "perf": "реквизировать",
+  "tr": "el koymak (devlet adına)",
+  "gov": "что?",
+  "ex": "Армия реквизировала транспорт у населения.",
+  "exTr": "Ordu halktan taşıt vasıtalarına el koydu."
+ },
+ {
+  "impf": "симулировать",
+  "perf": "симулировать",
+  "tr": "taklit etmek, yapmacık göstermek",
+  "gov": "что?",
+  "ex": "Программа симулирует поведение финансового рынка.",
+  "exTr": "Program finans piyasasının davranışını simüle eder."
+ },
+ {
+  "impf": "терроризировать",
+  "perf": "терроризировать",
+  "tr": "terörize etmek, yıldırmak",
+  "gov": "кого?",
+  "ex": "Банды терроризировали жителей района.",
+  "exTr": "Çeteler bölge sakinlerini yıldırdı."
+ },
+ {
+  "impf": "трудоустраивать",
+  "perf": "трудоустроить",
+  "tr": "iş bulmak, işe yerleştirmek",
+  "gov": "кого?",
+  "ex": "Центр занятости помогает трудоустраивать выпускников.",
+  "exTr": "İstihdam merkezi mezunların işe yerleşmesine yardımcı oluyor."
+ },
+ {
+  "impf": "утрировать",
+  "perf": "утрировать",
+  "tr": "abartmak",
+  "gov": "что?",
+  "ex": "Не будем утрировать масштабы проблемы.",
+  "exTr": "Sorunun boyutlarını abartmayalım."
+ },
+ {
+  "impf": "уязвлять",
+  "perf": "уязвить",
+  "tr": "gücendirmek, dokunmak",
+  "gov": "кого? что?",
+  "ex": "Её слова больно уязвили его самолюбие.",
+  "exTr": "Sözleri onun gururunu derinden incitti."
+ },
+ {
+  "impf": "эксгумировать",
+  "perf": "эксгумировать",
+  "tr": "mezardan çıkarmak",
+  "gov": "что? кого?",
+  "ex": "Следователи эксгумировали тело для экспертизы.",
+  "exTr": "Soruşturmacılar bilirkişi incelemesi için cesedi mezardan çıkardı."
+ },
+ {
+  "impf": "эмитировать",
+  "perf": "эмитировать",
+  "tr": "(para, hisse) ihraç etmek",
+  "gov": "что?",
+  "ex": "Банк эмитировал облигации на крупную сумму.",
+  "exTr": "Banka büyük miktarda tahvil ihraç etti."
+ },
+ {
+  "impf": "ржаветь",
+  "perf": "заржаветь",
+  "tr": "paslanmak",
+  "gov": "",
+  "ex": "Металл ржавеет во влажном климате.",
+  "exTr": "Metal nemli iklimde paslanır."
+ },
+ {
+  "impf": "абсолютизировать",
+  "perf": "абсолютизировать",
+  "tr": "mutlaklaştırmak",
+  "gov": "что?",
+  "ex": "Автор склонен абсолютизировать роль экономики в истории.",
+  "exTr": "Yazar tarihte ekonominin rolünü mutlaklaştırmaya meyilli."
+ },
+ {
+  "impf": "авторизовать",
+  "perf": "авторизовать",
+  "tr": "yetkilendirmek, onaylamak",
+  "gov": "что? кого?",
+  "ex": "Банк авторизовал платёж клиента.",
+  "exTr": "Banka müşterinin ödemesini onayladı."
+ },
+ {
+  "impf": "благословлять",
+  "perf": "благословить",
+  "tr": "hayır dua etmek, onaylamak",
+  "gov": "кого? что?",
+  "ex": "Епископ благословил начало строительства храма.",
+  "exTr": "Piskopos tapınağın inşasının başlamasına hayır dua etti."
+ },
+ {
+  "impf": "брезговать",
+  "perf": "побрезговать",
+  "tr": "tiksinmek, burun kıvırmak",
+  "gov": "кем? чем?",
+  "ex": "Он не брезговал никакими методами борьбы.",
+  "exTr": "O hiçbir mücadele yönteminden kaçınmıyordu."
+ },
+ {
+  "impf": "вверять",
+  "perf": "вверить",
+  "tr": "emanet etmek",
+  "gov": "что? кого? кому?",
+  "ex": "Народ вверил свою судьбу новому правительству.",
+  "exTr": "Halk kaderini yeni hükümete emanet etti."
+ },
+ {
+  "impf": "взваливать",
+  "perf": "взвалить",
+  "tr": "yüklemek (sorumluluk)",
+  "gov": "что? на кого?",
+  "ex": "Начальник взвалил всю ответственность на подчинённых.",
+  "exTr": "Amir tüm sorumluluğu astlarının üzerine yükledi."
+ },
+ {
+  "impf": "впитывать",
+  "perf": "впитать",
+  "tr": "emmek, özümsemek",
+  "gov": "что?",
+  "ex": "Губка быстро впитывает воду.",
+  "exTr": "Sünger suyu hızla emer."
+ },
+ {
+  "impf": "выверять",
+  "perf": "выверить",
+  "tr": "kontrol edip düzeltmek, hassas ayarlamak",
+  "gov": "что?",
+  "ex": "Инженеры тщательно выверили все расчёты.",
+  "exTr": "Mühendisler tüm hesapları özenle kontrol etti."
+ },
+ {
+  "impf": "выгораживать",
+  "perf": "выгородить",
+  "tr": "aklamaya çalışmak, korumak",
+  "gov": "кого?",
+  "ex": "Он пытался выгородить виновного друга.",
+  "exTr": "Suçlu arkadaşını aklamaya çalıştı."
+ },
+ {
+  "impf": "вымещать",
+  "perf": "выместить",
+  "tr": "(öfkesini) çıkarmak",
+  "gov": "что? на ком?",
+  "ex": "Начальник вымещал на подчинённых своё раздражение.",
+  "exTr": "Amir sinirini astlarından çıkarıyordu."
+ },
+ {
+  "impf": "гипертрофировать",
+  "perf": "гипертрофировать",
+  "tr": "aşırı büyütmek, abartmak",
+  "gov": "что?",
+  "ex": "Пресса гипертрофировала значение этого события.",
+  "exTr": "Basın bu olayın önemini şişirdi."
+ },
+ {
+  "impf": "дискутировать",
+  "perf": "дискутировать",
+  "tr": "tartışmak, tartışma yürütmek",
+  "gov": "о чём? с кем?",
+  "ex": "Учёные дискутируют о причинах глобального потепления.",
+  "exTr": "Bilim insanları küresel ısınmanın nedenlerini tartışıyor."
+ },
+ {
+  "impf": "дислоцировать",
+  "perf": "дислоцировать",
+  "tr": "konuşlandırmak",
+  "gov": "что? кого?",
+  "ex": "Подразделения дислоцированы вдоль границы.",
+  "exTr": "Birlikler sınır boyunca konuşlandırılmıştır."
+ },
+ {
+  "impf": "дозировать",
+  "perf": "дозировать",
+  "tr": "dozunu ayarlamak, ölçülü vermek",
+  "gov": "что?",
+  "ex": "Врач тщательно дозирует лекарство.",
+  "exTr": "Doktor ilacın dozunu dikkatle ayarlıyor."
+ },
+ {
+  "impf": "клеймить",
+  "perf": "заклеймить",
+  "tr": "damgalamak, kınamak",
+  "gov": "кого? что?",
+  "ex": "Газеты заклеймили действия властей как позорные.",
+  "exTr": "Gazeteler yetkililerin eylemlerini utanç verici diye damgaladı."
+ },
+ {
+  "impf": "замышлять",
+  "perf": "замыслить",
+  "tr": "tasarlamak (kötü niyetle), planlamak",
+  "gov": "что?",
+  "ex": "Заговорщики замышляли переворот.",
+  "exTr": "Komplocular darbe planlıyordu."
+ },
+ {
+  "impf": "занижать",
+  "perf": "занизить",
+  "tr": "olduğundan düşük göstermek",
+  "gov": "что?",
+  "ex": "Компания занижала реальные показатели прибыли.",
+  "exTr": "Şirket gerçek kâr göstergelerini düşük gösteriyordu."
+ },
+ {
+  "impf": "заострять",
+  "perf": "заострить",
+  "tr": "sivriltmek; keskinleştirmek, vurgulamak",
+  "gov": "что?",
+  "ex": "Автор заострил внимание на спорных моментах.",
+  "exTr": "Yazar tartışmalı noktalara dikkat çekti."
+ },
+ {
+  "impf": "затушёвывать",
+  "perf": "затушевать",
+  "tr": "gizlemek, silikleştirmek",
+  "gov": "что?",
+  "ex": "Чиновники затушевали истинные причины аварии.",
+  "exTr": "Memurlar kazanın gerçek nedenlerini gizledi."
+ },
+ {
+  "impf": "извращать",
+  "perf": "извратить",
+  "tr": "çarpıtmak, saptırmak",
+  "gov": "что?",
+  "ex": "Пропаганда извращает исторические факты.",
+  "exTr": "Propaganda tarihsel gerçekleri çarpıtır."
+ },
+ {
+  "impf": "изживать",
+  "perf": "изжить",
+  "tr": "kökünü kurutmak, sona erdirmek",
+  "gov": "что?",
+  "ex": "Обществу ещё предстоит изжить предрассудки.",
+  "exTr": "Toplumun önyargılara son vermesi gerekiyor."
+ },
+ {
+  "impf": "искупать",
+  "perf": "искупить",
+  "tr": "kefaret ödemek, telafi etmek",
+  "gov": "что?",
+  "ex": "Он пытался искупить вину многолетним трудом.",
+  "exTr": "Suçunun kefaretini yıllarca çalışarak ödemeye çalıştı."
+ },
+ {
+  "impf": "канонизировать",
+  "perf": "канонизировать",
+  "tr": "azizlik mertebesine yükseltmek, kutsallaştırmak",
+  "gov": "кого? что?",
+  "ex": "Церковь канонизировала князя спустя века.",
+  "exTr": "Kilise prensi yüzyıllar sonra aziz ilan etti."
+ },
+ {
+  "impf": "лелеять",
+  "perf": "",
+  "tr": "(umut, sevgi) beslemek, şefkatle bakmak",
+  "gov": "что? кого?",
+  "ex": "Он лелеял надежду вернуться на родину.",
+  "exTr": "Vatanına dönme umudunu koruyordu."
+ },
+ {
+  "impf": "оживлять",
+  "perf": "оживить",
+  "tr": "canlandırmak",
+  "gov": "что? кого?",
+  "ex": "Новые рейсы оживили туристический сезон.",
+  "exTr": "Yeni seferler turizm sezonunu canlandırdı."
+ },
+ {
+  "impf": "окутывать",
+  "perf": "окутать",
+  "tr": "sarmak, bürümek",
+  "gov": "что? кого? чем?",
+  "ex": "Тайна окутывает эту историческую личность.",
+  "exTr": "Bu tarihî şahsiyetin etrafını gizem sarıyor."
+ },
+ {
+  "impf": "омрачать",
+  "perf": "омрачить",
+  "tr": "gölgelemek, karartmak",
+  "gov": "что?",
+  "ex": "Скандал омрачил открытие выставки.",
+  "exTr": "Skandal sergi açılışını gölgeledi."
+ },
+ {
+  "impf": "отмежёвываться",
+  "perf": "отмежеваться",
+  "tr": "ilişkisini kesmek, uzaklaşmak",
+  "gov": "от кого? от чего?",
+  "ex": "Лидеры отмежевались от экстремистских заявлений.",
+  "exTr": "Liderler aşırı uçlardaki açıklamalardan uzaklaştı."
+ },
+ {
+  "impf": "оттачивать",
+  "perf": "отточить",
+  "tr": "bilemek, geliştirmek",
+  "gov": "что?",
+  "ex": "Дипломат годами оттачивал искусство переговоров.",
+  "exTr": "Diplomat yıllarca müzakere sanatını geliştirdi."
+ },
+ {
+  "impf": "отягощать",
+  "perf": "отяготить",
+  "tr": "ağırlaştırmak, yük olmak",
+  "gov": "что? кого? чем?",
+  "ex": "Высокие проценты отягощают бюджет предприятия.",
+  "exTr": "Yüksek faizler işletmenin bütçesine yük bindiriyor."
+ },
+ {
+  "impf": "очернять",
+  "perf": "очернить",
+  "tr": "karalamak",
+  "gov": "кого? что?",
+  "ex": "Конкуренты пытались очернить репутацию фирмы.",
+  "exTr": "Rakipler firmanın itibarını karalamaya çalıştı."
+ },
+ {
+  "impf": "превозмогать",
+  "perf": "превозмочь",
+  "tr": "yenmek, üstesinden gelmek",
+  "gov": "что?",
+  "ex": "Спортсмен превозмог боль и закончил дистанцию.",
+  "exTr": "Sporcu acıyı yenip mesafeyi tamamladı."
+ },
+ {
+  "impf": "прославлять",
+  "perf": "прославить",
+  "tr": "ünlendirmek, övmek",
+  "gov": "кого? что?",
+  "ex": "Открытие прославило молодого учёного.",
+  "exTr": "Keşif genç bilim insanını ünlendirdi."
+ },
+ {
+  "impf": "развенчивать",
+  "perf": "развенчать",
+  "tr": "gerçek yüzünü ortaya çıkarmak, çürütmek",
+  "gov": "что? кого?",
+  "ex": "Исследователи развенчали популярный миф.",
+  "exTr": "Araştırmacılar yaygın bir efsaneyi çürüttü."
+ },
+ {
+  "impf": "рассеивать",
+  "perf": "рассеять",
+  "tr": "dağıtmak, gidermek",
+  "gov": "что? кого?",
+  "ex": "Данные рассеяли опасения экспертов.",
+  "exTr": "Veriler uzmanların kaygılarını giderdi."
+ },
+ {
+  "impf": "реанимировать",
+  "perf": "реанимировать",
+  "tr": "hayata döndürmek, yeniden canlandırmak",
+  "gov": "что? кого?",
+  "ex": "Власти пытаются реанимировать угасающую отрасль.",
+  "exTr": "Yetkililer sönmekte olan sektörü yeniden canlandırmaya çalışıyor."
+ },
+ {
+  "impf": "сулить",
+  "perf": "посулить",
+  "tr": "vaat etmek, ima etmek",
+  "gov": "что? кому?",
+  "ex": "Реформа сулит значительную экономию.",
+  "exTr": "Reform önemli bir tasarruf vaat ediyor."
+ },
+ {
+  "impf": "умалять",
+  "perf": "умалить",
+  "tr": "küçümsemek, azaltmak",
+  "gov": "что?",
+  "ex": "Нельзя умалять заслуги предшественников.",
+  "exTr": "Selefilerin başarılarını küçümsemek doğru değil."
+ },
+ {
+  "impf": "умерять",
+  "perf": "умерить",
+  "tr": "azaltmak, ölçülü kılmak",
+  "gov": "что?",
+  "ex": "Центробанк умерил темпы повышения ставки.",
+  "exTr": "Merkez bankası faiz artış hızını düşürdü."
+ },
+ {
+  "impf": "устрашать",
+  "perf": "устрашить",
+  "tr": "korkutmak, gözünü korkutmak",
+  "gov": "кого?",
+  "ex": "Показательные казни должны были устрашить население.",
+  "exTr": "Örnek idamların halkı korkutması amaçlanıyordu."
+ },
+ {
+  "impf": "утаивать",
+  "perf": "утаить",
+  "tr": "gizlemek, saklamak",
+  "gov": "что? от кого?",
+  "ex": "Предприниматель утаил часть доходов от налоговой.",
+  "exTr": "İşadamı gelirinin bir kısmını vergi dairesinden sakladı."
+ },
+ {
+  "impf": "сокрушать",
+  "perf": "сокрушить",
+  "tr": "ezmek, yıkmak",
+  "gov": "что? кого?",
+  "ex": "Армия сокрушила оборону противника.",
+  "exTr": "Ordu düşmanın savunmasını yıktı."
+ },
+ {
+  "impf": "отвращать",
+  "perf": "отвратить",
+  "tr": "uzaklaştırmak, önlemek",
+  "gov": "кого? что? от чего?",
+  "ex": "Дипломатия призвана отвратить угрозу войны.",
+  "exTr": "Diplomasi, savaş tehdidini önlemeyi amaçlar."
+ },
+ {
+  "impf": "приравнивать",
+  "perf": "приравнять",
+  "tr": "eşit saymak, denk tutmak",
+  "gov": "что? к чему?",
+  "ex": "Закон приравнивает неуплату налогов к уголовному преступлению.",
+  "exTr": "Yasa vergi ödememeyi cezai suça eş tutuyor."
+ }
+]

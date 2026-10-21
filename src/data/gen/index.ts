@@ -17,6 +17,7 @@ import h3 from './hard_verbs_3.json';
 import h4 from './hard_verbs_4.json';
 import h5 from './hard_verbs_5.json';
 import h6 from './hard_verbs_6.json';
+import h7 from './hard_verbs_7.json';
 import wNoun from './words_nouns.json';
 import wNoun2 from './words_nouns_2.json';
 import wAdv from './words_adverbs.json';
@@ -61,6 +62,13 @@ for (let i = 0; i < Math.max(...hardFiles.map((f) => f.length)); i++) {
     keys.forEach((k) => hardSeen.add(k));
     hardList.push(v);
   }
+}
+// Yedinci dosya sona eklenir: önceki fiillerin numaraları (kayıtlı ilerleme) değişmesin.
+for (const v of h7 as HardRaw[]) {
+  const keys = [v.impf, v.perf].filter(Boolean);
+  if (keys.some((k) => hardSeen.has(k))) continue;
+  keys.forEach((k) => hardSeen.add(k));
+  hardList.push(v);
 }
 export const hardVerbs: Verb[] = hardList.map((v, i) => ({ ...v, perf: v.perf === v.impf ? '' : v.perf, r: HARD_BASE + i + 1 }));
 
