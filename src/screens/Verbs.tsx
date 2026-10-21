@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, ScrollView, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
-import Animated, { Easing, FadeIn, interpolate, runOnJS, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
+import Animated, { Easing, FadeIn, interpolate, runOnJS, type SharedValue, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { icon as ICON, radius, space, useTheme } from '../theme';
 import { Clover } from '../Logo';
 import * as Speech from 'expo-speech';
@@ -76,6 +76,8 @@ export function Verbs() {
   );
 }
 
+// İki yuvalı deste: i. kart i%2 yuvasında üstte, sıradaki kart diğer yuvada arkada hazır bekler.
+// Üstteki kart çıkınca arkadaki zaten yerinde olduğu için yeniden yükleme ve boşluk olmaz.
 function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: number; known: Map<string, boolean>; mark: (w: string, k: boolean) => void; again: () => void }) {
   const { c } = useTheme();
   const tap = useTap();
@@ -88,20 +90,23 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
   });
   const [i, setI] = useState(0);
   const [tally, setTally] = useState({ ok: 0, again: 0 });
+  const [flipped, setFlipped] = useState(false);
   const flip = useSharedValue(0);
-  const tx = useSharedValue(0); // kaydırma: sağa öğrendim, sola tekrar
+  const txA = useSharedValue(0);
+  const txB = useSharedValue(0);
+  const topSV = useSharedValue(0); // üstteki yuva (hareket işleyicisi UI tarafında okur)
+  const top = i % 2;
+  const txTop = top === 0 ? txA : txB;
+  const answered = useSharedValue(-1); // kaydırma animasyonu sürerken düğmeye basılırsa aynı kart iki kez sayılmasın
 
-  const front = useAnimatedStyle(() => ({ transform: [{ perspective: 1200 }, { rotateY: `${interpolate(flip.value, [0, 1], [0, 180])}deg` }], backfaceVisibility: 'hidden' }));
-  const back = useAnimatedStyle(() => ({ transform: [{ perspective: 1200 }, { rotateY: `${interpolate(flip.value, [0, 1], [180, 360])}deg` }], backfaceVisibility: 'hidden' }));
-  const drag = useAnimatedStyle(() => ({ transform: [{ translateX: tx.value }, { rotate: `${interpolate(tx.value, [-200, 200], [-8, 8])}deg` }] }));
-  // Eşiğe yaklaşınca kartın üstünde hangi yöne gittiği belirir
-  const hintOk = useAnimatedStyle(() => ({ opacity: interpolate(tx.value, [20, SWIPE], [0, 1], 'clamp') }));
-  const hintAgain = useAnimatedStyle(() => ({ opacity: interpolate(tx.value, [-SWIPE, -20], [1, 0], 'clamp') }));
+  // Yeni kart üste geçince, ekran dışına giden eski yuva (artık arkada, yeni kelimeyle) ortaya alınır
+  useEffect(() => {
+    topSV.set(top);
+    (top === 0 ? txB : txA).set(0);
+  }, [i]);
+  useEffect(() => () => { Speech.stop(); }, []);
 
   const v: Verb | undefined = deck[i];
-  const nextV: Verb | undefined = deck[i + 1];
-  const answered = useSharedValue(-1); // kaydırma animasyonu sürerken düğmeye basılırsa aynı kart iki kez sayılmasın
-  useEffect(() => () => { Speech.stop(); }, []);
   const answer = (k: boolean) => {
     if (!v || answered.get() === i) return;
     answered.set(i);
@@ -111,26 +116,30 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
     mark(v.impf, k);
     setTally((t) => (k ? { ...t, ok: t.ok + 1 } : { ...t, again: t.again + 1 }));
     flip.set(0);
-    tx.set(0);
     setI(i + 1);
   };
-  // Kartın her yerinden: yatay sürükleme cevaplar, dokunma çevirir (iOS ve Android'de yerel dokunma sistemiyle)
-  const [flipped, setFlipped] = useState(false);
+  // Düğmeyle cevapta da kart kayarak çıkar
+  const fling = (k: boolean) => {
+    if (!v || answered.get() === i) return;
+    txTop.set(withTiming(k ? 600 : -600, { duration: 220, easing: Easing.in(Easing.quad) }, (fin) => { if (fin) runOnJS(answer)(k); }));
+  };
   const flipCard = () => {
     tap();
     setFlipped(!flipped);
     flip.set(withTiming(flipped ? 0 : 1, { duration: 420, easing: Easing.inOut(Easing.cubic) }));
   };
-  const swiped = (ok: boolean) => answer(ok);
   const pan = Gesture.Pan()
     .activeOffsetX([-12, 12])
     .failOffsetY([-16, 16])
-    .onUpdate((e) => { tx.set(e.translationX); })
+    .onUpdate((e) => { (topSV.get() === 0 ? txA : txB).set(e.translationX); })
     .onEnd((e) => {
+      const t = topSV.get() === 0 ? txA : txB;
       if (Math.abs(e.translationX) > SWIPE) {
         const ok = e.translationX > 0;
-        tx.set(withTiming(ok ? 500 : -500, { duration: 180 }, () => runOnJS(swiped)(ok)));
-      } else tx.set(withTiming(0, { duration: 180 }));
+        // Hızlı fırlatınca kart daha çabuk çıkar
+        const dur = Math.max(140, Math.min(260, 600 / Math.max(1, Math.abs(e.velocityX) / 400)));
+        t.set(withTiming(ok ? 600 : -600, { duration: dur }, (fin) => { if (fin) runOnJS(answer)(ok); }));
+      } else t.set(withTiming(0, { duration: 220, easing: Easing.out(Easing.back(1.4)) }));
     });
   const tapG = Gesture.Tap().maxDistance(10).onEnd(() => { runOnJS(flipCard)(); });
   const gesture = Gesture.Exclusive(pan, tapG);
@@ -152,6 +161,9 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
     );
   }
 
+  // Her yuva kendi kelimesini gösterir: üstteki i, arkadaki i+1
+  const slotVerb = (s: number) => deck[s === top ? i : i + 1];
+
   return (
     <View style={{ flex: 1, paddingHorizontal: space.screen, paddingTop: 12, paddingBottom: 16, gap: 12 }}>
       <View style={{ gap: 6 }}>
@@ -162,51 +174,82 @@ function Cards({ list, batch, known, mark, again }: { list: Verb[]; batch: numbe
         </View>
       </View>
       <View style={{ flex: 1 }}>
-        {/* Arkada sıradaki kart: destenin devam ettiği hissi */}
-        {nextV && <View style={{ position: 'absolute', top: 8, left: 0, right: 0, bottom: -8, backgroundColor: c.card, borderRadius: radius.card, opacity: 0.6, transform: [{ scale: 0.96 }] }} />}
         <GestureDetector gesture={gesture}>
-        <Animated.View key={v.r} entering={FadeIn.duration(220)} style={[{ flex: 1 }, drag]} accessible accessibilityRole="button" accessibilityLabel={flipped ? `${v.tr}. ${v.ex}` : v.impf} accessibilityHint="Çevirmek için dokun, öğrendim için sağa, tekrar için sola kaydır">
           <View style={{ flex: 1 }}>
-            <Animated.View style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: c.card, borderRadius: radius.card, alignItems: 'center', justifyContent: 'center', padding: 24, gap: 12 }, front]}>
-              <View style={{ position: 'absolute', top: 18, left: space.card }}><T v="overline" color="muted">No. {v.r % HARD_BASE}</T></View>
-              <T v="word" style={{ textAlign: 'center' }} adjustsFontSizeToFit numberOfLines={v.impf.includes(' ') ? 2 : 1}>{v.impf}</T>
-              {!!v.gov && <T v="smallM" color="muted">{v.gov}</T>}
-              {!!v.perf && (
-                <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
-                  <T v="small" color="muted">Mükemmel görünüş</T>
-                  <T v="h2" color="primary">{v.perf}</T>
-                </View>
-              )}
-            </Animated.View>
-            <Animated.View style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: radius.card, overflow: 'hidden' }, back]}>
-              <View style={{ flex: 1, backgroundColor: c.primarySoft, alignItems: 'center', justifyContent: 'center', padding: 24, gap: 16 }}>
-                <T v="title" color="primary" style={{ textAlign: 'center' }} adjustsFontSizeToFit numberOfLines={3}>{v.tr}</T>
-                <View style={{ height: 1, width: 60, backgroundColor: c.primary + '40' }} />
-                <T v="readingM" style={{ textAlign: 'center' }}>{v.ex}</T>
-                <T v="small" color="text2" style={{ textAlign: 'center' }}>{v.exTr}</T>
-              </View>
-            </Animated.View>
+            {[0, 1].map((s) => (
+              <Slot key={s} v={slotVerb(s)} isTop={s === top} tx={s === 0 ? txA : txB} topTx={txTop} flip={flip} flipped={flipped} />
+            ))}
           </View>
-          <Animated.View pointerEvents="none" style={[{ position: 'absolute', top: 20, right: 20, flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: c.primarySoft, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 6 }, hintOk]}>
-            <Icon name="check" size={ICON.inline} color={c.primary} />
-            <T v="chip" color="primary">Öğrendim</T>
-          </Animated.View>
-          <Animated.View pointerEvents="none" style={[{ position: 'absolute', top: 20, left: 20, flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: c.card2, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 6 }, hintAgain]}>
-            <Icon name="rotate-ccw" size={ICON.inline} color={c.text2} />
-            <T v="chip" color="text2">Tekrar</T>
-          </Animated.View>
-        </Animated.View>
         </GestureDetector>
         {/* Ses düğmesi kartın dokunma alanı dışında: basınca kart çevrilmez */}
-        <View style={{ position: 'absolute', bottom: 12, right: 12 }}>
+        <View style={{ position: 'absolute', bottom: 12, right: 12, zIndex: 3 }}>
           <IconBtn name="volume-2" label={flipped ? 'Örneği sesli oku' : 'Sesli oku'} onPress={() => say(flipped ? v.ex : v.impf)} />
         </View>
       </View>
       <View style={{ flexDirection: 'row', gap: 12 }}>
-        <Btn kind="secondary" title="Tekrar et" icon="rotate-ccw" onPress={() => answer(false)} style={{ flex: 1 }} />
-        <Btn title="Öğrendim" icon="check" onPress={() => answer(true)} style={{ flex: 1 }} />
+        <Btn kind="secondary" title="Tekrar et" icon="rotate-ccw" onPress={() => fling(false)} style={{ flex: 1 }} />
+        <Btn title="Öğrendim" icon="check" onPress={() => fling(true)} style={{ flex: 1 }} />
       </View>
     </View>
+  );
+}
+
+type SV = SharedValue<number>;
+
+function Slot({ v, isTop, tx, topTx, flip, flipped }: { v?: Verb; isTop: boolean; tx: SV; topTx: SV; flip: SV; flipped: boolean }) {
+  const { c } = useTheme();
+  // Üstteki kart sürüklenir; arkadaki, üstteki uzaklaştıkça büyüyüp öne gelir
+  const pos = useAnimatedStyle(() => {
+    if (isTop) return { transform: [{ translateX: tx.get() }, { rotate: `${interpolate(tx.get(), [-200, 200], [-8, 8])}deg` }] };
+    const p = interpolate(Math.abs(topTx.get()), [0, 260], [0, 1], 'clamp');
+    return { transform: [{ translateY: 12 * (1 - p) }, { scale: 0.94 + 0.06 * p }] };
+  });
+  const front = useAnimatedStyle(() => ({ transform: [{ perspective: 1200 }, { rotateY: `${interpolate(isTop ? flip.get() : 0, [0, 1], [0, 180])}deg` }], backfaceVisibility: 'hidden' }));
+  const back = useAnimatedStyle(() => ({ transform: [{ perspective: 1200 }, { rotateY: `${interpolate(isTop ? flip.get() : 0, [0, 1], [180, 360])}deg` }], backfaceVisibility: 'hidden' }));
+  // Eşiğe yaklaşınca kartın üstünde hangi yöne gittiği belirir
+  const hintOk = useAnimatedStyle(() => ({ opacity: isTop ? interpolate(tx.get(), [20, SWIPE], [0, 1], 'clamp') : 0 }));
+  const hintAgain = useAnimatedStyle(() => ({ opacity: isTop ? interpolate(tx.get(), [-SWIPE, -20], [1, 0], 'clamp') : 0 }));
+  if (!v) return null;
+  return (
+    <Animated.View
+      style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: isTop ? 2 : 1 }, pos]}
+      accessible={isTop}
+      importantForAccessibility={isTop ? 'yes' : 'no-hide-descendants'}
+      accessibilityElementsHidden={!isTop}
+      accessibilityRole="button"
+      accessibilityLabel={flipped ? `${v.tr}. ${v.ex}` : v.impf}
+      accessibilityHint="Çevirmek için dokun, öğrendim için sağa, tekrar için sola kaydır"
+    >
+      <Animated.View style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: c.card, borderRadius: radius.card, alignItems: 'center', justifyContent: 'center', padding: 24, gap: 12 }, front]}>
+        <View style={{ position: 'absolute', top: 18, left: space.card }}><T v="overline" color="muted">No. {v.r % HARD_BASE}</T></View>
+        <T v="word" style={{ textAlign: 'center' }} adjustsFontSizeToFit numberOfLines={v.impf.includes(' ') ? 2 : 1}>{v.impf}</T>
+        {!!v.gov && <T v="smallM" color="muted">{v.gov}</T>}
+        {!!v.perf && (
+          <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
+            <T v="small" color="muted">Mükemmel görünüş</T>
+            <T v="h2" color="primary">{v.perf}</T>
+          </View>
+        )}
+      </Animated.View>
+      {isTop && (
+        <Animated.View style={[{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: radius.card, overflow: 'hidden' }, back]}>
+          <View style={{ flex: 1, backgroundColor: c.primarySoft, alignItems: 'center', justifyContent: 'center', padding: 24, gap: 16 }}>
+            <T v="title" color="primary" style={{ textAlign: 'center' }} adjustsFontSizeToFit numberOfLines={3}>{v.tr}</T>
+            <View style={{ height: 1, width: 60, backgroundColor: c.primary + '40' }} />
+            <T v="readingM" style={{ textAlign: 'center' }}>{v.ex}</T>
+            <T v="small" color="text2" style={{ textAlign: 'center' }}>{v.exTr}</T>
+          </View>
+        </Animated.View>
+      )}
+      <Animated.View pointerEvents="none" style={[{ position: 'absolute', top: 20, right: 20, flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: c.primarySoft, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 6 }, hintOk]}>
+        <Icon name="check" size={ICON.inline} color={c.primary} />
+        <T v="chip" color="primary">Öğrendim</T>
+      </Animated.View>
+      <Animated.View pointerEvents="none" style={[{ position: 'absolute', top: 20, left: 20, flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: c.card2, borderRadius: radius.pill, paddingHorizontal: 12, paddingVertical: 6 }, hintAgain]}>
+        <Icon name="rotate-ccw" size={ICON.inline} color={c.text2} />
+        <T v="chip" color="text2">Tekrar</T>
+      </Animated.View>
+    </Animated.View>
   );
 }
 
