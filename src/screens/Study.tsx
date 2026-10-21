@@ -4,7 +4,7 @@ import Animated, { FadeIn } from 'react-native-reanimated';
 import { font, icon as ICON, radius, space, useTheme } from '../theme';
 import { Question, questions, Topic, topics } from '../data/questions';
 import { lessons } from '../data/gen';
-import { lastResults } from '../db';
+import { lastResults, setSetting } from '../db';
 import { Bar, Btn, Card, Chip, Header, Icon, IconBadge, IconBtn, ListGroup, ListItem, Row, Section, T, useTap } from '../ui';
 import { shuffle } from '../Quiz';
 import type { Start } from './types';
@@ -16,6 +16,12 @@ let fromTest = false;
 const remember = (r: typeof resume) => { resume = r; };
 const leaveForTest = () => { fromTest = true; };
 const backHere = () => { const r = fromTest; fromTest = false; return r; };
+// Yarıda bırakılan ders (2. bölümden son bölümden öncesine kadar) kalıcı saklanır; ana sayfadaki "Devam et" buradan açar
+export const LESSON_KEY = 'lessonResume';
+const persist = (id: string, sec: number, total: number) =>
+  setSetting(LESSON_KEY, sec >= 1 && sec < total - 1 ? JSON.stringify({ id, sec }) : '').catch(() => {});
+// Ana sayfadan derse doğrudan girmek için: sekme açılınca bu ders bu bölümden açılır
+export function openLesson(id: string, sec: number) { resume = { id, sec }; fromTest = true; }
 
 export function Study({ start }: { start: Start }) {
   const { c } = useTheme();
@@ -181,6 +187,7 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
   const sec = Math.max(0, Math.min(secRaw, (lesson?.sections.length ?? 1) - 1));
   const setSec = (n: number) => {
     remember({ id, sec: n });
+    persist(id, n, lesson?.sections.length ?? 0);
     setSecState(n);
   };
   const scroll = useRef<ScrollView>(null);
