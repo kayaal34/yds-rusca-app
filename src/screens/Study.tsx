@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { BackHandler, Pressable, ScrollView, View } from 'react-native';
+import { BackHandler, Pressable, ScrollView, View, type ScrollViewInstance } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 import { font, icon as ICON, radius, space, useTheme } from '../theme';
 import { Question, questions, Topic, topics } from '../data/questions';
@@ -190,8 +190,8 @@ function LessonView({ id, start, back }: { id: string; start: Start; back: () =>
     persist(id, n, lesson?.sections.length ?? 0);
     setSecState(n);
   };
-  const scroll = useRef<ScrollView>(null);
-  const tocRef = useRef<ScrollView>(null);
+  const scroll = useRef<ScrollViewInstance>(null);
+  const tocRef = useRef<ScrollViewInstance>(null);
   const total = lesson?.sections.length ?? 0;
 
   const goSec = (n: number) => {

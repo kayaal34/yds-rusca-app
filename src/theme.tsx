@@ -97,7 +97,7 @@ export const ThemeCtx = createContext<{ c: Colors; isDark: boolean }>({ c: light
 export const useTheme = () => useContext(ThemeCtx);
 
 // Tema değişince yeniden hesaplanan StyleSheet
-export function useStyles<T extends StyleSheet.NamedStyles<T>>(make: (c: Colors) => T): T {
+export function useStyles<T extends Parameters<typeof StyleSheet.create>[0]>(make: (c: Colors) => T): Readonly<T> {
   const { c } = useTheme();
   return useMemo(() => StyleSheet.create(make(c)), [c]);
 }

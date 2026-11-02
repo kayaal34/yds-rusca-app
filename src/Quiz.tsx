@@ -1,5 +1,5 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, AppState, BackHandler, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, useWindowDimensions, View } from 'react-native';
+import { Alert, AppState, BackHandler, KeyboardAvoidingView, Platform, Pressable, ScrollView, TextInput, useWindowDimensions, View, type ScrollViewInstance } from 'react-native';
 import Animated, { FadeIn, FadeInUp, FadeOutUp } from 'react-native-reanimated';
 import { radius, space, type, useTheme } from './theme';
 import { fmtScore, score, useSettings } from './settings';
@@ -116,8 +116,8 @@ export function Quiz({ title, questions, minutes, exam = false, keepOrder = fals
   const finished = useRef(false); // çift dokunuşta deneme iki kez kaydedilmesin
   const [started] = useState(() => Date.now() - (draft?.elapsed ?? 0) * 1000);
   const t0 = useRef(0); // soru başına süre; ilk soruda effect ile kurulur
-  const scroll = useRef<ScrollView>(null);
-  const strip = useRef<ScrollView>(null);
+  const scroll = useRef<ScrollViewInstance>(null);
+  const strip = useRef<ScrollViewInstance>(null);
 
   useEffect(() => { t0.current = Date.now(); }, []);
 
